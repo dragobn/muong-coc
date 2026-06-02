@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" stroke="#0A6A2F" role="img" aria-label="Mặt trống đồng cách điệu">
+<!-- TRỐNG ĐỒNG — vòng đồng tâm + sao 12 cánh + chim Lạc cách điệu. Watermark/corner. 1 màu currentColor. -->
+<g stroke-width="1" stroke-linejoin="round" stroke-linecap="round" transform="translate(50 50)">
+<!-- vòng ngoài -->
+<circle r="48"/>
+<circle r="42"/>
+<!-- nhịp trám vành ngoài (8 hình) -->
+<g stroke-width=".7">
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(0)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(45)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(90)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(135)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(180)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(225)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(270)"/>
+<path d="M0 -45 L3 -42 L0 -39 L-3 -42 Z" transform="rotate(315)"/>
+</g>
+<!-- vành chim Lạc (4 chim cách điệu bay vòng) -->
+<circle r="33" stroke-width=".8"/>
+<g stroke-width=".9" stroke-linecap="round">
+<!-- chim Lạc đơn giản: thân + cánh + mỏ, lặp 4 hướng -->
+<g transform="rotate(0)"><path d="M0 -33 q5 -2 9 1 q-4 1 -5 4 q-3 -3 -4 -5 M0 -33 q-3 2 -3 6"/></g>
+<g transform="rotate(90)"><path d="M0 -33 q5 -2 9 1 q-4 1 -5 4 q-3 -3 -4 -5 M0 -33 q-3 2 -3 6"/></g>
+<g transform="rotate(180)"><path d="M0 -33 q5 -2 9 1 q-4 1 -5 4 q-3 -3 -4 -5 M0 -33 q-3 2 -3 6"/></g>
+<g transform="rotate(270)"><path d="M0 -33 q5 -2 9 1 q-4 1 -5 4 q-3 -3 -4 -5 M0 -33 q-3 2 -3 6"/></g>
+</g>
+<!-- vòng trong -->
+<circle r="22" stroke-width=".8"/>
+<!-- sao 12 cánh trung tâm -->
+<g stroke-width="1">
+<path d="M0 0 L0 -18 M0 0 L9 -15.6 M0 0 L15.6 -9 M0 0 L18 0 M0 0 L15.6 9 M0 0 L9 15.6 M0 0 L0 18 M0 0 L-9 15.6 M0 0 L-15.6 9 M0 0 L-18 0 M0 0 L-15.6 -9 M0 0 L-9 -15.6"/>
+</g>
+<circle r="4" stroke-width="1"/>
+</g>
+</svg>

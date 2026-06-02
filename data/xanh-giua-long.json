@@ -1,0 +1,315 @@
+{
+  "slug": "xanh-giua-long",
+  "ten": "Xanh Giữa Lòng Mường Cốc",
+  "loai": "xe-dap",
+  "theme": "sinhthai",
+  "tagline": "Hồ Nước — Vườn Hoa — Thung Vắng",
+  "tagline_en": "Lakewater — Flower Garden — Quiet Valley",
+  "thoi_luong": "~1 ngày nhẹ (07:30 – 15:00)",
+  "thoi_luong_en": "An easy day (07:30 – 15:00)",
+  "cu_ly": "~12 – 14 km",
+  "quy_mo": "2 – 12 khách",
+  "gia": "650.000 đ/khách (gồm bữa trưa)",
+  "gia_en": "650,000 VND/guest (lunch included)",
+  "intro": "Xanh giữa lòng Mường Cốc đưa bạn vào một hành trình thiên về cảnh quan và thiên nhiên — đạp xe vòng quanh mặt hồ Baibóo, ghé Vườn Hoa Núi rực rỡ, vòng qua Đình Phú Cốc và nhà văn hoá dân tộc, rồi về với không gian nông nghiệp Gió Núi và thung lũng hoang sơ Thung Cánh. Đây là cung dành cho người yêu thiên nhiên và nhiếp ảnh: nhiều khoảng lặng để ngắm, để chụp, để hít thở thật sâu. Khép lại một ngày, bạn trồng xuống đất Thung Cánh một cây xanh, để màu xanh hôm nay còn ở lại với vùng đất này.",
+  "intro_en": "Green at the Heart of Muong Coc takes you on a journey devoted to landscape and nature — cycling around Baiboo Lake, dropping by the vivid Mountain Flower Garden, passing Phu Coc Communal House and the Ethnic Culture House, then returning to the Gio Nui farmscape and the pristine Thung Canh valley. This is a route for lovers of nature and photography: full of quiet moments to gaze, to shoot, to breathe deeply. To close the day, you plant a young tree into the soil of Thung Canh, so that today's green stays on with this land.",
+  "highlights": [
+    "Cảnh quan thiên nhiên — vòng hồ Baibóo, Vườn Hoa Núi, thung lũng Thung Cánh.",
+    "Không gian Vườn — Ao — Chuồng — trải nghiệm nông nghiệp và xem dụng cụ nông — ngư nghiệp cổ tại Gió Núi.",
+    "Trồng cây tại Thung Cánh — mỗi khách góp một cây nhỏ, nhận chứng nhận trồng cây.",
+    "Thung Cánh hoang sơ — khoảng lặng trong thung, chỉ có gió núi và tiếng chim.",
+    "Nhịp chậm, nhiều khoảng lặng — dành cho người yêu thiên nhiên và nhiếp ảnh."
+  ],
+  "highlights_en": [
+    "Natural scenery — the Baiboo lakeshore, the Mountain Flower Garden, and Thung Canh valley.",
+    "A garden–pond–pen homestead — farming activities and a display of old farming and fishing tools at Gio Nui.",
+    "Tree planting at Thung Canh — each guest plants a small tree and receives a tree-planting certificate.",
+    "Pristine Thung Canh valley — a hush within the valley, only mountain wind and birdsong.",
+    "A slow pace, many quiet moments — made for nature lovers and photographers."
+  ],
+  "lich_trinh": [
+    {
+      "gio_hoac_buoi": "08:00",
+      "diem": "Tourism Hub Đồi Dùng",
+      "diem_en": "Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu một ngày hoà mình vào màu xanh.",
+      "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a day immersed in green.",
+      "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey."
+    },
+    {
+      "gio_hoac_buoi": "08:20",
+      "diem": "Đạp xe quanh hồ Baibóo",
+      "diem_en": "Cycling around Baiboo Lake",
+      "mo_ta": "Hồ Baibóo nằm giữa thôn Đồi Dùng và Gốc Báng như một viên ngọc bích — vòng hồ chừng 4 km, mặt nước soi bóng cây dổi và các cung đường hoa. Quanh hồ bạn có thể câu cá, liên hoan ẩm thực Mường trên bè nổi, hay cắm trại trong vườn dổi ven bờ. Hôm nay, bạn thong dong đạp xe men theo bờ hồ, để gió nước dẫn nhịp cho cả ngày.",
+      "mo_ta_en": "Baiboo Lake lies between Doi Dung and Goc Bang hamlets like a jade gem — its shoreline about 4 km, the water mirroring the doi trees and the flower-lined lanes. Around the lake you might fish, share a Muong meal on a floating raft, or camp in the lakeside doi grove. Today, you cycle leisurely along the shore, letting the water's breeze set the pace for the day.",
+      "luu_y": "",
+      "luu_y_en": ""
+    },
+    {
+      "gio_hoac_buoi": "09:00",
+      "diem": "Vườn Hoa Núi",
+      "diem_en": "Mountain Flower Garden",
+      "mo_ta": "Bạn ghé Vườn Hoa Núi rợp sắc hoa, chiêm ngưỡng cảnh quan và lưu lại những khung hình giữa vườn — một điểm check-in dịu dàng của vùng. Bạn cũng có thể kết hợp thưởng thức đôi món ẩm thực dân tộc giữa không gian ngát hương.",
+      "mo_ta_en": "You drop by the Mountain Flower Garden ablaze with colour, taking in the scenery and capturing frames among the blooms — a gentle photo spot in the region. You may also pair the visit with a few ethnic dishes amid the fragrant air.",
+      "luu_y": "",
+      "luu_y_en": ""
+    },
+    {
+      "gio_hoac_buoi": "09:45",
+      "diem": "Đình Phú Cốc & Nhà văn hoá dân tộc",
+      "diem_en": "Phu Coc Communal House & Ethnic Culture House",
+      "mo_ta": "Đình Phú Cốc là đại đình chung của các thôn người Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Bên cạnh, Nhà văn hoá dân tộc thôn Đình mở các lớp truyền dạy cồng chiêng, hát dân ca và nhạc cụ dân tộc, đồng thời là điểm kết nối văn nghệ và ẩm thực dân tộc của làng.",
+      "mo_ta_en": "Phu Coc Communal House is the shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it, the Ethnic Culture House of Dinh hamlet runs classes in gongs, folk songs, and traditional instruments, and serves as the village's hub for performance and ethnic cuisine.",
+      "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.",
+      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall."
+    },
+    {
+      "gio_hoac_buoi": "10:30",
+      "diem": "Gió Núi Farmstay",
+      "diem_en": "Gio Nui Farmstay",
+      "mo_ta": "Một không gian nông nghiệp tổng hợp Vườn — Ao — Chuồng. Bạn cho cá ăn, hái rau, thăm chuồng gà — vịt và xem khu trưng bày những dụng cụ nông — ngư nghiệp cổ của người Mường: cối giã gạo bằng chân, gùi đan tay, liềm mòn theo mùa gặt.",
+      "mo_ta_en": "An integrated garden–pond–pen farmscape. You feed the fish, pick vegetables, visit the chicken and duck coops, and view the display of old Muong farming and fishing tools: a foot-powered rice mortar, a hand-woven basket, a sickle worn by the harvests.",
+      "luu_y": "",
+      "luu_y_en": ""
+    },
+    {
+      "gio_hoac_buoi": "12:00",
+      "diem": "Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Co La Muong Feast (Lunch)",
+      "mo_ta": "Trên bàn tre, mâm Cỗ Lá Mường được bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa giữa không gian xanh.",
+      "mo_ta_en": "On a bamboo table, the Co La Muong feast is laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal amid the greenery.",
+      "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."
+    },
+    {
+      "gio_hoac_buoi": "13:30",
+      "diem": "Thung Cánh",
+      "diem_en": "Thung Canh valley",
+      "mo_ta": "Một thung lũng hoang sơ giữa lòng Mường Cốc, nơi áp dụng trọn vẹn mô hình 5 KHÔNG. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm — một khóm hoa bản địa hoặc một cây dược liệu — và nhận Chứng nhận trồng cây mang tên mình. Giữa thung chỉ có gió núi và tiếng chim, một khoảng lặng hiếm có để lòng người lắng lại.",
+      "mo_ta_en": "A pristine valley in the heart of Muong Coc, where the \"5 Nos\" model is applied in full. Each guest plants a small tree as a keepsake — a clump of native flowers or a medicinal plant — and receives a personalised tree-planting certificate. In the valley there is only mountain wind and birdsong, a rare hush in which the heart settles.",
+      "luu_y": "Không xả rác, không hái hoa, không can thiệp sinh vật trong khu Thung Cánh.",
+      "luu_y_en": "No littering, no picking flowers, no disturbing the wildlife within Thung Canh valley."
+    },
+    {
+      "gio_hoac_buoi": "~15:00",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to Doi Dung Tourism Hub",
+      "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng cùng Chứng nhận trồng cây — dấu ấn của một ngày xanh.",
+      "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir along with your tree-planting certificate — a mark of one green day.",
+      "luu_y": "",
+      "luu_y_en": ""
+    }
+  ],
+  "diem_den": [
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng hồ chừng 4 km, mặt nước soi bóng cây dổi. Bạn thong dong đạp xe men theo bờ hồ ngắm cảnh. Quanh hồ có thể câu cá, dùng bữa trên bè nổi hay cắm trại ven bờ.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around, mirroring the doi trees. You cycle leisurely along the shore taking in the view. Around it you can fish, dine on a floating raft, or camp by the water."
+    },
+    {
+      "ten": "Vườn Hoa Núi",
+      "ten_en": "Mountain Flower Garden",
+      "loai": "Cảnh quan · Đồi hoa",
+      "loai_en": "Landscape · Flower garden",
+      "mo_ta_ngan": "Vườn hoa rợp sắc, một điểm check-in dịu dàng của vùng. Bạn chiêm ngưỡng cảnh quan và lưu lại những khung hình giữa vườn. Có thể kết hợp thưởng thức đôi món ẩm thực dân tộc giữa không gian ngát hương.",
+      "mo_ta_ngan_en": "A garden ablaze with colour, a gentle photo spot in the region. You take in the scenery and capture frames among the blooms. You may also pair it with a few ethnic dishes amid the fragrant air."
+    },
+    {
+      "ten": "Đình Phú Cốc & Nhà văn hoá dân tộc",
+      "ten_en": "Phu Coc Communal House & Ethnic Culture House",
+      "loai": "Di tích · Văn hoá",
+      "loai_en": "Heritage · Culture",
+      "mo_ta_ngan": "Đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Kề bên là Nhà văn hoá dân tộc với các lớp truyền dạy cồng chiêng, dân ca. Cũng là điểm kết nối văn nghệ và ẩm thực dân tộc của làng.",
+      "mo_ta_ngan_en": "The shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it, the Ethnic Culture House runs classes in gongs and folk songs. It is also the village's hub for performance and ethnic cuisine."
+    },
+    {
+      "ten": "Gió Núi Farmstay",
+      "ten_en": "Gio Nui Farmstay",
+      "loai": "Farmstay",
+      "loai_en": "Farmstay",
+      "mo_ta_ngan": "Không gian nông nghiệp tổng hợp Vườn — Ao — Chuồng của người Mường. Bạn cho cá ăn, hái rau, thăm chuồng gà vịt. Nơi đây trưng bày dụng cụ nông — ngư nghiệp cổ như cối giã gạo bằng chân, gùi đan tay.",
+      "mo_ta_ngan_en": "An integrated Muong garden–pond–pen farmscape. You feed the fish, pick vegetables, and visit the poultry coops. It displays old farming and fishing tools — a foot-powered rice mortar and a hand-woven basket."
+    },
+    {
+      "ten": "Thung Cánh",
+      "ten_en": "Thung Canh valley",
+      "loai": "Thiên nhiên · Net-Zero",
+      "loai_en": "Nature · Net-Zero",
+      "mo_ta_ngan": "Thung lũng hoang sơ giữa lòng Mường Cốc, áp dụng trọn vẹn mô hình 5 KHÔNG. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm và nhận Chứng nhận mang tên mình. Giữa thung chỉ có gió núi và tiếng chim — một khoảng lặng hiếm có.",
+      "mo_ta_ngan_en": "A pristine valley at the heart of Muong Coc, applying the \"5 Nos\" model in full. Each guest plants a small tree as a keepsake and receives a personalised certificate. In the valley there is only mountain wind and birdsong — a rare hush."
+    }
+  ],
+  "bao_gom": [
+    "Xe đạp và mũ bảo hiểm tiêu chuẩn",
+    "Hướng dẫn viên bản địa am hiểu văn hoá Mường",
+    "Vé tham quan và các hoạt động trải nghiệm theo chương trình",
+    "Bữa trưa Cỗ Lá Mường tại farmstay (zero plastic)",
+    "Nước uống và khăn lạnh trong suốt hành trình",
+    "Bảo hiểm du lịch trọn gói",
+    "Trồng 1 cây xanh / khách tại Thung Cánh + Chứng nhận trồng cây",
+    "Quà lưu niệm cộng đồng cuối hành trình"
+  ],
+  "bao_gom_en": [
+    "Standard bicycle and helmet",
+    "Local guide well-versed in Muong culture",
+    "Entrance fees and all experience activities in the programme",
+    "Co La Muong feast lunch at the farmstay (zero plastic)",
+    "Drinking water and cool towels throughout the journey",
+    "Comprehensive travel insurance",
+    "One tree planted per guest at Thung Canh valley + tree-planting certificate",
+    "A community-made souvenir at the end of the journey"
+  ],
+  "khong_bao_gom": [
+    "Ăn sáng, ăn tối, các bữa ăn ngoài chương trình",
+    "Đồ uống trong bữa ăn",
+    "Các dịch vụ và trải nghiệm không nằm trong chương trình",
+    "Đưa đón Hà Nội ↔ Mường Cốc (báo giá riêng theo yêu cầu)",
+    "Tiền tip cho hướng dẫn viên và lái xe địa phương (nếu có — gợi ý)"
+  ],
+  "khong_bao_gom_en": [
+    "Breakfast, dinner, and any meals outside the programme",
+    "Beverages during meals",
+    "Services and experiences not listed in the programme",
+    "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
+    "Tips for the guide and local drivers (optional — suggested)"
+  ],
+  "addon": [
+    {
+      "ten": "Mặc trang phục Mường + photo session",
+      "ten_en": "Muong costume + photo session",
+      "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh",
+      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash"
+    },
+    {
+      "ten": "Hái sen & làm trà sen",
+      "ten_en": "Lotus picking & lotus-tea making",
+      "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)",
+      "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)"
+    },
+    {
+      "ten": "Nấu rượu quê",
+      "ten_en": "Village wine-making",
+      "mo_ta": "Trải nghiệm cách nấu rượu thủ công tại nhà ông Lập (Rượu Tám Lập · gạo quê Đồi Lý)",
+      "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)"
+    },
+    {
+      "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
+      "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"
+    }
+  ],
+  "farmstay_options": [
+    {
+      "ten": "Gió Núi Farmstay",
+      "tag": "mặc định",
+      "mo_ta": "Không gian Vườn — Ao — Chuồng truyền thống Mường, khu trưng bày dụng cụ nông — ngư nghiệp cổ.",
+      "ten_en": "Gio Nui Farmstay",
+      "mo_ta_en": "A traditional Muong garden–pond–pen space, with a display of old farming and fishing tools."
+    },
+    {
+      "ten": "Lamia Mường Cốc",
+      "tag": "tùy chọn",
+      "mo_ta": "Không gian văn hoá Mường — dệt cạp váy, nếm món ăn dân tộc, mặc thử trang phục Mường, miệt vườn.",
+      "ten_en": "Lamia Muong Coc",
+      "mo_ta_en": "A Muong cultural space — weave a skirt band, taste ethnic dishes, try on Muong costume, and stroll the garden."
+    },
+    {
+      "ten": "Bản Mộc Mường Cốc",
+      "tag": "tùy chọn",
+      "mo_ta": "Ngư nghiệp Mường bên nếp nhà sàn cổ — cho cá ăn, thăm chuồng vịt, đầm sen.",
+      "ten_en": "Ban Moc Muong Coc",
+      "mo_ta_en": "Muong fishing life beside an old stilt house — feed the fish, visit the duck pen, and the lotus marsh."
+    },
+    {
+      "ten": "Farm Cá Quả Mường Cốc",
+      "tag": "tùy chọn",
+      "mo_ta": "Quán cà phê võng nghỉ chân bên ao cá quả — thư thái giữa miệt vườn.",
+      "ten_en": "Muong Coc Snakehead Fish Farm",
+      "mo_ta_en": "A hammock café rest stop beside the snakehead-fish pond — relax in the garden."
+    },
+    {
+      "ten": "Nhà Vườn Hoan Thanh",
+      "tag": "tùy chọn",
+      "mo_ta": "Học kỹ thuật cắt ghép hoa, cây cảnh và thưởng thức nghệ thuật bonsai.",
+      "ten_en": "Hoan Thanh Garden House",
+      "mo_ta_en": "Learn flower-grafting and ornamental-plant techniques, and enjoy the art of bonsai."
+    }
+  ],
+  "doi_tuong": [
+    {
+      "nhom": "Người yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "mo_ta": "Thích nhiếp ảnh cảnh quan.",
+      "mo_ta_en": "Fond of landscape photography."
+    },
+    {
+      "nhom": "Gia đình",
+      "nhom_en": "Families",
+      "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).",
+      "mo_ta_en": "Families with children aged 10 and up (able to cycle)."
+    },
+    {
+      "nhom": "Nhóm bạn nhỏ",
+      "nhom_en": "Small groups of friends",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "Groups of 2–12 people."
+    },
+    {
+      "nhom": "Học sinh — sinh viên",
+      "nhom_en": "Students",
+      "mo_ta": "Khám phá môi trường và văn hoá bản địa.",
+      "mo_ta_en": "Exploring the environment and local culture."
+    },
+    {
+      "nhom": "Người tìm một ngày chậm rãi",
+      "nhom_en": "Those seeking a slow day",
+      "mo_ta": "Giữa màu xanh.",
+      "mo_ta_en": "Amid the green."
+    }
+  ],
+  "luu_y": [
+    {
+      "tieu_de": "Thời tiết xấu / mưa lớn",
+      "tieu_de_en": "Bad weather / heavy rain",
+      "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại farmstay.",
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the farmstay."
+    },
+    {
+      "tieu_de": "Sức khoẻ",
+      "tieu_de_en": "Fitness",
+      "mo_ta": "Đạp xe nhẹ, cấp độ dễ, nhiều điểm dừng nghỉ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
+      "mo_ta_en": "Easy cycling with many rest stops. Children under 10 should ride along in a local electric cart."
+    },
+    {
+      "tieu_de": "Tôn trọng cộng đồng",
+      "tieu_de_en": "Respect for the community",
+      "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.",
+      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."
+    },
+    {
+      "tieu_de": "Tiếp nước",
+      "tieu_de_en": "Staying hydrated",
+      "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.",
+      "mo_ta_en": "Please bring your own reusable water bottle."
+    },
+    {
+      "tieu_de": "Trang phục lịch sự",
+      "tieu_de_en": "Modest dress",
+      "mo_ta": "Khi vào di tích tâm linh (đình, chùa) — cởi giày, không quay phim trong chính điện.",
+      "mo_ta_en": "At spiritual sites (communal houses, pagodas) — remove your shoes and do not film inside the main hall."
+    }
+  ],
+  "net_zero": "Trồng một cây xanh tại Thung Cánh + Chứng nhận trồng cây",
+  "net_zero_en": "Plant a tree at Thung Canh valley + receive a tree-planting certificate",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
+}

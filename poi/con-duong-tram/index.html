@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi" class="theme-sinhthai">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Con đường Tràm — Hồ sơ điểm đến Mường Cốc</title>
+<meta name="description" content="Con đường Tràm là đoạn đường dài khoảng 800m với hai hàng tràm cổ thụ hai bên, tán lá đan quyện vào nhau khép thành vòm xanh mướt che phủ trọn lối đi. Khôn">
+<meta property="og:title" content="Con đường Tràm — Hồ sơ điểm đến Mường Cốc">
+<meta property="og:description" content="Con đường Tràm là đoạn đường dài khoảng 800m với hai hàng tràm cổ thụ hai bên, tán lá đan quyện vào nhau khép thành vòm xanh mướt che phủ trọn lối đi. Khôn">
+<meta property="og:image" content="../../assets/img/poi/con-duong-tram/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<style>
+.poi-infobar{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fff;border-radius:14px;
+  overflow:hidden;box-shadow:var(--shadow-sm);margin-top:4px;border:1px solid rgba(201,145,47,.14);}
+.poi-infobar .cell{padding:13px 15px;border-top:3px solid var(--accent);border-right:1px solid rgba(201,145,47,.12);}
+.poi-infobar .cell:nth-child(2n){border-right:none;}
+.poi-infobar .cell .l{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:700;}
+.poi-infobar .cell .v{font-family:var(--serif);font-weight:600;font-size:1.02rem;color:var(--accent-dark);line-height:1.2;margin-top:3px;}
+@media(min-width:560px){.poi-infobar{grid-template-columns:repeat(4,1fr);}.poi-infobar .cell:nth-child(2n){border-right:1px solid rgba(201,145,47,.12);}.poi-infobar .cell:last-child{border-right:none;}}
+.val-grid{display:grid;gap:13px;margin-top:4px;}
+@media(min-width:560px){.val-grid{grid-template-columns:1fr 1fr;}}
+.val-box{background:#fff;border-radius:13px;padding:15px 17px;box-shadow:var(--shadow-sm);}
+.val-box h3{font-family:var(--serif);font-weight:600;font-size:1.12rem;color:var(--amber);
+  border-bottom:1px solid rgba(201,145,47,.3);padding-bottom:7px;margin-bottom:9px;}
+.val-box ul{list-style:none;display:flex;flex-direction:column;gap:6px;}
+.val-box li{font-size:.9rem;color:#3a3633;padding-left:16px;position:relative;line-height:1.45;}
+.val-box li::before{content:"–";position:absolute;left:0;color:var(--accent);font-weight:700;}
+.svc-table{width:100%;border-collapse:collapse;margin-top:4px;background:#fff;border-radius:13px;overflow:hidden;box-shadow:var(--shadow-sm);}
+.svc-table td{padding:11px 15px;border-bottom:1px solid rgba(201,145,47,.13);vertical-align:top;font-size:.9rem;color:#3a3633;}
+.svc-table tr:last-child td{border-bottom:none;}
+.svc-table td.k{font-family:var(--serif);font-weight:600;color:var(--accent-dark);width:42%;}
+.svc-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.svc-list li{background:#fff;border-radius:11px;padding:11px 15px;box-shadow:var(--shadow-sm);font-size:.9rem;color:#3a3633;border-left:3px solid var(--accent);}
+.exp-list{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:4px;}
+.exp-list li{display:flex;gap:11px;background:#fff;border-radius:12px;padding:12px 15px;box-shadow:var(--shadow-sm);font-size:.92rem;color:#3a3633;line-height:1.45;}
+.exp-list li::before{content:"✦";color:var(--amber);font-weight:700;flex-shrink:0;}
+.amen-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;}
+.amen-list span{background:#fff;border:1px solid rgba(10,106,47,.18);border-radius:999px;padding:7px 13px;font-size:.8rem;font-weight:600;color:var(--accent-dark);}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:4px;}
+.gallery img{width:100%;height:150px;object-fit:cover;border-radius:13px;box-shadow:var(--shadow-sm);}
+.gallery img:first-child{grid-column:1 / -1;height:200px;}
+.cung-ref{display:flex;flex-direction:column;gap:10px;margin-top:4px;}
+.cung-ref a{display:flex;align-items:center;gap:12px;background:#fff;border-radius:13px;padding:12px 15px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.cung-ref a .ci{font-size:1.4rem;flex-shrink:0;}
+.cung-ref a .cn{font-weight:600;font-size:.95rem;color:var(--accent-dark);flex:1;}
+.cung-ref a .arrow{color:var(--amber);font-size:1.1rem;}
+.poi-future{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;border-radius:15px;
+  padding:18px 20px;margin-top:4px;}
+.poi-future b{display:block;font-family:var(--serif);font-size:1.1rem;margin-bottom:6px;}
+.poi-future p{font-size:.9rem;opacity:.93;line-height:1.55;}
+.poi-index-list{display:grid;gap:12px;margin-top:4px;}
+@media(min-width:560px){.poi-index-list{grid-template-columns:1fr 1fr;}}
+.poi-index-card{display:flex;align-items:center;gap:13px;background:#fff;border-radius:14px;padding:11px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.poi-index-card .thumb{flex-shrink:0;width:66px;height:66px;border-radius:11px;object-fit:cover;background:var(--cream-2);}
+.poi-index-card .nm{font-weight:600;font-size:.96rem;line-height:1.2;color:var(--ink);}
+.poi-index-card .ty{font-size:.7rem;color:var(--muted);margin-top:3px;}
+.poi-index-card .arrow{margin-left:auto;color:var(--amber);font-size:1.1rem;flex-shrink:0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="topbar">
+  <a class="brand" href="../../">
+    <span class="logo-sm"><img src="../../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
+    <span class="brand-tx"><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></span>
+  </a>
+  <a class="home-link" href="../../"><span data-lang="vi">← Trang chủ</span><span data-lang="en">← Home</span><span data-lang="fr">← Home</span></a>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <button type="button" data-set-lang="vi" aria-pressed="true">VI</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+  </div>
+</nav>
+  <header class="hero compact">
+    <div class="hero-bg"><img src="../../assets/img/poi/con-duong-tram/hero.jpg" alt="Con đường Tràm"></div>
+    <div class="hero-body" style="padding-top:34px;">
+      <div class="hero-pre">🏔️ <span data-lang="vi">Hồ sơ điểm đến</span><span data-lang="en">Destination profile</span><span data-lang="fr">Destination profile</span></div>
+      <h1 style="font-size:2.3rem;">Con đường Tràm</h1>
+      <div class="hero-tag"><span data-lang="vi">Cảnh quan thiên nhiên</span><span data-lang="en">Natural landscape</span><span data-lang="fr">Natural landscape</span></div>
+      <div class="hero-loc">📍 <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+    </div>
+  </header>
+  <section class="intro alt">
+    <div class="kick"><span data-lang="vi">Giới thiệu</span><span data-lang="en">Overview</span><span data-lang="fr">Overview</span></div>
+    <div data-lang="vi"><p><span class="drop">C</span>on đường Tràm là đoạn đường dài khoảng 800m với hai hàng tràm cổ thụ hai bên, tán lá đan quyện vào nhau khép thành vòm xanh mướt che phủ trọn lối đi. Không gian mộc mạc, yên bình và đậm chất làng quê tạo nên một điểm check-in đẹp và ấn tượng, thu hút nhiều du khách muốn lưu lại khoảnh khắc độc đáo trong hành trình khám phá Mường Cốc.</p><p>Con đường Tràm là một phần không thể tách rời trong hành trình trải nghiệm cộng đồng Mường Cốc, là lối dẫn thân thương nối liền các điểm đến và gói gọn tinh thần &quot;Chạm vào bình yên&quot; của vùng đất này.</p></div><div data-lang="en"><p>Con đường Tràm là đoạn đường dài khoảng 800m với hai hàng tràm cổ thụ hai bên, tán lá đan quyện vào nhau khép thành vòm xanh mướt che phủ trọn lối đi. Không gian mộc mạc, yên bình và đậm chất làng quê tạo nên một điểm check-in đẹp và ấn tượng, thu hút nhiều du khách muốn lưu lại khoảnh khắc độc đáo trong hành trình khám phá Mường Cốc.</p><p>Con đường Tràm là một phần không thể tách rời trong hành trình trải nghiệm cộng đồng Mường Cốc, là lối dẫn thân thương nối liền các điểm đến và gói gọn tinh thần &quot;Chạm vào bình yên&quot; của vùng đất này.</p></div><div data-lang="fr"><p>Con đường Tràm là đoạn đường dài khoảng 800m với hai hàng tràm cổ thụ hai bên, tán lá đan quyện vào nhau khép thành vòm xanh mướt che phủ trọn lối đi. Không gian mộc mạc, yên bình và đậm chất làng quê tạo nên một điểm check-in đẹp và ấn tượng, thu hút nhiều du khách muốn lưu lại khoảnh khắc độc đáo trong hành trình khám phá Mường Cốc.</p><p>Con đường Tràm là một phần không thể tách rời trong hành trình trải nghiệm cộng đồng Mường Cốc, là lối dẫn thân thương nối liền các điểm đến và gói gọn tinh thần &quot;Chạm vào bình yên&quot; của vùng đất này.</p></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Thông tin nhanh</span><span data-lang="en">Quick facts</span><span data-lang="fr">Quick facts</span></div>
+    <div class="poi-infobar"><div class="cell"><div class="l"><span data-lang="vi">Loại hình</span><span data-lang="en">Loại hình</span><span data-lang="fr">Loại hình</span></div><div class="v"><span data-lang="vi">Cảnh quan thiên nhiên</span><span data-lang="en">Natural landscape</span><span data-lang="fr">Natural landscape</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Giờ mở cửa</span><span data-lang="en">Giờ mở cửa</span><span data-lang="fr">Giờ mở cửa</span></div><div class="v"><span data-lang="vi">Cả ngày (6h00 – 18h00)</span><span data-lang="en">Cả ngày (6h00 – 18h00)</span><span data-lang="fr">Cả ngày (6h00 – 18h00)</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Sức chứa</span><span data-lang="en">Sức chứa</span><span data-lang="fr">Sức chứa</span></div><div class="v"><span data-lang="vi">Khách lẻ: không giới hạn · Khách đoàn: 30–</span><span data-lang="en">Khách lẻ: không giới hạn · Khách đoàn: 30–</span><span data-lang="fr">Khách lẻ: không giới hạn · Khách đoàn: 30–</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Vị trí</span><span data-lang="en">Vị trí</span><span data-lang="fr">Vị trí</span></div><div class="v"><span data-lang="vi">Xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="en">Xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="fr">Xã Mỹ Đức, Thành phố Hà Nội</span></div></div></div>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Giá trị nổi bật</span><span data-lang="en">Highlights</span><span data-lang="fr">Highlights</span></div>
+    <h2 class="sec"><span data-lang="vi">Vì sao </span><span data-lang="en">Why </span><span data-lang="fr">Why </span><em><span data-lang="vi">đáng ghé</span><span data-lang="en">visit</span><span data-lang="fr">visit</span></em></h2>
+    <div class="val-grid"><div class="val-box"><h3><span data-lang="vi">Giá trị cảnh quan</span><span data-lang="en">Giá trị cảnh quan</span><span data-lang="fr">Giá trị cảnh quan</span></h3><ul><li><span data-lang="vi">Vòm tràm cổ thụ khép kín – không gian xanh mát hiếm có</span><span data-lang="en">Vòm tràm cổ thụ khép kín – không gian xanh mát hiếm có</span><span data-lang="fr">Vòm tràm cổ thụ khép kín – không gian xanh mát hiếm có</span></li><li><span data-lang="vi">Đoạn đường ~800m, phù hợp dạo bộ thư giãn</span><span data-lang="en">Đoạn đường ~800m, phù hợp dạo bộ thư giãn</span><span data-lang="fr">Đoạn đường ~800m, phù hợp dạo bộ thư giãn</span></li><li><span data-lang="vi">Ánh sáng lọc qua tán lá – góc chụp ảnh đặc sắc mọi thời điểm trong ngày</span><span data-lang="en">Ánh sáng lọc qua tán lá – góc chụp ảnh đặc sắc mọi thời điểm trong ngày</span><span data-lang="fr">Ánh sáng lọc qua tán lá – góc chụp ảnh đặc sắc mọi thời điểm trong ngày</span></li></ul></div><div class="val-box"><h3><span data-lang="vi">Giá trị trải nghiệm</span><span data-lang="en">Giá trị trải nghiệm</span><span data-lang="fr">Giá trị trải nghiệm</span></h3><ul><li><span data-lang="vi">Điểm check-in ấn tượng được nhiều du khách yêu thích</span><span data-lang="en">Điểm check-in ấn tượng được nhiều du khách yêu thích</span><span data-lang="fr">Điểm check-in ấn tượng được nhiều du khách yêu thích</span></li><li><span data-lang="vi">Kết nối tự nhiên với các điểm đến khác trong hành trình tour</span><span data-lang="en">Kết nối tự nhiên với các điểm đến khác trong hành trình tour</span><span data-lang="fr">Kết nối tự nhiên với các điểm đến khác trong hành trình tour</span></li><li><span data-lang="vi">Không gian yên tĩnh, thư giãn, phù hợp &quot;slow travel&quot;</span><span data-lang="en">Không gian yên tĩnh, thư giãn, phù hợp &quot;slow travel&quot;</span><span data-lang="fr">Không gian yên tĩnh, thư giãn, phù hợp &quot;slow travel&quot;</span></li></ul></div></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Dịch vụ</span><span data-lang="en">Services</span><span data-lang="fr">Services</span></div>
+    <h2 class="sec"><span data-lang="vi">Dịch vụ </span><span data-lang="en">What&#x27;s </span><span data-lang="fr">What&#x27;s </span><em><span data-lang="vi">cung cấp</span><span data-lang="en">offered</span><span data-lang="fr">offered</span></em></h2>
+    <ul class="svc-list"><li><span data-lang="vi"></span><span data-lang="en"></span><span data-lang="fr"></span></li><li><span data-lang="vi"></span><span data-lang="en"></span><span data-lang="fr"></span></li><li><span data-lang="vi"></span><span data-lang="en"></span><span data-lang="fr"></span></li></ul>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Trải nghiệm gợi ý</span><span data-lang="en">Suggested experiences</span><span data-lang="fr">Suggested experiences</span></div>
+    <h2 class="sec"><span data-lang="vi">Bạn có thể </span><span data-lang="en">Things </span><span data-lang="fr">Things </span><em><span data-lang="vi">làm gì</span><span data-lang="en">to do</span><span data-lang="fr">to do</span></em></h2>
+    <ul class="exp-list"><li><span><span data-lang="vi">Dạo bộ thư thái dưới vòm tràm cổ thụ</span><span data-lang="en">Dạo bộ thư thái dưới vòm tràm cổ thụ</span><span data-lang="fr">Dạo bộ thư thái dưới vòm tràm cổ thụ</span></span></li><li><span><span data-lang="vi">Chụp ảnh check-in cá nhân và nhóm</span><span data-lang="en">Chụp ảnh check-in cá nhân và nhóm</span><span data-lang="fr">Chụp ảnh check-in cá nhân và nhóm</span></span></li><li><span><span data-lang="vi">Cảm nhận không khí mát mẻ và tĩnh lặng của làng quê xứ Mường</span><span data-lang="en">Cảm nhận không khí mát mẻ và tĩnh lặng của làng quê xứ Mường</span><span data-lang="fr">Cảm nhận không khí mát mẻ và tĩnh lặng của làng quê xứ Mường</span></span></li></ul>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Hình ảnh</span><span data-lang="en">Gallery</span><span data-lang="fr">Gallery</span></div>
+    <div class="gallery"><img src="../../assets/img/poi/con-duong-tram/hero.jpg" alt="Con đường Tràm" loading="lazy"><img src="../../assets/img/poi/con-duong-tram/02.jpg" alt="Con đường Tràm" loading="lazy"><img src="../../assets/img/poi/con-duong-tram/03.jpg" alt="Con đường Tràm" loading="lazy"></div>
+  </section>
+  <section class="alt">
+    <h2 class="sec"><span data-lang="vi">Phục vụ </span><span data-lang="en">Visitor </span><span data-lang="fr">Visitor </span><em><span data-lang="vi">khách</span><span data-lang="en">info</span><span data-lang="fr">info</span></em></h2>
+    <div class="kick" style="margin-top:4px;"><span data-lang="vi">Tiện ích</span><span data-lang="en">Amenities</span><span data-lang="fr">Amenities</span></div><div class="amen-list"><span><span data-lang="vi">Khu vực dừng chân chụp ảnh</span><span data-lang="en">Khu vực dừng chân chụp ảnh</span><span data-lang="fr">Khu vực dừng chân chụp ảnh</span></span><span><span data-lang="vi">Đường đi bộ bằng phẳng</span><span data-lang="en">Đường đi bộ bằng phẳng</span><span data-lang="fr">Đường đi bộ bằng phẳng</span></span></div><div class="kick" style="margin-top:20px;"><span data-lang="vi">Lưu ý khi tham quan</span><span data-lang="en">Good to know</span><span data-lang="fr">Good to know</span></div><div class="note-list"><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Không bẻ cành, hái lá hay tác động đến cây tràm cổ thụ</span><span data-lang="en">Không bẻ cành, hái lá hay tác động đến cây tràm cổ thụ</span><span data-lang="fr">Không bẻ cành, hái lá hay tác động đến cây tràm cổ thụ</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Nhường đường cho người dân địa phương đi lại</span><span data-lang="en">Nhường đường cho người dân địa phương đi lại</span><span data-lang="fr">Nhường đường cho người dân địa phương đi lại</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Không xả rác dọc đường</span><span data-lang="en">Không xả rác dọc đường</span><span data-lang="fr">Không xả rác dọc đường</span></span></div></div></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Cung tour ghé điểm này</span><span data-lang="en">Routes that stop here</span><span data-lang="fr">Routes that stop here</span></div>
+    <h2 class="sec"><span data-lang="vi">Có trong </span><span data-lang="en">Part of </span><span data-lang="fr">Part of </span><em><span data-lang="vi">hành trình</span><span data-lang="en">journeys</span><span data-lang="fr">journeys</span></em></h2>
+    <div class="cung-ref"><a href="../../cung/dau-xua-muong-coc/"><span class="ci">🚲</span><span class="cn"><span data-lang="vi">Dấu Xưa Mường Cốc</span><span data-lang="en">Dấu Xưa Mường Cốc</span><span data-lang="fr">Dấu Xưa Mường Cốc</span></span><span class="arrow">→</span></a><a href="../../cung/theo-dong-ai-nang/"><span class="ci">🚲</span><span class="cn"><span data-lang="vi">Theo Dòng Ái Nàng</span><span data-lang="en">Theo Dòng Ái Nàng</span><span data-lang="fr">Theo Dòng Ái Nàng</span></span><span class="arrow">→</span></a></div>
+  </section>
+  <section class="alt">
+    <div class="poi-future"><b><span data-lang="vi">Định hướng phát triển</span><span data-lang="en">Looking ahead</span><span data-lang="fr">Looking ahead</span></b>
+      <p><span data-lang="vi">Con đường Tràm hướng tới được gìn giữ nguyên vẹn như một di sản cảnh quan tự nhiên của Mường Cốc. Định hướng bổ sung biển chỉ dẫn, khu vực nghỉ chân nhỏ và thông tin về lịch sử cây tràm cổ thụ để nâng cao trải nghiệm du khách mà không phá vỡ không gian yên tĩnh vốn có. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="en">Con đường Tràm hướng tới được gìn giữ nguyên vẹn như một di sản cảnh quan tự nhiên của Mường Cốc. Định hướng bổ sung biển chỉ dẫn, khu vực nghỉ chân nhỏ và thông tin về lịch sử cây tràm cổ thụ để nâng cao trải nghiệm du khách mà không phá vỡ không gian yên tĩnh vốn có. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="fr">Con đường Tràm hướng tới được gìn giữ nguyên vẹn như một di sản cảnh quan tự nhiên của Mường Cốc. Định hướng bổ sung biển chỉ dẫn, khu vực nghỉ chân nhỏ và thông tin về lịch sử cây tràm cổ thụ để nâng cao trải nghiệm du khách mà không phá vỡ không gian yên tĩnh vốn có. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span></p></div>
+  </section>
+  <section>
+    <div class="kick center"><span data-lang="vi">Định hướng</span><span data-lang="en">Find your way</span><span data-lang="fr">Find your way</span></div>
+    <div class="cta-stack">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.628,105.7" target="_blank" rel="noopener"><span class="ic">🗺️</span><span><span data-lang="vi">Mở bản đồ</span><span data-lang="en">Open map</span><span data-lang="fr">Open map</span><small><span data-lang="vi">Mở vị trí trên Google Maps</span><span data-lang="en">Open in Google Maps</span><span data-lang="fr">Open in Google Maps</span></small></span></a>
+      <a class="btn ghost" href="../../"><span class="ic">←</span><span><span data-lang="vi">Trang chủ</span><span data-lang="en">Home</span><span data-lang="fr">Home</span><small><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></small></span></a>
+    </div>
+  </section>
+<footer>
+  <div class="deco"><span></span><i></i><span></span></div>
+  <div class="closing"><span data-lang="vi">Chạm Vào Bình Yên</span><span data-lang="en">Touch the Stillness</span><span data-lang="fr">Touch the Stillness</span></div>
+  <div class="ft-contact">
+    <span>📞 <span data-lang="vi">Hotline</span><span data-lang="en">Hotline</span><span data-lang="fr">Hotline</span>: <a href="tel:+84986103298">0986 103 298</a></span>
+    <span>🌐 Fanpage: <a href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener">Du lịch cộng đồng Mường Cốc</a></span>
+    <span>🗺️ <a href="https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM" target="_blank" rel="noopener"><span data-lang="vi">Bản đồ du lịch</span><span data-lang="en">Tourism map</span><span data-lang="fr">Tourism map</span></a></span>
+  </div>
+  <div class="ft-line"><span data-lang="vi">Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism Board</span><span data-lang="fr">Muong Coc Community Tourism Board</span><br>
+    Tourism Hub Đồi Dùng · <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+</footer>
+</div>
+<div class="fab">
+  <a class="fb" href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
+    <span aria-hidden="true">f</span>
+    <span class="tip"><span data-lang="vi">Fanpage Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Facebook Fanpage</span><span data-lang="fr">Facebook Fanpage</span></span>
+  </a>
+  <a class="call" href="tel:+84986103298" aria-label="Gọi hotline 0986 103 298">
+    <span aria-hidden="true">📞</span>
+    <span class="tip"><span data-lang="vi">Gọi hotline 0986 103 298</span><span data-lang="en">Call 0986 103 298</span><span data-lang="fr">Call 0986 103 298</span></span>
+  </a>
+</div>
+<script src="../../assets/js/site.js"></script>
+</body>
+</html>

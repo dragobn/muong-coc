@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24" fill="none" stroke="#B58A37" role="img" aria-label="Dải hoa văn cạp váy Mường">
+<!-- THỔ CẨM BAND — dải cạp váy Mường, tile ngang (lặp mỗi 120px). Hình học: trám/zigzag/sao/chim cách điệu. 1 màu currentColor. -->
+<g stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
+<!-- viền trên/dưới -->
+<line x1="0" y1="1" x2="120" y2="1"/>
+<line x1="0" y1="23" x2="120" y2="23"/>
+<!-- zigzag trên -->
+<polyline points="0,5 6,9 12,5 18,9 24,5 30,9 36,5 42,9 48,5 54,9 60,5 66,9 72,5 78,9 84,5 90,9 96,5 102,9 108,5 114,9 120,5"/>
+<!-- zigzag dưới (đối xứng) -->
+<polyline points="0,19 6,15 12,19 18,15 24,19 30,15 36,19 42,15 48,19 54,15 60,19 66,15 72,19 78,15 84,19 90,15 96,19 102,15 108,19 114,15 120,19"/>
+<!-- chuỗi trám trung tâm -->
+<path d="M0 12 L7.5 7 L15 12 L7.5 17 Z M15 12 L22.5 7 L30 12 L22.5 17 Z M30 12 L37.5 7 L45 12 L37.5 17 Z M45 12 L52.5 7 L60 12 L52.5 17 Z M60 12 L67.5 7 L75 12 L67.5 17 Z M75 12 L82.5 7 L90 12 L82.5 17 Z M90 12 L97.5 7 L105 12 L97.5 17 Z M105 12 L112.5 7 L120 12 L112.5 17 Z"/>
+<!-- sao 4 cánh trong tâm trám chẵn -->
+<g stroke-width=".8">
+<path d="M15 9.5 L15 14.5 M12.5 12 L17.5 12"/>
+<path d="M45 9.5 L45 14.5 M42.5 12 L47.5 12"/>
+<path d="M75 9.5 L75 14.5 M72.5 12 L77.5 12"/>
+<path d="M105 9.5 L105 14.5 M102.5 12 L107.5 12"/>
+</g>
+</g>
+</svg>

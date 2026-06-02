@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="56" viewBox="0 0 96 56" fill="none" stroke="#0A6A2F" role="img" aria-label="Xe đạp">
+<!-- XE ĐẠP — line đơn, cung đạp xe Net-Zero. Icon. 1 màu currentColor. -->
+<g stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+<!-- bánh -->
+<circle cx="20" cy="40" r="13"/>
+<circle cx="76" cy="40" r="13"/>
+<!-- moay-ơ -->
+<circle cx="20" cy="40" r="1.6" fill="#0A6A2F" stroke="none"/>
+<circle cx="76" cy="40" r="1.6" fill="#0A6A2F" stroke="none"/>
+<!-- khung -->
+<path d="M20 40 L40 40 L30 18 L54 18 M40 40 L54 18 M40 40 L48 18 L76 40"/>
+<!-- giò đĩa -->
+<circle cx="40" cy="40" r="4"/>
+<!-- ghi đông -->
+<path d="M30 18 L26 14 L22 14"/>
+<!-- yên -->
+<path d="M50 18 L58 18"/>
+</g>
+</svg>

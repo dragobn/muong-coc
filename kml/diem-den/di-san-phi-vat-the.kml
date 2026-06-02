@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+  <name>Mường Cốc — Di sản phi vật thể (Mo Mường, nghề, lễ)</name>
+  <Style id="poi"><IconStyle><color>ffff66cc</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+  <Placemark>
+    <name>Bài thuốc Mường bà Châm (knowledge-bearer)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bài thuốc Mường bà Phận (knowledge-bearer)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cồng chiêng Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dệt cạp váy Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hát thường rang, bộ mẹng</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôn lễ Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kiến trúc nhà sàn Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lễ cúng cơm mới</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lễ hội Khai hạ</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lễ kế thừa Thầy Mo</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mo Mường (sử thi)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tang lễ Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tri thức sinh thái Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Y học cổ truyền Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ẩm thực cơm lam, thịt hun</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rượu Tám Lập + Gạo quê Đồi Lý (OCOP)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Lý.</p>]]></description>
+    <Point><coordinates>105.68348,20.625995,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

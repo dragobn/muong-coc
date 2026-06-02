@@ -1,0 +1,530 @@
+{
+ "Bà Là Homestay": {
+  "lon": 105.6886883,
+  "lat": 20.6243,
+  "anchor": "ba_la",
+  "source": "survey-exif"
+ },
+ "Bản Mộc Mường Cốc": {
+  "lon": 105.6993633,
+  "lat": 20.62748,
+  "anchor": "ban_moc",
+  "source": "survey-exif"
+ },
+ "Bếp rượu quê Đồi Lý (nhà ông Lập)": {
+  "lon": 105.68348,
+  "lat": 20.625995,
+  "anchor": "bep_ruou_lap",
+  "source": "survey-exif"
+ },
+ "Bữa Trưa Cỗ Lá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Bữa trưa Cỗ Lá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Bữa trưa Cỗ Lá Mường & giao lưu văn nghệ": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Bữa trưa Cỗ Lá Mường tại Nhà cổ Hữu Lệnh": {
+  "lon": 105.6963883,
+  "lat": 20.6385833,
+  "anchor": "huu_lenh",
+  "source": "survey-exif"
+ },
+ "Bữa trưa dã ngoại": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Bữa trưa tại Cúc Phương": {
+  "lon": 105.5897,
+  "lat": 20.2546,
+  "anchor": "cuc_phuong",
+  "source": "external-public"
+ },
+ "Chiều sống cùng bản": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Chùa Phú Cốc": {
+  "lon": 105.68909,
+  "lat": 20.6237117,
+  "anchor": "chua_phu_coc",
+  "source": "survey-exif"
+ },
+ "Chùa Phú Cốc & Cây đa cổ": {
+  "lon": 105.68909,
+  "lat": 20.6237117,
+  "anchor": "chua_phu_coc",
+  "source": "survey-exif"
+ },
+ "Chùa Tiên & Đền Mẫu Thượng Thiên": {
+  "lon": 105.6946117,
+  "lat": 20.6506333,
+  "anchor": "chua_tien",
+  "source": "survey-exif"
+ },
+ "Chùa Đinh Long": {
+  "lon": 105.7012208,
+  "lat": 20.6353317,
+  "anchor": "chua_dinh_long",
+  "source": "survey-exif"
+ },
+ "Chợ dân sinh An Phú": {
+  "lon": null,
+  "lat": null,
+  "anchor": "cho_an_phu",
+  "source": "unmapped"
+ },
+ "Con đường Tràm": {
+  "lon": 105.7,
+  "lat": 20.628,
+  "anchor": "con_duong_tram",
+  "source": "survey-exif"
+ },
+ "Cà phê võng & Farm Cá Quả Mường Cốc": {
+  "lon": 105.697975,
+  "lat": 20.6215967,
+  "anchor": "ca_phe_vong",
+  "source": "survey-exif"
+ },
+ "Cánh đồng lúa & thôn Rộc Éo": {
+  "lon": 105.6948342,
+  "lat": 20.6489408,
+  "anchor": "roc_eo_lua",
+  "source": "survey-exif"
+ },
+ "Giao lưu chia tay": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Gió Núi Farmstay": {
+  "lon": 105.6982,
+  "lat": 20.623555,
+  "anchor": "gio_nui",
+  "source": "survey-exif"
+ },
+ "Hang Hổ & Đền Quán Mai": {
+  "lon": 105.6918717,
+  "lat": 20.64078,
+  "anchor": "hang_ho",
+  "source": "survey-exif"
+ },
+ "Homestay Mường Duy & Hồ Baibóo": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Homestay ông Kiền": {
+  "lon": 105.6866,
+  "lat": 20.6218167,
+  "anchor": "homestay_kien",
+  "source": "survey-exif"
+ },
+ "Hà Nội → Chùa Hương (Hương Sơn, Mỹ Đức)": {
+  "lon": 105.7486,
+  "lat": 20.6179,
+  "anchor": "chua_huong",
+  "source": "external-public"
+ },
+ "Hà Nội → Làng hương Quảng Phú Cầu (Ứng Hoà)": {
+  "lon": 105.8064,
+  "lat": 20.7303,
+  "anchor": "quang_phu_cau",
+  "source": "external-public"
+ },
+ "Hà Nội → Tourism Hub Đồi Dùng & Bữa trưa Cỗ Lá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Hà Nội → Tourism Hub Đồi Dùng & văn hoá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Hành trình tâm linh & sông nước": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Hồ Baibóo & Bữa trưa Cỗ Lá Mường": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Hồ Baibóo & các homestay ven hồ": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Khám phá văn hoá Mường & đêm lửa trại": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Khởi hành xuyên rừng từ bản Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Lamia Mường Cốc": {
+  "lon": 105.6990625,
+  "lat": 20.625795,
+  "anchor": "lamia",
+  "source": "survey-exif"
+ },
+ "Lên động Hương Tích": {
+  "lon": 105.7389,
+  "lat": 20.6098,
+  "anchor": "huong_tich",
+  "source": "external-public"
+ },
+ "Lễ Mo Mường tại Đình Phú Cốc & Đầm sen": {
+  "lon": 105.6791833,
+  "lat": 20.6203792,
+  "anchor": "dinh_phu_coc",
+  "source": "survey-exif"
+ },
+ "Lửa trại & nghỉ homestay cộng đồng": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Mai Châu → Pù Luông (Thanh Hoá ~80 km)": {
+  "lon": 105.0903,
+  "lat": 20.6618,
+  "anchor": "mai_chau",
+  "source": "external-public"
+ },
+ "Mường Cốc — Bữa trưa Cỗ Lá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Mường Cốc — Tourism Hub Đồi Dùng & Bữa trưa Cỗ Lá Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Mường Cốc → Mai Châu (Hoà Bình ~70 km)": {
+  "lon": 105.0903,
+  "lat": 20.6618,
+  "anchor": "mai_chau",
+  "source": "external-public"
+ },
+ "Mường Cốc → Vườn Quốc gia Cúc Phương (Ninh Bình ~55 km)": {
+  "lon": 105.5897,
+  "lat": 20.2546,
+  "anchor": "cuc_phuong",
+  "source": "external-public"
+ },
+ "Nghỉ giữa rừng": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Nhà Niệm Nga — Làm trà sen & chọn quà": {
+  "lon": 105.684805,
+  "lat": 20.63103,
+  "anchor": "niem_nga",
+  "source": "survey-exif"
+ },
+ "Nhà Thờ Giáo Xứ Bắc Sơn": {
+  "lon": 105.7122936,
+  "lat": 20.608813,
+  "anchor": "nha_tho_bac_son",
+  "source": "survey-exif"
+ },
+ "Nhà thờ Giáo xứ Bắc Sơn": {
+  "lon": 105.7122936,
+  "lat": 20.608813,
+  "anchor": "nha_tho_bac_son",
+  "source": "survey-exif"
+ },
+ "Nhà thờ họ ông Chế": {
+  "lon": 105.684325,
+  "lat": 20.62227,
+  "anchor": "nha_tho_ho_che",
+  "source": "survey-exif"
+ },
+ "Nhà văn hoá dân tộc & Đình Phú Cốc": {
+  "lon": 105.6791833,
+  "lat": 20.6203792,
+  "anchor": "dinh_phu_coc",
+  "source": "survey-exif"
+ },
+ "Nhận phòng homestay": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Pù Luông → Hà Nội": {
+  "lon": 105.1658,
+  "lat": 20.4839,
+  "anchor": "pu_luong",
+  "source": "external-public"
+ },
+ "Sang khu Hương Sơn": {
+  "lon": 105.7486,
+  "lat": 20.6179,
+  "anchor": "chua_huong",
+  "source": "external-public"
+ },
+ "Thung Cánh": {
+  "lon": 105.7154,
+  "lat": 20.6123583,
+  "anchor": "thung_canh",
+  "source": "survey-exif"
+ },
+ "Thung Cánh & Nhà thờ Bắc Sơn": {
+  "lon": 105.7122936,
+  "lat": 20.608813,
+  "anchor": "nha_tho_bac_son",
+  "source": "survey-exif"
+ },
+ "Tiếp tục khám phá bản Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Tourism Hub Đồi Dùng": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Trekking động Hương Tích": {
+  "lon": 105.7389,
+  "lat": 20.6098,
+  "anchor": "huong_tich",
+  "source": "external-public"
+ },
+ "Trò chơi dân gian & ngâm chân lá thuốc": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Trạm Chill Thung Cánh Farmstay": {
+  "lon": 105.7154783,
+  "lat": 20.6123117,
+  "anchor": "tram_chill",
+  "source": "survey-exif"
+ },
+ "Trải nghiệm bản Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Trải nghiệm nhà sàn (nhà bà Diển)": {
+  "lon": 105.6817383,
+  "lat": 20.6219117,
+  "anchor": "nha_dien",
+  "source": "survey-exif"
+ },
+ "Trải nghiệm văn hoá Mường": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Trải nghiệm đời sống đồng bào Mường thôn Bơ Môi": {
+  "lon": 105.6705467,
+  "lat": 20.6213133,
+  "anchor": "doi_hoa_bo_moi",
+  "source": "survey-exif"
+ },
+ "Trở về": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Trở về Hà Nội": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Trở về Tourism Hub Đồi Dùng": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Vườn Hoa Núi": {
+  "lon": 105.6891633,
+  "lat": 20.625125,
+  "anchor": "vuon_hoa_nui",
+  "source": "survey-exif"
+ },
+ "Vườn Sim Cổ và Rượu Sim": {
+  "lon": 105.6927417,
+  "lat": 20.62577,
+  "anchor": "vuon_sim",
+  "source": "survey-exif"
+ },
+ "Vườn Sim Cổ, Chùa Đinh Long & Con đường Tràm": {
+  "lon": 105.6927417,
+  "lat": 20.62577,
+  "anchor": "vuon_sim",
+  "source": "survey-exif"
+ },
+ "Workshop gói bánh lá Mường": {
+  "lon": 105.6963883,
+  "lat": 20.6385833,
+  "anchor": "huu_lenh",
+  "source": "survey-exif"
+ },
+ "Xuống núi & trở về": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Đi bộ vòng hồ Baibóo": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Đêm lửa trại bản Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Đình Phú Cốc & Nhà văn hoá dân tộc": {
+  "lon": 105.6791833,
+  "lat": 20.6203792,
+  "anchor": "dinh_phu_coc",
+  "source": "survey-exif"
+ },
+ "Đình Phú Cốc — Lễ Mo Mường": {
+  "lon": 105.6791833,
+  "lat": 20.6203792,
+  "anchor": "dinh_phu_coc",
+  "source": "survey-exif"
+ },
+ "Đón khách & Chùa Phú Cốc, Đền Cây Thợi": {
+  "lon": 105.68909,
+  "lat": 20.6237117,
+  "anchor": "chua_phu_coc",
+  "source": "survey-exif"
+ },
+ "Đón khách tại Tourism Hub Đồi Dùng": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Đạp xe lên Rộc Éo": {
+  "lon": 105.6956717,
+  "lat": 20.6341967,
+  "anchor": "duoc_lieu_roc_eo",
+  "source": "survey-exif"
+ },
+ "Đạp xe qua cánh đồng quê về thôn Bơ Môi": {
+  "lon": 105.6948342,
+  "lat": 20.6489408,
+  "anchor": "canh_dong_que",
+  "source": "survey-exif"
+ },
+ "Đạp xe quanh bờ hồ Baibóo về thôn Bơ Môi": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Đạp xe quanh hồ Baibóo": {
+  "lon": 105.6860667,
+  "lat": 20.621305,
+  "anchor": "ho_baiboo",
+  "source": "survey-exif"
+ },
+ "Đạp xe thong dong qua đồng về": {
+  "lon": null,
+  "lat": null,
+  "anchor": null,
+  "source": "unmapped"
+ },
+ "Đạp xe trải nghiệm bản Mường": {
+  "lon": 105.6897842,
+  "lat": 20.6224767,
+  "anchor": "hub",
+  "source": "survey-exif"
+ },
+ "Đầm sen Nguyệt Farm": {
+  "lon": 105.690095,
+  "lat": 20.6383217,
+  "anchor": "dam_sen_nguyet",
+  "source": "survey-exif"
+ },
+ "Đầm sen — Trải nghiệm văn hoá sen": {
+  "lon": 105.690095,
+  "lat": 20.6383217,
+  "anchor": "dam_sen_nguyet",
+  "source": "survey-exif"
+ },
+ "Đền Cây Thợi & Cây Thị 400 năm": {
+  "lon": 105.6848617,
+  "lat": 20.6252583,
+  "anchor": "cay_thi",
+  "source": "survey-exif"
+ },
+ "Đền Mẫu Thượng Thiên (Đền Ái Nàng)": {
+  "lon": 105.693655,
+  "lat": 20.6447467,
+  "anchor": "den_ai_nang",
+  "source": "survey-exif"
+ },
+ "Đồi dược liệu thôn Rộc Éo — Nhà bà Châm, bà Phận": {
+  "lon": 105.6956717,
+  "lat": 20.6341967,
+  "anchor": "duoc_lieu_roc_eo",
+  "source": "survey-exif"
+ },
+ "Đồi hoa Mường thôn Bơ Môi & Đập đồi làng": {
+  "lon": 105.6705467,
+  "lat": 20.6213133,
+  "anchor": "doi_hoa_bo_moi",
+  "source": "survey-exif"
+ },
+ "Đồi hoa kèn hồng & điểm dừng chân bà Toàn": {
+  "lon": 105.6705467,
+  "lat": 20.6213133,
+  "anchor": "doi_ken_hong",
+  "source": "survey-exif"
+ }
+}

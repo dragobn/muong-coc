@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="72" viewBox="0 0 48 72" fill="none" stroke="#B58A37" role="img" aria-label="Bông lúa">
+<!-- LÚA — bông lúa trĩu hạt + lá, theme nông nghiệp. Icon. 1 màu currentColor. -->
+<g stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" fill="none">
+<!-- thân -->
+<path d="M24 70 C24 50 24 32 24 14"/>
+<!-- chùm hạt (cặp đối xứng dọc thân) -->
+<g stroke-width="1">
+<path d="M24 16 q-7 -2 -9 -8 q7 0 9 5"/>
+<path d="M24 16 q7 -2 9 -8 q-7 0 -9 5"/>
+<path d="M24 24 q-7 -2 -9 -8 q7 0 9 5"/>
+<path d="M24 24 q7 -2 9 -8 q-7 0 -9 5"/>
+<path d="M24 32 q-7 -2 -9 -8 q7 0 9 5"/>
+<path d="M24 32 q7 -2 9 -8 q-7 0 -9 5"/>
+<path d="M24 40 q-6 -2 -8 -7 q6 0 8 4"/>
+<path d="M24 40 q6 -2 8 -7 q-6 0 -8 4"/>
+</g>
+<!-- chóp bông + râu -->
+<path d="M24 14 L24 6 M24 8 L20 3 M24 8 L28 3" stroke-width=".8"/>
+<!-- lá lúa -->
+<path d="M24 50 C14 50 7 44 5 34 C15 35 22 41 24 50"/>
+<path d="M24 56 C34 56 41 50 43 40 C33 41 26 47 24 56"/>
+</g>
+</svg>

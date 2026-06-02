@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24" fill="none" stroke="#0A6A2F" role="img" aria-label="Gợn sóng nước">
+<!-- SÓNG NƯỚC — 3 lớp gợn sóng, tile ngang (lặp mỗi 120px). Band/divider hồ nước. 1 màu currentColor. -->
+<g stroke-width="1.1" stroke-linecap="round" fill="none">
+<path d="M0 6 Q15 0 30 6 T60 6 T90 6 T120 6"/>
+<path d="M0 13 Q15 7 30 13 T60 13 T90 13 T120 13" stroke-width=".9" opacity=".8"/>
+<path d="M0 20 Q15 14 30 20 T60 20 T90 20 T120 20" stroke-width=".7" opacity=".6"/>
+</g>
+</svg>

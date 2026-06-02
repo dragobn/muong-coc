@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi" class="theme-sinhthai">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vườn Sim Cổ và Rượu Sim — Hồ sơ điểm đến Mường Cốc</title>
+<meta name="description" content="Vườn Sim Cổ và Rượu Sim là điểm đến độc đáo gắn với đặc sản đồi Mường Cốc – loài sim cổ thụ mọc tự nhiên trên đồi, được ông Nguyễn Mạnh Ngự chăm sóc hoàn t">
+<meta property="og:title" content="Vườn Sim Cổ và Rượu Sim — Hồ sơ điểm đến Mường Cốc">
+<meta property="og:description" content="Vườn Sim Cổ và Rượu Sim là điểm đến độc đáo gắn với đặc sản đồi Mường Cốc – loài sim cổ thụ mọc tự nhiên trên đồi, được ông Nguyễn Mạnh Ngự chăm sóc hoàn t">
+<meta property="og:image" content="../../assets/img/poi/vuon-sim-co/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<style>
+.poi-infobar{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fff;border-radius:14px;
+  overflow:hidden;box-shadow:var(--shadow-sm);margin-top:4px;border:1px solid rgba(201,145,47,.14);}
+.poi-infobar .cell{padding:13px 15px;border-top:3px solid var(--accent);border-right:1px solid rgba(201,145,47,.12);}
+.poi-infobar .cell:nth-child(2n){border-right:none;}
+.poi-infobar .cell .l{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:700;}
+.poi-infobar .cell .v{font-family:var(--serif);font-weight:600;font-size:1.02rem;color:var(--accent-dark);line-height:1.2;margin-top:3px;}
+@media(min-width:560px){.poi-infobar{grid-template-columns:repeat(4,1fr);}.poi-infobar .cell:nth-child(2n){border-right:1px solid rgba(201,145,47,.12);}.poi-infobar .cell:last-child{border-right:none;}}
+.val-grid{display:grid;gap:13px;margin-top:4px;}
+@media(min-width:560px){.val-grid{grid-template-columns:1fr 1fr;}}
+.val-box{background:#fff;border-radius:13px;padding:15px 17px;box-shadow:var(--shadow-sm);}
+.val-box h3{font-family:var(--serif);font-weight:600;font-size:1.12rem;color:var(--amber);
+  border-bottom:1px solid rgba(201,145,47,.3);padding-bottom:7px;margin-bottom:9px;}
+.val-box ul{list-style:none;display:flex;flex-direction:column;gap:6px;}
+.val-box li{font-size:.9rem;color:#3a3633;padding-left:16px;position:relative;line-height:1.45;}
+.val-box li::before{content:"–";position:absolute;left:0;color:var(--accent);font-weight:700;}
+.svc-table{width:100%;border-collapse:collapse;margin-top:4px;background:#fff;border-radius:13px;overflow:hidden;box-shadow:var(--shadow-sm);}
+.svc-table td{padding:11px 15px;border-bottom:1px solid rgba(201,145,47,.13);vertical-align:top;font-size:.9rem;color:#3a3633;}
+.svc-table tr:last-child td{border-bottom:none;}
+.svc-table td.k{font-family:var(--serif);font-weight:600;color:var(--accent-dark);width:42%;}
+.svc-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.svc-list li{background:#fff;border-radius:11px;padding:11px 15px;box-shadow:var(--shadow-sm);font-size:.9rem;color:#3a3633;border-left:3px solid var(--accent);}
+.exp-list{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:4px;}
+.exp-list li{display:flex;gap:11px;background:#fff;border-radius:12px;padding:12px 15px;box-shadow:var(--shadow-sm);font-size:.92rem;color:#3a3633;line-height:1.45;}
+.exp-list li::before{content:"✦";color:var(--amber);font-weight:700;flex-shrink:0;}
+.amen-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;}
+.amen-list span{background:#fff;border:1px solid rgba(10,106,47,.18);border-radius:999px;padding:7px 13px;font-size:.8rem;font-weight:600;color:var(--accent-dark);}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:4px;}
+.gallery img{width:100%;height:150px;object-fit:cover;border-radius:13px;box-shadow:var(--shadow-sm);}
+.gallery img:first-child{grid-column:1 / -1;height:200px;}
+.cung-ref{display:flex;flex-direction:column;gap:10px;margin-top:4px;}
+.cung-ref a{display:flex;align-items:center;gap:12px;background:#fff;border-radius:13px;padding:12px 15px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.cung-ref a .ci{font-size:1.4rem;flex-shrink:0;}
+.cung-ref a .cn{font-weight:600;font-size:.95rem;color:var(--accent-dark);flex:1;}
+.cung-ref a .arrow{color:var(--amber);font-size:1.1rem;}
+.poi-future{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;border-radius:15px;
+  padding:18px 20px;margin-top:4px;}
+.poi-future b{display:block;font-family:var(--serif);font-size:1.1rem;margin-bottom:6px;}
+.poi-future p{font-size:.9rem;opacity:.93;line-height:1.55;}
+.poi-index-list{display:grid;gap:12px;margin-top:4px;}
+@media(min-width:560px){.poi-index-list{grid-template-columns:1fr 1fr;}}
+.poi-index-card{display:flex;align-items:center;gap:13px;background:#fff;border-radius:14px;padding:11px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.poi-index-card .thumb{flex-shrink:0;width:66px;height:66px;border-radius:11px;object-fit:cover;background:var(--cream-2);}
+.poi-index-card .nm{font-weight:600;font-size:.96rem;line-height:1.2;color:var(--ink);}
+.poi-index-card .ty{font-size:.7rem;color:var(--muted);margin-top:3px;}
+.poi-index-card .arrow{margin-left:auto;color:var(--amber);font-size:1.1rem;flex-shrink:0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="topbar">
+  <a class="brand" href="../../">
+    <span class="logo-sm"><img src="../../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
+    <span class="brand-tx"><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></span>
+  </a>
+  <a class="home-link" href="../../"><span data-lang="vi">← Trang chủ</span><span data-lang="en">← Home</span><span data-lang="fr">← Home</span></a>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <button type="button" data-set-lang="vi" aria-pressed="true">VI</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+  </div>
+</nav>
+  <header class="hero compact">
+    <div class="hero-bg"><img src="../../assets/img/poi/vuon-sim-co/hero.jpg" alt="Vườn Sim Cổ và Rượu Sim"></div>
+    <div class="hero-body" style="padding-top:34px;">
+      <div class="hero-pre">🏔️ <span data-lang="vi">Hồ sơ điểm đến</span><span data-lang="en">Destination profile</span><span data-lang="fr">Destination profile</span></div>
+      <h1 style="font-size:2.3rem;">Vườn Sim Cổ và Rượu Sim</h1>
+      <div class="hero-tag"><span data-lang="vi">Cảnh quan thiên nhiên</span><span data-lang="en">Natural landscape</span><span data-lang="fr">Natural landscape</span></div>
+      <div class="hero-loc">📍 <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+    </div>
+  </header>
+  <section class="intro alt">
+    <div class="kick"><span data-lang="vi">Giới thiệu</span><span data-lang="en">Overview</span><span data-lang="fr">Overview</span></div>
+    <div data-lang="vi"><p><span class="drop">V</span>ườn Sim Cổ và Rượu Sim là điểm đến độc đáo gắn với đặc sản đồi Mường Cốc – loài sim cổ thụ mọc tự nhiên trên đồi, được ông Nguyễn Mạnh Ngự chăm sóc hoàn toàn bằng tay, không sử dụng hóa chất. Quả sim tím Mường Cốc sau thu hoạch được ủ thành rượu sim theo công thức dân gian truyền thống, đã đạt chứng nhận OCOP của địa phương – một dấu ấn khẳng định chất lượng và bản sắc sản vật vùng đồi Mường.</p><p>Đến đây vào mùa sim chín (khoảng tháng 6-8), du khách được trực tiếp hái sim trên đồi, tìm hiểu quá trình từ trồng đến ủ rượu và nghe chủ nhà kể về hành trình đưa rượu sim Mường Cốc đạt OCOP. Rượu sim và quả sim khô cũng là món quà có giá trị mang về từ chuyến du lịch.</p></div><div data-lang="en"><p>Vườn Sim Cổ và Rượu Sim là điểm đến độc đáo gắn với đặc sản đồi Mường Cốc – loài sim cổ thụ mọc tự nhiên trên đồi, được ông Nguyễn Mạnh Ngự chăm sóc hoàn toàn bằng tay, không sử dụng hóa chất. Quả sim tím Mường Cốc sau thu hoạch được ủ thành rượu sim theo công thức dân gian truyền thống, đã đạt chứng nhận OCOP của địa phương – một dấu ấn khẳng định chất lượng và bản sắc sản vật vùng đồi Mường.</p><p>Đến đây vào mùa sim chín (khoảng tháng 6-8), du khách được trực tiếp hái sim trên đồi, tìm hiểu quá trình từ trồng đến ủ rượu và nghe chủ nhà kể về hành trình đưa rượu sim Mường Cốc đạt OCOP. Rượu sim và quả sim khô cũng là món quà có giá trị mang về từ chuyến du lịch.</p></div><div data-lang="fr"><p>Vườn Sim Cổ và Rượu Sim là điểm đến độc đáo gắn với đặc sản đồi Mường Cốc – loài sim cổ thụ mọc tự nhiên trên đồi, được ông Nguyễn Mạnh Ngự chăm sóc hoàn toàn bằng tay, không sử dụng hóa chất. Quả sim tím Mường Cốc sau thu hoạch được ủ thành rượu sim theo công thức dân gian truyền thống, đã đạt chứng nhận OCOP của địa phương – một dấu ấn khẳng định chất lượng và bản sắc sản vật vùng đồi Mường.</p><p>Đến đây vào mùa sim chín (khoảng tháng 6-8), du khách được trực tiếp hái sim trên đồi, tìm hiểu quá trình từ trồng đến ủ rượu và nghe chủ nhà kể về hành trình đưa rượu sim Mường Cốc đạt OCOP. Rượu sim và quả sim khô cũng là món quà có giá trị mang về từ chuyến du lịch.</p></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Thông tin nhanh</span><span data-lang="en">Quick facts</span><span data-lang="fr">Quick facts</span></div>
+    <div class="poi-infobar"><div class="cell"><div class="l"><span data-lang="vi">Loại hình</span><span data-lang="en">Loại hình</span><span data-lang="fr">Loại hình</span></div><div class="v"><span data-lang="vi">Cảnh quan thiên nhiên</span><span data-lang="en">Natural landscape</span><span data-lang="fr">Natural landscape</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Giờ mở cửa</span><span data-lang="en">Giờ mở cửa</span><span data-lang="fr">Giờ mở cửa</span></div><div class="v"><span data-lang="vi">Từ 7h30 đến 17h30</span><span data-lang="en">Từ 7h30 đến 17h30</span><span data-lang="fr">Từ 7h30 đến 17h30</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Sức chứa</span><span data-lang="en">Sức chứa</span><span data-lang="fr">Sức chứa</span></div><div class="v"><span data-lang="vi">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span><span data-lang="en">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span><span data-lang="fr">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Vị trí</span><span data-lang="en">Vị trí</span><span data-lang="fr">Vị trí</span></div><div class="v"><span data-lang="vi">Thôn Đồi Dùng, xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="en">Thôn Đồi Dùng, xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="fr">Thôn Đồi Dùng, xã Mỹ Đức, Thành phố Hà Nội</span></div></div></div>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Giá trị nổi bật</span><span data-lang="en">Highlights</span><span data-lang="fr">Highlights</span></div>
+    <h2 class="sec"><span data-lang="vi">Vì sao </span><span data-lang="en">Why </span><span data-lang="fr">Why </span><em><span data-lang="vi">đáng ghé</span><span data-lang="en">visit</span><span data-lang="fr">visit</span></em></h2>
+    <div class="val-grid"><div class="val-box"><h3><span data-lang="vi">Giá trị văn hóa</span><span data-lang="en">Giá trị văn hóa</span><span data-lang="fr">Giá trị văn hóa</span></h3><ul><li><span data-lang="vi">Bảo tồn vườn sim cổ thụ bản địa – đặc sản đồi Mường</span><span data-lang="en">Bảo tồn vườn sim cổ thụ bản địa – đặc sản đồi Mường</span><span data-lang="fr">Bảo tồn vườn sim cổ thụ bản địa – đặc sản đồi Mường</span></li><li><span data-lang="vi">Gìn giữ kỹ thuật ủ rượu sim truyền thống qua nhiều thế hệ</span><span data-lang="en">Gìn giữ kỹ thuật ủ rượu sim truyền thống qua nhiều thế hệ</span><span data-lang="fr">Gìn giữ kỹ thuật ủ rượu sim truyền thống qua nhiều thế hệ</span></li><li><span data-lang="vi">Sản phẩm OCOP mang thương hiệu địa phương</span><span data-lang="en">Sản phẩm OCOP mang thương hiệu địa phương</span><span data-lang="fr">Sản phẩm OCOP mang thương hiệu địa phương</span></li></ul></div><div class="val-box"><h3><span data-lang="vi">Giá trị trải nghiệm</span><span data-lang="en">Giá trị trải nghiệm</span><span data-lang="fr">Giá trị trải nghiệm</span></h3><ul><li><span data-lang="vi">Hái sim tươi trên đồi vào mùa quả chín</span><span data-lang="en">Hái sim tươi trên đồi vào mùa quả chín</span><span data-lang="fr">Hái sim tươi trên đồi vào mùa quả chín</span></li><li><span data-lang="vi">Tìm hiểu toàn bộ quy trình từ cây sim đến chai rượu</span><span data-lang="en">Tìm hiểu toàn bộ quy trình từ cây sim đến chai rượu</span><span data-lang="fr">Tìm hiểu toàn bộ quy trình từ cây sim đến chai rượu</span></li><li><span data-lang="vi">Nếm thử và mua rượu sim OCOP làm quà tặng</span><span data-lang="en">Nếm thử và mua rượu sim OCOP làm quà tặng</span><span data-lang="fr">Nếm thử và mua rượu sim OCOP làm quà tặng</span></li></ul></div><div class="val-box"><h3><span data-lang="vi">Giá trị cảnh quan</span><span data-lang="en">Giá trị cảnh quan</span><span data-lang="fr">Giá trị cảnh quan</span></h3><ul><li><span data-lang="vi">Vườn sim cổ đồi Mường – cảnh quan hoang sơ đặc trưng</span><span data-lang="en">Vườn sim cổ đồi Mường – cảnh quan hoang sơ đặc trưng</span><span data-lang="fr">Vườn sim cổ đồi Mường – cảnh quan hoang sơ đặc trưng</span></li><li><span data-lang="vi">Màu tím sim rộ trên đồi vào mùa hoa (tháng 4-5) và mùa quả (tháng 6-8)</span><span data-lang="en">Màu tím sim rộ trên đồi vào mùa hoa (tháng 4-5) và mùa quả (tháng 6-8)</span><span data-lang="fr">Màu tím sim rộ trên đồi vào mùa hoa (tháng 4-5) và mùa quả (tháng 6-8)</span></li></ul></div></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Dịch vụ</span><span data-lang="en">Services</span><span data-lang="fr">Services</span></div>
+    <h2 class="sec"><span data-lang="vi">Dịch vụ </span><span data-lang="en">What&#x27;s </span><span data-lang="fr">What&#x27;s </span><em><span data-lang="vi">cung cấp</span><span data-lang="en">offered</span><span data-lang="fr">offered</span></em></h2>
+    <table class="svc-table"><tr><td class="k"><span data-lang="vi">Tham quan vườn sim cổ</span><span data-lang="en">Tham quan vườn sim cổ</span><span data-lang="fr">Tham quan vườn sim cổ</span></td><td><span data-lang="vi">Tham quan và tìm hiểu về cây sim bản địa</span><span data-lang="en">Tham quan và tìm hiểu về cây sim bản địa</span><span data-lang="fr">Tham quan và tìm hiểu về cây sim bản địa</span></td></tr><tr><td class="k"><span data-lang="vi">Hái sim theo mùa</span><span data-lang="en">Hái sim theo mùa</span><span data-lang="fr">Hái sim theo mùa</span></td><td><span data-lang="vi">Trải nghiệm thu hoạch quả sim cùng chủ nhà (mùa tháng 6-8)</span><span data-lang="en">Trải nghiệm thu hoạch quả sim cùng chủ nhà (mùa tháng 6-8)</span><span data-lang="fr">Trải nghiệm thu hoạch quả sim cùng chủ nhà (mùa tháng 6-8)</span></td></tr><tr><td class="k"><span data-lang="vi">Tìm hiểu quy trình ủ rượu sim</span><span data-lang="en">Tìm hiểu quy trình ủ rượu sim</span><span data-lang="fr">Tìm hiểu quy trình ủ rượu sim</span></td><td><span data-lang="vi">Giới thiệu công đoạn từ quả sim đến rượu thành phẩm</span><span data-lang="en">Giới thiệu công đoạn từ quả sim đến rượu thành phẩm</span><span data-lang="fr">Giới thiệu công đoạn từ quả sim đến rượu thành phẩm</span></td></tr><tr><td class="k"><span data-lang="vi">Nếm thử rượu sim</span><span data-lang="en">Nếm thử rượu sim</span><span data-lang="fr">Nếm thử rượu sim</span></td><td><span data-lang="vi">Thưởng thức rượu sim OCOP tại vườn</span><span data-lang="en">Thưởng thức rượu sim OCOP tại vườn</span><span data-lang="fr">Thưởng thức rượu sim OCOP tại vườn</span></td></tr><tr><td class="k"><span data-lang="vi">Mua rượu sim và sản vật</span><span data-lang="en">Mua rượu sim và sản vật</span><span data-lang="fr">Mua rượu sim và sản vật</span></td><td><span data-lang="vi">Rượu sim OCOP, quả sim khô, làm quà tặng</span><span data-lang="en">Rượu sim OCOP, quả sim khô, làm quà tặng</span><span data-lang="fr">Rượu sim OCOP, quả sim khô, làm quà tặng</span></td></tr></table>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Trải nghiệm gợi ý</span><span data-lang="en">Suggested experiences</span><span data-lang="fr">Suggested experiences</span></div>
+    <h2 class="sec"><span data-lang="vi">Bạn có thể </span><span data-lang="en">Things </span><span data-lang="fr">Things </span><em><span data-lang="vi">làm gì</span><span data-lang="en">to do</span><span data-lang="fr">to do</span></em></h2>
+    <ul class="exp-list"><li><span><span data-lang="vi">Tham quan vườn sim cổ, nghe chủ nhà kể về lịch sử chăm sóc vườn và hành trình đạt OCOP</span><span data-lang="en">Tham quan vườn sim cổ, nghe chủ nhà kể về lịch sử chăm sóc vườn và hành trình đạt OCOP</span><span data-lang="fr">Tham quan vườn sim cổ, nghe chủ nhà kể về lịch sử chăm sóc vườn và hành trình đạt OCOP</span></span></li><li><span><span data-lang="vi">Hái sim tươi trên đồi (vào mùa quả tháng 6-8)</span><span data-lang="en">Hái sim tươi trên đồi (vào mùa quả tháng 6-8)</span><span data-lang="fr">Hái sim tươi trên đồi (vào mùa quả tháng 6-8)</span></span></li><li><span><span data-lang="vi">Tìm hiểu từng công đoạn ủ rượu sim: chọn quả, ngâm, ủ, lọc, đóng chai</span><span data-lang="en">Tìm hiểu từng công đoạn ủ rượu sim: chọn quả, ngâm, ủ, lọc, đóng chai</span><span data-lang="fr">Tìm hiểu từng công đoạn ủ rượu sim: chọn quả, ngâm, ủ, lọc, đóng chai</span></span></li><li><span><span data-lang="vi">Nếm thử rượu sim và tìm hiểu sự khác biệt với rượu sim thương mại</span><span data-lang="en">Nếm thử rượu sim và tìm hiểu sự khác biệt với rượu sim thương mại</span><span data-lang="fr">Nếm thử rượu sim và tìm hiểu sự khác biệt với rượu sim thương mại</span></span></li><li><span><span data-lang="vi">Mua rượu sim OCOP và sản vật đồi Mường mang về làm quà</span><span data-lang="en">Mua rượu sim OCOP và sản vật đồi Mường mang về làm quà</span><span data-lang="fr">Mua rượu sim OCOP và sản vật đồi Mường mang về làm quà</span></span></li></ul>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Hình ảnh</span><span data-lang="en">Gallery</span><span data-lang="fr">Gallery</span></div>
+    <div class="gallery"><img src="../../assets/img/poi/vuon-sim-co/hero.jpg" alt="Vườn Sim Cổ và Rượu Sim" loading="lazy"><img src="../../assets/img/poi/vuon-sim-co/02.jpg" alt="Vườn Sim Cổ và Rượu Sim" loading="lazy"><img src="../../assets/img/poi/vuon-sim-co/03.jpg" alt="Vườn Sim Cổ và Rượu Sim" loading="lazy"></div>
+  </section>
+  <section class="alt">
+    <h2 class="sec"><span data-lang="vi">Phục vụ </span><span data-lang="en">Visitor </span><span data-lang="fr">Visitor </span><em><span data-lang="vi">khách</span><span data-lang="en">info</span><span data-lang="fr">info</span></em></h2>
+    <div class="kick" style="margin-top:4px;"><span data-lang="vi">Tiện ích</span><span data-lang="en">Amenities</span><span data-lang="fr">Amenities</span></div><div class="amen-list"><span><span data-lang="vi">Nhà vệ sinh</span><span data-lang="en">Nhà vệ sinh</span><span data-lang="fr">Nhà vệ sinh</span></span><span><span data-lang="vi">Khu nghỉ chân bên vườn</span><span data-lang="en">Khu nghỉ chân bên vườn</span><span data-lang="fr">Khu nghỉ chân bên vườn</span></span><span><span data-lang="vi">Nước uống</span><span data-lang="en">Nước uống</span><span data-lang="fr">Nước uống</span></span><span><span data-lang="vi">Điểm bán sản vật địa phương</span><span data-lang="en">Điểm bán sản vật địa phương</span><span data-lang="fr">Điểm bán sản vật địa phương</span></span></div><div class="kick" style="margin-top:20px;"><span data-lang="vi">Lưu ý khi tham quan</span><span data-lang="en">Good to know</span><span data-lang="fr">Good to know</span></div><div class="note-list"><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Tôn trọng không gian vườn và lao động của gia đình</span><span data-lang="en">Tôn trọng không gian vườn và lao động của gia đình</span><span data-lang="fr">Tôn trọng không gian vườn và lao động của gia đình</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Chỉ hái sim theo hướng dẫn và phân khu được chỉ định của chủ nhà</span><span data-lang="en">Chỉ hái sim theo hướng dẫn và phân khu được chỉ định của chủ nhà</span><span data-lang="fr">Chỉ hái sim theo hướng dẫn và phân khu được chỉ định của chủ nhà</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Hạn chế rác thải nhựa trong khuôn viên vườn đồi</span><span data-lang="en">Hạn chế rác thải nhựa trong khuôn viên vườn đồi</span><span data-lang="fr">Hạn chế rác thải nhựa trong khuôn viên vườn đồi</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Hỏi trước khi chụp ảnh chủ nhà và thành viên gia đình</span><span data-lang="en">Hỏi trước khi chụp ảnh chủ nhà và thành viên gia đình</span><span data-lang="fr">Hỏi trước khi chụp ảnh chủ nhà và thành viên gia đình</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Trải nghiệm hái sim chỉ có theo mùa (tháng 6-8), nên xác nhận trước</span><span data-lang="en">Trải nghiệm hái sim chỉ có theo mùa (tháng 6-8), nên xác nhận trước</span><span data-lang="fr">Trải nghiệm hái sim chỉ có theo mùa (tháng 6-8), nên xác nhận trước</span></span></div></div></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Cung tour ghé điểm này</span><span data-lang="en">Routes that stop here</span><span data-lang="fr">Routes that stop here</span></div>
+    <h2 class="sec"><span data-lang="vi">Có trong </span><span data-lang="en">Part of </span><span data-lang="fr">Part of </span><em><span data-lang="vi">hành trình</span><span data-lang="en">journeys</span><span data-lang="fr">journeys</span></em></h2>
+    <div class="cung-ref"><a href="../../cung/tour-kn-quang-phu-cau/"><span class="ci">🌾</span><span class="cn"><span data-lang="vi">Hà Nội · Quảng Phú Cầu · Mường Cốc</span><span data-lang="en">Hà Nội · Quảng Phú Cầu · Mường Cốc</span><span data-lang="fr">Hà Nội · Quảng Phú Cầu · Mường Cốc</span></span><span class="arrow">→</span></a><a href="../../cung/tour-kn-chua-huong/"><span class="ci">🌾</span><span class="cn"><span data-lang="vi">Hà Nội · Chùa Hương · Mường Cốc</span><span data-lang="en">Hà Nội · Chùa Hương · Mường Cốc</span><span data-lang="fr">Hà Nội · Chùa Hương · Mường Cốc</span></span><span class="arrow">→</span></a><a href="../../cung/tour-kn-mai-chau-pu-luong/"><span class="ci">🌾</span><span class="cn"><span data-lang="vi">Hà Nội · Mường Cốc · Mai Châu · Pù Luông</span><span data-lang="en">Hà Nội · Mường Cốc · Mai Châu · Pù Luông</span><span data-lang="fr">Hà Nội · Mường Cốc · Mai Châu · Pù Luông</span></span><span class="arrow">→</span></a><a href="../../cung/dau-xua-muong-coc/"><span class="ci">🚲</span><span class="cn"><span data-lang="vi">Dấu Xưa Mường Cốc</span><span data-lang="en">Dấu Xưa Mường Cốc</span><span data-lang="fr">Dấu Xưa Mường Cốc</span></span><span class="arrow">→</span></a><a href="../../cung/vong-xe-xanh/"><span class="ci">🚲</span><span class="cn"><span data-lang="vi">Vòng Xe Xanh Mường Cốc</span><span data-lang="en">Vòng Xe Xanh Mường Cốc</span><span data-lang="fr">Vòng Xe Xanh Mường Cốc</span></span><span class="arrow">→</span></a></div>
+  </section>
+  <section class="alt">
+    <div class="poi-future"><b><span data-lang="vi">Định hướng phát triển</span><span data-lang="en">Looking ahead</span><span data-lang="fr">Looking ahead</span></b>
+      <p><span data-lang="vi">Vườn Sim Cổ và Rượu Sim hướng tới xây dựng thương hiệu rượu sim Mường Cốc trở thành đặc sản du lịch nổi bật của vùng đồi Mỹ Đức, kết hợp trải nghiệm tham quan vườn với giáo dục về nông nghiệp tự nhiên và sản phẩm OCOP. Gia đình mong muốn mở rộng công suất ủ rượu, xây dựng thêm không gian nếm thử và tìm kiếm thêm kênh phân phối sản phẩm qua mạng lưới du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="en">Vườn Sim Cổ và Rượu Sim hướng tới xây dựng thương hiệu rượu sim Mường Cốc trở thành đặc sản du lịch nổi bật của vùng đồi Mỹ Đức, kết hợp trải nghiệm tham quan vườn với giáo dục về nông nghiệp tự nhiên và sản phẩm OCOP. Gia đình mong muốn mở rộng công suất ủ rượu, xây dựng thêm không gian nếm thử và tìm kiếm thêm kênh phân phối sản phẩm qua mạng lưới du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="fr">Vườn Sim Cổ và Rượu Sim hướng tới xây dựng thương hiệu rượu sim Mường Cốc trở thành đặc sản du lịch nổi bật của vùng đồi Mỹ Đức, kết hợp trải nghiệm tham quan vườn với giáo dục về nông nghiệp tự nhiên và sản phẩm OCOP. Gia đình mong muốn mở rộng công suất ủ rượu, xây dựng thêm không gian nếm thử và tìm kiếm thêm kênh phân phối sản phẩm qua mạng lưới du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span></p></div>
+  </section>
+  <section>
+    <div class="kick center"><span data-lang="vi">Định hướng</span><span data-lang="en">Find your way</span><span data-lang="fr">Find your way</span></div>
+    <div class="cta-stack">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.62577,105.6927417" target="_blank" rel="noopener"><span class="ic">🗺️</span><span><span data-lang="vi">Mở bản đồ</span><span data-lang="en">Open map</span><span data-lang="fr">Open map</span><small><span data-lang="vi">Mở vị trí trên Google Maps</span><span data-lang="en">Open in Google Maps</span><span data-lang="fr">Open in Google Maps</span></small></span></a>
+      <a class="btn ghost" href="../../"><span class="ic">←</span><span><span data-lang="vi">Trang chủ</span><span data-lang="en">Home</span><span data-lang="fr">Home</span><small><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></small></span></a>
+    </div>
+  </section>
+<footer>
+  <div class="deco"><span></span><i></i><span></span></div>
+  <div class="closing"><span data-lang="vi">Chạm Vào Bình Yên</span><span data-lang="en">Touch the Stillness</span><span data-lang="fr">Touch the Stillness</span></div>
+  <div class="ft-contact">
+    <span>📞 <span data-lang="vi">Hotline</span><span data-lang="en">Hotline</span><span data-lang="fr">Hotline</span>: <a href="tel:+84986103298">0986 103 298</a></span>
+    <span>🌐 Fanpage: <a href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener">Du lịch cộng đồng Mường Cốc</a></span>
+    <span>🗺️ <a href="https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM" target="_blank" rel="noopener"><span data-lang="vi">Bản đồ du lịch</span><span data-lang="en">Tourism map</span><span data-lang="fr">Tourism map</span></a></span>
+  </div>
+  <div class="ft-line"><span data-lang="vi">Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism Board</span><span data-lang="fr">Muong Coc Community Tourism Board</span><br>
+    Tourism Hub Đồi Dùng · <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+</footer>
+</div>
+<div class="fab">
+  <a class="fb" href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
+    <span aria-hidden="true">f</span>
+    <span class="tip"><span data-lang="vi">Fanpage Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Facebook Fanpage</span><span data-lang="fr">Facebook Fanpage</span></span>
+  </a>
+  <a class="call" href="tel:+84986103298" aria-label="Gọi hotline 0986 103 298">
+    <span aria-hidden="true">📞</span>
+    <span class="tip"><span data-lang="vi">Gọi hotline 0986 103 298</span><span data-lang="en">Call 0986 103 298</span><span data-lang="fr">Call 0986 103 298</span></span>
+  </a>
+</div>
+<script src="../../assets/js/site.js"></script>
+</body>
+</html>

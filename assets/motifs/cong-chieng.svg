@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="48" viewBox="0 0 80 48" fill="none" stroke="#0A6A2F" role="img" aria-label="Cụm cồng chiêng Mường">
+<!-- CỒNG CHIÊNG — cụm 3 vòng cồng (núm giữa), line. Icon/cluster. 1 màu currentColor. -->
+<g stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
+<!-- chiêng lớn trái -->
+<circle cx="22" cy="26" r="17"/>
+<circle cx="22" cy="26" r="11"/>
+<circle cx="22" cy="26" r="3.2" fill="#0A6A2F" stroke="none"/>
+<!-- chiêng nhỏ phải -->
+<circle cx="58" cy="30" r="13"/>
+<circle cx="58" cy="30" r="8"/>
+<circle cx="58" cy="30" r="2.4" fill="#0A6A2F" stroke="none"/>
+<!-- chiêng treo trên -->
+<circle cx="50" cy="11" r="8.5"/>
+<circle cx="50" cy="11" r="5"/>
+<circle cx="50" cy="11" r="1.6" fill="#0A6A2F" stroke="none"/>
+</g>
+</svg>

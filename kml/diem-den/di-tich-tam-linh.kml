@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+  <name>Mường Cốc — Di tích &amp; tâm linh</name>
+  <Style id="poi"><IconStyle><color>ff0066cc</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+  <Placemark>
+    <name>Nhà Thờ Giáo xứ Bắc Sơn</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà thờ</b>, thôn Thanh Hà.</p>]]></description>
+    <Point><coordinates>105.7122936,20.608813,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà văn hoá dân tộc</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà văn hoá</b>, thôn Đình.</p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đình Phú Cốc</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Đình</b>, thôn Đình.</p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chùa Phú Cốc</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Chùa Phú Cốc có cây đa cổ niên đại khoảng 400 năm, không gian linh thiêng. Sân rộng có thể tổ chức hoạt động — dân cư 6 thôn thường tập trung làm lễ ở đây. (Ghi chú từ Excel khảo sát 31/03/2026.)</p>]]></description>
+    <Point><coordinates>105.68909,20.6237117,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà Văn Hoá Làng Đồi Dùng</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà văn hoá</b>, thôn Đồi Dùng.</p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đền cây Thợi</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Đền cây Thợi (cây thị trong tiếng Mường gọi là &#x27;Thợi&#x27;) có 3 loại quả khác nhau trên cùng một cây: Sáp, Hạt, Cúc. Người Mường gọi đây là cây thiêng. Đền nhỏ bên cạnh.</p>]]></description>
+    <Point><coordinates>105.6848617,20.6252583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chùa Tiên</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Chùa Tiên có Cụ Tuyển sinh năm 1951 — nhà thơ giữ chùa. 130 bậc đá lên hang đá phía sau chùa. Cụ Tuyển có thể kể chuyện chùa + thơ tự sáng tác.</p>]]></description>
+    <Point><coordinates>105.6946117,20.6506333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chùa Đinh Long</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Chùa</b>, thôn Đức Dương.</p>]]></description>
+    <Point><coordinates>105.7012208,20.6353317,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà cổ ở Đức Dương</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Nhà cổ Đức Dương thuộc vợ chồng cựu chiến binh, mua nhà từ một gia đình địa chủ Mường. Cột gỗ + bếp đá nguyên bản còn giữ. Vợ chồng tự hào kể về lịch sử nhà.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đức Dương) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.69758584285715,20.637138571428572,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đền Mẫu Thượng Thiên (Đền Ái Nàng)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Đền / miếu</b>, thôn Đức Dương.</p>]]></description>
+    <Point><coordinates>105.693655,20.6447467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đền Quán Mai,An Phú,Mỹ Đức</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Đền / miếu</b>, thôn Đức Dương.</p>]]></description>
+    <Point><coordinates>105.6918717,20.64078,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi" class="theme-nongnghiep">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nhà cổ Hữu Lệnh — Hồ sơ điểm đến Mường Cốc</title>
+<meta name="description" content="Nhà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà ma">
+<meta property="og:title" content="Nhà cổ Hữu Lệnh — Hồ sơ điểm đến Mường Cốc">
+<meta property="og:description" content="Nhà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà ma">
+<meta property="og:image" content="../../assets/img/poi/ba-la-homestay/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<style>
+.poi-infobar{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fff;border-radius:14px;
+  overflow:hidden;box-shadow:var(--shadow-sm);margin-top:4px;border:1px solid rgba(201,145,47,.14);}
+.poi-infobar .cell{padding:13px 15px;border-top:3px solid var(--accent);border-right:1px solid rgba(201,145,47,.12);}
+.poi-infobar .cell:nth-child(2n){border-right:none;}
+.poi-infobar .cell .l{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:700;}
+.poi-infobar .cell .v{font-family:var(--serif);font-weight:600;font-size:1.02rem;color:var(--accent-dark);line-height:1.2;margin-top:3px;}
+@media(min-width:560px){.poi-infobar{grid-template-columns:repeat(4,1fr);}.poi-infobar .cell:nth-child(2n){border-right:1px solid rgba(201,145,47,.12);}.poi-infobar .cell:last-child{border-right:none;}}
+.val-grid{display:grid;gap:13px;margin-top:4px;}
+@media(min-width:560px){.val-grid{grid-template-columns:1fr 1fr;}}
+.val-box{background:#fff;border-radius:13px;padding:15px 17px;box-shadow:var(--shadow-sm);}
+.val-box h3{font-family:var(--serif);font-weight:600;font-size:1.12rem;color:var(--amber);
+  border-bottom:1px solid rgba(201,145,47,.3);padding-bottom:7px;margin-bottom:9px;}
+.val-box ul{list-style:none;display:flex;flex-direction:column;gap:6px;}
+.val-box li{font-size:.9rem;color:#3a3633;padding-left:16px;position:relative;line-height:1.45;}
+.val-box li::before{content:"–";position:absolute;left:0;color:var(--accent);font-weight:700;}
+.svc-table{width:100%;border-collapse:collapse;margin-top:4px;background:#fff;border-radius:13px;overflow:hidden;box-shadow:var(--shadow-sm);}
+.svc-table td{padding:11px 15px;border-bottom:1px solid rgba(201,145,47,.13);vertical-align:top;font-size:.9rem;color:#3a3633;}
+.svc-table tr:last-child td{border-bottom:none;}
+.svc-table td.k{font-family:var(--serif);font-weight:600;color:var(--accent-dark);width:42%;}
+.svc-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.svc-list li{background:#fff;border-radius:11px;padding:11px 15px;box-shadow:var(--shadow-sm);font-size:.9rem;color:#3a3633;border-left:3px solid var(--accent);}
+.exp-list{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:4px;}
+.exp-list li{display:flex;gap:11px;background:#fff;border-radius:12px;padding:12px 15px;box-shadow:var(--shadow-sm);font-size:.92rem;color:#3a3633;line-height:1.45;}
+.exp-list li::before{content:"✦";color:var(--amber);font-weight:700;flex-shrink:0;}
+.amen-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;}
+.amen-list span{background:#fff;border:1px solid rgba(10,106,47,.18);border-radius:999px;padding:7px 13px;font-size:.8rem;font-weight:600;color:var(--accent-dark);}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:4px;}
+.gallery img{width:100%;height:150px;object-fit:cover;border-radius:13px;box-shadow:var(--shadow-sm);}
+.gallery img:first-child{grid-column:1 / -1;height:200px;}
+.cung-ref{display:flex;flex-direction:column;gap:10px;margin-top:4px;}
+.cung-ref a{display:flex;align-items:center;gap:12px;background:#fff;border-radius:13px;padding:12px 15px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.cung-ref a .ci{font-size:1.4rem;flex-shrink:0;}
+.cung-ref a .cn{font-weight:600;font-size:.95rem;color:var(--accent-dark);flex:1;}
+.cung-ref a .arrow{color:var(--amber);font-size:1.1rem;}
+.poi-future{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;border-radius:15px;
+  padding:18px 20px;margin-top:4px;}
+.poi-future b{display:block;font-family:var(--serif);font-size:1.1rem;margin-bottom:6px;}
+.poi-future p{font-size:.9rem;opacity:.93;line-height:1.55;}
+.poi-index-list{display:grid;gap:12px;margin-top:4px;}
+@media(min-width:560px){.poi-index-list{grid-template-columns:1fr 1fr;}}
+.poi-index-card{display:flex;align-items:center;gap:13px;background:#fff;border-radius:14px;padding:11px;
+  box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);}
+.poi-index-card .thumb{flex-shrink:0;width:66px;height:66px;border-radius:11px;object-fit:cover;background:var(--cream-2);}
+.poi-index-card .nm{font-weight:600;font-size:.96rem;line-height:1.2;color:var(--ink);}
+.poi-index-card .ty{font-size:.7rem;color:var(--muted);margin-top:3px;}
+.poi-index-card .arrow{margin-left:auto;color:var(--amber);font-size:1.1rem;flex-shrink:0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="topbar">
+  <a class="brand" href="../../">
+    <span class="logo-sm"><img src="../../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
+    <span class="brand-tx"><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></span>
+  </a>
+  <a class="home-link" href="../../"><span data-lang="vi">← Trang chủ</span><span data-lang="en">← Home</span><span data-lang="fr">← Home</span></a>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <button type="button" data-set-lang="vi" aria-pressed="true">VI</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+  </div>
+</nav>
+  <header class="hero compact">
+    <div class="hero-bg"><img src="../../assets/img/poi/ba-la-homestay/hero.jpg" alt="Nhà cổ Hữu Lệnh"></div>
+    <div class="hero-body" style="padding-top:34px;">
+      <div class="hero-pre">🏡 <span data-lang="vi">Hồ sơ điểm đến</span><span data-lang="en">Destination profile</span><span data-lang="fr">Destination profile</span></div>
+      <h1 style="font-size:2.3rem;">Nhà cổ Hữu Lệnh</h1>
+      <div class="hero-tag"><span data-lang="vi">Homestay · lưu trú</span><span data-lang="en">Homestay &amp; lodging</span><span data-lang="fr">Homestay &amp; lodging</span></div>
+      <div class="hero-loc">📍 <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+    </div>
+  </header>
+  <section class="intro alt">
+    <div class="kick"><span data-lang="vi">Giới thiệu</span><span data-lang="en">Overview</span><span data-lang="fr">Overview</span></div>
+    <div data-lang="vi"><p><span class="drop">N</span>hà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà mang nét mộc mạc đặc trưng của vùng bán sơn địa Bắc Bộ với vật liệu tự nhiên như gỗ, tre, mái lá và các vật dụng sinh hoạt truyền thống vẫn được bảo tồn trong đời sống hàng ngày.</p><p>Không chỉ là nơi sinh sống của gia đình nhiều thế hệ, Nhà cổ Hữu Lệnh còn phản ánh rõ nét đời sống văn hóa, tập quán sinh hoạt và tinh thần gắn bó với thiên nhiên của cộng đồng người Mường địa phương.</p><p>Du khách khi đến đây có thể cảm nhận không gian làng quê yên bình, tìm hiểu kiến trúc nhà ở truyền thống và lắng nghe những câu chuyện đời sống bản địa từ chính người dân địa phương.</p></div><div data-lang="en"><p>Nhà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà mang nét mộc mạc đặc trưng của vùng bán sơn địa Bắc Bộ với vật liệu tự nhiên như gỗ, tre, mái lá và các vật dụng sinh hoạt truyền thống vẫn được bảo tồn trong đời sống hàng ngày.</p><p>Không chỉ là nơi sinh sống của gia đình nhiều thế hệ, Nhà cổ Hữu Lệnh còn phản ánh rõ nét đời sống văn hóa, tập quán sinh hoạt và tinh thần gắn bó với thiên nhiên của cộng đồng người Mường địa phương.</p><p>Du khách khi đến đây có thể cảm nhận không gian làng quê yên bình, tìm hiểu kiến trúc nhà ở truyền thống và lắng nghe những câu chuyện đời sống bản địa từ chính người dân địa phương.</p></div><div data-lang="fr"><p>Nhà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà mang nét mộc mạc đặc trưng của vùng bán sơn địa Bắc Bộ với vật liệu tự nhiên như gỗ, tre, mái lá và các vật dụng sinh hoạt truyền thống vẫn được bảo tồn trong đời sống hàng ngày.</p><p>Không chỉ là nơi sinh sống của gia đình nhiều thế hệ, Nhà cổ Hữu Lệnh còn phản ánh rõ nét đời sống văn hóa, tập quán sinh hoạt và tinh thần gắn bó với thiên nhiên của cộng đồng người Mường địa phương.</p><p>Du khách khi đến đây có thể cảm nhận không gian làng quê yên bình, tìm hiểu kiến trúc nhà ở truyền thống và lắng nghe những câu chuyện đời sống bản địa từ chính người dân địa phương.</p></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Thông tin nhanh</span><span data-lang="en">Quick facts</span><span data-lang="fr">Quick facts</span></div>
+    <div class="poi-infobar"><div class="cell"><div class="l"><span data-lang="vi">Loại hình</span><span data-lang="en">Loại hình</span><span data-lang="fr">Loại hình</span></div><div class="v"><span data-lang="vi">Homestay · lưu trú</span><span data-lang="en">Homestay &amp; lodging</span><span data-lang="fr">Homestay &amp; lodging</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Giờ mở cửa</span><span data-lang="en">Giờ mở cửa</span><span data-lang="fr">Giờ mở cửa</span></div><div class="v"><span data-lang="vi">Từ 8h00 đến 18h00</span><span data-lang="en">Từ 8h00 đến 18h00</span><span data-lang="fr">Từ 8h00 đến 18h00</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Sức chứa</span><span data-lang="en">Sức chứa</span><span data-lang="fr">Sức chứa</span></div><div class="v"><span data-lang="vi">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span><span data-lang="en">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span><span data-lang="fr">Khách lẻ: 10 khách/lượt · Khách đoàn: 20 k</span></div></div><div class="cell"><div class="l"><span data-lang="vi">Vị trí</span><span data-lang="en">Vị trí</span><span data-lang="fr">Vị trí</span></div><div class="v"><span data-lang="vi">Thôn Đức Dương, xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="en">Thôn Đức Dương, xã Mỹ Đức, Thành phố Hà Nội</span><span data-lang="fr">Thôn Đức Dương, xã Mỹ Đức, Thành phố Hà Nội</span></div></div></div>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Giá trị nổi bật</span><span data-lang="en">Highlights</span><span data-lang="fr">Highlights</span></div>
+    <h2 class="sec"><span data-lang="vi">Vì sao </span><span data-lang="en">Why </span><span data-lang="fr">Why </span><em><span data-lang="vi">đáng ghé</span><span data-lang="en">visit</span><span data-lang="fr">visit</span></em></h2>
+    <div class="val-grid"><div class="val-box"><h3><span data-lang="vi">Giá trị văn hóa</span><span data-lang="en">Giá trị văn hóa</span><span data-lang="fr">Giá trị văn hóa</span></h3><ul><li><span data-lang="vi">Bảo tồn không gian nhà ở truyền thống người Mường</span><span data-lang="en">Bảo tồn không gian nhà ở truyền thống người Mường</span><span data-lang="fr">Bảo tồn không gian nhà ở truyền thống người Mường</span></li><li><span data-lang="vi">Lưu giữ vật dụng sinh hoạt xưa</span><span data-lang="en">Lưu giữ vật dụng sinh hoạt xưa</span><span data-lang="fr">Lưu giữ vật dụng sinh hoạt xưa</span></li><li><span data-lang="vi">Gắn với đời sống gia đình và văn hóa cộng đồng</span><span data-lang="en">Gắn với đời sống gia đình và văn hóa cộng đồng</span><span data-lang="fr">Gắn với đời sống gia đình và văn hóa cộng đồng</span></li></ul></div><div class="val-box"><h3><span data-lang="vi">Giá trị trải nghiệm</span><span data-lang="en">Giá trị trải nghiệm</span><span data-lang="fr">Giá trị trải nghiệm</span></h3><ul><li><span data-lang="vi">Trải nghiệm không gian sống bản địa</span><span data-lang="en">Trải nghiệm không gian sống bản địa</span><span data-lang="fr">Trải nghiệm không gian sống bản địa</span></li><li><span data-lang="vi">Giao lưu cùng người dân</span><span data-lang="en">Giao lưu cùng người dân</span><span data-lang="fr">Giao lưu cùng người dân</span></li><li><span data-lang="vi">Chụp ảnh văn hóa – làng quê</span><span data-lang="en">Chụp ảnh văn hóa – làng quê</span><span data-lang="fr">Chụp ảnh văn hóa – làng quê</span></li><li><span data-lang="vi">Tìm hiểu nếp sống truyền thống</span><span data-lang="en">Tìm hiểu nếp sống truyền thống</span><span data-lang="fr">Tìm hiểu nếp sống truyền thống</span></li></ul></div><div class="val-box"><h3><span data-lang="vi">Giá trị cảnh quan</span><span data-lang="en">Giá trị cảnh quan</span><span data-lang="fr">Giá trị cảnh quan</span></h3><ul><li><span data-lang="vi">Không gian mộc mạc, gần gũi thiên nhiên</span><span data-lang="en">Không gian mộc mạc, gần gũi thiên nhiên</span><span data-lang="fr">Không gian mộc mạc, gần gũi thiên nhiên</span></li><li><span data-lang="vi">Phù hợp check-in, trải nghiệm &quot;slow travel&quot;</span><span data-lang="en">Phù hợp check-in, trải nghiệm &quot;slow travel&quot;</span><span data-lang="fr">Phù hợp check-in, trải nghiệm &quot;slow travel&quot;</span></li><li><span data-lang="vi">Góc chụp ảnh đậm chất làng quê Bắc Bộ</span><span data-lang="en">Góc chụp ảnh đậm chất làng quê Bắc Bộ</span><span data-lang="fr">Góc chụp ảnh đậm chất làng quê Bắc Bộ</span></li></ul></div></div>
+  </section>
+  <section>
+    <div class="kick"><span data-lang="vi">Dịch vụ</span><span data-lang="en">Services</span><span data-lang="fr">Services</span></div>
+    <h2 class="sec"><span data-lang="vi">Dịch vụ </span><span data-lang="en">What&#x27;s </span><span data-lang="fr">What&#x27;s </span><em><span data-lang="vi">cung cấp</span><span data-lang="en">offered</span><span data-lang="fr">offered</span></em></h2>
+    <table class="svc-table"><tr><td class="k"><span data-lang="vi">Tham quan nhà cổ</span><span data-lang="en">Tham quan nhà cổ</span><span data-lang="fr">Tham quan nhà cổ</span></td><td><span data-lang="vi">Giới thiệu kiến trúc và lịch sử ngôi nhà</span><span data-lang="en">Giới thiệu kiến trúc và lịch sử ngôi nhà</span><span data-lang="fr">Giới thiệu kiến trúc và lịch sử ngôi nhà</span></td></tr><tr><td class="k"><span data-lang="vi">Trải nghiệm văn hóa</span><span data-lang="en">Trải nghiệm văn hóa</span><span data-lang="fr">Trải nghiệm văn hóa</span></td><td><span data-lang="vi">Giao lưu đời sống cùng người dân</span><span data-lang="en">Giao lưu đời sống cùng người dân</span><span data-lang="fr">Giao lưu đời sống cùng người dân</span></td></tr><tr><td class="k"><span data-lang="vi">Chụp ảnh check-in</span><span data-lang="en">Chụp ảnh check-in</span><span data-lang="fr">Chụp ảnh check-in</span></td><td><span data-lang="vi">Không gian truyền thống – làng quê</span><span data-lang="en">Không gian truyền thống – làng quê</span><span data-lang="fr">Không gian truyền thống – làng quê</span></td></tr><tr><td class="k"><span data-lang="vi">Trải nghiệm nghề truyền thống</span><span data-lang="en">Trải nghiệm nghề truyền thống</span><span data-lang="fr">Trải nghiệm nghề truyền thống</span></td><td><span data-lang="vi">Theo mùa vụ/thời điểm</span><span data-lang="en">Theo mùa vụ/thời điểm</span><span data-lang="fr">Theo mùa vụ/thời điểm</span></td></tr><tr><td class="k"><span data-lang="vi">Ẩm thực địa phương</span><span data-lang="en">Ẩm thực địa phương</span><span data-lang="fr">Ẩm thực địa phương</span></td><td><span data-lang="vi">Phục vụ theo đặt trước</span><span data-lang="en">Phục vụ theo đặt trước</span><span data-lang="fr">Phục vụ theo đặt trước</span></td></tr><tr><td class="k"><span data-lang="vi">Đón khách đoàn</span><span data-lang="en">Đón khách đoàn</span><span data-lang="fr">Đón khách đoàn</span></td><td><span data-lang="vi">Có thể phục vụ nhóm nhỏ và đoàn trải nghiệm</span><span data-lang="en">Có thể phục vụ nhóm nhỏ và đoàn trải nghiệm</span><span data-lang="fr">Có thể phục vụ nhóm nhỏ và đoàn trải nghiệm</span></td></tr></table>
+  </section>
+  <section class="alt">
+    <div class="kick"><span data-lang="vi">Trải nghiệm gợi ý</span><span data-lang="en">Suggested experiences</span><span data-lang="fr">Suggested experiences</span></div>
+    <h2 class="sec"><span data-lang="vi">Bạn có thể </span><span data-lang="en">Things </span><span data-lang="fr">Things </span><em><span data-lang="vi">làm gì</span><span data-lang="en">to do</span><span data-lang="fr">to do</span></em></h2>
+    <ul class="exp-list"><li><span><span data-lang="vi">Uống trà và nghe kể chuyện làng Mường</span><span data-lang="en">Uống trà và nghe kể chuyện làng Mường</span><span data-lang="fr">Uống trà và nghe kể chuyện làng Mường</span></span></li><li><span><span data-lang="vi">Tham gia chuẩn bị món ăn truyền thống</span><span data-lang="en">Tham gia chuẩn bị món ăn truyền thống</span><span data-lang="fr">Tham gia chuẩn bị món ăn truyền thống</span></span></li><li><span><span data-lang="vi">Trải nghiệm mặc trang phục dân tộc Mường</span><span data-lang="en">Trải nghiệm mặc trang phục dân tộc Mường</span><span data-lang="fr">Trải nghiệm mặc trang phục dân tộc Mường</span></span></li><li><span><span data-lang="vi">Tìm hiểu công cụ lao động và vật dụng xưa</span><span data-lang="en">Tìm hiểu công cụ lao động và vật dụng xưa</span><span data-lang="fr">Tìm hiểu công cụ lao động và vật dụng xưa</span></span></li><li><span><span data-lang="vi">Chụp ảnh cùng không gian nhà cổ và sân vườn</span><span data-lang="en">Chụp ảnh cùng không gian nhà cổ và sân vườn</span><span data-lang="fr">Chụp ảnh cùng không gian nhà cổ và sân vườn</span></span></li><li><span><span data-lang="vi"></span><span data-lang="en"></span><span data-lang="fr"></span></span></li></ul>
+  </section>
+  <section class="alt">
+    <h2 class="sec"><span data-lang="vi">Phục vụ </span><span data-lang="en">Visitor </span><span data-lang="fr">Visitor </span><em><span data-lang="vi">khách</span><span data-lang="en">info</span><span data-lang="fr">info</span></em></h2>
+    <div class="kick" style="margin-top:4px;"><span data-lang="vi">Tiện ích</span><span data-lang="en">Amenities</span><span data-lang="fr">Amenities</span></div><div class="amen-list"><span><span data-lang="vi">Nhà vệ sinh</span><span data-lang="en">Nhà vệ sinh</span><span data-lang="fr">Nhà vệ sinh</span></span><span><span data-lang="vi">Khu nghỉ chân</span><span data-lang="en">Khu nghỉ chân</span><span data-lang="fr">Khu nghỉ chân</span></span><span><span data-lang="vi">Nước uống</span><span data-lang="en">Nước uống</span><span data-lang="fr">Nước uống</span></span><span><span data-lang="vi">Không gian đón khách</span><span data-lang="en">Không gian đón khách</span><span data-lang="fr">Không gian đón khách</span></span></div><div class="kick" style="margin-top:20px;"><span data-lang="vi">Lưu ý khi tham quan</span><span data-lang="en">Good to know</span><span data-lang="fr">Good to know</span></div><div class="note-list"><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Tôn trọng không gian sinh hoạt gia đình</span><span data-lang="en">Tôn trọng không gian sinh hoạt gia đình</span><span data-lang="fr">Tôn trọng không gian sinh hoạt gia đình</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Hạn chế rác thải nhựa</span><span data-lang="en">Hạn chế rác thải nhựa</span><span data-lang="fr">Hạn chế rác thải nhựa</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Không tự ý sử dụng hiện vật truyền thống</span><span data-lang="en">Không tự ý sử dụng hiện vật truyền thống</span><span data-lang="fr">Không tự ý sử dụng hiện vật truyền thống</span></span></div></div><div class="note"><span class="ni">📌</span><div class="nt"><span><span data-lang="vi">Hỏi trước khi chụp ảnh người trong gia đình</span><span data-lang="en">Hỏi trước khi chụp ảnh người trong gia đình</span><span data-lang="fr">Hỏi trước khi chụp ảnh người trong gia đình</span></span></div></div></div>
+  </section>
+  <section class="alt">
+    <div class="poi-future"><b><span data-lang="vi">Định hướng phát triển</span><span data-lang="en">Looking ahead</span><span data-lang="fr">Looking ahead</span></b>
+      <p><span data-lang="vi">Nhà cổ Hữu Lệnh hướng tới trở thành điểm trải nghiệm văn hóa cộng đồng mang tính chân thực, thân thiện và bền vững; góp phần bảo tồn giá trị văn hóa người Mường và tạo sinh kế cho cộng đồng địa phương thông qua hoạt động du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="en">Nhà cổ Hữu Lệnh hướng tới trở thành điểm trải nghiệm văn hóa cộng đồng mang tính chân thực, thân thiện và bền vững; góp phần bảo tồn giá trị văn hóa người Mường và tạo sinh kế cho cộng đồng địa phương thông qua hoạt động du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span><span data-lang="fr">Nhà cổ Hữu Lệnh hướng tới trở thành điểm trải nghiệm văn hóa cộng đồng mang tính chân thực, thân thiện và bền vững; góp phần bảo tồn giá trị văn hóa người Mường và tạo sinh kế cho cộng đồng địa phương thông qua hoạt động du lịch cộng đồng. Điểm đến Du lịch cộng đồng Mường Cốc, Xã Mỹ Đức – Thành phố Hà Nội</span></p></div>
+  </section>
+  <section>
+    <div class="kick center"><span data-lang="vi">Định hướng</span><span data-lang="en">Find your way</span><span data-lang="fr">Find your way</span></div>
+    <div class="cta-stack">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.6385833,105.6963883" target="_blank" rel="noopener"><span class="ic">🗺️</span><span><span data-lang="vi">Mở bản đồ</span><span data-lang="en">Open map</span><span data-lang="fr">Open map</span><small><span data-lang="vi">Mở vị trí trên Google Maps</span><span data-lang="en">Open in Google Maps</span><span data-lang="fr">Open in Google Maps</span></small></span></a>
+      <a class="btn ghost" href="../../"><span class="ic">←</span><span><span data-lang="vi">Trang chủ</span><span data-lang="en">Home</span><span data-lang="fr">Home</span><small><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Muong Coc Community Tourism</span></small></span></a>
+    </div>
+  </section>
+<footer>
+  <div class="deco"><span></span><i></i><span></span></div>
+  <div class="closing"><span data-lang="vi">Chạm Vào Bình Yên</span><span data-lang="en">Touch the Stillness</span><span data-lang="fr">Touch the Stillness</span></div>
+  <div class="ft-contact">
+    <span>📞 <span data-lang="vi">Hotline</span><span data-lang="en">Hotline</span><span data-lang="fr">Hotline</span>: <a href="tel:+84986103298">0986 103 298</a></span>
+    <span>🌐 Fanpage: <a href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener">Du lịch cộng đồng Mường Cốc</a></span>
+    <span>🗺️ <a href="https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM" target="_blank" rel="noopener"><span data-lang="vi">Bản đồ du lịch</span><span data-lang="en">Tourism map</span><span data-lang="fr">Tourism map</span></a></span>
+  </div>
+  <div class="ft-line"><span data-lang="vi">Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism Board</span><span data-lang="fr">Muong Coc Community Tourism Board</span><br>
+    Tourism Hub Đồi Dùng · <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">My Duc Commune · Hanoi</span></div>
+</footer>
+</div>
+<div class="fab">
+  <a class="fb" href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
+    <span aria-hidden="true">f</span>
+    <span class="tip"><span data-lang="vi">Fanpage Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Facebook Fanpage</span><span data-lang="fr">Facebook Fanpage</span></span>
+  </a>
+  <a class="call" href="tel:+84986103298" aria-label="Gọi hotline 0986 103 298">
+    <span aria-hidden="true">📞</span>
+    <span class="tip"><span data-lang="vi">Gọi hotline 0986 103 298</span><span data-lang="en">Call 0986 103 298</span><span data-lang="fr">Call 0986 103 298</span></span>
+  </a>
+</div>
+<script src="../../assets/js/site.js"></script>
+</body>
+</html>

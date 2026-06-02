@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="64" viewBox="0 0 56 64" fill="none" stroke="#0A6A2F" role="img" aria-label="Mầm cây lá non">
+<!-- MẦM CÂY — chồi non 2 lá + thân, signature trồng cây Net-Zero. Icon. 1 màu currentColor. -->
+<g stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round">
+<!-- thân -->
+<path d="M28 60 C28 48 28 40 28 32"/>
+<!-- lá trái -->
+<path d="M28 36 C18 36 9 31 6 21 C17 20 26 25 28 36 Z"/>
+<!-- gân lá trái -->
+<path d="M28 36 C22 32 16 28 10 25" stroke-width=".7"/>
+<!-- lá phải -->
+<path d="M28 30 C38 30 47 24 50 13 C39 13 30 19 28 30 Z"/>
+<!-- gân lá phải -->
+<path d="M28 30 C34 26 40 21 46 18" stroke-width=".7"/>
+<!-- đất -->
+<path d="M16 60 L40 60" stroke-width="1"/>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none" stroke="#0A6A2F" role="img" aria-label="Lá chuối Cỗ Lá">
+<!-- LÁ CHUỐI / CỖ LÁ — lá chuối với gân giữa + gân phụ. Motif ẩm thực. 1 màu currentColor. -->
+<g stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<!-- viền lá hình thuôn -->
+<path d="M36 4 C20 16 12 38 14 66 C30 60 42 56 58 38 C62 26 54 12 36 4 Z"/>
+<!-- gân giữa -->
+<path d="M30 60 C30 42 33 22 40 9" stroke-width="1"/>
+<!-- gân phụ trái -->
+<g stroke-width=".7">
+<path d="M30 54 C24 52 20 50 17 48"/>
+<path d="M31 46 C26 44 22 42 19 39"/>
+<path d="M32 38 C28 36 25 34 22 31"/>
+<path d="M34 30 C31 28 28 26 26 23"/>
+<path d="M36 22 C34 20 32 18 30 16"/>
+</g>
+<!-- gân phụ phải -->
+<g stroke-width=".7">
+<path d="M31 50 C38 48 44 44 49 39"/>
+<path d="M33 42 C39 40 44 36 48 32"/>
+<path d="M34 34 C40 32 44 29 47 25"/>
+<path d="M36 26 C40 24 43 22 45 19"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{ ten }} — Brochure (8 trang A4)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,400;1,6..96,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/brochure-light.css">
+<link rel="stylesheet" href="../../assets/css/theme-skins.css">
+<link rel="stylesheet" href="../../assets/css/motifs.css">
+<style>
+/* Placeholder ảnh — tương thích motifs.css chưa có */
+.ph { position:absolute; inset:0; background:linear-gradient(135deg,#0C7A37 0%,#0A6A2F 60%,#085226 100%);
+  display:flex; align-items:center; justify-content:center; }
+.ph::after { content:attr(data-label); font-family:"Inter",sans-serif; font-size:7pt;
+  letter-spacing:1.5pt; color:rgba(235,203,134,.8); border:1pt dashed rgba(235,203,134,.6);
+  padding:4pt 12pt; border-radius:2pt; }
+.dest-pic .ph { position:absolute; inset:0; }
+/* Motif hooks — lành tính nếu motifs.css chưa có */
+.m-corner,.m-band-top,.m-band-bottom,.m-watermark { position:absolute; pointer-events:none; z-index:1; }
+</style>
+</head>
+<body class="theme-{{ theme }}">
+
+<!-- ============ TRANG 1 — BÌA / OVERVIEW ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <!-- Motif: bìa ảnh đầy → chỉ 4 góc tinh tế, KHÔNG watermark lấp -->
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+
+  <div class="p1-hero">
+    {% if cover_hero %}
+    <img src="{{ cover_hero }}" alt="{{ ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+    {% else %}
+    <div class="ph" data-slot="hero" data-label="📷 Ảnh bìa · {{ ten }}"></div>
+    {% endif %}
+    <div class="hc">
+      <div class="top-bar">
+        <div class="logo-grp">
+          <span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt="Mường Cốc"></span>
+          <div class="nm">
+            <span class="nm-sub">Du lịch cộng đồng</span>
+            <span class="nm-main">MƯỜNG CỐC</span>
+            <span class="nm-tagline">– Chạm vào bình yên –</span>
+          </div>
+        </div>
+        <div class="pg-label">{{ pg_label_cover }}<br>MỘT NGÀY · 01 / 08</div>
+      </div>
+      <div class="center">
+        <div class="pre"><span class="ln"></span><span class="lb">{{ thoi_luong | upper }} · ONE DAY</span><span class="ln"></span></div>
+        <h1>{{ ten_split[0] }}<br>{% if ten_split | length > 1 %}<em>{{ ten_split[1:] | join(' ') }}</em>{% endif %}</h1>
+        <div class="sub">{{ tagline }}{% if tagline_en is defined and tagline_en %}<span class="en" style="color:rgba(243,238,223,.7);font-size:80%;">{{ tagline_en }}</span>{% endif %}</div>
+      </div>
+      <div class="bottom-bar">
+        {% if cu_ly %}
+        <div class="st"><div class="nb">{{ cu_ly }}</div><div class="lb">KM · CẤP ĐỘ DỄ</div></div>
+        {% else %}
+        <div class="st"><div class="nb">—</div><div class="lb">LIÊN HỆ</div></div>
+        {% endif %}
+        <div class="price">
+          <div class="top">— trọn gói —</div>
+          <div class="num">{{ gia_display }}</div>
+          <div class="unit">VNĐ / KHÁCH</div>
+        </div>
+        <div class="st"><div class="nb">{{ quy_mo }}</div><div class="lb">KHÁCH / ĐOÀN</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p1-lower">
+    <div class="intro-row">
+      <div class="intro">
+        <div class="kick">— Giới thiệu chương trình</div>
+        <p><span class="drop">{{ intro[0] }}</span>{{ intro[1:] }}
+        {% if intro_en is defined and intro_en %}<span class="en">{{ intro_en }}</span>{% endif %}</p>
+      </div>
+      <div class="qr-card">
+        <img src="../../assets/qr/qr-cung-{{ slug }}.png" alt="QR cung {{ slug }}" style="width:31mm;height:31mm;object-fit:contain;">
+        <div class="ql">Bản đồ tuyến tour</div>
+        <div class="qs">Quét mã xem bản đồ &amp; tuyến đường trên Google Maps</div>
+      </div>
+    </div>
+    <div class="divider">
+      <span class="ll"></span><span class="lab">{{ highlights | length }} LÝ DO</span>
+      <span class="ct">— <em>điểm nhấn chương trình</em> —</span>
+      <span class="rl"></span>
+    </div>
+    <div class="hl5">
+      {% for h in highlights %}
+      <div class="c">
+        <div class="ic">{{ highlight_icons[loop.index0] if loop.index0 < highlight_icons | length else "✦" }}</div>
+        <div class="nm">{{ h | truncate(28, true, '', 0) }}</div>
+        <div class="ds">{{ h }}
+        {% if highlights_en is defined and highlights_en and loop.index0 < highlights_en | length %}<span class="en">{{ highlights_en[loop.index0] }}</span>{% endif %}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="bottom-tag">
+    <span class="it">"Chạm Vào Bình Yên"</span>
+    <span>DU LỊCH CỘNG ĐỒNG MƯỜNG CỐC · XÃ MỸ ĐỨC · HÀ NỘI</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 2 — LỊCH TRÌNH (NỬA ĐẦU) ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  <div class="img-head">
+    {% set half = (lich_trinh | length + 1) // 2 %}
+    {% set ns_am = namespace(img=None) %}
+    {% for stop in lich_trinh[:half] %}
+      {% if ns_am.img is none and stop.diem in images %}
+        {% set ns_am.img = images[stop.diem] %}
+      {% endif %}
+    {% endfor %}
+    {% if ns_am.img %}
+    <img src="{{ ns_am.img }}" alt="Lịch trình buổi sáng">
+    {% else %}
+    <div class="ph" data-slot="itinerary-am" data-label="📷 Ảnh lịch trình buổi sáng"></div>
+    {% endif %}
+    <div class="ov">
+      <div class="top-bar">
+        <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+        <div class="pg-label">LỊCH TRÌNH · BUỔI SÁNG<br>02 / 08</div>
+      </div>
+      <div class="ttl">
+        {% set first_stop = lich_trinh[0] %}
+        <div class="kick">{{ first_stop.gio_hoac_buoi }} – {{ lich_trinh[ (lich_trinh | length // 2) - 1 ].gio_hoac_buoi }} · KHỞI HÀNH</div>
+        <h2>Buổi sáng <em>bên bản</em></h2>
+        <div class="sub">Từ Hub Đồi Dùng, men theo những điểm dừng đầu tiên</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="itin-body">
+    <div class="tl">
+      {% set half = (lich_trinh | length + 1) // 2 %}
+      {% for stop in lich_trinh[:half] %}
+      <div class="stop{% if loop.index == (half // 2) %} key{% endif %}">
+        <div class="time">{{ stop.gio_hoac_buoi }}</div><div class="node"></div>
+        <h3>{{ stop.diem }}</h3>
+        <p>{{ stop.mo_ta }}{% if stop.luu_y %} <i>{{ stop.luu_y }}</i>{% endif %}
+        {% if stop.mo_ta_en is defined and stop.mo_ta_en %}<span class="en">{{ stop.mo_ta_en }}</span>{% endif %}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {# Lấp khoảng trống khi ít điểm dừng: thêm khối nguyên tắc 5 KHÔNG compact #}
+    {% set half_am = (lich_trinh | length + 1) // 2 %}
+    {% if half_am <= 3 %}
+    <div class="itin-quote">
+      <span class="iq-deco"></span>
+      <p class="iq-text">"Mỗi điểm dừng là một câu chuyện, kể bởi chính người đang sống tại đó."</p>
+      <div class="iq-five">
+        <div class="if-t">CAM KẾT 5 KHÔNG · DU LỊCH XANH MƯỜNG CỐC</div>
+        <div class="if-list">
+          <span>01 Không rác nhựa</span><span>02 Không bê tông hoá</span>
+          <span>03 Không dàn dựng đời sống</span><span>04 Không bỏ lại dấu chân nặng</span>
+          <span>05 Không quên trồng lại một cây</span>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="m-band-strip"></div>
+  <div class="bottom-tag">
+    <span class="it">"Mỗi điểm dừng là một câu chuyện"</span>
+    <span>{{ ten | upper }} · LỊCH TRÌNH SÁNG</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 3 — LỊCH TRÌNH (NỬA SAU) ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  {% if not net_zero %}<div class="m-wm-fill"></div>{% endif %}
+  <div class="img-head">
+    {% set half2 = (lich_trinh | length + 1) // 2 %}
+    {% set ns_pm = namespace(img=None) %}
+    {% for stop in lich_trinh[half2:] %}
+      {% if ns_pm.img is none and stop.diem in images %}
+        {% set ns_pm.img = images[stop.diem] %}
+      {% endif %}
+    {% endfor %}
+    {% if ns_pm.img %}
+    <img src="{{ ns_pm.img }}" alt="Lịch trình buổi chiều">
+    {% else %}
+    <div class="ph" data-slot="itinerary-pm" data-label="📷 Ảnh lịch trình buổi chiều"></div>
+    {% endif %}
+    <div class="ov">
+      <div class="top-bar">
+        <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+        <div class="pg-label">LỊCH TRÌNH · BUỔI CHIỀU<br>03 / 08</div>
+      </div>
+      <div class="ttl">
+        {% set half = (lich_trinh | length + 1) // 2 %}
+        {% set last_stop = lich_trinh[-1] %}
+        <div class="kick">{{ lich_trinh[half].gio_hoac_buoi }} – {{ last_stop.gio_hoac_buoi }} · TRỞ VỀ</div>
+        <h2>Buổi chiều <em>trong thung</em></h2>
+        <div class="sub">{{ tagline }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="itin-body">
+    <div class="tl">
+      {% set half = (lich_trinh | length + 1) // 2 %}
+      {% for stop in lich_trinh[half:] %}
+      <div class="stop{% if loop.first %} key{% endif %}">
+        <div class="time">{{ stop.gio_hoac_buoi }}</div><div class="node"></div>
+        <h3>{{ stop.diem }}</h3>
+        <p>{{ stop.mo_ta }}{% if stop.luu_y %} <i>{{ stop.luu_y }}</i>{% endif %}
+        {% if stop.mo_ta_en is defined and stop.mo_ta_en %}<span class="en">{{ stop.mo_ta_en }}</span>{% endif %}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {# Lấp khoảng trống T3 khi số stop chiều ít và không có net_zero #}
+    {% set half_pm = (lich_trinh | length + 1) // 2 %}
+    {% if not net_zero and (lich_trinh | length - half_pm) <= 3 %}
+    <div class="itin-quote">
+      <span class="iq-deco"></span>
+      <p class="iq-text">"Bạn đến để lắng nghe — chứ không chỉ để xem."</p>
+      <div class="iq-five">
+        <div class="if-t">HÀNH TRÌNH KẾT THÚC · NHƯNG BẢN MƯỜNG VẪN CÒN ĐÓ</div>
+        <div class="if-list">
+          <span>Mỗi điểm dừng là một ký ức</span><span>Mỗi bữa ăn là một câu chuyện</span>
+          <span>Mỗi người gặp là một bài học</span><span>Mỗi hành trình là một lần chậm lại</span>
+          <span>Mỗi lần trở về — bạn đã thay đổi một chút</span>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if net_zero %}
+    <div class="fivebox">
+      <div class="fh"><div class="t">Cam kết <em>5 KHÔNG</em></div><div class="tag">DU LỊCH XANH MƯỜNG CỐC</div></div>
+      <div class="lead-act">Mỗi vị khách cùng Mường Cốc giữ bản làng nguyên vẹn cho người đến sau.</div>
+      <div class="fl">
+        <div class="it"><b>01</b> Không rác nhựa dùng một lần</div>
+        <div class="it"><b>02</b> Không bê tông hoá thung lũng</div>
+        <div class="it"><b>03</b> Không dàn dựng đời sống bản</div>
+        <div class="it"><b>04</b> Không bỏ lại dấu chân nặng</div>
+        <div class="it"><b>05</b> Không quên trồng lại một cây</div>
+        <div class="it"><b>+</b> {{ net_zero }}</div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="m-band-strip"></div>
+  <div class="bottom-tag">
+    <span class="it">"Bạn đến để lắng nghe — chứ không chỉ để xem"</span>
+    <span>{{ ten | upper }} · LỊCH TRÌNH CHIỀU</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 4 — BẢN ĐỒ TUYẾN ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  <div class="m-wm-fill"></div>
+  <div class="m-band-top"></div>
+  <div class="dark-head">
+    <div class="top-bar">
+      <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+      <div class="pg-label">BẢN ĐỒ &amp; TUYẾN ĐƯỜNG<br>04 / 08</div>
+    </div>
+    <div class="center"><div class="kick">HÀNH TRÌNH KHÁM PHÁ · ĐƯỜNG DÂN SINH</div><h2>Bản đồ <em>tuyến tour</em></h2></div>
+  </div>
+
+  <div class="map-body">
+    <div class="map-stats">
+      {% if cu_ly %}<div class="ms"><div class="nb">{{ cu_ly }}</div><div class="lb">Ki-lô-mét</div></div>{% endif %}
+      <div class="ms"><div class="nb">{{ thoi_luong }}</div><div class="lb">Thời gian</div></div>
+      <div class="ms"><div class="nb">Dễ</div><div class="lb">Cấp độ</div></div>
+      <div class="ms"><div class="nb">{{ lich_trinh | length }}</div><div class="lb">Điểm dừng</div></div>
+    </div>
+
+    <div class="map-row">
+      <div class="map-main">
+        <div class="route-map"><img src="../../assets/img/maps/{{ slug }}.png" alt="Bản đồ tuyến {{ ten }}"></div>
+        <div class="map-legend">
+          {% for stop in lich_trinh %}<span class="lg"><b>{{ loop.index }}</b>{{ stop.diem }}</span>{% endfor %}
+        </div>
+      </div>
+
+      <div class="map-aside">
+        <div class="map-qr">
+          <!-- QR bản đồ tương tác Google My Maps -->
+          <img src="../../assets/qr/qr-mymaps.png" alt="QR bản đồ Google My Maps" style="width:40mm;height:40mm;object-fit:contain;margin:0 auto;display:block;">
+          <div class="qt">Mở <em>bản đồ tương tác</em></div>
+          <div class="qd">Quét mã để xem tuyến đường, từng điểm dừng kèm ảnh &amp; mô tả trên Google My Maps.</div>
+          <div class="qu">Liên hệ Ban điều phối để nhận link</div>
+        </div>
+        <div class="map-tip">
+          <div class="tl2">Lưu ý tuyến</div>
+          <p>Toàn tuyến đi theo đường dân sinh trong bản, an toàn, tránh đường lớn nhiều xe.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {# Dải ảnh cảnh đẹp cung — lấy tối đa 3 ảnh từ diem_den, tránh để trống T4 #}
+  {% set ns_map_imgs = namespace(found=[]) %}
+  {% for d in diem_den %}
+    {% if ns_map_imgs.found | length < 3 and d.ten in images %}
+      {% set ns_map_imgs.found = ns_map_imgs.found + [{"ten": d.ten, "src": images[d.ten]}] %}
+    {% endif %}
+  {% endfor %}
+  {% if ns_map_imgs.found | length == 0 %}
+    {% for s in lich_trinh %}
+      {% if ns_map_imgs.found | length < 3 and s.diem in images %}
+        {% set ns_map_imgs.found = ns_map_imgs.found + [{"ten": s.diem, "src": images[s.diem]}] %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if ns_map_imgs.found %}
+  <div class="map-photo-strip">
+    {% for mi in ns_map_imgs.found %}
+    <div class="mps-item">
+      <img src="{{ mi.src }}" alt="{{ mi.ten }}">
+      <span class="mps-cap">{{ mi.ten }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="bottom-tag">
+    <span class="it">"Đi chậm theo đường làng — an toàn và đầy chuyện kể"</span>
+    <span>{{ ten | upper }} · BẢN ĐỒ</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 5 — DỊCH VỤ / ADD-ON / FARMSTAY ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  {% if not farmstay_options %}<div class="m-wm-fill"></div>{% endif %}
+  <div class="dark-head">
+    <div class="top-bar">
+      <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+      <div class="pg-label">DỊCH VỤ &amp; LỰA CHỌN<br>05 / 08</div>
+    </div>
+    <div class="center"><div class="kick">GÓI TRỌN GÓI {{ gia_display }} / KHÁCH</div><h2>Bao gồm những <em>gì</em></h2></div>
+  </div>
+
+  <div class="svc-body">
+    <div class="inc-exc">
+      <div class="col inc">
+        <h4>Dịch vụ <em>bao gồm</em></h4>
+        <ul>
+          {% for item in bao_gom %}
+          <li>{{ item }}{% if bao_gom_en is defined and bao_gom_en and loop.index0 < bao_gom_en | length %}<span class="en">{{ bao_gom_en[loop.index0] }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col exc">
+        <h4>Không <em>bao gồm</em></h4>
+        <ul>
+          {% for item in khong_bao_gom %}
+          <li>{{ item }}{% if khong_bao_gom_en is defined and khong_bao_gom_en and loop.index0 < khong_bao_gom_en | length %}<span class="en">{{ khong_bao_gom_en[loop.index0] }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% if addon %}
+    <div class="blk-head"><span class="ll"></span><span class="t">Trải nghiệm thêm <em>theo yêu cầu</em></span><span class="rl"></span><span class="cap">BÁO TRƯỚC ≥ 5 NGÀY · PHỤ THU THEO NHÓM</span></div>
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <tr><th style="width:42mm;">Trải nghiệm</th><th>Mô tả</th></tr>
+        {% for a in addon %}
+        <tr><td class="k">{{ a.ten }}</td><td>{{ a.mo_ta }}{% if a.mo_ta_en is defined and a.mo_ta_en %}<span class="en">{{ a.mo_ta_en }}</span>{% endif %}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+    <div class="addon-note">Mọi add-on phù hợp với tất cả các nhóm khách.</div>
+    {% endif %}
+
+    {% if farmstay_options %}
+    <div class="blk-head"><span class="ll"></span><span class="t">Phương án <em>Farmstay</em></span><span class="rl"></span><span class="cap">CÙNG CỤM · LINH HOẠT THEO YÊU CẦU</span></div>
+    <div class="fgrid{% if farmstay_options | length == 5 %} cols5{% endif %}">
+      {% for fs in farmstay_options %}
+      <div class="fc{% if loop.first %} def{% endif %}">
+        <div class="ic">{% if loop.first %}🌾{% elif loop.index == 2 %}🪡{% elif loop.index == 3 %}🌳{% elif loop.index == 4 %}🐟{% else %}🏡{% endif %}</div>
+        <div class="nm">{{ fs.ten }}</div>
+        <div class="tag">{{ fs.tag }}</div>
+        <div class="ds">{{ fs.mo_ta }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="m-band-strip"></div>
+  <div class="bottom-tag">
+    <span class="it">"Chỉ giới thiệu những gì có thật"</span>
+    <span>{{ ten | upper }} · DỊCH VỤ</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 6 — ĐIỂM ĐẾN NỔI BẬT (1/2) ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  {% if diem_den | length < 3 %}<div class="m-wm-fill"></div>{% endif %}
+  <div class="dark-head">
+    <div class="top-bar">
+      <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+      <div class="pg-label">ĐIỂM ĐẾN NỔI BẬT<br>06 / 08</div>
+    </div>
+    <div class="center"><div class="kick">NHỮNG NƠI BẠN SẼ DỪNG CHÂN</div><h2>Dọc đường <em>buổi sáng</em></h2></div>
+  </div>
+
+  <div class="dest-body">
+    {% set first_half = diem_den[:3] %}
+    {% for d in first_half %}
+    <div class="dest-card{% if loop.index is even %} rev{% endif %}">
+      {% if loop.index is odd %}
+      <div class="dest-pic dpic" style="position:relative;">
+        {% if d.ten in images %}
+        <img src="{{ images[d.ten] }}" alt="{{ d.ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        {% else %}
+        <div class="ph" data-slot="{{ d.ten | slugify }}" data-label="📷 {{ d.ten }}"></div>
+        {% endif %}
+        <span class="pin">{{ d.loai }}</span>
+      </div>
+      <div class="dest-txt">
+        <div class="dn">{{ d.ten }}<span class="sub">{{ d.mo_ta_ngan }}</span></div>
+        <p class="dp">{{ d.mo_ta_ngan }}{% if d.mo_ta_ngan_en is defined and d.mo_ta_ngan_en %}<span class="en">{{ d.mo_ta_ngan_en }}</span>{% endif %}</p>
+      </div>
+      {% else %}
+      <div class="dest-txt">
+        <div class="dn">{{ d.ten }}<span class="sub">{{ d.mo_ta_ngan }}</span></div>
+        <p class="dp">{{ d.mo_ta_ngan }}{% if d.mo_ta_ngan_en is defined and d.mo_ta_ngan_en %}<span class="en">{{ d.mo_ta_ngan_en }}</span>{% endif %}</p>
+      </div>
+      <div class="dest-pic dpic" style="position:relative;">
+        {% if d.ten in images %}
+        <img src="{{ images[d.ten] }}" alt="{{ d.ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        {% else %}
+        <div class="ph" data-slot="{{ d.ten | slugify }}" data-label="📷 {{ d.ten }}"></div>
+        {% endif %}
+        <span class="pin">{{ d.loai }}</span>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="m-band-strip"></div>
+  <div class="bottom-tag">
+    <span class="it">"Mỗi điểm dừng là một câu chuyện"</span>
+    <span>{{ ten | upper }} · ĐIỂM ĐẾN</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 7 — ĐIỂM ĐẾN NỔI BẬT (2/2) ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  {% set _t7n = (diem_den[3:6] | length) if diem_den | length > 3 else (diem_den | length) %}
+  {% if _t7n < 3 %}<div class="m-wm-fill lg"></div>{% endif %}
+  <div class="dark-head">
+    <div class="top-bar">
+      <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+      <div class="pg-label">ĐIỂM ĐẾN NỔI BẬT<br>07 / 08</div>
+    </div>
+    <div class="center"><div class="kick">NHỮNG NƠI BẠN SẼ DỪNG CHÂN</div><h2>Vào sâu <em>trong thung</em></h2></div>
+  </div>
+
+  <div class="dest-body">
+    {% set second_half = diem_den[3:6] if diem_den | length > 3 else diem_den %}
+    {% for d in second_half %}
+    <div class="dest-card{% if loop.index is even %} rev{% endif %}">
+      {% if loop.index is odd %}
+      <div class="dest-pic dpic" style="position:relative;">
+        {% if d.ten in images %}
+        <img src="{{ images[d.ten] }}" alt="{{ d.ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        {% else %}
+        <div class="ph" data-slot="{{ d.ten | slugify }}-2" data-label="📷 {{ d.ten }}"></div>
+        {% endif %}
+        <span class="pin">{{ d.loai }}</span>
+      </div>
+      <div class="dest-txt">
+        <div class="dn">{{ d.ten }}<span class="sub">{{ d.mo_ta_ngan }}</span></div>
+        <p class="dp">{{ d.mo_ta_ngan }}{% if d.mo_ta_ngan_en is defined and d.mo_ta_ngan_en %}<span class="en">{{ d.mo_ta_ngan_en }}</span>{% endif %}</p>
+      </div>
+      {% else %}
+      <div class="dest-txt">
+        <div class="dn">{{ d.ten }}<span class="sub">{{ d.mo_ta_ngan }}</span></div>
+        <p class="dp">{{ d.mo_ta_ngan }}{% if d.mo_ta_ngan_en is defined and d.mo_ta_ngan_en %}<span class="en">{{ d.mo_ta_ngan_en }}</span>{% endif %}</p>
+      </div>
+      <div class="dest-pic dpic" style="position:relative;">
+        {% if d.ten in images %}
+        <img src="{{ images[d.ten] }}" alt="{{ d.ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        {% else %}
+        <div class="ph" data-slot="{{ d.ten | slugify }}-2" data-label="📷 {{ d.ten }}"></div>
+        {% endif %}
+        <span class="pin">{{ d.loai }}</span>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="m-band-strip"></div>
+  <div class="bottom-tag">
+    <span class="it">"Bạn đến để lắng nghe — chứ không chỉ để xem"</span>
+    <span>{{ ten | upper }} · ĐIỂM ĐẾN</span>
+  </div>
+</div>
+
+<!-- ============ TRANG 8 — ĐỐI TƯỢNG / LƯU Ý / LIÊN HỆ ============ -->
+<div class="page">
+  <div class="frame"></div>
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  <div class="m-wm-fill lg mid"></div>
+  <div class="dark-head">
+    <div class="top-bar">
+      <div class="logo-grp"><span class="logo-wrap"><img src="../../assets/img/logo-muong-coc.png" alt=""></span><div class="nm"><span class="nm-sub">Du lịch cộng đồng</span><span class="nm-main">MƯỜNG CỐC</span><span class="nm-tagline">– Chạm vào bình yên –</span></div></div>
+      <div class="pg-label">TRƯỚC KHI ĐI<br>08 / 08</div>
+    </div>
+    <div class="center"><div class="kick">DÀNH CHO AI · CẦN LƯU Ý GÌ</div><h2>Một ngày dành cho <em>bạn</em></h2></div>
+  </div>
+
+  <div class="fin-body">
+    <div class="two">
+      <div class="bx aud">
+        <h4><span class="ic">🎯</span> Đối tượng khách <em>phù hợp</em></h4>
+        <ul>
+          {% for dt in doi_tuong %}
+          <li><span class="e">{{ audience_icons[loop.index0] if loop.index0 < audience_icons | length else "🌿" }}</span><b>{{ dt.nhom }}</b>{{ dt.mo_ta }}{% if dt.mo_ta_en is defined and dt.mo_ta_en %}<span class="en">{{ dt.mo_ta_en }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="bx note">
+        <h4><span class="ic">⚠️</span> Lưu ý <em>quan trọng</em></h4>
+        <ul>
+          {% for n in luu_y %}
+          <li><span class="e">{{ note_icons[loop.index0] if loop.index0 < note_icons | length else "📌" }}</span><b>{{ n.tieu_de }}:</b> {{ n.mo_ta }}{% if n.mo_ta_en is defined and n.mo_ta_en %}<span class="en">{{ n.mo_ta_en }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="info">
+        <div class="ttl">— Liên hệ đặt tour</div>
+        <div class="org">{{ lien_he.don_vi }}</div>
+        <div class="rows">
+          {% if lien_he.nguoi %}<div class="r"><span class="ic">👤</span><b>{{ lien_he.nguoi }}</b></div>{% endif %}
+          <div class="r"><span class="ic">📍</span>Tourism Hub Đồi Dùng · xã Mỹ Đức · TP Hà Nội</div>
+          <div class="r"><span class="ic">📞</span><b>{{ lien_he.sdt }}</b></div>
+          <div class="r"><span class="ic">🌐</span>Fanpage: <b>{{ lien_he.fanpage }}</b></div>
+        </div>
+      </div>
+      <div class="price">
+        <div class="top">— trọn gói —</div>
+        <div class="num">{{ gia_display }}</div>
+        <span class="div"></span>
+        <div class="unit">VNĐ / KHÁCH{% if gia_en is defined and gia_en %}<span class="en" style="letter-spacing:0;">{{ gia_en }}</span>{% endif %}</div>
+      </div>
+    </div>
+
+    <div class="closing">
+      <div class="deco-mid"><span class="l"></span><span class="d"></span><span class="l"></span></div>
+      <div class="big">Du lịch cộng đồng Mường Cốc<br><em>Chạm Vào Bình Yên</em></div>
+      <div class="tagline">{{ tagline | upper }}</div>
+    </div>
+  </div>
+
+  <div class="bottom-tag">
+    <span class="it">"Bạn đến để lắng nghe — chứ không chỉ để xem"</span>
+    <span>{{ ten | upper }} · MỸ ĐỨC · HÀ NỘI</span>
+  </div>
+</div>
+
+</body>
+</html>

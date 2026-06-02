@@ -1,0 +1,91 @@
+{
+  "slug": "tour-kn-quang-phu-cau",
+  "ten": "Hà Nội · Quảng Phú Cầu · Mường Cốc",
+  "ten_en": "Hanoi · Quang Phu Cau · Muong Coc",
+  "loai": "tour",
+  "theme": "ketnoi",
+  "tagline": "Hương Lửa — Bản Mường — Một Ngày Chạm Bình Yên",
+  "tagline_en": "Incense Fire — Muong Village — A Day Touching Peace",
+  "thoi_luong": "1 ngày",
+  "thoi_luong_en": "1 day",
+  "cu_ly": "Tổng di chuyển ~70 – 90 km",
+  "cu_ly_en": "Total travel ~70–90 km",
+  "quy_mo": "2 – 12 khách",
+  "gia": "Liên hệ Ban điều phối để nhận báo giá",
+  "gia_en": "Contact the coordination board for a quote",
+  "intro": "Quảng Phú Cầu và Mường Cốc — hai điểm đến cách nhau chưa đầy 20 km trong vùng Ứng Hoà và Mỹ Đức — mang hai sắc thái hoàn toàn khác biệt nhưng bổ sung nhau rất khéo: một nơi rực rỡ mùi hương, một nơi trầm lắng tiếng bản Mường. Hành trình ghép hai điểm trong cùng một ngày — buổi sáng giữa những bó hương xoè rực lửa, buổi chiều bên mâm Cỗ Lá Mường và nhịp xe đạp chầm chậm qua bản. Hai gam màu, một ngày, để bạn vừa choáng ngợp vừa lắng lại.",
+  "intro_en": "Quang Phu Cau and Muong Coc — two destinations less than 20 km apart in the Ung Hoa and My Duc areas — carry two utterly different moods that complement each other beautifully: one ablaze with incense colour, the other quiet with the sounds of a Muong village. The journey pairs them in a single day — a morning amid fiery fans of incense sticks, an afternoon beside a Co La Muong feast and the slow rhythm of cycling through the village. Two palettes, one day, to leave you both dazzled and at peace.",
+  "highlights": [
+    "Hai trải nghiệm làng nghề + cộng đồng trong một ngày — làng hương trăm năm và bản Mường ngàn đời, tương phản mà hài hoà.",
+    "Check-in rừng hương rực rỡ — bức tranh màu sắc đặc sắc, lý tưởng cho khách yêu nhiếp ảnh.",
+    "Cỗ Lá Mường farm-to-table — bữa trưa chân thực, không đĩa nhựa, nguyên liệu hoàn toàn địa phương.",
+    "Đạp xe trải nghiệm bản Mường — nhịp chậm hoàn toàn khác với nhịp sống thành phố.",
+    "Cam kết du lịch xanh — 5 KHÔNG, Refill Station, zero plastic."
+  ],
+  "highlights_en": [
+    "Two craft-village and community experiences in one day — a century-old incense village and an age-old Muong village, contrasting yet harmonious.",
+    "Photos in the vivid incense forest — a striking burst of colour, ideal for photography lovers.",
+    "A farm-to-table Co La Muong feast — an authentic lunch, no plastic plates, entirely local ingredients.",
+    "Cycling through the Muong village — a pace entirely unlike city life.",
+    "A green-travel commitment — the \"5 Nos\", refill stations, zero plastic."
+  ],
+  "lich_trinh": [
+    {"gio_hoac_buoi": "Sáng", "diem": "Hà Nội → Làng hương Quảng Phú Cầu (Ứng Hoà)", "diem_en": "Morning: Hanoi → Quang Phu Cau Incense Village (Ung Hoa)", "mo_ta": "Xe xuất phát từ Hà Nội, đi khoảng 40 – 50 phút theo hướng Tây Nam đến làng hương Quảng Phú Cầu. Hàng nghìn bó hương màu đỏ, hồng, vàng xoè thành hình tròn trên sân phơi như những bông hoa khổng lồ. Bạn tìm hiểu quy trình làm hương, thử tự se một bó, check-in và mua hương làm quà.", "mo_ta_en": "The vehicle leaves Hanoi and drives about 40–50 minutes southwest to Quang Phu Cau incense village. Thousands of red, pink, and yellow incense bundles fan out in circles across the drying yards like giant flowers. You learn the incense-making process, try rolling a bundle yourself, take photos, and buy incense as gifts.", "luu_y": "Phù hợp nhất khi đến vào buổi sáng sớm — nắng lên, hương phơi đầy sân, ánh sáng đẹp nhất.", "luu_y_en": "Best in the early morning — as the sun rises, the yards are full of drying incense and the light is at its finest."},
+    {"gio_hoac_buoi": "Trưa", "diem": "Mường Cốc — Tourism Hub Đồi Dùng & Bữa trưa Cỗ Lá Mường", "diem_en": "Midday: Muong Coc — Doi Dung Tourism Hub & Co La Muong lunch", "mo_ta": "Xe đưa bạn về Tourism Hub Đồi Dùng, cách Quảng Phú Cầu 15 – 20 phút. Hướng dẫn viên bản địa người Mường đón bạn bằng ly trà thảo dược. Mâm Cỗ Lá Mường bày trên lá chuối tươi, không đĩa nhựa, nguyên liệu 100% địa phương — một bữa trưa farm-to-table đúng nghĩa.", "mo_ta_en": "The vehicle takes you to the Doi Dung Tourism Hub, 15–20 minutes from Quang Phu Cau. A local Muong guide welcomes you with a cup of herbal tea. The Co La Muong feast is laid on fresh banana leaves, no plastic plates, ingredients 100% local — a true farm-to-table lunch.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "Chiều", "diem": "Đạp xe trải nghiệm bản Mường", "diem_en": "Afternoon: Cycling through the Muong village", "mo_ta": "Bạn lên xe đạp khám phá Mường Cốc (~2 – 3 tiếng): Chùa Phú Cốc (cây đa hơn 400 năm), Hồ Baibóo (đi bè tre, khoác trang phục Mường), đồi hoa và vườn sim (hái sim, rượu sim OCOP), Đền Cây Thợi (cây thị 400 năm ba loại quả). Một vòng chầm chậm để cảm trọn nhịp sống của bản.", "mo_ta_en": "You take a bicycle to explore Muong Coc (~2–3 hours): Phu Coc Pagoda (a banyan over 400 years old), Baiboo Lake (bamboo rafting, Muong dress), the flower hill and myrtle garden (picking myrtle, OCOP myrtle wine), and Cay Thoi Temple (a 400-year persimmon with three kinds of fruit). A slow loop to feel the full rhythm of the village.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "Chiều muộn", "diem": "Trở về Hà Nội", "diem_en": "Late afternoon: Return to Hanoi", "mo_ta": "Xe đưa bạn trở về Hà Nội theo đường Hồ Chí Minh. Một ngày đầy màu sắc và hương thơm khép lại — mùi hương làng nghề ở Quảng Phú Cầu và mùi lá chuối tươi ở Mường Cốc theo bạn về tận nhà.", "mo_ta_en": "The vehicle returns you to Hanoi via the Ho Chi Minh Road. A day full of colour and fragrance comes to a close — the scent of incense from Quang Phu Cau and of fresh banana leaves from Muong Coc travelling home with you.", "luu_y": "", "luu_y_en": ""}
+  ],
+  "diem_den": [
+    {"ten": "Làng hương Quảng Phú Cầu", "ten_en": "Quang Phu Cau Incense Village", "loai": "Làng nghề (Ứng Hoà)", "loai_en": "Craft village (Ung Hoa)", "mo_ta_ngan": "Làng nghề làm hương truyền thống với hàng nghìn bó hương đỏ, hồng, vàng xoè rực trên sân phơi. Một trong những điểm check-in màu sắc nổi tiếng nhất vùng. Bạn tìm hiểu quy trình làm hương và thử tự se một bó.", "mo_ta_ngan_en": "A traditional incense-making village with thousands of red, pink, and yellow bundles fanned out across the drying yards. One of the region's most famous colourful photo spots. You learn the incense-making process and try rolling a bundle yourself."},
+    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió với cây đa cổ thụ hơn 400 năm tuổi. Điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Một khoảng lặng tĩnh tại giữa chiều đạp xe.", "mo_ta_ngan_en": "An ancient hilltop pagoda with a banyan over 400 years old. The spiritual anchor of the six villages of the Phu Coc area. A serene pause in the afternoon's cycling."},
+    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích giữa đất Mường. Bạn khoác trang phục Mường lưu hình và đi bè tre ra giữa mặt nước. Mặt hồ phẳng lặng, gió mát rượi.", "mo_ta_ngan_en": "A jade-green ecological balancing lake at the heart of the Muong land. You wear Muong dress for photos and raft out onto the water. The lake is calm, the breeze cool."},
+    {"ten": "Đồi hoa & Vườn sim", "ten_en": "Flower Hill & Myrtle Garden", "loai": "Cảnh quan · Sản vật OCOP", "loai_en": "Landscape · OCOP product", "mo_ta_ngan": "Đồi hoa rực rỡ và vườn sim cổ chăm bằng tay. Bạn tự hái những quả sim tím mọng dưới nắng. Khép lại bằng ly rượu sim OCOP ngọt thơm ủ từ nắng gió vườn nhà.", "mo_ta_ngan_en": "A vivid flower hill and an old myrtle garden tended by hand. You pick the plump, sun-ripened purple berries yourself. It closes with a glass of fragrant OCOP myrtle wine fermented from the garden's sun and wind."},
+    {"ten": "Đền Cây Thợi", "ten_en": "Cay Thoi Temple", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Một kỳ tích thiên nhiên của đất Mường.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old bearing three kinds of fruit on one trunk. A natural wonder of the Muong land."}
+  ],
+  "bao_gom": [
+    "Xe đưa đón và di chuyển giữa các điểm theo lộ trình (Hà Nội → Quảng Phú Cầu → Mường Cốc → Hà Nội)",
+    "Hướng dẫn viên; phần Mường Cốc do HDV bản địa phụ trách",
+    "Trải nghiệm tham quan làng hương Quảng Phú Cầu theo chương trình",
+    "Xe đạp và mũ bảo hiểm tại Mường Cốc",
+    "Bữa trưa Cỗ Lá Mường tại nhà dân (zero plastic)",
+    "Nước uống và khăn lạnh trong suốt hành trình",
+    "Bảo hiểm du lịch trọn gói"
+  ],
+  "bao_gom_en": [
+    "Transfers and transport between sites along the route (Hanoi → Quang Phu Cau → Muong Coc → Hanoi)",
+    "A guide; the Muong Coc segment is led by a local guide",
+    "The Quang Phu Cau incense-village visit per the programme",
+    "Bicycle and helmet at Muong Coc",
+    "Co La Muong feast lunch at a local home (zero plastic)",
+    "Drinking water and cool towels throughout the journey",
+    "Comprehensive travel insurance"
+  ],
+  "khong_bao_gom": [
+    "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
+    "Đồ uống trong bữa ăn",
+    "Chi phí mua sắm cá nhân tại làng hương",
+    "Tiền tip cho hướng dẫn viên và lái xe địa phương (nếu có — gợi ý)"
+  ],
+  "khong_bao_gom_en": [
+    "Breakfast, dinner, and beverages outside the programme",
+    "Beverages during meals",
+    "Personal shopping at the incense village",
+    "Tips for the guide and local drivers (optional — suggested)"
+  ],
+  "addon": [],
+  "farmstay_options": [],
+  "doi_tuong": [
+    {"nhom": "Khách yêu nhiếp ảnh", "nhom_en": "Photography lovers", "mo_ta": "Săn ảnh rừng hương mùa phơi.", "mo_ta_en": "Chasing photos of the incense forest in the drying season."},
+    {"nhom": "Gia đình", "nhom_en": "Families", "mo_ta": "Có con em muốn tìm hiểu làng nghề truyền thống.", "mo_ta_en": "With children keen to learn about a traditional craft village."},
+    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "Tìm một ngày đổi gió khỏi đô thị.", "mo_ta_en": "Seeking a day's change of air from the city."},
+    {"nhom": "Người yêu du lịch xanh", "nhom_en": "Lovers of green travel", "mo_ta": "Chậm, bền vững.", "mo_ta_en": "Slow and sustainable."},
+    {"nhom": "Đoàn trong ngày từ Hà Nội", "nhom_en": "Day groups from Hanoi", "mo_ta": "Cự ly tổng 70 – 90 km, thoải mái về ngay trong ngày.", "mo_ta_en": "A total of 70–90 km, comfortable to return the same day."}
+  ],
+  "luu_y": [
+    {"tieu_de": "Văn nghệ & Mo Mường", "tieu_de_en": "Performance & the Mo Muong ritual", "mo_ta": "Văn nghệ cộng đồng và Mo Mường có thể bổ sung theo yêu cầu đặt trước.", "mo_ta_en": "Community performance and the Mo Muong ritual can be added by advance request."},
+    {"tieu_de": "Báo giá", "tieu_de_en": "Pricing", "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách và mùa.", "mo_ta_en": "The itinerary, services, and detailed price are quoted by the coordination board according to group size and season."}
+  ],
+  "net_zero": "Cam kết 5 KHÔNG và mạng lưới Refill Station, bữa Cỗ Lá zero plastic tại Mường Cốc",
+  "net_zero_en": "The \"5 Nos\" commitment and the refill-station network, with a zero-plastic Co La feast at Muong Coc",
+  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+}

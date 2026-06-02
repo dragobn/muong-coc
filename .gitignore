@@ -1,2 +1,29 @@
+# ============================================================
+# .gitignore — demo-site / GitHub Pages (dragobn/muong-coc)
+# Giữ web: index.html, cung/*/index.html, poi/, assets/, motifs/
+# Loại print PDF (nặng ~354MB), brochure/poster HTML render, demo artifacts
+# ============================================================
+
+# --- Print artifacts (nặng, không đẩy lên Pages) ---
+print/
 bo-in-demo/
-poster/theme-demo/*.pdf
+cam-nang/*.pdf
+poster/*.pdf
+poster/theme-demo/
+
+# --- Generated HTML cho in (render từ template, không phải source) ---
+cung/*/brochure.html
+cung/*/poster.html
+cung/*/*.pdf
+
+# --- Backup files ---
+*.bak
+data-BACKUP-*/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- macOS ---
+.DS_Store

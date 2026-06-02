@@ -1,0 +1,226 @@
+/* ============================================================
+   MOTIFS.CSS — thư viện class gắn motif trang trí Mường Cốc.
+   Nguồn motif: assets/motifs/*.svg (line/flat, stroke màu brand bake sẵn).
+   Kỹ thuật: background-image (KHÔNG dùng CSS mask — mask BỊ BỎ khi
+   Chrome print-to-PDF & nhiều RIP in, đã verify thực tế).
+   QUY TẮC CỨNG (print-safe tuyệt đối):
+     - KHÔNG filter / backdrop-filter / mix-blend-mode / blur / mask.
+     - Watermark mờ qua opacity (không blur).
+     - Mọi lớp motif = pointer-events:none; absolute hoặc gọn trong
+       khung — KHÔNG đẩy layout, không đè chữ/ảnh chính.
+     - Màu motif đổi theo theme bằng cách trỏ SANG SVG biến thể màu
+       (-amber / -water / -earth / -link) — bake sẵn, in chuẩn CMYK.
+   Cách dùng: nạp SAU theme-skins.css.
+     <span class="m-corner m-corner-tl"></span>
+     <div class="m-band-top"></div>
+     <div class="m-watermark m-wm-trong-dong"></div>
+     <hr class="m-divider">
+     <i class="m-icon m-ic-mam-cay"></i>
+   ============================================================ */
+
+:root{
+  --motif-wm-opacity: .08;     /* độ mờ watermark nền */
+  --motif-band-h: 7mm;          /* cao dải band mặc định */
+  --motif-corner-sz: 16mm;      /* kích thước góc */
+  /* nguồn mặc định (xanh brand) — override theo theme bên dưới */
+  --motif-band-src: url("../motifs/tho-cam-band.svg");
+  --motif-wm-src:   url("../motifs/trong-dong.svg");
+  --motif-corner-src: url("../motifs/corner-orn.svg");
+  --motif-divider-src: url("../motifs/divider.svg");
+}
+
+/* ============================================================
+   1. CORNER — hoạ tiết góc khung
+   ============================================================ */
+.m-corner{
+  position:absolute; z-index:2; pointer-events:none;
+  width:var(--motif-corner-sz); height:var(--motif-corner-sz);
+  background:var(--motif-corner-src) center/contain no-repeat;
+}
+.m-corner-tl{ top:0;    left:0;  transform:rotate(0deg); }
+.m-corner-tr{ top:0;    right:0; transform:rotate(90deg); }
+.m-corner-br{ bottom:0; right:0; transform:rotate(180deg); }
+.m-corner-bl{ bottom:0; left:0;  transform:rotate(270deg); }
+
+/* GROUP 4 góc — đặt 1 phần tử .m-corners trong .page, tự sinh 4 góc
+   qua ::before/::after + 2 background-layer. Neo bên trong .frame (inset 6mm)
+   nên lùi vào 6mm. Kích thước nhỏ-tinh tế để không lòe loẹt. */
+.m-corners{
+  position:absolute; inset:6mm; z-index:7; pointer-events:none;
+}
+.m-corners span{
+  position:absolute; width:var(--motif-corner-sz); height:var(--motif-corner-sz);
+  background:var(--motif-corner-src) center/contain no-repeat;
+}
+.m-corners .tl{ top:0;    left:0;  transform:rotate(0deg); }
+.m-corners .tr{ top:0;    right:0; transform:rotate(90deg); }
+.m-corners .br{ bottom:0; right:0; transform:rotate(180deg); }
+.m-corners .bl{ bottom:0; left:0;  transform:rotate(270deg); }
+
+/* ============================================================
+   2. BAND — dải viền repeating ngang (tile seamless)
+   ============================================================ */
+.m-band-top,
+.m-band-bottom{
+  display:block; width:100%; pointer-events:none;
+  height:var(--motif-band-h);
+  background:var(--motif-band-src) repeat-x left center;
+  background-size:auto 100%;
+}
+.m-band-bottom{ transform:scaleY(-1); }   /* lật đối xứng mép dưới */
+
+/* dải band MẢNH đặt ngay TRÊN bottom-tag mỗi trang (phân cách tinh tế).
+   Absolute trong .page, cách đáy đúng tầm phía trên bottom-tag (~16mm). */
+.m-band-strip{
+  position:absolute; left:16mm; right:16mm; bottom:16mm;
+  height:4mm; pointer-events:none; z-index:1; opacity:.5;
+  background:var(--motif-band-src) repeat-x left center;
+  background-size:auto 100%;
+}
+
+/* ============================================================
+   3. WATERMARK — motif mờ làm nền (opacity thấp), không đè nội dung
+   Đặt trong wrapper position:relative; nội dung z-index cao hơn.
+   ============================================================ */
+.m-watermark{
+  position:absolute; pointer-events:none; z-index:0;
+  width:46%; aspect-ratio:1/1;
+  top:50%; left:50%; transform:translate(-50%,-50%);
+  opacity:var(--motif-wm-opacity);
+  background:var(--motif-wm-src) center/contain no-repeat;
+}
+/* biến thể vị trí góc */
+.m-wm-corner{ top:auto; left:auto; bottom:-4%; right:-4%; transform:none; width:34%; }
+
+/* ------------------------------------------------------------
+   WATERMARK LẤP TRỐNG — đặt ở NỬA DƯỚI trang, lớn & mờ, nằm
+   dưới nội dung (z-index 0). Dùng cho trang nội dung ngắn để
+   lấp khoảng trắng cuối trang mà KHÔNG đè chữ phần trên.
+   Neo theo mép dưới (cách bottom-tag ~16mm) + lệch phải nhẹ.
+   ------------------------------------------------------------ */
+.m-wm-fill{
+  position:absolute; pointer-events:none; z-index:0;
+  left:auto; top:auto;
+  right:-6mm; bottom:14mm; transform:none;
+  width:88mm; height:88mm;
+  opacity:calc(var(--motif-wm-opacity) + .02);
+  background:var(--motif-wm-src) center/contain no-repeat;
+}
+/* biến thể to hơn cho trang rất trống (vd liên hệ, dịch vụ ngắn) */
+.m-wm-fill.lg{ width:118mm; height:118mm; right:-14mm; bottom:10mm; }
+/* biến thể neo giữa-dưới (cân đối, không lệch) */
+.m-wm-fill.mid{ left:50%; right:auto; transform:translateX(-50%); bottom:16mm; }
+/* motif đồi núi & sóng vốn ngang → kéo rộng, hạ thấp sát đáy */
+.m-wm-fill.wide{ width:150mm; height:auto; aspect-ratio:auto; right:50%; transform:translateX(50%); bottom:18mm; }
+
+/* chọn motif watermark cụ thể (ghi đè --motif-wm-src) */
+.m-wm-trong-dong{ --motif-wm-src:url("../motifs/trong-dong.svg"); }
+.m-wm-nha-san  { --motif-wm-src:url("../motifs/nha-san.svg"); }
+.m-wm-sen      { --motif-wm-src:url("../motifs/sen.svg"); }
+.m-wm-la-chuoi { --motif-wm-src:url("../motifs/la-chuoi.svg"); }
+.m-wm-doi-nui  { --motif-wm-src:url("../motifs/doi-nui.svg"); width:64%; }
+.m-wm-mam-cay  { --motif-wm-src:url("../motifs/mam-cay.svg"); }
+.m-wm-vong     { --motif-wm-src:url("../motifs/vong-tuan-hoan.svg"); }
+.m-wm-song     { --motif-wm-src:url("../motifs/song-nuoc.svg"); width:70%; }
+
+/* ============================================================
+   4. DIVIDER — đường ngăn mục
+   ============================================================ */
+.m-divider{
+  display:block; width:100%; height:14px; border:0; margin:10px 0;
+  pointer-events:none;
+  background:var(--motif-divider-src) center/auto 100% no-repeat;
+}
+
+/* ============================================================
+   5. ICON — motif đơn dùng inline (kích thước theo em, ăn font-size)
+   ============================================================ */
+.m-icon{
+  display:inline-block; width:1.4em; height:1.4em; vertical-align:middle;
+  background:var(--motif-ic-src) center/contain no-repeat;
+}
+.m-ic-mam-cay   { --motif-ic-src:url("../motifs/mam-cay.svg"); }
+.m-ic-xe-dap    { --motif-ic-src:url("../motifs/xe-dap.svg"); width:2.2em; }
+.m-ic-vong      { --motif-ic-src:url("../motifs/vong-tuan-hoan.svg"); }
+.m-ic-cong-chieng{ --motif-ic-src:url("../motifs/cong-chieng.svg"); width:2em; }
+.m-ic-nha-san   { --motif-ic-src:url("../motifs/nha-san.svg"); width:2em; }
+.m-ic-la-chuoi  { --motif-ic-src:url("../motifs/la-chuoi.svg"); }
+.m-ic-lua       { --motif-ic-src:url("../motifs/lua.svg"); }
+.m-ic-sen       { --motif-ic-src:url("../motifs/sen.svg"); width:1.8em; }
+.m-ic-song      { --motif-ic-src:url("../motifs/song-nuoc.svg"); width:2.4em; }
+.m-ic-doi-nui   { --motif-ic-src:url("../motifs/doi-nui.svg"); width:3em; }
+.m-ic-trong-dong{ --motif-ic-src:url("../motifs/trong-dong.svg"); }
+.m-ic-duong-noi { --motif-ic-src:url("../motifs/duong-noi.svg"); width:2.4em; }
+
+/* ============================================================
+   6. GẮN THEO THEME — mỗi chủ đề set motif + màu chủ đạo (qua SVG biến thể).
+   Khai báo dưới theme-skins.css nên override mặc định ở :root.
+   ============================================================ */
+
+/* SINH THÁI → band đồi núi xanh · wm mầm cây (xanh chồi) */
+body.theme-sinhthai{
+  --motif-band-src:url("../motifs/doi-nui.svg");
+  --motif-wm-src:url("../motifs/mam-cay.svg");
+}
+
+/* DI SẢN → band thổ cẩm vàng đồng · wm trống đồng vàng · góc+divider vàng */
+body.theme-disan{
+  --motif-band-src:url("../motifs/tho-cam-band-amber.svg");
+  --motif-wm-src:url("../motifs/trong-dong-amber.svg");
+  --motif-corner-src:url("../motifs/corner-orn-amber.svg");
+  --motif-divider-src:url("../motifs/divider-amber.svg");
+  --motif-wm-opacity:.10;
+}
+body.theme-disan .m-wm-trong-dong{ --motif-wm-src:url("../motifs/trong-dong-amber.svg"); }
+
+/* NÔNG NGHIỆP → band thổ cẩm vàng · wm bông lúa vàng · góc+divider vàng */
+body.theme-nongnghiep{
+  --motif-band-src:url("../motifs/tho-cam-band-amber.svg");
+  --motif-wm-src:url("../motifs/lua-amber.svg");
+  --motif-corner-src:url("../motifs/corner-orn-amber.svg");
+  --motif-divider-src:url("../motifs/divider-amber.svg");
+}
+
+/* HỒ NƯỚC → band sóng nước xanh nước · wm sen xanh nước */
+body.theme-honuoc{
+  --motif-band-src:url("../motifs/song-nuoc-water.svg");
+  --motif-wm-src:url("../motifs/sen-water.svg");
+}
+
+/* TREK → band đồi núi cam đất · wm nhà sàn cam đất */
+body.theme-trek{
+  --motif-band-src:url("../motifs/doi-nui-earth.svg");
+  --motif-wm-src:url("../motifs/nha-san-earth.svg");
+  --motif-band-h:9mm;
+}
+
+/* KẾT NỐI → band đường nối lam · wm đường nối lam */
+body.theme-ketnoi{
+  --motif-band-src:url("../motifs/duong-noi-link.svg");
+  --motif-wm-src:url("../motifs/duong-noi-link.svg");
+}
+body.theme-ketnoi .m-watermark{ width:70%; }
+
+/* ------------------------------------------------------------
+   Tinh chỉnh WATERMARK LẤP TRỐNG (.m-wm-fill) theo dạng motif:
+   motif NGANG (đồi núi, sóng, đường nối) → kéo rộng, hạ sát đáy,
+   căn giữa để không bị méo; motif VUÔNG giữ mặc định.
+   ------------------------------------------------------------ */
+body.theme-sinhthai .m-wm-fill{ width:96mm; height:96mm; }      /* mầm cây (vuông) */
+body.theme-trek     .m-wm-fill{ width:160mm; height:auto; aspect-ratio:auto;
+  right:50%; transform:translateX(50%); bottom:18mm; }          /* nhà sàn/đồi núi */
+body.theme-honuoc   .m-wm-fill{ width:150mm; height:auto; aspect-ratio:auto;
+  right:50%; transform:translateX(50%); bottom:20mm; }          /* sóng/sen ngang */
+body.theme-ketnoi   .m-wm-fill{ width:150mm; height:auto; aspect-ratio:auto;
+  right:50%; transform:translateX(50%); bottom:22mm; opacity:.09; } /* đường nối */
+
+/* ============================================================
+   7. PRINT — ép giữ màu/nền motif khi in
+   ============================================================ */
+@media print{
+  .m-corner,.m-corners,.m-corners span,
+  .m-band-top,.m-band-bottom,.m-band-strip,
+  .m-watermark,.m-wm-fill,.m-divider,.m-icon{
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+}

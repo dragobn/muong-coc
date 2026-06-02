@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20" viewBox="0 0 200 20" fill="none" stroke="#B58A37" role="img" aria-label="Đường ngăn mục">
+<!-- DIVIDER — ngăn mục: đường mảnh 2 bên + trám/sen trung tâm (hài hoà logo). 1 màu currentColor. -->
+<g stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none">
+<!-- đường ngang 2 bên -->
+<line x1="0" y1="10" x2="78" y2="10"/>
+<line x1="122" y1="10" x2="200" y2="10"/>
+<!-- chấm đầu mút -->
+<circle cx="78" cy="10" r="1.4" fill="#B58A37" stroke="none"/>
+<circle cx="122" cy="10" r="1.4" fill="#B58A37" stroke="none"/>
+<!-- cụm trung tâm: trám lớn + 2 cánh sen -->
+<path d="M100 3 L107 10 L100 17 L93 10 Z"/>
+<path d="M93 10 q-6 -1 -10 -5 q5 -1 8 2 M93 10 q-6 1 -10 5 q5 1 8 -2" stroke-width=".8"/>
+<path d="M107 10 q6 -1 10 -5 q-5 -1 -8 2 M107 10 q6 1 10 5 q-5 1 -8 -2" stroke-width=".8"/>
+<circle cx="100" cy="10" r="1.6" fill="#B58A37" stroke="none"/>
+</g>
+</svg>

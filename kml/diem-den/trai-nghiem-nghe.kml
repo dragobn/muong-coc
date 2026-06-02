@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+  <name>Mường Cốc — Trải nghiệm &amp; nghề truyền thống</name>
+  <Style id="poi"><IconStyle><color>ffcc66ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+  <Placemark>
+    <name>Hà Huy Chế (Điểm trải nghiệm Nhà thờ họ)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nghệ nhân văn hoá</b>, thôn Gốc Báng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Hà Huy Chế (Điểm trải nghiệm Nhà thờ họ)<br/>SĐT: 0352203633<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.68424,20.62237,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà nuôi vịt anh Tiến</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Thanh Hà.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Anh Tiến (vịt)<br/>Tình trạng: Đang hoạt động<br/><i>Toạ độ TẠM (tâm thôn Thanh Hà) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.71220453333335,20.607333766666667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà nuôi vịt anh Động</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Thanh Hà.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Văn Động (Trải nghiệm nông trại)<br/>Biển hiệu: ĐỘNG OANH TRẢI NGHIỆM NÔNG TRẠI<br/>SĐT: 0344263154<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà Trồng sim anh Ngự</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nghệ nhân nấu rượu</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Mạnh Ngự (Nhà vườn Hoan Thanh)<br/>Biển hiệu: NHÀ VƯỜN HOAN THANH — chụp ảnh + ăn uống<br/>SĐT: 0986728373<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.69263,20.62514,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ao cá 79 anh Vương</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Văn Vương (Ao cá 79 + nuôi vịt + hoa sen)<br/>SĐT: 0965330168<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ruộng mò trai</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Anh Lực hằng ngày mò trai dưới ruộng nông + ao đầm. Sinh kế thực — không phải show diễn. Khách có thể trải nghiệm nửa buổi cùng anh, ăn cơm cùng gia đình. Story arc cao vì authentic.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Anh Lực (mò trai)<br/>SĐT: 0986103298<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.69904,20.62523,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà Nguyệt Farm</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Đức Dương.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Thị Nguyệt (Nguyệt Farm — sen)<br/>SĐT: 0396561860<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.69447,20.63534,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

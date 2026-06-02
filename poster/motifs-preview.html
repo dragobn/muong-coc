@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thư viện Motif Mường Cốc — Preview</title>
+<!--
+  MOTIFS PREVIEW — showcase toàn bộ SVG motif + cách áp (corner/band/watermark/icon)
+  trên nền kem & nền theme. Dùng để duyệt nhanh + copy class.
+  Motif: ../assets/motifs/*.svg · Class: ../assets/css/motifs.css
+-->
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif:wght@600;700&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<link href="../assets/css/theme-skins.css" rel="stylesheet">
+<link href="../assets/css/motifs.css" rel="stylesheet">
+<style>
+  :root{ --green:#0A6A2F; --green-v:#00A33B; --amber:#C9912F; --amber-l:#EBCB86; --cream:#FBF7EE; --ink:#232020; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:"Be Vietnam Pro",system-ui,sans-serif; color:var(--ink);
+        background:var(--cream); line-height:1.5; }
+  header.page{ background:var(--green); color:#fff; padding:24px 28px; }
+  header.page h1{ margin:0 0 4px; font-family:"Noto Serif",serif; font-size:26px; }
+  header.page p{ margin:0; opacity:.9; font-size:13px; }
+  .wrap{ max-width:1080px; margin:0 auto; padding:28px; }
+  h2.sec{ font-family:"Noto Serif",serif; font-size:20px; color:var(--green);
+          border-bottom:2px solid var(--amber-l); padding-bottom:6px; margin:34px 0 16px; }
+  .note{ font-size:12.5px; color:#6a655c; margin:-6px 0 14px; }
+
+  /* GRID hiển thị từng SVG nguồn */
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px; }
+  .cell{ background:#fff; border:1px solid #e7e0d2; border-radius:10px; padding:14px 10px 10px;
+         text-align:center; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+  .cell .box{ height:84px; display:flex; align-items:center; justify-content:center;
+              color:var(--green-v); }
+  .cell .box img{ max-width:100%; max-height:80px; }
+  .cell .nm{ font-size:11.5px; font-weight:600; margin-top:8px; word-break:break-word; }
+  .cell .fn{ font-size:10px; color:#999; font-family:ui-monospace,monospace; }
+  .cell.amber .box{ color:var(--amber); }
+
+  /* DEMO áp dụng */
+  .demos{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
+  .demo{ position:relative; background:var(--cream); border:1px solid #e7e0d2; border-radius:12px;
+         overflow:hidden; min-height:200px; padding:0; }
+  .demo .inner{ position:relative; z-index:1; padding:26px 22px; }
+  .demo h3{ margin:0 0 6px; font-family:"Noto Serif",serif; font-size:17px; color:var(--green); }
+  .demo p{ margin:0; font-size:12.5px; color:#5c574e; }
+  .demo .frame-bdr{ position:absolute; inset:8px; border:.8px solid rgba(10,106,47,.3); border-radius:8px; pointer-events:none; }
+  .tag{ display:inline-block; font-size:10px; font-family:ui-monospace,monospace; background:#fff;
+        border:1px solid #ddd; border-radius:5px; padding:2px 6px; margin-top:10px; color:#555; }
+
+  /* THEME swatch row */
+  .themes{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:18px; }
+  .tdemo{ border-radius:12px; overflow:hidden; border:1px solid #00000014; min-height:240px;
+          position:relative; --motif-band-h:8mm; }
+  .tdemo .m-band-top{ position:relative; z-index:2; }
+  .tdemo .m-watermark{ z-index:0; }
+  .tdemo .tinner{ position:relative; z-index:1; padding:22px 24px 28px; }
+  .tdemo .tname{ font-family:"Noto Serif",serif; font-size:18px; margin:0 0 4px; }
+  .tdemo .tsub{ font-size:12px; opacity:.75; margin:0; }
+  .tdemo .frame{ position:absolute; inset:14px; top:34px; border:.8px solid currentColor; pointer-events:none; opacity:.5; }
+  /* nền kem theo theme cho khối preview (độc lập với <body>) */
+  .bg-cream{ background:var(--cream); }
+  .legend{ font-size:12px; color:#6a655c; background:#fff; border:1px dashed #d8cfba;
+           border-radius:8px; padding:12px 14px; margin-bottom:20px; }
+  code{ font-family:ui-monospace,monospace; background:#f0ead9; padding:1px 5px; border-radius:4px; font-size:12px; }
+</style>
+</head>
+<body>
+<header class="page">
+  <h1>Thư viện Motif trang trí — Mường Cốc</h1>
+  <p>Văn hoá Mường + Net-Zero · SVG line/flat print-safe (CMYK) · gắn theo theme-skin · ăn theo <code>currentColor</code></p>
+</header>
+
+<div class="wrap">
+
+  <div class="legend">
+    <strong>Cách dùng:</strong> nạp <code>motifs.css</code> sau <code>theme-skins.css</code>.
+    Đặt <code>class="theme-X"</code> trên <code>&lt;body&gt;</code> → band &amp; watermark tự đổi motif chủ đạo.
+    Mọi lớp motif <code>pointer-events:none</code>, không đè chữ/ảnh chính. Watermark mờ qua opacity (không blur).
+  </div>
+
+  <!-- ============ A. GRID NGUỒN SVG ============ -->
+  <h2 class="sec">A · Văn hoá Mường</h2>
+  <div class="grid">
+    <div class="cell"><div class="box"><img src="../assets/motifs/tho-cam-band.svg" alt="thổ cẩm"></div><div class="nm">Thổ cẩm (cạp váy)</div><div class="fn">tho-cam-band.svg</div></div>
+    <div class="cell amber"><div class="box"><img src="../assets/motifs/trong-dong.svg" alt="trống đồng"></div><div class="nm">Trống đồng</div><div class="fn">trong-dong.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/cong-chieng.svg" alt="cồng chiêng"></div><div class="nm">Cồng chiêng</div><div class="fn">cong-chieng.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/nha-san.svg" alt="nhà sàn"></div><div class="nm">Nhà sàn</div><div class="fn">nha-san.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/la-chuoi.svg" alt="lá chuối"></div><div class="nm">Lá chuối / Cỗ Lá</div><div class="fn">la-chuoi.svg</div></div>
+    <div class="cell amber"><div class="box"><img src="../assets/motifs/sen.svg" alt="sen"></div><div class="nm">Sen</div><div class="fn">sen.svg</div></div>
+  </div>
+
+  <h2 class="sec">B · Net-Zero / sinh thái</h2>
+  <div class="grid">
+    <div class="cell"><div class="box"><img src="../assets/motifs/mam-cay.svg" alt="mầm cây"></div><div class="nm">Mầm cây</div><div class="fn">mam-cay.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/xe-dap.svg" alt="xe đạp"></div><div class="nm">Xe đạp</div><div class="fn">xe-dap.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/song-nuoc.svg" alt="sóng nước"></div><div class="nm">Sóng nước</div><div class="fn">song-nuoc.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/vong-tuan-hoan.svg" alt="vòng tuần hoàn"></div><div class="nm">Vòng tuần hoàn</div><div class="fn">vong-tuan-hoan.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/doi-nui.svg" alt="đồi núi"></div><div class="nm">Đồi núi (99 đồi)</div><div class="fn">doi-nui.svg</div></div>
+    <div class="cell amber"><div class="box"><img src="../assets/motifs/lua.svg" alt="lúa"></div><div class="nm">Bông lúa</div><div class="fn">lua.svg</div></div>
+  </div>
+
+  <h2 class="sec">C · Dùng chung</h2>
+  <div class="grid">
+    <div class="cell amber"><div class="box"><img src="../assets/motifs/corner-orn.svg" alt="góc khung"></div><div class="nm">Góc khung</div><div class="fn">corner-orn.svg</div></div>
+    <div class="cell amber"><div class="box"><img src="../assets/motifs/divider.svg" alt="divider"></div><div class="nm">Divider</div><div class="fn">divider.svg</div></div>
+    <div class="cell"><div class="box"><img src="../assets/motifs/duong-noi.svg" alt="đường nối"></div><div class="nm">Đường nối (bản đồ)</div><div class="fn">duong-noi.svg</div></div>
+  </div>
+
+  <!-- ============ D. DEMO ÁP DỤNG (nền kem) ============ -->
+  <h2 class="sec">D · 3 ví dụ áp dụng (nền kem)</h2>
+  <p class="note">Corner (4 góc) · Band (viền trên/dưới repeating) · Watermark (motif mờ nền).</p>
+  <div class="demos">
+
+    <!-- corner -->
+    <div class="demo" style="color:var(--amber)">
+      <span class="m-corner m-corner-tl"></span>
+      <span class="m-corner m-corner-tr"></span>
+      <span class="m-corner m-corner-bl"></span>
+      <span class="m-corner m-corner-br"></span>
+      <span class="frame-bdr"></span>
+      <div class="inner">
+        <h3>Khung 4 góc</h3>
+        <p>Hoạ tiết góc <code>corner-orn.svg</code> xoay 0/90/180/270°. Dùng ôm khung trang in.</p>
+        <span class="tag">.m-corner .m-corner-tl…br</span>
+      </div>
+    </div>
+
+    <!-- band -->
+    <div class="demo" style="color:var(--green-v)">
+      <div class="m-band-top"></div>
+      <div class="inner" style="min-height:120px">
+        <h3>Dải viền (band)</h3>
+        <p>Thổ cẩm tile ngang seamless, viền trên/dưới. Lật <code>scaleY</code> cho mép dưới.</p>
+        <span class="tag">.m-band-top / .m-band-bottom</span>
+      </div>
+      <div class="m-band-bottom"></div>
+    </div>
+
+    <!-- watermark -->
+    <div class="demo">
+      <div class="m-watermark m-wm-trong-dong" style="color:var(--green)"></div>
+      <div class="inner">
+        <h3>Watermark nền</h3>
+        <p>Trống đồng mờ ~8% làm nền, không đè chữ. Đổi motif qua class <code>m-wm-*</code>.</p>
+        <span class="tag">.m-watermark .m-wm-trong-dong</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- divider demo -->
+  <h2 class="sec">E · Divider &amp; Icon</h2>
+  <div style="color:var(--amber); max-width:520px;">
+    <hr class="m-divider">
+  </div>
+  <p style="font-size:13px">
+    Icon inline ăn theo <code>font-size/color</code>:
+    <i class="m-icon m-ic-mam-cay" style="color:var(--green-v)"></i>
+    <i class="m-icon m-ic-xe-dap" style="color:var(--green)"></i>
+    <i class="m-icon m-ic-vong" style="color:var(--green-v)"></i>
+    <i class="m-icon m-ic-cong-chieng" style="color:var(--amber)"></i>
+    <i class="m-icon m-ic-lua" style="color:var(--amber)"></i>
+    <i class="m-icon m-ic-sen" style="color:var(--amber)"></i>
+    <i class="m-icon m-ic-song" style="color:#2E8FA8"></i>
+    <span class="tag">.m-icon .m-ic-*</span>
+  </p>
+
+  <!-- ============ F. MOTIF CHỦ ĐẠO THEO 6 THEME ============ -->
+  <h2 class="sec">F · Motif chủ đạo theo 6 theme</h2>
+  <p class="note">Mỗi khối mô phỏng nền theme: band trên + watermark + 2 góc tự đổi theo <code>body.theme-X</code>.</p>
+  <div class="themes" id="theme-grid"></div>
+
+</div>
+
+<script>
+/* Render 6 theme demo. Mỗi khối gói trong .theme-X riêng để CSS theme áp đúng. */
+/* Mỗi khối set trực tiếp các biến --motif-* (mô phỏng body.theme-X)
+   vì selector body.theme-X không áp lên <div> trong preview này.
+   LƯU Ý: url() trong --motif-*-src resolve theo motifs.css (assets/css/),
+   nên path phải là ../motifs/ — KHÔNG phải ../assets/motifs/. */
+const M = "../motifs/";
+const THEMES = [
+  {bg:"#FBF7EE", fg:"#0A6A2F", name:"1 · Sinh thái",   sub:"band đồi núi · wm mầm cây · xanh chồi",
+   band:M+"doi-nui.svg",            wm:M+"mam-cay.svg",          corner:M+"corner-orn.svg",       div:M+"divider.svg"},
+  {bg:"#FBF6EA", fg:"#13442A", name:"2 · Di sản",      sub:"band thổ cẩm · wm trống đồng · vàng đồng",
+   band:M+"tho-cam-band-amber.svg", wm:M+"trong-dong-amber.svg", corner:M+"corner-orn-amber.svg", div:M+"divider-amber.svg"},
+  {bg:"#FCF8EC", fg:"#3F6B24", name:"3 · Nông nghiệp", sub:"band thổ cẩm · wm bông lúa · hổ phách",
+   band:M+"tho-cam-band-amber.svg", wm:M+"lua-amber.svg",        corner:M+"corner-orn-amber.svg", div:M+"divider-amber.svg"},
+  {bg:"#F6FAF7", fg:"#0A5A4A", name:"4 · Hồ nước",     sub:"band sóng nước · wm sen · xanh nước",
+   band:M+"song-nuoc-water.svg",    wm:M+"sen-water.svg",        corner:M+"corner-orn.svg",       div:M+"divider.svg"},
+  {bg:"#F8F5EC", fg:"#234B1E", name:"5 · Trek",        sub:"band đồi núi · wm nhà sàn · cam đất",
+   band:M+"doi-nui-earth.svg",      wm:M+"nha-san-earth.svg",    corner:M+"corner-orn.svg",       div:M+"divider.svg"},
+  {bg:"#F5F9FB", fg:"#0A4F6A", name:"6 · Kết nối",     sub:"band đường nối · wm đường nối · lam",
+   band:M+"duong-noi-link.svg",     wm:M+"duong-noi-link.svg",   corner:M+"corner-orn.svg",       div:M+"divider.svg"},
+];
+const grid = document.getElementById("theme-grid");
+grid.innerHTML = THEMES.map(t => `
+  <div class="tdemo" style="background:${t.bg}; color:${t.fg};
+       --motif-band-src:url('${t.band}'); --motif-wm-src:url('${t.wm}');
+       --motif-corner-src:url('${t.corner}'); --motif-divider-src:url('${t.div}');">
+    <div class="m-band-top"></div>
+    <div class="m-watermark" style="left:auto; right:6px; top:auto; bottom:6px; transform:none; width:40%; opacity:.15"></div>
+    <span class="frame"></span>
+    <div class="tinner">
+      <p class="tname">${t.name}</p>
+      <p class="tsub">${t.sub}</p>
+      <hr class="m-divider" style="max-width:180px; margin-top:14px">
+    </div>
+  </div>
+`).join("");
+</script>
+</body>
+</html>

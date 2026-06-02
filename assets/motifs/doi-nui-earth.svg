@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" fill="none" stroke="#C8602B" role="img" aria-label="Dãy đồi núi 99 đồi">
+<!-- ĐỒI NÚI — đường chân trời "99 đồi", 2 lớp, tile ngang (lặp mỗi 160px). Band đáy. 1 màu currentColor. -->
+<g stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" fill="none">
+<!-- lớp đồi xa (mờ) -->
+<path d="M0 24 Q20 10 40 22 Q60 8 80 22 Q100 9 120 22 Q140 7 160 22" stroke-width=".8" opacity=".55"/>
+<!-- lớp đồi gần -->
+<path d="M0 38 Q16 22 34 36 Q50 20 70 35 Q88 18 108 35 Q126 21 144 36 Q152 28 160 38"/>
+</g>
+</svg>

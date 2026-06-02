@@ -4,7 +4,8 @@
    Màu: xanh lá brand #00A33B / deep #0A6A2F · hổ phách #C9912F · kem #FBF7EE
    Dùng: <link rel="stylesheet" href="brochure-light.css">
    ============================================================ */
-@page { size: A4 portrait; margin: 0; }
+/* BLEED 3mm — khổ thành phẩm A4=210×297mm, có bleed=216×303mm */
+@page { size: 216mm 303mm; margin: 0; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 :root{
   --green:#0A6A2F;      /* deep brand green — heading, band, text accent */
@@ -18,7 +19,8 @@
 body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 .bodoni{ font-family:"Bodoni Moda",serif; }
 .cormo{ font-family:"Cormorant Garamond",serif; }
-.page{ width:210mm; height:297mm; position:relative; overflow:hidden; page-break-after:always; background:var(--cream); }
+/* .page kích thước bleed 216×303mm; nội dung trim-safe ≥5mm (padding body ~16mm đã đủ) */
+.page{ width:216mm; height:303mm; position:relative; overflow:hidden; page-break-after:always; background:var(--cream); }
 .page:last-child{ page-break-after:auto; }
 
 /* gold/green frame */
@@ -27,13 +29,50 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .frame::before{ top:-1mm; left:-1mm; border-right:none; border-bottom:none; }
 .frame::after{ bottom:-1mm; right:-1mm; border-left:none; border-top:none; }
 
-/* circular logo block (above overlays) */
-.logo-grp{ display:flex; align-items:center; gap:8pt; position:relative; z-index:6; }
-.logo-wrap{ width:15mm; height:15mm; min-width:15mm; background:var(--cream3); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; border:1pt solid var(--amber); box-shadow:0 2pt 8pt rgba(0,0,0,.22); overflow:hidden; }
-.logo-wrap img{ width:11.5mm; height:11.5mm; object-fit:contain; background:transparent; }
-.logo-grp .nm{ font-family:"Bodoni Moda",serif; font-size:11.5pt; letter-spacing:3.5pt; font-weight:500; color:var(--cream3); line-height:1.05; }
-.logo-grp .nm .lab{ display:block; font-family:"Inter"; font-size:6pt; letter-spacing:2pt; color:#EFEAD9; opacity:.85; margin-top:1.5pt; font-weight:300; }
-.pg-label{ text-align:right; font-family:"Inter"; font-size:7pt; letter-spacing:3.5pt; color:var(--amber-l); line-height:1.7; position:relative; z-index:6; }
+/* circular logo block (above overlays)
+   z-index:10 đảm bảo logo-wrap TRÊN mọi overlay gradient (.p1-hero::after z-index implicit,
+   .img-head::after z-index implicit). background:#fff đặc ngăn filter brightness ảnh nền
+   ảnh hưởng lên logo. */
+.logo-grp{ display:flex; align-items:center; gap:8pt; position:relative; z-index:10; }
+.logo-wrap{
+  width:15mm; height:15mm; min-width:15mm;
+  background:#ffffff;                          /* trắng ĐẶC — không dùng var() tránh inherit */
+  border-radius:50%;
+  display:inline-flex; align-items:center; justify-content:center;
+  border:1pt solid var(--amber);
+  box-shadow:0 2pt 8pt rgba(0,0,0,.28);
+  overflow:hidden;
+  position:relative; z-index:10;              /* tạo stacking context riêng cho logo */
+  isolation:isolate;                           /* ngăn filter/blend từ parent thấm vào */
+}
+.logo-wrap img{
+  width:11.5mm; height:11.5mm; object-fit:contain;
+  filter:none !important;                      /* chặn filter brightness từ img-head img */
+  position:relative; z-index:1;
+}
+
+/* Brand lockup 3 dòng: "Du lịch cộng đồng" / "MƯỜNG CỐC" / "– Chạm vào bình yên –" */
+.logo-grp .nm{
+  font-family:"Bodoni Moda",serif;
+  font-size:10.5pt; letter-spacing:3.5pt; font-weight:500;
+  color:var(--cream3); line-height:1.08;
+  display:flex; flex-direction:column; gap:0;
+}
+.logo-grp .nm .nm-sub{
+  font-family:"Inter"; font-size:5.8pt; letter-spacing:1.8pt;
+  color:#EFEAD9; opacity:.88; font-weight:300; display:block; line-height:1.3;
+}
+.logo-grp .nm .nm-main{
+  font-family:"Bodoni Moda",serif; font-size:11pt; letter-spacing:4pt;
+  font-weight:600; color:var(--cream3); display:block; line-height:1.1;
+}
+.logo-grp .nm .nm-tagline{
+  font-family:"Cormorant Garamond",serif; font-style:italic;
+  font-size:7.5pt; letter-spacing:.8pt;
+  color:var(--amber-l); opacity:.92; display:block; line-height:1.3;
+}
+
+.pg-label{ text-align:right; font-family:"Inter"; font-size:7pt; letter-spacing:3.5pt; color:var(--amber-l); line-height:1.7; position:relative; z-index:10; }
 
 /* slim green header (trang không có ảnh) */
 .dark-head{ position:relative; height:42mm; padding:9mm 16mm 6mm; background:var(--green); border-bottom:1pt solid var(--amber); }
@@ -98,11 +137,12 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .p1-lower .divider .lab{ font-family:"Inter"; font-size:7pt; letter-spacing:5pt; color:var(--amber); font-weight:600; }
 .p1-lower .divider .ct{ font-family:"Bodoni Moda",serif; font-style:italic; font-size:12.5pt; color:var(--green); }
 .p1-lower .divider .rl{ flex:1; height:.5pt; background:var(--soft); }
-.p1-lower .hl5{ display:grid; grid-template-columns:repeat(5,1fr); gap:3.5mm; }
-.p1-lower .hl5 .c{ background:var(--cream2); border:.5pt solid var(--tan); border-top:2pt solid var(--green-v); padding:4mm 3mm; text-align:center; }
-.p1-lower .hl5 .c .ic{ font-size:15pt; line-height:1; }
-.p1-lower .hl5 .c .nm{ font-family:"Bodoni Moda",serif; font-size:10pt; color:var(--green); font-weight:600; margin-top:2.5mm; line-height:1.1; }
-.p1-lower .hl5 .c .ds{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:8.5pt; color:var(--mut); margin-top:1.5mm; line-height:1.25; }
+.p1-lower .hl5{ display:grid; grid-template-columns:repeat(5,1fr); gap:3mm; }
+/* FIX: giảm padding + font để 5 thẻ không chạm bottom-tag khi có EN bilingual */
+.p1-lower .hl5 .c{ background:var(--cream2); border:.5pt solid var(--tan); border-top:2pt solid var(--green-v); padding:2.5mm 2.5mm; text-align:center; overflow:hidden; }
+.p1-lower .hl5 .c .ic{ font-size:13pt; line-height:1; }
+.p1-lower .hl5 .c .nm{ font-family:"Bodoni Moda",serif; font-size:8.5pt; color:var(--green); font-weight:600; margin-top:1.5mm; line-height:1.1; }
+.p1-lower .hl5 .c .ds{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:7.5pt; color:var(--mut); margin-top:1mm; line-height:1.2; }
 
 /* ============ ITINERARY P2/P3 ============ */
 .itin-body{ padding:6mm 16mm 13mm; }
@@ -126,6 +166,36 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .tl .stop p{ font-family:"Inter"; font-size:8.2pt; line-height:1.45; color:var(--ink2); margin-top:1.3mm; }
 .tl .stop p b{ color:var(--green); font-weight:600; }
 .tl .stop p .note{ display:block; font-family:"Cormorant Garamond",serif; font-style:italic; font-size:9pt; color:var(--mut); margin-top:1mm; padding-left:7pt; border-left:1.5pt solid var(--tan); }
+
+/* Khối lấp trống lịch trình khi số stop ít */
+.itin-quote{
+  margin-top:5mm; border-left:2.5pt solid var(--amber);
+  padding:4mm 5mm; background:var(--cream2);
+  position:relative;
+}
+.itin-quote .iq-deco{
+  display:block; width:22mm; height:.5pt; background:var(--amber); margin-bottom:3mm;
+}
+.itin-quote .iq-text{
+  font-family:"Cormorant Garamond",serif; font-style:italic;
+  font-size:13pt; color:var(--green); line-height:1.35;
+  margin-bottom:3.5mm;
+}
+.itin-quote .iq-five{ border-top:.5pt solid var(--tan); padding-top:3mm; }
+.itin-quote .if-t{
+  font-family:"Inter"; font-size:6pt; letter-spacing:2.5pt;
+  color:var(--amber); font-weight:700; text-transform:uppercase; margin-bottom:2.5mm;
+}
+.itin-quote .if-list{
+  display:grid; grid-template-columns:1fr 1fr; gap:1.5mm 5mm;
+}
+.itin-quote .if-list span{
+  font-family:"Inter"; font-size:7.5pt; color:var(--ink2); line-height:1.4;
+  padding-left:8pt; position:relative;
+}
+.itin-quote .if-list span::before{
+  content:"–"; position:absolute; left:0; color:var(--green-v); font-weight:700;
+}
 
 .fivebox{ margin-top:4mm; border:.5pt solid var(--green); background:var(--green); padding:4.5mm 6mm; }
 .fivebox .fh{ display:flex; align-items:center; justify-content:space-between; margin-bottom:3mm; }
@@ -229,6 +299,12 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .map-stats .ms .nb{ font-family:"Bodoni Moda",serif; font-size:18pt; color:var(--green); font-weight:600; line-height:1; }
 .map-stats .ms .lb{ font-family:"Inter"; font-size:6pt; letter-spacing:2pt; color:var(--mut2); text-transform:uppercase; margin-top:1.5mm; }
 .map-row{ display:grid; grid-template-columns:1.5fr 1fr; gap:7mm; }
+.map-main{ display:flex; flex-direction:column; gap:3mm; }
+.route-map{ border:.5pt solid var(--tan); overflow:hidden; background:var(--cream2); }
+.route-map img{ width:100%; height:92mm; object-fit:cover; display:block; }
+.map-legend{ display:flex; flex-wrap:wrap; gap:1.6mm 3.5mm; }
+.map-legend .lg{ font-family:"Inter"; font-size:7pt; color:var(--ink2); display:flex; align-items:center; gap:3pt; line-height:1.1; }
+.map-legend .lg b{ display:inline-flex; align-items:center; justify-content:center; min-width:4.4mm; height:4.4mm; border-radius:50%; background:var(--green); color:var(--cream3); font-size:6pt; font-weight:700; }
 .map-route{ }
 .map-route .rt-h{ font-family:"Bodoni Moda",serif; font-size:12.5pt; color:var(--green); font-weight:600; margin-bottom:3.5mm; padding-bottom:2mm; border-bottom:.5pt solid var(--tan); }
 .map-route .rt-h em{ font-style:italic; color:var(--amber); }
@@ -267,3 +343,70 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .dest-txt .dp{ font-family:"Inter"; font-size:8.4pt; line-height:1.5; color:var(--ink2); margin-top:2.5mm; text-align:justify; }
 .dest-txt .dp b{ color:var(--green); font-weight:600; }
 .dest-txt .dmeta{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:9pt; color:var(--mut); margin-top:2.5mm; padding-top:2mm; border-top:.5pt solid var(--tan); }
+
+/* ============================================================
+   TRANG BẢN ĐỒ T4 — Dải ảnh cảnh đẹp lấp vùng trống dưới map
+   ============================================================ */
+.map-photo-strip{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:3mm;
+  margin:4mm 16mm 0;
+  position:relative; z-index:1;
+}
+.map-photo-strip .mps-item{
+  position:relative; height:28mm; overflow:hidden;
+  border:.5pt solid var(--tan);
+}
+.map-photo-strip .mps-item img{
+  width:100%; height:100%; object-fit:cover; filter:saturate(1.05) brightness(.92);
+  display:block;
+}
+.map-photo-strip .mps-item .mps-cap{
+  position:absolute; bottom:0; left:0; right:0;
+  background:linear-gradient(0deg, rgba(8,52,24,.88), transparent);
+  font-family:"Inter"; font-size:5.5pt; letter-spacing:1.5pt;
+  color:var(--amber-l); font-weight:600;
+  padding:3pt 5pt 3pt;
+  text-transform:uppercase;
+}
+
+/* ============================================================
+   MOTIF STACKING — đảm bảo nội dung trang LUÔN nằm TRÊN watermark
+   lấp trống (.m-wm-fill / .m-watermark z-index:0). Content body vốn
+   static → cần position:relative + z-index:1 để không bị motif phủ.
+   (Không đổi layout, chỉ tạo stacking context.)
+   ============================================================ */
+.p1-lower, .itin-body, .map-body, .svc-body, .dest-body, .fin-body{
+  position:relative; z-index:1;
+}
+
+/* ============================================================
+   SONG NGỮ VIỆT – ANH (.en)
+   Hiển thị ngay dưới đoạn VN tương ứng.
+   - font-style:italic để phân biệt rõ với VN
+   - font-size 85% so với parent
+   - color mờ hơn (--mut2)
+   - display:block để xuống dòng hoàn toàn
+   print-safe: không dùng filter/backdrop/blend
+   ============================================================ */
+.en{
+  display:block;
+  font-family:"Cormorant Garamond",serif;
+  font-style:italic;
+  font-size:85%;
+  color:var(--mut2);
+  line-height:1.35;
+  margin-top:1.5pt;
+  opacity:.88;
+}
+/* Trong timeline stop .tl .stop p → en nhỏ hơn nữa */
+.tl .stop p .en{ font-size:82%; margin-top:1pt; }
+/* Trong inc-exc ul li → canh với bullet */
+.inc-exc .col ul li .en{ margin-left:0; }
+/* Trong tbl addon td → compact */
+.tbl td .en{ font-size:80%; }
+/* Trong fin-body .bx ul li → compact */
+.two .bx ul li .en{ font-size:80%; margin-top:.5pt; }
+/* Trong intro p */
+.p1-lower .intro p .en{ font-size:87%; }
+/* Trong .hl5 card — compact để không tràn bottom-tag */
+.p1-lower .hl5 .c .en{ font-size:75%; margin-top:.5pt; line-height:1.2; }

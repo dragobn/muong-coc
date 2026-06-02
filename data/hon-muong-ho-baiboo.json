@@ -1,0 +1,112 @@
+{
+  "slug": "hon-muong-ho-baiboo",
+  "ten": "Hồn Mường Bên Hồ Baibóo",
+  "loai": "xe-dap",
+  "theme": "honuoc",
+  "tagline": "Văn Hoá Mường — Hồ Nước — Đồi Hoa",
+  "tagline_en": "Muong Culture — Lakewater — Flower Hill",
+  "thoi_luong": "~8 giờ (08:00 – 16:00)",
+  "thoi_luong_en": "About 8 hours (08:00 – 16:00)",
+  "cu_ly": "~6 – 7 km",
+  "quy_mo": "2 – 12 khách",
+  "gia": "650.000 đ/khách (gồm bữa trưa)",
+  "gia_en": "650,000 VND/guest (lunch included)",
+  "intro": "Hồn Mường bên hồ Baibóo là cung đạp xe nhẹ nhàng nhưng đậm đặc bản sắc văn hoá Mường — rất hợp với cả gia đình. Bạn ngồi trong nếp nhà sàn truyền thống, khoác trang phục Mường, đi bè tre trên hồ Baibóo, học gói bánh lá cùng phụ nữ Mường, rồi check-in giữa đồi hoa kèn hồng đẹp như cổ tích. Cung đường ngắn, nhịp chậm, đủ chỗ cho trẻ nhỏ vui chơi và người lớn thảnh thơi. Hành trình khép lại bên gốc cây thị hơn 400 năm tuổi — nơi một gốc cây cho ba loại quả và một câu chuyện linh thiêng của đất Mường.",
+  "intro_en": "Muong Soul by Baiboo Lake is a gentle cycling route brimming with Muong cultural identity — perfect for the whole family. You sit inside a traditional stilt house, wear Muong dress, ride a bamboo raft on Baiboo Lake, learn to wrap leaf cakes with Muong women, and take photos amid a fairytale-like trumpet-flower hill. The route is short and slow-paced, with room for children to play and adults to unwind. The journey closes beside a fruit tree more than 400 years old — where a single trunk bears three kinds of fruit and carries a sacred Muong legend.",
+  "highlights": [
+    "Trải nghiệm nhà sàn & văn hoá Mường — ngồi nhà sàn bà Diển, khoác áo Mường, gói bánh lá, giao lưu văn nghệ bản.",
+    "Hồ Baibóo & bè tre — đạp xe men hồ, đi bè tre ra giữa mặt nước.",
+    "Đồi hoa kèn hồng — check-in đẹp như cổ tích, góp một tay chăm hoa cho mùa sau.",
+    "Di tích Mường — Đình Phú Cốc thờ Nhị vị Thánh Mẫu và đền Cây Thợi với cây thị 400 năm ba loại quả.",
+    "Bữa trưa Cỗ Lá Mường — mâm cơm farm-to-table bên hồ, không đĩa nhựa."
+  ],
+  "highlights_en": [
+    "Stilt-house & Muong culture experience — sit in Mrs Dien's stilt house, wear Muong dress, wrap leaf cakes, and join a village performance.",
+    "Baiboo Lake & bamboo raft — cycle along the shore and raft out onto the water.",
+    "Trumpet-flower hill — a fairytale photo spot where you also help tend the flowers for next season.",
+    "Muong relics — Phu Coc Communal House honouring the Two Holy Mothers, and Cay Thoi Temple with its 400-year fruit tree bearing three kinds of fruit.",
+    "Co La Muong feast lunch — a farm-to-table meal by the lake, with no plastic plates."
+  ],
+  "lich_trinh": [
+    {"gio_hoac_buoi": "08:00", "diem": "Tourism Hub Đồi Dùng", "diem_en": "Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu một ngày thong dong bên hồ.", "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a leisurely day by the lake.", "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.", "luu_y_en": "Please bring your own reusable water bottle for the whole journey."},
+    {"gio_hoac_buoi": "08:20", "diem": "Trải nghiệm nhà sàn (nhà bà Diển)", "diem_en": "Stilt-house experience (Mrs Dien's home)", "mo_ta": "Ngay đối diện Nhà Văn hoá thôn, bạn bước vào nếp nhà sàn của bà Diển giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ, nghe kể về lối dựng nhà sàn truyền thống và nếp sinh hoạt của người Mường thuở trước — một khởi đầu ấm áp và rất gần gũi.", "mo_ta_en": "Right across from the village Community House, you step into Mrs Dien's stilt house set in a cool green garden. You sit on the wooden floor and listen to how a traditional stilt house is built and how the Muong people lived in days past — a warm, intimate beginning.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "08:50", "diem": "Chùa Phú Cốc & Cây đa cổ", "diem_en": "Phu Coc Pagoda & the Old Banyan", "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở cả khoảng sân, bên cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang. Một khoảng lặng tâm linh giữa hành trình văn hoá.", "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area. A banyan tree over 400 years old shades the whole courtyard, beside the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple. A spiritual pause within the cultural journey.", "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.", "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall."},
+    {"gio_hoac_buoi": "09:20", "diem": "Homestay Mường Duy & Hồ Baibóo", "diem_en": "Muong Duy Homestay & Baiboo Lake", "mo_ta": "Hồ Baibóo nằm giữa thôn Đồi Dùng và Gốc Báng như một viên ngọc bích — hồ điều hoà sinh thái khơi nguồn từ núi đá vôi, vòng hồ chừng 4 km. Bạn khoác trang phục dân tộc Mường lưu lại khung hình bên hồ, đi bè tre ra giữa mặt nước, và giao lưu cùng đội biểu diễn văn nghệ của bản. Mặt hồ phẳng lặng, gió mát và tiếng cồng chiêng làm nên một buổi sáng khó quên.", "mo_ta_en": "Baiboo Lake lies between Doi Dung and Goc Bang hamlets like a jade gem — an ecological balancing lake fed by limestone mountains, with a shoreline of about 4 km. You wear Muong ethnic dress for photos by the water, ride a bamboo raft out onto the lake, and mingle with the village performance troupe. The calm water, the cool breeze, and the sound of gongs make for an unforgettable morning.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "10:30", "diem": "Homestay ông Kiền", "diem_en": "Mr Kien's Homestay", "mo_ta": "Một nếp nhà rộng rãi liền hồ Baibóo. Bạn nghỉ chân, thưởng thức chút ẩm thực Mường do chính gia đình chuẩn bị và ngắm mặt hồ lấp lánh từ hiên nhà. Một khoảng dừng để thở chậm lại giữa thiên nhiên.", "mo_ta_en": "A spacious home right beside Baiboo Lake. You rest, savour a little Muong cuisine prepared by the family, and gaze at the shimmering lake from the porch. A pause to breathe slowly amid nature.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "11:00", "diem": "Workshop gói bánh lá Mường", "diem_en": "Muong leaf-cake wrapping workshop", "mo_ta": "Bạn cùng các bà, các chị người Mường học gói một mẻ bánh truyền thống bằng lá — một hoạt động vui tay, hợp cả người lớn và trẻ nhỏ. Niềm vui trọn vẹn nhất là khi chính tay mình mở chiếc bánh nóng hổi vừa luộc trong bữa trưa.", "mo_ta_en": "Together with Muong women, you learn to wrap a batch of traditional leaf cakes — a hands-on activity that delights adults and children alike. The greatest joy comes at lunch, when you unwrap the steaming cake you made yourself.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "12:00", "diem": "Bữa trưa Cỗ Lá Mường", "diem_en": "Co La Muong Feast (Lunch)", "mo_ta": "Bữa trưa được dọn bên hồ với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa, ngon hơn nhờ làn gió hồ mát rượi.", "mo_ta_en": "Lunch is served by the lake as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal, made tastier by the cool breeze off the lake.", "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.", "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."},
+    {"gio_hoac_buoi": "13:30", "diem": "Đồi hoa kèn hồng & điểm dừng chân bà Toàn", "diem_en": "Trumpet-flower hill & Mrs Toan's rest stop", "mo_ta": "Bạn check-in giữa đồi hoa kèn hồng đẹp như trong cổ tích — một trong những điểm chụp ảnh được yêu thích nhất vùng — rồi ghé điểm dừng chân nhà bà Toàn, uống một ngụm nước mát và trò chuyện cùng người dân. Cùng họ, bạn vun lại gốc và chăm một khóm hoa trên đồi, gửi lại một chút màu cho mùa sau.", "mo_ta_en": "You take photos amid a fairytale-like hill of pink trumpet flowers — one of the most beloved photo spots in the region — then drop by Mrs Toan's rest stop for a cool drink and a chat with the locals. Together you mound up the soil and tend a clump of flowers on the hill, leaving a little colour behind for next season.", "luu_y": "Gửi một sắc hoa cho đồi Baibóo — góp một chút màu cho mùa hoa năm sau.", "luu_y_en": "Leave a touch of colour for Baiboo hill — add to next year's bloom."},
+    {"gio_hoac_buoi": "14:20", "diem": "Nhà văn hoá dân tộc & Đình Phú Cốc", "diem_en": "Ethnic Culture House & Phu Coc Communal House", "mo_ta": "Đình Phú Cốc là ngôi đại đình chung của các thôn người Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh được tôn làm Thành Hoàng. Kề bên là Nhà văn hoá dân tộc thôn Đình — nơi truyền dạy cồng chiêng, hát dân ca và nhạc cụ dân tộc. Bạn có thể nghe vài nhịp chiêng còn ngân trong không gian làng.", "mo_ta_en": "Phu Coc Communal House is the shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh as tutelary deities. Beside it stands the Ethnic Culture House of Dinh hamlet — where gongs, folk songs, and traditional instruments are taught. You may hear a few gong beats still resonating through the village air.", "luu_y": "", "luu_y_en": ""},
+    {"gio_hoac_buoi": "15:00", "diem": "Nhà thờ họ ông Chế", "diem_en": "Mr Che's Clan Ancestral House", "mo_ta": "Bạn lắng nghe câu chuyện về các đời người Mường đã sinh sống tại đây, chiêm ngưỡng 4 cọc nhà sàn cổ còn được lưu giữ, và có thể được thưởng thức đôi câu hát, điệu múa Mường. Một mạch nối lặng lẽ giữa quá khứ và hiện tại của dòng họ.", "mo_ta_en": "You listen to the story of the generations of Muong people who have lived here, admire four ancient stilt-house posts still preserved, and may enjoy a few Muong songs and dances. A quiet thread linking a clan's past and present.", "luu_y": "Tùy chọn: ghé thêm nhà ông Kế nghe chuyện người Mường cổ và đời sống xưa.", "luu_y_en": "Optional: also visit Mr Ke's home for tales of the old Muong people and life in earlier times."},
+    {"gio_hoac_buoi": "15:30", "diem": "Đền Cây Thợi & Cây Thị 400 năm", "diem_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "mo_ta": "\"Cây Thợi\" trong tiếng Mường nghĩa là cây thị. Đền dựng nơi gốc cây thị cổ, thờ Nhị vị Thánh Mẫu hiệu Từ Quang và Từ Minh — gắn truyền thuyết đắm đò trên đầm rồi hoá thiêng (Đầm Hai Bà), sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả — một kỳ tích của thiên nhiên và là điểm khép lại trọn vẹn cho hành trình.", "mo_ta_en": "\"Cay Thoi\" in the Muong language means persimmon tree. The temple stands at the foot of an ancient persimmon, honouring the Two Holy Mothers Tu Quang and Tu Minh — tied to the legend of a boat that sank in the marsh, after which they became sacred (the Two Ladies' Marsh), with a Khai Dinh edict of 1924. Beside the temple grows a persimmon tree over 400 years old whose single trunk bears three kinds of fruit — a wonder of nature and a fitting close to the journey.", "luu_y": "Tùy chọn (cùng khu): ghé nhà Niệm Nga hái sen làm trà sen; hoặc nhà ông Lập xem nấu rượu quê.", "luu_y_en": "Optional (same area): visit the Niem Nga family to pick lotus and make lotus tea; or Mr Lap's home to watch village wine-making."},
+    {"gio_hoac_buoi": "16:00", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to Doi Dung Tourism Hub", "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng để mang theo hồn Mường về nhà.", "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir to carry the soul of Muong home.", "luu_y": "", "luu_y_en": ""}
+  ],
+  "diem_den": [
+    {"ten": "Nhà sàn bà Diển", "ten_en": "Mrs Dien's Stilt House", "loai": "Trải nghiệm văn hoá", "loai_en": "Cultural experience", "mo_ta_ngan": "Nếp nhà sàn truyền thống Mường giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ nghe kể lối dựng nhà và nếp sinh hoạt xưa. Một khởi đầu ấm áp, rất gần gũi cho cả gia đình.", "mo_ta_ngan_en": "A traditional Muong stilt house set in a cool green garden. You sit on the wooden floor and hear how it was built and how life was lived. A warm, intimate start for the whole family."},
+    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một khoảng lặng tâm linh giữa hành trình văn hoá.", "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old shading the courtyard. A spiritual pause within the cultural journey."},
+    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, khơi nguồn từ núi đá vôi, vòng hồ chừng 4 km. Bạn khoác trang phục Mường lưu hình bên hồ và đi bè tre ra giữa mặt nước. Mặt hồ phẳng lặng, gió mát, thoảng tiếng cồng chiêng.", "mo_ta_ngan_en": "A jade-green ecological balancing lake fed by limestone mountains, with a shoreline of about 4 km. You wear Muong dress for photos by the water and raft out onto the lake. Calm water, a cool breeze, and a hint of gongs."},
+    {"ten": "Homestay ông Kiền", "ten_en": "Mr Kien's Homestay", "loai": "Ẩm thực Mường", "loai_en": "Muong cuisine", "mo_ta_ngan": "Nếp nhà rộng rãi liền hồ Baibóo, hiên nhìn thẳng ra mặt nước lấp lánh. Bạn nghỉ chân và thưởng thức chút ẩm thực Mường do gia đình chuẩn bị. Một khoảng dừng để thở chậm giữa thiên nhiên.", "mo_ta_ngan_en": "A spacious home right beside Baiboo Lake, its porch facing the shimmering water. You rest and savour a little Muong cuisine prepared by the family. A pause to breathe slowly amid nature."},
+    {"ten": "Đồi hoa kèn hồng", "ten_en": "Trumpet-flower Hill", "loai": "Cảnh quan · Đồi hoa", "loai_en": "Landscape · Flower hill", "mo_ta_ngan": "Đồi hoa kèn hồng đẹp như trong cổ tích, một trong những điểm check-in được yêu thích nhất vùng. Bạn ghi lại những khung hình rực rỡ giữa sắc hoa. Đây cũng là nơi bạn góp tay chăm hoa cho mùa sau.", "mo_ta_ngan_en": "A fairytale-like hill of pink trumpet flowers, one of the region's most beloved photo spots. You capture vivid frames amid the blooms. It is also where you lend a hand tending the flowers for next season."},
+    {"ten": "Đình Phú Cốc & Nhà văn hoá dân tộc", "ten_en": "Phu Coc Communal House & Ethnic Culture House", "loai": "Di tích · Văn hoá", "loai_en": "Heritage · Culture", "mo_ta_ngan": "Đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh làm Thành Hoàng. Kề bên là Nhà văn hoá dân tộc, nơi truyền dạy cồng chiêng và dân ca. Bạn có thể nghe vài nhịp chiêng còn ngân trong không gian làng.", "mo_ta_ngan_en": "The shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh as tutelary deities. Beside it, the Ethnic Culture House teaches gongs and folk songs. You may hear a few gong beats still ringing through the village."},
+    {"ten": "Nhà thờ họ ông Chế", "ten_en": "Mr Che's Clan Ancestral House", "loai": "Di tích dòng họ", "loai_en": "Clan heritage", "mo_ta_ngan": "Nhà thờ họ lưu giữ 4 cọc nhà sàn cổ và câu chuyện các đời người Mường nơi đây. Bạn nghe kể về dòng họ và có thể được thưởng thức đôi câu hát, điệu múa Mường. Một mạch nối lặng lẽ giữa quá khứ và hiện tại.", "mo_ta_ngan_en": "A clan house preserving four ancient stilt-house posts and the story of the generations of Muong people here. You hear of the lineage and may enjoy a few Muong songs and dances. A quiet thread between past and present."},
+    {"ten": "Đền Cây Thợi & Cây Thị 400 năm", "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Một kỳ tích thiên nhiên và điểm khép lại trọn vẹn cho hành trình.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old whose single trunk bears three kinds of fruit. A natural wonder and a fitting close to the journey."}
+  ],
+  "bao_gom": [
+    "Xe đạp và mũ bảo hiểm tiêu chuẩn",
+    "Hướng dẫn viên bản địa am hiểu văn hoá Mường",
+    "Vé tham quan và các hoạt động trải nghiệm theo chương trình",
+    "Trải nghiệm trang phục Mường, gói bánh lá và giao lưu văn nghệ bản",
+    "Bữa trưa Cỗ Lá Mường tại nhà dân (zero plastic)",
+    "Nước uống và khăn lạnh trong suốt hành trình",
+    "Bảo hiểm du lịch trọn gói",
+    "Quà lưu niệm cộng đồng cuối hành trình"
+  ],
+  "bao_gom_en": [
+    "Standard bicycle and helmet",
+    "Local guide well-versed in Muong culture",
+    "Entrance fees and all experience activities in the programme",
+    "Muong costume experience, leaf-cake wrapping, and a village performance",
+    "Co La Muong feast lunch at a local home (zero plastic)",
+    "Drinking water and cool towels throughout the journey",
+    "Comprehensive travel insurance",
+    "A community-made souvenir at the end of the journey"
+  ],
+  "khong_bao_gom": [
+    "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
+    "Đồ uống trong bữa ăn",
+    "Các dịch vụ và trải nghiệm không nằm trong chương trình (đi bè tre, hái sen, nấu rượu…)",
+    "Đưa đón Hà Nội ↔ Mường Cốc (báo giá riêng theo yêu cầu)",
+    "Tiền tip cho hướng dẫn viên và lái xe địa phương (nếu có — gợi ý)"
+  ],
+  "khong_bao_gom_en": [
+    "Breakfast, dinner, and beverages outside the programme",
+    "Beverages during meals",
+    "Services and experiences not listed in the programme (bamboo rafting, lotus picking, wine-making, etc.)",
+    "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
+    "Tips for the guide and local drivers (optional — suggested)"
+  ],
+  "addon": [
+    {"ten": "Đi bè tre trên hồ Baibóo", "ten_en": "Bamboo rafting on Baiboo Lake", "mo_ta": "Ngồi bè tre ra giữa hồ ngắm cảnh, một trải nghiệm sông nước nhẹ nhàng", "mo_ta_en": "Ride a bamboo raft out onto the lake to take in the view — a gentle water experience"},
+    {"ten": "Hái sen & làm trà sen", "ten_en": "Lotus picking & lotus-tea making", "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)", "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)"},
+    {"ten": "Nấu rượu quê", "ten_en": "Village wine-making", "mo_ta": "Trải nghiệm cách nấu rượu thủ công tại nhà ông Lập (Rượu Tám Lập · gạo quê Đồi Lý)", "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)"},
+    {"ten": "Đưa đón Hà Nội ↔ Mường Cốc", "ten_en": "Hanoi ↔ Muong Coc transfer", "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ", "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"}
+  ],
+  "farmstay_options": [],
+  "doi_tuong": [
+    {"nhom": "Gia đình có trẻ nhỏ", "nhom_en": "Families with young children", "mo_ta": "Cung đường ngắn, nhẹ nhàng.", "mo_ta_en": "A short, gentle route."},
+    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "Groups of 2–12 people."},
+    {"nhom": "Người yêu nhịp thong dong", "nhom_en": "Those who love a leisurely pace", "mo_ta": "Thích chụp ảnh cảnh quan.", "mo_ta_en": "Fond of landscape photography."},
+    {"nhom": "Học sinh — sinh viên", "nhom_en": "Students", "mo_ta": "Khám phá văn hoá bản địa.", "mo_ta_en": "Exploring local culture."},
+    {"nhom": "Người yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Yêu thiên nhiên và văn hoá Mường.", "mo_ta_en": "Lovers of nature and Muong culture."}
+  ],
+  "luu_y": [
+    {"tieu_de": "Thời tiết xấu / mưa lớn", "tieu_de_en": "Bad weather / heavy rain", "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại homestay hoặc nhà sàn.", "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the homestay or stilt houses."},
+    {"tieu_de": "Sức khoẻ", "tieu_de_en": "Fitness", "mo_ta": "Đạp xe rất nhẹ khoảng 6 — 7 km, cấp độ dễ, nhiều điểm dừng nghỉ. Phù hợp trẻ nhỏ đi cùng người lớn.", "mo_ta_en": "Very easy cycling of about 6–7 km with many rest stops. Suitable for young children accompanied by adults."},
+    {"tieu_de": "Tôn trọng cộng đồng", "tieu_de_en": "Respect for the community", "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.", "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."},
+    {"tieu_de": "Tiếp nước", "tieu_de_en": "Staying hydrated", "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.", "mo_ta_en": "Please bring your own reusable water bottle."},
+    {"tieu_de": "Trang phục lịch sự", "tieu_de_en": "Modest dress", "mo_ta": "Khi vào di tích tâm linh (chùa, đình, đền) — cởi giày, không quay phim trong chính điện.", "mo_ta_en": "At spiritual sites (pagodas, communal houses, temples) — remove your shoes and do not film inside the main hall."}
+  ],
+  "net_zero": "Gửi một sắc hoa cho đồi Baibóo (vun, chăm khóm hoa)",
+  "net_zero_en": "Leave a touch of colour for Baiboo hill (mound and tend a flower clump)",
+  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+}

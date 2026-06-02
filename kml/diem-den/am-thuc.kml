@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+  <name>Mường Cốc — Ẩm thực &amp; điểm dừng chân</name>
+  <Style id="poi"><IconStyle><color>ff0099ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+  <Placemark>
+    <name>Hồ Câu Mường Cốc (đổi tên từ Hồ Câu 666)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Gốc Báng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Trần Thành Đồng (Hồ Câu Mường Cốc — câu cá + ăn uống)<br/>Biển hiệu: HỒ CÂU MƯỜNG CỐC<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.68225,20.61899,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chợ Mới An Phú</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Chợ</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bạch Văn Viên (Điểm dừng chân)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Bạch Văn Viên (Điểm dừng chân)<br/>Biển hiệu: ĐIỂM DỪNG CHÂN GIẢI KHÁT BÀ TOÀN<br/>SĐT: 0362633911<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.68494,20.62144,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nguyễn Tất Thành (Cafe võng / Farm cá quả Mường Cốc Thành Trung)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Tất Thành (Cafe võng / Farm cá quả Mường Cốc Thành Trung)<br/>Biển hiệu: CAFE VÕNG NGHỈ CHÂN + FARM CÁ QUẢ MƯỜNG CỐC THÀNH TRUNG<br/>SĐT: 0986392866<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.69095,20.62834,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nguyễn Bá Tuyến (Nhà sàn Tuyến Thuỷ)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Bá Tuyến (Nhà sàn Tuyến Thuỷ)<br/>Biển hiệu: NHÀ SÀN TUYẾN THUỶ ẨM THỰC DÂN TỘC<br/>SĐT: 0375801188<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.6956,20.63409,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

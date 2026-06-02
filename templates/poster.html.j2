@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Poster {{ ten }} (2 mặt A5)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/theme-skins.css">
+<link rel="stylesheet" href="../../assets/css/motifs.css">
+<style>
+/* ---- PRINT-SAFE: không text-shadow blur >4pt, không backdrop-filter, không mix-blend ---- */
+/* BLEED 3mm — khổ thành phẩm A5=148×210mm, có bleed=154×216mm */
+@page { size: 154mm 216mm; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --green: #0A6A2F; --green-d: #06441E; --green-v: #00A33B;
+  --amber: #C9912F; --amber-l: #EBCB86;
+  --cream: #FBF7EE; --cream2: #F4ECDA; --ink: #232020;
+}
+body { font-family: "Be Vietnam Pro", sans-serif; color: var(--ink);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.disp  { font-family: "Playfair Display", serif; }
+.cormo { font-family: "Cormorant Garamond", serif; }
+
+/* Page shell — bleed 154×216mm (thành phẩm A5 148×210mm + 3mm mỗi cạnh) */
+.page { width: 154mm; height: 216mm; position: relative; overflow: hidden;
+  page-break-after: always; background: var(--cream); }
+.page:last-child { page-break-after: auto; }
+
+/* ===================== MẶT TRƯỚC — CINEMATIC ===================== */
+.front .hero { position: absolute; inset: 0; }
+.front .hero .ph-hero {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, #06441E 0%, #0A6A2F 50%, #00A33B 100%);
+  display: flex; align-items: center; justify-content: center;
+}
+.front .hero .ph-hero::after {
+  content: attr(data-label);
+  font-family: "Be Vietnam Pro", sans-serif; font-size: 6.5pt;
+  letter-spacing: 1.5pt; color: rgba(235,203,134,.8);
+  border: 1pt dashed rgba(235,203,134,.6); padding: 4pt 12pt;
+  border-radius: 2pt; max-width: 80%; text-align: center;
+}
+/* Dark overlay — vignette-only, không backdrop-filter
+   FIX: tăng đậm vùng giữa (26%–60%) để chữ trắng rõ trên ảnh sáng
+   thay vì dùng text-shadow tạo ô đen */
+.front .overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg,
+    rgba(4,40,18,.62) 0%,
+    rgba(4,40,18,.38) 22%,
+    rgba(4,40,18,.52) 42%,
+    rgba(4,40,18,.58) 58%,
+    rgba(4,40,18,.72) 76%,
+    rgba(4,40,18,.96) 100%);
+}
+.front .vignette { position: absolute; inset: 0;
+  box-shadow: inset 0 0 60mm rgba(4,30,14,.45); z-index: 2; pointer-events: none; }
+.front .keyline { position: absolute; inset: 7mm;
+  border: .6pt solid rgba(235,203,134,.55); z-index: 3; pointer-events: none; }
+/* Motif hooks (poster scale — A5 nhỏ hơn A4) */
+.page { --motif-corner-sz: 11mm; }
+.m-corners { inset: 7mm; z-index: 3; }       /* trùng keyline poster */
+/* watermark lấp trống mặt sau: neo vùng body giữa foot, mờ tinh tế */
+.m-wm-fill.pst {
+  position: absolute; pointer-events: none; z-index: 0;
+  left: 50%; right: auto; transform: translateX(-50%);
+  bottom: 42mm; top: auto;
+  width: 78mm; height: 78mm;
+  opacity: .07;
+  background: var(--motif-wm-src) center/contain no-repeat; }
+
+.front .inner { position: absolute; inset: 0; z-index: 3;
+  padding: 11mm 12mm 10mm; display: flex; flex-direction: column;
+  justify-content: space-between; }
+
+/* Top bar */
+.front .top { display: flex; align-items: center; justify-content: space-between; }
+.front .brand { display: flex; align-items: center; gap: 6pt; }
+.front .brand .lg { width: 14mm; height: 14mm; border-radius: 50%;
+  background: rgba(251,247,238,.95); border: 1pt solid var(--amber-l);
+  display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.front .brand .lg img { width: 11mm; height: 11mm; object-fit: contain; }
+.front .brand .bt { font-family: "Be Vietnam Pro"; font-size: 6.5pt;
+  letter-spacing: 2.5pt; color: var(--cream); line-height: 1.4;
+  font-weight: 500; text-transform: uppercase; }
+.front .pill { font-size: 6.5pt; letter-spacing: 2.5pt; color: var(--green-d);
+  background: var(--amber-l); padding: 2pt 8pt; font-weight: 700;
+  border-radius: 20pt; text-transform: uppercase; }
+
+/* Center title */
+.front .mid { margin-bottom: 2mm; }
+.front .mid .kick { font-size: 7.5pt; letter-spacing: 5pt; color: var(--amber-l);
+  font-weight: 600; text-transform: uppercase; margin-bottom: 4mm;
+  display: flex; align-items: center; gap: 7pt; }
+.front .mid .kick::before { content: ""; width: 14mm; height: .6pt;
+  background: var(--amber-l); display: inline-block; }
+.front .mid h1 { font-family: "Playfair Display", serif; font-weight: 800;
+  font-size: 43pt; line-height: .92; color: #fff; letter-spacing: -.5pt;
+  /* FIX: bỏ text-shadow — tránh ô đen. Độ rõ chữ đảm bảo qua overlay gradient đậm hơn */ }
+.front .mid h1 em { display: block; font-style: italic; font-weight: 700;
+  color: var(--amber-l); }
+.front .mid .tag { font-family: "Cormorant Garamond", serif; font-style: italic;
+  font-size: 16pt; color: var(--cream); margin-top: 4mm; letter-spacing: .3pt;
+  opacity: .96; }
+.front .mid .lead { font-size: 9pt; line-height: 1.5;
+  color: rgba(251,247,238,.92); margin-top: 5mm; max-width: 96%;
+  font-weight: 300; }
+
+/* Stats bar */
+.front .stats { display: flex; border: 1pt solid rgba(235,203,134,.6);
+  border-radius: 3pt; overflow: hidden; margin-bottom: 7mm;
+  background: rgba(6,68,30,.5); }
+.front .stats .s { flex: 1; text-align: center; padding: 3.5mm 2mm;
+  border-right: .5pt solid rgba(235,203,134,.4); }
+.front .stats .s:last-child { border-right: none; }
+.front .stats .s .n { font-family: "Playfair Display", serif; font-size: 15pt;
+  font-weight: 700; color: var(--amber-l); line-height: 1; }
+.front .stats .s .l { font-size: 5.5pt; letter-spacing: 1.5pt;
+  color: var(--cream); text-transform: uppercase; margin-top: 1.5mm; }
+
+/* QR row */
+.front .qr-row { display: flex; align-items: center; gap: 7pt; }
+.front .qr-row .qr { width: 20mm; height: 20mm; background: #fff;
+  padding: 1.5mm; border-radius: 2pt; display: flex; align-items: center;
+  justify-content: center; font-size: 5.5pt; color: #666; }
+.front .qr-row .qx .a { font-family: "Playfair Display", serif;
+  font-size: 11pt; color: #fff; font-weight: 600; }
+.front .qr-row .qx .b { font-size: 7pt; color: var(--amber-l);
+  letter-spacing: .5pt; margin-top: 1mm; }
+.front .qr-row .price { margin-left: auto; text-align: right; }
+.front .qr-row .price .p { font-family: "Playfair Display", serif;
+  font-size: 23pt; font-weight: 800; color: #fff; line-height: 1; }
+.front .qr-row .price .u { font-size: 6pt; letter-spacing: 2pt;
+  color: var(--amber-l); text-transform: uppercase; }
+
+/* ===================== MẶT SAU — THÔNG TIN ===================== */
+.back { background: var(--cream); }
+.back .bh { height: 30mm; background: var(--green); color: var(--cream);
+  padding: 7mm 12mm 0; position: relative; }
+.back .bh::after { content: ""; position: absolute; left: 0; right: 0;
+  bottom: 0; height: 2pt; background: var(--amber); }
+.back .bh .k { font-size: 6.5pt; letter-spacing: 4pt; color: var(--amber-l);
+  font-weight: 600; text-transform: uppercase; }
+.back .bh h2 { font-family: "Playfair Display", serif; font-size: 21pt;
+  font-weight: 700; margin-top: 1mm; line-height: 1; }
+.back .bh h2 em { font-style: italic; color: var(--amber-l); }
+.back .body { padding: 6mm 12mm 32mm; position: relative; z-index: 1; }
+.tl2 .r { padding-bottom: 1.8mm; }
+.back .bh { z-index: 1; }
+.back .sec-t { display: flex; align-items: center; gap: 4mm; margin: 0 0 3mm; }
+.back .sec-t .ic  { font-size: 11pt; }
+.back .sec-t .tt  { font-family: "Playfair Display", serif; font-size: 12pt;
+  font-weight: 700; color: var(--green); }
+.back .sec-t .ln  { flex: 1; height: .5pt; background: rgba(10,106,47,.18); }
+
+/* Timeline compact */
+.tl2 { position: relative; padding-left: 18mm; margin-bottom: 5mm; }
+.tl2::before { content: ""; position: absolute; left: 13mm; top: 1.5mm;
+  bottom: 1.5mm; width: .6pt; background: rgba(10,106,47,.2); }
+.tl2 .r { position: relative; padding-bottom: 2.4mm; }
+.tl2 .r:last-child { padding-bottom: 0; }
+.tl2 .r .t { position: absolute; left: -18mm; top: .1mm; width: 11mm;
+  text-align: right; font-family: "Playfair Display", serif; font-style: italic;
+  font-size: 8pt; color: var(--amber); }
+.tl2 .r .d { position: absolute; left: -5.4mm; top: .6mm; width: 2.4mm;
+  height: 2.4mm; border-radius: 50%; background: var(--cream);
+  border: 1pt solid var(--green-v); }
+.tl2 .r.key .d { background: var(--amber); border-color: var(--amber); }
+.tl2 .r .n { font-size: 8.3pt; font-weight: 600; color: var(--ink); line-height: 1.25; }
+.tl2 .r .n b { color: var(--green); }
+
+/* FIX: layout mặt sau 2 cột — timeline + cột phải cân đối */
+/* Cột phải: inc (bao gồm) → pull-quote "5 KHÔNG" → mini-map */
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; margin-bottom: 5mm; align-items: start; }
+.inc h5 { font-size: 7pt; letter-spacing: 2pt; color: var(--amber);
+  font-weight: 700; text-transform: uppercase; margin-bottom: 2mm; }
+.inc ul { list-style: none; }
+.inc li { font-size: 7.8pt; line-height: 1.45; padding-left: 11pt;
+  position: relative; margin-bottom: 1.3mm; color: #3a352c; }
+.inc li::before { content: "✦"; position: absolute; left: 0;
+  color: var(--green-v); font-size: 7pt; }
+
+/* Cột phải mặt sau: wrapper flex để inc + no5 + minimap xếp dọc */
+.back-col-right { display: flex; flex-direction: column; gap: 4mm; }
+
+/* Khối "5 KHÔNG" pull-quote — lấp vùng trống cột phải */
+.no5-block { background: var(--green); padding: 4mm 4.5mm; border-radius: 2pt; }
+.no5-block .no5-head { font-size: 6pt; letter-spacing: 2.5pt; color: var(--amber-l);
+  font-weight: 700; text-transform: uppercase; margin-bottom: 2.5mm; }
+.no5-block .no5-list { list-style: none; }
+.no5-block .no5-list li { font-size: 7.5pt; line-height: 1.5; color: #EFEAD9;
+  padding-left: 9pt; position: relative; margin-bottom: 1mm; }
+.no5-block .no5-list li::before { content: "—"; position: absolute; left: 0;
+  color: var(--amber-l); font-weight: 700; }
+.no5-block .no5-list li:last-child { margin-bottom: 0; }
+
+/* Mini map placeholder */
+.mini-map { position: relative; border: .5pt solid var(--amber);
+  border-radius: 2pt; overflow: hidden; }
+.mini-map .ph-map {
+  width: 100%; height: 28mm;
+  background: linear-gradient(135deg, #0A6A2F 0%, #0A5226 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 6pt; color: rgba(235,203,134,.8); letter-spacing: 1pt;
+}
+.mini-map .cap { position: absolute; inset: auto 0 0 0;
+  background: linear-gradient(0deg, rgba(6,68,30,.92), transparent);
+  color: var(--cream); font-size: 6.5pt; padding: 5mm 4mm 2mm;
+  letter-spacing: .5pt; }
+.mini-map .cap b { color: var(--amber-l); }
+
+/* Contact footer */
+.back .foot { position: absolute; left: 0; right: 0; bottom: 0;
+  background: var(--green); color: var(--cream); padding: 5mm 12mm;
+  display: grid; grid-template-columns: 1.4fr auto; gap: 6mm;
+  align-items: center; }
+.back .foot .ct .k { font-size: 6pt; letter-spacing: 3pt;
+  color: var(--amber-l); font-weight: 600; text-transform: uppercase; }
+.back .foot .ct .org { font-family: "Playfair Display", serif; font-size: 12pt;
+  font-weight: 600; margin: 1mm 0 2mm; line-height: 1.05; }
+.back .foot .ct .row { font-size: 7.5pt; line-height: 1.7; }
+.back .foot .ct .row b { color: var(--amber-l); }
+.back .foot .qr { width: 22mm; height: 22mm; background: #fff;
+  padding: 1.5mm; border-radius: 2pt; display: flex; align-items: center;
+  justify-content: center; font-size: 5.5pt; color: #666; }
+.tagfin { text-align: center; font-size: 6.5pt; letter-spacing: 5pt;
+  color: var(--amber); font-weight: 600; text-transform: uppercase;
+  margin-top: 3mm; }
+</style>
+</head>
+<body class="theme-{{ theme }}">
+
+<!-- ============ MẶT TRƯỚC ============ -->
+<div class="page front">
+  <div class="hero">
+    {% if cover_hero %}
+    <img src="{{ cover_hero }}" alt="{{ ten }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+    {% else %}
+    <div class="ph-hero" data-slot="hero-poster" data-label="📷 Ảnh hero poster · {{ ten }}"></div>
+    {% endif %}
+  </div>
+  <div class="overlay"></div>
+  <div class="vignette"></div>
+  <div class="keyline"></div>
+  <!-- Motif: ảnh hero đầy → chỉ 4 góc tinh tế -->
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+
+  <div class="inner">
+    <div class="top">
+      <div class="brand">
+        <span class="lg"><img src="../../assets/img/logo-muong-coc.png" alt="Mường Cốc"></span>
+        <span class="bt">Du lịch cộng đồng<br>Mường Cốc · Hà Nội</span>
+      </div>
+      <span class="pill">{{ pg_label_cover }}</span>
+    </div>
+
+    <div class="mid">
+      <div class="kick">{{ thoi_luong }}</div>
+      <h1>{{ ten_split[0] }}{% if ten_split | length > 1 %}<em>{{ ten_split[1:] | join(' ') }}</em>{% endif %}</h1>
+      <div class="tag">{{ tagline }}</div>
+      <div class="lead">{{ intro[:200] }}{% if intro | length > 200 %}…{% endif %}</div>
+    </div>
+
+    <div class="foot">
+      <div class="stats">
+        {% if cu_ly %}
+        <div class="s"><div class="n">{{ cu_ly }}</div><div class="l">Km · Dễ</div></div>
+        {% endif %}
+        <div class="s"><div class="n">{{ thoi_luong }}</div><div class="l">Thời gian</div></div>
+        <div class="s"><div class="n">{{ lich_trinh | length }}</div><div class="l">Điểm dừng</div></div>
+        <div class="s"><div class="n">{{ quy_mo }}</div><div class="l">Khách/đoàn</div></div>
+      </div>
+      <div class="qr-row">
+        <div class="qr"><img src="../../assets/qr/qr-cung-{{ slug }}.png" alt="QR {{ slug }}" style="width:17mm;height:17mm;object-fit:contain;display:block;"></div>
+        <div class="qx">
+          <div class="a">Quét xem chi tiết</div>
+          <div class="b">Lịch trình · bản đồ · đặt tour</div>
+        </div>
+        <div class="price">
+          <div class="p">{{ gia_display }}</div>
+          <div class="u">VNĐ / khách</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MẶT SAU ============ -->
+<div class="page back">
+  <div class="m-corners"><span class="tl"></span><span class="tr"></span><span class="br"></span><span class="bl"></span></div>
+  <div class="m-wm-fill pst"></div>
+  <div class="bh">
+    <div class="k">{{ ten }} · {{ thoi_luong }}</div>
+    <h2>Hành trình <em>{{ thoi_luong }}</em></h2>
+  </div>
+
+  <div class="body">
+    <div class="sec-t">
+      <span class="ic">{{ tour_icon }}</span>
+      <span class="tt">Lịch trình</span>
+      <span class="ln"></span>
+    </div>
+    <div class="tl2">
+      {% for stop in lich_trinh %}
+      {% set is_key = (loop.index == ((lich_trinh | length) // 2)) %}
+      <div class="r{% if is_key %} key{% endif %}">
+        <span class="t">{{ stop.gio_hoac_buoi }}</span>
+        <span class="d"></span>
+        <div class="n"><b>{{ stop.diem }}</b></div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="cols">
+      <div class="inc">
+        <h5>{{ gia_display }} bao gồm</h5>
+        <ul>
+          {% for item in bao_gom[:6] %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- FIX: cột phải bọc flex-column để inc + no5 + minimap lấp đều -->
+      <div class="back-col-right">
+        <!-- Khối "5 KHÔNG" lấp mảng trống phía trên -->
+        <div class="no5-block">
+          <div class="no5-head">5 Không của Mường Cốc</div>
+          <ul class="no5-list">
+            <li>Không ăn thức ăn mang theo ngoài</li>
+            <li>Không hái cây, bắt thú rừng</li>
+            <li>Không để rác ngoài thiên nhiên</li>
+            <li>Không quay phim nơi thờ tự</li>
+            <li>Không ồn ào tại khu dân cư</li>
+          </ul>
+        </div>
+        <div class="mini-map">
+          {% set ns_mm = namespace(img=None) %}
+          {% for stop in lich_trinh %}
+            {% if ns_mm.img is none and stop.diem in images %}
+              {% set ns_mm.img = images[stop.diem] %}
+            {% endif %}
+          {% endfor %}
+          {% if ns_mm.img %}
+          <img src="{{ ns_mm.img }}" alt="Điểm chính" style="width:100%;height:28mm;object-fit:cover;">
+          {% else %}
+          <div class="ph-map" data-slot="mini-map-poster">📷 Ảnh điểm chính</div>
+          {% endif %}
+          <div class="cap"><b>Quét QR</b> mở bản đồ tuyến tương tác trên Google My Maps.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="ct">
+      <div class="k">Liên hệ đặt tour</div>
+      <div class="org">{{ lien_he.don_vi }}</div>
+      <div class="row">📞 <b>{{ lien_he.sdt }}</b> &nbsp;·&nbsp; f <b>{{ lien_he.fanpage }}</b><br>📍 Hub Đồi Dùng · xã Mỹ Đức · Hà Nội</div>
+    </div>
+    <div class="qr"><img src="../../assets/qr/qr-cung-{{ slug }}.png" alt="QR {{ slug }}" style="width:18mm;height:18mm;object-fit:contain;display:block;"></div>
+  </div>
+</div>
+
+</body>
+</html>
