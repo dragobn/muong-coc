@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Cẩm nang Du lịch Mường Cốc — Editorial Sample</title>
+<!--
+  CẨM NANG MƯỜNG CỐC · 3 SPREAD MẪU phong cách tạp chí editorial (NatGeo / Condé Nast Traveler).
+  Khổ A5 dọc, in được, song ngữ Việt (chính) / English (phụ).
+  Ảnh tham chiếu tương đối: ../assets/img/...
+  QR slot: #qr-slot ở spread 3 (Đình Phú Cốc) — main agent chèn QR 22mm.
+  GHI CHÚ DI TÍCH: ảnh dinh-* là cảnh tế lễ tại Đình Phú Cốc (thầy mo, ban thờ sơn son, vì kèo gỗ).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --green:#0A6A2F; --green2:#00A33B; --green-deep:#063C1B;
+  --gold:#C9912F; --gold-lt:#EBCB86; --cream:#FBF7EE; --cream2:#F4ECDA;
+  --ink:#232020; --ink-soft:rgba(35,32,32,.62);
+}
+@page{ size:A5 portrait; margin:0; }
+*{ box-sizing:border-box; margin:0; padding:0; }
+html,body{ background:#3a3a3a; }
+body{ font-family:"Be Vietnam Pro",sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+.pf{ font-family:"Playfair Display",Georgia,serif; }
+.cg{ font-family:"Cormorant Garamond",Georgia,serif; }
+
+.page{
+  width:148mm; height:210mm; position:relative; overflow:hidden;
+  background:var(--cream); page-break-after:always;
+  margin:9mm auto; box-shadow:0 8mm 22mm rgba(0,0,0,.45);
+}
+.page:last-child{ page-break-after:auto; }
+.bleed{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
+
+/* running footer shared */
+.foot{
+  position:absolute; bottom:0; left:0; right:0; height:9mm; z-index:9;
+  display:flex; justify-content:space-between; align-items:center;
+  padding:0 11mm; font-size:6pt; letter-spacing:3pt; text-transform:uppercase;
+}
+
+/* ===================================================================== */
+/* SPREAD 1 — COVER                                                      */
+/* ===================================================================== */
+.cover .bleed{ filter:saturate(1.04) contrast(1.04); }
+/* duotone xanh-trầm: gradient kép trên + dưới để chữ nổi */
+.cover .grad{
+  position:absolute; inset:0; z-index:2;
+  background:
+    linear-gradient(180deg, rgba(6,40,22,.78) 0%, rgba(6,40,22,.30) 26%, rgba(6,40,22,0) 46%, rgba(6,40,22,.18) 60%, rgba(4,28,15,.86) 100%),
+    linear-gradient(180deg, rgba(10,60,30,.22), rgba(10,60,30,.22));
+  mix-blend-mode:normal;
+}
+.cover .topbar{
+  position:absolute; top:0; left:0; right:0; z-index:5;
+  display:flex; justify-content:space-between; align-items:center;
+  padding:8mm 11mm 0; color:var(--gold-lt);
+  font-size:6.5pt; letter-spacing:4pt; text-transform:uppercase;
+}
+.cover .topbar .est{ opacity:.85; }
+.cover .masthead{
+  position:absolute; top:20mm; left:11mm; right:11mm; z-index:5; color:#fff;
+}
+.cover .masthead .kick{
+  font-size:7pt; letter-spacing:6pt; text-transform:uppercase; color:var(--gold-lt);
+  font-weight:500;
+}
+.cover .masthead .kline{ display:inline-block; width:18mm; height:1pt; background:var(--gold); margin:4mm 0 5mm; }
+.cover .masthead h1{
+  font-weight:800; font-size:41pt; line-height:.92; letter-spacing:-.5pt;
+  text-shadow:0 2mm 9mm rgba(0,0,0,.45);
+}
+.cover .masthead h1 em{
+  display:block; font-style:italic; font-weight:500; color:var(--gold-lt);
+  font-size:27pt; margin-top:1.5mm; letter-spacing:0;
+}
+.cover .masthead .en{
+  font-family:"Cormorant Garamond",serif; font-style:italic; font-size:13pt;
+  color:rgba(255,255,255,.86); letter-spacing:2pt; margin-top:5mm;
+}
+/* khối dưới: tagline + logo + năm */
+.cover .lower{
+  position:absolute; bottom:9mm; left:11mm; right:11mm; z-index:5; color:#fff;
+}
+.cover .tagwrap{
+  border-top:.75pt solid rgba(235,203,134,.55); padding-top:5mm;
+  display:flex; align-items:flex-end; justify-content:space-between; gap:6mm;
+}
+.cover .tagwrap .tg .vi{
+  font-family:"Playfair Display",serif; font-style:italic; font-weight:500;
+  font-size:17pt; color:#fff; line-height:1.05;
+}
+.cover .tagwrap .tg .en2{
+  font-family:"Cormorant Garamond",serif; font-style:italic; font-size:11.5pt;
+  color:var(--gold-lt); letter-spacing:1.5pt; margin-top:1.5mm;
+}
+.cover .logo-circ{
+  flex:0 0 auto; width:18mm; height:18mm; border-radius:50%;
+  background:var(--cream); display:flex; align-items:center; justify-content:center;
+  box-shadow:0 1mm 5mm rgba(0,0,0,.35);
+}
+.cover .logo-circ img{ width:14mm; height:14mm; object-fit:contain; }
+.cover .yearline{
+  display:flex; justify-content:space-between; align-items:center;
+  margin-top:5mm; font-size:6.5pt; letter-spacing:4pt; text-transform:uppercase;
+  color:rgba(255,255,255,.78);
+}
+.cover .yearline .yr{ font-family:"Playfair Display",serif; font-style:italic; font-size:13pt; letter-spacing:1pt; color:var(--gold-lt); text-transform:none; }
+
+/* ===================================================================== */
+/* SPREAD 2 — PHOTO ESSAY: MÙA SEN                                       */
+/* ===================================================================== */
+.essay{ background:var(--cream); }
+/* ảnh lớn chủ đạo tràn lề trên 55% */
+.essay .hero-img{ position:absolute; top:0; left:0; right:0; height:108mm; overflow:hidden; }
+.essay .hero-img img{ width:100%; height:100%; object-fit:cover; display:block; filter:saturate(1.03); }
+.essay .hero-img .scrim{
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(6,40,22,.55) 0%, rgba(6,40,22,0) 30%, rgba(6,40,22,0) 64%, rgba(6,40,22,.62) 100%);
+}
+.essay .hero-img .label{
+  position:absolute; top:9mm; left:11mm; color:var(--gold-lt);
+  font-size:6.5pt; letter-spacing:5pt; text-transform:uppercase; z-index:3;
+}
+.essay .hero-img .label .en{ display:block; color:rgba(255,255,255,.8); letter-spacing:3pt; margin-top:1mm; font-style:italic; font-family:"Cormorant Garamond",serif; font-size:9pt; text-transform:none; }
+/* tiêu đề đè đáy ảnh hero */
+.essay .hero-img .ttl{
+  position:absolute; bottom:6mm; left:11mm; right:30mm; z-index:3; color:#fff;
+}
+.essay .hero-img .ttl h2{
+  font-family:"Playfair Display",serif; font-weight:800; font-size:30pt; line-height:.94;
+  text-shadow:0 1.5mm 7mm rgba(0,0,0,.5);
+}
+.essay .hero-img .ttl h2 em{ display:block; font-style:italic; font-weight:400; color:var(--gold-lt); font-size:15pt; margin-top:1mm; }
+
+/* ảnh nhỏ framed nhô lên đè ranh giới ảnh/giấy */
+.essay .frame{
+  position:absolute; z-index:6; background:var(--cream); padding:1.6mm;
+  box-shadow:0 2mm 6mm rgba(0,0,0,.28);
+}
+.essay .frame img{ display:block; width:100%; height:100%; object-fit:cover; }
+.essay .frame .cap{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:7.5pt; color:var(--ink-soft); margin-top:1mm; line-height:1.2; }
+.essay .f1{ right:9mm; top:84mm; width:42mm; height:50mm; }
+.essay .f1 img{ height:44mm; }
+
+/* khối chữ dưới: lưới bất đối xứng */
+.essay .body{
+  position:absolute; top:113mm; left:11mm; right:11mm; bottom:9mm;
+  display:grid; grid-template-columns:1fr 46mm; gap:7mm;
+}
+.essay .body .col-l{ display:flex; flex-direction:column; }
+.essay .lead{
+  font-family:"Cormorant Garamond",serif; font-size:11.5pt; line-height:1.5; color:#2A2A2A; text-align:justify;
+}
+.essay .lead .dc{
+  float:left; font-family:"Playfair Display",serif; font-weight:800; font-size:34pt;
+  line-height:.74; padding:2pt 4pt 0 0; color:var(--green);
+}
+.essay .lead-en{
+  font-family:"Be Vietnam Pro",sans-serif; font-weight:300; font-style:italic;
+  font-size:7.5pt; line-height:1.5; color:var(--ink-soft); text-align:justify; margin-top:3mm;
+  padding-top:3mm; border-top:.4pt solid #D8C9A8;
+}
+/* pull-quote lớn nghiêng, chiếm cột phải + tràn */
+.essay .pull{
+  margin-top:auto;
+}
+.essay .pull .mark{ font-family:"Playfair Display",serif; font-size:30pt; color:var(--gold); line-height:.4; }
+.essay .pull q, .essay .pull .qz{
+  display:block; font-family:"Playfair Display",serif; font-style:italic; font-weight:500;
+  font-size:14pt; line-height:1.18; color:var(--green); quotes:none;
+}
+.essay .pull .qz::before, .essay .pull .qz::after{ content:none; }
+.essay .col-r{ border-left:.5pt solid #D8C9A8; padding-left:6mm; }
+.essay .col-r .sub{
+  font-family:"Playfair Display",serif; font-style:italic; font-size:12pt; color:var(--green); margin-bottom:2.5mm;
+}
+.essay .col-r p{ font-family:"Cormorant Garamond",serif; font-size:10pt; line-height:1.42; color:#333; text-align:justify; }
+.essay .col-r .en3{ font-weight:300; font-style:italic; font-size:7pt; font-family:"Be Vietnam Pro"; color:var(--ink-soft); line-height:1.45; margin-top:2.5mm; }
+.essay .foot{ color:var(--ink-soft); }
+.essay .foot .l{ color:var(--gold); font-weight:600; }
+
+/* ===================================================================== */
+/* SPREAD 3 — DESTINATION: ĐÌNH PHÚ CỐC                                  */
+/* ===================================================================== */
+.poi{ background:var(--cream); }
+/* ảnh kiến trúc lớn tràn nửa trên */
+.poi .hero-img{ position:absolute; top:0; left:0; right:0; height:118mm; overflow:hidden; }
+.poi .hero-img img{ width:100%; height:100%; object-fit:cover; display:block; object-position:center 28%; filter:saturate(1.05) contrast(1.03); }
+.poi .hero-img .scrim{
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(6,40,22,.62) 0%, rgba(6,40,22,0) 28%, rgba(6,40,22,0) 50%, rgba(4,28,15,.88) 100%);
+}
+.poi .kick-top{
+  position:absolute; top:9mm; left:11mm; z-index:4; color:var(--gold-lt);
+  font-size:6.5pt; letter-spacing:5pt; text-transform:uppercase;
+}
+.poi .kick-top .en{ display:block; color:rgba(255,255,255,.8); font-style:italic; font-family:"Cormorant Garamond",serif; font-size:9pt; letter-spacing:2pt; text-transform:none; margin-top:1mm; }
+.poi .htitle{ position:absolute; bottom:6mm; left:11mm; right:11mm; z-index:4; color:#fff; }
+.poi .htitle h2{ font-family:"Playfair Display",serif; font-weight:800; font-size:29pt; line-height:.92; text-shadow:0 1.5mm 7mm rgba(0,0,0,.55); }
+.poi .htitle h2 em{ display:block; font-style:italic; font-weight:400; color:var(--gold-lt); font-size:13.5pt; letter-spacing:1pt; margin-top:1mm; }
+.poi .htitle .loc{ font-size:6.5pt; letter-spacing:3pt; text-transform:uppercase; color:rgba(255,255,255,.8); margin-top:2.5mm; }
+
+/* phần dưới: lưới text + infobar + ảnh phụ + QR */
+.poi .lower{
+  position:absolute; top:120mm; left:11mm; right:11mm; bottom:9mm;
+  display:grid; grid-template-columns:1fr 42mm; grid-template-rows:auto 1fr; gap:5mm 7mm;
+}
+.poi .desc{ grid-column:1; grid-row:1 / span 2; }
+.poi .desc p{ font-family:"Cormorant Garamond",serif; font-size:10.2pt; line-height:1.42; color:#2A2A2A; text-align:justify; margin-bottom:2mm; }
+.poi .desc p .dc{ float:left; font-family:"Playfair Display",serif; font-weight:800; font-size:28pt; line-height:.74; padding:1pt 4pt 0 0; color:var(--green); }
+.poi .desc .en{ font-family:"Be Vietnam Pro"; font-weight:300; font-style:italic; font-size:7pt; line-height:1.5; color:var(--ink-soft); text-align:justify; margin-top:2.5mm; padding-top:2.5mm; border-top:.4pt solid #D8C9A8; }
+.poi .pull{ margin-top:3mm; }
+.poi .pull .qz{ font-family:"Playfair Display",serif; font-style:italic; font-weight:500; font-size:12.5pt; line-height:1.16; color:var(--green); }
+.poi .pull .mark{ font-family:"Playfair Display",serif; font-size:24pt; color:var(--gold); line-height:.3; }
+
+/* cột phải: ảnh phụ + infobar + qr */
+.poi .rcol{ grid-column:2; grid-row:1 / span 2; display:flex; flex-direction:column; gap:4mm; }
+.poi .sub-img{ width:100%; height:38mm; overflow:hidden; background:var(--cream); padding:1.4mm; box-shadow:0 2mm 6mm rgba(0,0,0,.22); }
+.poi .sub-img img{ width:100%; height:35mm; object-fit:cover; display:block; }
+.poi .sub-cap{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:7pt; color:var(--ink-soft); margin-top:1mm; line-height:1.2; }
+.poi .infobar{ border-top:1pt solid var(--green); }
+.poi .infobar .cell{ padding:2.2mm 0; border-bottom:.4pt solid #D8C9A8; }
+.poi .infobar .cell .l{ font-size:5.5pt; letter-spacing:2pt; color:var(--gold); font-weight:600; text-transform:uppercase; }
+.poi .infobar .cell .v{ font-family:"Playfair Display",serif; font-size:9.5pt; color:var(--green); font-weight:600; line-height:1.1; margin-top:.5mm; }
+.poi .qr-block{ display:flex; align-items:center; gap:3mm; margin-top:auto; }
+.poi #qr-slot{ width:22mm; height:22mm; flex:0 0 auto; border:.5pt dashed var(--gold); display:flex; align-items:center; justify-content:center; font-size:5pt; color:var(--gold); letter-spacing:.5pt; text-align:center; }
+.poi #qr-slot img{ width:100%; height:100%; object-fit:contain; display:block; }
+.poi .qr-cap{ font-size:6.5pt; line-height:1.35; color:#555; }
+.poi .qr-cap strong{ color:var(--green); }
+.poi .foot{ color:var(--ink-soft); }
+.poi .foot .l{ color:var(--gold); font-weight:600; }
+
+/* ============ PRINT ============ */
+@media print{
+  html,body{ background:#fff; }
+  .page{ margin:0; box-shadow:none; }
+  .essay .frame, .poi .sub-img{ box-shadow:none; }
+  .cover .logo-circ{ box-shadow:none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= SPREAD 1 · BÌA CẨM NANG ================= -->
+<div class="page cover">
+  <img class="bleed" src="../assets/img/wow/sen-73.jpg" alt="Đầm sen Mường Cốc dưới chân núi đá vôi">
+  <div class="grad"></div>
+
+  <div class="topbar">
+    <span>Du lịch cộng đồng · Mỹ Đức · Hà Nội</span>
+    <span class="est">Est. Mường Cốc</span>
+  </div>
+
+  <div class="masthead">
+    <div class="kick">Cẩm nang du lịch</div>
+    <span class="kline"></span>
+    <h1>Mường Cốc<em>Miền chín mươi chín đồi</em></h1>
+    <div class="en">Muong Coc · The Travel Guidebook</div>
+  </div>
+
+  <div class="lower">
+    <div class="tagwrap">
+      <div class="tg">
+        <div class="vi">Chạm vào bình yên.</div>
+        <div class="en2">Touch the serenity</div>
+      </div>
+      <div class="logo-circ"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></div>
+    </div>
+    <div class="yearline">
+      <span>Ấn bản giới thiệu điểm đến</span>
+      <span class="yr">2026</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= SPREAD 2 · PHOTO-ESSAY MÙA SEN ================= -->
+<div class="page essay">
+  <div class="hero-img">
+    <img src="../assets/img/wow/sen-55.jpg" alt="Đầm sen Mường Cốc mùa hạ">
+    <div class="scrim"></div>
+    <div class="label">Phóng sự ảnh · Số 01<span class="en">Photo Essay — Lotus Season</span></div>
+    <div class="ttl">
+      <h2>Mùa Sen<em>Mường Cốc</em></h2>
+    </div>
+  </div>
+
+  <!-- ảnh nhỏ framed nhô lên ranh giới -->
+  <div class="frame f1">
+    <img src="../assets/img/wow/sen-109.jpg" alt="Phụ nữ Mường trên đường làng mùa lúa">
+    <div class="cap">Sắc áo Mường giữa đường làng — June light.</div>
+  </div>
+
+  <div class="body">
+    <div class="col-l">
+      <div class="lead">
+        <p><span class="dc">T</span>háng Sáu, khi nắng đầu hạ trải vàng trên thung lũng, cả vùng Mường Cốc chuyển mình theo mùa sen. Những đầm sen nối nhau dưới chân dãy núi đá vôi, nở rộ giữa miền bán sơn địa chín mươi chín quả đồi — nơi người Mường gốc Hoà Bình đã gìn giữ nếp sống thuần hậu qua bao thế hệ.</p>
+        <div class="lead-en">In June, as early-summer light spills gold across the valley, all of Muong Coc shifts into lotus season. Pond after pond blooms beneath the limestone range — a quiet land of ninety-nine hills kept by the Muong people for generations.</div>
+      </div>
+      <div class="pull">
+        <span class="mark">“</span>
+        <span class="qz">Tháng Sáu, cả thung lũng thở bằng hương sen.</span>
+      </div>
+    </div>
+
+    <div class="col-r">
+      <div class="sub">Hái sen khi sương chưa tan</div>
+      <p>Sáng sớm, người làng chèo bè tre len giữa lá sen, hái những bông còn ngậm sương để ướp trà, gói xôi, bày mâm cỗ lá. Du khách được mời cùng xuống đầm, học cách chọn bông, ướp hương — một nhịp sống chậm rất Mường.</p>
+        <div class="en3">At dawn, villagers pole bamboo rafts through the leaves to pick dew-soaked blooms for tea and sticky rice. Guests are invited to wade in and learn the craft — the unhurried Muong rhythm.</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="l">Mường Cốc · Cẩm nang du lịch</span>
+    <span>02 — Mùa Sen / Lotus Season</span>
+  </div>
+</div>
+
+<!-- ================= SPREAD 3 · ĐÌNH PHÚ CỐC ================= -->
+<div class="page poi">
+  <div class="hero-img">
+    <img src="../assets/img/wow/dinh-14.jpg" alt="Nghi lễ tế tại ban thờ sơn son thếp vàng Đình Phú Cốc">
+    <div class="scrim"></div>
+    <div class="kick-top">Điểm đến di sản · Số 03<span class="en">Heritage Site — Communal House</span></div>
+    <div class="htitle">
+      <h2>Đình Phú Cốc<em>Dinh Phu Coc Communal House</em></h2>
+      <div class="loc">Xóm Đình · Thôn Phú Cốc · Xã Mỹ Đức · Hà Nội</div>
+    </div>
+  </div>
+
+  <div class="lower">
+    <div class="desc">
+      <p><span class="dc">G</span>iữa làng Phú Cốc, đại đình năm gian hai chái mái đao cong là trung tâm tín ngưỡng chung của bốn thôn. Đình thờ Nhị vị Thánh Mẫu — hai bà Từ Quang và Từ Minh — gắn với truyền thuyết "Đầm Hai Cô" của vùng đất Mường.</p>
+      <p>Trong hậu cung còn lưu hai đạo sắc phong năm Khải Định thứ chín (1924) — di vật tiêu biểu nhất của ngôi đình. Mỗi độ mùng 6–8 tháng Giêng, dân bốn dòng họ lại mở hội tế lễ theo nghi thức cổ truyền.</p>
+      <div class="en">In the heart of Phu Coc village, this five-bay communal house honours the Two Holy Mothers — Tu Quang and Tu Minh — of the local "Two Maidens' Pond" legend. Its inner sanctum still keeps two royal edicts from 1924 (Khai Dinh reign). The festival runs on the 6th–8th of the first lunar month.</div>
+      <div class="pull">
+        <span class="mark">“</span>
+        <span class="qz">Nơi bốn thôn cùng hướng về tổ tiên và tín ngưỡng.</span>
+      </div>
+    </div>
+
+    <div class="rcol">
+      <div class="sub-img">
+        <img src="../assets/img/wow/dinh-6.jpg" alt="Lễ tế trong đại bái Đình Phú Cốc">
+        <div class="sub-cap">Lễ tế đầu xuân trong đại bái — spring rites.</div>
+      </div>
+
+      <div class="infobar">
+        <div class="cell"><div class="l">Loại hình / Type</div><div class="v">Di tích lịch sử – nghệ thuật</div></div>
+        <div class="cell"><div class="l">Niên đại / Era</div><div class="v">Sắc phong 1924</div></div>
+        <div class="cell"><div class="l">Lễ hội / Festival</div><div class="v">Mùng 6–8 Giêng</div></div>
+      </div>
+
+      <div class="qr-block">
+        <div id="qr-slot"><img src="../assets/qr/qr-dinh-phu-coc.png" alt="QR Đình Phú Cốc" onerror="this.style.display='none';this.parentNode.innerHTML='QR<br>điểm đến'"></div>
+        <div class="qr-cap">Quét mã xem <strong>hồ sơ &amp; bản đồ điểm đến</strong>.<br>Scan for the destination guide.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="l">Mường Cốc · Cẩm nang du lịch</span>
+    <span>03 — Đình Phú Cốc / Communal House</span>
+  </div>
+</div>
+
+</body>
+</html>
