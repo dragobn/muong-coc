@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cẩm nang du lịch Mường Cốc — mẫu / Muong Coc Travel Guide — sample</title>
+<!--
+  CẨM NANG DU LỊCH MƯỜNG CỐC — 3 TRANG MẪU SONG NGỮ VIỆT / ENGLISH
+  Khổ A5 DỌC (148 × 210 mm). Mỗi .page = 1 trang, page-break-after.
+  Trang 3 có ô id="qr-slot" dẫn hồ sơ điểm đến (main agent chèn QR).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-dark:#0A6A2F; --green:#00A33B; --amber:#C9912F;
+    --amber-light:#EBCB86; --cream:#FBF7EE; --cream-deep:#F4ECDA; --ink:#232020;
+    --red:#A52A2A;
+    --serif:'Cormorant Garamond', Georgia, serif;
+    --body:'Be Vietnam Pro', system-ui, sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  @page{ size:148mm 210mm; margin:0; }
+  html,body{ background:#888; font-family:var(--body); color:var(--ink); }
+
+  .page{
+    width:148mm; height:210mm; background:var(--cream);
+    margin:0 auto; position:relative; overflow:hidden; page-break-after:always;
+  }
+  .page:last-child{ page-break-after:auto; }
+  @media screen{ .page{ margin:16px auto; box-shadow:0 10px 40px rgba(0,0,0,.35); } }
+  @media print{ html,body{background:#fff;} .page{margin:0;} }
+
+  .lang-en{ font-style:italic; color:#5b5b57; }
+
+  /* ============ TRANG 1 — BÌA ============ */
+  .cover{ display:flex; flex-direction:column; }
+  .cover-top{
+    flex:1.05; background:var(--cream-deep); position:relative; overflow:hidden;
+  }
+  .cover-top .full{ width:100%; height:100%; object-fit:cover; }
+  .cover-top .veil{
+    position:absolute; inset:0;
+    background:linear-gradient(to bottom, rgba(10,106,47,.10), rgba(10,106,47,.02));
+  }
+  .cover-logo{
+    position:absolute; top:6mm; left:50%; transform:translateX(-50%);
+    width:24mm; height:24mm; border-radius:50%; background:#fff;
+    border:2px solid var(--amber); box-shadow:0 3px 10px rgba(0,0,0,.25);
+    display:flex; align-items:center; justify-content:center; overflow:hidden; z-index:2;
+  }
+  .cover-logo img{ width:90%; height:90%; object-fit:contain; }
+  .cover-title{
+    padding:8mm 12mm 5mm; text-align:center; background:var(--cream);
+  }
+  .cover-title .en{
+    font-size:10pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--amber); font-weight:600; margin-bottom:2mm;
+  }
+  .cover-title .vi{
+    font-family:var(--serif); font-weight:700; font-size:38pt;
+    color:var(--green-dark); line-height:.95;
+  }
+  .cover-collage{
+    display:flex; gap:1.5mm; padding:0 12mm 9mm; background:var(--cream);
+  }
+  .cover-collage .c{
+    flex:1; height:30mm; background-size:cover; background-position:center;
+    border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,.18);
+  }
+  .cover-tagline{
+    text-align:center; padding-bottom:7mm; background:var(--cream);
+    font-family:var(--serif); font-style:italic; font-size:13pt; color:var(--amber);
+  }
+
+  /* ============ TRANG NỘI DUNG CHUNG ============ */
+  .content{ padding:11mm 12mm; display:flex; flex-direction:column; height:100%; }
+  .h-section{
+    font-family:var(--serif); font-weight:700; line-height:1.02;
+    border-bottom:2px solid var(--amber-light); padding-bottom:3mm; margin-bottom:5mm;
+  }
+  .h-section .vi{ display:block; font-size:24pt; color:var(--green-dark); }
+  .h-section .en{ display:block; font-size:18pt; color:var(--red); font-style:italic; font-weight:600; }
+
+  .two-col{ display:flex; gap:6mm; }
+  .two-col .col{ flex:1; }
+  .col-head{
+    font-size:7.5pt; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--green); margin-bottom:1.5mm;
+  }
+  .col-head.en{ color:var(--amber); }
+  .col p{ font-size:9pt; line-height:1.55; text-align:justify; margin-bottom:2mm; }
+  .col.en p{ font-style:italic; color:#4a4a46; }
+
+  .figure{ margin-top:5mm; }
+  .figure img{ width:100%; height:58mm; object-fit:cover; border:3px solid #fff; box-shadow:0 2px 8px rgba(0,0,0,.2); }
+  .figure figcaption{
+    font-size:7.6pt; color:#6a6a64; text-align:center; margin-top:1.6mm;
+    font-style:italic;
+  }
+
+  .page-folio{
+    position:absolute; bottom:6mm; right:12mm; font-family:var(--serif);
+    font-size:11pt; color:var(--amber); font-weight:600;
+  }
+  .page-folio.left{ left:12mm; right:auto; }
+
+  /* ============ TRANG 3 — ĐIỂM ĐẾN ============ */
+  .poi-img{ width:100%; height:64mm; object-fit:cover; border:3px solid #fff; box-shadow:0 2px 8px rgba(0,0,0,.2); }
+  .poi-meta{
+    display:flex; gap:3mm; flex-wrap:wrap; margin:4mm 0;
+  }
+  .poi-meta .tag{
+    background:var(--green-dark); color:var(--cream); font-size:7.4pt; font-weight:600;
+    padding:1.4mm 3mm; border-radius:20px; letter-spacing:.03em;
+  }
+  .poi-body{ display:flex; gap:6mm; align-items:flex-start; }
+  .poi-text{ flex:1; }
+  .poi-text p{ font-size:8.8pt; line-height:1.55; text-align:justify; margin-bottom:2mm; }
+  .poi-text .en p{ font-style:italic; color:#4a4a46; }
+  .poi-qr{ width:30mm; text-align:center; flex-shrink:0; }
+  #qr-slot{
+    width:28mm; height:28mm; background:#fff; border:1px solid var(--amber-light);
+    border-radius:2mm; display:flex; align-items:center; justify-content:center;
+    color:#bbb; font-size:7pt; text-align:center; line-height:1.3; margin:0 auto;
+  }
+  .poi-qr .cap{ font-size:6.8pt; color:var(--green-dark); margin-top:1.6mm; line-height:1.3; }
+  .poi-qr .cap .en{ font-style:italic; color:var(--amber); }
+</style>
+</head>
+<body>
+
+  <!-- ====================== TRANG 1 — BÌA ====================== -->
+  <div class="page cover">
+    <div class="cover-top">
+      <img class="full" src="../assets/img/thung-canh.jpg" alt="Toàn cảnh Mường Cốc">
+      <div class="veil"></div>
+      <div class="cover-logo"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></div>
+    </div>
+    <div class="cover-title">
+      <div class="en">Muong Coc Travel Guide Book</div>
+      <div class="vi">Cẩm nang<br>du lịch Mường Cốc</div>
+    </div>
+    <div class="cover-collage">
+      <div class="c" style="background-image:url('../assets/img/chua-phu-coc.jpg')"></div>
+      <div class="c" style="background-image:url('../assets/img/ruou-sim.jpg')"></div>
+      <div class="c" style="background-image:url('../assets/img/gio-nui-2.jpg')"></div>
+    </div>
+    <div class="cover-tagline">Mường Cốc — Chạm vào bình yên</div>
+  </div>
+
+  <!-- ====================== TRANG 2 — MƯỜNG CỐC Ở ĐÂU ====================== -->
+  <div class="page">
+    <div class="content">
+      <h2 class="h-section">
+        <span class="vi">Mường Cốc ở đâu?</span>
+        <span class="en">Where is Muong Coc?</span>
+      </h2>
+
+      <div class="two-col">
+        <div class="col">
+          <div class="col-head">Tiếng Việt</div>
+          <p>Mường Cốc nằm tại xã Mỹ Đức, huyện Mỹ Đức, thành phố Hà Nội — cách trung tâm Thủ đô khoảng 60–70 km về phía Tây Nam, hướng đi Chùa Hương.</p>
+          <p>Đây là một vùng đất bán sơn địa, lưng tựa dãy núi đá vôi, mặt mở ra những thung lũng và đồi sim bạt ngàn. Người Mường nơi đây vẫn giữ nếp nhà sàn, giọng nói, lễ hội và món ăn truyền thống qua bao thế hệ.</p>
+          <p>Không ồn ào, không vội — Mường Cốc là chốn để bạn đi chậm lại, sống một ngày đúng nhịp của bản làng dưới bóng núi.</p>
+        </div>
+        <div class="col en">
+          <div class="col-head en">English</div>
+          <p>Muong Coc lies in My Duc commune, My Duc district, Hanoi — about 60–70 km southwest of the city centre, on the road toward the Perfume Pagoda.</p>
+          <p>It is a semi-mountainous land of limestone ranges, open valleys and endless hills of <em>sim</em> (rose myrtle). The Muong people here still keep their stilt houses, dialect, festivals and traditional cuisine through generations.</p>
+          <p>Quiet and unhurried, Muong Coc is a place to slow down — to live one full day in the rhythm of a village beneath the mountains.</p>
+        </div>
+      </div>
+
+      <figure class="figure">
+        <img src="../assets/img/thung-canh.jpg" alt="Thung lũng Mường Cốc">
+        <figcaption>Thung lũng giữa lòng Mường Cốc · A valley in the heart of Muong Coc</figcaption>
+      </figure>
+
+      <div class="page-folio left">2</div>
+    </div>
+  </div>
+
+  <!-- ====================== TRANG 3 — ĐIỂM ĐẾN: CHÙA PHÚ CỐC ====================== -->
+  <div class="page">
+    <div class="content">
+      <h2 class="h-section">
+        <span class="vi">Chùa Phú Cốc</span>
+        <span class="en">Phu Coc Pagoda</span>
+      </h2>
+
+      <img class="poi-img" src="../assets/img/chua-phu-coc.jpg" alt="Chùa Phú Cốc">
+
+      <div class="poi-meta">
+        <span class="tag">⛩ Tâm linh · Spiritual</span>
+        <span class="tag">🌳 Cây đa 400 năm · 400-yr banyan</span>
+        <span class="tag">📍 Thôn Đồi Dùng</span>
+      </div>
+
+      <div class="poi-body">
+        <div class="poi-text">
+          <div class="vi">
+            <p>Nằm trên ngọn đồi lộng gió thôn Đồi Dùng, Chùa Phú Cốc là điểm tựa tâm linh của người dân 6 thôn vùng Phú Cốc. Tâm điểm khuôn viên là cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở ngôi chùa cổ, gồm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang.</p>
+          </div>
+          <div class="en">
+            <p>On a breezy hill in Doi Dung hamlet, Phu Coc Pagoda is the spiritual anchor of six surrounding hamlets. At its heart stands a 400-year-old banyan tree sheltering the old temple, with its main hall, mother shrine, ancestral house and the shrine of the Muong lord.</p>
+          </div>
+        </div>
+        <div class="poi-qr">
+          <div id="qr-slot"><img src="../assets/qr/qr-huu-lenh.png" alt="QR" style="width:100%;height:100%;object-fit:contain;display:block"></div>
+          <div class="cap">Quét QR xem hồ sơ điểm đến<br><span class="en">Scan for destination profile</span></div>
+        </div>
+      </div>
+
+      <div class="page-folio">3</div>
+    </div>
+  </div>
+
+</body>
+</html>

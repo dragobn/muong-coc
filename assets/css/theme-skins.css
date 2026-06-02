@@ -1,0 +1,234 @@
+/* ============================================================
+   THEME SKINS — lớp phủ theo NHÓM CHỦ ĐỀ cung tour (BẢN ĐẨY SÂU).
+   Giữ nguyên cấu trúc trang (brochure-light.css); mỗi chủ đề
+   tạo BẢN SẮC riêng qua >=3 yếu tố: khung .frame + góc, hoạ tiết
+   trang trí CSS-only, sắc độ overlay ảnh, khung ảnh, divider/nhãn,
+   kiểu chữ hiển thị. Tất cả vẫn neo vào xanh logo Mường Cốc.
+   Cách dùng: <body class="theme-disan"> ... </body>
+   QUY TẮC CỨNG: mọi hoạ tiết là absolute/pointer-events:none hoặc
+   nằm gọn trong .frame (inset 6mm) — KHÔNG đẩy layout, không tràn A4.
+   ============================================================ */
+
+/* ============================================================
+   1. SINH THÁI / THIÊN NHIÊN — xanh lá tươi, khung mảnh thanh,
+      overlay sáng, motif lá. (mặc định)
+   Cung: A Vòng Xe Xanh · 6 Xanh Giữa Lòng MC.
+   ============================================================ */
+body.theme-sinhthai{
+  --green:#0A6A2F; --green-v:#00A33B; --amber:#C9912F; --amber-l:#EBCB86;
+}
+/* (1) KHUNG mảnh thanh — đường viền mỏng + góc nhỏ nhọn */
+body.theme-sinhthai .frame{ border-width:.4pt; border-color:var(--green-v); }
+body.theme-sinhthai .frame::before,
+body.theme-sinhthai .frame::after{ width:7mm; height:7mm; border-width:.9pt; border-color:var(--green-v); }
+/* (2) MOTIF LÁ — chấm tròn mềm hai mép divider gợi chồi non */
+body.theme-sinhthai .p1-lower .divider .lab{ position:relative; }
+body.theme-sinhthai .p1-lower .divider .lab::after{
+  content:"❧"; margin-left:5pt; color:var(--green-v); font-size:9pt; }
+/* (3) OVERLAY SÁNG — hero & img-head bớt tối, ngả xanh lá tươi */
+body.theme-sinhthai .p1-hero::after{
+  background:linear-gradient(180deg, rgba(8,72,32,.42) 0%, rgba(8,72,32,.08) 34%, rgba(0,120,52,.30) 64%, rgba(8,82,38,.90) 100%); }
+body.theme-sinhthai .img-head::after{
+  background:linear-gradient(180deg, rgba(8,72,32,.40) 0%, rgba(8,72,32,.20) 45%, rgba(0,120,52,.90) 100%); }
+body.theme-sinhthai .p1-hero img,
+body.theme-sinhthai .img-head img{ filter:brightness(.80) saturate(1.12); }
+/* (4) KHUNG ẢNH thanh, viền xanh chồi */
+body.theme-sinhthai .dest-pic,
+body.theme-sinhthai .photo3 .ps{ border-color:var(--green-v); }
+body.theme-sinhthai .hl5 .c{ border-top-color:var(--green-v); }
+
+/* ============================================================
+   2. DI SẢN / VĂN HOÁ — xanh trầm + vàng đồng + đất nung, khung
+      ĐÔI cổ điển, motif hoa văn/trống đồng (kẻ trám), serif cổ,
+      overlay trầm ấm.
+   Cung: 3 Dấu Xưa · 5 Về Miền Di Sản · tour Văn hoá sen.
+   ============================================================ */
+body.theme-disan{
+  --green:#13442A; --green-v:#1E7A42; --amber:#B58A37; --amber-l:#E6CE92;
+  --cream:#FBF6EA; --cream2:#F2E9D4;
+}
+/* (1) KHUNG ĐÔI cổ điển — viền chính dày hơn + đường viền phụ bên trong */
+body.theme-disan .frame{ border-width:.8pt; box-shadow:inset 0 0 0 .9mm var(--cream), inset 0 0 0 1mm rgba(181,138,55,.55); }
+body.theme-disan .frame::before,
+body.theme-disan .frame::after{ width:11mm; height:11mm; border-width:1.3pt; border-color:var(--amber); }
+/* (2) MOTIF TRỐNG ĐỒNG — dải kẻ trám (zig-zag) chạy dưới bottom-tag */
+body.theme-disan .bottom-tag{ border-top-width:1pt; border-top-color:rgba(181,138,55,.55);
+  background-image:repeating-linear-gradient(45deg, rgba(181,138,55,.16) 0 2pt, transparent 2pt 6pt);
+  background-size:auto 2mm; background-position:top; background-repeat:repeat-x; }
+/* divider mang nhịp trám */
+body.theme-disan .p1-lower .divider .rl{
+  background:repeating-linear-gradient(90deg, var(--amber) 0 2pt, transparent 2pt 5pt); height:1pt; opacity:.6; }
+body.theme-disan .p1-lower .divider .ll{ background:var(--amber); height:1pt; }
+/* (3) OVERLAY TRẦM ẤM — ngả nâu đồng */
+body.theme-disan .p1-hero::after{
+  background:linear-gradient(180deg, rgba(40,28,12,.62) 0%, rgba(40,28,12,.22) 30%, rgba(19,68,42,.55) 64%, rgba(19,52,30,.96) 100%); }
+body.theme-disan .img-head::after{
+  background:linear-gradient(180deg, rgba(40,28,12,.55) 0%, rgba(30,22,12,.32) 45%, rgba(19,68,42,.94) 100%); }
+body.theme-disan .p1-hero img,
+body.theme-disan .img-head img{ filter:brightness(.68) saturate(.92) sepia(.12); }
+/* (4) KHUNG ẢNH viền đôi vàng đồng */
+body.theme-disan .dest-pic,
+body.theme-disan .photo3 .ps{ border-width:1pt; border-color:var(--amber); box-shadow:inset 0 0 0 1.3pt var(--cream); }
+/* (5) THẺ điểm nhấn nền kem cổ + viền vàng đồng */
+body.theme-disan .hl5 .c{ border-top-color:var(--amber); border-color:rgba(181,138,55,.4); }
+/* (6) CHỮ hiển thị serif cổ */
+body.theme-disan .bodoni,
+body.theme-disan h1,
+body.theme-disan h2,
+body.theme-disan .closing .big,
+body.theme-disan .dn,
+body.theme-disan .dest-txt .dn{ font-family:"Noto Serif",serif; font-weight:700; letter-spacing:0; }
+/* nhấn italic màu đất nung */
+body.theme-disan .p1-hero .hc .center h1 em,
+body.theme-disan .dest-txt .dn .sub{ color:#C8773F; }
+body.theme-disan .closing .deco-mid .d{ transform:rotate(45deg) scale(1.25); }
+
+/* ============================================================
+   3. NÔNG NGHIỆP / ĐỜI SỐNG — vàng lúa + olive, khung ảnh mộc
+      viền hổ phách hơi dày, motif bông lúa/đường ruộng, chữ giãn.
+   Cung: 7 Hương Đồng · 8 Nhịp Sống Mường · tour Thiên nhiên & nhà nông.
+   ============================================================ */
+body.theme-nongnghiep{
+  --green:#3F6B24; --green-v:#7FA52A; --amber:#C9912F; --amber-l:#EFD79A;
+  --cream:#FCF8EC; --cream2:#F4EDD6;
+}
+/* (1) KHUNG mộc — viền vàng lúa, góc vuông chắc */
+body.theme-nongnghiep .frame{ border-color:rgba(201,145,47,.7); border-width:.6pt; }
+body.theme-nongnghiep .frame::before,
+body.theme-nongnghiep .frame::after{ width:9mm; height:9mm; border-width:1.4pt; border-color:var(--amber); }
+/* (2) MOTIF ĐƯỜNG RUỘNG — dải sọc dọc vàng-olive dưới bottom-tag (gợi luống) */
+body.theme-nongnghiep .bottom-tag{
+  background-image:repeating-linear-gradient(90deg, rgba(127,165,42,.14) 0 4pt, rgba(201,145,47,.10) 4pt 8pt);
+  background-size:auto 1.6mm; background-position:top; background-repeat:repeat-x; border-top-color:rgba(201,145,47,.55); }
+/* nhãn divider gắn bông lúa */
+body.theme-nongnghiep .p1-lower .divider .lab::after{ content:"🌾"; margin-left:5pt; font-size:9pt; }
+/* (3) OVERLAY ấm vàng lúa */
+body.theme-nongnghiep .p1-hero::after{
+  background:linear-gradient(180deg, rgba(50,40,12,.50) 0%, rgba(50,40,12,.12) 32%, rgba(80,90,30,.40) 64%, rgba(48,60,22,.94) 100%); }
+body.theme-nongnghiep .img-head::after{
+  background:linear-gradient(180deg, rgba(50,40,12,.45) 0%, rgba(50,40,12,.22) 45%, rgba(63,107,36,.92) 100%); }
+body.theme-nongnghiep .p1-hero img,
+body.theme-nongnghiep .img-head img{ filter:brightness(.78) saturate(1.1) sepia(.08); }
+/* (4) KHUNG ẢNH mộc viền hổ phách hơi dày */
+body.theme-nongnghiep .dest-pic,
+body.theme-nongnghiep .photo3 .ps{ border-width:1.4pt; border-color:var(--amber); }
+body.theme-nongnghiep .hl5 .c{ border-top-color:var(--amber); }
+/* (6) CHỮ giãn — Bodoni nhưng letter-spacing rộng cho tiêu đề */
+body.theme-nongnghiep .p1-hero .hc .center h1,
+body.theme-nongnghiep .img-head .ov .ttl h2,
+body.theme-nongnghiep .dark-head .center h2{ letter-spacing:1.5pt; }
+body.theme-nongnghiep .p1-lower .divider .lab,
+body.theme-nongnghiep .blk-head .cap{ letter-spacing:6pt; }
+
+/* ============================================================
+   4. HỒ NƯỚC / SÔNG — xanh lá + nhấn xanh nước, khung bo nhẹ,
+      motif gợn sóng, overlay mát, chữ thanh thoát.
+   Cung: 2 Theo Dòng Ái Nàng · 4 Hồn Mường bên hồ Baibóo.
+   ============================================================ */
+body.theme-honuoc{
+  --green:#0A5A4A; --green-v:#1F8F6E; --amber:#2E8FA8; --amber-l:#BFE3DA;
+  --cream:#F6FAF7; --cream2:#E6F0EC;
+}
+/* (1) KHUNG bo nhẹ — bo góc mềm, viền xanh nước */
+body.theme-honuoc .frame{ border-color:var(--amber); border-width:.5pt; border-radius:3mm; }
+body.theme-honuoc .frame::before,
+body.theme-honuoc .frame::after{ width:8mm; height:8mm; border-width:1pt; border-color:var(--amber); border-radius:2mm; }
+/* (2) MOTIF GỢN SÓNG — đường lượn sóng dưới bottom-tag + divider */
+body.theme-honuoc .bottom-tag{
+  background-image:repeating-radial-gradient(circle at 1.5mm 100%, transparent 0 1mm, rgba(46,143,168,.18) 1mm 1.3mm, transparent 1.3mm 3mm);
+  background-size:3mm 2mm; background-position:bottom; background-repeat:repeat-x; border-top-color:rgba(46,143,168,.5); }
+body.theme-honuoc .p1-lower .divider .lab::after{ content:"〜"; margin-left:5pt; color:var(--amber); font-size:11pt; }
+body.theme-honuoc .p1-lower .divider .rl{ background:rgba(46,143,168,.35); }
+/* (3) OVERLAY mát — ngả xanh ngọc */
+body.theme-honuoc .p1-hero::after{
+  background:linear-gradient(180deg, rgba(8,60,52,.48) 0%, rgba(8,60,52,.10) 34%, rgba(31,143,110,.34) 64%, rgba(10,90,74,.92) 100%); }
+body.theme-honuoc .img-head::after{
+  background:linear-gradient(180deg, rgba(8,60,52,.42) 0%, rgba(8,60,52,.20) 45%, rgba(10,90,74,.92) 100%); }
+body.theme-honuoc .p1-hero img,
+body.theme-honuoc .img-head img{ filter:brightness(.80) saturate(1.15) hue-rotate(-6deg); }
+/* (4) KHUNG ẢNH bo nhẹ viền xanh nước */
+body.theme-honuoc .dest-pic,
+body.theme-honuoc .photo3 .ps{ border-color:var(--amber); border-radius:2.5mm; }
+body.theme-honuoc .hl5 .c{ border-top-color:var(--amber); border-radius:1.5mm 1.5mm 0 0; }
+/* (6) CHỮ thanh thoát — nhẹ nét, giãn vừa */
+body.theme-honuoc .p1-hero .hc .center h1,
+body.theme-honuoc .img-head .ov .ttl h2{ font-weight:400; letter-spacing:.3pt; }
+body.theme-honuoc .closing .big{ font-weight:400; }
+
+/* ============================================================
+   5. TREK / PHIÊU LƯU — xanh rừng + cam đất, khung CHẮC ĐẬM,
+      motif đường mòn/mũi tên, chữ khoẻ.
+   Cung: T1 Rộc Éo · T2 Hang Hổ · T3 Xuyên Rừng Hương Tích.
+   ============================================================ */
+body.theme-trek{
+  --green:#234B1E; --green-v:#4E8C2F; --amber:#C8602B; --amber-l:#EFC59A;
+  --cream:#F8F5EC; --cream2:#EDE6D6;
+}
+/* (1) KHUNG chắc đậm — viền dày, góc to vuông cam đất */
+body.theme-trek .frame{ border-width:1pt; border-color:var(--green); }
+body.theme-trek .frame::before,
+body.theme-trek .frame::after{ width:12mm; height:12mm; border-width:2pt; border-color:var(--amber); }
+/* (2) MOTIF ĐƯỜNG MÒN — dải gạch đứt (dashed) dưới bottom-tag gợi lối đi */
+body.theme-trek .bottom-tag{
+  background-image:repeating-linear-gradient(90deg, var(--amber) 0 5pt, transparent 5pt 11pt);
+  background-size:auto 1.2pt; background-position:top; background-repeat:repeat-x; border-top:none; padding-top:1.5mm; }
+/* nhãn divider gắn mũi tên hướng */
+body.theme-trek .p1-lower .divider .lab::after{ content:"➤"; margin-left:5pt; color:var(--amber); font-size:8pt; }
+body.theme-trek .p1-lower .divider .ll{ background:var(--amber); height:1.4pt; flex-basis:16mm; }
+/* (3) OVERLAY trầm rừng + nhấn cam đất */
+body.theme-trek .p1-hero::after{
+  background:linear-gradient(180deg, rgba(20,30,12,.60) 0%, rgba(20,30,12,.20) 32%, rgba(120,60,25,.30) 66%, rgba(20,45,18,.96) 100%); }
+body.theme-trek .img-head::after{
+  background:linear-gradient(180deg, rgba(20,30,12,.55) 0%, rgba(20,30,12,.28) 45%, rgba(35,75,30,.95) 100%); }
+body.theme-trek .p1-hero img,
+body.theme-trek .img-head img{ filter:brightness(.66) saturate(1.08) contrast(1.06); }
+/* (4) KHUNG ẢNH chắc — viền dày cam đất, vuông */
+body.theme-trek .dest-pic,
+body.theme-trek .photo3 .ps{ border-width:1.6pt; border-color:var(--amber); }
+/* (5) THẺ điểm nhấn viền trên dày cam đất */
+body.theme-trek .hl5 .c{ border-top-width:3pt; border-top-color:var(--amber); }
+/* (6) CHỮ khoẻ — đậm nét, nén nhẹ */
+body.theme-trek .p1-hero .hc .center h1,
+body.theme-trek .img-head .ov .ttl h2,
+body.theme-trek .dark-head .center h2,
+body.theme-trek .closing .big{ font-weight:700; letter-spacing:-.5pt; }
+body.theme-trek .p1-lower .divider .lab,
+body.theme-trek .img-head .ov .ttl .kick{ font-weight:700; }
+
+/* ============================================================
+   6. KẾT NỐI LIÊN VÙNG — xanh logo + nhấn lam, khung HIỆN ĐẠI
+      tối giản, motif đường nối/bản đồ, chữ hiện đại.
+   Tour: Quảng Phú Cầu · Chùa Hương · Cúc Phương · Mai Châu–Pù Luông.
+   ============================================================ */
+body.theme-ketnoi{
+  --green:#0A4F6A; --green-v:#1E86A3; --amber:#C9912F; --amber-l:#EBCB86;
+  --cream:#F5F9FB; --cream2:#E4EEF3;
+}
+/* (1) KHUNG hiện đại tối giản — chỉ 2 góc chữ L mảnh lam, bỏ viền bao quanh nhạt */
+body.theme-ketnoi .frame{ border-color:rgba(30,134,163,.28); border-width:.4pt; }
+body.theme-ketnoi .frame::before,
+body.theme-ketnoi .frame::after{ width:14mm; height:14mm; border-width:1.4pt; border-color:var(--green-v); }
+/* (2) MOTIF ĐƯỜNG NỐI — chuỗi chấm-gạch (node–link bản đồ) dưới bottom-tag */
+body.theme-ketnoi .bottom-tag{
+  background-image:repeating-linear-gradient(90deg, var(--green-v) 0 1.5pt, transparent 1.5pt 4pt, var(--green-v) 4pt 12pt, transparent 12pt 14.5pt);
+  background-size:auto 1pt; background-position:top; background-repeat:repeat-x; border-top:none; padding-top:1.5mm; }
+/* nhãn divider gắn dấu nối điểm */
+body.theme-ketnoi .p1-lower .divider .lab::after{ content:"◦—◦"; margin-left:6pt; color:var(--green-v); font-size:8pt; letter-spacing:0; }
+body.theme-ketnoi .p1-lower .divider .ll{ background:var(--green-v); }
+/* (3) OVERLAY mát hiện đại — ngả lam sạch */
+body.theme-ketnoi .p1-hero::after{
+  background:linear-gradient(180deg, rgba(8,40,56,.50) 0%, rgba(8,40,56,.10) 34%, rgba(30,134,163,.30) 64%, rgba(10,79,106,.94) 100%); }
+body.theme-ketnoi .img-head::after{
+  background:linear-gradient(180deg, rgba(8,40,56,.45) 0%, rgba(8,40,56,.20) 45%, rgba(10,79,106,.93) 100%); }
+body.theme-ketnoi .p1-hero img,
+body.theme-ketnoi .img-head img{ filter:brightness(.74) saturate(1.05) contrast(1.04); }
+/* (4) KHUNG ẢNH tối giản — viền mảnh lam, không bo */
+body.theme-ketnoi .dest-pic,
+body.theme-ketnoi .photo3 .ps{ border-width:.6pt; border-color:var(--green-v); }
+body.theme-ketnoi .hl5 .c{ border-top-color:var(--green-v); }
+/* (6) CHỮ hiện đại — tiêu đề phụ & kick dùng Inter, giãn rộng sạch */
+body.theme-ketnoi .img-head .ov .ttl .kick,
+body.theme-ketnoi .p1-hero .hc .center .pre .lb,
+body.theme-ketnoi .p1-lower .divider .lab{ font-family:"Inter",sans-serif; letter-spacing:5pt; font-weight:600; }
+body.theme-ketnoi .p1-hero .hc .center .sub,
+body.theme-ketnoi .img-head .ov .ttl .sub{ font-family:"Inter",sans-serif; font-style:normal; font-size:10pt; letter-spacing:1pt; }

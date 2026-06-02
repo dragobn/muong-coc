@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Cung A — Vòng Xe Xanh Mường Cốc</title>
+<!--
+  POSTER QUẢNG BÁ — CUNG XE ĐẠP A "VÒNG XE XANH MƯỜNG CỐC"
+  Khổ A5 DỌC (148 × 210 mm) · in được, không render PDF tại đây.
+  Ô id="qr-slot" chừa cho main agent chèn QR sau.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-dark:#0A6A2F; --green:#00A33B; --amber:#C9912F;
+    --amber-light:#EBCB86; --cream:#FBF7EE; --cream-deep:#F4ECDA; --ink:#232020;
+    --serif:'Cormorant Garamond', Georgia, serif;
+    --body:'Be Vietnam Pro', system-ui, sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  @page{ size:148mm 210mm; margin:0; }
+  html,body{ background:#888; font-family:var(--body); color:var(--ink); }
+
+  .page{
+    width:148mm; height:210mm; background:var(--cream);
+    margin:0 auto; position:relative; overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  @media screen{ .page{ margin:16px auto; box-shadow:0 10px 40px rgba(0,0,0,.35); } }
+  @media print{ html,body{background:#fff;} .page{margin:0;} }
+
+  /* ===== BAND ẢNH TRÊN ===== */
+  .hero{
+    position:relative; height:78mm; overflow:hidden;
+    border-bottom:3px solid var(--amber);
+  }
+  .hero-grid{ display:flex; height:100%; }
+  .hero-grid .cell{ flex:1; background-size:cover; background-position:center; }
+  .hero-grid .cell.main{ flex:1.6; }
+  .hero::after{ /* gradient nhẹ chân band cho liền với tiêu đề */
+    content:""; position:absolute; left:0; right:0; bottom:0; height:22mm;
+    background:linear-gradient(to bottom, rgba(10,106,47,0), rgba(10,106,47,.06) 60%, var(--cream));
+    pointer-events:none;
+  }
+  /* logo tròn góc */
+  .logo-badge{
+    position:absolute; top:5mm; left:5mm; width:18mm; height:18mm;
+    border-radius:50%; background:#fff; border:2px solid var(--amber);
+    box-shadow:0 2px 8px rgba(0,0,0,.25); overflow:hidden; z-index:3;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .logo-badge img{ width:90%; height:90%; object-fit:contain; }
+  .hero-eyebrow{
+    position:absolute; top:6mm; right:5mm; z-index:3;
+    background:var(--green-dark); color:var(--cream);
+    font-size:7pt; font-weight:600; letter-spacing:.12em;
+    padding:1.6mm 3mm; border-radius:2mm; text-transform:uppercase;
+  }
+
+  /* ===== KHỐI NỘI DUNG ===== */
+  .body-zone{
+    flex:1; padding:6mm 9mm 0; display:flex; flex-direction:column;
+  }
+  .kicker{
+    color:var(--green); font-weight:600; font-size:8pt;
+    letter-spacing:.22em; text-transform:uppercase; text-align:center;
+    margin-bottom:1mm;
+  }
+  .title{
+    font-family:var(--serif); font-weight:700; color:var(--green-dark);
+    text-align:center; line-height:.96; letter-spacing:.01em;
+  }
+  .title .l1{ font-size:34pt; display:block; }
+  .title .l2{ font-size:34pt; display:block; }
+  .subtitle{
+    font-family:var(--serif); font-style:italic; font-size:13pt;
+    color:var(--amber); text-align:center; margin-top:1.5mm;
+  }
+
+  /* chip thông tin */
+  .chip{
+    margin:4mm auto 0; background:var(--green-dark); color:var(--cream);
+    border-radius:30px; padding:2.4mm 5mm;
+    font-size:8.2pt; font-weight:600; letter-spacing:.04em;
+    display:inline-flex; align-items:center; gap:2mm;
+    box-shadow:0 2px 6px rgba(10,106,47,.3);
+    align-self:center;
+  }
+  .chip .dot{ color:var(--amber-light); font-weight:700; }
+
+  /* mô tả */
+  .desc{
+    margin-top:4.5mm; font-size:9.4pt; line-height:1.55; color:var(--ink);
+    text-align:justify;
+  }
+  .desc p{ margin-bottom:2mm; }
+  .desc .lead{ font-weight:500; }
+  .highlights{ margin-top:1mm; }
+  .highlights li{
+    list-style:none; font-size:8.8pt; line-height:1.5; padding-left:6mm;
+    position:relative; margin-bottom:1mm;
+  }
+  .highlights li::before{
+    content:"✦"; position:absolute; left:0; color:var(--amber);
+    font-size:9pt;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer{
+    margin-top:auto; background:var(--green-dark); color:var(--cream);
+    padding:5mm 9mm; display:flex; gap:5mm; align-items:center;
+  }
+  .footer .contact{ flex:1; }
+  .footer .cta{
+    font-family:var(--serif); font-size:14pt; font-weight:600;
+    color:var(--amber-light); line-height:1.05; margin-bottom:2mm;
+  }
+  .footer .line{ font-size:8.4pt; line-height:1.6; display:flex; gap:2mm; align-items:baseline; }
+  .footer .line .ic{ color:var(--amber-light); width:4mm; display:inline-block; }
+  .footer .qr-wrap{ text-align:center; }
+  #qr-slot{
+    width:28mm; height:28mm; background:#fff; border-radius:2mm;
+    display:flex; align-items:center; justify-content:center;
+    color:#bbb; font-size:7pt; text-align:center; line-height:1.3;
+    border:1px solid var(--amber-light);
+  }
+  .footer .qr-cap{
+    font-size:6.6pt; color:var(--amber-light); margin-top:1.4mm;
+    max-width:28mm; line-height:1.25;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- BAND ẢNH -->
+    <div class="hero">
+      <div class="hero-grid">
+        <div class="cell main" style="background-image:url('../assets/img/thung-canh.jpg')"></div>
+        <div class="cell" style="background-image:url('../assets/img/gio-nui-1.jpg')"></div>
+        <div class="cell" style="background-image:url('../assets/img/gio-nui-3.jpg')"></div>
+      </div>
+      <div class="logo-badge"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></div>
+      <div class="hero-eyebrow">Du lịch cộng đồng</div>
+    </div>
+
+    <!-- NỘI DUNG -->
+    <div class="body-zone">
+      <div class="kicker">Cung đạp xe A · Mường Cốc</div>
+      <h1 class="title">
+        <span class="l1">Vòng Xe Xanh</span>
+        <span class="l2">Mường Cốc</span>
+      </h1>
+      <div class="subtitle">Hương Sen Mường Cốc</div>
+
+      <div class="chip">
+        🚲 ĐẠP XE ~12KM <span class="dot">·</span> 3,5–4,5 GIỜ <span class="dot">·</span> 650K/KHÁCH
+      </div>
+
+      <div class="desc">
+        <p class="lead">Một ngày không vội men theo bóng sim, lưng núi và bản Mường — nơi mỗi điểm dừng là một câu chuyện, kể bởi chính người đang sống tại đó.</p>
+        <ul class="highlights">
+          <li>Bản Mường nguyên bản — giếng cổ, rượu sim OCOP, bữa Cỗ Lá không nhựa.</li>
+          <li>Du lịch xanh “5 KHÔNG” — trồng một cây kỷ niệm tại Thung Cánh.</li>
+          <li>Đa tín ngưỡng hài hoà — chùa Phú Cốc buổi sáng, nhà thờ Bắc Sơn buổi chiều.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="contact">
+        <div class="cta">Đăng ký trải nghiệm</div>
+        <div class="line"><span class="ic">☎</span> Hotline 0986 103 298</div>
+        <div class="line"><span class="ic">f</span> Fanpage: Mường Cốc</div>
+        <div class="line"><span class="ic">✉</span> Mường Cốc — Chạm vào bình yên</div>
+      </div>
+      <div class="qr-wrap">
+        <div id="qr-slot"><img src="../assets/qr/qr-cung-a.png" alt="QR" style="width:100%;height:100%;object-fit:contain;display:block"></div>
+        <div class="qr-cap">Quét QR xem chi tiết tuyến</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concept Bản đồ du lịch khổ lớn — Mường Cốc</title>
+<!--
+  CONCEPT BẢN ĐỒ DU LỊCH KHỔ LỚN 5m × 4m (in đặt đầu điểm đến).
+  Đây là CONCEPT tỉ lệ nhỏ A4 NGANG để duyệt bố cục — không phải file in 150dpi.
+  Khu vực bản đồ = placeholder khung xám. Ô id="qr-slot" lớn góc dưới (main agent chèn QR).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-dark:#0A6A2F; --green:#00A33B; --amber:#C9912F;
+    --amber-light:#EBCB86; --cream:#FBF7EE; --cream-deep:#F4ECDA; --ink:#232020;
+    --serif:'Cormorant Garamond', Georgia, serif;
+    --body:'Be Vietnam Pro', system-ui, sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  @page{ size:A4 landscape; margin:0; }
+  html,body{ background:#888; font-family:var(--body); color:var(--ink); }
+
+  .page{
+    width:297mm; height:210mm; background:var(--cream);
+    margin:0 auto; position:relative; overflow:hidden;
+    display:flex; flex-direction:column; padding:10mm 12mm;
+  }
+  @media screen{ .page{ margin:16px auto; box-shadow:0 10px 40px rgba(0,0,0,.35); } }
+  @media print{ html,body{background:#fff;} .page{margin:0;} }
+
+  /* scale note */
+  .scale-note{
+    position:absolute; top:4mm; right:12mm; font-size:7.5pt; color:#8a8a82;
+    font-style:italic; letter-spacing:.04em;
+  }
+
+  /* ===== HEADER ===== */
+  .head{ display:flex; align-items:center; gap:6mm; border-bottom:3px solid var(--amber); padding-bottom:5mm; }
+  .head .logo{
+    width:22mm; height:22mm; border-radius:50%; background:#fff; flex-shrink:0;
+    border:2px solid var(--amber); display:flex; align-items:center; justify-content:center; overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+  }
+  .head .logo img{ width:90%; height:90%; object-fit:contain; }
+  .head .titles{ flex:1; }
+  .head .kicker{ color:var(--green); font-weight:600; font-size:9pt; letter-spacing:.2em; text-transform:uppercase; }
+  .head h1{
+    font-family:var(--serif); font-weight:700; font-size:30pt; color:var(--green-dark);
+    line-height:1; margin-top:1mm;
+  }
+  .head .tagline{ font-family:var(--serif); font-style:italic; font-size:14pt; color:var(--amber); margin-top:1.5mm; }
+
+  /* ===== MAIN GRID ===== */
+  .main{ flex:1; display:flex; gap:8mm; margin-top:6mm; min-height:0; }
+
+  /* khu vực bản đồ — placeholder */
+  .map-zone{
+    flex:2.05; position:relative; border:2px dashed #b3a981; border-radius:3mm;
+    background:
+      repeating-linear-gradient(45deg, rgba(201,145,47,.05) 0 8px, transparent 8px 16px),
+      var(--cream-deep);
+    display:flex; align-items:center; justify-content:center; overflow:hidden;
+  }
+  .map-zone .ph{
+    text-align:center; color:#8a8270; max-width:70%;
+  }
+  .map-zone .ph .ic{ font-size:40pt; }
+  .map-zone .ph .lab{ font-family:var(--serif); font-size:16pt; font-weight:600; color:#7a7058; margin-top:2mm; }
+  .map-zone .ph .sub{ font-size:9pt; margin-top:2mm; line-height:1.5; }
+  /* mấy đường tuyến minh hoạ chéo qua map */
+  .map-zone svg{ position:absolute; inset:0; width:100%; height:100%; opacity:.45; }
+  .map-zone .compass{
+    position:absolute; top:5mm; right:5mm; font-size:8pt; color:var(--green-dark);
+    font-weight:600; text-align:center;
+  }
+  .map-zone .compass .n{ font-size:13pt; }
+
+  /* ===== CHÚ GIẢI ===== */
+  .legend{ flex:1; display:flex; flex-direction:column; gap:4mm; min-height:0; }
+  .legend-box{
+    background:#fff; border:1px solid var(--amber-light); border-radius:3mm;
+    padding:4mm 5mm; box-shadow:0 1px 5px rgba(0,0,0,.08);
+  }
+  .legend-box h3{
+    font-family:var(--serif); font-size:14pt; color:var(--green-dark); font-weight:700;
+    border-bottom:1px solid var(--cream-deep); padding-bottom:1.5mm; margin-bottom:2.5mm;
+  }
+  .legend-list{ display:grid; grid-template-columns:1fr 1fr; gap:1mm 4mm; }
+  .legend-list .it{ display:flex; align-items:center; gap:2mm; font-size:8.2pt; }
+  .swatch{ width:8mm; height:2.4mm; border-radius:2px; flex-shrink:0; }
+  /* 8 màu cung xe đạp + tour: dùng dải xanh→hổ phách */
+  .s1{background:#00A33B}.s2{background:#0A6A2F}.s3{background:#3FAE6B}.s4{background:#7FBF3F}
+  .s5{background:#C9912F}.s6{background:#E0A93E}.s7{background:#A52A2A}.s8{background:#7A5230}
+
+  .legend-note{ font-size:7.6pt; color:#6a6a64; line-height:1.5; }
+
+  /* ===== FOOTER ===== */
+  .foot{
+    margin-top:6mm; display:flex; align-items:center; gap:8mm;
+    background:var(--green-dark); color:var(--cream); border-radius:3mm; padding:5mm 7mm;
+  }
+  .foot .msg{ flex:1; }
+  .foot .msg .big{ font-family:var(--serif); font-size:18pt; font-weight:600; color:var(--amber-light); line-height:1.1; }
+  .foot .msg .small{ font-size:8.6pt; margin-top:1.5mm; line-height:1.5; }
+  .foot .qr-wrap{ text-align:center; }
+  #qr-slot{
+    width:40mm; height:40mm; background:#fff; border-radius:2mm;
+    display:flex; align-items:center; justify-content:center; color:#bbb;
+    font-size:9pt; border:2px solid var(--amber-light);
+  }
+  .foot .qr-cap{ font-size:7.4pt; color:var(--amber-light); margin-top:1.6mm; max-width:40mm; line-height:1.3; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="scale-note">Concept tỉ lệ nhỏ · thành phẩm in 5 m × 4 m đặt đầu điểm đến</div>
+
+    <!-- HEADER -->
+    <div class="head">
+      <div class="logo"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></div>
+      <div class="titles">
+        <div class="kicker">Xã Mỹ Đức · Hà Nội</div>
+        <h1>Bản đồ du lịch cộng đồng Mường Cốc</h1>
+        <div class="tagline">Mường Cốc — Chạm vào bình yên</div>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+
+      <!-- KHU VỰC BẢN ĐỒ -->
+      <div class="map-zone">
+        <div class="compass"><div class="n">↑ B</div>N</div>
+        <svg viewBox="0 0 100 70" preserveAspectRatio="none">
+          <path d="M8,60 C25,50 30,40 45,42 S70,30 88,18" fill="none" stroke="#00A33B" stroke-width="0.9" stroke-linecap="round"/>
+          <path d="M12,12 C30,22 40,35 55,38 S78,52 92,58" fill="none" stroke="#C9912F" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="2 1.5"/>
+          <path d="M10,38 C28,36 48,30 62,46 S80,60 90,40" fill="none" stroke="#0A6A2F" stroke-width="0.9" stroke-linecap="round"/>
+          <circle cx="45" cy="42" r="1.6" fill="#A52A2A"/>
+          <circle cx="62" cy="46" r="1.6" fill="#A52A2A"/>
+          <circle cx="30" cy="40" r="1.6" fill="#A52A2A"/>
+          <circle cx="78" cy="30" r="1.6" fill="#A52A2A"/>
+        </svg>
+        <div class="ph">
+          <div class="ic">🗺️</div>
+          <div class="lab">Khu vực bản đồ — minh hoạ</div>
+          <div class="sub">Các cung tuyến + điểm đến (chùa, homestay, farmstay, vườn sim, Thung Cánh, nhà thờ…)<br>vẽ chi tiết trên bản in khổ lớn.</div>
+        </div>
+      </div>
+
+      <!-- CHÚ GIẢI -->
+      <div class="legend">
+        <div class="legend-box">
+          <h3>Chú giải cung tuyến</h3>
+          <div style="font-size:8pt;font-weight:600;color:var(--green);margin-bottom:1.5mm;">🚲 8 cung đạp xe</div>
+          <div class="legend-list">
+            <div class="it"><span class="swatch s1"></span>Cung A · Vòng Xe Xanh</div>
+            <div class="it"><span class="swatch s2"></span>Cung B</div>
+            <div class="it"><span class="swatch s3"></span>Cung C</div>
+            <div class="it"><span class="swatch s4"></span>Cung D</div>
+            <div class="it"><span class="swatch s1"></span>Cung E</div>
+            <div class="it"><span class="swatch s2"></span>Cung F</div>
+            <div class="it"><span class="swatch s3"></span>Cung G</div>
+            <div class="it"><span class="swatch s4"></span>Cung H</div>
+          </div>
+          <div style="font-size:8pt;font-weight:600;color:var(--amber);margin:3mm 0 1.5mm;">🚶 8 tour trải nghiệm</div>
+          <div class="legend-list">
+            <div class="it"><span class="swatch s5"></span>Tour 1</div>
+            <div class="it"><span class="swatch s6"></span>Tour 2</div>
+            <div class="it"><span class="swatch s5"></span>Tour 3</div>
+            <div class="it"><span class="swatch s6"></span>Tour 4</div>
+            <div class="it"><span class="swatch s7"></span>Tour 5</div>
+            <div class="it"><span class="swatch s8"></span>Tour 6</div>
+            <div class="it"><span class="swatch s7"></span>Tour 7</div>
+            <div class="it"><span class="swatch s8"></span>Tour 8</div>
+          </div>
+        </div>
+        <div class="legend-box" style="flex:1;display:flex;align-items:center;">
+          <div class="legend-note">
+            <strong style="color:var(--green-dark);">● Điểm đến</strong> đánh dấu chấm đỏ trên bản đồ — chùa Phú Cốc, các homestay &amp; farmstay, vườn sim cổ, Thung Cánh, nhà thờ Bắc Sơn, Tourism Hub Đồi Dùng. Mỗi điểm có mã QR riêng dẫn hồ sơ chi tiết.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="foot">
+      <div class="msg">
+        <div class="big">Quét QR mở trang du lịch Mường Cốc</div>
+        <div class="small">Xem toàn bộ cung tuyến, điểm đến, đặt trải nghiệm · Hotline 0986 103 298 · Fanpage: Mường Cốc</div>
+      </div>
+      <div class="qr-wrap">
+        <div id="qr-slot"><img src="../assets/qr/qr-landing.png" alt="QR" style="width:100%;height:100%;object-fit:contain;display:block"></div>
+        <div class="qr-cap">Quét QR mở trang du lịch Mường Cốc</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

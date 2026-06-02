@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Hồ sơ điểm đến — Nhà Cổ Hữu Lệnh · Mường Cốc</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+@page { size: A4 portrait; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Be Vietnam Pro", sans-serif; color: #232020; background: #FBF7EE; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.serif { font-family: "Noto Serif", Georgia, serif; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always; background: #FBF7EE; }
+.page:last-child { page-break-after: auto; }
+
+/* palette logo Mường Cốc: green #0A6A2F, accent green #00A33B, gold #C9912F, cream #FBF7EE / #F4ECDA, light-gold-on-green #EBCB86 */
+
+/* ===== PAGE 1 ===== */
+.top-strip { position: absolute; top: 0; left: 0; right: 0; height: 9mm; background: #0A6A2F; display: flex; justify-content: space-between; align-items: center; padding: 0 12mm; color: #EBCB86; font-size: 7pt; letter-spacing: 3.5pt; z-index: 10; text-transform: uppercase; }
+.top-strip .logo-mini { display: flex; align-items: center; gap: 5pt; }
+.top-strip .logo-mini img { width: 7mm; height: 7mm; object-fit: contain; background: #FBF7EE; border-radius: 50%; padding: 0.5mm; }
+
+.hero { display: grid; grid-template-columns: 1fr 1.02fr; height: 118mm; margin-top: 9mm; }
+.hero .lc { padding: 13mm 8mm 9mm 14mm; display: flex; flex-direction: column; justify-content: space-between; }
+.hero .lc .kicker { font-size: 7.5pt; letter-spacing: 4.5pt; color: #C9912F; font-weight: 600; text-transform: uppercase; }
+.hero .lc .deco-line { display: inline-block; width: 22mm; height: 1pt; background: #C9912F; margin: 5mm 0; }
+.hero .lc h1 { font-family: "Noto Serif", serif; font-size: 42pt; line-height: 0.96; color: #0A6A2F; font-weight: 800; }
+.hero .lc h1 em { font-style: italic; font-weight: 400; color: #C9912F; display:block; font-size: 30pt; margin-top: 3mm; }
+.hero .lc .subtitle { font-family: "Noto Serif", serif; font-style: italic; font-size: 13.5pt; color: #C9912F; margin-top: 7mm; line-height: 1.4; }
+.hero .lc .loc { font-size: 8.5pt; color: #6B6B6B; letter-spacing: 1pt; margin-top: 4mm; }
+.hero .rc { position: relative; overflow: hidden; }
+.hero .rc img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero .rc .tag { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(0deg, rgba(0,0,0,0.62), transparent); color: #EBCB86; padding: 14mm 8mm 5mm; font-family:"Noto Serif",serif; font-style: italic; font-size: 11pt; }
+
+/* info bar */
+.infobar { display: grid; grid-template-columns: repeat(4,1fr); border-top: 1pt solid #0A6A2F; border-bottom: 1pt solid #0A6A2F; margin: 0 14mm; }
+.infobar .cell { padding: 4mm 4mm; border-right: 0.5pt solid #D8C9A8; border-top: 1.5pt solid #00A33B; }
+.infobar .cell:last-child { border-right: none; }
+.infobar .cell .l { font-size: 6.5pt; letter-spacing: 2.5pt; color: #C9912F; font-weight: 600; text-transform: uppercase; }
+.infobar .cell .v { font-family:"Noto Serif",serif; font-size: 12.5pt; color: #0A6A2F; font-weight: 600; margin-top: 1.5mm; line-height: 1.15; }
+.infobar .cell .s { font-size: 7.5pt; color: #555; margin-top: 0.5mm; }
+
+/* general details + loaihinh */
+.p1body { padding: 6mm 14mm 0; display: grid; grid-template-columns: 1.45fr 1fr; gap: 9mm; }
+.lead { font-family:"Noto Serif",serif; font-size: 11.5pt; line-height: 1.6; color: #2A2A2A; text-align: justify; }
+.lead .dc { float: left; font-family:"Noto Serif",serif; font-size: 46pt; line-height: 0.82; padding: 3pt 6pt 0 0; color: #0A6A2F; font-weight: 800; }
+.lead p { margin-bottom: 3mm; }
+.loaihinh { border: 0.75pt solid #0A6A2F; padding: 5mm 5mm; }
+.loaihinh h4 { font-size: 6.5pt; letter-spacing: 3pt; color: #C9912F; font-weight: 700; text-transform: uppercase; margin-bottom: 3mm; }
+.loaihinh ul { list-style: none; }
+.loaihinh li { font-size: 9pt; line-height: 1.5; padding-left: 15pt; position: relative; margin-bottom: 1.5mm; color:#232020; }
+.loaihinh li::before { content:"✦"; position:absolute; left:0; color:#C9912F; }
+.contactmini { margin-top: 4mm; padding-top: 3mm; border-top: 0.5pt dotted #C9B788; font-size: 8pt; line-height: 1.5; color:#444; }
+.contactmini strong { color:#0A6A2F; }
+
+.bottom-band { position: absolute; bottom: 0; left: 0; right: 0; height: 9mm; background: #C9912F; color: #FBF7EE; display: flex; justify-content: space-between; align-items: center; padding: 0 14mm; font-size: 7pt; letter-spacing: 3pt; text-transform: uppercase; }
+.bottom-band .it { font-family:"Noto Serif"; font-style: italic; letter-spacing: 1pt; font-size: 9.5pt; text-transform:none; }
+
+/* ===== PAGE 2 ===== */
+.orn-top { position: absolute; top: 0; left: 0; right: 0; height: 20mm; background: #0A6A2F; color: #EBCB86; display: flex; flex-direction: column; justify-content: center; padding: 0 14mm; }
+.orn-top .row { display: flex; justify-content: space-between; align-items: center; }
+.orn-top .row img { width: 10mm; height: 10mm; object-fit: contain; background: #FBF7EE; border-radius: 50%; padding: 0.5mm; }
+.orn-top .row .nm { font-size: 9pt; letter-spacing: 3pt; font-weight: 600; }
+.orn-top .row .pg { font-size: 7pt; letter-spacing: 3pt; opacity: 0.8; }
+.orn-top .ttl { font-family:"Noto Serif",serif; font-style: italic; font-size: 14pt; text-align: center; margin-top: 2mm; }
+
+.content { padding: 25mm 14mm 11mm; }
+.sec { margin-bottom: 5mm; }
+.sec-h { display: flex; align-items: baseline; gap: 4mm; margin-bottom: 3mm; }
+.sec-h .no { font-family:"Noto Serif",serif; font-style: italic; font-size: 17pt; color: #C9912F; font-weight: 600; }
+.sec-h .tt { font-family:"Noto Serif",serif; font-size: 14pt; color: #0A6A2F; font-weight: 700; }
+.sec-h .ln { flex: 1; height: 0.5pt; background: #D8C9A8; }
+
+.values { display: grid; grid-template-columns: repeat(3,1fr); gap: 5mm; }
+.values .v { }
+.values .v h5 { font-family:"Noto Serif",serif; font-size: 11pt; color: #C9912F; font-style: italic; margin-bottom: 2mm; padding-bottom: 1.5mm; border-bottom: 0.5pt solid #C9912F; }
+.values .v ul { list-style: none; }
+.values .v li { font-size: 8.3pt; line-height: 1.45; padding-left: 11pt; position: relative; margin-bottom: 1.5mm; }
+.values .v li::before { content:"–"; position:absolute; left:0; color:#C9912F; font-weight:700; }
+
+.svc { width:100%; border-collapse: collapse; font-size: 8.5pt; }
+.svc th { background: #0A6A2F; color: #EBCB86; text-align: left; padding: 2.5mm 4mm; font-size: 7.5pt; letter-spacing: 2pt; text-transform: uppercase; font-weight:600; }
+.svc td { padding: 2.4mm 4mm; border-bottom: 0.5pt solid #E0D2B4; vertical-align: top; }
+.svc td.k { font-family:"Noto Serif",serif; font-weight:600; color: #0A6A2F; width: 46mm; }
+.svc tr:nth-child(even) td { background: #F4ECDA; }
+
+.two { display: grid; grid-template-columns: 1.1fr 1fr; gap: 6mm; }
+.exp ul, .serve ul { list-style:none; }
+.exp li { font-size: 8.6pt; line-height: 1.5; padding-left: 14pt; position: relative; margin-bottom: 1.7mm; }
+.exp li::before { content:"✦"; position:absolute; left:0; color:#C9912F; }
+.serve-grp { margin-bottom: 3.5mm; }
+.serve-grp .gl { font-size: 6.5pt; letter-spacing: 2.5pt; color:#C9912F; font-weight:700; text-transform:uppercase; margin-bottom:1.5mm; }
+.serve-grp .gv { font-size: 8.6pt; line-height: 1.5; color:#2A2A2A; }
+.note-box { background:#F4ECDA; border-left: 2.5pt solid #C9912F; padding: 3mm 4mm; margin-top:2mm; }
+.note-box .gl { color:#C9912F; }
+.note-box ul { list-style:none; }
+.note-box li { font-size:8.4pt; line-height:1.45; padding-left:11pt; position:relative; margin-bottom:1mm; }
+.note-box li::before { content:"!"; position:absolute; left:0; color:#C9912F; font-weight:700; }
+
+.future { background:#0A6A2F; color:#EBCB86; padding: 5mm 7mm; margin-top: 4mm; }
+.future .gl { font-size:6.5pt; letter-spacing:3pt; color:#EBCB86; font-weight:700; text-transform:uppercase; margin-bottom:2mm; }
+.future p { font-size: 9.2pt; line-height: 1.6; text-align: justify; }
+
+.closing { text-align:center; margin-top: 4mm; }
+.closing .q { font-family:"Noto Serif",serif; font-style:italic; font-size: 13pt; color:#0A6A2F; }
+.closing .q em { color:#C9912F; }
+.closing .tg { font-size: 7.5pt; letter-spacing: 4pt; color:#C9912F; font-weight:600; margin-top:2mm; text-transform:uppercase; }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 ============ -->
+<div class="page">
+  <div class="top-strip">
+    <div class="logo-mini"><img src="../assets/img/logo-muong-coc.png" alt=""><span>Mường Cốc · Du lịch cộng đồng</span></div>
+    <span>Hồ sơ điểm đến · Trang 1/2</span>
+  </div>
+
+  <div class="hero">
+    <div class="lc">
+      <div>
+        <div class="kicker">Hồ sơ giới thiệu điểm đến</div>
+        <span class="deco-line"></span>
+        <h1>Nhà Cổ<em>Hữu Lệnh</em></h1>
+        <div class="subtitle">Không gian sống truyền thống của người Mường nơi vùng bán sơn địa Bắc Bộ</div>
+        <div class="loc">THÔN ĐỨC DƯƠNG · XÃ MỸ ĐỨC · TP HÀ NỘI</div>
+      </div>
+    </div>
+    <div class="rc">
+      <img src="../assets/img/exterior.jpg" alt="Nhà cổ Hữu Lệnh">
+      <div class="tag">Mái lá, vách tre, tường đá ong — nếp nhà còn nguyên hơi thở đời sống Mường.</div>
+    </div>
+  </div>
+
+  <div class="infobar">
+    <div class="cell"><div class="l">Chủ hộ</div><div class="v">Nguyễn Hữu Lệnh</div><div class="s">Người đại diện điểm đến</div></div>
+    <div class="cell"><div class="l">Giờ mở cửa</div><div class="v">8:00 – 18:00</div><div class="s">Tất cả các ngày</div></div>
+    <div class="cell"><div class="l">Khách lẻ</div><div class="v">10 khách</div><div class="s">mỗi lượt phục vụ</div></div>
+    <div class="cell"><div class="l">Khách đoàn</div><div class="v">20 khách</div><div class="s">mỗi lượt phục vụ</div></div>
+  </div>
+
+  <div class="p1body">
+    <div class="lead">
+      <p><span class="dc">N</span>hà cổ Hữu Lệnh là một trong những không gian tiêu biểu còn lưu giữ được kiến trúc và nếp sinh hoạt truyền thống của người Mường tại Mường Cốc. Ngôi nhà mang nét mộc mạc đặc trưng của vùng bán sơn địa Bắc Bộ với vật liệu tự nhiên như gỗ, tre, mái lá và các vật dụng sinh hoạt truyền thống vẫn được bảo tồn trong đời sống hàng ngày.</p>
+      <p>Không chỉ là nơi sinh sống của gia đình nhiều thế hệ, Nhà cổ Hữu Lệnh còn phản ánh rõ nét đời sống văn hóa, tập quán sinh hoạt và tinh thần gắn bó với thiên nhiên của cộng đồng người Mường địa phương.</p>
+      <p>Du khách khi đến đây có thể cảm nhận không gian làng quê yên bình, tìm hiểu kiến trúc nhà ở truyền thống và lắng nghe những câu chuyện đời sống bản địa từ chính người dân địa phương.</p>
+    </div>
+    <div>
+      <div class="loaihinh">
+        <h4>Loại hình điểm đến</h4>
+        <ul>
+          <li>Không gian văn hóa truyền thống</li>
+          <li>Điểm tham quan cộng đồng</li>
+          <li>Trải nghiệm đời sống người Mường</li>
+          <li>Check-in – chụp ảnh văn hóa bản địa</li>
+        </ul>
+      </div>
+      <div class="contactmini">
+        <strong>Địa chỉ:</strong> Thôn Đức Dương, xã Mỹ Đức, Thành phố Hà Nội.<br>
+        <strong>Điểm đến:</strong> Du lịch cộng đồng Mường Cốc.
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-band">
+    <span class="it">"Chạm vào bình yên"</span>
+    <span>— Du lịch cộng đồng Mường Cốc · Mỹ Đức · Hà Nội —</span>
+  </div>
+</div>
+
+<!-- ============ PAGE 2 ============ -->
+<div class="page">
+  <div class="orn-top">
+    <div class="row">
+      <div style="display:flex;align-items:center;gap:6pt;"><img src="../assets/img/logo-muong-coc.png" alt=""><span class="nm">NHÀ CỔ HỮU LỆNH</span></div>
+      <span class="pg">Hồ sơ điểm đến · Trang 2/2</span>
+    </div>
+    <div class="ttl">Giá trị · Dịch vụ · Trải nghiệm · Định hướng</div>
+  </div>
+
+  <div class="content">
+    <!-- 3. GIÁ TRỊ NỔI BẬT -->
+    <div class="sec">
+      <div class="sec-h"><span class="no">03</span><span class="tt">Giá trị nổi bật</span><span class="ln"></span></div>
+      <div class="values">
+        <div class="v"><h5>Giá trị văn hóa</h5><ul>
+          <li>Bảo tồn không gian nhà ở truyền thống người Mường</li>
+          <li>Lưu giữ vật dụng sinh hoạt xưa</li>
+          <li>Gắn với đời sống gia đình và văn hóa cộng đồng</li>
+        </ul></div>
+        <div class="v"><h5>Giá trị trải nghiệm</h5><ul>
+          <li>Trải nghiệm không gian sống bản địa</li>
+          <li>Giao lưu cùng người dân</li>
+          <li>Chụp ảnh văn hóa – làng quê</li>
+          <li>Tìm hiểu nếp sống truyền thống</li>
+        </ul></div>
+        <div class="v"><h5>Giá trị cảnh quan</h5><ul>
+          <li>Không gian mộc mạc, gần gũi thiên nhiên</li>
+          <li>Phù hợp check-in, trải nghiệm "slow travel"</li>
+          <li>Góc chụp ảnh đậm chất làng quê Bắc Bộ</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <!-- 4. DỊCH VỤ CUNG CẤP -->
+    <div class="sec">
+      <div class="sec-h"><span class="no">04</span><span class="tt">Dịch vụ cung cấp</span><span class="ln"></span></div>
+      <table class="svc">
+        <tr><th style="width:46mm;">Dịch vụ</th><th>Nội dung</th></tr>
+        <tr><td class="k">Tham quan nhà cổ</td><td>Giới thiệu kiến trúc và lịch sử ngôi nhà</td></tr>
+        <tr><td class="k">Trải nghiệm văn hóa</td><td>Giao lưu đời sống cùng người dân</td></tr>
+        <tr><td class="k">Chụp ảnh check-in</td><td>Không gian truyền thống – làng quê</td></tr>
+        <tr><td class="k">Trải nghiệm nghề truyền thống</td><td>Theo mùa vụ / thời điểm</td></tr>
+        <tr><td class="k">Ẩm thực địa phương</td><td>Phục vụ theo đặt trước</td></tr>
+        <tr><td class="k">Đón khách đoàn</td><td>Có thể phục vụ nhóm nhỏ và đoàn trải nghiệm</td></tr>
+      </table>
+    </div>
+
+    <!-- 5 + 6 -->
+    <div class="sec two">
+      <div class="exp">
+        <div class="sec-h"><span class="no">05</span><span class="tt">Hoạt động gợi ý</span></div>
+        <ul>
+          <li>Uống trà và nghe kể chuyện làng Mường</li>
+          <li>Tham gia chuẩn bị món ăn truyền thống</li>
+          <li>Trải nghiệm mặc trang phục dân tộc Mường</li>
+          <li>Tìm hiểu công cụ lao động và vật dụng xưa</li>
+          <li>Chụp ảnh cùng không gian nhà cổ và sân vườn</li>
+        </ul>
+      </div>
+      <div class="serve">
+        <div class="sec-h"><span class="no">06</span><span class="tt">Phục vụ khách</span></div>
+        <div class="serve-grp"><div class="gl">Ngôn ngữ hỗ trợ</div><div class="gv">Tiếng Việt · Tiếng Anh cơ bản · Hướng dẫn viên địa phương hỗ trợ</div></div>
+        <div class="serve-grp"><div class="gl">Tiện ích</div><div class="gv">Nhà vệ sinh · Khu nghỉ chân · Nước uống · Không gian đón khách</div></div>
+        <div class="note-box"><div class="gl">Lưu ý</div><ul>
+          <li>Tôn trọng không gian sinh hoạt gia đình</li>
+          <li>Hạn chế rác thải nhựa</li>
+          <li>Không tự ý sử dụng hiện vật truyền thống</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <!-- 7. ĐỊNH HƯỚNG -->
+    <div class="future">
+      <div class="gl">07 · Định hướng phát triển</div>
+      <p>Nhà cổ Hữu Lệnh hướng tới trở thành điểm trải nghiệm văn hóa cộng đồng mang tính chân thực, thân thiện và bền vững; góp phần bảo tồn giá trị văn hóa người Mường và tạo sinh kế cho cộng đồng địa phương thông qua hoạt động du lịch cộng đồng.</p>
+    </div>
+
+    <div class="closing">
+      <div class="q">"Du lịch cộng đồng Mường Cốc — <em>Chạm vào bình yên</em>"</div>
+      <div class="tg">— Điểm đến Du lịch cộng đồng Mường Cốc · Xã Mỹ Đức · TP Hà Nội —</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
