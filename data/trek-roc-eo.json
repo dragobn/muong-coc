@@ -5,14 +5,18 @@
   "theme": "trek",
   "tagline": "Vòng Hồ — Đồi Dược Liệu — Thung Vắng",
   "tagline_en": "Lake Loop — Herb Hill — Quiet Valley",
+  "tagline_fr": "Boucle du lac — Colline aux herbes — Vallée tranquille",
   "thoi_luong": "Nửa ngày (~4 giờ)",
   "thoi_luong_en": "Half day (~4 hours)",
+  "thoi_luong_fr": "Demi-journée (~4 heures)",
   "cu_ly": "~5 km · cấp độ dễ",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the coordination board for a quote",
+  "gia_fr": "Contactez le conseil de coordination pour un devis",
   "intro": "Đường Mòn Rộc Éo là cung trek nhẹ nhàng nhất của Mường Cốc — bạn không cần xe đạp, chỉ cần một đôi giày êm và một buổi sáng rảnh rang. Cả hành trình là một vòng chân thong dong: men theo bờ hồ Baibóo trong xanh, ngược lên đồi dược liệu thôn Rộc Éo hái thảo dược cùng lương y Mường, rồi khép lại giữa Thung Cánh hoang sơ. Đường bằng, ngắn và đầy bóng cây, hợp cả gia đình có trẻ nhỏ lẫn người lớn tuổi muốn vận động nhẹ.",
   "intro_en": "The Roc Eo Trail is the gentlest trek in Muong Coc — you need no bicycle, just a comfortable pair of shoes and a free morning. The whole route is a leisurely loop on foot: along the clear shore of Baiboo Lake, up to the herb hill of Roc Eo hamlet to gather herbs with a Muong healer, and closing amid the pristine Thung Canh valley. The path is flat, short, and full of shade, suitable for families with young children and older walkers seeking gentle exercise.",
+  "intro_fr": "Le sentier Roc Eo est le trek le plus doux de Muong Coc — vous n'avez pas besoin de vélo, juste d'une paire de chaussures confortables et d'une matinée libre. L'itinéraire complet est une boucle tranquille à pied : le long des rives claires du lac Baiboo, jusqu'à la colline aux herbes du hameau de Roc Eo pour cueillir des herbes avec un guérisseur Muong, et se terminant au milieu de la vallée immaculée de Thung Canh. Le chemin est plat, court et ombragé, adapté aux familles avec de jeunes enfants et aux marcheurs plus âgés cherchant un exercice doux.",
   "highlights": [
     "Trek nhẹ, ai cũng đi được — nửa ngày, ~5 km đường bằng, phù hợp gia đình có trẻ nhỏ và người lớn tuổi.",
     "Vòng hồ Baibóo trong xanh — đi bộ men hồ giữa hàng cây dổi và cung đường hoa.",
@@ -27,17 +31,109 @@
     "Plant a Muong medicinal seedling — add a green sprout to a living tradition.",
     "The hush of Thung Canh — brew a pot of self-picked herbal tea in the valley, with only mountain wind and birdsong."
   ],
+  "highlights_fr": [
+    "Une randonnée facile pour tous — une demi-journée, environ 5 km de sentier plat, adaptée aux familles avec de jeunes enfants et aux marcheurs plus âgés.",
+    "La boucle du lac Baiboo aux eaux claires — longez la rive parmi les arbres doi et les allées fleuries.",
+    "Rencontrez les gardiens de la sagesse herboriste Muong — cueillez des herbes avec Mme Cham et Mme Phan sur la colline aux herbes de Roc Eo.",
+    "Planter un jeune plant médicinal Muong — une pousse verte pour une tradition vivante.",
+    "Le silence de Thung Canh — préparez une théière de tisane cueillie par vos soins dans la vallée, avec pour seuls compagnons le vent de la montagne et le chant des oiseaux."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "07:30", "diem": "Tourism Hub Đồi Dùng", "diem_en": "Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station. Sau đó bạn nhận một đôi gậy trek và bản đồ đường mòn để bắt đầu một buổi sáng thong dong.", "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network. Then you receive a pair of trekking poles and a trail map to begin a leisurely morning.", "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.", "luu_y_en": "Please bring your own reusable water bottle for the whole journey."},
-    {"gio_hoac_buoi": "07:50", "diem": "Đi bộ vòng hồ Baibóo", "diem_en": "Walking the Baiboo Lake loop", "mo_ta": "Bạn men theo bờ hồ Baibóo — hồ điều hoà sinh thái khơi nguồn từ núi đá vôi, vòng quanh chừng 4 km. Mặt nước trong xanh soi bóng cây dổi và các cung đường hoa. Bạn đi chậm, dừng lại bất cứ đâu thấy đẹp, để buổi sáng mở ra thật từ tốn.", "mo_ta_en": "You follow the shore of Baiboo Lake — an ecological balancing lake fed by limestone mountains, about 4 km around. The clear water mirrors the doi trees and the flower-lined lanes. You walk slowly, pausing wherever it pleases you, letting the morning unfold unhurried.", "luu_y": "Đoạn đường bằng phẳng, dễ đi — phù hợp cả người lớn tuổi và trẻ nhỏ.", "luu_y_en": "A flat, easy stretch — suitable for older walkers and young children alike."},
-    {"gio_hoac_buoi": "09:00", "diem": "Đồi dược liệu thôn Rộc Éo — Nhà bà Châm, bà Phận", "diem_en": "Roc Eo Herb Hill — Mrs Cham & Mrs Phan's home", "mo_ta": "Bạn ngược lên đồi dược liệu thôn Rộc Éo, nơi hai lương y người Mường còn gìn giữ nghề thuốc Nam gia truyền. Bạn ngồi bên các bà, được chỉ từng loại lá, tự tay hái một nắm thảo dược và nghe kể những bài thuốc theo người Mường qua bao đời. Cùng các bà, bạn ươm xuống đất một cây thuốc nhỏ.", "mo_ta_en": "You climb up to the herb hill of Roc Eo hamlet, where two Muong healers keep their family tradition of southern medicine. You sit with them, are shown each leaf, gather a handful of herbs yourself, and hear remedies passed down through generations. Together you plant a small medicinal seedling in the soil.", "luu_y": "Ươm một cây thuốc Mường — tiếp nối kho tri thức cây thuốc cho người đến sau.", "luu_y_en": "Plant a Muong medicinal seedling — carry the herbal tradition forward for those who come after."},
-    {"gio_hoac_buoi": "10:15", "diem": "Thung Cánh", "diem_en": "Thung Canh valley", "mo_ta": "Bạn đi tiếp vào Thung Cánh — thung lũng hoang sơ áp dụng mô hình 5 KHÔNG. Đứng giữa thung không bê tông, không công trình giả tạo, chỉ có gió núi và tiếng chim. Bạn có thể pha một ấm trà từ nắm thảo dược vừa hái, ngồi nghỉ và để buổi sáng chậm lại thật trọn vẹn.", "mo_ta_en": "You continue into Thung Canh — a pristine valley applying the \"5 Nos\" model. Standing in the valley there is no concrete, no artificial structure, only mountain wind and birdsong. You may brew a pot of tea from the herbs you just picked, rest, and let the morning slow down completely.", "luu_y": "Không xả rác, không can thiệp sinh vật trong khu Thung Cánh.", "luu_y_en": "No littering and no disturbing the wildlife within Thung Canh valley."},
-    {"gio_hoac_buoi": "11:30", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to Doi Dung Tourism Hub", "mo_ta": "Bạn thong dong đi bộ trở về Nhà Văn hoá Đồi Dùng. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — có thể là một gói trà thảo dược nhỏ do chính tay bạn góp hái.", "mo_ta_en": "You stroll back to the Doi Dung Community House. Muong Coc gives you a community-made souvenir — perhaps a small packet of herbal tea you helped gather yourself.", "luu_y": "Tùy chọn: nối tiếp buổi chiều bằng một bữa Cỗ Lá Mường hoặc một cung đạp xe (báo trước).", "luu_y_en": "Optional: extend into the afternoon with a Co La Muong feast or a cycling route (book in advance)."}
+    {
+      "gio_hoac_buoi": "07:30",
+      "diem": "Tourism Hub Đồi Dùng",
+      "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station. Sau đó bạn nhận một đôi gậy trek và bản đồ đường mòn để bắt đầu một buổi sáng thong dong.",
+      "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network. Then you receive a pair of trekking poles and a trail map to begin a leisurely morning.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge. Ensuite, vous recevez une paire de bâtons de randonnée et une carte des sentiers pour commencer une matinée de détente.",
+      "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
+    },
+    {
+      "gio_hoac_buoi": "07:50",
+      "diem": "Đi bộ vòng hồ Baibóo",
+      "diem_en": "Walking the Baiboo Lake loop",
+      "diem_fr": "Randonnée autour du lac Baiboo",
+      "mo_ta": "Bạn men theo bờ hồ Baibóo — hồ điều hoà sinh thái khơi nguồn từ núi đá vôi, vòng quanh chừng 4 km. Mặt nước trong xanh soi bóng cây dổi và các cung đường hoa. Bạn đi chậm, dừng lại bất cứ đâu thấy đẹp, để buổi sáng mở ra thật từ tốn.",
+      "mo_ta_en": "You follow the shore of Baiboo Lake — an ecological balancing lake fed by limestone mountains, about 4 km around. The clear water mirrors the doi trees and the flower-lined lanes. You walk slowly, pausing wherever it pleases you, letting the morning unfold unhurried.",
+      "mo_ta_fr": "Vous longez les rives du lac Baiboo — un lac d'équilibre écologique alimenté par les montagnes calcaires, d'environ 4 km de circonférence. L'eau claire reflète les arbres doi et les sentiers bordés de fleurs. Vous marchez lentement, vous arrêtant où bon vous semble, laissant la matinée se dérouler sans hâte.",
+      "luu_y": "Đoạn đường bằng phẳng, dễ đi — phù hợp cả người lớn tuổi và trẻ nhỏ.",
+      "luu_y_en": "A flat, easy stretch — suitable for older walkers and young children alike.",
+      "luu_y_fr": "Un tronçon plat et facile — adapté aux marcheurs âgés comme aux jeunes enfants."
+    },
+    {
+      "gio_hoac_buoi": "09:00",
+      "diem": "Đồi dược liệu thôn Rộc Éo — Nhà bà Châm, bà Phận",
+      "diem_en": "Roc Eo Herb Hill — Mrs Cham & Mrs Phan's home",
+      "diem_fr": "Colline aux herbes de Roc Eo — chez Mme Cham et Mme Phan",
+      "mo_ta": "Bạn ngược lên đồi dược liệu thôn Rộc Éo, nơi hai lương y người Mường còn gìn giữ nghề thuốc Nam gia truyền. Bạn ngồi bên các bà, được chỉ từng loại lá, tự tay hái một nắm thảo dược và nghe kể những bài thuốc theo người Mường qua bao đời. Cùng các bà, bạn ươm xuống đất một cây thuốc nhỏ.",
+      "mo_ta_en": "You climb up to the herb hill of Roc Eo hamlet, where two Muong healers keep their family tradition of southern medicine. You sit with them, are shown each leaf, gather a handful of herbs yourself, and hear remedies passed down through generations. Together you plant a small medicinal seedling in the soil.",
+      "mo_ta_fr": "Vous montez jusqu'à la colline aux herbes du hameau de Roc Eo, où deux guérisseurs Muong perpétuent la tradition familiale de la médecine du sud. Vous vous asseyez avec eux, découvrez chaque feuille, cueillez vous-même une poignée d'herbes et écoutez les remèdes transmis de génération en génération. Ensemble, vous plantez un petit plant médicinal dans la terre.",
+      "luu_y": "Ươm một cây thuốc Mường — tiếp nối kho tri thức cây thuốc cho người đến sau.",
+      "luu_y_en": "Plant a Muong medicinal seedling — carry the herbal tradition forward for those who come after.",
+      "luu_y_fr": "Planter un jeune plant médicinal Muong — perpétuez la tradition des herbes médicinales pour les générations futures."
+    },
+    {
+      "gio_hoac_buoi": "10:15",
+      "diem": "Thung Cánh",
+      "diem_en": "Thung Canh valley",
+      "diem_fr": "La vallée de Thung Canh",
+      "mo_ta": "Bạn đi tiếp vào Thung Cánh — thung lũng hoang sơ áp dụng mô hình 5 KHÔNG. Đứng giữa thung không bê tông, không công trình giả tạo, chỉ có gió núi và tiếng chim. Bạn có thể pha một ấm trà từ nắm thảo dược vừa hái, ngồi nghỉ và để buổi sáng chậm lại thật trọn vẹn.",
+      "mo_ta_en": "You continue into Thung Canh — a pristine valley applying the \"5 Nos\" model. Standing in the valley there is no concrete, no artificial structure, only mountain wind and birdsong. You may brew a pot of tea from the herbs you just picked, rest, and let the morning slow down completely.",
+      "mo_ta_fr": "Vous continuez vers Thung Canh — une vallée immaculée appliquant le modèle des « 5 Sans ». Au cœur de la vallée, pas de béton, pas de structure artificielle, seulement le vent des montagnes et le chant des oiseaux. Vous pouvez préparer une tasse de thé avec les herbes que vous venez de cueillir, vous reposer et laisser la matinée s'écouler en toute quiétude.",
+      "luu_y": "Không xả rác, không can thiệp sinh vật trong khu Thung Cánh.",
+      "luu_y_en": "No littering and no disturbing the wildlife within Thung Canh valley.",
+      "luu_y_fr": "Ne pas jeter de déchets et ne pas déranger la faune dans la vallée de Thung Canh."
+    },
+    {
+      "gio_hoac_buoi": "11:30",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
+      "mo_ta": "Bạn thong dong đi bộ trở về Nhà Văn hoá Đồi Dùng. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — có thể là một gói trà thảo dược nhỏ do chính tay bạn góp hái.",
+      "mo_ta_en": "You stroll back to the Doi Dung Community House. Muong Coc gives you a community-made souvenir — perhaps a small packet of herbal tea you helped gather yourself.",
+      "mo_ta_fr": "Vous retournez à pied à la Maison Communautaire Doi Dung. Muong Coc vous offre un souvenir artisanal — peut-être un petit sachet de tisane que vous avez aidé à cueillir vous-même.",
+      "luu_y": "Tùy chọn: nối tiếp buổi chiều bằng một bữa Cỗ Lá Mường hoặc một cung đạp xe (báo trước).",
+      "luu_y_en": "Optional: extend into the afternoon with a Co La Muong feast or a cycling route (book in advance).",
+      "luu_y_fr": "En option : prolongez l'après-midi avec un festin Co La Muong ou un parcours cyclable (à réserver à l'avance)."
+    }
   ],
   "diem_den": [
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng quanh chừng 4 km. Bạn đi bộ men bờ hồ giữa hàng cây dổi và cung đường hoa. Đường bằng phẳng, dễ đi, đầy bóng mát.", "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You walk the shore among doi trees and flower-lined lanes. A flat, easy, shaded path."},
-    {"ten": "Đồi dược liệu Rộc Éo", "ten_en": "Roc Eo Herb Hill", "loai": "Di sản tri thức", "loai_en": "Living knowledge heritage", "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam Mường. Bạn được chỉ từng loại lá, tự tay hái một nắm thảo dược. Cùng các bà, bạn ươm một cây thuốc nhỏ xuống đất.", "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong tradition of southern medicine. You are shown each leaf and gather a handful of herbs yourself. Together you plant a small medicinal seedling."},
-    {"ten": "Thung Cánh", "ten_en": "Thung Canh valley", "loai": "Thiên nhiên · Net-Zero", "loai_en": "Nature · Net-Zero", "mo_ta_ngan": "Thung lũng hoang sơ áp dụng mô hình 5 KHÔNG, không bê tông, không công trình giả tạo. Giữa thung chỉ có gió núi và tiếng chim. Bạn pha một ấm trà thảo dược tự hái và để buổi sáng chậm lại.", "mo_ta_ngan_en": "A pristine valley applying the \"5 Nos\" model, with no concrete and no artificial structures. In the valley there is only mountain wind and birdsong. You brew a pot of self-picked herbal tea and let the morning slow."}
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng quanh chừng 4 km. Bạn đi bộ men bờ hồ giữa hàng cây dổi và cung đường hoa. Đường bằng phẳng, dễ đi, đầy bóng mát.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You walk the shore among doi trees and flower-lined lanes. A flat, easy, shaded path.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence. Vous longez la rive parmi les arbres doi et les chemins fleuris. Un chemin plat, facile et ombragé."
+    },
+    {
+      "ten": "Đồi dược liệu Rộc Éo",
+      "ten_en": "Roc Eo Herb Hill",
+      "ten_fr": "Colline aux herbes de Roc Eo",
+      "loai": "Di sản tri thức",
+      "loai_en": "Living knowledge heritage",
+      "loai_fr": "Patrimoine de savoirs vivants",
+      "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam Mường. Bạn được chỉ từng loại lá, tự tay hái một nắm thảo dược. Cùng các bà, bạn ươm một cây thuốc nhỏ xuống đất.",
+      "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong tradition of southern medicine. You are shown each leaf and gather a handful of herbs yourself. Together you plant a small medicinal seedling.",
+      "mo_ta_ngan_fr": "Une colline aux herbes où les guérisseuses Mme Cham et Mme Phan perpétuent la tradition Muong de la médecine du sud. Chaque feuille vous est montrée et vous cueillez vous-même une poignée d'herbes. Ensemble, vous plantez un petit plant médicinal."
+    },
+    {
+      "ten": "Thung Cánh",
+      "ten_en": "Thung Canh valley",
+      "ten_fr": "La vallée de Thung Canh",
+      "loai": "Thiên nhiên · Net-Zero",
+      "loai_en": "Nature · Net-Zero",
+      "loai_fr": "Nature · Net-Zero",
+      "mo_ta_ngan": "Thung lũng hoang sơ áp dụng mô hình 5 KHÔNG, không bê tông, không công trình giả tạo. Giữa thung chỉ có gió núi và tiếng chim. Bạn pha một ấm trà thảo dược tự hái và để buổi sáng chậm lại.",
+      "mo_ta_ngan_en": "A pristine valley applying the \"5 Nos\" model, with no concrete and no artificial structures. In the valley there is only mountain wind and birdsong. You brew a pot of self-picked herbal tea and let the morning slow.",
+      "mo_ta_ngan_fr": "Une vallée immaculée appliquant le modèle « 5 Sans », sans béton ni structures artificielles. Dans la vallée, il n'y a que le vent des montagnes et le chant des oiseaux. Vous préparez une tisane cueillie par vos soins et laissez la matinée s'écouler doucement."
+    }
   ],
   "bao_gom": [
     "Hướng dẫn viên bản địa am hiểu văn hoá Mường",
@@ -57,6 +153,15 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Guide local connaissant bien la culture Muong",
+    "Bâtons de randonnée et carte des sentiers",
+    "La rencontre avec le guérisseur, la cueillette d'herbes et la plantation de jeunes pousses selon le programme.",
+    "Thé aux herbes maison dans la vallée de Thung Canh",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Các bữa ăn (Cỗ Lá Mường — báo trước để bổ sung)",
     "Các dịch vụ và trải nghiệm không nằm trong chương trình",
@@ -69,28 +174,138 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Repas (festin Co La Muong — à ajouter sur demande préalable)",
+    "Services et expériences non inclus dans le programme",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
-    {"ten": "Bữa Cỗ Lá Mường", "ten_en": "Co La Muong feast", "mo_ta": "Mâm cơm farm-to-table trên lá chuối tại nhà dân", "mo_ta_en": "A farm-to-table meal on banana leaves at a local home"},
-    {"ten": "Buổi trò chuyện chuyên sâu cùng bà Châm, bà Phận", "ten_en": "In-depth talk with Mrs Cham & Mrs Phan", "mo_ta": "Tìm hiểu sâu hơn về các bài thuốc Nam cổ truyền của người Mường", "mo_ta_en": "A deeper look into the Muong people's traditional southern-medicine remedies"},
-    {"ten": "Massage chân với lá thuốc Mường", "ten_en": "Muong herbal foot massage", "mo_ta": "Ngải cứu, sả, lá lốt, gừng tươi đun nóng tại Trạm Chill Thung Cánh", "mo_ta_en": "Warm mugwort, lemongrass, lolot, and fresh ginger at the Thung Canh Chill Stop"},
-    {"ten": "Đưa đón Hà Nội ↔ Mường Cốc", "ten_en": "Hanoi ↔ Muong Coc transfer", "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ", "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"}
+    {
+      "ten": "Bữa Cỗ Lá Mường",
+      "ten_en": "Co La Muong feast",
+      "ten_fr": "Festin Co La Muong",
+      "mo_ta": "Mâm cơm farm-to-table trên lá chuối tại nhà dân",
+      "mo_ta_en": "A farm-to-table meal on banana leaves at a local home",
+      "mo_ta_fr": "Un repas de la ferme à la table sur des feuilles de bananier chez l'habitant"
+    },
+    {
+      "ten": "Buổi trò chuyện chuyên sâu cùng bà Châm, bà Phận",
+      "ten_en": "In-depth talk with Mrs Cham & Mrs Phan",
+      "ten_fr": "Discussion approfondie avec Mme Cham et Mme Phan",
+      "mo_ta": "Tìm hiểu sâu hơn về các bài thuốc Nam cổ truyền của người Mường",
+      "mo_ta_en": "A deeper look into the Muong people's traditional southern-medicine remedies",
+      "mo_ta_fr": "Un aperçu approfondi des remèdes traditionnels de médecine du sud du peuple Muong"
+    },
+    {
+      "ten": "Massage chân với lá thuốc Mường",
+      "ten_en": "Muong herbal foot massage",
+      "ten_fr": "Massage des pieds aux herbes Muong",
+      "mo_ta": "Ngải cứu, sả, lá lốt, gừng tươi đun nóng tại Trạm Chill Thung Cánh",
+      "mo_ta_en": "Warm mugwort, lemongrass, lolot, and fresh ginger at the Thung Canh Chill Stop",
+      "mo_ta_fr": "Armoise chaude, citronnelle, lolot et gingembre frais au Thung Canh Chill Stop"
+    },
+    {
+      "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
+      "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
+      "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
+    }
   ],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người tìm buổi đi bộ chậm rãi", "nhom_en": "Those seeking a slow walk", "mo_ta": "Giữa thiên nhiên.", "mo_ta_en": "Amid nature."},
-    {"nhom": "Gia đình có trẻ nhỏ và người lớn tuổi", "nhom_en": "Families with children and older walkers", "mo_ta": "Cung đường dễ, ngắn.", "mo_ta_en": "An easy, short route."},
-    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "2 — 12 người muốn vận động nhẹ.", "mo_ta_en": "Groups of 2–12 wanting gentle exercise."},
-    {"nhom": "Người yêu cây thuốc, thảo dược", "nhom_en": "Lovers of herbs and healing plants", "mo_ta": "Yêu tri thức bản địa.", "mo_ta_en": "Drawn to local knowledge."},
-    {"nhom": "Khách tìm khoảng lặng", "nhom_en": "Those seeking quiet", "mo_ta": "Một buổi nửa ngày không vội.", "mo_ta_en": "An unhurried half-day."}
+    {
+      "nhom": "Người tìm buổi đi bộ chậm rãi",
+      "nhom_en": "Those seeking a slow walk",
+      "nhom_fr": "Ceux qui recherchent une promenade tranquille",
+      "mo_ta": "Giữa thiên nhiên.",
+      "mo_ta_en": "Amid nature.",
+      "mo_ta_fr": "Au cœur de la nature."
+    },
+    {
+      "nhom": "Gia đình có trẻ nhỏ và người lớn tuổi",
+      "nhom_en": "Families with children and older walkers",
+      "nhom_fr": "Familles avec enfants et marcheurs seniors",
+      "mo_ta": "Cung đường dễ, ngắn.",
+      "mo_ta_en": "An easy, short route.",
+      "mo_ta_fr": "Un itinéraire facile et court."
+    },
+    {
+      "nhom": "Nhóm bạn nhỏ",
+      "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
+      "mo_ta": "2 — 12 người muốn vận động nhẹ.",
+      "mo_ta_en": "Groups of 2–12 wanting gentle exercise.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes souhaitant une activité physique douce."
+    },
+    {
+      "nhom": "Người yêu cây thuốc, thảo dược",
+      "nhom_en": "Lovers of herbs and healing plants",
+      "nhom_fr": "Amoureux des herbes et plantes médicinales",
+      "mo_ta": "Yêu tri thức bản địa.",
+      "mo_ta_en": "Drawn to local knowledge.",
+      "mo_ta_fr": "Attiré par les savoirs locaux."
+    },
+    {
+      "nhom": "Khách tìm khoảng lặng",
+      "nhom_en": "Those seeking quiet",
+      "nhom_fr": "Ceux qui recherchent le calme",
+      "mo_ta": "Một buổi nửa ngày không vội.",
+      "mo_ta_en": "An unhurried half-day.",
+      "mo_ta_fr": "Une demi-journée paisible."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Buổi gặp gỡ bà Châm, bà Phận", "tieu_de_en": "Meeting Mrs Cham & Mrs Phan", "mo_ta": "Cần được sắp xếp, đặt lịch trước với Ban điều phối cộng đồng.", "mo_ta_en": "Must be arranged and booked in advance with the community coordination board."},
-    {"tieu_de": "Thời tiết xấu / mưa lớn", "tieu_de_en": "Bad weather / heavy rain", "mo_ta": "Phương án dự phòng — dời lịch hoặc tăng thời lượng trong nhà sàn, nhà dân.", "mo_ta_en": "Backup plan — reschedule or spend more time indoors at the stilt house or a local home."},
-    {"tieu_de": "Sức khoẻ", "tieu_de_en": "Fitness", "mo_ta": "Đi bộ nhẹ ~5 km đường bằng, cấp độ dễ, nhiều điểm dừng nghỉ.", "mo_ta_en": "An easy ~5 km walk on flat ground with many rest stops."},
-    {"tieu_de": "Trang phục", "tieu_de_en": "What to wear", "mo_ta": "Nên đi giày êm, mũ rộng vành; mang kem chống nắng.", "mo_ta_en": "Wear comfortable shoes and a wide-brimmed hat; bring sunscreen."},
-    {"tieu_de": "Khu đồi dược liệu", "tieu_de_en": "The herb hill", "mo_ta": "Không tự ý hái cây thuốc khi chưa có lương y hướng dẫn; không xả rác, không can thiệp sinh vật trong Thung Cánh.", "mo_ta_en": "Do not pick medicinal plants without the healer's guidance; no littering and no disturbing the wildlife in Thung Canh."}
+    {
+      "tieu_de": "Buổi gặp gỡ bà Châm, bà Phận",
+      "tieu_de_en": "Meeting Mrs Cham & Mrs Phan",
+      "tieu_de_fr": "Rencontre avec Mme Cham et Mme Phan",
+      "mo_ta": "Cần được sắp xếp, đặt lịch trước với Ban điều phối cộng đồng.",
+      "mo_ta_en": "Must be arranged and booked in advance with the community coordination board.",
+      "mo_ta_fr": "Doit être organisé et réservé à l'avance auprès du comité de coordination communautaire."
+    },
+    {
+      "tieu_de": "Thời tiết xấu / mưa lớn",
+      "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
+      "mo_ta": "Phương án dự phòng — dời lịch hoặc tăng thời lượng trong nhà sàn, nhà dân.",
+      "mo_ta_en": "Backup plan — reschedule or spend more time indoors at the stilt house or a local home.",
+      "mo_ta_fr": "Plan de secours — reporter ou passer plus de temps à l'intérieur, dans la maison sur pilotis ou chez l'habitant."
+    },
+    {
+      "tieu_de": "Sức khoẻ",
+      "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
+      "mo_ta": "Đi bộ nhẹ ~5 km đường bằng, cấp độ dễ, nhiều điểm dừng nghỉ.",
+      "mo_ta_en": "An easy ~5 km walk on flat ground with many rest stops.",
+      "mo_ta_fr": "Une marche facile d'environ 5 km sur terrain plat, avec de nombreuses pauses."
+    },
+    {
+      "tieu_de": "Trang phục",
+      "tieu_de_en": "What to wear",
+      "tieu_de_fr": "Que porter",
+      "mo_ta": "Nên đi giày êm, mũ rộng vành; mang kem chống nắng.",
+      "mo_ta_en": "Wear comfortable shoes and a wide-brimmed hat; bring sunscreen.",
+      "mo_ta_fr": "Portez des chaussures confortables et un chapeau à larges bords ; apportez de la crème solaire."
+    },
+    {
+      "tieu_de": "Khu đồi dược liệu",
+      "tieu_de_en": "The herb hill",
+      "tieu_de_fr": "La colline aux herbes médicinales",
+      "mo_ta": "Không tự ý hái cây thuốc khi chưa có lương y hướng dẫn; không xả rác, không can thiệp sinh vật trong Thung Cánh.",
+      "mo_ta_en": "Do not pick medicinal plants without the healer's guidance; no littering and no disturbing the wildlife in Thung Canh.",
+      "mo_ta_fr": "Ne cueillez pas de plantes médicinales sans les conseils du guérisseur ; ne jetez pas de déchets et ne dérangez pas la faune de Thung Canh."
+    }
   ],
   "net_zero": "Ươm một cây thuốc Mường cùng lương y tại đồi dược liệu Rộc Éo",
   "net_zero_en": "Plant a Muong medicinal seedling with the healers on Roc Eo herb hill",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Planter un jeune plant médicinal Muong avec les guérisseurs sur la colline aux herbes de Roc Eo",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

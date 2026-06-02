@@ -13,7 +13,8 @@ Dùng:
 
 Cơ chế i18n: mỗi đoạn text render 3 phiên bản <span/div data-lang="vi|en|fr">.
 CSS (assets/css/site.css) ẩn/hiện theo <html lang>. JS (assets/js/site.js)
-đổi lang + nhớ localStorage. FR tạm = bản EN (TODO dịch FR sau).
+đổi lang + nhớ localStorage. FR dùng field _fr trong data/*.json (fallback EN
+nếu thiếu); UI string cố định dịch trực tiếp qua t3(vi, en, fr).
 """
 
 import html
@@ -90,20 +91,22 @@ def load(slug):
     return json.loads((DATA / f"{slug}.json").read_text(encoding="utf-8"))
 
 
-def t3(vi, en):
-    """3 span data-lang. FR tạm = EN."""
+def t3(vi, en, fr=None):
+    """3 span data-lang. FR dùng bản dịch riêng, fallback EN nếu thiếu."""
     en = en or vi
+    fr = fr or en
     return (f'<span data-lang="vi">{e(vi)}</span>'
             f'<span data-lang="en">{e(en)}</span>'
-            f'<span data-lang="fr">{e(en)}</span>')
+            f'<span data-lang="fr">{e(fr)}</span>')
 
 
-def block3(vi, en, tag="div"):
-    """3 block data-lang cho đoạn dài (chứa HTML con)."""
+def block3(vi, en, fr=None, tag="div"):
+    """3 block data-lang cho đoạn dài (chứa HTML con). FR fallback EN."""
     en = en or vi
+    fr = fr or en
     return (f'<{tag} data-lang="vi">{vi}</{tag}>'
             f'<{tag} data-lang="en">{en}</{tag}>'
-            f'<{tag} data-lang="fr">{en}</{tag}>')
+            f'<{tag} data-lang="fr">{fr}</{tag}>')
 
 
 # ---- gán cover distinct cho 19 cung (greedy) ----
@@ -150,12 +153,12 @@ COVERS = assign_covers()
 def topbar(prefix, with_home):
     """prefix = đường dẫn tới gốc site ('' cho landing, '../../' cho microsite)."""
     home = (f'<a class="home-link" href="{prefix or "./"}">'
-            f'{t3("← Trang chủ", "← Home")}</a>') if with_home else ""
+            f'{t3("← Trang chủ", "← Home", "← Accueil")}</a>') if with_home else ""
     brand_href = prefix or "./"
     return f'''<nav class="topbar">
   <a class="brand" href="{brand_href}">
     <span class="logo-sm"><img src="{prefix}assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
-    <span class="brand-tx">{t3("Du lịch cộng đồng Mường Cốc", "Muong Coc Community Tourism")}</span>
+    <span class="brand-tx">{t3("Du lịch cộng đồng Mường Cốc", "Muong Coc Community Tourism", "Tourisme communautaire de Mường Cốc")}</span>
   </a>
   {home}
   <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
@@ -170,11 +173,11 @@ def fab():
     return f'''<div class="fab">
   <a class="fb" href="{FB_URL}" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
     <span aria-hidden="true">f</span>
-    <span class="tip">{t3("Fanpage Du lịch cộng đồng Mường Cốc", "Facebook Fanpage")}</span>
+    <span class="tip">{t3("Fanpage Du lịch cộng đồng Mường Cốc", "Facebook Fanpage", "Page Facebook")}</span>
   </a>
   <a class="call" href="tel:{TEL}" aria-label="Gọi hotline {TEL_SHOW}">
     <span aria-hidden="true">📞</span>
-    <span class="tip">{t3("Gọi hotline " + TEL_SHOW, "Call " + TEL_SHOW)}</span>
+    <span class="tip">{t3("Gọi hotline " + TEL_SHOW, "Call " + TEL_SHOW, "Appeler " + TEL_SHOW)}</span>
   </a>
 </div>'''
 
@@ -182,14 +185,14 @@ def fab():
 def footer(prefix):
     return f'''<footer>
   <div class="deco"><span></span><i></i><span></span></div>
-  <div class="closing">{t3("Chạm Vào Bình Yên", "Touch the Stillness")}</div>
+  <div class="closing">{t3("Chạm Vào Bình Yên", "Touch the Stillness", "Toucher la Quiétude")}</div>
   <div class="ft-contact">
-    <span>📞 {t3("Hotline", "Hotline")}: <a href="tel:{TEL}">{TEL_SHOW}</a></span>
+    <span>📞 {t3("Hotline", "Hotline", "Hotline")}: <a href="tel:{TEL}">{TEL_SHOW}</a></span>
     <span>🌐 Fanpage: <a href="{FB_URL}" target="_blank" rel="noopener">Du lịch cộng đồng Mường Cốc</a></span>
-    <span>🗺️ <a href="{MAPS_URL}" target="_blank" rel="noopener">{t3("Bản đồ du lịch", "Tourism map")}</a></span>
+    <span>🗺️ <a href="{MAPS_URL}" target="_blank" rel="noopener">{t3("Bản đồ du lịch", "Tourism map", "Carte touristique")}</a></span>
   </div>
-  <div class="ft-line">{t3("Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "Muong Coc Community Tourism Board")}<br>
-    Tourism Hub Đồi Dùng · {t3("Xã Mỹ Đức · Hà Nội", "My Duc Commune · Hanoi")}</div>
+  <div class="ft-line">{t3("Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "Muong Coc Community Tourism Board", "Comité de coordination du tourisme communautaire de Mường Cốc")}<br>
+    Tourism Hub Đồi Dùng · {t3("Xã Mỹ Đức · Hà Nội", "My Duc Commune · Hanoi", "Commune de Mỹ Đức · Hanoï")}</div>
 </footer>'''
 
 
@@ -232,10 +235,10 @@ def render_landing():
     <div class="hero-bg"><img src="assets/img/thung-canh.jpg" alt="Thung lũng Mường Cốc"></div>
     <div class="hero-top"><span class="logo-circle"><img src="assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span></div>
     <div class="hero-body">
-      <div class="hero-pre">{t3("Du lịch cộng đồng · Xã Mỹ Đức · Hà Nội", "Community Tourism · My Duc · Hanoi")}</div>
-      <h1>{t3("Du lịch cộng đồng", "Community Tourism")}<br>Mường Cốc<em>{t3("Chạm Vào Bình Yên", "Touch the Stillness")}</em></h1>
-      <div class="hero-tag">{t3("Bản Mường — Bóng Núi — Hơi Thở Đất", "Muong Village — Mountain Shade — Breath of the Earth")}</div>
-      <div class="hero-loc">🌿 {t3("DU LỊCH XANH · CAM KẾT 5 KHÔNG", "GREEN TOURISM · 5-NO PLEDGE")}</div>
+      <div class="hero-pre">{t3("Du lịch cộng đồng · Xã Mỹ Đức · Hà Nội", "Community Tourism · My Duc · Hanoi", "Tourisme communautaire · Commune de Mỹ Đức · Hanoï")}</div>
+      <h1>{t3("Du lịch cộng đồng", "Community Tourism", "Tourisme communautaire")}<br>Mường Cốc<em>{t3("Chạm Vào Bình Yên", "Touch the Stillness", "Toucher la Quiétude")}</em></h1>
+      <div class="hero-tag">{t3("Bản Mường — Bóng Núi — Hơi Thở Đất", "Muong Village — Mountain Shade — Breath of the Earth", "Village Mường — Ombre des Montagnes — Souffle de la Terre")}</div>
+      <div class="hero-loc">🌿 {t3("DU LỊCH XANH · CAM KẾT 5 KHÔNG", "GREEN TOURISM · 5-NO PLEDGE", "TOURISME VERT · ENGAGEMENT DES 5 NON")}</div>
     </div>
     <div class="scroll-cue">↓</div>
   </header>''')
@@ -251,26 +254,32 @@ def render_landing():
                 'and valleys untouched by concrete. Every experience grows from real village life.</p>'
                 '<p>Muong Coc pursues green tourism with a <b>5-NO pledge</b> — you come to listen, '
                 'not merely to watch.</p>')
-    five = [("01 · Không rác nhựa", "01 · No plastic waste"),
-            ("02 · Không bê tông hoá", "02 · No concrete sprawl"),
-            ("03 · Không dàn dựng", "03 · No staged shows"),
-            ("04 · Không dấu chân nặng", "04 · No heavy footprint"),
-            ("05 · Không quên trồng cây", "05 · Always plant a tree")]
-    five_html = "".join(f'<span>{t3(v, en)}</span>' for v, en in five)
+    intro_fr = ('<p><span class="drop">M</span>ường Cốc se niche dans la commune de Mỹ Đức, à Hanoï — un '
+                'village Mường qui garde encore son rythme quotidien parmi l\'ombre des montagnes, les '
+                'pagodes anciennes, les jardins de myrte et des vallées que le béton n\'a jamais touchées. '
+                'Chaque expérience naît de la vie réelle du village.</p>'
+                '<p>Mường Cốc poursuit un tourisme vert avec un <b>engagement des 5 NON</b> — vous venez '
+                'pour écouter, et non simplement pour regarder.</p>')
+    five = [("01 · Không rác nhựa", "01 · No plastic waste", "01 · Aucun déchet plastique"),
+            ("02 · Không bê tông hoá", "02 · No concrete sprawl", "02 · Aucune bétonisation"),
+            ("03 · Không dàn dựng", "03 · No staged shows", "03 · Aucune mise en scène"),
+            ("04 · Không dấu chân nặng", "04 · No heavy footprint", "04 · Aucune empreinte lourde"),
+            ("05 · Không quên trồng cây", "05 · Always plant a tree", "05 · Toujours planter un arbre")]
+    five_html = "".join(f'<span>{t3(v, en, fr)}</span>' for v, en, fr in five)
     parts.append(f'''  <section class="intro alt">
-    <div class="kick">{t3("Về Mường Cốc", "About Muong Coc")}</div>
-    {block3(intro_vi, intro_en)}
+    <div class="kick">{t3("Về Mường Cốc", "About Muong Coc", "À propos de Mường Cốc")}</div>
+    {block3(intro_vi, intro_en, intro_fr)}
     <div class="five-no">{five_html}</div>
   </section>''')
 
     # CÁC CUNG
     parts.append(f'''  <section>
-    <div class="kick">{t3("19 hành trình trải nghiệm", "19 signature journeys")}</div>
-    <h2 class="sec">{t3("Các cung ", "Experience ")}<em>{t3("trải nghiệm", "routes")}</em></h2>''')
+    <div class="kick">{t3("19 hành trình trải nghiệm", "19 signature journeys", "19 itinéraires d'expérience")}</div>
+    <h2 class="sec">{t3("Các cung ", "Experience ", "Itinéraires ")}<em>{t3("trải nghiệm", "routes", "d'expérience")}</em></h2>''')
     for icon, label, slugs in GROUPS:
         parts.append(f'''    <div class="grp"><span class="gi">{icon}</span>'''
-                     f'''<span class="gt">{t3(label["vi"], label["en"])}</span>'''
-                     f'''<span class="gc">{len(slugs)} {t3("cung", "routes")}</span></div>
+                     f'''<span class="gt">{t3(label["vi"], label["en"], label.get("fr"))}</span>'''
+                     f'''<span class="gc">{len(slugs)} {t3("cung", "routes", "itinéraires")}</span></div>
     <div class="cung-list">''')
         for slug in slugs:
             d = load(slug)
@@ -278,32 +287,35 @@ def render_landing():
             thumb = cov if cov else "assets/img/thung-canh.jpg"
             ten = d.get("ten", slug)
             ten_en = d.get("ten_en", ten)
+            ten_fr = d.get("ten_fr", ten_en)
             meta_vi = " · ".join(x for x in [d.get("thoi_luong", ""), d.get("gia", "")] if x)
             meta_en = " · ".join(x for x in [d.get("thoi_luong_en", d.get("thoi_luong", "")),
                                              d.get("gia_en", d.get("gia", ""))] if x)
+            meta_fr = " · ".join(x for x in [d.get("thoi_luong_fr", d.get("thoi_luong_en", d.get("thoi_luong", ""))),
+                                             d.get("gia_fr", d.get("gia_en", d.get("gia", "")))] if x)
             parts.append(
                 f'''      <a class="cung" href="cung/{slug}/">'''
                 f'''<img class="thumb" src="{thumb}" alt="{e(ten)}" loading="lazy">'''
-                f'''<div class="body"><div class="nm">{t3(ten, ten_en)}</div>'''
-                f'''<div class="st">{t3(meta_vi, meta_en)}</div></div>'''
+                f'''<div class="body"><div class="nm">{t3(ten, ten_en, ten_fr)}</div>'''
+                f'''<div class="st">{t3(meta_vi, meta_en, meta_fr)}</div></div>'''
                 f'''<span class="arrow">→</span></a>''')
         parts.append("    </div>")
     parts.append("  </section>")
 
     # HỒ SƠ ĐIỂM ĐẾN (link tạm /poi/ — main bổ sung danh sách sau)
     parts.append(f'''  <section class="poi alt">
-    <div class="kick">{t3("Khám phá sâu hơn", "Dig deeper")}</div>
-    <h2 class="sec">{t3("Hồ sơ ", "Destination ")}<em>{t3("điểm đến", "profiles")}</em></h2>
+    <div class="kick">{t3("Khám phá sâu hơn", "Dig deeper", "Explorer en profondeur")}</div>
+    <h2 class="sec">{t3("Hồ sơ ", "Destination ", "Fiches des ")}<em>{t3("điểm đến", "profiles", "destinations")}</em></h2>
     <div class="poi-list">
-      <a class="poi-card" href="poi/"><span class="ic">⛩️</span><span><span class="nm">{t3("Tất cả điểm đến", "All destinations")}</span><span class="ds">{t3("Hồ sơ điểm đến Mường Cốc", "Muong Coc destination profiles")}</span></span><span class="arrow">→</span></a>
+      <a class="poi-card" href="poi/"><span class="ic">⛩️</span><span><span class="nm">{t3("Tất cả điểm đến", "All destinations", "Toutes les destinations")}</span><span class="ds">{t3("Hồ sơ điểm đến Mường Cốc", "Muong Coc destination profiles", "Fiches des destinations de Mường Cốc")}</span></span><span class="arrow">→</span></a>
     </div>
   </section>''')
 
     # MAP CTA
     parts.append(f'''  <section>
-    <div class="kick center">{t3("Định hướng hành trình", "Plan your route")}</div>
-    <h2 class="sec" style="text-align:center;">{t3("Bản đồ ", "Tourism ")}<em>{t3("du lịch", "map")}</em></h2>
-    <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Bản đồ du lịch Mường Cốc", "Muong Coc tourism map")}<small>{t3("Google My Maps · tất cả điểm đến", "Google My Maps · all destinations")}</small></span></a>
+    <div class="kick center">{t3("Định hướng hành trình", "Plan your route", "Planifier votre itinéraire")}</div>
+    <h2 class="sec" style="text-align:center;">{t3("Bản đồ ", "Tourism ", "Carte ")}<em>{t3("du lịch", "map", "touristique")}</em></h2>
+    <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Bản đồ du lịch Mường Cốc", "Muong Coc tourism map", "Carte touristique de Mường Cốc")}<small>{t3("Google My Maps · tất cả điểm đến", "Google My Maps · all destinations", "Google My Maps · toutes les destinations")}</small></span></a>
   </section>''')
 
     parts.append(tail(""))
@@ -319,6 +331,7 @@ def render_cung(slug):
     prefix = "../../"
     ten = d.get("ten", slug)
     ten_en = d.get("ten_en", ten)
+    ten_fr = d.get("ten_fr", ten_en)
     cover = COVERS.get(slug) or "assets/img/thung-canh.jpg"
     icon = LOAI_ICON.get(d.get("loai", ""), "🗺️")
 
@@ -330,41 +343,48 @@ def render_cung(slug):
 
     # HERO + chips
     chips = []
-    for vi_key, en_key in [("thoi_luong", "thoi_luong_en"), ("cu_ly", "cu_ly_en"),
-                           ("gia", "gia_en"), ("quy_mo", "quy_mo")]:
+    for vi_key, en_key, fr_key in [("thoi_luong", "thoi_luong_en", "thoi_luong_fr"),
+                                   ("cu_ly", "cu_ly_en", "cu_ly_fr"),
+                                   ("gia", "gia_en", "gia_fr"), ("quy_mo", "quy_mo", "quy_mo")]:
         v = d.get(vi_key)
         if v:
-            chips.append(f'<span>{t3(v, d.get(en_key, v))}</span>')
+            ven = d.get(en_key, v)
+            chips.append(f'<span>{t3(v, ven, d.get(fr_key, ven))}</span>')
     chips_html = "".join(chips)
+    tag_en = d.get("tagline_en", d.get("tagline", ""))
     parts.append(f'''  <header class="hero compact">
     <div class="hero-bg"><img src="{prefix}{cover}" alt="{e(ten)}"></div>
     <div class="hero-body" style="padding-top:30px;">
-      <div class="hero-pre">{icon} {t3("Cung trải nghiệm Mường Cốc", "Muong Coc experience route")}</div>
-      <h1 style="font-size:2.3rem;">{t3(ten, ten_en)}</h1>
-      <div class="hero-tag">{t3(d.get("tagline", ""), d.get("tagline_en", d.get("tagline", "")))}</div>
+      <div class="hero-pre">{icon} {t3("Cung trải nghiệm Mường Cốc", "Muong Coc experience route", "Itinéraire d'expérience de Mường Cốc")}</div>
+      <h1 style="font-size:2.3rem;">{t3(ten, ten_en, ten_fr)}</h1>
+      <div class="hero-tag">{t3(d.get("tagline", ""), tag_en, d.get("tagline_fr", tag_en))}</div>
       <div class="hero-chips">{chips_html}</div>
     </div>
   </header>''')
 
     # INTRO
     if d.get("intro"):
+        intro_en = d.get("intro_en", d.get("intro"))
+        intro_fr = d.get("intro_fr", intro_en)
         parts.append(f'''  <section class="intro alt">
-    <div class="kick">{t3("Giới thiệu", "Overview")}</div>
-    {block3("<p>" + e(d.get("intro")) + "</p>", "<p>" + e(d.get("intro_en", d.get("intro"))) + "</p>", tag="div")}
+    <div class="kick">{t3("Giới thiệu", "Overview", "Présentation")}</div>
+    {block3("<p>" + e(d.get("intro")) + "</p>", "<p>" + e(intro_en) + "</p>", "<p>" + e(intro_fr) + "</p>", tag="div")}
   </section>''')
 
     # HIGHLIGHTS (lý do)
     hls = d.get("highlights", [])
     if hls:
         hls_en = d.get("highlights_en", hls)
+        hls_fr = d.get("highlights_fr", hls_en)
         rows = []
         for i, h in enumerate(hls):
             hen = hls_en[i] if i < len(hls_en) else h
+            hfr = hls_fr[i] if i < len(hls_fr) else hen
             ic = HL_ICONS[i % len(HL_ICONS)]
-            rows.append(f'<div class="hl"><span class="hi">{ic}</span><span class="ht">{t3(h, hen)}</span></div>')
+            rows.append(f'<div class="hl"><span class="hi">{ic}</span><span class="ht">{t3(h, hen, hfr)}</span></div>')
         parts.append(f'''  <section>
-    <div class="kick">{t3("Vì sao nên đi", "Why go")}</div>
-    <h2 class="sec">{len(hls)} {t3("lý do", "reasons")}</h2>
+    <div class="kick">{t3("Vì sao nên đi", "Why go", "Pourquoi y aller")}</div>
+    <h2 class="sec">{len(hls)} {t3("lý do", "reasons", "raisons")}</h2>
     <div class="hl-list">{"".join(rows)}</div>
   </section>''')
 
@@ -375,27 +395,30 @@ def render_cung(slug):
         for s in lt:
             diem = s.get("diem", "")
             diem_en = s.get("diem_en", diem)
+            diem_fr = s.get("diem_fr", diem_en)
             mo = s.get("mo_ta", "")
             mo_en = s.get("mo_ta_en", mo)
+            mo_fr = s.get("mo_ta_fr", mo_en)
             gio = s.get("gio_hoac_buoi", "")
             note = ""
             if s.get("luu_y"):
-                note = f'<div class="tl-note">⚑ {t3(s.get("luu_y"), s.get("luu_y_en", s.get("luu_y")))}</div>'
+                ly_en = s.get("luu_y_en", s.get("luu_y"))
+                note = f'<div class="tl-note">⚑ {t3(s.get("luu_y"), ly_en, s.get("luu_y_fr", ly_en))}</div>'
             # link hồ sơ điểm đến nếu điểm có ảnh (suy ra poi-slug)
             poi_btn = ""
             ps = poi_slug(img_for(diem) or "")
             if ps:
                 poi_btn = (f'<a class="poi-link" href="{prefix}poi/{ps}/">'
-                           f'{t3("Xem hồ sơ điểm đến →", "View destination profile →")}</a>')
+                           f'{t3("Xem hồ sơ điểm đến →", "View destination profile →", "Voir la fiche de la destination →")}</a>')
             items.append(f'''      <div class="tl-item">
         <div class="tl-time">{e(gio)}</div>
-        <div class="tl-name">{t3(diem, diem_en)}</div>
-        <div class="tl-desc">{block3(e(mo), e(mo_en), tag="span")}</div>
+        <div class="tl-name">{t3(diem, diem_en, diem_fr)}</div>
+        <div class="tl-desc">{block3(e(mo), e(mo_en), e(mo_fr), tag="span")}</div>
         {note}{poi_btn}
       </div>''')
         parts.append(f'''  <section class="alt">
-    <div class="kick">{t3("Lịch trình", "Itinerary")}</div>
-    <h2 class="sec">{t3("Hành trình ", "The ")}<em>{t3("trong ngày", "journey")}</em></h2>
+    <div class="kick">{t3("Lịch trình", "Itinerary", "Programme")}</div>
+    <h2 class="sec">{t3("Hành trình ", "The ", "Le ")}<em>{t3("trong ngày", "journey", "parcours")}</em></h2>
     <div class="timeline">
 {"".join(items)}
     </div>
@@ -408,26 +431,29 @@ def render_cung(slug):
         for dd in dds:
             nm = dd.get("ten", "")
             nm_en = dd.get("ten_en", nm)
+            nm_fr = dd.get("ten_fr", nm_en)
             loai_vi = dd.get("loai", "")
             loai_en = dd.get("loai_en", loai_vi)
+            loai_fr = dd.get("loai_fr", loai_en)
             desc = dd.get("mo_ta_ngan", "")
             desc_en = dd.get("mo_ta_ngan_en", desc)
+            desc_fr = dd.get("mo_ta_ngan_fr", desc_en)
             ps = poi_slug(img_for(nm) or "")
             img = img_for(nm)
             img_html = f'<img src="{prefix}{img}" alt="{e(nm)}" loading="lazy">' if img else ""
             link = (f'<a class="poi-link" href="{prefix}poi/{ps}/">'
-                    f'{t3("Xem hồ sơ điểm đến →", "View destination profile →")}</a>') if ps else ""
-            tag = f'<div class="dtag">{t3(loai_vi, loai_en)}</div>' if loai_vi else ""
+                    f'{t3("Xem hồ sơ điểm đến →", "View destination profile →", "Voir la fiche de la destination →")}</a>') if ps else ""
+            tag = f'<div class="dtag">{t3(loai_vi, loai_en, loai_fr)}</div>' if loai_vi else ""
             cards.append(f'''      <div class="dest">{img_html}
         <div class="dbody">{tag}
-          <div class="dname">{t3(nm, nm_en)}</div>
-          <div class="ddesc">{block3(e(desc), e(desc_en), tag="span")}</div>
+          <div class="dname">{t3(nm, nm_en, nm_fr)}</div>
+          <div class="ddesc">{block3(e(desc), e(desc_en), e(desc_fr), tag="span")}</div>
           {link}
         </div>
       </div>''')
         parts.append(f'''  <section>
-    <div class="kick">{t3("Điểm đến nổi bật", "Featured stops")}</div>
-    <h2 class="sec">{t3("Những điểm ", "Places you'll ")}<em>{t3("bạn sẽ qua", "discover")}</em></h2>
+    <div class="kick">{t3("Điểm đến nổi bật", "Featured stops", "Étapes marquantes")}</div>
+    <h2 class="sec">{t3("Những điểm ", "Places you'll ", "Les lieux ")}<em>{t3("bạn sẽ qua", "discover", "à découvrir")}</em></h2>
     <div class="dest-grid">
 {"".join(cards)}
     </div>
@@ -439,14 +465,16 @@ def render_cung(slug):
     if bg or kbg:
         bg_en = d.get("bao_gom_en", bg)
         kbg_en = d.get("khong_bao_gom_en", kbg)
-        bg_li = "".join(f'<li>{t3(x, bg_en[i] if i < len(bg_en) else x)}</li>' for i, x in enumerate(bg))
-        kbg_li = "".join(f'<li>{t3(x, kbg_en[i] if i < len(kbg_en) else x)}</li>' for i, x in enumerate(kbg))
+        bg_fr = d.get("bao_gom_fr", bg_en)
+        kbg_fr = d.get("khong_bao_gom_fr", kbg_en)
+        bg_li = "".join(f'<li>{t3(x, bg_en[i] if i < len(bg_en) else x, bg_fr[i] if i < len(bg_fr) else (bg_en[i] if i < len(bg_en) else x))}</li>' for i, x in enumerate(bg))
+        kbg_li = "".join(f'<li>{t3(x, kbg_en[i] if i < len(kbg_en) else x, kbg_fr[i] if i < len(kbg_fr) else (kbg_en[i] if i < len(kbg_en) else x))}</li>' for i, x in enumerate(kbg))
         parts.append(f'''  <section class="alt">
-    <div class="kick">{t3("Chi phí", "What's included")}</div>
-    <h2 class="sec">{t3("Bao gồm ", "Included ")}<em>{t3("& không", "& not")}</em></h2>
+    <div class="kick">{t3("Chi phí", "What's included", "Tarifs")}</div>
+    <h2 class="sec">{t3("Bao gồm ", "Included ", "Inclus ")}<em>{t3("& không", "& not", "& non inclus")}</em></h2>
     <div class="incl-grid">
-      <div class="incl-box"><h3>{t3("Đã bao gồm", "Included")}</h3><ul>{bg_li}</ul></div>
-      <div class="incl-box no"><h3>{t3("Không bao gồm", "Not included")}</h3><ul>{kbg_li}</ul></div>
+      <div class="incl-box"><h3>{t3("Đã bao gồm", "Included", "Inclus")}</h3><ul>{bg_li}</ul></div>
+      <div class="incl-box no"><h3>{t3("Không bao gồm", "Not included", "Non inclus")}</h3><ul>{kbg_li}</ul></div>
     </div>
   </section>''')
 
@@ -455,13 +483,15 @@ def render_cung(slug):
     if addons:
         rows = []
         for a in addons:
+            a_ten_en = a.get("ten_en", a.get("ten", ""))
+            a_mo_en = a.get("mo_ta_en", a.get("mo_ta", ""))
             rows.append(f'''<div class="chip-card">
-        <div class="ct">{t3(a.get("ten", ""), a.get("ten_en", a.get("ten", "")))}</div>
-        <div class="cd">{t3(a.get("mo_ta", ""), a.get("mo_ta_en", a.get("mo_ta", "")))}</div>
+        <div class="ct">{t3(a.get("ten", ""), a_ten_en, a.get("ten_fr", a_ten_en))}</div>
+        <div class="cd">{t3(a.get("mo_ta", ""), a_mo_en, a.get("mo_ta_fr", a_mo_en))}</div>
       </div>''')
         parts.append(f'''  <section>
-    <div class="kick">{t3("Trải nghiệm thêm", "Add-ons")}</div>
-    <h2 class="sec">{t3("Tuỳ chọn ", "Optional ")}<em>{t3("nâng cấp", "extras")}</em></h2>
+    <div class="kick">{t3("Trải nghiệm thêm", "Add-ons", "Expériences en option")}</div>
+    <h2 class="sec">{t3("Tuỳ chọn ", "Optional ", "Suppléments ")}<em>{t3("nâng cấp", "extras", "facultatifs")}</em></h2>
     <div class="chip-cards">{"".join(rows)}</div>
   </section>''')
 
@@ -471,31 +501,37 @@ def render_cung(slug):
     if dts or lys:
         dt_html = ""
         if dts:
-            tags = "".join(f'<span>{t3(x.get("nhom", ""), x.get("nhom_en", x.get("nhom", "")))}</span>' for x in dts)
-            dt_html = (f'<div class="kick" style="margin-top:6px;">{t3("Phù hợp với", "Best for")}</div>'
+            def _dt_tag(x):
+                nhom_en = x.get("nhom_en", x.get("nhom", ""))
+                return f'<span>{t3(x.get("nhom", ""), nhom_en, x.get("nhom_fr", nhom_en))}</span>'
+            tags = "".join(_dt_tag(x) for x in dts)
+            dt_html = (f'<div class="kick" style="margin-top:6px;">{t3("Phù hợp với", "Best for", "Idéal pour")}</div>'
                        f'<div class="tag-list">{tags}</div>')
         ly_html = ""
         if lys:
             notes = []
             for i, ly in enumerate(lys):
                 ic = NOTE_ICONS[i % len(NOTE_ICONS)]
+                td_en = ly.get("tieu_de_en", ly.get("tieu_de", ""))
+                mo_en = ly.get("mo_ta_en", ly.get("mo_ta", ""))
                 notes.append(f'''<div class="note"><span class="ni">{ic}</span><div class="nt">
-          <b>{t3(ly.get("tieu_de", ""), ly.get("tieu_de_en", ly.get("tieu_de", "")))}</b>
-          <span>{t3(ly.get("mo_ta", ""), ly.get("mo_ta_en", ly.get("mo_ta", "")))}</span>
+          <b>{t3(ly.get("tieu_de", ""), td_en, ly.get("tieu_de_fr", td_en))}</b>
+          <span>{t3(ly.get("mo_ta", ""), mo_en, ly.get("mo_ta_fr", mo_en))}</span>
         </div></div>''')
-            ly_html = (f'<div class="kick" style="margin-top:22px;">{t3("Lưu ý", "Good to know")}</div>'
+            ly_html = (f'<div class="kick" style="margin-top:22px;">{t3("Lưu ý", "Good to know", "Bon à savoir")}</div>'
                        f'<div class="note-list">{"".join(notes)}</div>')
         parts.append(f'''  <section class="alt">
-    <h2 class="sec">{t3("Đối tượng ", "Who & ")}<em>{t3("& lưu ý", "notes")}</em></h2>
+    <h2 class="sec">{t3("Đối tượng ", "Who & ", "Public & ")}<em>{t3("& lưu ý", "notes", "remarques")}</em></h2>
     {dt_html}{ly_html}
   </section>''')
 
     # NET ZERO
     if d.get("net_zero"):
+        nz_en = d.get("net_zero_en", d.get("net_zero"))
         parts.append(f'''  <section>
     <div class="netzero"><span class="ni">🌳</span><div class="nt">
-      <b>{t3("Cam kết Net Zero", "Net-Zero pledge")}</b>
-      <span>{t3(d.get("net_zero"), d.get("net_zero_en", d.get("net_zero")))}</span>
+      <b>{t3("Cam kết Net Zero", "Net-Zero pledge", "Engagement Net Zéro")}</b>
+      <span>{t3(d.get("net_zero"), nz_en, d.get("net_zero_fr", nz_en))}</span>
     </div></div>
   </section>''')
 
@@ -504,15 +540,15 @@ def render_cung(slug):
     brochure_btn = ""
     if brochure_pdf.exists():
         brochure_btn = (f'<a class="btn ghost" href="../brochure.pdf"><span class="ic">📄</span>'
-                        f'<span>{t3("Tải brochure PDF", "Download brochure PDF")}'
-                        f'<small>{t3("Chương trình chi tiết 8 trang", "8-page full programme")}</small></span></a>')
+                        f'<span>{t3("Tải brochure PDF", "Download brochure PDF", "Télécharger la brochure PDF")}'
+                        f'<small>{t3("Chương trình chi tiết 8 trang", "8-page full programme", "Programme détaillé de 8 pages")}</small></span></a>')
     parts.append(f'''  <section class="alt">
-    <div class="kick center">{t3("Bắt đầu hành trình", "Start your journey")}</div>
-    <h2 class="sec" style="text-align:center;">{t3("Đặt cung ", "Book this ")}<em>{t3("này", "route")}</em></h2>
+    <div class="kick center">{t3("Bắt đầu hành trình", "Start your journey", "Commencez votre voyage")}</div>
+    <h2 class="sec" style="text-align:center;">{t3("Đặt cung ", "Book this ", "Réserver cet ")}<em>{t3("này", "route", "itinéraire")}</em></h2>
     <div class="cta-stack">
-      <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Mở bản đồ tuyến", "Open route map")}<small>{t3("Google My Maps", "Google My Maps")}</small></span></a>
+      <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Mở bản đồ tuyến", "Open route map", "Ouvrir la carte de l'itinéraire")}<small>{t3("Google My Maps", "Google My Maps", "Google My Maps")}</small></span></a>
       {brochure_btn}
-      <a class="btn ghost" href="tel:{TEL}"><span class="ic">📞</span><span>{t3("Gọi đặt cung", "Call to book")}<small>{TEL_SHOW}</small></span></a>
+      <a class="btn ghost" href="tel:{TEL}"><span class="ic">📞</span><span>{t3("Gọi đặt cung", "Call to book", "Appeler pour réserver")}<small>{TEL_SHOW}</small></span></a>
     </div>
   </section>''')
 

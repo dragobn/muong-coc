@@ -5,14 +5,18 @@
   "theme": "nongnghiep",
   "tagline": "Đồi Hoa — Cánh Đồng Lúa Quê — Rượu Quê Đồi Lý",
   "tagline_en": "Flower Hill — Country Ricefields — Doi Ly Village Wine",
+  "tagline_fr": "Colline aux Fleurs — Rizières de Campagne — Vin du Village de Doi Ly",
   "thoi_luong": "~8 giờ (08:00 – 16:00)",
   "thoi_luong_en": "About 8 hours (08:00 – 16:00)",
+  "thoi_luong_fr": "Environ 8 heures (08:00 – 16:00)",
   "cu_ly": "~12 – 13 km",
   "quy_mo": "2 – 12 khách",
   "gia": "650.000 đ/khách (gồm bữa trưa)",
   "gia_en": "650,000 VND/guest (lunch included)",
+  "gia_fr": "650 000 VND/personne (déjeuner inclus)",
   "intro": "Hương đồng Bơ Môi là cung đạp xe dành cho người yêu đồng quê — bạn rời Nhà Văn hoá thôn Đồi Dùng, men theo những thửa ruộng lên đồi hoa Mường thôn Bơ Môi, rồi vòng từ đập đồi làng lên Rộc Éo, len giữa những cánh đồng lúa thơm ngát. Buổi chiều, bạn ghé bếp rượu quê Đồi Lý, xem cách người Mường nấu rượu thủ công và nhấp thử một chén rượu nồng nàn vị gạo quê. Đây là cung của trời rộng, gió đồng và sắc hoa — nơi nhịp sống chậm lại theo từng mùa lúa.",
   "intro_en": "Bo Moi Field Fragrance is a cycling route for those who love the countryside — you leave the Doi Dung Community House, follow the paddy terraces up to the Muong flower hill of Bo Moi hamlet, then loop from the village reservoir up to Roc Eo, threading through fragrant ricefields. In the afternoon, you visit a Doi Ly village distillery to watch the Muong make wine by hand and taste a glass rich with the flavour of local rice. This is a route of open skies, field breezes, and flowers in bloom — where the pace of life slows to the rhythm of the harvest.",
+  "intro_fr": "La Senteur des Champs de Bo Moi est un itinéraire cyclable pour les amoureux de la campagne — vous quittez la Maison Communautaire de Doi Dung, suivez les rizières en terrasses jusqu'à la colline fleurie Muong du hameau de Bo Moi, puis faites une boucle depuis le réservoir du village jusqu'à Roc Eo, traversant des rizières parfumées. L'après-midi, vous visitez une distillerie du village de Doi Ly pour observer les Muong fabriquer du vin à la main et déguster un verre riche en saveurs de riz local. C'est un itinéraire de ciels ouverts, de brises champêtres et de fleurs en éclosion — où le rythme de vie ralentit au gré des récoltes.",
   "highlights": [
     "Đồi hoa Mường thôn Bơ Môi — check-in giữa sắc hoa và trời rộng, ngắm cảnh từ đập đồi làng.",
     "Cánh đồng lúa thơm ngát — đạp xe giữa hương lúa quê lên Rộc Éo.",
@@ -27,22 +31,168 @@
     "Sow colour on the village hill — every group plants a patch of flowers for next season.",
     "Co La Muong feast lunch — a farm-to-table meal with no plastic plates."
   ],
+  "highlights_fr": [
+    "La colline fleurie Muong de Bo Moi — Prenez des photos au milieu des fleurs et sous le ciel ouvert, avec une vue depuis le réservoir du village.",
+    "Rizières parfumées — pédalez à travers l'odeur du riz de campagne jusqu'à Roc Eo.",
+    "Distillerie du village de Doi Ly — observez la fabrication artisanale du vin et dégustez un verre de vin de riz local.",
+    "Semez des couleurs sur la colline du village — chaque groupe plante une parcelle de fleurs pour la saison prochaine.",
+    "Déjeuner festif Co La Muong — un repas de la ferme à la table sans assiettes en plastique."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "08:00", "diem": "Tourism Hub Đồi Dùng", "diem_en": "Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu ngày rong ruổi giữa đồng quê.", "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a day roaming the countryside.", "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.", "luu_y_en": "Please bring your own reusable water bottle for the whole journey."},
-    {"gio_hoac_buoi": "08:30", "diem": "Đạp xe qua cánh đồng quê về thôn Bơ Môi", "diem_en": "Cycling through the fields to Bo Moi hamlet", "mo_ta": "Bạn đạp xe rời Đồi Dùng, theo con đường làng băng qua những cánh đồng quê về phía thôn Bơ Môi (~6,6 km). Dọc đường, bạn có thể dừng lại bất cứ đâu để chụp ảnh giữa khung cảnh đồng quê thanh bình, nơi trời và ruộng nối liền một dải.", "mo_ta_en": "You cycle out of Doi Dung along the village road, crossing the fields toward Bo Moi hamlet (~6.6 km). Along the way you may stop anywhere to take photos amid the peaceful countryside, where sky and ricefield merge into one.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "09:45", "diem": "Đồi hoa Mường thôn Bơ Môi & Đập đồi làng", "diem_en": "Bo Moi Muong Flower Hill & the village reservoir", "mo_ta": "Bạn lên đồi hoa Mường thôn Bơ Môi, ngắm cảnh từ đập đồi làng nhìn xuống cánh đồng và làng bản — một trong những điểm check-in đẹp và khoáng đạt nhất của vùng. Cùng người dân, bạn gieo và vun một vạt hoa trên đồi làng, để lại một chút sắc màu cho mùa sau.", "mo_ta_en": "You climb the Muong flower hill of Bo Moi hamlet and take in the view from the village reservoir, looking down over the fields and the village — one of the loveliest, most open photo spots in the region. Together with the locals, you sow and tend a patch of flowers on the hill, leaving a little colour behind for next season.", "luu_y": "Gieo sắc hoa cho đồi làng Bơ Môi — góp thêm sắc màu cho mùa hoa sau.", "luu_y_en": "Sow colour on Bo Moi village hill — add to next year's bloom."},
-    {"gio_hoac_buoi": "10:45", "diem": "Đạp xe lên Rộc Éo", "diem_en": "Cycling up to Roc Eo", "mo_ta": "Bạn đạp xe vòng quanh những cánh đồng lúa thơm ngát lên thôn Rộc Éo (~2,3 km) — gió đồng lồng lộng thổi, hương lúa chín dậy lên hai bên đường. Một quãng đạp xe khiến lòng người nhẹ tênh.", "mo_ta_en": "You cycle around the fragrant ricefields up to Roc Eo hamlet (~2.3 km) — the field wind sweeping freely, the scent of ripe rice rising on both sides of the road. A stretch of cycling that lightens the heart.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "11:30", "diem": "Cánh đồng lúa & thôn Rộc Éo", "diem_en": "Ricefields & Roc Eo hamlet", "mo_ta": "Bạn dừng chân giữa cánh đồng lúa quê, nghe người dân kể về mùa vụ, về hạt gạo quê Mường Cốc nuôi lớn bao thế hệ. Một khoảng dừng giản dị mà đậm vị đồng quê.", "mo_ta_en": "You pause amid the country ricefields, listening to the locals tell of the seasons and of the Muong Coc rice that has nourished generations. A simple pause, deep with the flavour of the countryside.", "luu_y": "Tùy chọn: ghé đồi dược liệu Rộc Éo gặp lương y bà Châm, bà Phận.", "luu_y_en": "Optional: visit the Roc Eo herb hill to meet healers Mrs Cham and Mrs Phan."},
-    {"gio_hoac_buoi": "12:15", "diem": "Bữa trưa Cỗ Lá Mường", "diem_en": "Co La Muong Feast (Lunch)", "mo_ta": "Bữa trưa được dọn tại nhà dân với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa.", "mo_ta_en": "Lunch is served at a local home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal.", "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.", "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."},
-    {"gio_hoac_buoi": "13:45", "diem": "Bếp rượu quê Đồi Lý (nhà ông Lập)", "diem_en": "Doi Ly Village Distillery (Mr Lap's home)", "mo_ta": "Trên đường về, bạn ghé nhà ông Lập — nơi vẫn giữ nghề nấu rượu quê thủ công. Bạn xem từng công đoạn ủ men và chưng cất, nghe chuyện nghề rượu qua bao đời, rồi nhấp thử một chén rượu quê Đồi Lý nồng nàn vị gạo.", "mo_ta_en": "On the way back, you stop at Mr Lap's home — where the craft of traditional rice-wine distilling lives on. You watch each step of fermenting and distilling, hear the story of a wine-making lineage, then sip a glass of Doi Ly village wine rich with the flavour of rice.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "14:45", "diem": "Đạp xe thong dong qua đồng về", "diem_en": "An easy ride home through the fields", "mo_ta": "Bạn thong dong đạp xe theo con đường đồng, dừng lại đôi lần để ngắm ánh chiều buông trên những thửa ruộng lúa. Cả không gian nhuốm một màu vàng dịu, khép lại một ngày đầy hương đồng.", "mo_ta_en": "You cycle leisurely along the field path, pausing now and then to watch the late light settle over the paddies. The whole landscape turns a soft gold, closing a day full of the fragrance of the fields.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "15:45", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to Doi Dung Tourism Hub", "mo_ta": "Bạn trả xe đạp và mũ bảo hiểm tại Nhà Văn hoá Đồi Dùng. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — chút hương đồng Bơ Môi mang theo về nhà.", "mo_ta_en": "You return your bicycle and helmet at the Doi Dung Community House. Muong Coc gives you a community-made souvenir — a little of Bo Moi's field fragrance to carry home.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "08:00",
+      "diem": "Tourism Hub Đồi Dùng",
+      "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu ngày rong ruổi giữa đồng quê.",
+      "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a day roaming the countryside.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge le long du parcours. Ensuite, vous recevez votre vélo, votre casque et votre carte de la visite pour commencer une journée à parcourir la campagne.",
+      "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
+    },
+    {
+      "gio_hoac_buoi": "08:30",
+      "diem": "Đạp xe qua cánh đồng quê về thôn Bơ Môi",
+      "diem_en": "Cycling through the fields to Bo Moi hamlet",
+      "diem_fr": "Balade à vélo à travers les champs jusqu'au hameau de Bo Moi",
+      "mo_ta": "Bạn đạp xe rời Đồi Dùng, theo con đường làng băng qua những cánh đồng quê về phía thôn Bơ Môi (~6,6 km). Dọc đường, bạn có thể dừng lại bất cứ đâu để chụp ảnh giữa khung cảnh đồng quê thanh bình, nơi trời và ruộng nối liền một dải.",
+      "mo_ta_en": "You cycle out of Doi Dung along the village road, crossing the fields toward Bo Moi hamlet (~6.6 km). Along the way you may stop anywhere to take photos amid the peaceful countryside, where sky and ricefield merge into one.",
+      "mo_ta_fr": "Vous quittez Doi Dung à vélo par la route du village, traversant les champs en direction du hameau de Bo Moi (environ 6,6 km). En chemin, vous pouvez vous arrêter n'importe où pour prendre des photos au cœur de la campagne paisible, où ciel et rizières se fondent en un seul tableau.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "09:45",
+      "diem": "Đồi hoa Mường thôn Bơ Môi & Đập đồi làng",
+      "diem_en": "Bo Moi Muong Flower Hill & the village reservoir",
+      "diem_fr": "Colline Fleurie Muong de Bo Moi & le réservoir du village",
+      "mo_ta": "Bạn lên đồi hoa Mường thôn Bơ Môi, ngắm cảnh từ đập đồi làng nhìn xuống cánh đồng và làng bản — một trong những điểm check-in đẹp và khoáng đạt nhất của vùng. Cùng người dân, bạn gieo và vun một vạt hoa trên đồi làng, để lại một chút sắc màu cho mùa sau.",
+      "mo_ta_en": "You climb the Muong flower hill of Bo Moi hamlet and take in the view from the village reservoir, looking down over the fields and the village — one of the loveliest, most open photo spots in the region. Together with the locals, you sow and tend a patch of flowers on the hill, leaving a little colour behind for next season.",
+      "mo_ta_fr": "Vous gravissez la colline fleurie Muong du hameau de Bo Moi et admirez la vue depuis le réservoir du village, dominant les champs et le village — l'un des plus beaux et des plus ouverts spots photo de la région. Avec les habitants, vous semez et entretenez un parterre de fleurs sur la colline, laissant un peu de couleur pour la saison prochaine.",
+      "luu_y": "Gieo sắc hoa cho đồi làng Bơ Môi — góp thêm sắc màu cho mùa hoa sau.",
+      "luu_y_en": "Sow colour on Bo Moi village hill — add to next year's bloom.",
+      "luu_y_fr": "Semez des couleurs sur la colline du village de Bo Moi — pour la floraison de l'année prochaine."
+    },
+    {
+      "gio_hoac_buoi": "10:45",
+      "diem": "Đạp xe lên Rộc Éo",
+      "diem_en": "Cycling up to Roc Eo",
+      "diem_fr": "Balade à vélo jusqu'à Roc Eo",
+      "mo_ta": "Bạn đạp xe vòng quanh những cánh đồng lúa thơm ngát lên thôn Rộc Éo (~2,3 km) — gió đồng lồng lộng thổi, hương lúa chín dậy lên hai bên đường. Một quãng đạp xe khiến lòng người nhẹ tênh.",
+      "mo_ta_en": "You cycle around the fragrant ricefields up to Roc Eo hamlet (~2.3 km) — the field wind sweeping freely, the scent of ripe rice rising on both sides of the road. A stretch of cycling that lightens the heart.",
+      "mo_ta_fr": "Vous faites du vélo autour des rizières parfumées jusqu'au hameau de Roc Eo (environ 2,3 km) — le vent des champs balayant librement, le parfum du riz mûr s'élevant des deux côtés de la route. Un tronçon à vélo qui allège le cœur.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "11:30",
+      "diem": "Cánh đồng lúa & thôn Rộc Éo",
+      "diem_en": "Ricefields & Roc Eo hamlet",
+      "diem_fr": "Rizières & hameau de Roc Eo",
+      "mo_ta": "Bạn dừng chân giữa cánh đồng lúa quê, nghe người dân kể về mùa vụ, về hạt gạo quê Mường Cốc nuôi lớn bao thế hệ. Một khoảng dừng giản dị mà đậm vị đồng quê.",
+      "mo_ta_en": "You pause amid the country ricefields, listening to the locals tell of the seasons and of the Muong Coc rice that has nourished generations. A simple pause, deep with the flavour of the countryside.",
+      "mo_ta_fr": "Vous faites une pause au milieu des rizières de campagne, écoutant les habitants raconter les saisons et le riz de Muong Coc qui a nourri des générations. Une pause simple, imprégnée de la saveur de la campagne.",
+      "luu_y": "Tùy chọn: ghé đồi dược liệu Rộc Éo gặp lương y bà Châm, bà Phận.",
+      "luu_y_en": "Optional: visit the Roc Eo herb hill to meet healers Mrs Cham and Mrs Phan.",
+      "luu_y_fr": "En option : visitez la colline aux herbes de Roc Eo pour rencontrer les guérisseuses Mme Cham et Mme Phan."
+    },
+    {
+      "gio_hoac_buoi": "12:15",
+      "diem": "Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Co La Muong Feast (Lunch)",
+      "diem_fr": "Festin Co La Muong (Déjeuner)",
+      "mo_ta": "Bữa trưa được dọn tại nhà dân với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa.",
+      "mo_ta_en": "Lunch is served at a local home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal.",
+      "mo_ta_fr": "Le déjeuner est servi chez l'habitant sous forme de festin Co La Muong — dressé sur de fraîches feuilles de bananier, sans une seule assiette en plastique. Les ingrédients sont 100% locaux, la plupart récoltés ce matin même — un véritable repas de la ferme à la table.",
+      "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle.",
+      "luu_y_fr": "Feuilles de bananier en guise d'assiettes · ingrédients locaux · remplissez votre propre gourde."
+    },
+    {
+      "gio_hoac_buoi": "13:45",
+      "diem": "Bếp rượu quê Đồi Lý (nhà ông Lập)",
+      "diem_en": "Doi Ly Village Distillery (Mr Lap's home)",
+      "diem_fr": "Distillerie du village de Doi Ly (chez M. Lap)",
+      "mo_ta": "Trên đường về, bạn ghé nhà ông Lập — nơi vẫn giữ nghề nấu rượu quê thủ công. Bạn xem từng công đoạn ủ men và chưng cất, nghe chuyện nghề rượu qua bao đời, rồi nhấp thử một chén rượu quê Đồi Lý nồng nàn vị gạo.",
+      "mo_ta_en": "On the way back, you stop at Mr Lap's home — where the craft of traditional rice-wine distilling lives on. You watch each step of fermenting and distilling, hear the story of a wine-making lineage, then sip a glass of Doi Ly village wine rich with the flavour of rice.",
+      "mo_ta_fr": "Sur le chemin du retour, vous vous arrêtez chez M. Lap — où l'art de la distillation traditionnelle du vin de riz perdure. Vous observez chaque étape de la fermentation et de la distillation, écoutez l'histoire d'une lignée de vignerons, puis sirotez un verre de vin du village de Doi Ly, riche en saveur de riz.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "14:45",
+      "diem": "Đạp xe thong dong qua đồng về",
+      "diem_en": "An easy ride home through the fields",
+      "diem_fr": "Un retour en douceur à travers les champs",
+      "mo_ta": "Bạn thong dong đạp xe theo con đường đồng, dừng lại đôi lần để ngắm ánh chiều buông trên những thửa ruộng lúa. Cả không gian nhuốm một màu vàng dịu, khép lại một ngày đầy hương đồng.",
+      "mo_ta_en": "You cycle leisurely along the field path, pausing now and then to watch the late light settle over the paddies. The whole landscape turns a soft gold, closing a day full of the fragrance of the fields.",
+      "mo_ta_fr": "Vous pédalez tranquillement le long du chemin des champs, vous arrêtant de temps en temps pour observer la lumière du soir se poser sur les rizières. Tout le paysage se pare d'un or doux, clôturant une journée empreinte du parfum des champs.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "15:45",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
+      "mo_ta": "Bạn trả xe đạp và mũ bảo hiểm tại Nhà Văn hoá Đồi Dùng. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — chút hương đồng Bơ Môi mang theo về nhà.",
+      "mo_ta_en": "You return your bicycle and helmet at the Doi Dung Community House. Muong Coc gives you a community-made souvenir — a little of Bo Moi's field fragrance to carry home.",
+      "mo_ta_fr": "Vous restituez votre vélo et votre casque à la Maison Communautaire Doi Dung. Muong Coc vous offre un souvenir artisanal — un peu du parfum des champs de Bo Moi à emporter chez vous.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Đồi hoa Mường thôn Bơ Môi", "ten_en": "Bo Moi Muong Flower Hill", "loai": "Cảnh quan · Đồi hoa", "loai_en": "Landscape · Flower hill", "mo_ta_ngan": "Đồi hoa khoáng đạt nhìn xuống cánh đồng và làng bản, một trong những điểm check-in đẹp nhất vùng. Bạn ngắm cảnh từ đập đồi làng giữa sắc hoa và trời rộng. Đây cũng là nơi bạn gieo một vạt hoa cho mùa sau.", "mo_ta_ngan_en": "An open flower hill overlooking the fields and village, one of the region's loveliest photo spots. You take in the view from the village reservoir amid blooms and wide skies. It is also where you sow a patch of flowers for next season."},
-    {"ten": "Cánh đồng lúa Rộc Éo", "ten_en": "Roc Eo Ricefields", "loai": "Cảnh quan nông nghiệp", "loai_en": "Agricultural landscape", "mo_ta_ngan": "Những cánh đồng lúa thơm ngát trải dài, gió đồng lồng lộng. Bạn đạp xe giữa hương lúa chín và dừng chân nghe chuyện mùa vụ. Một lát cắt thật của đời sống nông nghiệp Mường Cốc.", "mo_ta_ngan_en": "Fragrant ricefields stretching out under a sweeping field wind. You cycle through the scent of ripening rice and pause to hear of the seasons. A real slice of Muong Coc's farming life."},
-    {"ten": "Bếp rượu quê Đồi Lý (nhà ông Lập)", "ten_en": "Doi Ly Village Distillery (Mr Lap's home)", "loai": "Trải nghiệm nghề", "loai_en": "Craft experience", "mo_ta_ngan": "Bếp rượu giữ nghề nấu rượu quê thủ công của người Mường. Bạn xem từng công đoạn ủ men, chưng cất và nghe chuyện nghề qua bao đời. Khép lại bằng một chén rượu quê Đồi Lý nồng nàn vị gạo.", "mo_ta_ngan_en": "A distillery keeping the Muong craft of traditional rice wine. You watch each step of fermenting and distilling and hear a lineage's story. It closes with a glass of Doi Ly wine rich with the taste of rice."},
-    {"ten": "Đồi dược liệu Rộc Éo", "ten_en": "Roc Eo Herb Hill", "loai": "Di sản tri thức (tùy chọn)", "loai_en": "Living knowledge heritage (optional)", "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam gia truyền Mường. Một điểm dừng tùy chọn để hiểu thêm về tri thức cây thuốc bản địa. Bạn có thể được chỉ tận tay từng loại lá.", "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong family tradition of southern medicine. An optional stop to learn more about local herbal wisdom. You may be shown each leaf by hand."}
+    {
+      "ten": "Đồi hoa Mường thôn Bơ Môi",
+      "ten_en": "Bo Moi Muong Flower Hill",
+      "ten_fr": "Colline Fleurie Muong de Bo Moi",
+      "loai": "Cảnh quan · Đồi hoa",
+      "loai_en": "Landscape · Flower hill",
+      "loai_fr": "Paysage · Colline fleurie",
+      "mo_ta_ngan": "Đồi hoa khoáng đạt nhìn xuống cánh đồng và làng bản, một trong những điểm check-in đẹp nhất vùng. Bạn ngắm cảnh từ đập đồi làng giữa sắc hoa và trời rộng. Đây cũng là nơi bạn gieo một vạt hoa cho mùa sau.",
+      "mo_ta_ngan_en": "An open flower hill overlooking the fields and village, one of the region's loveliest photo spots. You take in the view from the village reservoir amid blooms and wide skies. It is also where you sow a patch of flowers for next season.",
+      "mo_ta_ngan_fr": "Une colline fleurie ouverte surplombant les champs et le village, l'un des plus beaux endroits pour prendre des photos de la région. Vous admirez la vue depuis le réservoir du village au milieu des fleurs et des vastes cieux. C'est aussi là que vous semez un parterre de fleurs pour la saison prochaine."
+    },
+    {
+      "ten": "Cánh đồng lúa Rộc Éo",
+      "ten_en": "Roc Eo Ricefields",
+      "ten_fr": "Rizières de Roc Eo",
+      "loai": "Cảnh quan nông nghiệp",
+      "loai_en": "Agricultural landscape",
+      "loai_fr": "Paysage agricole",
+      "mo_ta_ngan": "Những cánh đồng lúa thơm ngát trải dài, gió đồng lồng lộng. Bạn đạp xe giữa hương lúa chín và dừng chân nghe chuyện mùa vụ. Một lát cắt thật của đời sống nông nghiệp Mường Cốc.",
+      "mo_ta_ngan_en": "Fragrant ricefields stretching out under a sweeping field wind. You cycle through the scent of ripening rice and pause to hear of the seasons. A real slice of Muong Coc's farming life.",
+      "mo_ta_ngan_fr": "Rizières parfumées s'étendant sous le vent des champs. Pédalez à travers l'odeur du riz mûrissant et faites une pause pour écouter le récit des saisons. Une véritable immersion dans la vie agricole de Muong Coc."
+    },
+    {
+      "ten": "Bếp rượu quê Đồi Lý (nhà ông Lập)",
+      "ten_en": "Doi Ly Village Distillery (Mr Lap's home)",
+      "ten_fr": "Distillerie du village de Doi Ly (chez M. Lap)",
+      "loai": "Trải nghiệm nghề",
+      "loai_en": "Craft experience",
+      "loai_fr": "Expérience artisanale",
+      "mo_ta_ngan": "Bếp rượu giữ nghề nấu rượu quê thủ công của người Mường. Bạn xem từng công đoạn ủ men, chưng cất và nghe chuyện nghề qua bao đời. Khép lại bằng một chén rượu quê Đồi Lý nồng nàn vị gạo.",
+      "mo_ta_ngan_en": "A distillery keeping the Muong craft of traditional rice wine. You watch each step of fermenting and distilling and hear a lineage's story. It closes with a glass of Doi Ly wine rich with the taste of rice.",
+      "mo_ta_ngan_fr": "Une distillerie perpétuant l'art Muong du vin de riz traditionnel. Vous observez chaque étape de la fermentation et de la distillation et entendez l'histoire d'une lignée. Le voyage se termine par un verre de vin Doi Ly, riche du goût du riz."
+    },
+    {
+      "ten": "Đồi dược liệu Rộc Éo",
+      "ten_en": "Roc Eo Herb Hill",
+      "ten_fr": "Colline aux herbes de Roc Eo",
+      "loai": "Di sản tri thức (tùy chọn)",
+      "loai_en": "Living knowledge heritage (optional)",
+      "loai_fr": "Patrimoine de savoirs vivants (optionnel)",
+      "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam gia truyền Mường. Một điểm dừng tùy chọn để hiểu thêm về tri thức cây thuốc bản địa. Bạn có thể được chỉ tận tay từng loại lá.",
+      "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong family tradition of southern medicine. An optional stop to learn more about local herbal wisdom. You may be shown each leaf by hand.",
+      "mo_ta_ngan_fr": "Une colline aux herbes où les guérisseuses Mme Cham et Mme Phan perpétuent la tradition familiale Muong de la médecine du sud. Une halte facultative pour en apprendre davantage sur la sagesse herboriste locale. Chaque feuille pourra vous être montrée à la main."
+    }
   ],
   "bao_gom": [
     "Xe đạp và mũ bảo hiểm tiêu chuẩn",
@@ -62,6 +212,15 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Vélo standard et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -76,28 +235,139 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
-    {"ten": "Hái sen & làm trà sen", "ten_en": "Lotus picking & lotus-tea making", "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)", "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)"},
-    {"ten": "Gặp lương y cây thuốc Mường", "ten_en": "Meet a Muong herbal healer", "mo_ta": "Trò chuyện cùng bà Châm, bà Phận tại đồi dược liệu Rộc Éo (đặt lịch trước)", "mo_ta_en": "Talk with Mrs Cham and Mrs Phan on the Roc Eo herb hill (book in advance)"},
-    {"ten": "Mặc trang phục Mường + photo session", "ten_en": "Muong costume + photo session", "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh", "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash"},
-    {"ten": "Đưa đón Hà Nội ↔ Mường Cốc", "ten_en": "Hanoi ↔ Muong Coc transfer", "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ", "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"}
+    {
+      "ten": "Hái sen & làm trà sen",
+      "ten_en": "Lotus picking & lotus-tea making",
+      "ten_fr": "Cueillette de lotus et préparation du thé au lotus",
+      "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)",
+      "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)",
+      "mo_ta_fr": "Avec la famille Niem Nga (miel d'An Phu · thé au lotus)"
+    },
+    {
+      "ten": "Gặp lương y cây thuốc Mường",
+      "ten_en": "Meet a Muong herbal healer",
+      "ten_fr": "Rencontrez un guérisseur herboriste Muong",
+      "mo_ta": "Trò chuyện cùng bà Châm, bà Phận tại đồi dược liệu Rộc Éo (đặt lịch trước)",
+      "mo_ta_en": "Talk with Mrs Cham and Mrs Phan on the Roc Eo herb hill (book in advance)",
+      "mo_ta_fr": "Discutez avec Mme Cham et Mme Phan sur la colline aux herbes de Roc Eo (réservez à l'avance)"
+    },
+    {
+      "ten": "Mặc trang phục Mường + photo session",
+      "ten_en": "Muong costume + photo session",
+      "ten_fr": "Costume Muong + séance photo",
+      "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh",
+      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash",
+      "mo_ta_fr": "Blouse pan jaune/blanche, jupe à ourlet brodé de fleurs, ceinture verte"
+    },
+    {
+      "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
+      "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
+      "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
+    }
   ],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người yêu đồng quê", "nhom_en": "Lovers of the countryside", "mo_ta": "Thích nhiếp ảnh cảnh quan.", "mo_ta_en": "Fond of landscape photography."},
-    {"nhom": "Gia đình", "nhom_en": "Families", "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).", "mo_ta_en": "Families with children aged 10 and up (able to cycle)."},
-    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "Groups of 2–12 people."},
-    {"nhom": "Học sinh — sinh viên", "nhom_en": "Students", "mo_ta": "Trải nghiệm đời sống nông nghiệp.", "mo_ta_en": "Experiencing farming life."},
-    {"nhom": "Người yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Yêu không gian khoáng đạt.", "mo_ta_en": "Drawn to wide, open spaces."}
+    {
+      "nhom": "Người yêu đồng quê",
+      "nhom_en": "Lovers of the countryside",
+      "nhom_fr": "Amoureux de la campagne",
+      "mo_ta": "Thích nhiếp ảnh cảnh quan.",
+      "mo_ta_en": "Fond of landscape photography.",
+      "mo_ta_fr": "Amateurs de photographie de paysages."
+    },
+    {
+      "nhom": "Gia đình",
+      "nhom_en": "Families",
+      "nhom_fr": "Familles",
+      "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).",
+      "mo_ta_en": "Families with children aged 10 and up (able to cycle).",
+      "mo_ta_fr": "Familles avec enfants de 10 ans et plus (aptes à faire du vélo)."
+    },
+    {
+      "nhom": "Nhóm bạn nhỏ",
+      "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "Groups of 2–12 people.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes."
+    },
+    {
+      "nhom": "Học sinh — sinh viên",
+      "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
+      "mo_ta": "Trải nghiệm đời sống nông nghiệp.",
+      "mo_ta_en": "Experiencing farming life.",
+      "mo_ta_fr": "Découverte de la vie agricole."
+    },
+    {
+      "nhom": "Người yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
+      "mo_ta": "Yêu không gian khoáng đạt.",
+      "mo_ta_en": "Drawn to wide, open spaces.",
+      "mo_ta_fr": "Attiré par les grands espaces ouverts."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Thời tiết xấu / mưa lớn", "tieu_de_en": "Bad weather / heavy rain", "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, hoặc dời lịch.", "mo_ta_en": "Backup plan — swap bicycles for local electric carts, or reschedule."},
-    {"tieu_de": "Đường đồng trống nắng", "tieu_de_en": "Open, sunny field roads", "mo_ta": "Nên mang mũ rộng vành, kem chống nắng; ưu tiên khởi hành sớm.", "mo_ta_en": "Bring a wide-brimmed hat and sunscreen; an early start is best."},
-    {"tieu_de": "Sức khoẻ", "tieu_de_en": "Fitness", "mo_ta": "Đạp xe khoảng 12 — 13 km (có dốc nhẹ lên đồi làng), cấp độ dễ — vừa phải. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.", "mo_ta_en": "Cycling of about 12–13 km (with a gentle climb to the village hill), easy to moderate. Children under 10 should ride along in a local electric cart."},
-    {"tieu_de": "Tiếp nước", "tieu_de_en": "Staying hydrated", "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.", "mo_ta_en": "Please bring your own reusable water bottle."},
-    {"tieu_de": "Tôn trọng ruộng đồng", "tieu_de_en": "Respect for the fields", "mo_ta": "Không xả rác, không giẫm lên lúa trên các thửa ruộng của người dân.", "mo_ta_en": "No littering, and do not trample the rice in the villagers' paddies."}
+    {
+      "tieu_de": "Thời tiết xấu / mưa lớn",
+      "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
+      "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, hoặc dời lịch.",
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts, or reschedule.",
+      "mo_ta_fr": "Plan B — échangez les vélos contre des voiturettes électriques locales, ou reportez."
+    },
+    {
+      "tieu_de": "Đường đồng trống nắng",
+      "tieu_de_en": "Open, sunny field roads",
+      "tieu_de_fr": "Chemins de campagne ouverts et ensoleillés",
+      "mo_ta": "Nên mang mũ rộng vành, kem chống nắng; ưu tiên khởi hành sớm.",
+      "mo_ta_en": "Bring a wide-brimmed hat and sunscreen; an early start is best.",
+      "mo_ta_fr": "Apportez un chapeau à larges bords et de la crème solaire ; un départ matinal est préférable."
+    },
+    {
+      "tieu_de": "Sức khoẻ",
+      "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
+      "mo_ta": "Đạp xe khoảng 12 — 13 km (có dốc nhẹ lên đồi làng), cấp độ dễ — vừa phải. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
+      "mo_ta_en": "Cycling of about 12–13 km (with a gentle climb to the village hill), easy to moderate. Children under 10 should ride along in a local electric cart.",
+      "mo_ta_fr": "Balade à vélo d'environ 12-13 km (avec une légère montée vers la colline du village), niveau facile à modéré. Les enfants de moins de 10 ans doivent être accompagnés dans une voiturette électrique locale."
+    },
+    {
+      "tieu_de": "Tiếp nước",
+      "tieu_de_en": "Staying hydrated",
+      "tieu_de_fr": "Rester hydraté",
+      "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.",
+      "mo_ta_en": "Please bring your own reusable water bottle.",
+      "mo_ta_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable."
+    },
+    {
+      "tieu_de": "Tôn trọng ruộng đồng",
+      "tieu_de_en": "Respect for the fields",
+      "tieu_de_fr": "Respect des champs",
+      "mo_ta": "Không xả rác, không giẫm lên lúa trên các thửa ruộng của người dân.",
+      "mo_ta_en": "No littering, and do not trample the rice in the villagers' paddies.",
+      "mo_ta_fr": "Ne pas jeter de déchets et ne pas piétiner le riz dans les rizières des villageois."
+    }
   ],
   "net_zero": "Gieo sắc hoa cho đồi làng Bơ Môi",
   "net_zero_en": "Sow colour on the Bo Moi village hill",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Semez des couleurs sur la colline du village de Bo Moi",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

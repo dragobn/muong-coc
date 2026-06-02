@@ -2,19 +2,25 @@
   "slug": "tour-kn-chua-huong",
   "ten": "Hà Nội · Chùa Hương · Mường Cốc",
   "ten_en": "Hanoi · Perfume Pagoda · Muong Coc",
+  "ten_fr": "Hanoi · Pagode des Parfums · Muong Coc",
   "loai": "tour",
   "theme": "ketnoi",
   "tagline": "Chiêm Bái — Bản Mường — Một Ngày Trọn Vẹn Mỹ Đức",
   "tagline_en": "Pilgrimage — Muong Village — A Full Day in My Duc",
+  "tagline_fr": "Pèlerinage — Village Muong — Une Journée Complète à My Duc",
   "thoi_luong": "1 ngày",
   "thoi_luong_en": "1 day",
+  "thoi_luong_fr": "1 jour",
   "cu_ly": "Tổng di chuyển dưới 100 km",
   "cu_ly_en": "Total travel under 100 km",
+  "cu_ly_fr": "Trajet total de moins de 100 km",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the coordination board for a quote",
+  "gia_fr": "Contactez le conseil de coordination pour un devis",
   "intro": "Chùa Hương và Mường Cốc cùng nằm trên đất Mỹ Đức — cách nhau chỉ khoảng 15 – 20 phút lái xe — có thể ghép trọn vẹn trong một ngày mà không vội. Buổi sáng, bạn vãn cảnh Chùa Hương, nơi suối Yến uốn lượn dưới những vách núi đá vôi. Buổi trưa, bạn trở về Mường Cốc ngồi bên mâm Cỗ Lá Mường. Buổi chiều, bạn đạp xe qua vườn sim và men theo bờ hồ Baibóo. Một ngày, hai thế giới, cùng trên một vùng đất.",
   "intro_en": "The Perfume Pagoda and Muong Coc both lie in My Duc — only about 15–20 minutes apart by car — and can be paired comfortably in a single unhurried day. In the morning, you take in the Perfume Pagoda, where the Yen Stream winds beneath limestone cliffs. At midday, you return to Muong Coc to sit before a Co La Muong feast. In the afternoon, you cycle past the myrtle garden and along the shore of Baiboo Lake. One day, two worlds, on the same land.",
+  "intro_fr": "La Pagode des Parfums et Muong Coc se trouvent toutes deux à My Duc — à seulement 15-20 minutes en voiture l'une de l'autre — et peuvent être combinées confortablement en une seule journée sans hâte. Le matin, vous visitez la Pagode des Parfums, où le Ruisseau Yen serpente sous des falaises calcaires. À midi, vous retournez à Muong Coc pour vous asseoir devant un festin Co La Muong. L'après-midi, vous pédalez devant le jardin de myrtes et le long des rives du lac Baiboo. Une journée, deux mondes, sur la même terre.",
   "highlights": [
     "Tâm linh + cộng đồng trong một ngày — chiêm bái Chùa Hương buổi sáng, sống chậm bản Mường buổi chiều.",
     "Cùng vùng đất Mỹ Đức — Chùa Hương và Mường Cốc chỉ cách nhau 15 – 20 phút, trọn vẹn trong ngày.",
@@ -31,17 +37,109 @@
     "Summer lotus marsh (June–August) — picking lotus amid fragrant blooms, if you come in season.",
     "A green-travel commitment — the \"5 Nos\", refill stations, zero plastic."
   ],
+  "highlights_fr": [
+    "Spiritualité + communauté en une journée — un pèlerinage à la Pagode des Parfums le matin, la vie paisible du village Muong l'après-midi.",
+    "La même terre de My Duc — la Pagode des Parfums et Muong Coc ne sont qu'à 15-20 minutes l'une de l'autre, à découvrir en une journée.",
+    "Bateaux-dragons sur le Ruisseau Yen — paysages calcaires magnifiques et un espace spirituel profond et propice à la réflexion.",
+    "Un festin Co La Muong de la ferme à la table — un déjeuner authentique, zéro plastique, avec des ingrédients entièrement locaux.",
+    "Marais de lotus estival (juin–août) — cueillette de lotus au milieu des fleurs parfumées, si vous venez en saison.",
+    "Un engagement pour un voyage éco-responsable — les « 5 Non », les stations de recharge, zéro plastique."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "Sáng", "diem": "Hà Nội → Chùa Hương (Hương Sơn, Mỹ Đức)", "diem_en": "Morning: Hanoi → the Perfume Pagoda (Huong Son, My Duc)", "mo_ta": "Xe xuất phát từ Hà Nội sáng sớm, đến bến Đục. Bạn lên thuyền dọc suối Yến giữa hai hàng núi đá vôi xanh rì, chiêm bái Đền Trình, Chùa Thiên Trù và Động Hương Tích — Nam thiên đệ nhất động. Một buổi sáng vừa tĩnh tại vừa kỳ vĩ.", "mo_ta_en": "The vehicle leaves Hanoi at dawn for Duc Wharf. You board a boat along the Yen Stream between green limestone ridges, paying respects at Trinh Temple, Thien Tru Pagoda, and Huong Tich Cave — \"the first grotto under the southern sky.\" A morning at once serene and magnificent.", "luu_y": "Chùa Hương có thể đông khách vào mùa lễ hội (tháng Giêng – tháng Ba âm lịch). Ngoài mùa, không gian yên tĩnh hơn.", "luu_y_en": "The Perfume Pagoda can be crowded in the festival season (first to third lunar months). Outside that time it is quieter."},
-    {"gio_hoac_buoi": "Trưa", "diem": "Mường Cốc — Bữa trưa Cỗ Lá Mường", "diem_en": "Midday: Muong Coc — Co La Muong lunch", "mo_ta": "Xe đưa bạn thẳng về Tourism Hub Đồi Dùng, cách Chùa Hương khoảng 15 phút. Hướng dẫn viên bản địa người Mường mời bạn ly trà thảo dược. Mâm Cỗ Lá Mường bày trên lá chuối tươi, nguyên liệu 100% địa phương, không đĩa nhựa.", "mo_ta_en": "The vehicle takes you straight to the Doi Dung Tourism Hub, about 15 minutes from the Perfume Pagoda. A local Muong guide offers you a cup of herbal tea. The Co La Muong feast is laid on fresh banana leaves, ingredients 100% local, no plastic plates.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Chiều", "diem": "Trải nghiệm bản Mường", "diem_en": "Afternoon: The Muong village experience", "mo_ta": "Bạn dành buổi chiều khám phá Mường Cốc theo nhịp chậm: đạp xe bản Mường, Hồ Baibóo (đi bè tre, khoác trang phục Mường), đồi hoa và vườn sim (hái sim, rượu sim OCOP), đầm sen theo mùa (tháng 6 – 8 — hái sen, ướp trà sen). Một buổi chiều dịu dàng đối lập hẳn với buổi sáng tâm linh.", "mo_ta_en": "You spend the afternoon exploring Muong Coc at a slow pace: cycling through the village, Baiboo Lake (bamboo rafting, Muong dress), the flower hill and myrtle garden (picking myrtle, OCOP myrtle wine), and the seasonal lotus marsh (June–August — picking lotus, scenting tea). A gentle afternoon, the perfect counterpoint to the spiritual morning.", "luu_y": "Văn nghệ cộng đồng và Mo Mường có thể bổ sung theo yêu cầu đặt trước.", "luu_y_en": "Community performance and the Mo Muong ritual can be added by advance request."},
-    {"gio_hoac_buoi": "Chiều muộn", "diem": "Trở về Hà Nội", "diem_en": "Late afternoon: Return to Hanoi", "mo_ta": "Xe đưa bạn trở về Hà Nội. Một ngày, hai thế giới — chiều sâu tín ngưỡng và đời sống bản địa, cùng trên một vùng đất Mỹ Đức.", "mo_ta_en": "The vehicle returns you to Hanoi. One day, two worlds — the depth of faith and the life of a local village, on the same My Duc land.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "Sáng",
+      "diem": "Hà Nội → Chùa Hương (Hương Sơn, Mỹ Đức)",
+      "diem_en": "Morning: Hanoi → the Perfume Pagoda (Huong Son, My Duc)",
+      "diem_fr": "Matin : Hanoi → la Pagode des Parfums (Huong Son, My Duc)",
+      "mo_ta": "Xe xuất phát từ Hà Nội sáng sớm, đến bến Đục. Bạn lên thuyền dọc suối Yến giữa hai hàng núi đá vôi xanh rì, chiêm bái Đền Trình, Chùa Thiên Trù và Động Hương Tích — Nam thiên đệ nhất động. Một buổi sáng vừa tĩnh tại vừa kỳ vĩ.",
+      "mo_ta_en": "The vehicle leaves Hanoi at dawn for Duc Wharf. You board a boat along the Yen Stream between green limestone ridges, paying respects at Trinh Temple, Thien Tru Pagoda, and Huong Tich Cave — \"the first grotto under the southern sky.\" A morning at once serene and magnificent.",
+      "mo_ta_fr": "Le véhicule quitte Hanoi à l'aube pour le quai de Duc. Vous embarquez sur un bateau le long du ruisseau Yen entre des crêtes calcaires verdoyantes, rendant hommage au temple Trinh, à la pagode Thien Tru et à la grotte Huong Tich — « la première grotte sous le ciel du sud ». Une matinée à la fois sereine et magnifique.",
+      "luu_y": "Chùa Hương có thể đông khách vào mùa lễ hội (tháng Giêng – tháng Ba âm lịch). Ngoài mùa, không gian yên tĩnh hơn.",
+      "luu_y_en": "The Perfume Pagoda can be crowded in the festival season (first to third lunar months). Outside that time it is quieter.",
+      "luu_y_fr": "La Pagode des Parfums peut être bondée pendant la saison des festivals (du premier au troisième mois lunaire). En dehors de cette période, elle est plus calme."
+    },
+    {
+      "gio_hoac_buoi": "Trưa",
+      "diem": "Mường Cốc — Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Midday: Muong Coc — Co La Muong lunch",
+      "diem_fr": "Midi : Muong Coc — déjeuner Co La Muong",
+      "mo_ta": "Xe đưa bạn thẳng về Tourism Hub Đồi Dùng, cách Chùa Hương khoảng 15 phút. Hướng dẫn viên bản địa người Mường mời bạn ly trà thảo dược. Mâm Cỗ Lá Mường bày trên lá chuối tươi, nguyên liệu 100% địa phương, không đĩa nhựa.",
+      "mo_ta_en": "The vehicle takes you straight to the Doi Dung Tourism Hub, about 15 minutes from the Perfume Pagoda. A local Muong guide offers you a cup of herbal tea. The Co La Muong feast is laid on fresh banana leaves, ingredients 100% local, no plastic plates.",
+      "mo_ta_fr": "Le véhicule vous emmène directement au Doi Dung Tourism Hub, à environ 15 minutes de la Pagode des Parfums. Un guide Muong local vous offre une tasse de tisane. Le festin Co La Muong est servi sur des feuilles de bananier fraîches, avec des ingrédients 100% locaux, sans assiettes en plastique.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Chiều",
+      "diem": "Trải nghiệm bản Mường",
+      "diem_en": "Afternoon: The Muong village experience",
+      "diem_fr": "Après-midi : L'expérience du village Muong.",
+      "mo_ta": "Bạn dành buổi chiều khám phá Mường Cốc theo nhịp chậm: đạp xe bản Mường, Hồ Baibóo (đi bè tre, khoác trang phục Mường), đồi hoa và vườn sim (hái sim, rượu sim OCOP), đầm sen theo mùa (tháng 6 – 8 — hái sen, ướp trà sen). Một buổi chiều dịu dàng đối lập hẳn với buổi sáng tâm linh.",
+      "mo_ta_en": "You spend the afternoon exploring Muong Coc at a slow pace: cycling through the village, Baiboo Lake (bamboo rafting, Muong dress), the flower hill and myrtle garden (picking myrtle, OCOP myrtle wine), and the seasonal lotus marsh (June–August — picking lotus, scenting tea). A gentle afternoon, the perfect counterpoint to the spiritual morning.",
+      "mo_ta_fr": "Vous passez l'après-midi à explorer Muong Coc à un rythme lent : à vélo à travers le village, le lac Baiboo (rafting en bambou, tenue Muong), la colline fleurie et le jardin de myrtes (cueillette de myrtes, vin de myrte OCOP), et le marais de lotus saisonnier (juin-août — cueillette de lotus, thé parfumé). Un après-midi doux, le contrepoint parfait à la matinée spirituelle.",
+      "luu_y": "Văn nghệ cộng đồng và Mo Mường có thể bổ sung theo yêu cầu đặt trước.",
+      "luu_y_en": "Community performance and the Mo Muong ritual can be added by advance request.",
+      "luu_y_fr": "Une performance communautaire et le rituel Mo Muong peuvent être ajoutés sur demande préalable."
+    },
+    {
+      "gio_hoac_buoi": "Chiều muộn",
+      "diem": "Trở về Hà Nội",
+      "diem_en": "Late afternoon: Return to Hanoi",
+      "diem_fr": "Fin d'après-midi : Retour à Hanoi",
+      "mo_ta": "Xe đưa bạn trở về Hà Nội. Một ngày, hai thế giới — chiều sâu tín ngưỡng và đời sống bản địa, cùng trên một vùng đất Mỹ Đức.",
+      "mo_ta_en": "The vehicle returns you to Hanoi. One day, two worlds — the depth of faith and the life of a local village, on the same My Duc land.",
+      "mo_ta_fr": "Le véhicule vous ramène à Hanoi. Une journée, deux mondes — la profondeur de la foi et la vie d'un village local, sur la même terre de My Duc.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Suối Yến & Chùa Hương", "ten_en": "Yen Stream & the Perfume Pagoda", "loai": "Danh thắng tâm linh", "loai_en": "Spiritual landmark", "mo_ta_ngan": "Suối Yến uốn lượn dưới những vách núi đá vôi xanh rì, dẫn tới Đền Trình, Chùa Thiên Trù và Động Hương Tích. Động được tôn là Nam thiên đệ nhất động. Một quần thể tâm linh vừa tĩnh tại vừa kỳ vĩ.", "mo_ta_ngan_en": "The Yen Stream winds beneath green limestone cliffs to Trinh Temple, Thien Tru Pagoda, and Huong Tich Cave. The cave is revered as \"the first grotto under the southern sky.\" A spiritual complex at once serene and magnificent."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích giữa đất Mường. Bạn khoác trang phục Mường lưu hình và đi bè tre ra giữa mặt nước. Mặt hồ phẳng lặng, gió mát rượi.", "mo_ta_ngan_en": "A jade-green ecological balancing lake at the heart of the Muong land. You wear Muong dress for photos and raft out onto the water. The lake is calm, the breeze cool."},
-    {"ten": "Đồi hoa & Vườn sim", "ten_en": "Flower Hill & Myrtle Garden", "loai": "Cảnh quan · Sản vật OCOP", "loai_en": "Landscape · OCOP product", "mo_ta_ngan": "Đồi hoa rực rỡ và vườn sim cổ chăm bằng tay. Bạn tự hái những quả sim tím mọng dưới nắng. Khép lại bằng ly rượu sim OCOP ngọt thơm ủ từ nắng gió vườn nhà.", "mo_ta_ngan_en": "A vivid flower hill and an old myrtle garden tended by hand. You pick the plump, sun-ripened purple berries yourself. It closes with a glass of fragrant OCOP myrtle wine fermented from the garden's sun and wind."},
-    {"ten": "Đầm sen", "ten_en": "Lotus Marsh", "loai": "Trải nghiệm theo mùa", "loai_en": "Seasonal experience", "mo_ta_ngan": "Đầm sen thơm ngát đẹp nhất vào mùa hè (tháng 6 – 8). Bạn hái sen và học cách ướp trà sen công phu. Một trải nghiệm văn hoá sen dịu dàng nếu đi đúng mùa.", "mo_ta_ngan_en": "A fragrant lotus marsh at its finest in summer (June–August). You pick lotus and learn the careful craft of scenting tea. A gentle lotus-culture experience if you come in season."}
+    {
+      "ten": "Suối Yến & Chùa Hương",
+      "ten_en": "Yen Stream & the Perfume Pagoda",
+      "ten_fr": "Ruisseau Yen et la Pagode des Parfums",
+      "loai": "Danh thắng tâm linh",
+      "loai_en": "Spiritual landmark",
+      "loai_fr": "Repère spirituel",
+      "mo_ta_ngan": "Suối Yến uốn lượn dưới những vách núi đá vôi xanh rì, dẫn tới Đền Trình, Chùa Thiên Trù và Động Hương Tích. Động được tôn là Nam thiên đệ nhất động. Một quần thể tâm linh vừa tĩnh tại vừa kỳ vĩ.",
+      "mo_ta_ngan_en": "The Yen Stream winds beneath green limestone cliffs to Trinh Temple, Thien Tru Pagoda, and Huong Tich Cave. The cave is revered as \"the first grotto under the southern sky.\" A spiritual complex at once serene and magnificent.",
+      "mo_ta_ngan_fr": "Le Ruisseau Yen serpente sous des falaises calcaires verdoyantes jusqu'au Temple Trinh, à la Pagode Thien Tru et à la Grotte Huong Tich. La grotte est vénérée comme « la première grotte sous le ciel du sud ». Un complexe spirituel à la fois serein et magnifique."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích giữa đất Mường. Bạn khoác trang phục Mường lưu hình và đi bè tre ra giữa mặt nước. Mặt hồ phẳng lặng, gió mát rượi.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake at the heart of the Muong land. You wear Muong dress for photos and raft out onto the water. The lake is calm, the breeze cool.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade au cœur du pays Muong. Vous portez la tenue Muong pour des photos et vous aventurez sur l'eau en radeau. Le lac est calme, la brise fraîche."
+    },
+    {
+      "ten": "Đồi hoa & Vườn sim",
+      "ten_en": "Flower Hill & Myrtle Garden",
+      "ten_fr": "Colline aux Fleurs & Jardin de Myrtes",
+      "loai": "Cảnh quan · Sản vật OCOP",
+      "loai_en": "Landscape · OCOP product",
+      "loai_fr": "Paysage · Produit OCOP",
+      "mo_ta_ngan": "Đồi hoa rực rỡ và vườn sim cổ chăm bằng tay. Bạn tự hái những quả sim tím mọng dưới nắng. Khép lại bằng ly rượu sim OCOP ngọt thơm ủ từ nắng gió vườn nhà.",
+      "mo_ta_ngan_en": "A vivid flower hill and an old myrtle garden tended by hand. You pick the plump, sun-ripened purple berries yourself. It closes with a glass of fragrant OCOP myrtle wine fermented from the garden's sun and wind.",
+      "mo_ta_ngan_fr": "Une colline fleurie éclatante et un ancien jardin de myrtes entretenu à la main. Vous cueillez vous-même les baies violettes charnues et mûries au soleil. La visite se termine par un verre de vin de myrte OCOP parfumé, fermenté par le soleil et le vent du jardin."
+    },
+    {
+      "ten": "Đầm sen",
+      "ten_en": "Lotus Marsh",
+      "ten_fr": "Marais aux lotus",
+      "loai": "Trải nghiệm theo mùa",
+      "loai_en": "Seasonal experience",
+      "loai_fr": "Expérience saisonnière",
+      "mo_ta_ngan": "Đầm sen thơm ngát đẹp nhất vào mùa hè (tháng 6 – 8). Bạn hái sen và học cách ướp trà sen công phu. Một trải nghiệm văn hoá sen dịu dàng nếu đi đúng mùa.",
+      "mo_ta_ngan_en": "A fragrant lotus marsh at its finest in summer (June–August). You pick lotus and learn the careful craft of scenting tea. A gentle lotus-culture experience if you come in season.",
+      "mo_ta_ngan_fr": "Un marais de lotus parfumé à son apogée en été (juin-août). Vous cueillez des lotus et apprenez l'art délicat de parfumer le thé. Une douce immersion dans la culture du lotus si vous venez en saison."
+    }
   ],
   "bao_gom": [
     "Xe đưa đón và di chuyển giữa các điểm theo lộ trình (Hà Nội → Chùa Hương → Mường Cốc → Hà Nội)",
@@ -61,6 +159,15 @@
     "Drinking water and cool towels throughout the journey",
     "Comprehensive travel insurance"
   ],
+  "bao_gom_fr": [
+    "Transferts et transport entre les sites le long de l'itinéraire (Hanoi → Pagode des Parfums → Muong Coc → Hanoi)",
+    "Un guide ; le segment Muong Coc est mené par un guide local.",
+    "Billets de bateau pour le ruisseau Yen et entrée au complexe de la Pagode des Parfums selon le programme",
+    "Vélo et casque à Muong Coc",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -73,21 +180,89 @@
     "Personal offerings and incense at the Perfume Pagoda",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Offrandes personnelles et encens à la Pagode des Parfums",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Khách kết hợp tâm linh", "nhom_en": "Travellers combining a pilgrimage", "mo_ta": "Tâm linh và trải nghiệm cộng đồng.", "mo_ta_en": "With a community experience alongside the spiritual one."},
-    {"nhom": "Gia đình", "nhom_en": "Families", "mo_ta": "Cho con cái thấy cả chiều sâu tín ngưỡng lẫn đời sống bản địa trong một ngày.", "mo_ta_en": "To show children both the depth of faith and local life in one day."},
-    {"nhom": "Nhóm bạn", "nhom_en": "Groups of friends", "mo_ta": "Tìm hành trình đa chiều, không chỉ đơn thuần là lễ chùa.", "mo_ta_en": "Seeking a multi-faceted journey, not just a temple visit."},
-    {"nhom": "Khách slow travel", "nhom_en": "Slow travellers", "mo_ta": "Muốn khám phá vùng đất Mỹ Đức toàn diện.", "mo_ta_en": "Wishing to explore the My Duc land in full."},
-    {"nhom": "Đoàn trong ngày từ Hà Nội", "nhom_en": "Day groups from Hanoi", "mo_ta": "Cự ly tổng dưới 100 km, thoải mái về ngay.", "mo_ta_en": "A total under 100 km, comfortable to return the same day."}
+    {
+      "nhom": "Khách kết hợp tâm linh",
+      "nhom_en": "Travellers combining a pilgrimage",
+      "nhom_fr": "Voyageurs combinant un pèlerinage",
+      "mo_ta": "Tâm linh và trải nghiệm cộng đồng.",
+      "mo_ta_en": "With a community experience alongside the spiritual one.",
+      "mo_ta_fr": "Avec une expérience communautaire en parallèle de l'expérience spirituelle."
+    },
+    {
+      "nhom": "Gia đình",
+      "nhom_en": "Families",
+      "nhom_fr": "Familles",
+      "mo_ta": "Cho con cái thấy cả chiều sâu tín ngưỡng lẫn đời sống bản địa trong một ngày.",
+      "mo_ta_en": "To show children both the depth of faith and local life in one day.",
+      "mo_ta_fr": "Pour faire découvrir aux enfants la profondeur de la foi et la vie locale en une seule journée."
+    },
+    {
+      "nhom": "Nhóm bạn",
+      "nhom_en": "Groups of friends",
+      "nhom_fr": "Groupes d'amis",
+      "mo_ta": "Tìm hành trình đa chiều, không chỉ đơn thuần là lễ chùa.",
+      "mo_ta_en": "Seeking a multi-faceted journey, not just a temple visit.",
+      "mo_ta_fr": "À la recherche d'un voyage aux multiples facettes, pas seulement une visite de temple."
+    },
+    {
+      "nhom": "Khách slow travel",
+      "nhom_en": "Slow travellers",
+      "nhom_fr": "Voyageurs lents",
+      "mo_ta": "Muốn khám phá vùng đất Mỹ Đức toàn diện.",
+      "mo_ta_en": "Wishing to explore the My Duc land in full.",
+      "mo_ta_fr": "Désireux d'explorer pleinement la terre de My Duc."
+    },
+    {
+      "nhom": "Đoàn trong ngày từ Hà Nội",
+      "nhom_en": "Day groups from Hanoi",
+      "nhom_fr": "Groupes à la journée depuis Hanoi",
+      "mo_ta": "Cự ly tổng dưới 100 km, thoải mái về ngay.",
+      "mo_ta_en": "A total under 100 km, comfortable to return the same day.",
+      "mo_ta_fr": "Un total de moins de 100 km, confortable pour un retour le même jour."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Mùa lễ hội Chùa Hương", "tieu_de_en": "The Perfume Pagoda festival season", "mo_ta": "Có thể đông khách tháng Giêng – tháng Ba âm lịch; ngoài mùa yên tĩnh hơn, phù hợp vãn cảnh chậm rãi.", "mo_ta_en": "It can be crowded in the first to third lunar months; outside that season it is quieter and better suited to unhurried sightseeing."},
-    {"tieu_de": "Văn nghệ & Mo Mường", "tieu_de_en": "Performance & the Mo Muong ritual", "mo_ta": "Có thể bổ sung theo yêu cầu đặt trước.", "mo_ta_en": "Can be added by advance request."},
-    {"tieu_de": "Báo giá", "tieu_de_en": "Pricing", "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách và mùa.", "mo_ta_en": "The itinerary, services, and detailed price are quoted by the coordination board according to group size and season."}
+    {
+      "tieu_de": "Mùa lễ hội Chùa Hương",
+      "tieu_de_en": "The Perfume Pagoda festival season",
+      "tieu_de_fr": "La saison des festivals de la Pagode des Parfums",
+      "mo_ta": "Có thể đông khách tháng Giêng – tháng Ba âm lịch; ngoài mùa yên tĩnh hơn, phù hợp vãn cảnh chậm rãi.",
+      "mo_ta_en": "It can be crowded in the first to third lunar months; outside that season it is quieter and better suited to unhurried sightseeing.",
+      "mo_ta_fr": "Il peut y avoir foule du premier au troisième mois lunaire ; en dehors de cette période, c'est plus calme et plus propice à une visite sereine."
+    },
+    {
+      "tieu_de": "Văn nghệ & Mo Mường",
+      "tieu_de_en": "Performance & the Mo Muong ritual",
+      "tieu_de_fr": "Spectacle et le rituel Mo Muong",
+      "mo_ta": "Có thể bổ sung theo yêu cầu đặt trước.",
+      "mo_ta_en": "Can be added by advance request.",
+      "mo_ta_fr": "Peut être ajouté sur demande préalable."
+    },
+    {
+      "tieu_de": "Báo giá",
+      "tieu_de_en": "Pricing",
+      "tieu_de_fr": "Tarifs",
+      "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách và mùa.",
+      "mo_ta_en": "The itinerary, services, and detailed price are quoted by the coordination board according to group size and season.",
+      "mo_ta_fr": "L'itinéraire, les services et le prix détaillé sont communiqués par le conseil de coordination en fonction de la taille du groupe et de la saison."
+    }
   ],
   "net_zero": "Cam kết 5 KHÔNG và mạng lưới Refill Station, bữa Cỗ Lá zero plastic tại Mường Cốc",
   "net_zero_en": "The \"5 Nos\" commitment and the refill-station network, with a zero-plastic Co La feast at Muong Coc",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "L'engagement « 5 Non » et le réseau de stations de recharge, avec un festin Co La zéro plastique à Muong Coc",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

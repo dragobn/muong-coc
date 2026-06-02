@@ -2,18 +2,23 @@
   "slug": "tour-2n-thien-nhien",
   "ten": "Mường Cốc — Hai ngày giữ lửa bản Mường (Phương án A: Thiên nhiên & nhà nông)",
   "ten_en": "Muong Coc — Two Days Keeping the Village Fire (Option A: Nature & Farm Life)",
+  "ten_fr": "Muong Coc — Deux Jours à Entretenir la Flamme du Village (Option A : Nature et Vie Agricole)",
   "loai": "tour",
   "theme": "nongnghiep",
   "tagline": "Hai ngày sống giữa bản Mường",
   "tagline_en": "Two days living in a Muong village",
+  "tagline_fr": "Deux jours de vie dans un village Muong",
   "thoi_luong": "02 ngày 01 đêm",
   "thoi_luong_en": "2 days, 1 night",
+  "thoi_luong_fr": "2 jours, 1 nuit",
   "cu_ly": "",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the coordination board for a quote",
+  "gia_fr": "Contactez le conseil de coordination pour un devis",
   "intro": "Mường Cốc — Hai ngày giữ lửa bản Mường mở rộng trọn vẹn trải nghiệm một ngày, thêm một đêm lưu lại giữa bản. Ngày đầu, bạn đi qua thiên nhiên trù phú — hồ Baibóo, thung lũng Thung Cánh, đền chùa cổ và nhà thờ kiến trúc Pháp — rồi về homestay khi hoàng hôn buông. Đêm xuống, bên ánh lửa trại, bạn nghe hát ca Mường, Mo Mường và thư giãn với chậu ngâm chân lá thuốc. Ngày hai là hành trình tâm linh và sông nước, khép lại bằng những dấu ấn cổ kính khó quên.",
   "intro_en": "Muong Coc — Two Days Keeping the Village Fire fully extends the one-day experience with an extra night spent in the village. On day one, you pass through lush nature — Baiboo Lake, the Thung Canh valley, ancient temples and pagodas, and a French-style church — then return to your homestay as the sun sets. At nightfall, by the campfire, you hear Muong songs and the Mo Muong chants and soak your feet in a basin of medicinal leaves. Day two is a journey of spirit and water, closing with unforgettable touches of the ancient past.",
+  "intro_fr": "Muong Coc — Deux Jours à Entretenir la Flamme du Village prolonge pleinement l'expérience d'une journée avec une nuit supplémentaire passée au village. Le premier jour, vous traversez une nature luxuriante — le lac Baiboo, la vallée de Thung Canh, des temples et pagodes anciens, et une église de style français — puis retournez à votre homestay au coucher du soleil. À la tombée de la nuit, autour du feu de camp, vous écoutez des chants Muong et les incantations Mo Muong et trempez vos pieds dans un bain de feuilles médicinales. Le deuxième jour est un voyage d'esprit et d'eau, se terminant par des touches inoubliables du passé ancestral.",
   "highlights": [
     "Thiên nhiên trù phú — hồ Baibóo ngọc bích, Thung Cánh hoang sơ, Con đường Tràm 800 m xanh mát.",
     "Trồng cây Net Zero — gieo mầm xanh tại Thung Cánh, nhận Chứng nhận trồng cây.",
@@ -30,25 +35,201 @@
     "Community homestay stay — live to the breath of the Muong people, falling asleep to the sound of the lake at night.",
     "A spiritual journey on day two — Dinh Long Pagoda, Tien Pagoda (stalactites), and Thuong Thien Mother Temple (four Nguyen edicts)."
   ],
+  "highlights_fr": [
+    "Nature luxuriante — le lac Baiboo vert jade, la vallée immaculée de Thung Canh et la fraîche Allée des Cajeputiers de 800 m.",
+    "Plantation d'arbres Net-Zero — plantez une pousse à Thung Canh et recevez un certificat de plantation.",
+    "Soirée feu de camp — performance Muong, chants anciens et chants Mo Muong dans le village, à la lueur vacillante du feu.",
+    "Bain de pieds aux herbes Muong — une relaxation selon la sagesse locale après une longue journée.",
+    "Séjour en famille d'accueil communautaire — vivez au rythme du peuple Muong, en vous endormant au son du lac la nuit.",
+    "Un voyage spirituel le deuxième jour — Pagode Dinh Long, Pagode Tien (stalactites) et Temple-mère Thuong Thien (quatre édits Nguyen)."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "Ngày 1 — Sáng", "diem": "Đón khách & Chùa Phú Cốc, Đền Cây Thợi", "diem_en": "Day 1 — Morning: Welcome & Phu Coc Pagoda, Cay Thoi Temple", "mo_ta": "Hướng dẫn viên người Mường đón bạn tại Tourism Hub Đồi Dùng bằng ly trà thảo dược. Bạn thăm Chùa Phú Cốc với cây đa hơn 400 năm tuổi và Đền Cây Thợi (Nhị vị Thánh Mẫu, sắc Khải Định 1924, cây thị một gốc ba loại quả).", "mo_ta_en": "Your Muong guide welcomes you at the Doi Dung Tourism Hub with a cup of herbal tea. You visit Phu Coc Pagoda with its banyan over 400 years old and Cay Thoi Temple (the Two Holy Mothers, a Khai Dinh edict of 1924, a persimmon bearing three kinds of fruit on one trunk).", "luu_y": "Hãy mang theo bình nước cá nhân.", "luu_y_en": "Please bring your own reusable water bottle."},
-    {"gio_hoac_buoi": "Ngày 1 — Trưa", "diem": "Hồ Baibóo & Bữa trưa Cỗ Lá Mường", "diem_en": "Day 1 — Midday: Baiboo Lake & Co La Muong lunch", "mo_ta": "Hồ điều hoà sinh thái ngọc bích, đường vòng 4 km. Bạn ngắm cảnh, khoác trang phục Mường, đi bè tre và ghé homestay ven hồ. Bữa trưa Cỗ Lá Mường trên lá chuối, 100% nguyên liệu địa phương, cùng văn nghệ truyền thống cộng đồng.", "mo_ta_en": "A jade-green ecological balancing lake about 4 km around. You take in the view, wear Muong dress, raft out, and visit a lakeside homestay. Lunch is a Co La Muong feast on banana leaves, 100% local ingredients, with a community performance.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Chiều", "diem": "Thung Cánh & Nhà thờ Bắc Sơn", "diem_en": "Day 1 — Afternoon: Thung Canh valley & Bac Son Church", "mo_ta": "Bạn vào thung lũng hoang sơ, trồng một cây nhỏ làm kỷ niệm và nhận Chứng nhận trồng cây. Sau đó ghé Nhà thờ Giáo xứ Bắc Sơn kiến trúc Pháp cổ, toạ trên đồi cao nhìn ra sông Thanh Hà.", "mo_ta_en": "You enter the pristine valley, plant a small keepsake tree, and receive a tree-planting certificate. Then you visit Bac Son Parish Church in old French architecture, high on a hill overlooking the Thanh Ha River.", "luu_y": "Tùy chọn theo cung đường: Vườn Sim Cổ và Rượu Sim.", "luu_y_en": "Optional along the route: the Old Myrtle Garden and myrtle wine."},
-    {"gio_hoac_buoi": "Ngày 1 — Chiều muộn", "diem": "Nhận phòng homestay", "diem_en": "Day 1 — Late afternoon: Homestay check-in", "mo_ta": "Bạn nhận phòng tại homestay cộng đồng ven hồ Baibóo, nghỉ ngơi và dạo bản lúc hoàng hôn buông trên mặt nước. Một buổi chiều êm để thật sự chạm vào nhịp sống của bản.", "mo_ta_en": "You check in at a community homestay by Baiboo Lake, rest, and wander the village as the sun sets over the water. A calm evening to truly touch the village's rhythm.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Tối", "diem": "Đêm lửa trại bản Mường", "diem_en": "Day 1 — Evening: Muong village campfire", "mo_ta": "Bên ánh lửa bập bùng, bạn thưởng thức chương trình văn nghệ Mường (cồng chiêng, hát đối, hát thường rang), lắng nghe nghệ nhân thực hiện Mo Mường và thư giãn với chậu ngâm chân lá thuốc Mường (ngải cứu, sả, gừng). Bạn nghỉ đêm tại homestay cộng đồng.", "mo_ta_en": "By the flickering fire, you enjoy a Muong performance (gongs, call-and-response singing, thuong rang songs), listen to an artisan perform the Mo Muong chants, and relax with a basin of Muong medicinal leaves (mugwort, lemongrass, ginger). You spend the night at the community homestay.", "luu_y": "Mo Mường buổi tối cần đặt lịch trước với Ban điều phối và nghệ nhân.", "luu_y_en": "The evening Mo Muong must be booked in advance with the coordination board and the artisan."},
-    {"gio_hoac_buoi": "Ngày 2 — Sáng", "diem": "Vườn Sim Cổ, Chùa Đinh Long & Con đường Tràm", "diem_en": "Day 2 — Morning: Old Myrtle Garden, Dinh Long Pagoda & the Cajuput Lane", "mo_ta": "Bạn thăm vườn sim cổ, thưởng thức và mua rượu sim OCOP. Tiếp đó chiêm bái Chùa Đinh Long (dấu vua Đinh Bộ Lĩnh, dấu ấn kháng chiến) và đi qua Con đường Tràm 800 m khép tán xanh mát.", "mo_ta_en": "You visit the old myrtle garden, tasting and buying OCOP myrtle wine. Then you pay respects at Dinh Long Pagoda (marked by King Dinh Bo Linh and the resistance years) and pass through the cool, canopied 800 m Cajuput Lane.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 2 — Trưa", "diem": "Chùa Tiên & Đền Mẫu Thượng Thiên", "diem_en": "Day 2 — Midday: Tien Pagoda & Thuong Thien Mother Temple", "mo_ta": "Chùa Tiên (thôn Ái Nàng) phát hiện năm 1958, với nhũ đá thiên nhiên hoang sơ giữa rừng núi. Đền Mẫu Thượng Thiên toạ trên núi Đền, thờ Mẫu Quế Anh phu nhân, giữ bốn đạo sắc Nguyễn từ Tự Đức đến Khải Định.", "mo_ta_en": "Tien Pagoda (Ai Nang hamlet), discovered in 1958, with wild natural stalactites amid the forested mountains. Thuong Thien Mother Temple sits on Den Mountain, honouring Lady Que Anh and holding four Nguyen edicts from Tu Duc to Khai Dinh.", "luu_y": "Tùy chọn: chèo thuyền ngắm cảnh sông; ghé Bản Mộc Mường Cốc; nhà cổ Hữu Lệnh.", "luu_y_en": "Optional: a river boat ride; a visit to Ban Moc Muong Coc; the Huu Lenh heritage house."},
-    {"gio_hoac_buoi": "Ngày 2 — Chiều", "diem": "Trở về", "diem_en": "Day 2 — Afternoon: Return", "mo_ta": "Bạn chia tay bản Mường, khép lại hành trình hai ngày đầy đặn với ký ức về núi đồi, lửa trại và những con người hiếu khách.", "mo_ta_en": "You bid farewell to the Muong village, closing a full two-day journey with memories of hills, campfire, and warmly hospitable people.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "Ngày 1 — Sáng",
+      "diem": "Đón khách & Chùa Phú Cốc, Đền Cây Thợi",
+      "diem_en": "Day 1 — Morning: Welcome & Phu Coc Pagoda, Cay Thoi Temple",
+      "diem_fr": "Jour 1 — Matin : Accueil & Pagode Phu Coc, Temple Cay Thoi",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn tại Tourism Hub Đồi Dùng bằng ly trà thảo dược. Bạn thăm Chùa Phú Cốc với cây đa hơn 400 năm tuổi và Đền Cây Thợi (Nhị vị Thánh Mẫu, sắc Khải Định 1924, cây thị một gốc ba loại quả).",
+      "mo_ta_en": "Your Muong guide welcomes you at the Doi Dung Tourism Hub with a cup of herbal tea. You visit Phu Coc Pagoda with its banyan over 400 years old and Cay Thoi Temple (the Two Holy Mothers, a Khai Dinh edict of 1924, a persimmon bearing three kinds of fruit on one trunk).",
+      "mo_ta_fr": "Votre guide Muong vous accueille au Doi Dung Tourism Hub avec une tasse de tisane. Vous visitez la pagode Phu Coc avec son banian de plus de 400 ans et le temple Cay Thoi (les Deux Saintes Mères, un édit de Khai Dinh de 1924, un plaqueminier portant trois sortes de fruits sur un même tronc).",
+      "luu_y": "Hãy mang theo bình nước cá nhân.",
+      "luu_y_en": "Please bring your own reusable water bottle.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable."
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Trưa",
+      "diem": "Hồ Baibóo & Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Day 1 — Midday: Baiboo Lake & Co La Muong lunch",
+      "diem_fr": "Jour 1 — Midi : Lac Baiboo & déjeuner Co La Muong",
+      "mo_ta": "Hồ điều hoà sinh thái ngọc bích, đường vòng 4 km. Bạn ngắm cảnh, khoác trang phục Mường, đi bè tre và ghé homestay ven hồ. Bữa trưa Cỗ Lá Mường trên lá chuối, 100% nguyên liệu địa phương, cùng văn nghệ truyền thống cộng đồng.",
+      "mo_ta_en": "A jade-green ecological balancing lake about 4 km around. You take in the view, wear Muong dress, raft out, and visit a lakeside homestay. Lunch is a Co La Muong feast on banana leaves, 100% local ingredients, with a community performance.",
+      "mo_ta_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence. Vous admirez la vue, portez la tenue Muong, vous aventurez en radeau et visitez un séjour chez l'habitant au bord du lac. Le déjeuner est un festin Co La Muong sur feuilles de bananier, 100% ingrédients locaux, avec une performance communautaire.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Chiều",
+      "diem": "Thung Cánh & Nhà thờ Bắc Sơn",
+      "diem_en": "Day 1 — Afternoon: Thung Canh valley & Bac Son Church",
+      "diem_fr": "Jour 1 — Après-midi : Vallée de Thung Canh & l'Église de Bac Son",
+      "mo_ta": "Bạn vào thung lũng hoang sơ, trồng một cây nhỏ làm kỷ niệm và nhận Chứng nhận trồng cây. Sau đó ghé Nhà thờ Giáo xứ Bắc Sơn kiến trúc Pháp cổ, toạ trên đồi cao nhìn ra sông Thanh Hà.",
+      "mo_ta_en": "You enter the pristine valley, plant a small keepsake tree, and receive a tree-planting certificate. Then you visit Bac Son Parish Church in old French architecture, high on a hill overlooking the Thanh Ha River.",
+      "mo_ta_fr": "Vous entrez dans la vallée immaculée, plantez un petit arbre souvenir et recevez un certificat de plantation d'arbre. Ensuite, vous visitez l'église paroissiale de Bac Son, à l'ancienne architecture française, perchée sur une colline surplombant la rivière Thanh Ha.",
+      "luu_y": "Tùy chọn theo cung đường: Vườn Sim Cổ và Rượu Sim.",
+      "luu_y_en": "Optional along the route: the Old Myrtle Garden and myrtle wine.",
+      "luu_y_fr": "En option le long de la route : le Vieux Jardin de Myrtes et le vin de myrte."
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Chiều muộn",
+      "diem": "Nhận phòng homestay",
+      "diem_en": "Day 1 — Late afternoon: Homestay check-in",
+      "diem_fr": "Jour 1 — Fin d'après-midi : Installation au homestay",
+      "mo_ta": "Bạn nhận phòng tại homestay cộng đồng ven hồ Baibóo, nghỉ ngơi và dạo bản lúc hoàng hôn buông trên mặt nước. Một buổi chiều êm để thật sự chạm vào nhịp sống của bản.",
+      "mo_ta_en": "You check in at a community homestay by Baiboo Lake, rest, and wander the village as the sun sets over the water. A calm evening to truly touch the village's rhythm.",
+      "mo_ta_fr": "Vous vous enregistrez dans un hébergement chez l'habitant communautaire au bord du lac Baiboo, vous reposez et vous promenez dans le village au coucher du soleil sur l'eau. Une soirée calme pour vraiment ressentir le rythme du village.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Tối",
+      "diem": "Đêm lửa trại bản Mường",
+      "diem_en": "Day 1 — Evening: Muong village campfire",
+      "diem_fr": "Jour 1 — Soirée : Feu de camp du village Muong",
+      "mo_ta": "Bên ánh lửa bập bùng, bạn thưởng thức chương trình văn nghệ Mường (cồng chiêng, hát đối, hát thường rang), lắng nghe nghệ nhân thực hiện Mo Mường và thư giãn với chậu ngâm chân lá thuốc Mường (ngải cứu, sả, gừng). Bạn nghỉ đêm tại homestay cộng đồng.",
+      "mo_ta_en": "By the flickering fire, you enjoy a Muong performance (gongs, call-and-response singing, thuong rang songs), listen to an artisan perform the Mo Muong chants, and relax with a basin of Muong medicinal leaves (mugwort, lemongrass, ginger). You spend the night at the community homestay.",
+      "mo_ta_fr": "Au coin du feu vacillant, vous assistez à une performance Muong (gongs, chants responsoriaux, chants thuong rang), écoutez un artisan interpréter les chants Mo Muong et vous détendez avec un bain de feuilles médicinales Muong (armoise, citronnelle, gingembre). Vous passez la nuit au homestay communautaire.",
+      "luu_y": "Mo Mường buổi tối cần đặt lịch trước với Ban điều phối và nghệ nhân.",
+      "luu_y_en": "The evening Mo Muong must be booked in advance with the coordination board and the artisan.",
+      "luu_y_fr": "Le Mo Muong du soir doit être réservé à l'avance auprès du comité de coordination et de l'artisan."
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Sáng",
+      "diem": "Vườn Sim Cổ, Chùa Đinh Long & Con đường Tràm",
+      "diem_en": "Day 2 — Morning: Old Myrtle Garden, Dinh Long Pagoda & the Cajuput Lane",
+      "diem_fr": "Jour 2 — Matin : Ancien Jardin de Myrte, Pagode Dinh Long & l'Allée des Cajeputs",
+      "mo_ta": "Bạn thăm vườn sim cổ, thưởng thức và mua rượu sim OCOP. Tiếp đó chiêm bái Chùa Đinh Long (dấu vua Đinh Bộ Lĩnh, dấu ấn kháng chiến) và đi qua Con đường Tràm 800 m khép tán xanh mát.",
+      "mo_ta_en": "You visit the old myrtle garden, tasting and buying OCOP myrtle wine. Then you pay respects at Dinh Long Pagoda (marked by King Dinh Bo Linh and the resistance years) and pass through the cool, canopied 800 m Cajuput Lane.",
+      "mo_ta_fr": "Vous visitez l'ancien jardin de myrtes, dégustez et achetez du vin de myrte OCOP. Ensuite, vous rendez hommage à la pagode Dinh Long (marquée par le roi Dinh Bo Linh et les années de résistance) et traversez la fraîche allée de cajeput de 800 m, ombragée par la canopée.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Trưa",
+      "diem": "Chùa Tiên & Đền Mẫu Thượng Thiên",
+      "diem_en": "Day 2 — Midday: Tien Pagoda & Thuong Thien Mother Temple",
+      "diem_fr": "Jour 2 — Midi : Pagode Tien & Temple de la Mère Thuong Thien",
+      "mo_ta": "Chùa Tiên (thôn Ái Nàng) phát hiện năm 1958, với nhũ đá thiên nhiên hoang sơ giữa rừng núi. Đền Mẫu Thượng Thiên toạ trên núi Đền, thờ Mẫu Quế Anh phu nhân, giữ bốn đạo sắc Nguyễn từ Tự Đức đến Khải Định.",
+      "mo_ta_en": "Tien Pagoda (Ai Nang hamlet), discovered in 1958, with wild natural stalactites amid the forested mountains. Thuong Thien Mother Temple sits on Den Mountain, honouring Lady Que Anh and holding four Nguyen edicts from Tu Duc to Khai Dinh.",
+      "mo_ta_fr": "La pagode Tien (hameau d'Ai Nang), découverte en 1958, abrite des stalactites naturelles sauvages au cœur des montagnes boisées. Le temple de la Mère Thuong Thien se dresse sur le mont Den, honorant Dame Que Anh et conservant quatre édits Nguyen de Tu Duc à Khai Dinh.",
+      "luu_y": "Tùy chọn: chèo thuyền ngắm cảnh sông; ghé Bản Mộc Mường Cốc; nhà cổ Hữu Lệnh.",
+      "luu_y_en": "Optional: a river boat ride; a visit to Ban Moc Muong Coc; the Huu Lenh heritage house.",
+      "luu_y_fr": "En option : une promenade en bateau sur la rivière ; une visite à Ban Moc Muong Coc ; la maison du patrimoine Huu Lenh."
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Chiều",
+      "diem": "Trở về",
+      "diem_en": "Day 2 — Afternoon: Return",
+      "diem_fr": "Jour 2 — Après-midi : Retour",
+      "mo_ta": "Bạn chia tay bản Mường, khép lại hành trình hai ngày đầy đặn với ký ức về núi đồi, lửa trại và những con người hiếu khách.",
+      "mo_ta_en": "You bid farewell to the Muong village, closing a full two-day journey with memories of hills, campfire, and warmly hospitable people.",
+      "mo_ta_fr": "Vous faites vos adieux au village Muong, achevant un voyage de deux jours riche en souvenirs de collines, de feux de camp et de rencontres chaleureuses.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió với cây đa cổ thụ hơn 400 năm tuổi. Điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Một khoảng lặng tĩnh tại mở đầu hai ngày hành trình.", "mo_ta_ngan_en": "An ancient hilltop pagoda with a banyan over 400 years old. The spiritual anchor of the six villages of the Phu Coc area. A serene pause to open the two-day journey."},
-    {"ten": "Đền Cây Thợi & Cây Thị 400 năm", "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc Khải Định 1924. Bên đền là cây thị hơn 400 năm, một gốc cho ba loại quả. Một kỳ tích thiên nhiên của đất Mường.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old bearing three kinds of fruit on one trunk. A natural wonder of the Muong land."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, đường vòng hồ chừng 4 km. Bạn khoác trang phục Mường lưu hình và đi bè tre ra giữa mặt nước. Ven hồ là các homestay cộng đồng để lưu trú qua đêm.", "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You wear Muong dress for photos and raft out onto the water. Community homestays line the shore for the overnight stay."},
-    {"ten": "Thung Cánh", "ten_en": "Thung Canh valley", "loai": "Thiên nhiên · Net-Zero", "loai_en": "Nature · Net-Zero", "mo_ta_ngan": "Thung lũng hoang sơ giữa lòng Mường Cốc, không gian xanh mát và tĩnh lặng. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm. Bạn nhận Chứng nhận trồng cây để mang hành trình về nhà.", "mo_ta_ngan_en": "A pristine valley at the heart of Muong Coc, cool, green, and still. Each guest plants a small keepsake tree. You receive a tree-planting certificate to carry the journey home."},
-    {"ten": "Nhà thờ Giáo xứ Bắc Sơn", "ten_en": "Bac Son Parish Church", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Thánh đường kiến trúc Pháp cổ thanh thoát, mái nhà tâm linh của hơn 1.800 giáo dân thôn Thanh Hà. Nhà thờ toạ trên đồi cao nhìn ra sông Thanh Hà. Khởi nguồn nhà nguyện 1958, định hình 2008, nâng hàng Giáo xứ 2021.", "mo_ta_ngan_en": "A church in graceful old French architecture, the spiritual home of over 1,800 parishioners of Thanh Ha hamlet. It sits high on a hill overlooking the Thanh Ha River. Begun as a chapel in 1958, shaped in 2008, raised to a parish in 2021."},
-    {"ten": "Chùa Đinh Long", "ten_en": "Dinh Long Pagoda", "loai": "Di tích", "loai_en": "Heritage site", "mo_ta_ngan": "Ngôi chùa cổ in dấu vua Đinh Bộ Lĩnh, tương truyền dựng khi dẹp loạn 12 sứ quân. Chùa còn mang dấu ấn kháng chiến — từng làm kho thóc, nơi in tài liệu, xưởng công binh. Lịch sử nghìn năm và cận đại cùng đọng dưới một mái chùa.", "mo_ta_ngan_en": "An ancient pagoda marked by King Dinh Bo Linh, said to date from his campaign against the Twelve Warlords. It bears resistance-era traces — once a grain store, a printing site, an army workshop. A thousand years and the recent past beneath one roof."},
-    {"ten": "Chùa Tiên", "ten_en": "Tien Pagoda", "loai": "Di tích · Cảnh quan", "loai_en": "Heritage · Landscape", "mo_ta_ngan": "Ngôi chùa phát hiện năm 1958 với hệ nhũ đá thiên nhiên hoang sơ. Chùa nằm giữa rừng núi tĩnh lặng, mang vẻ huyền bí khác lạ. Một điểm dừng kết hợp tâm linh và cảnh quan đá vôi.", "mo_ta_ngan_en": "A pagoda discovered in 1958 with wild natural stalactites. It sits amid quiet forested mountains, carrying an unusual air of mystery. A stop blending spirituality with limestone scenery."},
-    {"ten": "Đền Mẫu Thượng Thiên (Đền Ái Nàng)", "ten_en": "Thuong Thien Mother Temple (Ai Nang Temple)", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền Mẫu bên sông, toạ trên núi Đền, lưng tựa núi mặt nhìn ra nước. Thờ Mẫu Quế Anh phu nhân cùng Tam toà Thánh Mẫu, giữ bốn đạo sắc triều Nguyễn. Một không gian linh thiêng soi bóng dòng sông.", "mo_ta_ngan_en": "A riverside Mother temple on Den Mountain, its back to the hill and its face to the water. It honours Lady Que Anh and the Three Palaces of the Mother Goddesses and holds four Nguyen-dynasty edicts. A sacred space mirrored in the river."}
+    {
+      "ten": "Chùa Phú Cốc",
+      "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió với cây đa cổ thụ hơn 400 năm tuổi. Điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Một khoảng lặng tĩnh tại mở đầu hai ngày hành trình.",
+      "mo_ta_ngan_en": "An ancient hilltop pagoda with a banyan over 400 years old. The spiritual anchor of the six villages of the Phu Coc area. A serene pause to open the two-day journey.",
+      "mo_ta_ngan_fr": "Une ancienne pagode perchée sur une colline avec un banyan de plus de 400 ans. L'ancre spirituelle des six villages de la région de Phu Coc. Une pause sereine pour ouvrir le voyage de deux jours."
+    },
+    {
+      "ten": "Đền Cây Thợi & Cây Thị 400 năm",
+      "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree",
+      "ten_fr": "Temple Cay Thoi & le Plaqueminier quadricentenaire",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc Khải Định 1924. Bên đền là cây thị hơn 400 năm, một gốc cho ba loại quả. Một kỳ tích thiên nhiên của đất Mường.",
+      "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old bearing three kinds of fruit on one trunk. A natural wonder of the Muong land.",
+      "mo_ta_ngan_fr": "Un temple dédié aux Deux Saintes Mères Tu Quang et Tu Minh, lié à la légende du Marais des Deux Dames et à un édit de Khai Dinh de 1924. À côté se dresse un plaqueminier de plus de 400 ans portant trois sortes de fruits sur un même tronc. Une merveille naturelle de la terre Muong."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, đường vòng hồ chừng 4 km. Bạn khoác trang phục Mường lưu hình và đi bè tre ra giữa mặt nước. Ven hồ là các homestay cộng đồng để lưu trú qua đêm.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You wear Muong dress for photos and raft out onto the water. Community homestays line the shore for the overnight stay.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence. Vous portez la tenue Muong pour des photos et vous aventurez sur l'eau en radeau. Des séjours chez l'habitant bordent la rive pour la nuit."
+    },
+    {
+      "ten": "Thung Cánh",
+      "ten_en": "Thung Canh valley",
+      "ten_fr": "La vallée de Thung Canh",
+      "loai": "Thiên nhiên · Net-Zero",
+      "loai_en": "Nature · Net-Zero",
+      "loai_fr": "Nature · Net-Zero",
+      "mo_ta_ngan": "Thung lũng hoang sơ giữa lòng Mường Cốc, không gian xanh mát và tĩnh lặng. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm. Bạn nhận Chứng nhận trồng cây để mang hành trình về nhà.",
+      "mo_ta_ngan_en": "A pristine valley at the heart of Muong Coc, cool, green, and still. Each guest plants a small keepsake tree. You receive a tree-planting certificate to carry the journey home.",
+      "mo_ta_ngan_fr": "Une vallée immaculée au cœur de Muong Coc, fraîche, verte et paisible. Chaque invité plante un petit arbre souvenir. Vous recevez un certificat de plantation d'arbre pour emporter le souvenir de ce voyage chez vous."
+    },
+    {
+      "ten": "Nhà thờ Giáo xứ Bắc Sơn",
+      "ten_en": "Bac Son Parish Church",
+      "ten_fr": "Église paroissiale de Bac Son",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Thánh đường kiến trúc Pháp cổ thanh thoát, mái nhà tâm linh của hơn 1.800 giáo dân thôn Thanh Hà. Nhà thờ toạ trên đồi cao nhìn ra sông Thanh Hà. Khởi nguồn nhà nguyện 1958, định hình 2008, nâng hàng Giáo xứ 2021.",
+      "mo_ta_ngan_en": "A church in graceful old French architecture, the spiritual home of over 1,800 parishioners of Thanh Ha hamlet. It sits high on a hill overlooking the Thanh Ha River. Begun as a chapel in 1958, shaped in 2008, raised to a parish in 2021.",
+      "mo_ta_ngan_fr": "Une église à l'élégante architecture française ancienne, foyer spirituel de plus de 1 800 paroissiens du hameau de Thanh Ha. Elle se dresse sur une colline surplombant la rivière Thanh Ha. Commencée comme une chapelle en 1958, façonnée en 2008, élevée au rang de paroisse en 2021."
+    },
+    {
+      "ten": "Chùa Đinh Long",
+      "ten_en": "Dinh Long Pagoda",
+      "ten_fr": "Pagode Dinh Long",
+      "loai": "Di tích",
+      "loai_en": "Heritage site",
+      "loai_fr": "Site patrimonial",
+      "mo_ta_ngan": "Ngôi chùa cổ in dấu vua Đinh Bộ Lĩnh, tương truyền dựng khi dẹp loạn 12 sứ quân. Chùa còn mang dấu ấn kháng chiến — từng làm kho thóc, nơi in tài liệu, xưởng công binh. Lịch sử nghìn năm và cận đại cùng đọng dưới một mái chùa.",
+      "mo_ta_ngan_en": "An ancient pagoda marked by King Dinh Bo Linh, said to date from his campaign against the Twelve Warlords. It bears resistance-era traces — once a grain store, a printing site, an army workshop. A thousand years and the recent past beneath one roof.",
+      "mo_ta_ngan_fr": "Une ancienne pagode marquée par le roi Dinh Bo Linh, qui daterait de sa campagne contre les Douze Seigneurs de Guerre. Elle porte des traces de l'ère de la résistance — autrefois un grenier à grains, un site d'impression, un atelier militaire. Mille ans et le passé récent sous un même toit."
+    },
+    {
+      "ten": "Chùa Tiên",
+      "ten_en": "Tien Pagoda",
+      "ten_fr": "Pagode Tien",
+      "loai": "Di tích · Cảnh quan",
+      "loai_en": "Heritage · Landscape",
+      "loai_fr": "Patrimoine · Paysage",
+      "mo_ta_ngan": "Ngôi chùa phát hiện năm 1958 với hệ nhũ đá thiên nhiên hoang sơ. Chùa nằm giữa rừng núi tĩnh lặng, mang vẻ huyền bí khác lạ. Một điểm dừng kết hợp tâm linh và cảnh quan đá vôi.",
+      "mo_ta_ngan_en": "A pagoda discovered in 1958 with wild natural stalactites. It sits amid quiet forested mountains, carrying an unusual air of mystery. A stop blending spirituality with limestone scenery.",
+      "mo_ta_ngan_fr": "Une pagode découverte en 1958, abritant des stalactites naturelles et sauvages. Nichée au cœur de montagnes boisées et paisibles, elle dégage une atmosphère de mystère singulière. Une halte mêlant spiritualité et paysages calcaires."
+    },
+    {
+      "ten": "Đền Mẫu Thượng Thiên (Đền Ái Nàng)",
+      "ten_en": "Thuong Thien Mother Temple (Ai Nang Temple)",
+      "ten_fr": "Temple de la Mère Thuong Thien (Temple Ai Nang)",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Đền Mẫu bên sông, toạ trên núi Đền, lưng tựa núi mặt nhìn ra nước. Thờ Mẫu Quế Anh phu nhân cùng Tam toà Thánh Mẫu, giữ bốn đạo sắc triều Nguyễn. Một không gian linh thiêng soi bóng dòng sông.",
+      "mo_ta_ngan_en": "A riverside Mother temple on Den Mountain, its back to the hill and its face to the water. It honours Lady Que Anh and the Three Palaces of the Mother Goddesses and holds four Nguyen-dynasty edicts. A sacred space mirrored in the river.",
+      "mo_ta_ngan_fr": "Un temple-mère au bord de la rivière sur la montagne Den, adossé à la colline et faisant face à l'eau. Il honore Dame Que Anh et les Trois Palais des Déesses Mères et abrite quatre édits de la dynastie Nguyen. Un espace sacré se reflétant dans la rivière."
+    }
   ],
   "bao_gom": [
     "Phương tiện di chuyển nội vùng và mũ bảo hiểm",
@@ -72,6 +253,17 @@
     "Drinking water and cool towels throughout the journey",
     "Comprehensive travel insurance"
   ],
+  "bao_gom_fr": [
+    "Transport sur place et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Repas de spécialités Muong selon l'itinéraire (déjeuner jour 1, petit-déjeuner + déjeuner jour 2)",
+    "1 nuit chez l'habitant dans une communauté Muong",
+    "Le programme feu de camp, spectacle et bain de pieds aux herbes du soir",
+    "Un arbre planté par invité à Thung Canh + certificat de plantation d'arbre",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète"
+  ],
   "khong_bao_gom": [
     "Đồ uống trong bữa ăn và các bữa ăn ngoài chương trình",
     "Mo Mường buổi tối — phụ thu, đặt trước tối thiểu 5 ngày",
@@ -86,19 +278,74 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Boissons pendant les repas et tout repas en dehors du programme",
+    "Le Mo Muong du soir — supplément, à réserver au moins 5 jours à l'avance.",
+    "Promenade en bateau sur la rivière et expériences hors programme",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Yêu du lịch xanh, bền vững.", "mo_ta_en": "Who love green, sustainable travel."},
-    {"nhom": "Khách quốc tế", "nhom_en": "International travellers", "mo_ta": "Yêu văn hoá bản địa và slow travel.", "mo_ta_en": "Who love local culture and slow travel."},
-    {"nhom": "Gia đình, nhóm bạn", "nhom_en": "Families and groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "2–12 people."},
-    {"nhom": "Đoàn cơ quan, trường học", "nhom_en": "Company and school groups", "mo_ta": "Dã ngoại, trải nghiệm văn hoá.", "mo_ta_en": "For outings and cultural experiences."},
-    {"nhom": "Người muốn lưu trú qua đêm", "nhom_en": "Those wishing to stay overnight", "mo_ta": "Trải nghiệm sống cùng cộng đồng qua đêm.", "mo_ta_en": "To experience living with the community overnight."}
+    {
+      "nhom": "Người yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
+      "mo_ta": "Yêu du lịch xanh, bền vững.",
+      "mo_ta_en": "Who love green, sustainable travel.",
+      "mo_ta_fr": "Amoureux du voyage vert et durable."
+    },
+    {
+      "nhom": "Khách quốc tế",
+      "nhom_en": "International travellers",
+      "nhom_fr": "Voyageurs internationaux",
+      "mo_ta": "Yêu văn hoá bản địa và slow travel.",
+      "mo_ta_en": "Who love local culture and slow travel.",
+      "mo_ta_fr": "Amoureux de la culture locale et du voyage lent."
+    },
+    {
+      "nhom": "Gia đình, nhóm bạn",
+      "nhom_en": "Families and groups of friends",
+      "nhom_fr": "Familles et groupes d'amis",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "2–12 people.",
+      "mo_ta_fr": "2 à 12 personnes."
+    },
+    {
+      "nhom": "Đoàn cơ quan, trường học",
+      "nhom_en": "Company and school groups",
+      "nhom_fr": "Groupes d'entreprises et scolaires",
+      "mo_ta": "Dã ngoại, trải nghiệm văn hoá.",
+      "mo_ta_en": "For outings and cultural experiences.",
+      "mo_ta_fr": "Pour des sorties et des expériences culturelles."
+    },
+    {
+      "nhom": "Người muốn lưu trú qua đêm",
+      "nhom_en": "Those wishing to stay overnight",
+      "nhom_fr": "Ceux qui souhaitent passer la nuit",
+      "mo_ta": "Trải nghiệm sống cùng cộng đồng qua đêm.",
+      "mo_ta_en": "To experience living with the community overnight.",
+      "mo_ta_fr": "Pour vivre une nuit au sein de la communauté."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Mo Mường buổi tối", "tieu_de_en": "The evening Mo Muong", "mo_ta": "Cần đặt lịch trước với Ban điều phối và nghệ nhân.", "mo_ta_en": "Must be booked in advance with the coordination board and the artisan."}
+    {
+      "tieu_de": "Mo Mường buổi tối",
+      "tieu_de_en": "The evening Mo Muong",
+      "tieu_de_fr": "Le Mo Muong du soir",
+      "mo_ta": "Cần đặt lịch trước với Ban điều phối và nghệ nhân.",
+      "mo_ta_en": "Must be booked in advance with the coordination board and the artisan.",
+      "mo_ta_fr": "Doit être réservé à l'avance auprès du comité de coordination et de l'artisan."
+    }
   ],
   "net_zero": "Trồng một cây xanh tại Thung Cánh + Chứng nhận trồng cây",
   "net_zero_en": "Plant a tree at Thung Canh valley + receive a tree-planting certificate",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Planter un arbre dans la vallée de Thung Canh + recevez un certificat de plantation d'arbre",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

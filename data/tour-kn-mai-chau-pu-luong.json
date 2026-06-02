@@ -5,14 +5,18 @@
   "theme": "ketnoi",
   "tagline": "Ba Vùng Mường — Một Hành Trình Xuyên Núi",
   "tagline_en": "Three Ethnic Highlands — One Journey Across the Mountains",
+  "tagline_fr": "Trois Hauts Plateaux Ethniques — Un Voyage à Travers les Montagnes",
   "thoi_luong": "3 – 4 ngày",
   "thoi_luong_en": "3 – 4 days",
+  "thoi_luong_fr": "3 – 4 jours",
   "cu_ly": "Mường Cốc → Mai Châu ~70 km · Mai Châu → Pù Luông ~80 km",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the Coordination Board for a detailed quote",
+  "gia_fr": "Contactez le Conseil de Coordination pour un devis détaillé",
   "intro": "Đây là hành trình dài nhất trong bộ cung kết nối Mường Cốc — đưa bạn đi qua ba vùng văn hoá dân tộc thiểu số, nối liền bằng tình người bản địa và thiên nhiên chưa bị đô thị hoá. Mường Cốc là điểm khởi đầu (văn hoá Mường vùng đồng bằng trung du), Mai Châu là chặng giữa (thung lũng Thái trắng với bản Lác), Pù Luông là đích đến (ruộng bậc thang trên đỉnh núi mờ sương).",
   "intro_en": "This is the longest of Muong Coc's connecting routes — carrying you through three ethnic-minority cultural regions, linked by local warmth and nature still untouched by urban sprawl. Muong Coc is the starting point (Muong culture of the midland plains), Mai Chau the middle leg (a White Thai valley with Lac village), and Pu Luong the destination (terraced rice fields on mist-veiled peaks).",
+  "intro_fr": "C'est la plus longue des routes de liaison de Muong Coc — vous transportant à travers trois régions culturelles de minorités ethniques, reliées par la chaleur locale et une nature encore épargnée par l'étalement urbain. Muong Coc est le point de départ (culture Muong des plaines du centre), Mai Chau l'étape intermédiaire (une vallée Thaï Blanc avec le village de Lac), et Pu Luong la destination (rizières en terrasses sur des sommets voilés de brume).",
   "highlights": [
     "Ba vùng văn hoá dân tộc thiểu số trong một hành trình — Mường Cốc (Mường trung du), Mai Châu (Thái trắng), Pù Luông (Thái Thanh Hoá).",
     "Đêm lửa trại cồng chiêng Mường — khởi đầu hành trình bằng âm nhạc và lửa trại bản địa thực sự.",
@@ -29,22 +33,166 @@
     "Flexible 3 or 4 days — suited to both long weekends and public holidays.",
     "A green-travel commitment from the very start — the \"5 Nos\" and refill stations at Muong Coc set the tone for the whole trip."
   ],
+  "highlights_fr": [
+    "Trois cultures de minorités ethniques en un seul voyage — Muong Coc (Muong des plaines du centre), Mai Chau (Thaï Blanc), Pu Luong (Thaï de Thanh Hoa).",
+    "Une soirée feu de camp et gongs Muong — pour ouvrir le voyage avec une musique authentiquement locale et un feu de camp.",
+    "Les champs en terrasses de Pu Luong — parmi les paysages en terrasses les plus beaux et les moins fréquentés du nord.",
+    "Les roues à aubes de Pu Luong — un symbole de la vie montagnarde de Thanh Hoa, une scène idéale pour la photographie.",
+    "Flexible 3 ou 4 jours — idéal pour les longs week-ends et les jours fériés.",
+    "Un engagement pour un voyage éco-responsable dès le départ — les « 5 Non » et les stations de recharge à Muong Coc donnent le ton pour tout le voyage."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "Ngày 1 — Sáng/Trưa", "diem": "Hà Nội → Tourism Hub Đồi Dùng & Bữa trưa Cỗ Lá Mường", "diem_en": "Hanoi → Doi Dung Tourism Hub & Co La Muong lunch", "mo_ta": "Xe xuất phát từ Hà Nội, đến Tourism Hub Đồi Dùng ~1,5 – 2 tiếng. HDV bản địa đón bằng ly trà thảo dược. Mâm Cỗ Lá Mường bày trên lá chuối tươi, nguyên liệu 100% địa phương.", "mo_ta_en": "The coach departs Hanoi and reaches Doi Dung Tourism Hub in about 1.5–2 hours. A local Muong guide welcomes you with a cup of herbal tea. The Co La Muong feast is laid out on fresh banana leaves, with 100% local ingredients.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Chiều", "diem": "Trải nghiệm văn hoá Mường", "diem_en": "Muong cultural experience", "mo_ta": "Đạp xe bản Mường; Chùa Phú Cốc (cây đa hơn 400 năm); Hồ Baibóo (bè tre, trang phục Mường); vườn sim cổ & rượu sim OCOP; Thung Cánh (mô hình 5 KHÔNG, trồng một cây nhỏ làm kỷ niệm, nhận Chứng nhận trồng cây).", "mo_ta_en": "Cycle through the Muong village; Phu Coc Pagoda (a banyan over 400 years old); Baiboo Lake (bamboo rafts, Muong costume); an old myrtle garden & OCOP myrtle wine; Thung Canh valley (the \"5 Nos\" model — plant a small keepsake tree and receive a tree-planting certificate).", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Tối", "diem": "Lửa trại & nghỉ homestay cộng đồng", "diem_en": "Campfire & community homestay overnight", "mo_ta": "Bữa tối tại nhà dân, quây quần bên lửa trại — tiếng cồng chiêng Mường vang lên trong đêm, giao lưu văn nghệ. Nghỉ đêm tại homestay cộng đồng Mường Cốc.", "mo_ta_en": "Dinner at a local home, gathered around the campfire — Muong gongs ring out into the night with shared performances. Spend the night at a Muong Coc community homestay.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 2", "diem": "Mường Cốc → Mai Châu (Hoà Bình ~70 km)", "diem_en": "Muong Coc → Mai Chau (Hoa Binh, ~70 km)", "mo_ta": "Sau bữa sáng, xe đưa bạn lên Mai Châu — thung lũng Thái trắng. Khám phá Bản Lác (nhà sàn cổ truyền, dệt thổ cẩm), ruộng bậc thang đổi màu theo mùa, văn hoá Thái trắng. Bữa trưa cơm lam, gà đồi, rau rừng tại nhà dân bản Lác. Tối nghỉ nhà sàn bản Lác, giao lưu văn nghệ Thái (theo yêu cầu).", "mo_ta_en": "After breakfast, the coach takes you up to Mai Chau — a White Thai valley. Explore Lac village (traditional stilt houses, brocade weaving), terraced fields that change colour with the seasons, and White Thai culture. Lunch of bamboo-tube rice, hill chicken, and wild greens at a Lac village home. Evening overnight in a Lac village stilt house, with a Thai performance (on request).", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 3", "diem": "Mai Châu → Pù Luông (Thanh Hoá ~80 km)", "diem_en": "Mai Chau → Pu Luong (Thanh Hoa, ~80 km)", "mo_ta": "Xe vượt đèo sang Khu Bảo tồn Thiên nhiên Pù Luông. Trekking ruộng bậc thang (dễ đến trung bình), ngắm guồng nước truyền thống, dạo bản làng người Thái. Tối nghỉ dưỡng resort / nhà sàn sinh thái Pù Luông với view ruộng bậc thang.", "mo_ta_en": "The coach crosses the pass into Pu Luong Nature Reserve. Trek the terraced fields (easy to moderate), watch the traditional water wheels, and stroll through Thai villages. Evening stay at an eco-resort or eco stilt house in Pu Luong overlooking the terraced fields.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 4 (tùy chọn)", "diem": "Pù Luông → Hà Nội", "diem_en": "Pu Luong → Hanoi", "mo_ta": "Phương án A (4 ngày): sáng trekking thêm, tắm suối tự nhiên, chiều tối về Hà Nội. Phương án B (3 ngày): sáng sớm Ngày 3 ở Pù Luông, khởi hành về Hà Nội trưa – chiều. Về theo đường Hồ Chí Minh qua Hoà Bình.", "mo_ta_en": "Option A (4 days): more morning trekking and a natural stream bath, then return to Hanoi in the late afternoon. Option B (3 days): an early morning at Pu Luong on Day 3, then depart for Hanoi around midday. Return via the Ho Chi Minh Highway through Hoa Binh.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "Ngày 1 — Sáng/Trưa",
+      "diem": "Hà Nội → Tourism Hub Đồi Dùng & Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Hanoi → Doi Dung Tourism Hub & Co La Muong lunch",
+      "diem_fr": "Hanoi → Doi Dung Tourism Hub & déjeuner Co La Muong",
+      "mo_ta": "Xe xuất phát từ Hà Nội, đến Tourism Hub Đồi Dùng ~1,5 – 2 tiếng. HDV bản địa đón bằng ly trà thảo dược. Mâm Cỗ Lá Mường bày trên lá chuối tươi, nguyên liệu 100% địa phương.",
+      "mo_ta_en": "The coach departs Hanoi and reaches Doi Dung Tourism Hub in about 1.5–2 hours. A local Muong guide welcomes you with a cup of herbal tea. The Co La Muong feast is laid out on fresh banana leaves, with 100% local ingredients.",
+      "mo_ta_fr": "Le car part de Hanoi et atteint le Pôle Touristique Doi Dung en environ 1h30-2h. Un guide Muong local vous accueille avec une tasse de tisane. Le festin Co La Muong est dressé sur des feuilles de bananier fraîches, avec 100% d'ingrédients locaux.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Chiều",
+      "diem": "Trải nghiệm văn hoá Mường",
+      "diem_en": "Muong cultural experience",
+      "diem_fr": "Expérience culturelle Muong",
+      "mo_ta": "Đạp xe bản Mường; Chùa Phú Cốc (cây đa hơn 400 năm); Hồ Baibóo (bè tre, trang phục Mường); vườn sim cổ & rượu sim OCOP; Thung Cánh (mô hình 5 KHÔNG, trồng một cây nhỏ làm kỷ niệm, nhận Chứng nhận trồng cây).",
+      "mo_ta_en": "Cycle through the Muong village; Phu Coc Pagoda (a banyan over 400 years old); Baiboo Lake (bamboo rafts, Muong costume); an old myrtle garden & OCOP myrtle wine; Thung Canh valley (the \"5 Nos\" model — plant a small keepsake tree and receive a tree-planting certificate).",
+      "mo_ta_fr": "Parcourez à vélo le village Muong ; la pagode Phu Coc (un banian de plus de 400 ans) ; le lac Baiboo (radeaux en bambou, costume Muong) ; un ancien jardin de myrtes et du vin de myrte OCOP ; la vallée de Thung Canh (le modèle « 5 Sans » — plantez un petit arbre souvenir et recevez un certificat de plantation).",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Tối",
+      "diem": "Lửa trại & nghỉ homestay cộng đồng",
+      "diem_en": "Campfire & community homestay overnight",
+      "diem_fr": "Feu de camp & nuit au homestay communautaire",
+      "mo_ta": "Bữa tối tại nhà dân, quây quần bên lửa trại — tiếng cồng chiêng Mường vang lên trong đêm, giao lưu văn nghệ. Nghỉ đêm tại homestay cộng đồng Mường Cốc.",
+      "mo_ta_en": "Dinner at a local home, gathered around the campfire — Muong gongs ring out into the night with shared performances. Spend the night at a Muong Coc community homestay.",
+      "mo_ta_fr": "Dîner chez l'habitant, autour du feu de camp — les gongs Muong résonnent dans la nuit avec des performances partagées. Passez la nuit dans un homestay communautaire de Muong Coc.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2",
+      "diem": "Mường Cốc → Mai Châu (Hoà Bình ~70 km)",
+      "diem_en": "Muong Coc → Mai Chau (Hoa Binh, ~70 km)",
+      "diem_fr": "Muong Coc → Mai Chau (Hoa Binh, ~70 km)",
+      "mo_ta": "Sau bữa sáng, xe đưa bạn lên Mai Châu — thung lũng Thái trắng. Khám phá Bản Lác (nhà sàn cổ truyền, dệt thổ cẩm), ruộng bậc thang đổi màu theo mùa, văn hoá Thái trắng. Bữa trưa cơm lam, gà đồi, rau rừng tại nhà dân bản Lác. Tối nghỉ nhà sàn bản Lác, giao lưu văn nghệ Thái (theo yêu cầu).",
+      "mo_ta_en": "After breakfast, the coach takes you up to Mai Chau — a White Thai valley. Explore Lac village (traditional stilt houses, brocade weaving), terraced fields that change colour with the seasons, and White Thai culture. Lunch of bamboo-tube rice, hill chicken, and wild greens at a Lac village home. Evening overnight in a Lac village stilt house, with a Thai performance (on request).",
+      "mo_ta_fr": "Après le petit-déjeuner, le car vous emmène à Mai Chau — une vallée Thai Blanc. Explorez le village de Lac (maisons traditionnelles sur pilotis, tissage de brocart), les rizières en terrasses qui changent de couleur au fil des saisons, et la culture Thai Blanc. Déjeuner de riz en tube de bambou, poulet de colline et légumes sauvages chez l'habitant au village de Lac. Nuit en maison sur pilotis au village de Lac, avec un spectacle Thai (sur demande).",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 3",
+      "diem": "Mai Châu → Pù Luông (Thanh Hoá ~80 km)",
+      "diem_en": "Mai Chau → Pu Luong (Thanh Hoa, ~80 km)",
+      "diem_fr": "Mai Chau → Pu Luong (Thanh Hoa, ~80 km)",
+      "mo_ta": "Xe vượt đèo sang Khu Bảo tồn Thiên nhiên Pù Luông. Trekking ruộng bậc thang (dễ đến trung bình), ngắm guồng nước truyền thống, dạo bản làng người Thái. Tối nghỉ dưỡng resort / nhà sàn sinh thái Pù Luông với view ruộng bậc thang.",
+      "mo_ta_en": "The coach crosses the pass into Pu Luong Nature Reserve. Trek the terraced fields (easy to moderate), watch the traditional water wheels, and stroll through Thai villages. Evening stay at an eco-resort or eco stilt house in Pu Luong overlooking the terraced fields.",
+      "mo_ta_fr": "Le car traverse le col pour entrer dans la Réserve Naturelle de Pu Luong. Trekking dans les rizières en terrasses (facile à modéré), observation des roues à eau traditionnelles et promenade dans les villages Thaï. Séjour en soirée dans un éco-resort ou une maison sur pilotis écologique à Pu Luong, avec vue sur les rizières en terrasses.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 4 (tùy chọn)",
+      "diem": "Pù Luông → Hà Nội",
+      "diem_en": "Pu Luong → Hanoi",
+      "diem_fr": "Pu Luong → Hanoi",
+      "mo_ta": "Phương án A (4 ngày): sáng trekking thêm, tắm suối tự nhiên, chiều tối về Hà Nội. Phương án B (3 ngày): sáng sớm Ngày 3 ở Pù Luông, khởi hành về Hà Nội trưa – chiều. Về theo đường Hồ Chí Minh qua Hoà Bình.",
+      "mo_ta_en": "Option A (4 days): more morning trekking and a natural stream bath, then return to Hanoi in the late afternoon. Option B (3 days): an early morning at Pu Luong on Day 3, then depart for Hanoi around midday. Return via the Ho Chi Minh Highway through Hoa Binh.",
+      "mo_ta_fr": "Option A (4 jours) : plus de trekking matinal et un bain dans un ruisseau naturel, puis retour à Hanoi en fin d'après-midi. Option B (3 jours) : un lever de soleil matinal à Pu Luong le Jour 3, puis départ pour Hanoi vers midi. Retour via l'autoroute Ho Chi Minh en passant par Hoa Binh.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Chùa cổ với cây đa hơn 400 năm tuổi.", "mo_ta_ngan_en": "An ancient pagoda with a banyan tree over 400 years old."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ ngọc bích, đi bè tre ra giữa mặt nước.", "mo_ta_ngan_en": "An emerald lake; take a bamboo raft out across the water."},
-    {"ten": "Vườn sim cổ", "ten_en": "Old myrtle garden", "loai": "Sản vật OCOP", "loai_en": "OCOP local product", "mo_ta_ngan": "Hái sim, rượu sim OCOP tại vườn.", "mo_ta_ngan_en": "Pick myrtle berries and taste OCOP myrtle wine in the garden."},
-    {"ten": "Thung Cánh", "ten_en": "Thung Canh valley", "loai": "Thiên nhiên · Net-Zero", "loai_en": "Nature · Net-Zero", "mo_ta_ngan": "Thung lũng hoang sơ 5 KHÔNG — nơi trồng cây kỷ niệm.", "mo_ta_ngan_en": "A pristine \"5 Nos\" valley — where you plant a keepsake tree."},
-    {"ten": "Bản Lác Mai Châu", "ten_en": "Lac Village, Mai Chau", "loai": "Văn hoá Thái trắng", "loai_en": "White Thai culture", "mo_ta_ngan": "Bản người Thái trắng nổi tiếng — nhà sàn cổ, dệt thổ cẩm.", "mo_ta_ngan_en": "A famous White Thai village — old stilt houses and brocade weaving."},
-    {"ten": "Ruộng bậc thang Pù Luông", "ten_en": "Pu Luong terraced fields", "loai": "Cảnh quan vùng cao", "loai_en": "Upland landscape", "mo_ta_ngan": "Ruộng bậc thang đẹp, ít đông khách nhất miền Bắc.", "mo_ta_ngan_en": "Beautiful terraced fields, among the least crowded in the north."},
-    {"ten": "Guồng nước Pù Luông", "ten_en": "Pu Luong water wheels", "loai": "Cảnh quan biểu tượng", "loai_en": "Iconic landscape", "mo_ta_ngan": "Guồng nước truyền thống người Thái quay theo nhịp suối.", "mo_ta_ngan_en": "Traditional Thai water wheels turning to the rhythm of the stream."}
+    {
+      "ten": "Chùa Phú Cốc",
+      "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Chùa cổ với cây đa hơn 400 năm tuổi.",
+      "mo_ta_ngan_en": "An ancient pagoda with a banyan tree over 400 years old.",
+      "mo_ta_ngan_fr": "Une pagode ancienne abritant un banian de plus de 400 ans."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ ngọc bích, đi bè tre ra giữa mặt nước.",
+      "mo_ta_ngan_en": "An emerald lake; take a bamboo raft out across the water.",
+      "mo_ta_ngan_fr": "Un lac émeraude ; traversez l'eau en radeau de bambou."
+    },
+    {
+      "ten": "Vườn sim cổ",
+      "ten_en": "Old myrtle garden",
+      "ten_fr": "Ancien jardin de myrtes",
+      "loai": "Sản vật OCOP",
+      "loai_en": "OCOP local product",
+      "loai_fr": "Produit local OCOP",
+      "mo_ta_ngan": "Hái sim, rượu sim OCOP tại vườn.",
+      "mo_ta_ngan_en": "Pick myrtle berries and taste OCOP myrtle wine in the garden.",
+      "mo_ta_ngan_fr": "Cueillir des baies de myrte et déguster du vin de myrte OCOP dans le jardin."
+    },
+    {
+      "ten": "Thung Cánh",
+      "ten_en": "Thung Canh valley",
+      "ten_fr": "La vallée de Thung Canh",
+      "loai": "Thiên nhiên · Net-Zero",
+      "loai_en": "Nature · Net-Zero",
+      "loai_fr": "Nature · Net-Zero",
+      "mo_ta_ngan": "Thung lũng hoang sơ 5 KHÔNG — nơi trồng cây kỷ niệm.",
+      "mo_ta_ngan_en": "A pristine \"5 Nos\" valley — where you plant a keepsake tree.",
+      "mo_ta_ngan_fr": "Une vallée immaculée « 5 Sans » — où vous plantez un arbre souvenir."
+    },
+    {
+      "ten": "Bản Lác Mai Châu",
+      "ten_en": "Lac Village, Mai Chau",
+      "ten_fr": "Village de Lac, Mai Chau",
+      "loai": "Văn hoá Thái trắng",
+      "loai_en": "White Thai culture",
+      "loai_fr": "Culture Thaï blanche",
+      "mo_ta_ngan": "Bản người Thái trắng nổi tiếng — nhà sàn cổ, dệt thổ cẩm.",
+      "mo_ta_ngan_en": "A famous White Thai village — old stilt houses and brocade weaving.",
+      "mo_ta_ngan_fr": "Un célèbre village Thai Blanc — vieilles maisons sur pilotis et tissage de brocart."
+    },
+    {
+      "ten": "Ruộng bậc thang Pù Luông",
+      "ten_en": "Pu Luong terraced fields",
+      "ten_fr": "Champs en terrasses de Pu Luong",
+      "loai": "Cảnh quan vùng cao",
+      "loai_en": "Upland landscape",
+      "loai_fr": "Paysage de montagne",
+      "mo_ta_ngan": "Ruộng bậc thang đẹp, ít đông khách nhất miền Bắc.",
+      "mo_ta_ngan_en": "Beautiful terraced fields, among the least crowded in the north.",
+      "mo_ta_ngan_fr": "Magnifiques rizières en terrasses, parmi les moins fréquentées du nord."
+    },
+    {
+      "ten": "Guồng nước Pù Luông",
+      "ten_en": "Pu Luong water wheels",
+      "ten_fr": "Roues à aubes de Pu Luong",
+      "loai": "Cảnh quan biểu tượng",
+      "loai_en": "Iconic landscape",
+      "loai_fr": "Paysage emblématique",
+      "mo_ta_ngan": "Guồng nước truyền thống người Thái quay theo nhịp suối.",
+      "mo_ta_ngan_en": "Traditional Thai water wheels turning to the rhythm of the stream.",
+      "mo_ta_ngan_fr": "Roues à eau traditionnelles Thai tournant au rythme du ruisseau."
+    }
   ],
   "bao_gom": [
     "Xe đưa đón và di chuyển giữa các điểm theo lộ trình (Hà Nội → Mường Cốc → Mai Châu → Pù Luông → Hà Nội)",
@@ -68,6 +216,17 @@
     "One tree planted per guest at Thung Canh valley + tree-planting certificate",
     "Comprehensive travel insurance"
   ],
+  "bao_gom_fr": [
+    "Transferts et transport entre tous les points de l'itinéraire (Hanoi → Muong Coc → Mai Chau → Pu Luong → Hanoi)",
+    "Guides ; le segment Muong Coc est dirigé par un guide local, les étapes suivantes par des guides locaux dans chaque région",
+    "Vélo et casque à Muong Coc",
+    "Repas selon le programme : Jour 1 déjeuner et dîner à Muong Coc ; Jour 2 petit-déjeuner au homestay ; Jour 2 déjeuner au village de Lac ; Repas des Jours 3-4 selon le programme de l'étape de Pu Luong",
+    "Hébergement : 1 nuit en famille d'accueil à Muong Coc + 1 nuit en maison sur pilotis au village de Lac + 1 à 2 nuits en éco-maison sur pilotis à Pu Luong.",
+    "Droits d'entrée et activités d'expérience selon le programme sur chaque site",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Un arbre planté par invité dans la vallée de Thung Canh + certificat de plantation d'arbre",
+    "Assurance voyage complète"
+  ],
   "khong_bao_gom": [
     "Đồ uống trong các bữa ăn",
     "Dịch vụ và trải nghiệm không nằm trong chương trình",
@@ -80,20 +239,81 @@
     "Personal shopping at the destinations (brocade, local specialties)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme",
+    "Achats personnels sur les sites visités (brocart, spécialités locales)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Khách quốc tế", "nhom_en": "International travellers", "mo_ta": "Yêu slow travel, trekking nhẹ và văn hoá các dân tộc vùng cao.", "mo_ta_en": "Lovers of slow travel, light trekking, and the cultures of the upland peoples."},
-    {"nhom": "Nhóm bạn", "nhom_en": "Groups of friends", "mo_ta": "2 – 12 người tìm hành trình nhiều ngày có chiều sâu văn hoá và thiên nhiên.", "mo_ta_en": "Groups of 2–12 seeking a multi-day trip with cultural and natural depth."},
-    {"nhom": "Nhiếp ảnh gia", "nhom_en": "Photographers", "mo_ta": "Yêu cảnh sắc ruộng bậc thang, guồng nước, thổ cẩm.", "mo_ta_en": "Drawn to terraced fields, water wheels, and brocade."},
-    {"nhom": "Sinh viên, học viên du lịch", "nhom_en": "Tourism students", "mo_ta": "Nghiên cứu văn hoá dân tộc.", "mo_ta_en": "Studying ethnic-minority cultures."},
-    {"nhom": "Người yêu du lịch sinh thái", "nhom_en": "Eco-travel enthusiasts", "mo_ta": "Du lịch bền vững, muốn đi sâu vào cộng đồng bản địa.", "mo_ta_en": "Sustainable travel, wishing to go deeper into local communities."}
+    {
+      "nhom": "Khách quốc tế",
+      "nhom_en": "International travellers",
+      "nhom_fr": "Voyageurs internationaux",
+      "mo_ta": "Yêu slow travel, trekking nhẹ và văn hoá các dân tộc vùng cao.",
+      "mo_ta_en": "Lovers of slow travel, light trekking, and the cultures of the upland peoples.",
+      "mo_ta_fr": "Amoureux du voyage lent, du trekking léger et des cultures des peuples montagnards."
+    },
+    {
+      "nhom": "Nhóm bạn",
+      "nhom_en": "Groups of friends",
+      "nhom_fr": "Groupes d'amis",
+      "mo_ta": "2 – 12 người tìm hành trình nhiều ngày có chiều sâu văn hoá và thiên nhiên.",
+      "mo_ta_en": "Groups of 2–12 seeking a multi-day trip with cultural and natural depth.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes recherchant un voyage de plusieurs jours avec une profondeur culturelle et naturelle."
+    },
+    {
+      "nhom": "Nhiếp ảnh gia",
+      "nhom_en": "Photographers",
+      "nhom_fr": "Photographes",
+      "mo_ta": "Yêu cảnh sắc ruộng bậc thang, guồng nước, thổ cẩm.",
+      "mo_ta_en": "Drawn to terraced fields, water wheels, and brocade.",
+      "mo_ta_fr": "Attiré par les rizières en terrasses, les roues à eau et le brocart."
+    },
+    {
+      "nhom": "Sinh viên, học viên du lịch",
+      "nhom_en": "Tourism students",
+      "nhom_fr": "Étudiants en tourisme",
+      "mo_ta": "Nghiên cứu văn hoá dân tộc.",
+      "mo_ta_en": "Studying ethnic-minority cultures.",
+      "mo_ta_fr": "Étude des cultures des minorités ethniques."
+    },
+    {
+      "nhom": "Người yêu du lịch sinh thái",
+      "nhom_en": "Eco-travel enthusiasts",
+      "nhom_fr": "Amateurs d'écotourisme",
+      "mo_ta": "Du lịch bền vững, muốn đi sâu vào cộng đồng bản địa.",
+      "mo_ta_en": "Sustainable travel, wishing to go deeper into local communities.",
+      "mo_ta_fr": "Voyage durable, désireux de s'immerger davantage dans les communautés locales."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Văn nghệ & Mo Mường", "tieu_de_en": "Performances & Mo Muong", "mo_ta": "Trang phục Mường, văn nghệ, Mo Mường theo yêu cầu.", "mo_ta_en": "Muong costume, performances, and Mo Muong on request."},
-    {"tieu_de": "Báo giá", "tieu_de_en": "Pricing", "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách, số ngày (3 hay 4 ngày) và mùa.", "mo_ta_en": "The Coordination Board provides detailed itinerary, services, and pricing based on group size, number of days (3 or 4), and season."}
+    {
+      "tieu_de": "Văn nghệ & Mo Mường",
+      "tieu_de_en": "Performances & Mo Muong",
+      "tieu_de_fr": "Spectacles et Mo Muong",
+      "mo_ta": "Trang phục Mường, văn nghệ, Mo Mường theo yêu cầu.",
+      "mo_ta_en": "Muong costume, performances, and Mo Muong on request.",
+      "mo_ta_fr": "Costume Muong, spectacles et Mo Muong sur demande."
+    },
+    {
+      "tieu_de": "Báo giá",
+      "tieu_de_en": "Pricing",
+      "tieu_de_fr": "Tarifs",
+      "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách, số ngày (3 hay 4 ngày) và mùa.",
+      "mo_ta_en": "The Coordination Board provides detailed itinerary, services, and pricing based on group size, number of days (3 or 4), and season.",
+      "mo_ta_fr": "Le Comité de Coordination fournit un itinéraire détaillé, des services et des tarifs en fonction de la taille du groupe, du nombre de jours (3 ou 4) et de la saison."
+    }
   ],
   "net_zero": "Trồng một cây xanh tại Thung Cánh + Chứng nhận trồng cây (đặt tông xanh cho cả hành trình)",
   "net_zero_en": "Plant a tree at Thung Canh valley + receive a tree-planting certificate (setting a green tone for the whole journey)",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Planter un arbre dans la vallée de Thung Canh + recevez un certificat de plantation d'arbre (donnant le ton vert à tout le voyage)",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

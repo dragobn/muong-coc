@@ -5,14 +5,18 @@
   "theme": "nongnghiep",
   "tagline": "Hồ Baibóo — Đời Sống Đồng Bào Mường",
   "tagline_en": "Baiboo Lake — Life of the Muong People",
+  "tagline_fr": "Lac Baiboo — Vie du peuple Muong",
   "thoi_luong": "~8 giờ (08:00 – 16:00)",
   "thoi_luong_en": "About 8 hours (08:00 – 16:00)",
+  "thoi_luong_fr": "Environ 8 heures (08:00 – 16:00)",
   "cu_ly": "~10 – 12 km",
   "quy_mo": "2 – 12 khách",
   "gia": "650.000 đ/khách (gồm bữa trưa)",
   "gia_en": "650,000 VND/guest (lunch included)",
+  "gia_fr": "650 000 VND/personne (déjeuner inclus)",
   "intro": "Nhịp sống Mường Bơ Môi đưa bạn rời Nhà Văn hoá thôn Đồi Dùng, đạp xe vòng theo bờ hồ Baibóo rồi về thôn Bơ Môi — nơi tập trung trải nghiệm đời sống của đồng bào dân tộc Mường. Đây là cung dành cho người muốn sống chậm cùng người dân: ngồi bên bếp Mường, học vài việc của nhà nông, gói một món bánh bằng lá, nghe những câu chuyện và điệu hát của bản. Bạn không phải là người xem, mà là một thành viên được mời vào nhịp sống thường ngày — để rồi mang về một cách sống nhẹ hơn, gần với đất hơn.",
   "intro_en": "Bo Moi Muong Rhythm of Life takes you from the Doi Dung Community House, cycling around the shore of Baiboo Lake and on to Bo Moi hamlet — the heart of living-with-the-community experiences among the Muong people. This is a route for those who wish to slow down with the locals: sitting by the Muong hearth, learning a few farmer's tasks, wrapping a leaf cake, and listening to the village's stories and songs. You are not a spectator but a member invited into daily life — and you leave with a lighter way of living, closer to the earth.",
+  "intro_fr": "Le Rythme de Vie Muong de Bo Moi vous emmène de la Maison Communautaire de Doi Dung, à vélo autour du lac Baiboo et jusqu'au hameau de Bo Moi — le cœur des expériences de vie communautaire chez les Muong. C'est un itinéraire pour ceux qui souhaitent ralentir avec les habitants : s'asseoir près du foyer Muong, apprendre quelques tâches agricoles, emballer un gâteau de feuilles et écouter les histoires et chansons du village. Vous n'êtes pas un spectateur mais un membre invité dans la vie quotidienne — et vous repartez avec une manière de vivre plus légère, plus proche de la terre.",
   "highlights": [
     "Đời sống đồng bào Mường Bơ Môi — một ngày sống cùng người dân, bên bếp Mường và việc nhà nông.",
     "Vòng hồ Baibóo — đạp xe men hồ, mặt nước phản chiếu trời mây.",
@@ -27,18 +31,122 @@
     "Muong performance & cuisine — the stories, songs, and homely dishes of the village.",
     "Co La Muong feast lunch — a farm-to-table meal at a local home, with no plastic plates."
   ],
+  "highlights_fr": [
+    "Vie des Muong de Bo Moi — une journée passée avec les habitants, près du foyer Muong et au milieu des tâches agricoles.",
+    "Autour du lac Baiboo — longez la rive à vélo tandis que l'eau reflète le ciel et les nuages.",
+    "Un mode de vie Muong vert — apprenez à utiliser les feuilles, le bambou et un poêle à bois, sans déchets plastiques.",
+    "Spectacles et cuisine Muong — les histoires, les chants et les plats simples du village.",
+    "Déjeuner festif Co La Muong — un repas de la ferme à la table chez l'habitant, sans assiettes en plastique."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "08:00", "diem": "Tourism Hub Đồi Dùng", "diem_en": "Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu một ngày sống cùng bản.", "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a day living with the village.", "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.", "luu_y_en": "Please bring your own reusable water bottle for the whole journey."},
-    {"gio_hoac_buoi": "08:30", "diem": "Đạp xe quanh bờ hồ Baibóo về thôn Bơ Môi", "diem_en": "Cycling around Baiboo Lake to Bo Moi hamlet", "mo_ta": "Hồ Baibóo nằm giữa thôn Đồi Dùng và Gốc Báng như một viên ngọc bích, vòng hồ chừng 4 km. Bạn đạp xe men theo bờ hồ (~7 km), mặt nước phẳng lặng phản chiếu trời mây, rồi theo con đường làng về thôn Bơ Môi. Một mở đầu thư thái, gió nước dẫn đường.", "mo_ta_en": "Baiboo Lake lies between Doi Dung and Goc Bang hamlets like a jade gem, about 4 km around. You cycle along the shore (~7 km), the calm water mirroring sky and clouds, then follow the village road to Bo Moi hamlet. A restful beginning, with the lake breeze leading the way.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "09:30", "diem": "Trải nghiệm đời sống đồng bào Mường thôn Bơ Môi", "diem_en": "Living with the Muong people of Bo Moi hamlet", "mo_ta": "Bạn được đón vào nếp sống thường ngày của người Mường Bơ Môi: ngồi bên bếp củi, cùng làm những việc của nhà nông, gói một món bánh bằng lá, nghe những câu chuyện đời và đôi điệu hát Mường. Bạn cũng học vài thói quen sống gần với đất — gói đồ bằng lá, dùng đồ tre thay đồ nhựa.", "mo_ta_en": "You are welcomed into the everyday life of the Muong people of Bo Moi: sitting by the wood stove, joining in the farm chores, wrapping a leaf cake, and listening to life stories and a few Muong songs. You also learn habits that live close to the earth — wrapping things in leaves and using bamboo in place of plastic.", "luu_y": "Một nếp sống xanh kiểu Mường — mang về một cách sống nhẹ hơn với môi trường.", "luu_y_en": "A green Muong way of living — carry home a lighter way of living with the environment."},
-    {"gio_hoac_buoi": "12:00", "diem": "Bữa trưa Cỗ Lá Mường", "diem_en": "Co La Muong Feast (Lunch)", "mo_ta": "Bữa trưa được dọn ngay tại nhà dân Bơ Môi với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, do chính tay người Mường nấu — một bữa ăn farm-to-table đúng nghĩa.", "mo_ta_en": "Lunch is served right at a Bo Moi family's home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, cooked by Muong hands — a true farm-to-table meal.", "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.", "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."},
-    {"gio_hoac_buoi": "13:30", "diem": "Chiều sống cùng bản", "diem_en": "An afternoon living with the village", "mo_ta": "Buổi chiều, bạn tiếp tục hoà vào nhịp bản: ra vườn, ra đồng làm vài việc nhà nông, thử dệt đôi đường cạp váy, học đôi câu hát Mường, hoặc cùng bà con chuẩn bị một mẻ bánh, một ấm nước lá. Mỗi việc đều giản dị mà thấm.", "mo_ta_en": "In the afternoon, you keep blending into the village rhythm: heading to the garden or field for a few farm tasks, trying your hand at weaving a skirt band, learning a few Muong songs, or helping prepare a batch of cakes and a pot of leaf tea. Each task is simple yet quietly moving.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "15:00", "diem": "Giao lưu chia tay", "diem_en": "Farewell gathering", "mo_ta": "Bạn cùng bà con quây quần bên ấm trà lá, nghe thêm đôi điệu hát tiễn khách trước khi lên xe. Một lời chia tay ấm áp, không vội vàng, đúng nhịp Mường.", "mo_ta_en": "You gather with the locals around a pot of leaf tea, hearing a few more farewell songs before setting off. A warm, unhurried goodbye, true to the Muong rhythm.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "15:30", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to Doi Dung Tourism Hub", "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng để mang theo nhịp sống Mường về nhà.", "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir to carry the Muong rhythm of life home.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "08:00",
+      "diem": "Tourism Hub Đồi Dùng",
+      "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu một ngày sống cùng bản.",
+      "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin a day living with the village.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge le long du parcours. Ensuite, vous recevez votre vélo, votre casque et votre carte de la visite pour commencer une journée au rythme du village.",
+      "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
+    },
+    {
+      "gio_hoac_buoi": "08:30",
+      "diem": "Đạp xe quanh bờ hồ Baibóo về thôn Bơ Môi",
+      "diem_en": "Cycling around Baiboo Lake to Bo Moi hamlet",
+      "diem_fr": "Balade à vélo autour du lac Baiboo jusqu'au hameau de Bo Moi",
+      "mo_ta": "Hồ Baibóo nằm giữa thôn Đồi Dùng và Gốc Báng như một viên ngọc bích, vòng hồ chừng 4 km. Bạn đạp xe men theo bờ hồ (~7 km), mặt nước phẳng lặng phản chiếu trời mây, rồi theo con đường làng về thôn Bơ Môi. Một mở đầu thư thái, gió nước dẫn đường.",
+      "mo_ta_en": "Baiboo Lake lies between Doi Dung and Goc Bang hamlets like a jade gem, about 4 km around. You cycle along the shore (~7 km), the calm water mirroring sky and clouds, then follow the village road to Bo Moi hamlet. A restful beginning, with the lake breeze leading the way.",
+      "mo_ta_fr": "Le lac Baiboo, tel un joyau de jade, s'étend entre les hameaux de Doi Dung et Goc Bang, sur environ 4 km. Vous longez la rive à vélo (~7 km), l'eau calme reflétant le ciel et les nuages, puis suivez la route du village jusqu'au hameau de Bo Moi. Un début reposant, avec la brise du lac pour vous guider.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "09:30",
+      "diem": "Trải nghiệm đời sống đồng bào Mường thôn Bơ Môi",
+      "diem_en": "Living with the Muong people of Bo Moi hamlet",
+      "diem_fr": "Vivre avec les Muong du hameau de Bo Moi",
+      "mo_ta": "Bạn được đón vào nếp sống thường ngày của người Mường Bơ Môi: ngồi bên bếp củi, cùng làm những việc của nhà nông, gói một món bánh bằng lá, nghe những câu chuyện đời và đôi điệu hát Mường. Bạn cũng học vài thói quen sống gần với đất — gói đồ bằng lá, dùng đồ tre thay đồ nhựa.",
+      "mo_ta_en": "You are welcomed into the everyday life of the Muong people of Bo Moi: sitting by the wood stove, joining in the farm chores, wrapping a leaf cake, and listening to life stories and a few Muong songs. You also learn habits that live close to the earth — wrapping things in leaves and using bamboo in place of plastic.",
+      "mo_ta_fr": "Vous êtes accueilli dans le quotidien des Muong de Bo Moi : assis près du poêle à bois, participant aux tâches agricoles, préparant un gâteau de feuilles, et écoutant des récits de vie et quelques chants Muong. Vous apprenez également des habitudes ancrées dans la terre — emballer des objets dans des feuilles et utiliser du bambou à la place du plastique.",
+      "luu_y": "Một nếp sống xanh kiểu Mường — mang về một cách sống nhẹ hơn với môi trường.",
+      "luu_y_en": "A green Muong way of living — carry home a lighter way of living with the environment.",
+      "luu_y_fr": "Un mode de vie Muong vert — repartez avec un mode de vie plus léger pour l'environnement."
+    },
+    {
+      "gio_hoac_buoi": "12:00",
+      "diem": "Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Co La Muong Feast (Lunch)",
+      "diem_fr": "Festin Co La Muong (Déjeuner)",
+      "mo_ta": "Bữa trưa được dọn ngay tại nhà dân Bơ Môi với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, do chính tay người Mường nấu — một bữa ăn farm-to-table đúng nghĩa.",
+      "mo_ta_en": "Lunch is served right at a Bo Moi family's home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, cooked by Muong hands — a true farm-to-table meal.",
+      "mo_ta_fr": "Le déjeuner est servi directement chez une famille Bo Moi sous forme de festin Co La Muong — dressé sur de fraîches feuilles de bananier, sans une seule assiette en plastique. Les ingrédients sont 100% locaux, cuisinés par des mains Muong — un véritable repas de la ferme à la table.",
+      "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle.",
+      "luu_y_fr": "Feuilles de bananier en guise d'assiettes · ingrédients locaux · remplissez votre propre gourde."
+    },
+    {
+      "gio_hoac_buoi": "13:30",
+      "diem": "Chiều sống cùng bản",
+      "diem_en": "An afternoon living with the village",
+      "diem_fr": "Un après-midi à vivre avec le village",
+      "mo_ta": "Buổi chiều, bạn tiếp tục hoà vào nhịp bản: ra vườn, ra đồng làm vài việc nhà nông, thử dệt đôi đường cạp váy, học đôi câu hát Mường, hoặc cùng bà con chuẩn bị một mẻ bánh, một ấm nước lá. Mỗi việc đều giản dị mà thấm.",
+      "mo_ta_en": "In the afternoon, you keep blending into the village rhythm: heading to the garden or field for a few farm tasks, trying your hand at weaving a skirt band, learning a few Muong songs, or helping prepare a batch of cakes and a pot of leaf tea. Each task is simple yet quietly moving.",
+      "mo_ta_fr": "L'après-midi, vous continuez à vous immerger dans le rythme du village : direction le jardin ou les champs pour quelques tâches agricoles, vous essayant au tissage d'une bande de jupe, apprenant quelques chants Muong, ou aidant à préparer une fournée de gâteaux et une théière de tisane. Chaque tâche est simple, mais profondément émouvante.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "15:00",
+      "diem": "Giao lưu chia tay",
+      "diem_en": "Farewell gathering",
+      "diem_fr": "Rassemblement d'adieu",
+      "mo_ta": "Bạn cùng bà con quây quần bên ấm trà lá, nghe thêm đôi điệu hát tiễn khách trước khi lên xe. Một lời chia tay ấm áp, không vội vàng, đúng nhịp Mường.",
+      "mo_ta_en": "You gather with the locals around a pot of leaf tea, hearing a few more farewell songs before setting off. A warm, unhurried goodbye, true to the Muong rhythm.",
+      "mo_ta_fr": "Vous vous rassemblez avec les habitants autour d'une théière de feuilles, écoutant quelques chants d'adieu supplémentaires avant de partir. Un adieu chaleureux et sans hâte, fidèle au rythme Muong.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "15:30",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
+      "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng để mang theo nhịp sống Mường về nhà.",
+      "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir to carry the Muong rhythm of life home.",
+      "mo_ta_fr": "Vous retournez à vélo, à un rythme tranquille, à la Maison Communautaire Doi Dung, où vous restituez votre vélo et votre casque. Muong Coc vous offre un souvenir artisanal pour emporter chez vous le rythme de vie Muong.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng hồ chừng 4 km. Bạn đạp xe men bờ hồ về Bơ Môi, mặt nước phẳng lặng phản chiếu trời mây. Một mở đầu thư thái cho ngày sống cùng bản.", "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You cycle along the shore to Bo Moi, the calm water mirroring sky and clouds. A restful start to a day spent with the village."},
-    {"ten": "Bản Mường thôn Bơ Môi", "ten_en": "Bo Moi Muong Village", "loai": "Đời sống bản địa", "loai_en": "Local life", "mo_ta_ngan": "Một bản Mường nơi bạn sống cùng nhịp đời thường của đồng bào: bếp củi, việc nhà nông, gói bánh lá và hát Mường. Bạn được đón như một thành viên, không phải khách qua đường. Khép lại bằng một nếp sống xanh mang về nhà.", "mo_ta_ngan_en": "A Muong village where you live the locals' daily rhythm: the wood stove, farm chores, leaf-cake wrapping, and Muong songs. You are welcomed as a member, not a passing visitor. It closes with a green way of living to carry home."}
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng hồ chừng 4 km. Bạn đạp xe men bờ hồ về Bơ Môi, mặt nước phẳng lặng phản chiếu trời mây. Một mở đầu thư thái cho ngày sống cùng bản.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You cycle along the shore to Bo Moi, the calm water mirroring sky and clouds. A restful start to a day spent with the village.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence. Vous longez la rive à vélo jusqu'à Bo Moi, l'eau calme reflétant le ciel et les nuages. Un début de journée reposant passé avec le village."
+    },
+    {
+      "ten": "Bản Mường thôn Bơ Môi",
+      "ten_en": "Bo Moi Muong Village",
+      "ten_fr": "Village Muong de Bo Moi",
+      "loai": "Đời sống bản địa",
+      "loai_en": "Local life",
+      "loai_fr": "Vie locale",
+      "mo_ta_ngan": "Một bản Mường nơi bạn sống cùng nhịp đời thường của đồng bào: bếp củi, việc nhà nông, gói bánh lá và hát Mường. Bạn được đón như một thành viên, không phải khách qua đường. Khép lại bằng một nếp sống xanh mang về nhà.",
+      "mo_ta_ngan_en": "A Muong village where you live the locals' daily rhythm: the wood stove, farm chores, leaf-cake wrapping, and Muong songs. You are welcomed as a member, not a passing visitor. It closes with a green way of living to carry home.",
+      "mo_ta_ngan_fr": "Un village Muong où vous vivez au rythme quotidien des habitants : le poêle à bois, les tâches agricoles, l'emballage des gâteaux de feuilles et les chants Muong. Vous êtes accueilli comme un membre, pas comme un visiteur de passage. Le voyage se termine par un mode de vie écologique à emporter chez soi."
+    }
   ],
   "bao_gom": [
     "Xe đạp và mũ bảo hiểm tiêu chuẩn",
@@ -58,6 +166,15 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Vélo standard et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -72,27 +189,131 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
-    {"ten": "Chương trình văn nghệ Mường", "ten_en": "Muong performance show", "mo_ta": "Cồng chiêng · hát đối Mường", "mo_ta_en": "Gong music · Muong call-and-response singing"},
-    {"ten": "Mặc trang phục Mường + photo session", "ten_en": "Muong costume + photo session", "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh", "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash"},
-    {"ten": "Đưa đón Hà Nội ↔ Mường Cốc", "ten_en": "Hanoi ↔ Muong Coc transfer", "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ", "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"}
+    {
+      "ten": "Chương trình văn nghệ Mường",
+      "ten_en": "Muong performance show",
+      "ten_fr": "Spectacle Muong",
+      "mo_ta": "Cồng chiêng · hát đối Mường",
+      "mo_ta_en": "Gong music · Muong call-and-response singing",
+      "mo_ta_fr": "Musique de gongs · Chant responsorial Muong"
+    },
+    {
+      "ten": "Mặc trang phục Mường + photo session",
+      "ten_en": "Muong costume + photo session",
+      "ten_fr": "Costume Muong + séance photo",
+      "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh",
+      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash",
+      "mo_ta_fr": "Blouse pan jaune/blanche, jupe à ourlet brodé de fleurs, ceinture verte"
+    },
+    {
+      "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
+      "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
+      "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
+    }
   ],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người muốn sống chậm", "nhom_en": "Those seeking to slow down", "mo_ta": "Trải nghiệm đời sống bản địa.", "mo_ta_en": "To experience local life."},
-    {"nhom": "Gia đình", "nhom_en": "Families", "mo_ta": "Muốn cho con tiếp xúc với văn hoá đồng bào dân tộc.", "mo_ta_en": "Wishing their children to connect with ethnic culture."},
-    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "Groups of 2–12 people."},
-    {"nhom": "Học sinh — sinh viên", "nhom_en": "Students", "mo_ta": "Tìm hiểu văn hoá dân tộc Mường.", "mo_ta_en": "Learning about Muong ethnic culture."},
-    {"nhom": "Người yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Yêu nếp sống cộng đồng.", "mo_ta_en": "Drawn to community life."}
+    {
+      "nhom": "Người muốn sống chậm",
+      "nhom_en": "Those seeking to slow down",
+      "nhom_fr": "Ceux qui souhaitent ralentir",
+      "mo_ta": "Trải nghiệm đời sống bản địa.",
+      "mo_ta_en": "To experience local life.",
+      "mo_ta_fr": "Pour découvrir la vie locale."
+    },
+    {
+      "nhom": "Gia đình",
+      "nhom_en": "Families",
+      "nhom_fr": "Familles",
+      "mo_ta": "Muốn cho con tiếp xúc với văn hoá đồng bào dân tộc.",
+      "mo_ta_en": "Wishing their children to connect with ethnic culture.",
+      "mo_ta_fr": "Désireux que leurs enfants se connectent à la culture ethnique."
+    },
+    {
+      "nhom": "Nhóm bạn nhỏ",
+      "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "Groups of 2–12 people.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes."
+    },
+    {
+      "nhom": "Học sinh — sinh viên",
+      "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
+      "mo_ta": "Tìm hiểu văn hoá dân tộc Mường.",
+      "mo_ta_en": "Learning about Muong ethnic culture.",
+      "mo_ta_fr": "Découverte de la culture ethnique Muong."
+    },
+    {
+      "nhom": "Người yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
+      "mo_ta": "Yêu nếp sống cộng đồng.",
+      "mo_ta_en": "Drawn to community life.",
+      "mo_ta_fr": "Attiré par la vie communautaire."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Thời tiết xấu / mưa lớn", "tieu_de_en": "Bad weather / heavy rain", "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng trong nhà dân.", "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time indoors with the family."},
-    {"tieu_de": "Sức khoẻ", "tieu_de_en": "Fitness", "mo_ta": "Đạp xe khoảng 10 — 12 km, cấp độ dễ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.", "mo_ta_en": "Cycling of about 10–12 km, easy level. Children under 10 should ride along in a local electric cart."},
-    {"tieu_de": "Tôn trọng cộng đồng", "tieu_de_en": "Respect for the community", "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.", "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."},
-    {"tieu_de": "Tiếp nước", "tieu_de_en": "Staying hydrated", "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.", "mo_ta_en": "Please bring your own reusable water bottle."},
-    {"tieu_de": "Giảm rác", "tieu_de_en": "Reducing waste", "mo_ta": "Không xả rác, ưu tiên dùng đồ tái sử dụng trong suốt hành trình.", "mo_ta_en": "No littering, and favour reusable items throughout the journey."}
+    {
+      "tieu_de": "Thời tiết xấu / mưa lớn",
+      "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
+      "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng trong nhà dân.",
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time indoors with the family.",
+      "mo_ta_fr": "Plan B — échangez les vélos contre des voiturettes électriques locales et passez plus de temps à l'intérieur avec la famille."
+    },
+    {
+      "tieu_de": "Sức khoẻ",
+      "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
+      "mo_ta": "Đạp xe khoảng 10 — 12 km, cấp độ dễ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
+      "mo_ta_en": "Cycling of about 10–12 km, easy level. Children under 10 should ride along in a local electric cart.",
+      "mo_ta_fr": "Balade à vélo d'environ 10-12 km, niveau facile. Les enfants de moins de 10 ans doivent être accompagnés dans une voiturette électrique locale."
+    },
+    {
+      "tieu_de": "Tôn trọng cộng đồng",
+      "tieu_de_en": "Respect for the community",
+      "tieu_de_fr": "Respect de la communauté",
+      "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.",
+      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people.",
+      "mo_ta_fr": "N'entrez pas dans les maisons sans y être invité, et demandez toujours la permission avant de photographier des personnes."
+    },
+    {
+      "tieu_de": "Tiếp nước",
+      "tieu_de_en": "Staying hydrated",
+      "tieu_de_fr": "Rester hydraté",
+      "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.",
+      "mo_ta_en": "Please bring your own reusable water bottle.",
+      "mo_ta_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable."
+    },
+    {
+      "tieu_de": "Giảm rác",
+      "tieu_de_en": "Reducing waste",
+      "tieu_de_fr": "Réduction des déchets",
+      "mo_ta": "Không xả rác, ưu tiên dùng đồ tái sử dụng trong suốt hành trình.",
+      "mo_ta_en": "No littering, and favour reusable items throughout the journey.",
+      "mo_ta_fr": "Ne pas jeter de déchets et privilégier les articles réutilisables tout au long du voyage."
+    }
   ],
   "net_zero": "Học một nếp sống xanh kiểu Mường (lá, tre, bếp củi, không rác nhựa)",
   "net_zero_en": "Learn a green Muong way of living (leaves, bamboo, wood stove, no plastic waste)",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Apprenez un mode de vie Muong écologique (feuilles, bambou, poêle à bois, zéro déchet plastique)",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

@@ -2,18 +2,23 @@
   "slug": "tour-1n-van-hoa-sen",
   "ten": "Mường Cốc — Một ngày, vạn trải nghiệm (Phương án B: Văn hoá sen & Lễ Mo Mường)",
   "ten_en": "Muong Coc — One Day, Countless Experiences (Option B: Lotus Culture & the Mo Muong Ritual)",
+  "ten_fr": "Muong Coc — Une Journée, d'Innombrables Expériences (Option B : Culture du Lotus et Rituel Mo Muong)",
   "loai": "tour",
   "theme": "disan",
   "tagline": "Một ngày sống cùng bản Mường",
   "tagline_en": "A day living with a Muong village",
+  "tagline_fr": "Une journée à vivre dans un village Muong",
   "thoi_luong": "01 ngày",
   "thoi_luong_en": "1 day",
+  "thoi_luong_fr": "1 jour",
   "cu_ly": "",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the coordination board for a quote",
+  "gia_fr": "Contactez le conseil de coordination pour un devis",
   "intro": "Mường Cốc — Một ngày, vạn trải nghiệm — Phương án B mang đến một ngày đậm chất văn hoá sen và di sản tinh thần người Mường. Bạn bắt đầu từ chùa cổ và đền thiêng, lướt bè tre trên hồ Baibóo, ngồi bên mâm Cỗ Lá Mường. Buổi chiều, bạn dự lễ Mo Mường tại ngôi đình cổ — nghe những lời mo ngân lên trong không gian thiêng — rồi khép lại tại đầm sen thơm ngát và nhà Niệm Nga, nơi bạn tự tay ướp trà sen mang về làm quà.",
   "intro_en": "Muong Coc — One Day, Countless Experiences (Option B) offers a day steeped in lotus culture and the spiritual heritage of the Muong people. You begin at an ancient pagoda and a sacred temple, glide on a bamboo raft across Baiboo Lake, and sit before a Co La Muong feast. In the afternoon, you attend a Mo Muong ritual at the old communal house — hearing the chants rise through the sacred space — then close at a fragrant lotus marsh and the Niem Nga family's home, where you scent lotus tea by hand to take home as a gift.",
+  "intro_fr": "Muong Coc — Une Journée, d'Innombrables Expériences (Option B) propose une journée imprégnée de la culture du lotus et de l'héritage spirituel du peuple Muong. Vous commencez par une pagode ancestrale et un temple sacré, glissez sur un radeau de bambou sur le lac Baiboo, et vous asseyez devant un festin Co La Muong. L'après-midi, vous assistez à un rituel Mo Muong dans l'ancienne maison communale — écoutant les chants s'élever à travers l'espace sacré — puis terminez dans un marais de lotus parfumé et chez la famille Niem Nga, où vous parfumez le thé au lotus à la main pour l'emporter en cadeau.",
   "highlights": [
     "Lễ Mo Mường tại Đình Phú Cốc — di sản tinh thần thiêng liêng, lời mo cổ ngân trong không gian đình làng.",
     "Đầm sen thơm ngát — hái sen, lẩy hạt, ướp trà sen — trải nghiệm văn hoá sen gắn với đời sống người Mường.",
@@ -28,23 +33,179 @@
     "Co La Muong feast & community music — a farm-to-table lunch on banana leaves, 100% local ingredients.",
     "Baiboo Lake & Muong dress — raft across the jade-green lake and wear the Muong pan blouse for keepsake photos."
   ],
+  "highlights_fr": [
+    "Le rituel Mo Muong à la Maison Communale de Phu Coc — un héritage spirituel sacré, des chants anciens résonnant dans la salle du village.",
+    "Un marais de lotus parfumé — cueillez des lotus, écalez les graines et parfumez le thé au lotus — la culture du lotus tissée dans la vie Muong.",
+    "La famille Niem Nga — préparez du thé au lotus sur place et achetez des spécialités locales à emporter : thé au lotus et miel d'An Phu.",
+    "Festin Co La Muong et musique communautaire — un déjeuner de la ferme à la table, servi sur des feuilles de bananier, avec des ingrédients 100% locaux.",
+    "Lac Baiboo & tenue Muong — traversez le lac vert jade en radeau et portez la blouse pan Muong pour des photos souvenirs."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "Sáng", "diem": "Đón khách tại Tourism Hub Đồi Dùng", "diem_en": "Welcome at the Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược và giới thiệu chương trình của cả ngày. Một khởi đầu nhẹ nhàng, ấm áp đúng phong cách của bản.", "mo_ta_en": "Your Muong guide welcomes you with a cup of herbal tea and introduces the day's programme. A gentle, warm beginning in true village style.", "luu_y": "Hãy mang theo bình nước cá nhân của bạn.", "luu_y_en": "Please bring your own reusable water bottle."},
-    {"gio_hoac_buoi": "Sáng", "diem": "Chùa Phú Cốc & Cây đa cổ", "diem_en": "Phu Coc Pagoda & the Old Banyan", "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc, với cây đa cổ thụ hơn 400 năm tuổi. Bạn lặng bước qua cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang trong không gian tĩnh tại.", "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area, with a banyan tree over 400 years old. You walk quietly past the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple in a serene space.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Sáng", "diem": "Đền Cây Thợi & Cây Thị 400 năm", "diem_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "mo_ta": "Đền thờ Nhị vị Thánh Mẫu Từ Quang và Từ Minh — gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả, một kỳ tích của thiên nhiên.", "mo_ta_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh — tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it grows a persimmon over 400 years old whose single trunk bears three kinds of fruit, a wonder of nature.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Sáng", "diem": "Hồ Baibóo & các homestay ven hồ", "diem_en": "Baiboo Lake & the lakeside homestays", "mo_ta": "Hồ ngọc bích giữa đất Mường, đường vòng hồ chừng 4 km. Bạn ngắm cảnh hồ, khoác trang phục Mường lưu hình, đi bè tre ra giữa mặt nước và ghé các homestay ven hồ để cảm nhận nếp sống vùng nước.", "mo_ta_en": "A jade-green lake at the heart of the Muong land, about 4 km around. You take in the view, wear Muong dress for photos, raft out onto the lake, and visit the lakeside homestays to sense the life of the waterside.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Trưa", "diem": "Bữa trưa Cỗ Lá Mường & giao lưu văn nghệ", "diem_en": "Co La Muong lunch & a performance exchange", "mo_ta": "Mâm Cỗ Lá Mường được bày trên lá chuối, nguyên liệu 100% địa phương, cùng các tiết mục văn nghệ truyền thống do chính cộng đồng biểu diễn. Bữa ăn và tiếng hát quyện vào nhau, ấm như trong một mái nhà Mường.", "mo_ta_en": "A Co La Muong feast laid on banana leaves, ingredients 100% local, alongside traditional performances by the community itself. The meal and the singing intertwine, as warm as being under a Muong roof.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Chiều", "diem": "Đình Phú Cốc — Lễ Mo Mường", "diem_en": "Phu Coc Communal House — the Mo Muong ritual", "mo_ta": "Tại ngôi đại đình chung của các thôn người Mường, bạn được dự một lễ Mo Mường do nghệ nhân thực hiện — những lời mo cổ ngân lên trong không gian thiêng. Đây là một di sản tinh thần quý giá, được người Mường gìn giữ qua nhiều thế hệ.", "mo_ta_en": "At the great communal house of the Muong hamlets, you attend a Mo Muong ritual performed by an artisan — ancient chants rising through the sacred space. This is a precious spiritual heritage, kept by the Muong people across many generations.", "luu_y": "Lễ Mo Mường cần đặt lịch trước với Ban điều phối và nghệ nhân. Phụ thu riêng.", "luu_y_en": "The Mo Muong ritual must be booked in advance with the coordination board and the artisan. A separate fee applies."},
-    {"gio_hoac_buoi": "Chiều", "diem": "Đầm sen — Trải nghiệm văn hoá sen", "diem_en": "Lotus marsh — a lotus-culture experience", "mo_ta": "Bạn lội đầm hái sen, lẩy hạt sen, học cách ướp trà sen công phu và lưu lại những khung hình giữa đầm sen thơm ngát. Mùa sen đẹp nhất từ tháng 6 đến tháng 8 hàng năm, khi cả đầm rực hồng dưới nắng.", "mo_ta_en": "You wade into the marsh to pick lotus, shell the seeds, learn the careful craft of scenting lotus tea, and capture frames amid the fragrant blooms. The lotus season peaks from June to August, when the whole marsh glows pink in the sun.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Chiều", "diem": "Nhà Niệm Nga — Làm trà sen & chọn quà", "diem_en": "The Niem Nga family — make lotus tea & choose gifts", "mo_ta": "Bạn cùng nhà Niệm Nga trải nghiệm làm trà sen, rồi chọn vài món đặc sản làm quà — trà sen và mật ong An Phú. Một chút hương sen Mường Cốc theo bạn về tận nhà.", "mo_ta_en": "With the Niem Nga family you try making lotus tea, then choose a few local specialities as gifts — lotus tea and An Phu honey. A little of Muong Coc's lotus fragrance travels home with you.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Chiều", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to the Doi Dung Tourism Hub", "mo_ta": "Bạn trở về điểm xuất phát, khép lại một ngày đậm hương sen và văn hoá Mường. Mường Cốc tiễn bạn với lời hẹn gặp lại.", "mo_ta_en": "You return to the starting point, closing a day rich with lotus fragrance and Muong culture. Muong Coc sees you off with a wish to meet again.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "Sáng",
+      "diem": "Đón khách tại Tourism Hub Đồi Dùng",
+      "diem_en": "Welcome at the Doi Dung Tourism Hub",
+      "diem_fr": "Accueil au Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược và giới thiệu chương trình của cả ngày. Một khởi đầu nhẹ nhàng, ấm áp đúng phong cách của bản.",
+      "mo_ta_en": "Your Muong guide welcomes you with a cup of herbal tea and introduces the day's programme. A gentle, warm beginning in true village style.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane et vous présente le programme de la journée. Un début doux et chaleureux, dans le pur style villageois.",
+      "luu_y": "Hãy mang theo bình nước cá nhân của bạn.",
+      "luu_y_en": "Please bring your own reusable water bottle.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable."
+    },
+    {
+      "gio_hoac_buoi": "Sáng",
+      "diem": "Chùa Phú Cốc & Cây đa cổ",
+      "diem_en": "Phu Coc Pagoda & the Old Banyan",
+      "diem_fr": "Pagode de Phu Coc et le Vieux Banyan",
+      "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc, với cây đa cổ thụ hơn 400 năm tuổi. Bạn lặng bước qua cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang trong không gian tĩnh tại.",
+      "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area, with a banyan tree over 400 years old. You walk quietly past the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple in a serene space.",
+      "mo_ta_fr": "Sur une colline aérée du hameau de Doi Dung se dresse le pilier spirituel des six villages de la région de Phu Coc, avec un banian de plus de 400 ans. Vous passez silencieusement devant le sanctuaire principal, le sanctuaire de la Mère, la maison ancestrale et le temple des chefs dans un espace serein.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Sáng",
+      "diem": "Đền Cây Thợi & Cây Thị 400 năm",
+      "diem_en": "Cay Thoi Temple & the 400-year Persimmon Tree",
+      "diem_fr": "Temple Cay Thoi & le Plaqueminier quadricentenaire",
+      "mo_ta": "Đền thờ Nhị vị Thánh Mẫu Từ Quang và Từ Minh — gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả, một kỳ tích của thiên nhiên.",
+      "mo_ta_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh — tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it grows a persimmon over 400 years old whose single trunk bears three kinds of fruit, a wonder of nature.",
+      "mo_ta_fr": "Un temple dédié aux Deux Saintes Mères Tu Quang et Tu Minh — lié à la légende du Marais des Deux Dames et à un édit de Khai Dinh de 1924. À côté, pousse un plaqueminier de plus de 400 ans dont le tronc unique porte trois sortes de fruits, une merveille de la nature.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Sáng",
+      "diem": "Hồ Baibóo & các homestay ven hồ",
+      "diem_en": "Baiboo Lake & the lakeside homestays",
+      "diem_fr": "Lac Baiboo & les homestays au bord du lac",
+      "mo_ta": "Hồ ngọc bích giữa đất Mường, đường vòng hồ chừng 4 km. Bạn ngắm cảnh hồ, khoác trang phục Mường lưu hình, đi bè tre ra giữa mặt nước và ghé các homestay ven hồ để cảm nhận nếp sống vùng nước.",
+      "mo_ta_en": "A jade-green lake at the heart of the Muong land, about 4 km around. You take in the view, wear Muong dress for photos, raft out onto the lake, and visit the lakeside homestays to sense the life of the waterside.",
+      "mo_ta_fr": "Un lac vert jade au cœur du pays Muong, d'environ 4 km de circonférence. Vous admirez la vue, portez la tenue Muong pour des photos, vous aventurez sur le lac en radeau et visitez les séjours chez l'habitant au bord du lac pour ressentir la vie du bord de l'eau.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Trưa",
+      "diem": "Bữa trưa Cỗ Lá Mường & giao lưu văn nghệ",
+      "diem_en": "Co La Muong lunch & a performance exchange",
+      "diem_fr": "Déjeuner Co La Muong et échange de performances",
+      "mo_ta": "Mâm Cỗ Lá Mường được bày trên lá chuối, nguyên liệu 100% địa phương, cùng các tiết mục văn nghệ truyền thống do chính cộng đồng biểu diễn. Bữa ăn và tiếng hát quyện vào nhau, ấm như trong một mái nhà Mường.",
+      "mo_ta_en": "A Co La Muong feast laid on banana leaves, ingredients 100% local, alongside traditional performances by the community itself. The meal and the singing intertwine, as warm as being under a Muong roof.",
+      "mo_ta_fr": "Un festin Co La Muong servi sur des feuilles de bananier, avec des ingrédients 100% locaux, accompagné de performances traditionnelles de la communauté. Le repas et les chants s'entremêlent, aussi chaleureux que d'être sous un toit Muong.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Chiều",
+      "diem": "Đình Phú Cốc — Lễ Mo Mường",
+      "diem_en": "Phu Coc Communal House — the Mo Muong ritual",
+      "diem_fr": "Maison Communale de Phu Coc — le rituel Mo Muong",
+      "mo_ta": "Tại ngôi đại đình chung của các thôn người Mường, bạn được dự một lễ Mo Mường do nghệ nhân thực hiện — những lời mo cổ ngân lên trong không gian thiêng. Đây là một di sản tinh thần quý giá, được người Mường gìn giữ qua nhiều thế hệ.",
+      "mo_ta_en": "At the great communal house of the Muong hamlets, you attend a Mo Muong ritual performed by an artisan — ancient chants rising through the sacred space. This is a precious spiritual heritage, kept by the Muong people across many generations.",
+      "mo_ta_fr": "Dans la grande maison communale des hameaux Muong, vous assistez à un rituel Mo Muong interprété par un artisan — des chants anciens s'élevant à travers l'espace sacré. C'est un précieux héritage spirituel, préservé par le peuple Muong à travers de nombreuses générations.",
+      "luu_y": "Lễ Mo Mường cần đặt lịch trước với Ban điều phối và nghệ nhân. Phụ thu riêng.",
+      "luu_y_en": "The Mo Muong ritual must be booked in advance with the coordination board and the artisan. A separate fee applies.",
+      "luu_y_fr": "Le rituel Mo Muong doit être réservé à l'avance auprès du comité de coordination et de l'artisan. Un supplément s'applique."
+    },
+    {
+      "gio_hoac_buoi": "Chiều",
+      "diem": "Đầm sen — Trải nghiệm văn hoá sen",
+      "diem_en": "Lotus marsh — a lotus-culture experience",
+      "diem_fr": "Le marais aux lotus — une immersion dans la culture du lotus",
+      "mo_ta": "Bạn lội đầm hái sen, lẩy hạt sen, học cách ướp trà sen công phu và lưu lại những khung hình giữa đầm sen thơm ngát. Mùa sen đẹp nhất từ tháng 6 đến tháng 8 hàng năm, khi cả đầm rực hồng dưới nắng.",
+      "mo_ta_en": "You wade into the marsh to pick lotus, shell the seeds, learn the careful craft of scenting lotus tea, and capture frames amid the fragrant blooms. The lotus season peaks from June to August, when the whole marsh glows pink in the sun.",
+      "mo_ta_fr": "Vous pataugez dans le marais pour cueillir des lotus, écalez les graines, apprenez l'art délicat de parfumer le thé au lotus et capturez des images au milieu des fleurs parfumées. La saison des lotus culmine de juin à août, lorsque tout le marais s'illumine de rose sous le soleil.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Chiều",
+      "diem": "Nhà Niệm Nga — Làm trà sen & chọn quà",
+      "diem_en": "The Niem Nga family — make lotus tea & choose gifts",
+      "diem_fr": "La famille Niem Nga — préparez du thé au lotus et choisissez des cadeaux.",
+      "mo_ta": "Bạn cùng nhà Niệm Nga trải nghiệm làm trà sen, rồi chọn vài món đặc sản làm quà — trà sen và mật ong An Phú. Một chút hương sen Mường Cốc theo bạn về tận nhà.",
+      "mo_ta_en": "With the Niem Nga family you try making lotus tea, then choose a few local specialities as gifts — lotus tea and An Phu honey. A little of Muong Coc's lotus fragrance travels home with you.",
+      "mo_ta_fr": "Avec la famille Niem Nga, vous vous initiez à la préparation du thé au lotus, puis choisissez quelques spécialités locales à offrir — thé au lotus et miel d'An Phu. Un peu du parfum de lotus de Muong Coc vous accompagnera jusqu'à chez vous.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Chiều",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to the Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
+      "mo_ta": "Bạn trở về điểm xuất phát, khép lại một ngày đậm hương sen và văn hoá Mường. Mường Cốc tiễn bạn với lời hẹn gặp lại.",
+      "mo_ta_en": "You return to the starting point, closing a day rich with lotus fragrance and Muong culture. Muong Coc sees you off with a wish to meet again.",
+      "mo_ta_fr": "Vous retournez au point de départ, clôturant une journée riche en parfum de lotus et en culture Muong. Muong Coc vous fait ses adieux avec le souhait de vous revoir.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một khoảng lặng tâm linh mở đầu hành trình.", "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old shading the courtyard. A spiritual pause to open the journey."},
-    {"ten": "Đền Cây Thợi & Cây Thị 400 năm", "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Một kỳ tích thiên nhiên của đất Mường.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old whose single trunk bears three kinds of fruit. A natural wonder of the Muong land."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, đường vòng hồ chừng 4 km. Bạn khoác trang phục Mường lưu hình bên hồ và đi bè tre ra giữa mặt nước. Quanh hồ là các homestay đậm nếp sống vùng nước.", "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You wear Muong dress for photos by the water and raft out onto the lake. Lakeside homestays carry the life of the waterside."},
-    {"ten": "Đình Phú Cốc", "ten_en": "Phu Coc Communal House", "loai": "Di tích · Di sản tinh thần", "loai_en": "Heritage · Spiritual heritage", "mo_ta_ngan": "Ngôi đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Đây là nơi diễn ra lễ Mo Mường do nghệ nhân thực hiện. Những lời mo cổ ngân lên trong không gian đình làng thiêng liêng.", "mo_ta_ngan_en": "The great communal house of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. It is where the Mo Muong ritual is performed by an artisan. Ancient chants rise through the sacred village hall."},
-    {"ten": "Đầm sen & Nhà Niệm Nga", "ten_en": "Lotus Marsh & the Niem Nga Family", "loai": "Trải nghiệm văn hoá sen", "loai_en": "Lotus-culture experience", "mo_ta_ngan": "Đầm sen thơm ngát nơi bạn hái sen, lẩy hạt và học ướp trà sen công phu. Tại nhà Niệm Nga, bạn tự tay làm trà sen và chọn quà mang về. Đặc sản nổi bật là trà sen và mật ong An Phú.", "mo_ta_ngan_en": "A fragrant lotus marsh where you pick lotus, shell the seeds, and learn the careful craft of lotus tea. At the Niem Nga home, you make lotus tea yourself and choose gifts to take home. Standout specialities are lotus tea and An Phu honey."}
+    {
+      "ten": "Chùa Phú Cốc",
+      "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một khoảng lặng tâm linh mở đầu hành trình.",
+      "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old shading the courtyard. A spiritual pause to open the journey.",
+      "mo_ta_ngan_fr": "Une ancienne pagode sur une colline aérée, l'ancre spirituelle des six villages de la région de Phu Coc. En son cœur se trouve un banian de plus de 400 ans ombrageant la cour. Une pause spirituelle pour ouvrir le voyage."
+    },
+    {
+      "ten": "Đền Cây Thợi & Cây Thị 400 năm",
+      "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree",
+      "ten_fr": "Temple Cay Thoi & le Plaqueminier quadricentenaire",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Một kỳ tích thiên nhiên của đất Mường.",
+      "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old whose single trunk bears three kinds of fruit. A natural wonder of the Muong land.",
+      "mo_ta_ngan_fr": "Un temple dédié aux Deux Saintes Mères Tu Quang et Tu Minh, lié à la légende du Marais des Deux Dames et à un édit de Khai Dinh de 1924. À côté se dresse un plaqueminier de plus de 400 ans dont le tronc unique porte trois sortes de fruits. Une merveille naturelle de la terre Muong."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, đường vòng hồ chừng 4 km. Bạn khoác trang phục Mường lưu hình bên hồ và đi bè tre ra giữa mặt nước. Quanh hồ là các homestay đậm nếp sống vùng nước.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around. You wear Muong dress for photos by the water and raft out onto the lake. Lakeside homestays carry the life of the waterside.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence. Vous portez la tenue Muong pour des photos au bord de l'eau et vous vous aventurez sur le lac en radeau. Les séjours chez l'habitant au bord du lac portent la vie du bord de l'eau."
+    },
+    {
+      "ten": "Đình Phú Cốc",
+      "ten_en": "Phu Coc Communal House",
+      "ten_fr": "Maison Communale de Phu Coc",
+      "loai": "Di tích · Di sản tinh thần",
+      "loai_en": "Heritage · Spiritual heritage",
+      "loai_fr": "Patrimoine · Héritage spirituel",
+      "mo_ta_ngan": "Ngôi đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Đây là nơi diễn ra lễ Mo Mường do nghệ nhân thực hiện. Những lời mo cổ ngân lên trong không gian đình làng thiêng liêng.",
+      "mo_ta_ngan_en": "The great communal house of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. It is where the Mo Muong ritual is performed by an artisan. Ancient chants rise through the sacred village hall.",
+      "mo_ta_ngan_fr": "La grande maison communale des hameaux Muong, honorant les Deux Saintes Mères Tu Quang et Tu Minh. C'est là que le rituel Mo Muong est exécuté par un artisan. Des chants anciens s'élèvent dans la salle sacrée du village."
+    },
+    {
+      "ten": "Đầm sen & Nhà Niệm Nga",
+      "ten_en": "Lotus Marsh & the Niem Nga Family",
+      "ten_fr": "Le marais aux lotus et la famille Niem Nga",
+      "loai": "Trải nghiệm văn hoá sen",
+      "loai_en": "Lotus-culture experience",
+      "loai_fr": "Immersion dans la culture du lotus",
+      "mo_ta_ngan": "Đầm sen thơm ngát nơi bạn hái sen, lẩy hạt và học ướp trà sen công phu. Tại nhà Niệm Nga, bạn tự tay làm trà sen và chọn quà mang về. Đặc sản nổi bật là trà sen và mật ong An Phú.",
+      "mo_ta_ngan_en": "A fragrant lotus marsh where you pick lotus, shell the seeds, and learn the careful craft of lotus tea. At the Niem Nga home, you make lotus tea yourself and choose gifts to take home. Standout specialities are lotus tea and An Phu honey.",
+      "mo_ta_ngan_fr": "Un marais de lotus parfumé où vous cueillez des lotus, écalez les graines et apprenez l'art délicat du thé au lotus. Chez Niem Nga, vous préparez vous-même le thé au lotus et choisissez des cadeaux à rapporter. Les spécialités phares sont le thé au lotus et le miel d'An Phu."
+    }
   ],
   "bao_gom": [
     "Phương tiện di chuyển nội vùng và mũ bảo hiểm",
@@ -66,6 +227,16 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Transport sur place et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Déjeuner festif Muong + échange de performances communautaires",
+    "L'expérience du marais aux lotus + un atelier de thé au lotus chez Niem Nga",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -80,19 +251,74 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Le rituel Mo Muong à la Maison Communale de Phu Coc — supplément, à réserver au moins 5 jours à l'avance.",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người yêu văn hoá bản địa", "nhom_en": "Lovers of local culture", "mo_ta": "Yêu di sản tinh thần.", "mo_ta_en": "Who treasure spiritual heritage."},
-    {"nhom": "Gia đình, nhóm bạn", "nhom_en": "Families and groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "2–12 people."},
-    {"nhom": "Đoàn cơ quan, trường học", "nhom_en": "Company and school groups", "mo_ta": "Nghiên cứu văn hoá.", "mo_ta_en": "For cultural study."},
-    {"nhom": "Khách quốc tế", "nhom_en": "International travellers", "mo_ta": "Yêu slow travel và muốn hiểu sâu văn hoá Mường.", "mo_ta_en": "Who love slow travel and wish to understand Muong culture deeply."}
+    {
+      "nhom": "Người yêu văn hoá bản địa",
+      "nhom_en": "Lovers of local culture",
+      "nhom_fr": "Amoureux de la culture locale",
+      "mo_ta": "Yêu di sản tinh thần.",
+      "mo_ta_en": "Who treasure spiritual heritage.",
+      "mo_ta_fr": "Ceux qui chérissent le patrimoine spirituel."
+    },
+    {
+      "nhom": "Gia đình, nhóm bạn",
+      "nhom_en": "Families and groups of friends",
+      "nhom_fr": "Familles et groupes d'amis",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "2–12 people.",
+      "mo_ta_fr": "2 à 12 personnes."
+    },
+    {
+      "nhom": "Đoàn cơ quan, trường học",
+      "nhom_en": "Company and school groups",
+      "nhom_fr": "Groupes d'entreprises et scolaires",
+      "mo_ta": "Nghiên cứu văn hoá.",
+      "mo_ta_en": "For cultural study.",
+      "mo_ta_fr": "Pour l'étude culturelle."
+    },
+    {
+      "nhom": "Khách quốc tế",
+      "nhom_en": "International travellers",
+      "nhom_fr": "Voyageurs internationaux",
+      "mo_ta": "Yêu slow travel và muốn hiểu sâu văn hoá Mường.",
+      "mo_ta_en": "Who love slow travel and wish to understand Muong culture deeply.",
+      "mo_ta_fr": "Amoureux du voyage lent et désireux de comprendre en profondeur la culture Muong."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Lễ Mo Mường", "tieu_de_en": "The Mo Muong ritual", "mo_ta": "Cần đặt lịch trước với Ban điều phối và nghệ nhân; phụ thu riêng, đặt trước tối thiểu 5 ngày.", "mo_ta_en": "Must be booked in advance with the coordination board and the artisan; a separate fee applies, with at least 5 days' notice."},
-    {"tieu_de": "Mùa sen", "tieu_de_en": "Lotus season", "mo_ta": "Đẹp nhất từ tháng 6 đến tháng 8 hàng năm.", "mo_ta_en": "At its finest from June to August each year."}
+    {
+      "tieu_de": "Lễ Mo Mường",
+      "tieu_de_en": "The Mo Muong ritual",
+      "tieu_de_fr": "Le rituel Mo Muong",
+      "mo_ta": "Cần đặt lịch trước với Ban điều phối và nghệ nhân; phụ thu riêng, đặt trước tối thiểu 5 ngày.",
+      "mo_ta_en": "Must be booked in advance with the coordination board and the artisan; a separate fee applies, with at least 5 days' notice.",
+      "mo_ta_fr": "Doit être réservé à l'avance auprès du comité de coordination et de l'artisan ; un supplément s'applique, avec un préavis d'au moins 5 jours."
+    },
+    {
+      "tieu_de": "Mùa sen",
+      "tieu_de_en": "Lotus season",
+      "tieu_de_fr": "Saison des lotus",
+      "mo_ta": "Đẹp nhất từ tháng 6 đến tháng 8 hàng năm.",
+      "mo_ta_en": "At its finest from June to August each year.",
+      "mo_ta_fr": "À son apogée de juin à août chaque année."
+    }
   ],
   "net_zero": "Trải nghiệm văn hoá sen — hái sen, ướp trà sen gắn nếp sống xanh người Mường",
   "net_zero_en": "A lotus-culture experience — picking lotus and scenting tea, tied to the green Muong way of life",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Une expérience de la culture du lotus — cueillette de lotus et parfumage de thé, liée au mode de vie vert des Muong.",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

@@ -5,14 +5,18 @@
   "theme": "ketnoi",
   "tagline": "Bản Mường — Rừng Nguyên Sinh — Hai Ngày Chạm Thiên Nhiên",
   "tagline_en": "Muong Village — Primeval Forest — Two Days Touching Nature",
+  "tagline_fr": "Village Muong — Forêt Primaire — Deux Jours au Contact de la Nature",
   "thoi_luong": "2 ngày 1 đêm",
   "thoi_luong_en": "2 days 1 night",
+  "thoi_luong_fr": "2 jours 1 nuit",
   "cu_ly": "Mường Cốc → Cúc Phương ~55 km",
   "quy_mo": "2 – 12 khách",
   "gia": "Liên hệ Ban điều phối để nhận báo giá",
   "gia_en": "Contact the Coordination Board for a detailed quote",
+  "gia_fr": "Contactez le Conseil de Coordination pour un devis détaillé",
   "intro": "Mường Cốc và Vườn Quốc gia Cúc Phương — hai điểm đến cách nhau chưa đầy 60 km — mang hai chiều sâu khác nhau của thiên nhiên: một nơi là thiên nhiên đã được thuần hoá, sống cùng người Mường qua bao đời; một nơi là thiên nhiên còn nguyên vẹn, rừng nguyên sinh chưa bị bàn tay con người can thiệp. Hành trình hai ngày cho bạn trải nghiệm cả hai chiều sâu đó.",
   "intro_en": "Muong Coc and Cuc Phuong National Park — two destinations less than 60 km apart — hold two different depths of nature: one is nature long tamed, lived alongside the Muong people for generations; the other is nature still whole, a primeval forest untouched by human hands. This two-day journey lets you experience both of these depths.",
+  "intro_fr": "Muong Coc et le Parc National de Cuc Phuong — deux destinations distantes de moins de 60 km — recèlent deux facettes distinctes de la nature : l'une est une nature apprivoisée depuis longtemps, vécue aux côtés du peuple Muong depuis des générations ; l'autre est une nature encore intacte, une forêt primaire préservée de toute intervention humaine. Ce voyage de deux jours vous permet de découvrir ces deux profondeurs.",
   "highlights": [
     "Bản Mường + Rừng nguyên sinh — hai chiều sâu thiên nhiên trong 2 ngày: thiên nhiên sống cùng người và thiên nhiên còn nguyên vẹn.",
     "Đêm lửa trại cồng chiêng — trải nghiệm âm nhạc và lửa trại Mường giữa không gian bản địa thực sự.",
@@ -29,23 +33,178 @@
     "Wildlife rescue — meet the rare primates and turtles being conserved.",
     "A green-travel commitment — the \"5 Nos\", refill stations, tree planting, zero plastic."
   ],
+  "highlights_fr": [
+    "Village Muong + forêt primaire — deux facettes de la nature en deux jours : une nature habitée, une nature intacte.",
+    "Soirée feu de camp et gongs — découvrez la musique Muong et un feu de camp dans un cadre authentiquement local.",
+    "Famille d'accueil communautaire — reposez-vous dans l'espace paisible d'une maison sur pilotis Muong.",
+    "Le Cho millénaire de Cuc Phuong — un symbole d'endurance, une étape incontournable.",
+    "Sauvetage de la faune — rencontrez les primates et tortues rares en conservation.",
+    "Un engagement pour un voyage éco-responsable — les « 5 Non », les stations de recharge, la plantation d'arbres, zéro plastique."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "Ngày 1 — Sáng", "diem": "Hà Nội → Tourism Hub Đồi Dùng & văn hoá Mường", "diem_en": "Hanoi → Doi Dung Tourism Hub & Muong culture", "mo_ta": "Xe xuất phát từ Hà Nội, đến Tourism Hub Đồi Dùng ~1,5 – 2 tiếng. HDV bản địa đón bằng ly trà thảo dược, nhận xe đạp. Khám phá Chùa Phú Cốc (cây đa hơn 400 năm), Hồ Baibóo (bè tre, trang phục Mường), Đền Cây Thợi (cây thị 400 năm), vườn sim cổ (rượu sim OCOP).", "mo_ta_en": "The coach departs Hanoi and reaches Doi Dung Tourism Hub in about 1.5–2 hours. A local Muong guide welcomes you with a cup of herbal tea, and you receive your bicycle. Explore Phu Coc Pagoda (a banyan over 400 years old), Baiboo Lake (bamboo rafts, Muong costume), Cay Thoi Temple (a 400-year-old persimmon tree), and an old myrtle garden (OCOP myrtle wine).", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Trưa", "diem": "Bữa trưa Cỗ Lá Mường", "diem_en": "Co La Muong feast (lunch)", "mo_ta": "Mâm Cỗ Lá Mường bày trên lá chuối tươi — nguyên liệu 100% địa phương, không một chiếc đĩa nhựa.", "mo_ta_en": "The Co La Muong feast is laid out on fresh banana leaves — 100% local ingredients, not a single plastic plate.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Chiều", "diem": "Tiếp tục khám phá bản Mường", "diem_en": "Continue exploring the Muong village", "mo_ta": "Đạp xe dạo quanh Thung Cánh (mô hình 5 KHÔNG); trồng một cây nhỏ làm kỷ niệm, nhận Chứng nhận trồng cây. Thăm Trạm Chill Thung Cánh Farmstay (vườn dược liệu, hái hoa quả theo mùa) và Gió Núi Farmstay (Vườn — Ao — Chuồng, dụng cụ nông — ngư nghiệp cổ).", "mo_ta_en": "Cycle around Thung Canh valley (the \"5 Nos\" model); plant a small keepsake tree and receive a tree-planting certificate. Visit Thung Canh Farmstay Chill Stop (herb garden, seasonal fruit picking) and Gio Nui Farmstay (garden–pond–pen, old farming and fishing tools).", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 1 — Tối", "diem": "Lửa trại & nghỉ homestay cộng đồng", "diem_en": "Campfire & community homestay overnight", "mo_ta": "Sau bữa tối tại nhà dân, cả đoàn quây quần bên lửa trại — tiếng cồng chiêng Mường vang lên trong đêm, giao lưu văn nghệ. Nghỉ đêm tại homestay cộng đồng Mường Cốc — không gian nhà sàn truyền thống.", "mo_ta_en": "After dinner at a local home, the group gathers around the campfire — Muong gongs ring out into the night with shared performances. Spend the night at a Muong Coc community homestay — a traditional stilt-house setting.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 2 — Sáng", "diem": "Mường Cốc → Vườn Quốc gia Cúc Phương (Ninh Bình ~55 km)", "diem_en": "Muong Coc → Cuc Phuong National Park (Ninh Binh, ~55 km)", "mo_ta": "Sau bữa sáng tại homestay, xe đưa bạn đến Cúc Phương — khu rừng nguyên sinh lớn nhất miền Bắc (thành lập 1962). Khám phá rừng nguyên sinh, Cây Chò ngàn năm, Trung tâm Cứu hộ Động vật hoang dã (linh trưởng, rùa quý hiếm).", "mo_ta_en": "After breakfast at the homestay, the coach takes you to Cuc Phuong — the largest primeval forest in the north (established 1962). Explore the old-growth forest, the thousand-year Cho tree, and the Wildlife Rescue Centre (rare primates and turtles).", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 2 — Trưa", "diem": "Bữa trưa tại Cúc Phương", "diem_en": "Lunch at Cuc Phuong", "mo_ta": "Bữa trưa tại khu nhà ăn trong vườn quốc gia.", "mo_ta_en": "Lunch at the national park's dining area.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "Ngày 2 — Chiều", "diem": "Trở về Hà Nội", "diem_en": "Return to Hanoi", "mo_ta": "Xe đưa bạn trở về Hà Nội theo đường Hồ Chí Minh. Bạn mang theo tiếng cồng chiêng đêm đầu ở bản Mường, và màu xanh thẳm của rừng nguyên sinh.", "mo_ta_en": "The coach takes you back to Hanoi along the Ho Chi Minh Highway. You carry home the sound of the gongs from that first night in the Muong village, and the deep green of the primeval forest.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "Ngày 1 — Sáng",
+      "diem": "Hà Nội → Tourism Hub Đồi Dùng & văn hoá Mường",
+      "diem_en": "Hanoi → Doi Dung Tourism Hub & Muong culture",
+      "diem_fr": "Hanoi → Doi Dung Tourism Hub & culture Muong",
+      "mo_ta": "Xe xuất phát từ Hà Nội, đến Tourism Hub Đồi Dùng ~1,5 – 2 tiếng. HDV bản địa đón bằng ly trà thảo dược, nhận xe đạp. Khám phá Chùa Phú Cốc (cây đa hơn 400 năm), Hồ Baibóo (bè tre, trang phục Mường), Đền Cây Thợi (cây thị 400 năm), vườn sim cổ (rượu sim OCOP).",
+      "mo_ta_en": "The coach departs Hanoi and reaches Doi Dung Tourism Hub in about 1.5–2 hours. A local Muong guide welcomes you with a cup of herbal tea, and you receive your bicycle. Explore Phu Coc Pagoda (a banyan over 400 years old), Baiboo Lake (bamboo rafts, Muong costume), Cay Thoi Temple (a 400-year-old persimmon tree), and an old myrtle garden (OCOP myrtle wine).",
+      "mo_ta_fr": "Le car part de Hanoi et atteint le Pôle Touristique Doi Dung en environ 1h30-2h. Un guide Muong local vous accueille avec une tasse de tisane, et vous recevez votre vélo. Explorez la Pagode Phu Coc (un banian de plus de 400 ans), le lac Baiboo (radeaux en bambou, costume Muong), le Temple Cay Thoi (un plaqueminier de 400 ans) et un ancien jardin de myrtes (vin de myrte OCOP).",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Trưa",
+      "diem": "Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Co La Muong feast (lunch)",
+      "diem_fr": "Festin Co La Muong (déjeuner)",
+      "mo_ta": "Mâm Cỗ Lá Mường bày trên lá chuối tươi — nguyên liệu 100% địa phương, không một chiếc đĩa nhựa.",
+      "mo_ta_en": "The Co La Muong feast is laid out on fresh banana leaves — 100% local ingredients, not a single plastic plate.",
+      "mo_ta_fr": "Le festin Co La Muong est dressé sur des feuilles de bananier fraîches — 100% ingrédients locaux, pas une seule assiette en plastique.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Chiều",
+      "diem": "Tiếp tục khám phá bản Mường",
+      "diem_en": "Continue exploring the Muong village",
+      "diem_fr": "Poursuivez l'exploration du village Muong",
+      "mo_ta": "Đạp xe dạo quanh Thung Cánh (mô hình 5 KHÔNG); trồng một cây nhỏ làm kỷ niệm, nhận Chứng nhận trồng cây. Thăm Trạm Chill Thung Cánh Farmstay (vườn dược liệu, hái hoa quả theo mùa) và Gió Núi Farmstay (Vườn — Ao — Chuồng, dụng cụ nông — ngư nghiệp cổ).",
+      "mo_ta_en": "Cycle around Thung Canh valley (the \"5 Nos\" model); plant a small keepsake tree and receive a tree-planting certificate. Visit Thung Canh Farmstay Chill Stop (herb garden, seasonal fruit picking) and Gio Nui Farmstay (garden–pond–pen, old farming and fishing tools).",
+      "mo_ta_fr": "Parcourez à vélo la vallée de Thung Canh (le modèle « 5 Sans ») ; plantez un petit arbre souvenir et recevez un certificat de plantation. Visitez le Thung Canh Farmstay Chill Stop (jardin d'herbes aromatiques, cueillette de fruits de saison) et le Gio Nui Farmstay (jardin-étang-enclos, anciens outils agricoles et de pêche).",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 1 — Tối",
+      "diem": "Lửa trại & nghỉ homestay cộng đồng",
+      "diem_en": "Campfire & community homestay overnight",
+      "diem_fr": "Feu de camp & nuit au homestay communautaire",
+      "mo_ta": "Sau bữa tối tại nhà dân, cả đoàn quây quần bên lửa trại — tiếng cồng chiêng Mường vang lên trong đêm, giao lưu văn nghệ. Nghỉ đêm tại homestay cộng đồng Mường Cốc — không gian nhà sàn truyền thống.",
+      "mo_ta_en": "After dinner at a local home, the group gathers around the campfire — Muong gongs ring out into the night with shared performances. Spend the night at a Muong Coc community homestay — a traditional stilt-house setting.",
+      "mo_ta_fr": "Après le dîner chez l'habitant, le groupe se rassemble autour du feu de camp — les gongs Muong résonnent dans la nuit avec des performances partagées. Passez la nuit dans une famille d'accueil communautaire à Muong Coc — un cadre traditionnel de maison sur pilotis.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Sáng",
+      "diem": "Mường Cốc → Vườn Quốc gia Cúc Phương (Ninh Bình ~55 km)",
+      "diem_en": "Muong Coc → Cuc Phuong National Park (Ninh Binh, ~55 km)",
+      "diem_fr": "Muong Coc → Parc National de Cuc Phuong (Ninh Binh, ~55 km)",
+      "mo_ta": "Sau bữa sáng tại homestay, xe đưa bạn đến Cúc Phương — khu rừng nguyên sinh lớn nhất miền Bắc (thành lập 1962). Khám phá rừng nguyên sinh, Cây Chò ngàn năm, Trung tâm Cứu hộ Động vật hoang dã (linh trưởng, rùa quý hiếm).",
+      "mo_ta_en": "After breakfast at the homestay, the coach takes you to Cuc Phuong — the largest primeval forest in the north (established 1962). Explore the old-growth forest, the thousand-year Cho tree, and the Wildlife Rescue Centre (rare primates and turtles).",
+      "mo_ta_fr": "Après le petit-déjeuner chez l'habitant, le car vous emmène à Cuc Phuong — la plus grande forêt primaire du nord (établie en 1962). Explorez la forêt ancienne, l'arbre Cho millénaire et le Centre de Sauvetage de la Faune (primates et tortues rares).",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Trưa",
+      "diem": "Bữa trưa tại Cúc Phương",
+      "diem_en": "Lunch at Cuc Phuong",
+      "diem_fr": "Déjeuner à Cuc Phuong",
+      "mo_ta": "Bữa trưa tại khu nhà ăn trong vườn quốc gia.",
+      "mo_ta_en": "Lunch at the national park's dining area.",
+      "mo_ta_fr": "Déjeuner à l'espace de restauration du parc national.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "Ngày 2 — Chiều",
+      "diem": "Trở về Hà Nội",
+      "diem_en": "Return to Hanoi",
+      "diem_fr": "Retour à Hanoi",
+      "mo_ta": "Xe đưa bạn trở về Hà Nội theo đường Hồ Chí Minh. Bạn mang theo tiếng cồng chiêng đêm đầu ở bản Mường, và màu xanh thẳm của rừng nguyên sinh.",
+      "mo_ta_en": "The coach takes you back to Hanoi along the Ho Chi Minh Highway. You carry home the sound of the gongs from that first night in the Muong village, and the deep green of the primeval forest.",
+      "mo_ta_fr": "Le car vous ramène à Hanoi le long de l'Autoroute Ho Chi Minh. Vous emportez chez vous le son des gongs de cette première nuit dans le village Muong, et le vert profond de la forêt primaire.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Chùa cổ với cây đa hơn 400 năm tuổi.", "mo_ta_ngan_en": "An ancient pagoda with a banyan tree over 400 years old."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ ngọc bích, đi bè tre ra giữa mặt nước.", "mo_ta_ngan_en": "An emerald lake; take a bamboo raft out across the water."},
-    {"ten": "Đền Cây Thợi", "ten_en": "Cay Thoi Temple", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu, cây thị 400 năm ba loại quả.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers, beside a 400-year-old persimmon tree bearing three kinds of fruit."},
-    {"ten": "Thung Cánh", "ten_en": "Thung Canh valley", "loai": "Thiên nhiên · Net-Zero", "loai_en": "Nature · Net-Zero", "mo_ta_ngan": "Thung lũng hoang sơ 5 KHÔNG — nơi trồng cây kỷ niệm.", "mo_ta_ngan_en": "A pristine \"5 Nos\" valley — where you plant a keepsake tree."},
-    {"ten": "Gió Núi Farmstay", "ten_en": "Gio Nui Farmstay", "loai": "Farmstay", "loai_en": "Farmstay", "mo_ta_ngan": "Không gian Vườn — Ao — Chuồng, dụng cụ nông — ngư nghiệp cổ.", "mo_ta_ngan_en": "A garden–pond–pen homestead with old farming and fishing tools."},
-    {"ten": "Cây Chò ngàn năm Cúc Phương", "ten_en": "Cuc Phuong's thousand-year Cho tree", "loai": "Rừng nguyên sinh", "loai_en": "Primeval forest", "mo_ta_ngan": "Cây chò cổ thụ hàng nghìn năm tuổi — biểu tượng của Cúc Phương.", "mo_ta_ngan_en": "An ancient Cho tree thousands of years old — the symbol of Cuc Phuong."},
-    {"ten": "Trung tâm Cứu hộ Động vật hoang dã", "ten_en": "Wildlife Rescue Centre", "loai": "Bảo tồn thiên nhiên", "loai_en": "Nature conservation", "mo_ta_ngan": "Linh trưởng, rùa quý hiếm được chăm sóc và tái thả về tự nhiên.", "mo_ta_ngan_en": "Rare primates and turtles cared for and released back into the wild."}
+    {
+      "ten": "Chùa Phú Cốc",
+      "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Chùa cổ với cây đa hơn 400 năm tuổi.",
+      "mo_ta_ngan_en": "An ancient pagoda with a banyan tree over 400 years old.",
+      "mo_ta_ngan_fr": "Une pagode ancienne abritant un banian de plus de 400 ans."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ ngọc bích, đi bè tre ra giữa mặt nước.",
+      "mo_ta_ngan_en": "An emerald lake; take a bamboo raft out across the water.",
+      "mo_ta_ngan_fr": "Un lac émeraude ; traversez l'eau en radeau de bambou."
+    },
+    {
+      "ten": "Đền Cây Thợi",
+      "ten_en": "Cay Thoi Temple",
+      "ten_fr": "Temple Cay Thoi",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu, cây thị 400 năm ba loại quả.",
+      "mo_ta_ngan_en": "A temple to the Two Holy Mothers, beside a 400-year-old persimmon tree bearing three kinds of fruit.",
+      "mo_ta_ngan_fr": "Un temple dédié aux Deux Saintes Mères, à côté d'un plaqueminier de 400 ans portant trois sortes de fruits."
+    },
+    {
+      "ten": "Thung Cánh",
+      "ten_en": "Thung Canh valley",
+      "ten_fr": "La vallée de Thung Canh",
+      "loai": "Thiên nhiên · Net-Zero",
+      "loai_en": "Nature · Net-Zero",
+      "loai_fr": "Nature · Net-Zero",
+      "mo_ta_ngan": "Thung lũng hoang sơ 5 KHÔNG — nơi trồng cây kỷ niệm.",
+      "mo_ta_ngan_en": "A pristine \"5 Nos\" valley — where you plant a keepsake tree.",
+      "mo_ta_ngan_fr": "Une vallée immaculée « 5 Sans » — où vous plantez un arbre souvenir."
+    },
+    {
+      "ten": "Gió Núi Farmstay",
+      "ten_en": "Gio Nui Farmstay",
+      "ten_fr": "Gio Nui Farmstay",
+      "loai": "Farmstay",
+      "loai_en": "Farmstay",
+      "loai_fr": "Séjour à la ferme",
+      "mo_ta_ngan": "Không gian Vườn — Ao — Chuồng, dụng cụ nông — ngư nghiệp cổ.",
+      "mo_ta_ngan_en": "A garden–pond–pen homestead with old farming and fishing tools.",
+      "mo_ta_ngan_fr": "Une ferme avec jardin, étang et enclos, présentant d'anciens outils agricoles et de pêche."
+    },
+    {
+      "ten": "Cây Chò ngàn năm Cúc Phương",
+      "ten_en": "Cuc Phuong's thousand-year Cho tree",
+      "ten_fr": "Le Cho millénaire de Cuc Phuong",
+      "loai": "Rừng nguyên sinh",
+      "loai_en": "Primeval forest",
+      "loai_fr": "Forêt primaire",
+      "mo_ta_ngan": "Cây chò cổ thụ hàng nghìn năm tuổi — biểu tượng của Cúc Phương.",
+      "mo_ta_ngan_en": "An ancient Cho tree thousands of years old — the symbol of Cuc Phuong.",
+      "mo_ta_ngan_fr": "Un ancien arbre Cho millénaire — le symbole de Cuc Phuong."
+    },
+    {
+      "ten": "Trung tâm Cứu hộ Động vật hoang dã",
+      "ten_en": "Wildlife Rescue Centre",
+      "ten_fr": "Centre de sauvetage de la faune",
+      "loai": "Bảo tồn thiên nhiên",
+      "loai_en": "Nature conservation",
+      "loai_fr": "Conservation de la nature",
+      "mo_ta_ngan": "Linh trưởng, rùa quý hiếm được chăm sóc và tái thả về tự nhiên.",
+      "mo_ta_ngan_en": "Rare primates and turtles cared for and released back into the wild.",
+      "mo_ta_ngan_fr": "Primates et tortues rares soignés et relâchés dans la nature."
+    }
   ],
   "bao_gom": [
     "Xe đưa đón và di chuyển giữa các điểm theo lộ trình (Hà Nội → Mường Cốc → Cúc Phương → Hà Nội)",
@@ -75,6 +234,20 @@
     "One tree planted per guest at Thung Canh valley + tree-planting certificate",
     "Comprehensive travel insurance"
   ],
+  "bao_gom_fr": [
+    "Transferts et transport entre tous les points de l'itinéraire (Hanoi → Muong Coc → Cuc Phuong → Hanoi)",
+    "Guides ; le segment Muong Coc est dirigé par un guide local",
+    "Vélo et casque à Muong Coc",
+    "Déjeuner du jour 1 : Festin Co La Muong chez l'habitant (zéro plastique)",
+    "Dîner du jour 1 chez l'habitant + soirée spectacle autour du feu de camp communautaire",
+    "Une nuit dans un hébergement communautaire Muong Coc",
+    "Petit-déjeuner du jour 2 au homestay",
+    "Droits d'entrée au Parc National de Cuc Phuong + Centre de Sauvetage de la Faune",
+    "Déjeuner du jour 2 à Cuc Phuong",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Un arbre planté par invité dans la vallée de Thung Canh + certificat de plantation d'arbre",
+    "Assurance voyage complète"
+  ],
   "khong_bao_gom": [
     "Đồ uống trong các bữa ăn",
     "Dịch vụ và trải nghiệm không nằm trong chương trình",
@@ -87,20 +260,81 @@
     "Personal incidental expenses",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme",
+    "Dépenses personnelles imprévues",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Khách yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Muốn trải nghiệm rừng nguyên sinh và bản địa trong cùng một chuyến.", "mo_ta_en": "Wishing to experience both primeval forest and local life in one trip."},
-    {"nhom": "Gia đình có trẻ em", "nhom_en": "Families with children", "mo_ta": "Cúc Phương rất phù hợp để trẻ học về bảo tồn thiên nhiên.", "mo_ta_en": "Cuc Phuong is ideal for children to learn about nature conservation."},
-    {"nhom": "Học sinh, sinh viên", "nhom_en": "Students", "mo_ta": "Đi dã ngoại thiên nhiên và văn hoá.", "mo_ta_en": "For nature and culture field trips."},
-    {"nhom": "Người yêu du lịch sinh thái", "nhom_en": "Eco-travel enthusiasts", "mo_ta": "Du lịch bền vững.", "mo_ta_en": "Sustainable travel."},
-    {"nhom": "Nhóm bạn", "nhom_en": "Groups of friends", "mo_ta": "2 – 12 người tìm hành trình cuối tuần có chiều sâu.", "mo_ta_en": "Groups of 2–12 seeking a weekend trip with real depth."}
+    {
+      "nhom": "Khách yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
+      "mo_ta": "Muốn trải nghiệm rừng nguyên sinh và bản địa trong cùng một chuyến.",
+      "mo_ta_en": "Wishing to experience both primeval forest and local life in one trip.",
+      "mo_ta_fr": "Désireux de découvrir à la fois la forêt primaire et la vie locale en un seul voyage."
+    },
+    {
+      "nhom": "Gia đình có trẻ em",
+      "nhom_en": "Families with children",
+      "nhom_fr": "Familles avec enfants",
+      "mo_ta": "Cúc Phương rất phù hợp để trẻ học về bảo tồn thiên nhiên.",
+      "mo_ta_en": "Cuc Phuong is ideal for children to learn about nature conservation.",
+      "mo_ta_fr": "Cuc Phuong est idéal pour que les enfants découvrent la conservation de la nature."
+    },
+    {
+      "nhom": "Học sinh, sinh viên",
+      "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
+      "mo_ta": "Đi dã ngoại thiên nhiên và văn hoá.",
+      "mo_ta_en": "For nature and culture field trips.",
+      "mo_ta_fr": "Pour des sorties nature et culture."
+    },
+    {
+      "nhom": "Người yêu du lịch sinh thái",
+      "nhom_en": "Eco-travel enthusiasts",
+      "nhom_fr": "Amateurs d'écotourisme",
+      "mo_ta": "Du lịch bền vững.",
+      "mo_ta_en": "Sustainable travel.",
+      "mo_ta_fr": "Voyage durable."
+    },
+    {
+      "nhom": "Nhóm bạn",
+      "nhom_en": "Groups of friends",
+      "nhom_fr": "Groupes d'amis",
+      "mo_ta": "2 – 12 người tìm hành trình cuối tuần có chiều sâu.",
+      "mo_ta_en": "Groups of 2–12 seeking a weekend trip with real depth.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes recherchant un week-end d'une réelle profondeur."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Văn nghệ & Mo Mường", "tieu_de_en": "Performances & Mo Muong", "mo_ta": "Trang phục Mường, văn nghệ cộng đồng, Mo Mường theo yêu cầu đặt trước.", "mo_ta_en": "Muong costume, community performances, and Mo Muong by advance request."},
-    {"tieu_de": "Báo giá", "tieu_de_en": "Pricing", "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách và mùa.", "mo_ta_en": "The Coordination Board provides detailed itinerary, services, and pricing based on group size and season."}
+    {
+      "tieu_de": "Văn nghệ & Mo Mường",
+      "tieu_de_en": "Performances & Mo Muong",
+      "tieu_de_fr": "Spectacles et Mo Muong",
+      "mo_ta": "Trang phục Mường, văn nghệ cộng đồng, Mo Mường theo yêu cầu đặt trước.",
+      "mo_ta_en": "Muong costume, community performances, and Mo Muong by advance request.",
+      "mo_ta_fr": "Costume Muong, spectacles communautaires et Mo Muong sur demande préalable."
+    },
+    {
+      "tieu_de": "Báo giá",
+      "tieu_de_en": "Pricing",
+      "tieu_de_fr": "Tarifs",
+      "mo_ta": "Lịch trình, dịch vụ và giá chi tiết do Ban điều phối báo giá theo số khách và mùa.",
+      "mo_ta_en": "The Coordination Board provides detailed itinerary, services, and pricing based on group size and season.",
+      "mo_ta_fr": "Le Comité de Coordination fournit un itinéraire détaillé, des services et des tarifs en fonction de la taille du groupe et de la saison."
+    }
   ],
   "net_zero": "Trồng một cây xanh tại Thung Cánh + Chứng nhận trồng cây",
   "net_zero_en": "Plant a tree at Thung Canh valley + receive a tree-planting certificate",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Planter un arbre dans la vallée de Thung Canh + recevez un certificat de plantation d'arbre",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

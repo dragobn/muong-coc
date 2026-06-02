@@ -5,14 +5,18 @@
   "theme": "disan",
   "tagline": "Cây Thuốc — Nhà Sàn Cổ — Hồ Baibóo",
   "tagline_en": "Healing Herbs — Old Stilt Houses — Baiboo Lake",
+  "tagline_fr": "Herbes médicinales — Anciennes maisons sur pilotis — Lac Baiboo",
   "thoi_luong": "~8 giờ (08:00 – 16:00)",
   "thoi_luong_en": "About 8 hours (08:00 – 16:00)",
+  "thoi_luong_fr": "Environ 8 heures (08:00 – 16:00)",
   "cu_ly": "~6 – 7 km",
   "quy_mo": "2 – 12 khách",
   "gia": "650.000 đ/khách (gồm bữa trưa)",
   "gia_en": "650,000 VND/guest (lunch included)",
+  "gia_fr": "650 000 VND/personne (déjeuner inclus)",
   "intro": "Về miền di sản — Tri thức người Mường là cung đạp xe giàu chiều sâu văn hoá, đưa bạn tới gặp gỡ những con người đang gìn giữ kho tri thức của đất Mường. Bên cạnh trải nghiệm nhà sàn, trang phục Mường, dạo hồ Baibóo và gói bánh lá, điểm nhấn đặc biệt là cuộc trò chuyện với hai lương y còn nắm giữ di sản tri thức cây thuốc cổ truyền — bà Châm và bà Phận — ngay tại đồi dược liệu thôn Rộc Éo. Bạn được chỉ tận tay từng loại lá, nghe những bài thuốc đã theo người Mường qua bao đời, rồi cùng các bà ươm xuống đất một mầm thuốc nhỏ — một nhịp nối lặng lẽ giữa người đến và người ở lại.",
   "intro_en": "Back to the Heritage Land — Muong Wisdom is a culturally deep cycling route that brings you face to face with the people keeping the knowledge of this Muong land alive. Alongside the stilt-house and Muong-costume experiences, a lake stroll at Baiboo, and leaf-cake wrapping, the special highlight is a conversation with two healers who still hold the heritage of traditional Muong herbal medicine — Mrs Cham and Mrs Phan — right on the herb hill of Roc Eo hamlet. They point out each leaf by hand, share remedies that have travelled with the Muong for generations, and then, together with them, you plant a small medicinal seedling — a quiet link between those who come and those who stay.",
+  "intro_fr": "Retour à la Terre du Patrimoine — La Sagesse Muong est un itinéraire cyclable profondément culturel qui vous met en contact direct avec les personnes qui maintiennent vivant le savoir de cette terre Muong. Outre les expériences de maison sur pilotis et de costume Muong, une promenade au bord du lac Baiboo et la confection de gâteaux de feuilles, le point culminant est une conversation avec deux guérisseuses qui détiennent encore l'héritage de la médecine traditionnelle Muong à base de plantes — Mme Cham et Mme Phan — directement sur la colline aux herbes du hameau de Roc Eo. Elles désignent chaque feuille à la main, partagent des remèdes qui ont voyagé avec les Muong pendant des générations, et ensuite, avec elles, vous plantez un petit plant médicinal — un lien discret entre ceux qui viennent et ceux qui restent.",
   "highlights": [
     "Gặp người giữ di sản tri thức cây thuốc Mường — trò chuyện cùng hai lương y bà Châm và bà Phận tại đồi dược liệu Rộc Éo.",
     "Ươm một cây thuốc Mường — góp một mầm xanh nối tiếp tri thức bản địa.",
@@ -27,28 +31,237 @@
     "Muong relics — Phu Coc Communal House honouring the Two Holy Mothers, and Cay Thoi Temple with its 400-year fruit tree bearing three kinds of fruit.",
     "Co La Muong feast lunch — a farm-to-table meal with no plastic plates."
   ],
+  "highlights_fr": [
+    "Rencontrez les gardiens de la sagesse herboriste Muong — discutez avec les guérisseuses Mme Cham et Mme Phan sur la colline aux herbes de Roc Eo.",
+    "Planter un jeune plant médicinal Muong — une pousse verte pour une tradition vivante.",
+    "Maison sur pilotis, costume Muong, radeau en bambou et emballage de gâteaux de feuilles — touchez la culture Muong de vos propres mains.",
+    "Vestiges Muong — la Maison Communale de Phu Coc honorant les Deux Saintes Mères, et le Temple Cay Thoi avec son arbre fruitier de 400 ans portant trois sortes de fruits.",
+    "Déjeuner festif Co La Muong — un repas de la ferme à la table sans assiettes en plastique."
+  ],
   "lich_trinh": [
-    {"gio_hoac_buoi": "08:00", "diem": "Tourism Hub Đồi Dùng", "diem_en": "Doi Dung Tourism Hub", "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu hành trình về miền di sản.", "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin the journey into the heritage land.", "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.", "luu_y_en": "Please bring your own reusable water bottle for the whole journey."},
-    {"gio_hoac_buoi": "08:20", "diem": "Trải nghiệm nhà sàn (nhà bà Diển)", "diem_en": "Stilt-house experience (Mrs Dien's home)", "mo_ta": "Ngay đối diện Nhà Văn hoá thôn, bạn bước vào nếp nhà sàn của bà Diển giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ, nghe kể về lối dựng nhà sàn truyền thống và nếp sinh hoạt của người Mường thuở trước — một khởi đầu chậm rãi, ấm áp.", "mo_ta_en": "Right across from the village Community House, you step into Mrs Dien's stilt house set in a cool green garden. You sit on the wooden floor and listen to how a traditional stilt house is built and how the Muong people once lived — a slow, warm beginning.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "08:45", "diem": "Chùa Phú Cốc & Cây đa cổ", "diem_en": "Phu Coc Pagoda & the Old Banyan", "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở cả khoảng sân, bên cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang. Một khoảng lặng tâm linh trước khi đến với tri thức cây thuốc.", "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area. A banyan tree over 400 years old shades the whole courtyard, beside the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple. A spiritual pause before reaching the herbal wisdom of the land.", "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.", "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall."},
-    {"gio_hoac_buoi": "09:15", "diem": "Homestay Mường Duy & Hồ Baibóo", "diem_en": "Muong Duy Homestay & Baiboo Lake", "mo_ta": "Hồ Baibóo như một viên ngọc bích, vòng hồ chừng 4 km, mặt nước soi bóng cây dổi. Bạn khoác trang phục dân tộc Mường lưu lại khung hình bên hồ, đi bè tre ra giữa mặt nước, và giao lưu cùng đội biểu diễn văn nghệ Mường. Mặt hồ tĩnh lặng làm dịu cả buổi sáng.", "mo_ta_en": "Baiboo Lake lies like a jade gem, its shoreline about 4 km, the water mirroring the doi trees. You wear Muong ethnic dress for photos by the lake, ride a bamboo raft onto the water, and mingle with the Muong performance troupe. The still surface softens the whole morning.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "10:25", "diem": "Homestay ông Kiền", "diem_en": "Mr Kien's Homestay", "mo_ta": "Một nếp nhà rộng rãi liền hồ Baibóo. Bạn nghỉ chân, thưởng thức một chút ẩm thực Mường và ngắm mặt hồ thanh bình từ hiên nhà trước khi lên đồi dược liệu.", "mo_ta_en": "A spacious home right beside Baiboo Lake. You rest, savour a little Muong cuisine, and gaze at the peaceful lake from the porch before heading up to the herb hill.", "luu_y": "Tùy chọn: ghé điểm dừng chân nhà bà Toàn (hoặc quán nước bà Nhuận) gần đó.", "luu_y_en": "Optional: drop by Mrs Toan's rest stop (or Mrs Nhuan's tea stall) nearby."},
-    {"gio_hoac_buoi": "10:50", "diem": "Đồi dược liệu thôn Rộc Éo — Nhà bà Châm, bà Phận", "diem_en": "Roc Eo Herb Hill — Mrs Cham & Mrs Phan's home", "mo_ta": "Bạn lên đồi dược liệu thôn Rộc Éo, nơi hai lương y người Mường còn gìn giữ nghề thuốc Nam gia truyền. Bạn ngồi xuống bên các bà, được chỉ tận tay từng loại lá và nghe kể những bài thuốc đã theo người Mường qua bao đời. Cùng các bà, bạn ươm xuống đất một cây thuốc nhỏ — một việc rất giản dị nhưng đầy ý nghĩa.", "mo_ta_en": "You climb the herb hill of Roc Eo hamlet, where two Muong healers still keep their family tradition of southern medicine. You sit with them, are shown each leaf by hand, and hear of remedies that have travelled with the Muong for generations. Together you plant a small medicinal seedling in the soil — a very simple act, yet full of meaning.", "luu_y": "Ươm một cây thuốc Mường — tiếp nối kho tri thức cây thuốc cho người đến sau.", "luu_y_en": "Plant a Muong medicinal seedling — carry the herbal tradition forward for those who come after."},
-    {"gio_hoac_buoi": "12:00", "diem": "Bữa trưa Cỗ Lá Mường", "diem_en": "Co La Muong Feast (Lunch)", "mo_ta": "Bữa trưa được dọn tại nhà dân với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa.", "mo_ta_en": "Lunch is served at a local home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal.", "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.", "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."},
-    {"gio_hoac_buoi": "13:30", "diem": "Workshop gói bánh lá Mường", "diem_en": "Muong leaf-cake wrapping workshop", "mo_ta": "Bạn cùng các bà, các chị người Mường học gói một mẻ bánh truyền thống bằng lá — một hoạt động vui tay, gần gũi. Mẻ bánh do chính tay bạn gói sẽ trở thành một chút hương vị Mường mang về làm quà.", "mo_ta_en": "Together with Muong women, you learn to wrap a batch of traditional leaf cakes — a hands-on, intimate activity. The cakes you wrap yourself become a little taste of Muong to carry home as a gift.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "14:15", "diem": "Nhà văn hoá dân tộc & Đình Phú Cốc", "diem_en": "Ethnic Culture House & Phu Coc Communal House", "mo_ta": "Đình Phú Cốc là đại đình chung của các thôn người Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Kề bên là Nhà văn hoá dân tộc thôn Đình — nơi truyền dạy cồng chiêng, hát dân ca và nhạc cụ dân tộc như kèn, sáo. Không gian làng còn vương âm thanh của những buổi tập.", "mo_ta_en": "Phu Coc Communal House is the shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it stands the Ethnic Culture House of Dinh hamlet — where gongs, folk songs, and instruments such as the reed pipe and flute are taught. The village air still carries the sounds of rehearsal.", "luu_y": "", "luu_y_en": ""},
-    {"gio_hoac_buoi": "14:55", "diem": "Nhà thờ họ ông Chế", "diem_en": "Mr Che's Clan Ancestral House", "mo_ta": "Bạn lắng nghe câu chuyện về các đời người Mường đã sinh sống tại đây và chiêm ngưỡng 4 cọc nhà sàn cổ còn được lưu giữ. Một khoảng dừng nhỏ để cảm nhận chiều dài của một dòng họ giữa đất Mường.", "mo_ta_en": "You listen to the story of the generations of Muong people who lived here and admire four ancient stilt-house posts still preserved. A small pause to sense the long line of a clan rooted in this Muong land.", "luu_y": "Tùy chọn: ghé thêm nhà ông Kế nghe chuyện người Mường cổ.", "luu_y_en": "Optional: also visit Mr Ke's home for tales of the old Muong people."},
-    {"gio_hoac_buoi": "15:30", "diem": "Đền Cây Thợi & Cây Thị 400 năm", "diem_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "mo_ta": "\"Cây Thợi\" trong tiếng Mường nghĩa là cây thị. Đền dựng nơi gốc cây thị cổ, thờ Nhị vị Thánh Mẫu hiệu Từ Quang và Từ Minh — gắn truyền thuyết đắm đò trên đầm rồi hoá thiêng (Đầm Hai Bà), sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả — điểm khép lại đầy linh thiêng cho hành trình di sản.", "mo_ta_en": "\"Cay Thoi\" in the Muong language means persimmon tree. The temple stands at the foot of an ancient persimmon, honouring the Two Holy Mothers Tu Quang and Tu Minh — tied to the legend of a boat that sank in the marsh, after which they became sacred (the Two Ladies' Marsh), with a Khai Dinh edict of 1924. Beside it grows a persimmon over 400 years old whose single trunk bears three kinds of fruit — a sacred close to the heritage journey.", "luu_y": "Tùy chọn (cùng khu): ghé nhà Niệm Nga hái sen làm trà sen; hoặc nhà ông Lập xem nấu rượu quê.", "luu_y_en": "Optional (same area): visit the Niem Nga family to pick lotus and make lotus tea; or Mr Lap's home to watch village wine-making."},
-    {"gio_hoac_buoi": "16:00", "diem": "Trở về Tourism Hub Đồi Dùng", "diem_en": "Return to Doi Dung Tourism Hub", "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — khép lại một ngày về với di sản và tri thức người Mường.", "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir — closing a day spent returning to the heritage and wisdom of the Muong people.", "luu_y": "", "luu_y_en": ""}
+    {
+      "gio_hoac_buoi": "08:00",
+      "diem": "Tourism Hub Đồi Dùng",
+      "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
+      "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu hành trình về miền di sản.",
+      "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin the journey into the heritage land.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge le long du parcours. Ensuite, vous recevez votre vélo, votre casque et votre carte de la visite pour commencer le voyage au cœur de la terre du patrimoine.",
+      "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
+    },
+    {
+      "gio_hoac_buoi": "08:20",
+      "diem": "Trải nghiệm nhà sàn (nhà bà Diển)",
+      "diem_en": "Stilt-house experience (Mrs Dien's home)",
+      "diem_fr": "Expérience de la maison sur pilotis (chez Mme Dien)",
+      "mo_ta": "Ngay đối diện Nhà Văn hoá thôn, bạn bước vào nếp nhà sàn của bà Diển giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ, nghe kể về lối dựng nhà sàn truyền thống và nếp sinh hoạt của người Mường thuở trước — một khởi đầu chậm rãi, ấm áp.",
+      "mo_ta_en": "Right across from the village Community House, you step into Mrs Dien's stilt house set in a cool green garden. You sit on the wooden floor and listen to how a traditional stilt house is built and how the Muong people once lived — a slow, warm beginning.",
+      "mo_ta_fr": "Juste en face de la Maison Communale du village, vous entrez dans la maison sur pilotis de Madame Dien, nichée dans un jardin frais et verdoyant. Vous vous asseyez sur le plancher en bois et écoutez comment une maison traditionnelle sur pilotis est construite et comment le peuple Muong vivait autrefois — un début lent et chaleureux.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "08:45",
+      "diem": "Chùa Phú Cốc & Cây đa cổ",
+      "diem_en": "Phu Coc Pagoda & the Old Banyan",
+      "diem_fr": "Pagode de Phu Coc et le Vieux Banyan",
+      "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở cả khoảng sân, bên cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang. Một khoảng lặng tâm linh trước khi đến với tri thức cây thuốc.",
+      "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area. A banyan tree over 400 years old shades the whole courtyard, beside the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple. A spiritual pause before reaching the herbal wisdom of the land.",
+      "mo_ta_fr": "Sur une colline aérée du hameau de Doi Dung se dresse le pilier spirituel des six villages de la région de Phu Coc. Un banian de plus de 400 ans ombrage toute la cour, à côté du sanctuaire principal, du sanctuaire de la Mère, de la maison ancestrale et du temple des chefs. Une pause spirituelle avant de découvrir la sagesse des herbes de la terre.",
+      "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.",
+      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall.",
+      "luu_y_fr": "Enlevez vos chaussures avant d'entrer dans le sanctuaire, habillez-vous modestement et ne filmez pas à l'intérieur de la salle principale."
+    },
+    {
+      "gio_hoac_buoi": "09:15",
+      "diem": "Homestay Mường Duy & Hồ Baibóo",
+      "diem_en": "Muong Duy Homestay & Baiboo Lake",
+      "diem_fr": "Homestay Muong Duy et Lac Baiboo",
+      "mo_ta": "Hồ Baibóo như một viên ngọc bích, vòng hồ chừng 4 km, mặt nước soi bóng cây dổi. Bạn khoác trang phục dân tộc Mường lưu lại khung hình bên hồ, đi bè tre ra giữa mặt nước, và giao lưu cùng đội biểu diễn văn nghệ Mường. Mặt hồ tĩnh lặng làm dịu cả buổi sáng.",
+      "mo_ta_en": "Baiboo Lake lies like a jade gem, its shoreline about 4 km, the water mirroring the doi trees. You wear Muong ethnic dress for photos by the lake, ride a bamboo raft onto the water, and mingle with the Muong performance troupe. The still surface softens the whole morning.",
+      "mo_ta_fr": "Le lac Baiboo, tel un joyau de jade, s'étend sur environ 4 km, l'eau reflétant les arbres doi. Vous revêtez la tenue ethnique Muong pour des photos au bord du lac, naviguez sur l'eau en radeau de bambou et vous mêlez à la troupe de spectacle Muong. La surface immobile adoucit toute la matinée.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "10:25",
+      "diem": "Homestay ông Kiền",
+      "diem_en": "Mr Kien's Homestay",
+      "diem_fr": "Homestay de M. Kien",
+      "mo_ta": "Một nếp nhà rộng rãi liền hồ Baibóo. Bạn nghỉ chân, thưởng thức một chút ẩm thực Mường và ngắm mặt hồ thanh bình từ hiên nhà trước khi lên đồi dược liệu.",
+      "mo_ta_en": "A spacious home right beside Baiboo Lake. You rest, savour a little Muong cuisine, and gaze at the peaceful lake from the porch before heading up to the herb hill.",
+      "mo_ta_fr": "Une maison spacieuse juste à côté du lac Baiboo. Vous vous reposez, savourez un peu de cuisine Muong et contemplez le lac paisible depuis la véranda avant de monter vers la colline aux herbes.",
+      "luu_y": "Tùy chọn: ghé điểm dừng chân nhà bà Toàn (hoặc quán nước bà Nhuận) gần đó.",
+      "luu_y_en": "Optional: drop by Mrs Toan's rest stop (or Mrs Nhuan's tea stall) nearby.",
+      "luu_y_fr": "En option : faites un saut à l'aire de repos de Mme Toan (ou au salon de thé de Mme Nhuan) à proximité."
+    },
+    {
+      "gio_hoac_buoi": "10:50",
+      "diem": "Đồi dược liệu thôn Rộc Éo — Nhà bà Châm, bà Phận",
+      "diem_en": "Roc Eo Herb Hill — Mrs Cham & Mrs Phan's home",
+      "diem_fr": "Colline aux herbes de Roc Eo — chez Mme Cham et Mme Phan",
+      "mo_ta": "Bạn lên đồi dược liệu thôn Rộc Éo, nơi hai lương y người Mường còn gìn giữ nghề thuốc Nam gia truyền. Bạn ngồi xuống bên các bà, được chỉ tận tay từng loại lá và nghe kể những bài thuốc đã theo người Mường qua bao đời. Cùng các bà, bạn ươm xuống đất một cây thuốc nhỏ — một việc rất giản dị nhưng đầy ý nghĩa.",
+      "mo_ta_en": "You climb the herb hill of Roc Eo hamlet, where two Muong healers still keep their family tradition of southern medicine. You sit with them, are shown each leaf by hand, and hear of remedies that have travelled with the Muong for generations. Together you plant a small medicinal seedling in the soil — a very simple act, yet full of meaning.",
+      "mo_ta_fr": "Vous gravissez la colline aux herbes du hameau de Roc Eo, où deux guérisseurs Muong perpétuent encore leur tradition familiale de médecine du sud. Vous vous asseyez avec eux, on vous montre chaque feuille à la main, et vous entendez parler de remèdes qui ont voyagé avec les Muong pendant des générations. Ensemble, vous plantez un petit plant médicinal dans le sol — un acte très simple, mais plein de sens.",
+      "luu_y": "Ươm một cây thuốc Mường — tiếp nối kho tri thức cây thuốc cho người đến sau.",
+      "luu_y_en": "Plant a Muong medicinal seedling — carry the herbal tradition forward for those who come after.",
+      "luu_y_fr": "Planter un jeune plant médicinal Muong — perpétuez la tradition des herbes médicinales pour les générations futures."
+    },
+    {
+      "gio_hoac_buoi": "12:00",
+      "diem": "Bữa trưa Cỗ Lá Mường",
+      "diem_en": "Co La Muong Feast (Lunch)",
+      "diem_fr": "Festin Co La Muong (Déjeuner)",
+      "mo_ta": "Bữa trưa được dọn tại nhà dân với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa.",
+      "mo_ta_en": "Lunch is served at a local home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal.",
+      "mo_ta_fr": "Le déjeuner est servi chez l'habitant sous forme de festin Co La Muong — dressé sur de fraîches feuilles de bananier, sans une seule assiette en plastique. Les ingrédients sont 100% locaux, la plupart récoltés ce matin même — un véritable repas de la ferme à la table.",
+      "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle.",
+      "luu_y_fr": "Feuilles de bananier en guise d'assiettes · ingrédients locaux · remplissez votre propre gourde."
+    },
+    {
+      "gio_hoac_buoi": "13:30",
+      "diem": "Workshop gói bánh lá Mường",
+      "diem_en": "Muong leaf-cake wrapping workshop",
+      "diem_fr": "Atelier d'emballage de gâteaux de feuilles Muong",
+      "mo_ta": "Bạn cùng các bà, các chị người Mường học gói một mẻ bánh truyền thống bằng lá — một hoạt động vui tay, gần gũi. Mẻ bánh do chính tay bạn gói sẽ trở thành một chút hương vị Mường mang về làm quà.",
+      "mo_ta_en": "Together with Muong women, you learn to wrap a batch of traditional leaf cakes — a hands-on, intimate activity. The cakes you wrap yourself become a little taste of Muong to carry home as a gift.",
+      "mo_ta_fr": "Aux côtés des femmes Muong, vous apprendrez à confectionner des gâteaux de feuilles traditionnels — une activité pratique et intime. Les gâteaux que vous emballerez vous-même deviendront un petit goût de Muong à rapporter chez vous en guise de cadeau.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "14:15",
+      "diem": "Nhà văn hoá dân tộc & Đình Phú Cốc",
+      "diem_en": "Ethnic Culture House & Phu Coc Communal House",
+      "diem_fr": "Maison de la Culture Ethnique & Maison Communale de Phu Coc",
+      "mo_ta": "Đình Phú Cốc là đại đình chung của các thôn người Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Kề bên là Nhà văn hoá dân tộc thôn Đình — nơi truyền dạy cồng chiêng, hát dân ca và nhạc cụ dân tộc như kèn, sáo. Không gian làng còn vương âm thanh của những buổi tập.",
+      "mo_ta_en": "Phu Coc Communal House is the shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it stands the Ethnic Culture House of Dinh hamlet — where gongs, folk songs, and instruments such as the reed pipe and flute are taught. The village air still carries the sounds of rehearsal.",
+      "mo_ta_fr": "La Maison Communale de Phu Coc est la grande salle partagée des hameaux Muong, honorant les Deux Saintes Mères Tu Quang et Tu Minh. À côté se trouve la Maison de la Culture Ethnique du hameau de Dinh — où sont enseignés les gongs, les chants folkloriques et des instruments tels que la flûte de roseau et la flûte. L'air du village porte encore les sons des répétitions.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    },
+    {
+      "gio_hoac_buoi": "14:55",
+      "diem": "Nhà thờ họ ông Chế",
+      "diem_en": "Mr Che's Clan Ancestral House",
+      "diem_fr": "Maison ancestrale du clan de M. Che",
+      "mo_ta": "Bạn lắng nghe câu chuyện về các đời người Mường đã sinh sống tại đây và chiêm ngưỡng 4 cọc nhà sàn cổ còn được lưu giữ. Một khoảng dừng nhỏ để cảm nhận chiều dài của một dòng họ giữa đất Mường.",
+      "mo_ta_en": "You listen to the story of the generations of Muong people who lived here and admire four ancient stilt-house posts still preserved. A small pause to sense the long line of a clan rooted in this Muong land.",
+      "mo_ta_fr": "Vous écoutez l'histoire des générations de Muong qui ont vécu ici et admirez quatre anciens piliers de maisons sur pilotis encore conservés. Une petite pause pour sentir la longue lignée d'un clan enraciné dans cette terre Muong.",
+      "luu_y": "Tùy chọn: ghé thêm nhà ông Kế nghe chuyện người Mường cổ.",
+      "luu_y_en": "Optional: also visit Mr Ke's home for tales of the old Muong people.",
+      "luu_y_fr": "En option : visitez également la maison de M. Ke pour des récits sur l'ancien peuple Muong."
+    },
+    {
+      "gio_hoac_buoi": "15:30",
+      "diem": "Đền Cây Thợi & Cây Thị 400 năm",
+      "diem_en": "Cay Thoi Temple & the 400-year Persimmon Tree",
+      "diem_fr": "Temple Cay Thoi & le Plaqueminier quadricentenaire",
+      "mo_ta": "\"Cây Thợi\" trong tiếng Mường nghĩa là cây thị. Đền dựng nơi gốc cây thị cổ, thờ Nhị vị Thánh Mẫu hiệu Từ Quang và Từ Minh — gắn truyền thuyết đắm đò trên đầm rồi hoá thiêng (Đầm Hai Bà), sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả — điểm khép lại đầy linh thiêng cho hành trình di sản.",
+      "mo_ta_en": "\"Cay Thoi\" in the Muong language means persimmon tree. The temple stands at the foot of an ancient persimmon, honouring the Two Holy Mothers Tu Quang and Tu Minh — tied to the legend of a boat that sank in the marsh, after which they became sacred (the Two Ladies' Marsh), with a Khai Dinh edict of 1924. Beside it grows a persimmon over 400 years old whose single trunk bears three kinds of fruit — a sacred close to the heritage journey.",
+      "mo_ta_fr": "\"Cay Thoi\" en langue Muong signifie plaqueminier. Le temple se dresse au pied d'un plaqueminier ancien, honorant les Deux Saintes Mères Tu Quang et Tu Minh — lié à la légende d'un bateau qui a coulé dans le marais, après quoi elles sont devenues sacrées (le Marais des Deux Dames), avec un édit de Khai Dinh de 1924. À côté pousse un plaqueminier de plus de 400 ans dont le tronc unique porte trois sortes de fruits — une conclusion sacrée au voyage patrimonial.",
+      "luu_y": "Tùy chọn (cùng khu): ghé nhà Niệm Nga hái sen làm trà sen; hoặc nhà ông Lập xem nấu rượu quê.",
+      "luu_y_en": "Optional (same area): visit the Niem Nga family to pick lotus and make lotus tea; or Mr Lap's home to watch village wine-making.",
+      "luu_y_fr": "En option (même zone) : visitez la famille Niem Nga pour cueillir des lotus et préparer du thé au lotus ; ou la maison de M. Lap pour observer la fabrication du vin du village."
+    },
+    {
+      "gio_hoac_buoi": "16:00",
+      "diem": "Trở về Tourism Hub Đồi Dùng",
+      "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
+      "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — khép lại một ngày về với di sản và tri thức người Mường.",
+      "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir — closing a day spent returning to the heritage and wisdom of the Muong people.",
+      "mo_ta_fr": "Vous retournez à vélo, à un rythme tranquille, à la Maison Communautaire Doi Dung, où vous restituez votre vélo et votre casque. Muong Coc vous offre un souvenir artisanal — clôturant une journée passée à renouer avec l'héritage et la sagesse du peuple Muong.",
+      "luu_y": "",
+      "luu_y_en": "",
+      "luu_y_fr": ""
+    }
   ],
   "diem_den": [
-    {"ten": "Nhà sàn bà Diển", "ten_en": "Mrs Dien's Stilt House", "loai": "Trải nghiệm văn hoá", "loai_en": "Cultural experience", "mo_ta_ngan": "Nếp nhà sàn truyền thống Mường giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ nghe kể lối dựng nhà và nếp sinh hoạt xưa. Một khởi đầu chậm rãi, ấm áp cho hành trình di sản.", "mo_ta_ngan_en": "A traditional Muong stilt house in a cool green garden. You sit on the wooden floor and hear how it was built and how life was lived. A slow, warm start to the heritage journey."},
-    {"ten": "Chùa Phú Cốc", "ten_en": "Phu Coc Pagoda", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một khoảng lặng tâm linh trên hành trình.", "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old shading the courtyard. A spiritual pause along the journey."},
-    {"ten": "Hồ Baibóo", "ten_en": "Baiboo Lake", "loai": "Cảnh quan · Hồ nước", "loai_en": "Landscape · Lake", "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng hồ chừng 4 km, mặt nước soi bóng cây dổi. Bạn khoác trang phục Mường lưu hình bên hồ và đi bè tre ra giữa mặt nước. Mặt hồ tĩnh lặng làm dịu cả buổi sáng.", "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around, mirroring the doi trees. You wear Muong dress for photos by the water and raft out onto the lake. The still surface softens the whole morning."},
-    {"ten": "Đồi dược liệu Rộc Éo", "ten_en": "Roc Eo Herb Hill", "loai": "Di sản tri thức", "loai_en": "Living knowledge heritage", "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam gia truyền của người Mường. Bạn được chỉ tận tay từng loại lá và nghe những bài thuốc qua bao đời. Cùng các bà, bạn ươm một cây thuốc nhỏ xuống đất.", "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong family tradition of southern medicine. You are shown each leaf by hand and hear remedies passed down for generations. Together you plant a small medicinal seedling."},
-    {"ten": "Đình Phú Cốc & Nhà văn hoá dân tộc", "ten_en": "Phu Coc Communal House & Ethnic Culture House", "loai": "Di tích · Văn hoá", "loai_en": "Heritage · Culture", "mo_ta_ngan": "Đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Kề bên là Nhà văn hoá dân tộc, nơi truyền dạy cồng chiêng, dân ca và nhạc cụ như kèn, sáo. Không gian làng còn vương âm thanh những buổi tập.", "mo_ta_ngan_en": "The shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it, the Ethnic Culture House teaches gongs, folk songs, and instruments such as the reed pipe and flute. The village still carries the sounds of rehearsal."},
-    {"ten": "Nhà thờ họ ông Chế", "ten_en": "Mr Che's Clan Ancestral House", "loai": "Di tích dòng họ", "loai_en": "Clan heritage", "mo_ta_ngan": "Nhà thờ họ lưu giữ 4 cọc nhà sàn cổ và câu chuyện các đời người Mường nơi đây. Bạn nghe kể về một dòng họ bám rễ lâu đời giữa đất Mường. Một khoảng dừng nhỏ để cảm nhận chiều dài thời gian.", "mo_ta_ngan_en": "A clan house preserving four ancient stilt-house posts and the story of the Muong generations here. You hear of a lineage long rooted in this land. A small pause to sense the depth of time."},
-    {"ten": "Đền Cây Thợi & Cây Thị 400 năm", "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree", "loai": "Di tích tâm linh", "loai_en": "Spiritual heritage site", "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Điểm khép lại đầy linh thiêng cho hành trình di sản.", "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old whose single trunk bears three kinds of fruit. A sacred close to the heritage journey."}
+    {
+      "ten": "Nhà sàn bà Diển",
+      "ten_en": "Mrs Dien's Stilt House",
+      "ten_fr": "Maison sur pilotis de Mme Dien",
+      "loai": "Trải nghiệm văn hoá",
+      "loai_en": "Cultural experience",
+      "loai_fr": "Expérience culturelle",
+      "mo_ta_ngan": "Nếp nhà sàn truyền thống Mường giữa vườn cây xanh mát. Bạn ngồi trên sàn gỗ nghe kể lối dựng nhà và nếp sinh hoạt xưa. Một khởi đầu chậm rãi, ấm áp cho hành trình di sản.",
+      "mo_ta_ngan_en": "A traditional Muong stilt house in a cool green garden. You sit on the wooden floor and hear how it was built and how life was lived. A slow, warm start to the heritage journey.",
+      "mo_ta_ngan_fr": "Une maison traditionnelle Muong sur pilotis dans un jardin frais et verdoyant. Vous vous asseyez sur le plancher en bois et écoutez comment elle a été construite et comment on y vivait. Un début doux et chaleureux pour le voyage patrimonial."
+    },
+    {
+      "ten": "Chùa Phú Cốc",
+      "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một khoảng lặng tâm linh trên hành trình.",
+      "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old shading the courtyard. A spiritual pause along the journey.",
+      "mo_ta_ngan_fr": "Une ancienne pagode sur une colline aérée, l'ancre spirituelle des six villages de la région de Phu Coc. En son cœur se trouve un banian de plus de 400 ans ombrageant la cour. Une pause spirituelle le long du voyage."
+    },
+    {
+      "ten": "Hồ Baibóo",
+      "ten_en": "Baiboo Lake",
+      "ten_fr": "Lac Baiboo",
+      "loai": "Cảnh quan · Hồ nước",
+      "loai_en": "Landscape · Lake",
+      "loai_fr": "Paysage · Lac",
+      "mo_ta_ngan": "Hồ điều hoà sinh thái xanh như ngọc bích, vòng hồ chừng 4 km, mặt nước soi bóng cây dổi. Bạn khoác trang phục Mường lưu hình bên hồ và đi bè tre ra giữa mặt nước. Mặt hồ tĩnh lặng làm dịu cả buổi sáng.",
+      "mo_ta_ngan_en": "A jade-green ecological balancing lake about 4 km around, mirroring the doi trees. You wear Muong dress for photos by the water and raft out onto the lake. The still surface softens the whole morning.",
+      "mo_ta_ngan_fr": "Un lac d'équilibre écologique vert jade d'environ 4 km de circonférence, reflétant les arbres doi. Vous portez la tenue Muong pour des photos au bord de l'eau et vous vous aventurez sur le lac en radeau. La surface calme adoucit toute la matinée."
+    },
+    {
+      "ten": "Đồi dược liệu Rộc Éo",
+      "ten_en": "Roc Eo Herb Hill",
+      "ten_fr": "Colline aux herbes de Roc Eo",
+      "loai": "Di sản tri thức",
+      "loai_en": "Living knowledge heritage",
+      "loai_fr": "Patrimoine de savoirs vivants",
+      "mo_ta_ngan": "Đồi dược liệu nơi hai lương y bà Châm, bà Phận gìn giữ nghề thuốc Nam gia truyền của người Mường. Bạn được chỉ tận tay từng loại lá và nghe những bài thuốc qua bao đời. Cùng các bà, bạn ươm một cây thuốc nhỏ xuống đất.",
+      "mo_ta_ngan_en": "A herb hill where healers Mrs Cham and Mrs Phan keep the Muong family tradition of southern medicine. You are shown each leaf by hand and hear remedies passed down for generations. Together you plant a small medicinal seedling.",
+      "mo_ta_ngan_fr": "Une colline aux herbes où les guérisseuses Mme Cham et Mme Phan perpétuent la tradition familiale Muong de la médecine du sud. Chaque feuille vous est montrée à la main et vous entendez des remèdes transmis de génération en génération. Ensemble, vous plantez un petit plant médicinal."
+    },
+    {
+      "ten": "Đình Phú Cốc & Nhà văn hoá dân tộc",
+      "ten_en": "Phu Coc Communal House & Ethnic Culture House",
+      "ten_fr": "Maison Communale de Phu Coc et Maison de la Culture Ethnique",
+      "loai": "Di tích · Văn hoá",
+      "loai_en": "Heritage · Culture",
+      "loai_fr": "Patrimoine · Culture",
+      "mo_ta_ngan": "Đại đình chung của các thôn Mường, thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh. Kề bên là Nhà văn hoá dân tộc, nơi truyền dạy cồng chiêng, dân ca và nhạc cụ như kèn, sáo. Không gian làng còn vương âm thanh những buổi tập.",
+      "mo_ta_ngan_en": "The shared great hall of the Muong hamlets, honouring the Two Holy Mothers Tu Quang and Tu Minh. Beside it, the Ethnic Culture House teaches gongs, folk songs, and instruments such as the reed pipe and flute. The village still carries the sounds of rehearsal.",
+      "mo_ta_ngan_fr": "La grande salle commune des hameaux Muong, honorant les Deux Saintes Mères Tu Quang et Tu Minh. À côté, la Maison de la Culture Ethnique enseigne les gongs, les chants folkloriques et des instruments tels que la flûte de roseau et la flûte. Le village résonne encore des sons des répétitions."
+    },
+    {
+      "ten": "Nhà thờ họ ông Chế",
+      "ten_en": "Mr Che's Clan Ancestral House",
+      "ten_fr": "Maison ancestrale du clan de M. Che",
+      "loai": "Di tích dòng họ",
+      "loai_en": "Clan heritage",
+      "loai_fr": "Patrimoine clanique",
+      "mo_ta_ngan": "Nhà thờ họ lưu giữ 4 cọc nhà sàn cổ và câu chuyện các đời người Mường nơi đây. Bạn nghe kể về một dòng họ bám rễ lâu đời giữa đất Mường. Một khoảng dừng nhỏ để cảm nhận chiều dài thời gian.",
+      "mo_ta_ngan_en": "A clan house preserving four ancient stilt-house posts and the story of the Muong generations here. You hear of a lineage long rooted in this land. A small pause to sense the depth of time.",
+      "mo_ta_ngan_fr": "Une maison de clan préservant quatre anciens piliers de maison sur pilotis et l'histoire des générations Muong d'ici. Vous entendez parler d'une lignée profondément enracinée dans cette terre. Une petite pause pour sentir la profondeur du temps."
+    },
+    {
+      "ten": "Đền Cây Thợi & Cây Thị 400 năm",
+      "ten_en": "Cay Thoi Temple & the 400-year Persimmon Tree",
+      "ten_fr": "Temple Cay Thoi & le Plaqueminier quadricentenaire",
+      "loai": "Di tích tâm linh",
+      "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
+      "mo_ta_ngan": "Đền thờ Nhị vị Thánh Mẫu Từ Quang – Từ Minh, gắn truyền thuyết Đầm Hai Bà và sắc phong Khải Định 1924. Bên đền là cây thị hơn 400 năm tuổi, một gốc cho ba loại quả. Điểm khép lại đầy linh thiêng cho hành trình di sản.",
+      "mo_ta_ngan_en": "A temple to the Two Holy Mothers Tu Quang and Tu Minh, tied to the Two Ladies' Marsh legend and a Khai Dinh edict of 1924. Beside it stands a persimmon over 400 years old whose single trunk bears three kinds of fruit. A sacred close to the heritage journey.",
+      "mo_ta_ngan_fr": "Un temple dédié aux Deux Saintes Mères Tu Quang et Tu Minh, lié à la légende du Marais des Deux Dames et à un édit de Khai Dinh de 1924. À côté se dresse un plaqueminier de plus de 400 ans dont le tronc unique porte trois sortes de fruits. Une conclusion sacrée au voyage patrimonial."
+    }
   ],
   "bao_gom": [
     "Xe đạp và mũ bảo hiểm tiêu chuẩn",
@@ -70,6 +283,16 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Vélo standard et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Expérience du costume Muong, emballage de gâteaux de feuilles et spectacle villageois",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -84,29 +307,147 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme (rafting en bambou, cueillette de lotus, fabrication de vin, etc.)",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
-    {"ten": "Buổi trò chuyện chuyên sâu cùng bà Châm, bà Phận", "ten_en": "In-depth talk with Mrs Cham & Mrs Phan", "mo_ta": "Tìm hiểu sâu hơn về các bài thuốc Nam cổ truyền của người Mường (đặt lịch trước)", "mo_ta_en": "A deeper look into the Muong people's traditional southern-medicine remedies (book in advance)"},
-    {"ten": "Hái sen & làm trà sen", "ten_en": "Lotus picking & lotus-tea making", "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)", "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)"},
-    {"ten": "Nấu rượu quê", "ten_en": "Village wine-making", "mo_ta": "Trải nghiệm cách nấu rượu thủ công tại nhà ông Lập (Rượu Tám Lập · gạo quê Đồi Lý)", "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)"},
-    {"ten": "Đi bè tre trên hồ Baibóo", "ten_en": "Bamboo rafting on Baiboo Lake", "mo_ta": "Ngồi bè tre ra giữa hồ ngắm cảnh", "mo_ta_en": "Ride a bamboo raft out onto the lake to take in the view"},
-    {"ten": "Đưa đón Hà Nội ↔ Mường Cốc", "ten_en": "Hanoi ↔ Muong Coc transfer", "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ", "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"}
+    {
+      "ten": "Buổi trò chuyện chuyên sâu cùng bà Châm, bà Phận",
+      "ten_en": "In-depth talk with Mrs Cham & Mrs Phan",
+      "ten_fr": "Discussion approfondie avec Mme Cham et Mme Phan",
+      "mo_ta": "Tìm hiểu sâu hơn về các bài thuốc Nam cổ truyền của người Mường (đặt lịch trước)",
+      "mo_ta_en": "A deeper look into the Muong people's traditional southern-medicine remedies (book in advance)",
+      "mo_ta_fr": "Un aperçu approfondi des remèdes traditionnels de médecine du sud du peuple Muong (à réserver à l'avance)"
+    },
+    {
+      "ten": "Hái sen & làm trà sen",
+      "ten_en": "Lotus picking & lotus-tea making",
+      "ten_fr": "Cueillette de lotus et préparation du thé au lotus",
+      "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)",
+      "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)",
+      "mo_ta_fr": "Avec la famille Niem Nga (miel d'An Phu · thé au lotus)"
+    },
+    {
+      "ten": "Nấu rượu quê",
+      "ten_en": "Village wine-making",
+      "ten_fr": "Fabrication de vin au village",
+      "mo_ta": "Trải nghiệm cách nấu rượu thủ công tại nhà ông Lập (Rượu Tám Lập · gạo quê Đồi Lý)",
+      "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)",
+      "mo_ta_fr": "Découvrez la distillation traditionnelle de vin de riz chez M. Lap (vin Tam Lap · riz du village de Doi Ly)"
+    },
+    {
+      "ten": "Đi bè tre trên hồ Baibóo",
+      "ten_en": "Bamboo rafting on Baiboo Lake",
+      "ten_fr": "Radeau en bambou sur le lac Baiboo",
+      "mo_ta": "Ngồi bè tre ra giữa hồ ngắm cảnh",
+      "mo_ta_en": "Ride a bamboo raft out onto the lake to take in the view",
+      "mo_ta_fr": "Faites une promenade en radeau de bambou sur le lac pour admirer la vue."
+    },
+    {
+      "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
+      "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
+      "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
+    }
   ],
   "farmstay_options": [],
   "doi_tuong": [
-    {"nhom": "Người yêu văn hoá bản địa", "nhom_en": "Lovers of local culture", "mo_ta": "Thích tìm hiểu tri thức truyền thống.", "mo_ta_en": "Eager to explore traditional knowledge."},
-    {"nhom": "Gia đình", "nhom_en": "Families", "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).", "mo_ta_en": "Families with children aged 10 and up (able to cycle)."},
-    {"nhom": "Nhóm bạn nhỏ", "nhom_en": "Small groups of friends", "mo_ta": "2 — 12 người.", "mo_ta_en": "Groups of 2–12 people."},
-    {"nhom": "Học sinh — sinh viên", "nhom_en": "Students", "mo_ta": "Khám phá di sản người Mường.", "mo_ta_en": "Exploring Muong heritage."},
-    {"nhom": "Người yêu thiên nhiên", "nhom_en": "Nature lovers", "mo_ta": "Yêu thiên nhiên và cây thuốc cổ truyền.", "mo_ta_en": "Drawn to nature and traditional healing herbs."}
+    {
+      "nhom": "Người yêu văn hoá bản địa",
+      "nhom_en": "Lovers of local culture",
+      "nhom_fr": "Amoureux de la culture locale",
+      "mo_ta": "Thích tìm hiểu tri thức truyền thống.",
+      "mo_ta_en": "Eager to explore traditional knowledge.",
+      "mo_ta_fr": "Désireux d'explorer les savoirs traditionnels."
+    },
+    {
+      "nhom": "Gia đình",
+      "nhom_en": "Families",
+      "nhom_fr": "Familles",
+      "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).",
+      "mo_ta_en": "Families with children aged 10 and up (able to cycle).",
+      "mo_ta_fr": "Familles avec enfants de 10 ans et plus (aptes à faire du vélo)."
+    },
+    {
+      "nhom": "Nhóm bạn nhỏ",
+      "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
+      "mo_ta": "2 — 12 người.",
+      "mo_ta_en": "Groups of 2–12 people.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes."
+    },
+    {
+      "nhom": "Học sinh — sinh viên",
+      "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
+      "mo_ta": "Khám phá di sản người Mường.",
+      "mo_ta_en": "Exploring Muong heritage.",
+      "mo_ta_fr": "Exploration du patrimoine Muong."
+    },
+    {
+      "nhom": "Người yêu thiên nhiên",
+      "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
+      "mo_ta": "Yêu thiên nhiên và cây thuốc cổ truyền.",
+      "mo_ta_en": "Drawn to nature and traditional healing herbs.",
+      "mo_ta_fr": "Attiré par la nature et les herbes médicinales traditionnelles."
+    }
   ],
   "luu_y": [
-    {"tieu_de": "Buổi gặp gỡ bà Châm, bà Phận", "tieu_de_en": "Meeting Mrs Cham & Mrs Phan", "mo_ta": "Cần được sắp xếp, đặt lịch trước với Ban điều phối cộng đồng.", "mo_ta_en": "Must be arranged and booked in advance with the community coordination board."},
-    {"tieu_de": "Thời tiết xấu / mưa lớn", "tieu_de_en": "Bad weather / heavy rain", "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại homestay hoặc nhà sàn.", "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the homestay or stilt houses."},
-    {"tieu_de": "Sức khoẻ", "tieu_de_en": "Fitness", "mo_ta": "Đạp xe nhẹ khoảng 6 — 7 km, cấp độ dễ, nhiều điểm dừng nghỉ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.", "mo_ta_en": "Easy cycling of about 6–7 km with many rest stops. Children under 10 should ride along in a local electric cart."},
-    {"tieu_de": "Tôn trọng cộng đồng", "tieu_de_en": "Respect for the community", "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.", "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."},
-    {"tieu_de": "Khu đồi dược liệu", "tieu_de_en": "The herb hill", "mo_ta": "Không xả rác, không tự ý hái cây thuốc trong khu đồi dược liệu.", "mo_ta_en": "No littering, and do not pick the medicinal plants on the herb hill without permission."}
+    {
+      "tieu_de": "Buổi gặp gỡ bà Châm, bà Phận",
+      "tieu_de_en": "Meeting Mrs Cham & Mrs Phan",
+      "tieu_de_fr": "Rencontre avec Mme Cham et Mme Phan",
+      "mo_ta": "Cần được sắp xếp, đặt lịch trước với Ban điều phối cộng đồng.",
+      "mo_ta_en": "Must be arranged and booked in advance with the community coordination board.",
+      "mo_ta_fr": "Doit être organisé et réservé à l'avance auprès du comité de coordination communautaire."
+    },
+    {
+      "tieu_de": "Thời tiết xấu / mưa lớn",
+      "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
+      "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại homestay hoặc nhà sàn.",
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the homestay or stilt houses.",
+      "mo_ta_fr": "Plan B — échangez les vélos contre des voiturettes électriques locales et passez plus de temps au homestay ou dans les maisons sur pilotis."
+    },
+    {
+      "tieu_de": "Sức khoẻ",
+      "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
+      "mo_ta": "Đạp xe nhẹ khoảng 6 — 7 km, cấp độ dễ, nhiều điểm dừng nghỉ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
+      "mo_ta_en": "Easy cycling of about 6–7 km with many rest stops. Children under 10 should ride along in a local electric cart.",
+      "mo_ta_fr": "Balade à vélo facile d'environ 6 à 7 km avec de nombreux arrêts. Les enfants de moins de 10 ans devraient monter dans une voiturette électrique locale."
+    },
+    {
+      "tieu_de": "Tôn trọng cộng đồng",
+      "tieu_de_en": "Respect for the community",
+      "tieu_de_fr": "Respect de la communauté",
+      "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.",
+      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people.",
+      "mo_ta_fr": "N'entrez pas dans les maisons sans y être invité, et demandez toujours la permission avant de photographier des personnes."
+    },
+    {
+      "tieu_de": "Khu đồi dược liệu",
+      "tieu_de_en": "The herb hill",
+      "tieu_de_fr": "La colline aux herbes médicinales",
+      "mo_ta": "Không xả rác, không tự ý hái cây thuốc trong khu đồi dược liệu.",
+      "mo_ta_en": "No littering, and do not pick the medicinal plants on the herb hill without permission.",
+      "mo_ta_fr": "Ne pas jeter de déchets et ne pas cueillir les plantes médicinales sur la colline aux herbes sans permission."
+    }
   ],
   "net_zero": "Ươm một cây thuốc Mường cùng lương y tại đồi dược liệu Rộc Éo",
   "net_zero_en": "Plant a Muong medicinal seedling with the healers on Roc Eo herb hill",
-  "lien_he": {"don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc", "nguoi": "Mr Hoàng Hân", "sdt": "0986 103 298", "fanpage": "Du lịch cộng đồng Mường Cốc"}
+  "net_zero_fr": "Planter un jeune plant médicinal Muong avec les guérisseurs sur la colline aux herbes de Roc Eo",
+  "lien_he": {
+    "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
+    "nguoi": "Mr Hoàng Hân",
+    "sdt": "0986 103 298",
+    "fanpage": "Du lịch cộng đồng Mường Cốc"
+  }
 }

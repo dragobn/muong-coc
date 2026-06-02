@@ -5,14 +5,18 @@
   "theme": "sinhthai",
   "tagline": "Bản Mường — Bóng Núi — Hơi Thở Đất",
   "tagline_en": "Muong Village — Mountain Shade — Breath of the Earth",
+  "tagline_fr": "Village Muong — Ombre des Montagnes — Souffle de la Terre",
   "thoi_luong": "1 ngày (07:30 – 16:30)",
   "thoi_luong_en": "Full day (07:30 – 16:30)",
+  "thoi_luong_fr": "Journée complète (07:30 – 16:30)",
   "cu_ly": "~12 km",
   "quy_mo": "2 – 12 khách",
   "gia": "650.000 đ/khách (gồm bữa trưa)",
   "gia_en": "650,000 VND/guest (lunch included)",
+  "gia_fr": "650 000 VND/personne (déjeuner inclus)",
   "intro": "Vòng Xe Xanh Mường Cốc đưa bạn vào một ngày đạp xe vòng quanh bản Mường — đi qua bóng chùa cổ, giếng nước trong, vườn sim, vào sâu trong thung lũng không một mảnh bê tông. Mỗi điểm dừng là một câu chuyện, kể bởi chính người đang sống tại đó. Bạn không chỉ ngắm nhìn mà được mời ngồi xuống, được nghe, được chạm tay vào nếp sống thường ngày của một vùng đất còn giữ nguyên hơi thở của mình. Và khi chiều xuống, bạn trồng xuống đất Thung Cánh một cây xanh — như một lời cảm ơn gửi lại cho mảnh đất đã đón bạn cả một ngày.",
   "intro_en": "Muong Coc Green Wheel Loop takes you on a full day of cycling around a Muong village — past the shade of an ancient pagoda, clear stone wells, wild myrtle gardens, and deep into a valley untouched by concrete. Every stop is a story, told by the very people who live there. You don't merely look on; you are invited to sit down, to listen, to put your hands on the everyday life of a land that still keeps its own quiet breath. And as evening falls, you plant a young tree into the soil of Thung Canh valley — a small thank-you left behind for the land that hosted you all day long.",
+  "intro_fr": "La Boucle Verte de Muong Coc vous emmène pour une journée complète à vélo autour d'un village Muong — passant à l'ombre d'une pagode ancestrale, longeant des puits de pierre limpides, traversant des jardins de myrte sauvage, et s'enfonçant au cœur d'une vallée épargnée par le béton. Chaque arrêt est une histoire, racontée par ceux qui y vivent. Vous n'êtes pas un simple spectateur ; vous êtes invité à vous asseoir, à écouter, à toucher du doigt le quotidien d'une terre qui respire encore à son propre rythme. Et à la tombée de la nuit, vous plantez un jeune arbre dans le sol de la vallée de Thung Canh — un petit geste de gratitude envers la terre qui vous a accueilli toute la journée.",
   "highlights": [
     "Du lịch xanh, bền vững — 5 KHÔNG, Refill Station, trồng cây tại Thung Cánh, Cỗ Lá không nhựa.",
     "Văn hoá người Mường nguyên bản — gặp gỡ trực tiếp người dân, thưởng thức rượu sim OCOP, bữa Cỗ Lá, thăm dụng cụ nông — ngư nghiệp cổ.",
@@ -27,146 +31,201 @@
     "A slow, reflective pace — 9 hours for 10–11 km of cycling, time enough to pause, to listen, to breathe, to feel.",
     "Faiths in harmony — the route passes both a Buddhist pagoda (Phu Coc) and a Catholic church (Bac Son)."
   ],
+  "highlights_fr": [
+    "Voyage vert et durable — l'engagement « 5 Non », stations de recharge, plantation d'arbres dans la vallée de Thung Canh et festin Co La Muong sans plastique.",
+    "Culture Muong authentique — rencontrez les habitants en personne, goûtez le vin de myrte certifié OCOP, partagez le festin Co La et explorez d'anciens outils agricoles et de pêche.",
+    "Vie locale — vous êtes accueilli dans le rythme quotidien : assis ensemble sur le porche, écoutant des histoires et participant aux travaux agricoles.",
+    "Un rythme lent et contemplatif — 9 heures pour 10 à 11 km de vélo, suffisamment de temps pour faire une pause, écouter, respirer, ressentir.",
+    "Des fois en harmonie — l'itinéraire passe par une pagode bouddhiste (Phu Coc) et une église catholique (Bac Son)."
+  ],
   "lich_trinh": [
     {
       "gio_hoac_buoi": "07:30",
       "diem": "Tourism Hub Đồi Dùng",
       "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
       "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm nóng, hái ngay trong vườn nhà. Bạn nghe giới thiệu ngắn về Mường Cốc, về cam kết 5 KHÔNG và mạng lưới Refill Station phủ khắp tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu một ngày thong dong.",
       "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea, picked fresh from the garden. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the network of refill stations along the route. Then you receive your bicycle, helmet, and tour map, ready for a leisurely day ahead.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude, cueillie fraîchement du jardin. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge le long du parcours. Ensuite, vous recevez votre vélo, votre casque et votre carte de la visite, prêts pour une journée de détente.",
       "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
-      "luu_y_en": "Please bring your own reusable water bottle for the whole journey."
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
     },
     {
       "gio_hoac_buoi": "08:00",
       "diem": "Chùa Phú Cốc",
       "diem_en": "Phu Coc Pagoda",
+      "diem_fr": "Pagode de Phu Coc",
       "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh chung của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở cả khoảng sân. Bạn lặng bước qua cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang, cảm nhận sự tĩnh tại của một ngôi chùa quê đã đứng đó qua bao thế hệ.",
       "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the shared spiritual anchor of the six villages of the Phu Coc area. At its heart is an ancient banyan tree, more than 400 years old, spreading its canopy over the entire courtyard. You walk quietly past the main shrine, the Mother shrine, the ancestral house, and the temple to the Quan Lang chieftains, feeling the stillness of a village pagoda that has stood here for generations.",
+      "mo_ta_fr": "Sur une colline aérée du hameau de Doi Dung se dresse le pilier spirituel commun aux six villages de la région de Phu Coc. En son cœur, un ancien banian de plus de 400 ans étend son couvert sur toute la cour. Vous passez silencieusement devant le sanctuaire principal, le sanctuaire de la Mère, la maison ancestrale et le temple des chefs Quan Lang, ressentant la quiétude d'une pagode villageoise qui se tient ici depuis des générations.",
       "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.",
-      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall."
+      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall.",
+      "luu_y_fr": "Enlevez vos chaussures avant d'entrer dans le sanctuaire, habillez-vous modestement et ne filmez pas à l'intérieur de la salle principale."
     },
     {
       "gio_hoac_buoi": "08:30",
       "diem": "Bà Là Homestay",
       "diem_en": "Ba La Homestay",
+      "diem_fr": "Ba La Homestay",
       "mo_ta": "Bên hiên nhà của hai ông bà có một chiếc giếng gia đình đã nuôi nhiều thế hệ. Bên ấm trà thảo dược, hai ông bà thong thả kể chuyện tuổi thơ, đám cưới Mường, ngày dựng nhà sàn và mùa hái lá thuốc. Bạn ngồi lại như một người khách được mời thật sự — không vội vàng, không kịch bản, chỉ có những câu chuyện đời chậm rãi trôi.",
       "mo_ta_en": "On the porch of an elderly couple's home sits a family well that has nourished several generations. Over a pot of herbal tea, the couple unhurriedly share tales of their childhood, a Muong wedding, the day they raised their stilt house, and the season for gathering medicinal leaves. You linger like a truly invited guest — no rush, no script, just the slow drift of a life's stories.",
+      "mo_ta_fr": "Sur le porche de la maison d'un couple âgé se trouve un puits familial qui a nourri plusieurs générations. Autour d'une tasse de tisane, le couple partage tranquillement des récits de leur enfance, d'un mariage Muong, du jour où ils ont construit leur maison sur pilotis, et de la saison de la cueillette des feuilles médicinales. Vous vous attardez comme un invité véritablement convié — sans hâte, sans scénario, juste le lent déroulement des histoires d'une vie.",
       "luu_y": "Bạn có thể múc nước giếng, học vài câu chào Mường, chụp ảnh cùng hai ông bà nếu được phép.",
-      "luu_y_en": "You may draw water from the well, learn a few Muong greetings, and take photos with the couple if they permit."
+      "luu_y_en": "You may draw water from the well, learn a few Muong greetings, and take photos with the couple if they permit.",
+      "luu_y_fr": "Vous pouvez puiser de l'eau au puits, apprendre quelques salutations Muong et prendre des photos avec le couple s'ils le permettent."
     },
     {
       "gio_hoac_buoi": "09:30",
       "diem": "Vườn Sim Cổ và Rượu Sim",
       "diem_en": "Old Myrtle Garden & Myrtle Wine",
+      "diem_fr": "Ancien jardin de myrtes & Vin de myrte",
       "mo_ta": "Đây là một trong những vườn sim cổ hiếm hoi còn được chăm bằng tay, không hoá chất. Bạn tự tay hái những quả sim tím mọng dưới nắng, rồi thưởng thức ly rượu sim OCOP ngọt thơm — ủ từ chính nắng và gió của khu vườn nhà. Một khoảnh khắc nhỏ nhưng đậm vị đất Mường Cốc.",
       "mo_ta_en": "This is one of the rare old myrtle gardens still tended entirely by hand, free of chemicals. You pick the plump, sun-ripened purple myrtle berries yourself, then taste a glass of fragrant OCOP-certified myrtle wine — fermented from the very sun and wind of this garden. A small moment, yet rich with the flavour of Muong Coc.",
+      "mo_ta_fr": "C'est l'un des rares anciens jardins de myrte encore entièrement entretenus à la main, sans produits chimiques. Vous cueillez vous-même les baies de myrte violettes, charnues et mûries au soleil, puis dégustez un verre de vin de myrte parfumé certifié OCOP — fermenté à partir du soleil et du vent de ce jardin. Un petit moment, pourtant riche de la saveur de Muong Coc.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     },
     {
       "gio_hoac_buoi": "10:30",
       "diem": "Gió Núi Farmstay",
       "diem_en": "Gio Nui Farmstay",
+      "diem_fr": "Gio Nui Farmstay",
       "mo_ta": "Một không gian Vườn — Ao — Chuồng đặc trưng của nhà nông Mường. Bạn cho cá ăn, hái rau, thăm chuồng gà — vịt và ngắm những dụng cụ nông — ngư nghiệp cổ: cối giã gạo bằng chân, gùi đan tay, chiếc liềm mòn vẹt theo bao mùa gặt. Mỗi món đồ là một dấu vết của đời sống lao động đã nuôi sống bản làng.",
       "mo_ta_en": "A traditional Muong garden–pond–pen homestead. You feed the fish, pick vegetables, visit the chicken and duck coops, and look over old farming and fishing tools: a foot-powered rice mortar, a hand-woven carrying basket, a sickle worn smooth by countless harvests. Each object is a trace of the working life that has long sustained the village.",
+      "mo_ta_fr": "Une ferme traditionnelle Muong avec jardin, étang et enclos. Vous nourrissez les poissons, cueillez les légumes, visitez les poulaillers et les canards, et examinez d'anciens outils agricoles et de pêche : un mortier à riz actionné au pied, un panier de transport tressé à la main, une faucille polie par d'innombrables récoltes. Chaque objet est une trace de la vie laborieuse qui a longtemps soutenu le village.",
       "luu_y": "Có thể chọn thay Gió Núi bằng điểm khác cùng cụm — xem mục Phương án Farmstay.",
-      "luu_y_en": "You may swap Gio Nui for another homestead in the cluster — see the Farmstay Options section."
+      "luu_y_en": "You may swap Gio Nui for another homestead in the cluster — see the Farmstay Options section.",
+      "luu_y_fr": "Vous pouvez échanger Gio Nui contre un autre séjour chez l'habitant du groupe — voir la section Options de séjours à la ferme."
     },
     {
       "gio_hoac_buoi": "12:00",
       "diem": "Bữa Trưa Cỗ Lá Mường",
       "diem_en": "Co La Muong Feast (Lunch)",
+      "diem_fr": "Festin Co La Muong (Déjeuner)",
       "mo_ta": "Trên bàn tre, mâm Cỗ Lá Mường được bày trực tiếp trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa. Bạn ăn theo cách người Mường vẫn ăn, giữa tiếng cười và hương lá rừng.",
       "mo_ta_en": "On a bamboo table, the Co La Muong feast is laid out directly on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most of them harvested this very morning — a true farm-to-table meal. You eat the way the Muong people have always eaten, amid laughter and the scent of forest leaves.",
+      "mo_ta_fr": "Sur une table en bambou, le festin Co La Muong est servi directement sur des feuilles de bananier fraîches, sans une seule assiette en plastique. Les ingrédients sont 100% locaux, la plupart récoltés ce matin même — un véritable repas de la ferme à la table. Vous mangez comme les Muong l'ont toujours fait, au milieu des rires et du parfum des feuilles de la forêt.",
       "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
-      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle.",
+      "luu_y_fr": "Feuilles de bananier en guise d'assiettes · ingrédients locaux · remplissez votre propre gourde."
     },
     {
       "gio_hoac_buoi": "13:30",
       "diem": "Thung Cánh",
       "diem_en": "Thung Canh valley",
+      "diem_fr": "La vallée de Thung Canh",
       "mo_ta": "Một thung lũng hoang sơ giữa lòng Mường Cốc, nơi áp dụng trọn vẹn mô hình 5 KHÔNG. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm — một khóm hoa bản địa hoặc một cây dược liệu — và nhận Chứng nhận trồng cây mang tên mình. Giữa thung chỉ có gió núi, tiếng chim và cảm giác mình vừa để lại điều gì đó tốt lành.",
       "mo_ta_en": "A pristine valley in the heart of Muong Coc, where the \"5 Nos\" model is applied in full. Each guest plants a small tree as a keepsake — a clump of native flowers or a medicinal plant — and receives a personalised tree-planting certificate. In the valley there is only mountain wind, birdsong, and the feeling that you have just left something good behind.",
+      "mo_ta_fr": "Une vallée immaculée au cœur de Muong Coc, où le modèle « 5 Sans » est appliqué dans son intégralité. Chaque invité plante un petit arbre en souvenir — une touffe de fleurs indigènes ou une plante médicinale — et reçoit un certificat de plantation d'arbre personnalisé. Dans la vallée, il n'y a que le vent des montagnes, le chant des oiseaux, et le sentiment d'avoir laissé quelque chose de bon derrière soi.",
       "luu_y": "Không xả rác, không hái cây, không can thiệp sinh vật trong khu Thung Cánh.",
-      "luu_y_en": "No littering, no picking plants, no disturbing the wildlife within Thung Canh valley."
+      "luu_y_en": "No littering, no picking plants, no disturbing the wildlife within Thung Canh valley.",
+      "luu_y_fr": "Ne pas jeter de déchets, ne pas cueillir de plantes, ne pas déranger la faune dans la vallée de Thung Canh."
     },
     {
       "gio_hoac_buoi": "14:30",
       "diem": "Trạm Chill Thung Cánh Farmstay",
       "diem_en": "Thung Canh Farmstay Chill Stop",
+      "diem_fr": "Thung Canh Farmstay : Halte Détente",
       "mo_ta": "Một điểm dừng để bạn thật sự chậm lại: ngâm và massage chân với lá thuốc Mường (ngải cứu, sả, lá lốt, gừng), dạo quanh vườn dược liệu, hái hoa quả theo mùa. Trà thảo dược được hái ngay, pha ngay và uống ngay — nguyên vẹn vị tươi của núi rừng.",
       "mo_ta_en": "A stop to truly slow down: soak and massage your feet in Muong medicinal leaves (mugwort, lemongrass, lolot, ginger), stroll through the herb garden, and pick seasonal fruit. The herbal tea is picked, brewed, and sipped on the spot — the fresh taste of the mountains, whole and intact.",
+      "mo_ta_fr": "Une halte pour vraiment ralentir : trempez et massez vos pieds dans des feuilles médicinales Muong (armoise, citronnelle, lolot, gingembre), promenez-vous dans le jardin d'herbes aromatiques et cueillez des fruits de saison. La tisane est cueillie, infusée et sirotée sur place — le goût frais des montagnes, entier et intact.",
       "luu_y": "Massage chân lá thuốc theo yêu cầu của khách.",
-      "luu_y_en": "Herbal foot massage available on request."
+      "luu_y_en": "Herbal foot massage available on request.",
+      "luu_y_fr": "Massage des pieds aux herbes disponible sur demande."
     },
     {
       "gio_hoac_buoi": "15:30",
       "diem": "Nhà Thờ Giáo Xứ Bắc Sơn",
       "diem_en": "Bac Son Parish Church",
+      "diem_fr": "Église paroissiale de Bac Son",
       "mo_ta": "Ngôi nhà tâm linh của hơn 1.800 giáo dân thôn Thanh Hà, mang kiến trúc Pháp cổ thanh thoát. Nhà thờ toạ trên đồi cao, lưng tựa vách núi, mặt hướng ra sông Thanh Hà. Khởi nguồn từ nhà nguyện năm 1958, định hình năm 2008 và được nâng lên hàng Giáo xứ năm 2021 — một dòng chảy đức tin lặng lẽ bên dòng sông.",
       "mo_ta_en": "The spiritual home of more than 1,800 parishioners of Thanh Ha hamlet, built in graceful old French architecture. The church sits high on a hill, its back against the cliff and its face toward the Thanh Ha River. It began as a chapel in 1958, took its present shape in 2008, and was elevated to a parish in 2021 — a quiet current of faith beside the river.",
+      "mo_ta_fr": "Le foyer spirituel de plus de 1 800 paroissiens du hameau de Thanh Ha, construit dans une élégante architecture française ancienne. L'église est perchée sur une colline, son dos contre la falaise et son visage tourné vers la rivière Thanh Ha. Elle a commencé comme une chapelle en 1958, a pris sa forme actuelle en 2008 et a été élevée au rang de paroisse en 2021 — un courant de foi paisible au bord de la rivière.",
       "luu_y": "Bạn đi từ chùa Phật giáo cổ buổi sáng đến thánh đường Công giáo trẻ buổi chiều — sự dung hợp văn hoá hài hoà.",
-      "luu_y_en": "From an ancient Buddhist pagoda in the morning to a young Catholic church in the afternoon — a harmonious blend of cultures."
+      "luu_y_en": "From an ancient Buddhist pagoda in the morning to a young Catholic church in the afternoon — a harmonious blend of cultures.",
+      "luu_y_fr": "D'une ancienne pagode bouddhiste le matin à une jeune église catholique l'après-midi — un mélange harmonieux de cultures."
     },
     {
       "gio_hoac_buoi": "16:30",
       "diem": "Trở về Tourism Hub Đồi Dùng",
       "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
       "mo_ta": "Bạn đạp xe khoảng 2,5 km thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn Chứng nhận trồng cây hoặc một món quà lưu niệm cộng đồng — để ngày hôm nay theo bạn về tận nhà.",
       "mo_ta_en": "You cycle about 2.5 km at an easy pace back to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc presents you with your tree-planting certificate or a community-made souvenir — so that today travels home with you.",
+      "mo_ta_fr": "Vous parcourez environ 2,5 km à vélo, à un rythme tranquille, pour retourner à la Maison Communautaire Doi Dung, où vous restituez votre vélo et votre casque. Muong Coc vous remet votre certificat de plantation d'arbre ou un souvenir artisanal — pour que cette journée vous accompagne chez vous.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     }
   ],
   "diem_den": [
     {
       "ten": "Chùa Phú Cốc",
       "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
       "loai": "Di tích tâm linh",
       "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
       "mo_ta_ngan": "Ngôi chùa cổ ngự trên đồi lộng gió, điểm tựa tâm linh chung của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp cả khoảng sân. Không gian tĩnh tại với cụm tam bảo, nhà mẫu và miếu thờ quan lang.",
-      "mo_ta_ngan_en": "An ancient pagoda perched on a breezy hill, the shared spiritual anchor of the six villages of the Phu Coc area. At its heart stands a banyan tree over 400 years old, shading the whole courtyard. A serene space of main shrine, Mother shrine, and the chieftains' temple."
+      "mo_ta_ngan_en": "An ancient pagoda perched on a breezy hill, the shared spiritual anchor of the six villages of the Phu Coc area. At its heart stands a banyan tree over 400 years old, shading the whole courtyard. A serene space of main shrine, Mother shrine, and the chieftains' temple.",
+      "mo_ta_ngan_fr": "Une pagode ancienne perchée sur une colline aérée, pilier spirituel commun des six villages de la région de Phu Coc. En son cœur se dresse un banian de plus de 400 ans, ombrageant toute la cour. Un espace serein abritant le sanctuaire principal, le sanctuaire de la Mère et le temple des chefs."
     },
     {
       "ten": "Bà Là Homestay",
       "ten_en": "Ba La Homestay",
+      "ten_fr": "Ba La Homestay",
       "loai": "Homestay · trải nghiệm",
       "loai_en": "Homestay · experience",
+      "loai_fr": "Séjour chez l'habitant · Expérience",
       "mo_ta_ngan": "Mái nhà của hai ông bà người Mường với chiếc giếng gia đình đã nuôi nhiều thế hệ. Bên hiên nhà, bạn nghe những câu chuyện đời chậm rãi về đám cưới Mường, ngày dựng nhà sàn, mùa hái lá thuốc. Một điểm dừng ấm áp, đúng nghĩa được mời làm khách.",
-      "mo_ta_ngan_en": "The home of an elderly Muong couple, with a family well that has nourished generations. On the porch you hear unhurried life stories — Muong weddings, raising a stilt house, the medicinal-leaf season. A warm stop where you are truly made a guest."
+      "mo_ta_ngan_en": "The home of an elderly Muong couple, with a family well that has nourished generations. On the porch you hear unhurried life stories — Muong weddings, raising a stilt house, the medicinal-leaf season. A warm stop where you are truly made a guest.",
+      "mo_ta_ngan_fr": "La maison d'un couple Muong âgé, avec un puits familial qui a nourri des générations. Sur le porche, écoutez des récits de vie paisibles — mariages Muong, construction d'une maison sur pilotis, la saison des feuilles médicinales. Une halte chaleureuse où vous êtes véritablement accueilli comme un invité."
     },
     {
       "ten": "Vườn Sim Cổ",
       "ten_en": "Old Myrtle Garden",
+      "ten_fr": "Ancien jardin de myrtes",
       "loai": "Sản vật OCOP",
       "loai_en": "OCOP local product",
+      "loai_fr": "Produit local OCOP",
       "mo_ta_ngan": "Một trong những vườn sim cổ hiếm hoi còn được chăm hoàn toàn bằng tay. Bạn tự tay hái những quả sim tím mọng dưới nắng. Khép lại là ly rượu sim OCOP ngọt thơm, ủ từ chính nắng gió của khu vườn này.",
-      "mo_ta_ngan_en": "One of the rare old myrtle gardens still tended entirely by hand. You pick the plump, sun-ripened purple berries yourself. The visit closes with a glass of fragrant OCOP myrtle wine, fermented from this garden's own sun and wind."
+      "mo_ta_ngan_en": "One of the rare old myrtle gardens still tended entirely by hand. You pick the plump, sun-ripened purple berries yourself. The visit closes with a glass of fragrant OCOP myrtle wine, fermented from this garden's own sun and wind.",
+      "mo_ta_ngan_fr": "L'un des rares jardins de myrtes anciens encore entièrement entretenus à la main. Vous cueillez vous-même les baies violettes, charnues et gorgées de soleil. La visite se termine par un verre de vin de myrte OCOP parfumé, fermenté grâce au soleil et au vent de ce jardin."
     },
     {
       "ten": "Gió Núi Farmstay",
       "ten_en": "Gio Nui Farmstay",
+      "ten_fr": "Gio Nui Farmstay",
       "loai": "Farmstay",
       "loai_en": "Farmstay",
+      "loai_fr": "Séjour à la ferme",
       "mo_ta_ngan": "Không gian Vườn — Ao — Chuồng đặc trưng của nhà nông Mường: cho cá ăn, hái rau, thăm chuồng gà vịt. Nơi đây trưng bày những dụng cụ nông — ngư nghiệp cổ như cối giã gạo bằng chân, gùi đan tay, liềm mòn theo mùa gặt.",
-      "mo_ta_ngan_en": "A traditional Muong garden–pond–pen homestead: feed the fish, pick vegetables, visit the poultry coops. It displays old farming and fishing tools — a foot-powered rice mortar, a hand-woven basket, a sickle worn by the harvests."
+      "mo_ta_ngan_en": "A traditional Muong garden–pond–pen homestead: feed the fish, pick vegetables, visit the poultry coops. It displays old farming and fishing tools — a foot-powered rice mortar, a hand-woven basket, a sickle worn by the harvests.",
+      "mo_ta_ngan_fr": "Une ferme traditionnelle Muong avec jardin, étang et enclos : nourrissez les poissons, cueillez les légumes, visitez les poulaillers. Elle expose d'anciens outils agricoles et de pêche — un mortier à riz actionné au pied, un panier tressé à la main, une faucille usée par les récoltes."
     },
     {
       "ten": "Thung Cánh",
       "ten_en": "Thung Canh valley",
+      "ten_fr": "La vallée de Thung Canh",
       "loai": "Thiên nhiên · Net-Zero",
       "loai_en": "Nature · Net-Zero",
+      "loai_fr": "Nature · Net-Zero",
       "mo_ta_ngan": "Thung lũng hoang sơ giữa lòng Mường Cốc, áp dụng trọn vẹn mô hình 5 KHÔNG. Mỗi vị khách trồng một cây nhỏ làm kỷ niệm và nhận Chứng nhận mang tên mình. Giữa thung chỉ có gió núi, tiếng chim và cảm giác vừa để lại điều tốt lành.",
-      "mo_ta_ngan_en": "A pristine valley at the heart of Muong Coc, applying the \"5 Nos\" model in full. Each guest plants a small tree as a keepsake and receives a personalised certificate. In the valley there is only mountain wind, birdsong, and the sense of having left something good behind."
+      "mo_ta_ngan_en": "A pristine valley at the heart of Muong Coc, applying the \"5 Nos\" model in full. Each guest plants a small tree as a keepsake and receives a personalised certificate. In the valley there is only mountain wind, birdsong, and the sense of having left something good behind.",
+      "mo_ta_ngan_fr": "Une vallée immaculée au cœur de Muong Coc, appliquant pleinement le modèle « 5 Sans ». Chaque invité plante un petit arbre en souvenir et reçoit un certificat personnalisé. Dans la vallée, il n'y a que le vent des montagnes, le chant des oiseaux, et le sentiment d'avoir laissé quelque chose de bon derrière soi."
     },
     {
       "ten": "Nhà Thờ Giáo Xứ Bắc Sơn",
       "ten_en": "Bac Son Parish Church",
+      "ten_fr": "Église paroissiale de Bac Son",
       "loai": "Di tích tâm linh",
       "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
       "mo_ta_ngan": "Thánh đường mang kiến trúc Pháp cổ thanh thoát, mái nhà tâm linh của hơn 1.800 giáo dân thôn Thanh Hà. Nhà thờ toạ trên đồi cao, lưng tựa vách núi, mặt hướng ra sông. Khởi nguồn nhà nguyện 1958, định hình 2008, nâng hàng Giáo xứ 2021.",
-      "mo_ta_ngan_en": "A church in graceful old French architecture, the spiritual home of over 1,800 parishioners of Thanh Ha hamlet. It sits high on a hill, its back to the cliff and its face to the river. Begun as a chapel in 1958, shaped in 2008, raised to a parish in 2021."
+      "mo_ta_ngan_en": "A church in graceful old French architecture, the spiritual home of over 1,800 parishioners of Thanh Ha hamlet. It sits high on a hill, its back to the cliff and its face to the river. Begun as a chapel in 1958, shaped in 2008, raised to a parish in 2021.",
+      "mo_ta_ngan_fr": "Une église à l'élégante architecture française ancienne, foyer spirituel de plus de 1 800 paroissiens du hameau de Thanh Ha. Elle se dresse sur une colline, dos à la falaise et face à la rivière. Commencée comme une chapelle en 1958, façonnée en 2008, élevée au rang de paroisse en 2021."
     }
   ],
   "bao_gom": [
@@ -187,6 +246,15 @@
     "Comprehensive travel insurance",
     "One tree planted per guest at Thung Canh valley + tree-planting certificate"
   ],
+  "bao_gom_fr": [
+    "Vélo standard et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un arbre planté par invité dans la vallée de Thung Canh + certificat de plantation d'arbre"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối, các bữa ăn ngoài chương trình",
     "Các dịch vụ và trải nghiệm không nằm trong chương trình",
@@ -201,42 +269,61 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et tout repas en dehors du programme",
+    "Services et expériences non inclus dans le programme",
+    "Boissons pendant les repas",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
     {
       "ten": "Chương trình văn nghệ Mường",
       "ten_en": "Muong performance show",
+      "ten_fr": "Spectacle Muong",
       "mo_ta": "Cồng chiêng · hát đối Mường",
-      "mo_ta_en": "Gong music · Muong call-and-response singing"
+      "mo_ta_en": "Gong music · Muong call-and-response singing",
+      "mo_ta_fr": "Musique de gongs · Chant responsorial Muong"
     },
     {
       "ten": "Tri thức dân gian Mường",
       "ten_en": "Muong folk knowledge",
+      "ten_fr": "Savoir populaire Muong",
       "mo_ta": "Nghệ nhân kể chuyện sử thi Mo Mường — di sản tinh thần của người Mường",
-      "mo_ta_en": "An artisan recites the Mo Muong epic — a spiritual heritage of the Muong people"
+      "mo_ta_en": "An artisan recites the Mo Muong epic — a spiritual heritage of the Muong people",
+      "mo_ta_fr": "Un artisan récite l'épopée Mo Muong — un héritage spirituel du peuple Muong"
     },
     {
       "ten": "Mặc trang phục Mường + photo session",
       "ten_en": "Muong costume + photo session",
+      "ten_fr": "Costume Muong + séance photo",
       "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh",
-      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash"
+      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash",
+      "mo_ta_fr": "Blouse pan jaune/blanche, jupe à ourlet brodé de fleurs, ceinture verte"
     },
     {
       "ten": "Workshop gói bánh Mường",
       "ten_en": "Muong cake-wrapping workshop",
+      "ten_fr": "Atelier d'emballage de gâteaux Muong",
       "mo_ta": "60 phút học gói bánh truyền thống cùng phụ nữ Mường",
-      "mo_ta_en": "60 minutes learning to wrap traditional cakes with Muong women"
+      "mo_ta_en": "60 minutes learning to wrap traditional cakes with Muong women",
+      "mo_ta_fr": "60 minutes pour apprendre à envelopper des gâteaux traditionnels avec les femmes Muong"
     },
     {
       "ten": "Workshop dệt cạp váy",
       "ten_en": "Skirt-band weaving workshop",
+      "ten_fr": "Atelier de tissage de bande de jupe",
       "mo_ta": "60 — 90 phút tại Lamia",
-      "mo_ta_en": "60–90 minutes at Lamia"
+      "mo_ta_en": "60–90 minutes at Lamia",
+      "mo_ta_fr": "60 à 90 minutes à Lamia"
     },
     {
       "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
       "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
       "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
-      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
     }
   ],
   "farmstay_options": [
@@ -245,96 +332,125 @@
       "tag": "mặc định",
       "mo_ta": "Không gian Vườn — Ao — Chuồng truyền thống Mường: cho cá ăn, hái rau, thăm chuồng gà vịt và xem dụng cụ nông — ngư nghiệp cổ.",
       "ten_en": "Gio Nui Farmstay",
-      "mo_ta_en": "A traditional Muong garden–pond–pen space: feed the fish, pick vegetables, visit the poultry coops, and see old farming and fishing tools."
+      "ten_fr": "Gio Nui Farmstay",
+      "mo_ta_en": "A traditional Muong garden–pond–pen space: feed the fish, pick vegetables, visit the poultry coops, and see old farming and fishing tools.",
+      "mo_ta_fr": "Un espace traditionnel Muong jardin-étang-enclos : nourrissez les poissons, cueillez les légumes, visitez les poulaillers et découvrez d'anciens outils agricoles et de pêche."
     },
     {
       "ten": "Lamia Mường Cốc",
       "tag": "tùy chọn",
       "mo_ta": "Bước vào căn bếp Mường còn ám khói lá: dệt sợi cạp váy theo nhịp khung gỗ, nếm món ăn vừa nấu, khoác trang phục Mường, lạc giữa miệt vườn xanh ngắt.",
       "ten_en": "Lamia Muong Coc",
-      "mo_ta_en": "Step into a Muong kitchen still smoke-scented with leaves: weave a skirt band to the loom's rhythm, taste freshly cooked dishes, wear Muong costume, and wander a lush green garden."
+      "ten_fr": "Lamia Muong Coc",
+      "mo_ta_en": "Step into a Muong kitchen still smoke-scented with leaves: weave a skirt band to the loom's rhythm, taste freshly cooked dishes, wear Muong costume, and wander a lush green garden.",
+      "mo_ta_fr": "Entrez dans une cuisine Muong encore parfumée à la fumée des feuilles : tissez une bande de jupe au rythme du métier, goûtez des plats fraîchement préparés, portez le costume Muong et flânez dans un jardin verdoyant et luxuriant."
     },
     {
       "ten": "Nhà Vườn Hoan Thanh",
       "tag": "tùy chọn",
       "mo_ta": "Học kỹ thuật cắt ghép hoa, cây cảnh và thưởng thức nghệ thuật bonsai Việt từ chính tay người làm vườn.",
       "ten_en": "Hoan Thanh Garden House",
-      "mo_ta_en": "Learn flower-grafting and ornamental-plant techniques, and enjoy the art of Vietnamese bonsai straight from the gardener's hands."
+      "ten_fr": "Maison-jardin Hoan Thanh",
+      "mo_ta_en": "Learn flower-grafting and ornamental-plant techniques, and enjoy the art of Vietnamese bonsai straight from the gardener's hands.",
+      "mo_ta_fr": "Apprenez les techniques de greffage de fleurs et de plantes ornementales, et appréciez l'art du bonsaï vietnamien directement des mains du jardinier."
     },
     {
       "ten": "Bản Mộc Mường Cốc",
       "tag": "tùy chọn",
       "mo_ta": "Trải nghiệm ngư nghiệp Mường — cho cá ăn trong ao tự nhiên, thăm chuồng vịt, sống một buổi sáng đúng nhịp vùng đất ẩm.",
       "ten_en": "Ban Moc Muong Coc",
-      "mo_ta_en": "Experience Muong fishing life — feed the fish in a natural pond, visit the duck pen, and live a morning to the rhythm of this watery land."
+      "ten_fr": "Ban Moc Muong Coc",
+      "mo_ta_en": "Experience Muong fishing life — feed the fish in a natural pond, visit the duck pen, and live a morning to the rhythm of this watery land.",
+      "mo_ta_fr": "Découvrez la vie de pêcheur Muong — nourrissez les poissons dans un étang naturel, visitez l'enclos des canards et vivez une matinée au rythme de cette terre aquatique."
     }
   ],
   "doi_tuong": [
     {
       "nhom": "Slow traveler",
       "nhom_en": "Slow travellers",
+      "nhom_fr": "Voyageurs lents",
       "mo_ta": "Người tìm một ngày không vội — slow travel đúng nghĩa.",
-      "mo_ta_en": "Those seeking an unhurried day — slow travel in its truest sense."
+      "mo_ta_en": "Those seeking an unhurried day — slow travel in its truest sense.",
+      "mo_ta_fr": "Ceux qui recherchent une journée sans hâte — le slow travel dans son sens le plus pur."
     },
     {
       "nhom": "Gia đình",
       "nhom_en": "Families",
+      "nhom_fr": "Familles",
       "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).",
-      "mo_ta_en": "Families with children aged 10 and up (able to cycle)."
+      "mo_ta_en": "Families with children aged 10 and up (able to cycle).",
+      "mo_ta_fr": "Familles avec enfants de 10 ans et plus (aptes à faire du vélo)."
     },
     {
       "nhom": "Nhóm bạn nhỏ",
       "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
       "mo_ta": "2 — 12 người tìm chốn nghỉ chân thật, không phải điểm check-in.",
-      "mo_ta_en": "Groups of 2–12 looking for a genuine retreat, not a photo spot."
+      "mo_ta_en": "Groups of 2–12 looking for a genuine retreat, not a photo spot.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes recherchant une véritable retraite, pas un simple lieu de photo."
     },
     {
       "nhom": "Học sinh — sinh viên",
       "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
       "mo_ta": "Khám phá văn hoá bản địa và môi trường.",
-      "mo_ta_en": "Exploring local culture and the environment."
+      "mo_ta_en": "Exploring local culture and the environment.",
+      "mo_ta_fr": "Exploration de la culture locale et de l'environnement."
     },
     {
       "nhom": "Người yêu thiên nhiên",
       "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
       "mo_ta": "Muốn để lại dấu chân nhẹ nhất có thể.",
-      "mo_ta_en": "Those wishing to leave the lightest footprint possible."
+      "mo_ta_en": "Those wishing to leave the lightest footprint possible.",
+      "mo_ta_fr": "Ceux qui souhaitent laisser l'empreinte la plus légère possible."
     }
   ],
   "luu_y": [
     {
       "tieu_de": "Thời tiết xấu / mưa lớn",
       "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
       "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại farmstay hoặc nhà cổ.",
-      "mo_ta_en": "Backup plan — swap bicycles for local electric carts, and spend more time at the farmstay or heritage houses."
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts, and spend more time at the farmstay or heritage houses.",
+      "mo_ta_fr": "Plan B — échangez les vélos contre des voiturettes électriques locales et passez plus de temps au farmstay ou dans les maisons traditionnelles."
     },
     {
       "tieu_de": "Sức khoẻ",
       "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
       "mo_ta": "Đạp xe nhẹ 10 — 11 km, cấp độ dễ, có 7+ điểm dừng nghỉ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
-      "mo_ta_en": "Easy cycling of 10–11 km with 7+ rest stops. Children under 10 should ride along in a local electric cart."
+      "mo_ta_en": "Easy cycling of 10–11 km with 7+ rest stops. Children under 10 should ride along in a local electric cart.",
+      "mo_ta_fr": "Balade à vélo facile de 10 à 11 km avec plus de 7 arrêts. Les enfants de moins de 10 ans devraient monter dans une voiturette électrique locale."
     },
     {
       "tieu_de": "Tôn trọng cộng đồng",
       "tieu_de_en": "Respect for the community",
+      "tieu_de_fr": "Respect de la communauté",
       "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.",
-      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."
+      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people.",
+      "mo_ta_fr": "N'entrez pas dans les maisons sans y être invité, et demandez toujours la permission avant de photographier des personnes."
     },
     {
       "tieu_de": "Tiếp nước",
       "tieu_de_en": "Staying hydrated",
+      "tieu_de_fr": "Rester hydraté",
       "mo_ta": "Vui lòng mang theo bình nước cá nhân của bạn.",
-      "mo_ta_en": "Please bring your own reusable water bottle."
+      "mo_ta_en": "Please bring your own reusable water bottle.",
+      "mo_ta_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable."
     },
     {
       "tieu_de": "Trang phục lịch sự",
       "tieu_de_en": "Modest dress",
+      "tieu_de_fr": "Tenue modeste",
       "mo_ta": "Khi vào di tích tâm linh — cởi giày, không quay phim trong chính điện.",
-      "mo_ta_en": "At spiritual sites — remove your shoes and do not film inside the main hall."
+      "mo_ta_en": "At spiritual sites — remove your shoes and do not film inside the main hall.",
+      "mo_ta_fr": "Sur les sites spirituels — retirez vos chaussures et ne filmez pas à l'intérieur de la salle principale."
     }
   ],
   "net_zero": "Trồng một cây kỷ niệm tại Thung Cánh + Chứng nhận trồng cây",
   "net_zero_en": "Plant a keepsake tree at Thung Canh valley + receive a tree-planting certificate",
+  "net_zero_fr": "Planter un arbre souvenir dans la vallée de Thung Canh + recevez un certificat de plantation d'arbre",
   "lien_he": {
     "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
     "nguoi": "Mr Hoàng Hân",

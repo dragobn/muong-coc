@@ -5,14 +5,18 @@
   "theme": "disan",
   "tagline": "Di Tích Cổ — Sông Nước — Phiên Chợ Vùng Quê",
   "tagline_en": "Ancient Relics — Riverscape — Country Market",
+  "tagline_fr": "Vestiges Anciens — Paysage Fluvial — Marché Rural",
   "thoi_luong": "~8 giờ (08:00 – 16:00)",
   "thoi_luong_en": "About 8 hours (08:00 – 16:00)",
+  "thoi_luong_fr": "Environ 8 heures (08:00 – 16:00)",
   "cu_ly": "~10 – 11 km",
   "quy_mo": "2 – 12 khách",
   "gia": "650.000 đ/khách (gồm bữa trưa)",
   "gia_en": "650,000 VND/guest (lunch included)",
+  "gia_fr": "650 000 VND/personne (déjeuner inclus)",
   "intro": "Dấu Xưa Mường Cốc là cung đạp xe giàu chất văn hoá nhất — dẫn bạn qua những lớp thời gian của vùng đất Mường: chùa cổ, con đường tràm, đền Mẫu bên sông, hang Hổ và đền Quán Mai linh thiêng. Bạn đi qua dấu chân của vua Đinh Bộ Lĩnh, chạm vào những sắc phong triều Nguyễn, nghe vọng lại tiếng đúc đạn thời kháng chiến trong lòng hang đá. Điểm nhấn là phiên chợ dân sinh An Phú — nơi bạn hoà vào nhịp sống thường nhật với chiếc giỏ tre trên tay. Chặng cuối khép lại bên vườn sim cổ với một chén rượu sim ngọt thơm mang theo dư vị Mường Cốc.",
   "intro_en": "Ancient Traces of Muong Coc is the most culturally rich cycling route — leading you through the layers of time of this Muong land: an old pagoda, the cajuput lane, a riverside Mother temple, and the sacred Tiger Cave and Quan Mai Temple. You follow in the footsteps of King Dinh Bo Linh, touch the imperial edicts of the Nguyen dynasty, and hear echoes of resistance-era ammunition casting deep inside the stone cave. The highlight is the An Phu country market — where you blend into everyday life with a bamboo basket in hand. The journey closes at an old myrtle garden over a glass of sweet, fragrant myrtle wine that carries the taste of Muong Coc home with you.",
+  "intro_fr": "Les Traces Anciennes de Muong Coc est l'itinéraire cyclable le plus riche culturellement — vous menant à travers les couches du temps de cette terre Muong : une ancienne pagode, l'allée des cajeputs, un temple de la Mère au bord de la rivière, et la grotte sacrée du Tigre et le temple Quan Mai. Vous suivez les traces du roi Dinh Bo Linh, touchez les édits impériaux de la dynastie Nguyen, et entendez les échos de la fabrication de munitions de l'ère de la résistance au fond de la grotte de pierre. Le point culminant est le marché rural d'An Phu — où vous vous mêlez à la vie quotidienne avec un panier en bambou à la main. Le voyage se termine dans un ancien jardin de myrtes autour d'un verre de vin de myrte doux et parfumé qui emporte le goût de Muong Coc chez vous.",
   "highlights": [
     "Hành trình giàu di tích — chùa cổ, đền Mẫu triều Nguyễn, hang Hổ và đền Quán Mai linh thiêng.",
     "Phiên chợ dân sinh An Phú — hoà vào nhịp sống thường nhật, mua sản vật quê không túi nilon.",
@@ -27,171 +31,235 @@
     "Old myrtle garden & OCOP myrtle wine — taste it and carry a little of Muong Coc home.",
     "Co La Muong feast lunch — a farm-to-table meal on banana leaves, with no plastic plates."
   ],
+  "highlights_fr": [
+    "Un voyage riche en reliques — une ancienne pagode, un temple-mère de la dynastie Nguyen, et la grotte sacrée du Tigre et le temple Quan Mai.",
+    "Le marché champêtre d'An Phu — Plongez dans la vie quotidienne et achetez des produits locaux sans sacs en plastique.",
+    "Culture Muong authentique — tissez une bande de jupe, portez la tenue Muong et goûtez des plats ethniques à Lamia.",
+    "Ancien jardin de myrtes & vin de myrte OCOP — goûtez-le et emportez un peu de Muong Coc chez vous.",
+    "Déjeuner festif Co La Muong — un repas de la ferme à la table servi sur des feuilles de bananier, sans assiettes en plastique."
+  ],
   "lich_trinh": [
     {
       "gio_hoac_buoi": "08:00",
       "diem": "Tourism Hub Đồi Dùng",
       "diem_en": "Doi Dung Tourism Hub",
+      "diem_fr": "Doi Dung Tourism Hub",
       "mo_ta": "Hướng dẫn viên người Mường đón bạn bằng một ly trà thảo dược ấm. Bạn nghe giới thiệu ngắn về Mường Cốc, cam kết 5 KHÔNG và mạng lưới Refill Station dọc tuyến. Sau đó bạn nhận xe đạp, mũ bảo hiểm và bản đồ tour để bắt đầu hành trình tìm về dấu xưa.",
       "mo_ta_en": "Your Muong guide welcomes you with a warm cup of herbal tea. You hear a short introduction to Muong Coc, the \"5 Nos\" commitment, and the refill-station network along the route. Then you receive your bicycle, helmet, and tour map to begin the journey into the past.",
+      "mo_ta_fr": "Votre guide Muong vous accueille avec une tasse de tisane chaude. Vous écoutez une brève introduction à Muong Coc, à l'engagement « 5 Nos » et au réseau de stations de recharge le long du parcours. Ensuite, vous recevez votre vélo, votre casque et votre carte de la visite pour commencer le voyage dans le passé.",
       "luu_y": "Hãy mang theo bình nước cá nhân để dùng trong suốt hành trình.",
-      "luu_y_en": "Please bring your own reusable water bottle for the whole journey."
+      "luu_y_en": "Please bring your own reusable water bottle for the whole journey.",
+      "luu_y_fr": "Veuillez apporter votre propre bouteille d'eau réutilisable pour tout le voyage."
     },
     {
       "gio_hoac_buoi": "08:30",
       "diem": "Chùa Phú Cốc & Cây đa cổ",
       "diem_en": "Phu Coc Pagoda & the Old Banyan",
+      "diem_fr": "Pagode de Phu Coc et le Vieux Banyan",
       "mo_ta": "Trên ngọn đồi lộng gió thôn Đồi Dùng là điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Cây đa cổ thụ hơn 400 năm tuổi xoè tán che chở cả khoảng sân, bên cụm tam bảo, nhà mẫu, nhà thờ tổ và miếu thờ quan lang. Đây là nơi mở đầu chậm rãi cho một ngày tìm về dấu xưa.",
       "mo_ta_en": "On a breezy hill in Doi Dung hamlet stands the spiritual anchor of the six villages of the Phu Coc area. A banyan tree over 400 years old shades the whole courtyard, beside the main shrine, the Mother shrine, the ancestral house, and the chieftains' temple. It is the slow, quiet opening to a day spent tracing the past.",
+      "mo_ta_fr": "Sur une colline aérée du hameau de Doi Dung se dresse le pilier spirituel des six villages de la région de Phu Coc. Un banian de plus de 400 ans ombrage toute la cour, à côté du sanctuaire principal, du sanctuaire de la Mère, de la maison ancestrale et du temple des chefs. C'est l'ouverture lente et paisible d'une journée passée à retracer le passé.",
       "luu_y": "Cởi giày khi vào điện, trang phục lịch sự, không quay phim trong chính điện.",
-      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall."
+      "luu_y_en": "Remove your shoes before entering the shrine, dress modestly, and do not film inside the main hall.",
+      "luu_y_fr": "Enlevez vos chaussures avant d'entrer dans le sanctuaire, habillez-vous modestement et ne filmez pas à l'intérieur de la salle principale."
     },
     {
       "gio_hoac_buoi": "09:10",
       "diem": "Lamia Mường Cốc",
       "diem_en": "Lamia Muong Coc",
+      "diem_fr": "Lamia Muong Coc",
       "mo_ta": "Bạn bước vào căn bếp Mường còn ám khói lá. Tại đây bạn thử kéo từng sợi cạp váy theo nhịp khung gỗ, khoác lên mình trang phục Mường truyền thống, và nếm đôi món ăn dân tộc vừa nấu xong từ chính tay người Mường. Một khoảng dừng để chạm vào văn hoá bằng cả tay và vị giác.",
       "mo_ta_en": "You step into a Muong kitchen still scented with leaf smoke. Here you try pulling the threads of a skirt band to the rhythm of the wooden loom, slip into traditional Muong dress, and taste ethnic dishes freshly cooked by Muong hands. A pause to touch culture with both your hands and your palate.",
+      "mo_ta_fr": "Vous entrez dans une cuisine Muong encore parfumée par la fumée des feuilles. Ici, vous essayez de tirer les fils d'une ceinture de jupe au rythme du métier à tisser en bois, vous glissez dans une tenue traditionnelle Muong et dégustez des plats ethniques fraîchement préparés par des mains Muong. Une pause pour toucher la culture de vos mains et de votre palais.",
       "luu_y": "Cùng cụm Đồi Dùng còn nhiều điểm khác — xem mục Phương án trải nghiệm.",
-      "luu_y_en": "The Doi Dung cluster has several other stops — see the Experience Options section."
+      "luu_y_en": "The Doi Dung cluster has several other stops — see the Experience Options section.",
+      "luu_y_fr": "Le pôle Doi Dung propose plusieurs autres arrêts — consultez la section Options d'Expérience."
     },
     {
       "gio_hoac_buoi": "10:20",
       "diem": "Chùa Đinh Long",
       "diem_en": "Dinh Long Pagoda",
+      "diem_fr": "Pagode Dinh Long",
       "mo_ta": "Ngôi chùa cổ (Đinh Long Tự) in dấu vua Đinh Bộ Lĩnh — tương truyền dựng làm nơi dừng chân khi dẹp loạn 12 sứ quân, trùng tu thời Lê – Trịnh (1599). Trong kháng chiến, chùa từng làm kho thóc, nơi in tài liệu, bệnh xá và xưởng công binh. Lịch sử nghìn năm và lịch sử cận đại cùng đọng lại dưới một mái chùa.",
       "mo_ta_en": "An ancient pagoda (Dinh Long Tu) bearing the mark of King Dinh Bo Linh — said to have been built as a resting place during his campaign against the Twelve Warlords, and restored in the Le–Trinh period (1599). During the resistance years it served as a grain store, a printing site, an infirmary, and an army-engineering workshop. A thousand years of history and the recent past settle together beneath one pagoda roof.",
+      "mo_ta_fr": "Une ancienne pagode (Dinh Long Tu) portant la marque du roi Dinh Bo Linh — qui aurait été construite comme lieu de repos lors de sa campagne contre les Douze Seigneurs de Guerre, et restaurée pendant la période Le–Trinh (1599). Pendant les années de résistance, elle a servi de grenier à grains, de site d'impression, d'infirmerie et d'atelier d'ingénierie militaire. Mille ans d'histoire et le passé récent se côtoient sous un même toit de pagode.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     },
     {
       "gio_hoac_buoi": "10:45",
       "diem": "Con đường Tràm",
       "diem_en": "The Cajuput Lane",
+      "diem_fr": "L'allée des cajeputiers",
       "mo_ta": "Con đường tràm dài chừng 800 mét, hai hàng tràm khép tán trên đầu, nắng lọc xuống thành những vệt sáng lay động trên mặt đường. Đây là một trong những đoạn đường đẹp và ăn ảnh nhất vùng — một quãng nghỉ mát mắt giữa hành trình di sản.",
       "mo_ta_en": "An 800-metre lane lined with cajuput trees whose canopies close overhead, letting sunlight filter down into shifting patches of light on the road. It is one of the loveliest and most photogenic stretches in the region — a cool, restful interlude in the heritage journey.",
+      "mo_ta_fr": "Une allée de 800 mètres bordée de cajeputiers dont les canopées se rejoignent au-dessus, laissant la lumière du soleil filtrer en taches mouvantes sur la route. C'est l'un des tronçons les plus charmants et photogéniques de la région — une parenthèse fraîche et reposante dans le voyage patrimonial.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     },
     {
       "gio_hoac_buoi": "11:15",
       "diem": "Đền Mẫu Thượng Thiên (Đền Ái Nàng)",
       "diem_en": "Thuong Thien Mother Temple (Ai Nang Temple)",
+      "diem_fr": "Temple de la Mère Thuong Thien (Temple Ai Nang)",
       "mo_ta": "Đền toạ trên núi Đền, lưng tựa núi, mặt nhìn ra sông theo thế tả Thanh long hữu Bạch hổ. Đền thờ Mẫu Quế Anh phu nhân cùng Tam toà Thánh Mẫu, được triều Nguyễn ban bốn đạo sắc từ Tự Đức đến Khải Định. Bạn dừng lại trong không gian linh thiêng soi bóng dòng sông.",
       "mo_ta_en": "The temple sits on Den Mountain, its back to the hill and its face to the river, in the classic \"green dragon left, white tiger right\" position. It honours Lady Que Anh and the Three Palaces of the Mother Goddesses and holds four imperial Nguyen edicts from Tu Duc to Khai Dinh. You pause in this sacred space mirrored in the river.",
+      "mo_ta_fr": "Le temple est situé sur la montagne Den, son dos à la colline et son visage à la rivière, dans la position classique « dragon vert à gauche, tigre blanc à droite ». Il honore Dame Que Anh et les Trois Palais des Déesses Mères et détient quatre édits impériaux Nguyen de Tu Duc à Khai Dinh. Vous faites une pause dans cet espace sacré reflété dans la rivière.",
       "luu_y": "Tùy chọn: đi bộ vào Chùa Tiên gần đó (~15 phút); hoặc chèo thuyền ngắm cảnh đôi bờ (đặt trước).",
-      "luu_y_en": "Optional: a short walk to nearby Tien Pagoda (~15 min); or a boat ride to take in both banks (book in advance)."
+      "luu_y_en": "Optional: a short walk to nearby Tien Pagoda (~15 min); or a boat ride to take in both banks (book in advance).",
+      "luu_y_fr": "En option : une courte promenade jusqu'à la pagode Tien (~15 min) ; ou une promenade en bateau pour admirer les deux rives (à réserver à l'avance)."
     },
     {
       "gio_hoac_buoi": "12:00",
       "diem": "Bữa trưa Cỗ Lá Mường",
       "diem_en": "Co La Muong Feast (Lunch)",
+      "diem_fr": "Festin Co La Muong (Déjeuner)",
       "mo_ta": "Bữa trưa được dọn tại nhà dân với mâm Cỗ Lá Mường — bày trên lá chuối tươi, không một chiếc đĩa nhựa. Nguyên liệu 100% địa phương, phần lớn vừa hái sáng nay — một bữa ăn farm-to-table đúng nghĩa, ăn theo cách người Mường vẫn ăn.",
       "mo_ta_en": "Lunch is served at a local home as a Co La Muong feast — laid on fresh banana leaves, without a single plastic plate. The ingredients are 100% local, most harvested this very morning — a true farm-to-table meal, eaten the way the Muong people always have.",
+      "mo_ta_fr": "Le déjeuner est servi chez l'habitant sous forme de festin Co La Muong — dressé sur de fraîches feuilles de bananier, sans une seule assiette en plastique. Les ingrédients sont 100% locaux, la plupart récoltés ce matin même — un véritable repas de la ferme à la table, dégusté à la manière traditionnelle du peuple Muong.",
       "luu_y": "Lá chuối thay đĩa nhựa · nguyên liệu địa phương · nước uống tiếp từ bình cá nhân.",
-      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle."
+      "luu_y_en": "Banana leaves replace plastic plates · local ingredients · refill your own water bottle.",
+      "luu_y_fr": "Feuilles de bananier en guise d'assiettes · ingrédients locaux · remplissez votre propre gourde."
     },
     {
       "gio_hoac_buoi": "13:30",
       "diem": "Hang Hổ & Đền Quán Mai",
       "diem_en": "Tiger Cave & Quan Mai Temple",
+      "diem_fr": "Grotte du Tigre & Temple Quan Mai",
       "mo_ta": "Hang đá xuyên núi dài chừng 80 m, vòm cao gần 10 m, trong hang có hai bầu nước — thờ Quan Ngũ Hổ trấn giữ, từng là nơi bộ đội công binh đúc đạn thời kháng chiến. Cạnh cửa hang là Đền Quán Mai thờ tam vị đức thượng đẳng, tựa lưng vào núi giữa cảnh quan thanh tịnh. Bước vào lòng hang mát lạnh, bạn như chạm vào cả tín ngưỡng lẫn ký ức chiến tranh.",
       "mo_ta_en": "A stone cave running about 80 m through the mountain, its vault nearly 10 m high, with two pools of water inside — dedicated to the Five Tigers and once used by army engineers to cast ammunition during the resistance. Beside the cave mouth stands Quan Mai Temple, honouring three high deities, set against the mountain amid a serene landscape. Stepping into the cool depths, you touch both faith and the memory of war.",
+      "mo_ta_fr": "Une grotte de pierre s'étendant sur environ 80 m à travers la montagne, sa voûte de près de 10 m de haut, avec deux bassins d'eau à l'intérieur — dédiée aux Cinq Tigres et autrefois utilisée par les ingénieurs militaires pour couler des munitions pendant la résistance. À côté de l'entrée de la grotte se dresse le temple Quan Mai, honorant trois hautes divinités, adossé à la montagne au milieu d'un paysage serein. En pénétrant dans ses profondeurs fraîches, vous touchez à la fois la foi et la mémoire de la guerre.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     },
     {
       "gio_hoac_buoi": "14:15",
       "diem": "Chợ dân sinh An Phú",
       "diem_en": "An Phu Local Market",
+      "diem_fr": "Marché local d'An Phu",
       "mo_ta": "Chợ mới An Phú khang trang, xây từ Chương trình mục tiêu quốc gia, là trung tâm giao thương và quảng bá sản vật địa phương. Trước khi vào chợ, bạn nhận một chiếc giỏ tre hoặc túi vải của bản rồi đi chợ, chọn mua sản vật quê — không một chiếc túi nhựa nào. Một phiên chợ thật, đông vui và đậm chất đời thường.",
       "mo_ta_en": "The spruce new An Phu market, built under the National Target Programme, is a hub of trade and a showcase for local produce. Before entering, you receive a bamboo basket or a village cloth bag, then shop and choose country produce — without a single plastic bag. A real market: lively, bustling, and full of everyday life.",
+      "mo_ta_fr": "Le tout nouveau marché d'An Phu, construit dans le cadre du Programme National Cible, est un centre commercial et une vitrine pour les produits locaux. Avant d'entrer, vous recevez un panier en bambou ou un sac en tissu du village, puis vous faites vos achats et choisissez des produits du terroir — sans un seul sac en plastique. Un vrai marché : animé, effervescent et plein de vie quotidienne.",
       "luu_y": "Phiên chợ không túi nilon.",
-      "luu_y_en": "A plastic-bag-free market."
+      "luu_y_en": "A plastic-bag-free market.",
+      "luu_y_fr": "Un marché sans sacs plastiques."
     },
     {
       "gio_hoac_buoi": "15:00",
       "diem": "Vườn Sim Cổ và Rượu Sim",
       "diem_en": "Old Myrtle Garden & Myrtle Wine",
+      "diem_fr": "Ancien jardin de myrtes & Vin de myrte",
       "mo_ta": "Bạn vào vườn sim cổ, nghe người trồng sim kể từng bước trồng, chăm và thu hái, rồi thưởng thức một chén rượu sim OCOP — ủ từ chính nắng và gió của khu vườn nhà. Bạn có thể mua vài chai làm quà, mang theo một chút vị ngọt của Mường Cốc.",
       "mo_ta_en": "You enter the old myrtle garden, listen to the grower describe each step of planting, tending, and harvesting, then taste a glass of OCOP myrtle wine — fermented from this garden's own sun and wind. You may buy a few bottles as gifts, taking home a little of Muong Coc's sweetness.",
+      "mo_ta_fr": "Vous entrez dans l'ancien jardin de myrtes, écoutez le cultivateur décrire chaque étape de la plantation, de l'entretien et de la récolte, puis dégustez un verre de vin de myrte OCOP — fermenté grâce au soleil et au vent de ce jardin. Vous pouvez acheter quelques bouteilles en guise de cadeaux, emportant chez vous un peu de la douceur de Muong Coc.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     },
     {
       "gio_hoac_buoi": "15:40",
       "diem": "Trở về Tourism Hub Đồi Dùng",
       "diem_en": "Return to Doi Dung Tourism Hub",
+      "diem_fr": "Retour au Doi Dung Tourism Hub",
       "mo_ta": "Bạn đạp xe thong thả trở về Nhà Văn hoá Đồi Dùng, trả xe và mũ bảo hiểm. Mường Cốc gửi tặng bạn món quà lưu niệm cộng đồng — một dấu ấn nhỏ về vùng đất cổ vừa đi qua.",
       "mo_ta_en": "You cycle back at an easy pace to the Doi Dung Community House, returning your bicycle and helmet. Muong Coc gives you a community-made souvenir — a small keepsake of the ancient land you have just travelled.",
+      "mo_ta_fr": "Vous retournez à vélo, à un rythme tranquille, à la Maison Communautaire Doi Dung, où vous restituez votre vélo et votre casque. Muong Coc vous offre un souvenir artisanal — un petit témoignage de la terre ancienne que vous venez de parcourir.",
       "luu_y": "",
-      "luu_y_en": ""
+      "luu_y_en": "",
+      "luu_y_fr": ""
     }
   ],
   "diem_den": [
     {
       "ten": "Chùa Phú Cốc",
       "ten_en": "Phu Coc Pagoda",
+      "ten_fr": "Pagode de Phu Coc",
       "loai": "Di tích tâm linh",
       "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
       "mo_ta_ngan": "Ngôi chùa cổ trên đồi lộng gió, điểm tựa tâm linh của 6 thôn vùng Phú Cốc. Tâm điểm là cây đa cổ thụ hơn 400 năm tuổi xoè tán rợp khoảng sân. Một mở đầu tĩnh tại cho hành trình tìm về dấu xưa.",
-      "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old, shading the courtyard. A serene opening to a journey into the past."
+      "mo_ta_ngan_en": "An ancient pagoda on a breezy hill, the spiritual anchor of the six villages of the Phu Coc area. At its heart is a banyan tree over 400 years old, shading the courtyard. A serene opening to a journey into the past.",
+      "mo_ta_ngan_fr": "Une pagode ancienne sur une colline aérée, pilier spirituel des six villages de la région de Phu Coc. En son cœur, un banian de plus de 400 ans ombrage la cour. Une ouverture sereine vers un voyage dans le passé."
     },
     {
       "ten": "Lamia Mường Cốc",
       "ten_en": "Lamia Muong Coc",
+      "ten_fr": "Lamia Muong Coc",
       "loai": "Không gian văn hoá",
       "loai_en": "Cultural space",
+      "loai_fr": "Espace culturel",
       "mo_ta_ngan": "Căn bếp Mường ám khói lá, nơi bạn kéo từng sợi cạp váy theo nhịp khung gỗ. Bạn khoác trang phục Mường truyền thống và nếm món ăn dân tộc vừa nấu. Một điểm chạm văn hoá bằng cả tay lẫn vị giác.",
-      "mo_ta_ngan_en": "A Muong kitchen scented with leaf smoke, where you pull the threads of a skirt band to the loom's rhythm. You wear traditional Muong dress and taste freshly cooked ethnic dishes. Culture touched with both hands and palate."
+      "mo_ta_ngan_en": "A Muong kitchen scented with leaf smoke, where you pull the threads of a skirt band to the loom's rhythm. You wear traditional Muong dress and taste freshly cooked ethnic dishes. Culture touched with both hands and palate.",
+      "mo_ta_ngan_fr": "Une cuisine Muong parfumée à la fumée de feuilles, où vous tirez les fils d'une ceinture de jupe au rythme du métier à tisser. Vous portez la robe traditionnelle Muong et dégustez des plats ethniques fraîchement préparés. Une culture touchée des deux mains et du palais."
     },
     {
       "ten": "Chùa Đinh Long",
       "ten_en": "Dinh Long Pagoda",
+      "ten_fr": "Pagode Dinh Long",
       "loai": "Di tích",
       "loai_en": "Heritage site",
+      "loai_fr": "Site patrimonial",
       "mo_ta_ngan": "Ngôi chùa cổ in dấu vua Đinh Bộ Lĩnh, tương truyền dựng khi dẹp loạn 12 sứ quân. Chùa còn mang dấu ấn kháng chiến — từng làm kho thóc, nơi in tài liệu, xưởng công binh. Lịch sử nghìn năm và cận đại cùng đọng dưới một mái chùa.",
-      "mo_ta_ngan_en": "An ancient pagoda marked by King Dinh Bo Linh, said to date from his campaign against the Twelve Warlords. It bears resistance-era traces — once a grain store, a printing site, an army workshop. A thousand years and the recent past beneath one roof."
+      "mo_ta_ngan_en": "An ancient pagoda marked by King Dinh Bo Linh, said to date from his campaign against the Twelve Warlords. It bears resistance-era traces — once a grain store, a printing site, an army workshop. A thousand years and the recent past beneath one roof.",
+      "mo_ta_ngan_fr": "Une ancienne pagode marquée par le roi Dinh Bo Linh, qui daterait de sa campagne contre les Douze Seigneurs de Guerre. Elle porte des traces de l'ère de la résistance — autrefois un grenier à grains, un site d'impression, un atelier militaire. Mille ans et le passé récent sous un même toit."
     },
     {
       "ten": "Con đường Tràm",
       "ten_en": "The Cajuput Lane",
+      "ten_fr": "L'allée des cajeputiers",
       "loai": "Cảnh quan",
       "loai_en": "Scenic landscape",
+      "loai_fr": "Paysage pittoresque",
       "mo_ta_ngan": "Con đường tràm dài chừng 800 mét với hai hàng cây khép tán trên đầu. Nắng lọc qua tán lá thành những vệt sáng lay động. Một quãng nghỉ mát mắt và ăn ảnh giữa hành trình di sản.",
-      "mo_ta_ngan_en": "An 800-metre lane lined with cajuput trees whose canopies close overhead. Sunlight filters through into shifting patches of light. A cool, photogenic interlude in the heritage journey."
+      "mo_ta_ngan_en": "An 800-metre lane lined with cajuput trees whose canopies close overhead. Sunlight filters through into shifting patches of light. A cool, photogenic interlude in the heritage journey.",
+      "mo_ta_ngan_fr": "Une allée de 800 mètres bordée de cajeputiers dont les canopées se rejoignent au-dessus. La lumière du soleil filtre en taches lumineuses mouvantes. Une parenthèse fraîche et photogénique dans le voyage patrimonial."
     },
     {
       "ten": "Đền Mẫu Thượng Thiên (Đền Ái Nàng)",
       "ten_en": "Thuong Thien Mother Temple (Ai Nang Temple)",
+      "ten_fr": "Temple de la Mère Thuong Thien (Temple Ai Nang)",
       "loai": "Di tích tâm linh",
       "loai_en": "Spiritual heritage site",
+      "loai_fr": "Site du patrimoine spirituel",
       "mo_ta_ngan": "Đền Mẫu bên sông, lưng tựa núi mặt nhìn ra nước. Thờ Mẫu Quế Anh phu nhân cùng Tam toà Thánh Mẫu, giữ bốn đạo sắc triều Nguyễn từ Tự Đức đến Khải Định. Một không gian linh thiêng soi bóng dòng sông.",
-      "mo_ta_ngan_en": "A riverside Mother temple, its back to the mountain and its face to the water. It honours Lady Que Anh and the Three Palaces of the Mother Goddesses and holds four Nguyen edicts from Tu Duc to Khai Dinh. A sacred space mirrored in the river."
+      "mo_ta_ngan_en": "A riverside Mother temple, its back to the mountain and its face to the water. It honours Lady Que Anh and the Three Palaces of the Mother Goddesses and holds four Nguyen edicts from Tu Duc to Khai Dinh. A sacred space mirrored in the river.",
+      "mo_ta_ngan_fr": "Un temple-mère au bord de la rivière, adossé à la montagne et faisant face à l'eau. Il honore Dame Que Anh et les Trois Palais des Déesses Mères et abrite quatre édits Nguyen, de Tu Duc à Khai Dinh. Un espace sacré se reflétant dans la rivière."
     },
     {
       "ten": "Hang Hổ & Đền Quán Mai",
       "ten_en": "Tiger Cave & Quan Mai Temple",
+      "ten_fr": "Grotte du Tigre & Temple Quan Mai",
       "loai": "Di tích lịch sử",
       "loai_en": "Historical site",
+      "loai_fr": "Site historique",
       "mo_ta_ngan": "Hang đá xuyên núi dài chừng 80 m, vòm cao gần 10 m, thờ Quan Ngũ Hổ. Hang từng là nơi bộ đội công binh đúc đạn thời kháng chiến. Cạnh cửa hang là Đền Quán Mai tựa lưng vào núi, cảnh quan thanh tịnh.",
-      "mo_ta_ngan_en": "A stone cave running about 80 m through the mountain, its vault nearly 10 m high, dedicated to the Five Tigers. It once served army engineers casting ammunition during the resistance. Beside the mouth stands Quan Mai Temple against the mountain, serene and still."
+      "mo_ta_ngan_en": "A stone cave running about 80 m through the mountain, its vault nearly 10 m high, dedicated to the Five Tigers. It once served army engineers casting ammunition during the resistance. Beside the mouth stands Quan Mai Temple against the mountain, serene and still.",
+      "mo_ta_ngan_fr": "Une grotte de pierre s'étendant sur environ 80 m à travers la montagne, sa voûte de près de 10 m de haut, dédiée aux Cinq Tigres. Elle servit autrefois aux ingénieurs militaires pour couler des munitions pendant la résistance. À côté de l'entrée se dresse le temple Quan Mai, adossé à la montagne, serein et immobile."
     },
     {
       "ten": "Chợ dân sinh An Phú",
       "ten_en": "An Phu Local Market",
+      "ten_fr": "Marché local d'An Phu",
       "loai": "Đời sống bản địa",
       "loai_en": "Local life",
+      "loai_fr": "Vie locale",
       "mo_ta_ngan": "Phiên chợ quê đông vui, trung tâm giao thương sản vật địa phương. Bạn đi chợ với chiếc giỏ tre trên tay, chọn mua nông sản — không một chiếc túi nilon. Một lát cắt thật của nhịp sống thường nhật vùng Mường.",
-      "mo_ta_ngan_en": "A lively country market, a hub of trade in local produce. You shop with a bamboo basket in hand and buy farm goods — without a single plastic bag. A real slice of everyday Muong life."
+      "mo_ta_ngan_en": "A lively country market, a hub of trade in local produce. You shop with a bamboo basket in hand and buy farm goods — without a single plastic bag. A real slice of everyday Muong life.",
+      "mo_ta_ngan_fr": "Un marché de campagne animé, un centre d'échanges de produits locaux. Vous faites vos achats avec un panier en bambou à la main et achetez des produits de la ferme — sans un seul sac plastique. Une véritable tranche de la vie quotidienne Muong."
     },
     {
       "ten": "Vườn Sim Cổ",
       "ten_en": "Old Myrtle Garden",
+      "ten_fr": "Ancien jardin de myrtes",
       "loai": "Sản vật OCOP",
       "loai_en": "OCOP local product",
+      "loai_fr": "Produit local OCOP",
       "mo_ta_ngan": "Vườn sim cổ còn được chăm bằng tay, nơi người trồng kể từng bước trồng, chăm và thu hái. Bạn thưởng thức chén rượu sim OCOP ngọt thơm, ủ từ nắng gió vườn nhà. Có thể mua vài chai mang về làm quà.",
-      "mo_ta_ngan_en": "An old myrtle garden still tended by hand, where the grower describes each step of planting, tending, and harvesting. You taste a glass of sweet, fragrant OCOP myrtle wine, fermented from the garden's sun and wind. Bottles available to take home."
+      "mo_ta_ngan_en": "An old myrtle garden still tended by hand, where the grower describes each step of planting, tending, and harvesting. You taste a glass of sweet, fragrant OCOP myrtle wine, fermented from the garden's sun and wind. Bottles available to take home.",
+      "mo_ta_ngan_fr": "Un ancien jardin de myrtes encore cultivé à la main, où le cultivateur décrit chaque étape de la plantation, de l'entretien et de la récolte. Vous dégustez un verre de vin de myrte OCOP doux et parfumé, fermenté grâce au soleil et au vent du jardin. Bouteilles disponibles à emporter."
     }
   ],
   "bao_gom": [
@@ -212,6 +280,15 @@
     "Comprehensive travel insurance",
     "A community-made souvenir at the end of the journey"
   ],
+  "bao_gom_fr": [
+    "Vélo standard et casque",
+    "Guide local connaissant bien la culture Muong",
+    "Droits d'entrée et toutes les activités d'expérience du programme",
+    "Déjeuner festif Co La Muong chez l'habitant (zéro plastique)",
+    "Eau potable et serviettes rafraîchissantes tout au long du voyage",
+    "Assurance voyage complète",
+    "Un souvenir artisanal de la communauté à la fin du voyage"
+  ],
   "khong_bao_gom": [
     "Ăn sáng, ăn tối và đồ uống ngoài chương trình",
     "Đồ uống trong bữa ăn",
@@ -226,36 +303,53 @@
     "Hanoi ↔ Muong Coc transfers (quoted separately on request)",
     "Tips for the guide and local drivers (optional — suggested)"
   ],
+  "khong_bao_gom_fr": [
+    "Petit-déjeuner, dîner et boissons en dehors du programme",
+    "Boissons pendant les repas",
+    "Services et expériences non inclus dans le programme (promenade en bateau, achats au marché, etc.)",
+    "Transferts Hanoi ↔ Muong Coc (devis séparé sur demande)",
+    "Pourboires pour le guide et les chauffeurs locaux (facultatif — suggéré)"
+  ],
   "addon": [
     {
       "ten": "Chèo thuyền ngắm cảnh sông",
       "ten_en": "River boat ride",
+      "ten_fr": "Promenade en bateau sur la rivière",
       "mo_ta": "Thả trôi theo dòng, ngắm cảnh đôi bờ (đặt trước với Ban điều phối)",
-      "mo_ta_en": "Drift along the current and take in both banks (book in advance with the coordination board)"
+      "mo_ta_en": "Drift along the current and take in both banks (book in advance with the coordination board)",
+      "mo_ta_fr": "Laissez-vous porter par le courant et admirez les deux rives (réservez à l'avance auprès du comité de coordination)"
     },
     {
       "ten": "Nấu rượu quê",
       "ten_en": "Village wine-making",
+      "ten_fr": "Fabrication de vin au village",
       "mo_ta": "Trải nghiệm cách nấu rượu thủ công tại nhà ông Lập (Rượu Tám Lập · gạo quê Đồi Lý)",
-      "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)"
+      "mo_ta_en": "Experience traditional rice-wine distilling at Mr Lap's home (Tam Lap wine · Doi Ly village rice)",
+      "mo_ta_fr": "Découvrez la distillation traditionnelle de vin de riz chez M. Lap (vin Tam Lap · riz du village de Doi Ly)"
     },
     {
       "ten": "Hái sen & làm trà sen",
       "ten_en": "Lotus picking & lotus-tea making",
+      "ten_fr": "Cueillette de lotus et préparation du thé au lotus",
       "mo_ta": "Cùng nhà Niệm Nga (mật ong An Phú · trà sen)",
-      "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)"
+      "mo_ta_en": "With the Niem Nga family (An Phu honey · lotus tea)",
+      "mo_ta_fr": "Avec la famille Niem Nga (miel d'An Phu · thé au lotus)"
     },
     {
       "ten": "Mặc trang phục Mường + photo session",
       "ten_en": "Muong costume + photo session",
+      "ten_fr": "Costume Muong + séance photo",
       "mo_ta": "Áo pắn vàng/trắng, váy gấu thêu hoa, thắt lưng xanh",
-      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash"
+      "mo_ta_en": "Yellow/white pan blouse, flower-embroidered hem skirt, green sash",
+      "mo_ta_fr": "Blouse pan jaune/blanche, jupe à ourlet brodé de fleurs, ceinture verte"
     },
     {
       "ten": "Đưa đón Hà Nội ↔ Mường Cốc",
       "ten_en": "Hanoi ↔ Muong Coc transfer",
+      "ten_fr": "Transfert Hanoi ↔ Muong Coc",
       "mo_ta": "Xe 7 chỗ / 16 chỗ / 29 chỗ",
-      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles"
+      "mo_ta_en": "7-seat / 16-seat / 29-seat vehicles",
+      "mo_ta_fr": "Véhicules 7 places / 16 places / 29 places"
     }
   ],
   "farmstay_options": [
@@ -264,103 +358,134 @@
       "tag": "mặc định",
       "mo_ta": "Không gian văn hoá Mường — dệt sợi cạp váy theo nhịp khung gỗ, nếm món ăn dân tộc, mặc thử trang phục Mường, lạc giữa miệt vườn xanh ngắt.",
       "ten_en": "Lamia Muong Coc",
-      "mo_ta_en": "A Muong cultural space — weave a skirt band to the rhythm of the wooden loom, taste ethnic dishes, try on Muong costume, and wander a lush green garden."
+      "ten_fr": "Lamia Muong Coc",
+      "mo_ta_en": "A Muong cultural space — weave a skirt band to the rhythm of the wooden loom, taste ethnic dishes, try on Muong costume, and wander a lush green garden.",
+      "mo_ta_fr": "Un espace culturel Muong — tissez une ceinture de jupe au rythme du métier à tisser en bois, dégustez des plats ethniques, essayez le costume Muong et flânez dans un jardin verdoyant."
     },
     {
       "ten": "Gió Núi Farmstay",
       "tag": "tùy chọn",
       "mo_ta": "Không gian Vườn — Ao — Chuồng truyền thống Mường, khu trưng bày dụng cụ nông — ngư nghiệp cổ.",
       "ten_en": "Gio Nui Farmstay",
-      "mo_ta_en": "A traditional Muong garden–pond–pen space, with a display of old farming and fishing tools."
+      "ten_fr": "Gio Nui Farmstay",
+      "mo_ta_en": "A traditional Muong garden–pond–pen space, with a display of old farming and fishing tools.",
+      "mo_ta_fr": "Un espace traditionnel Muong jardin-étang-enclos, avec une exposition d'anciens outils agricoles et de pêche."
     },
     {
       "ten": "Bản Mộc Mường Cốc",
       "tag": "tùy chọn",
       "mo_ta": "Ngư nghiệp Mường bên nếp nhà sàn cổ — cho cá ăn trong ao, thăm chuồng vịt, đầm sen.",
       "ten_en": "Ban Moc Muong Coc",
-      "mo_ta_en": "Muong fishing life beside an old stilt house — feed the fish in the pond, visit the duck pen, and the lotus marsh."
+      "ten_fr": "Ban Moc Muong Coc",
+      "mo_ta_en": "Muong fishing life beside an old stilt house — feed the fish in the pond, visit the duck pen, and the lotus marsh.",
+      "mo_ta_fr": "Vie de pêcheur Muong près d'une ancienne maison sur pilotis — nourrissez les poissons de l'étang, visitez l'enclos des canards et le marais de lotus."
     },
     {
       "ten": "Farm Cá Quả Mường Cốc",
       "tag": "tùy chọn",
       "mo_ta": "Quán cà phê võng nghỉ chân bên ao cá quả — thư thái giữa miệt vườn, xem và cho cá quả ăn.",
       "ten_en": "Muong Coc Snakehead Fish Farm",
-      "mo_ta_en": "A hammock café rest stop beside the snakehead-fish pond — relax in the garden, watch and feed the fish."
+      "ten_fr": "Ferme de poissons-têtes de serpent de Muong Coc",
+      "mo_ta_en": "A hammock café rest stop beside the snakehead-fish pond — relax in the garden, watch and feed the fish.",
+      "mo_ta_fr": "Une halte café-hamac au bord de l'étang à poissons-serpents — détendez-vous dans le jardin, observez et nourrissez les poissons."
     },
     {
       "ten": "Nhà Vườn Hoan Thanh",
       "tag": "tùy chọn",
       "mo_ta": "Học kỹ thuật cắt ghép hoa, cây cảnh và thưởng thức nghệ thuật bonsai.",
       "ten_en": "Hoan Thanh Garden House",
-      "mo_ta_en": "Learn flower-grafting and ornamental-plant techniques, and enjoy the art of bonsai."
+      "ten_fr": "Maison-jardin Hoan Thanh",
+      "mo_ta_en": "Learn flower-grafting and ornamental-plant techniques, and enjoy the art of bonsai.",
+      "mo_ta_fr": "Apprenez les techniques de greffage de fleurs et de plantes ornementales, et appréciez l'art du bonsaï."
     }
   ],
   "doi_tuong": [
     {
       "nhom": "Người yêu văn hoá — tâm linh",
       "nhom_en": "Culture & heritage lovers",
+      "nhom_fr": "Amateurs de culture et de patrimoine",
       "mo_ta": "Thích đi tìm dấu xưa.",
-      "mo_ta_en": "Those who love to trace the past."
+      "mo_ta_en": "Those who love to trace the past.",
+      "mo_ta_fr": "Ceux qui aiment retracer le passé."
     },
     {
       "nhom": "Gia đình",
       "nhom_en": "Families",
+      "nhom_fr": "Familles",
       "mo_ta": "Gia đình có trẻ ≥ 10 tuổi (đạp xe được).",
-      "mo_ta_en": "Families with children aged 10 and up (able to cycle)."
+      "mo_ta_en": "Families with children aged 10 and up (able to cycle).",
+      "mo_ta_fr": "Familles avec enfants de 10 ans et plus (aptes à faire du vélo)."
     },
     {
       "nhom": "Nhóm bạn nhỏ",
       "nhom_en": "Small groups of friends",
+      "nhom_fr": "Petits groupes d'amis",
       "mo_ta": "2 — 12 người.",
-      "mo_ta_en": "Groups of 2–12 people."
+      "mo_ta_en": "Groups of 2–12 people.",
+      "mo_ta_fr": "Groupes de 2 à 12 personnes."
     },
     {
       "nhom": "Học sinh — sinh viên",
       "nhom_en": "Students",
+      "nhom_fr": "Étudiants",
       "mo_ta": "Khám phá văn hoá bản địa.",
-      "mo_ta_en": "Exploring local culture."
+      "mo_ta_en": "Exploring local culture.",
+      "mo_ta_fr": "Exploration de la culture locale."
     },
     {
       "nhom": "Người yêu thiên nhiên",
       "nhom_en": "Nature lovers",
+      "nhom_fr": "Amoureux de la nature",
       "mo_ta": "Yêu nếp sống chợ quê.",
-      "mo_ta_en": "Drawn to the life of a country market."
+      "mo_ta_en": "Drawn to the life of a country market.",
+      "mo_ta_fr": "Attiré par la vie d'un marché de campagne."
     }
   ],
   "luu_y": [
     {
       "tieu_de": "Phiên chợ An Phú",
       "tieu_de_en": "The An Phu market day",
+      "tieu_de_fr": "Le jour de marché d'An Phu",
       "mo_ta": "Nên sắp xếp trùng ngày họp chợ để trọn vẹn trải nghiệm.",
-      "mo_ta_en": "Try to align your visit with a market day for the full experience."
+      "mo_ta_en": "Try to align your visit with a market day for the full experience.",
+      "mo_ta_fr": "Essayez de faire coïncider votre visite avec un jour de marché pour une expérience complète."
     },
     {
       "tieu_de": "Thời tiết xấu / mưa lớn",
       "tieu_de_en": "Bad weather / heavy rain",
+      "tieu_de_fr": "Mauvais temps / fortes pluies",
       "mo_ta": "Phương án dự phòng — thay xe đạp bằng xe điện địa phương, tăng thời lượng tại cụm trải nghiệm hoặc di tích.",
-      "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the experience cluster or heritage sites."
+      "mo_ta_en": "Backup plan — swap bicycles for local electric carts and spend more time at the experience cluster or heritage sites.",
+      "mo_ta_fr": "Plan de secours — échangez les vélos contre des voiturettes électriques locales et passez plus de temps au pôle d'expériences ou sur les sites patrimoniaux."
     },
     {
       "tieu_de": "Sức khoẻ",
       "tieu_de_en": "Fitness",
+      "tieu_de_fr": "Forme physique",
       "mo_ta": "Đạp xe khoảng 10 — 11 km, cấp độ dễ, nhiều điểm dừng nghỉ. Trẻ dưới 10 tuổi nên đi cùng xe điện địa phương.",
-      "mo_ta_en": "Cycling of about 10–11 km, easy level, with many rest stops. Children under 10 should ride along in a local electric cart."
+      "mo_ta_en": "Cycling of about 10–11 km, easy level, with many rest stops. Children under 10 should ride along in a local electric cart.",
+      "mo_ta_fr": "Balade à vélo d'environ 10-11 km, niveau facile, avec de nombreux arrêts. Les enfants de moins de 10 ans doivent être accompagnés dans une voiturette électrique locale."
     },
     {
       "tieu_de": "Tôn trọng cộng đồng",
       "tieu_de_en": "Respect for the community",
+      "tieu_de_fr": "Respect de la communauté",
       "mo_ta": "Không tự ý vào nhà dân, xin phép trước khi chụp ảnh người.",
-      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people."
+      "mo_ta_en": "Do not enter homes uninvited, and always ask permission before photographing people.",
+      "mo_ta_fr": "N'entrez pas dans les maisons sans y être invité, et demandez toujours la permission avant de photographier des personnes."
     },
     {
       "tieu_de": "Trang phục lịch sự",
       "tieu_de_en": "Modest dress",
+      "tieu_de_fr": "Tenue modeste",
       "mo_ta": "Khi vào di tích tâm linh (chùa, đền, hang) — cởi giày, không quay phim trong chính điện.",
-      "mo_ta_en": "At spiritual sites (pagodas, temples, caves) — remove your shoes and do not film inside the main hall."
+      "mo_ta_en": "At spiritual sites (pagodas, temples, caves) — remove your shoes and do not film inside the main hall.",
+      "mo_ta_fr": "Sur les sites spirituels (pagodes, temples, grottes) — retirez vos chaussures et ne filmez pas à l'intérieur de la salle principale."
     }
   ],
   "net_zero": "Phiên chợ không túi nilon tại chợ An Phú",
   "net_zero_en": "A plastic-bag-free shop at the An Phu market",
+  "net_zero_fr": "Une boutique sans sacs plastiques au marché d'An Phu.",
   "lien_he": {
     "don_vi": "Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc",
     "nguoi": "Mr Hoàng Hân",
