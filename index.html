@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Du lịch cộng đồng Mường Cốc — Chạm Vào Bình Yên</title>
+<meta name="description" content="Du lịch cộng đồng Mường Cốc, xã Mỹ Đức, Hà Nội — bản Mường, du lịch xanh 5 KHÔNG. Khám phá các cung đạp xe, tour văn hoá và trek rừng nguyên sinh.">
+<meta property="og:title" content="Du lịch cộng đồng Mường Cốc — Chạm Vào Bình Yên">
+<meta property="og:description" content="Bản Mường — Bóng Núi — Hơi Thở Đất. Du lịch xanh 5 KHÔNG tại xã Mỹ Đức, Hà Nội.">
+<meta property="og:image" content="assets/img/thung-canh.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-dark:#0A6A2F; --green:#00A33B; --amber:#C9912F; --gold:#EBCB86;
+    --cream:#FBF7EE; --cream-2:#F4ECDA; --ink:#232020;
+    --serif:"Cormorant Garamond",Georgia,serif;
+    --sans:"Be Vietnam Pro",system-ui,sans-serif;
+    --shadow:0 8px 28px rgba(35,32,32,.12);
+    --shadow-sm:0 3px 12px rgba(35,32,32,.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;font-size:16px;}
+  .wrap{max-width:720px;margin:0 auto;background:var(--cream);position:relative;overflow:hidden;}
+  img{display:block;max-width:100%;}
+  em{font-style:italic;}
+
+  /* ===== HERO ===== */
+  .hero{position:relative;min-height:92vh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;overflow:hidden;}
+  .hero-bg{position:absolute;inset:0;z-index:0;}
+  .hero-bg img{width:100%;height:100%;object-fit:cover;}
+  .hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,106,47,.5) 0%,rgba(35,32,32,.12) 38%,rgba(35,32,32,.5) 72%,rgba(35,32,32,.88) 100%);}
+  .hero-top{position:relative;z-index:2;padding:24px 22px 0;display:flex;flex-direction:column;align-items:center;text-align:center;}
+  .logo-circle{width:88px;height:88px;border-radius:50%;background:#fff;padding:9px;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;margin-bottom:10px;}
+  .logo-circle img{width:100%;height:100%;object-fit:contain;border-radius:50%;}
+  .hero-body{position:relative;z-index:2;padding:0 22px 36px;text-align:center;}
+  .hero-pre{display:inline-flex;align-items:center;gap:8px;font-size:.66rem;letter-spacing:.22em;font-weight:600;text-transform:uppercase;margin-bottom:14px;opacity:.95;}
+  .hero-pre::before,.hero-pre::after{content:"";width:24px;height:1px;background:var(--gold);}
+  .hero h1{font-family:var(--serif);font-weight:700;font-size:2.9rem;line-height:1.02;letter-spacing:.005em;text-shadow:0 2px 14px rgba(0,0,0,.45);}
+  .hero h1 em{color:var(--gold);display:block;}
+  .hero-tag{font-family:var(--serif);font-style:italic;font-size:1.3rem;margin-top:12px;opacity:.96;}
+  .hero-loc{font-size:.78rem;letter-spacing:.1em;margin-top:14px;opacity:.85;}
+  .scroll-cue{position:relative;z-index:2;text-align:center;padding-bottom:18px;font-size:1.4rem;animation:bob 1.8s ease-in-out infinite;}
+  @keyframes bob{0%,100%{transform:translateY(0);}50%{transform:translateY(6px);}}
+
+  /* ===== SECTION BASE ===== */
+  section{padding:38px 22px;}
+  .kick{display:flex;align-items:center;gap:10px;font-size:.68rem;letter-spacing:.18em;font-weight:700;text-transform:uppercase;color:var(--amber);margin-bottom:12px;}
+  .kick::before{content:"";width:26px;height:2px;background:var(--amber);border-radius:2px;}
+  h2.sec{font-family:var(--serif);font-weight:700;font-size:2rem;line-height:1.1;color:var(--green-dark);margin-bottom:14px;}
+  h2.sec em{color:var(--amber);}
+
+  /* intro */
+  .intro{background:var(--cream-2);}
+  .intro p{font-size:1.02rem;color:#3a3633;margin-bottom:14px;}
+  .intro .drop{float:left;font-family:var(--serif);font-weight:700;font-size:3.2rem;line-height:.78;color:var(--green);margin:6px 10px 0 0;}
+  .five-no{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px;}
+  .five-no span{background:#fff;border:1px solid rgba(10,106,47,.2);color:var(--green-dark);font-size:.74rem;font-weight:600;padding:7px 13px;border-radius:999px;}
+
+  /* group heading inside cung */
+  .grp{display:flex;align-items:center;gap:12px;margin:26px 0 14px;}
+  .grp:first-of-type{margin-top:6px;}
+  .grp .gi{font-size:1.5rem;}
+  .grp .gt{font-family:var(--serif);font-weight:700;font-size:1.45rem;color:var(--green-dark);}
+  .grp .gc{margin-left:auto;font-size:.66rem;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--amber);padding:3px 9px;border-radius:6px;}
+
+  /* cung cards */
+  .cung-list{display:flex;flex-direction:column;gap:11px;}
+  .cung{display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:15px 16px;box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);border:1px solid rgba(201,145,47,.12);transition:transform .15s ease,box-shadow .15s ease;}
+  a.cung:active{transform:scale(.985);}
+  .cung .num{flex-shrink:0;width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:700;font-size:1.25rem;background:var(--cream-2);color:var(--green-dark);}
+  .cung.live .num{background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff;}
+  .cung .body{flex:1;min-width:0;}
+  .cung .nm{font-weight:600;font-size:.98rem;line-height:1.25;}
+  .cung .st{font-size:.72rem;color:#9a938b;margin-top:3px;}
+  .cung.live .st{color:var(--green);font-weight:600;}
+  .cung .arrow{font-size:1.1rem;color:var(--amber);flex-shrink:0;}
+  .cung.soon{opacity:.82;}
+  .cung.soon .arrow{color:#c8c0b6;}
+
+  /* POI */
+  .poi{background:var(--cream-2);}
+  .poi-list{display:grid;gap:12px;margin-top:6px;}
+  .poi-card{display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:16px;box-shadow:var(--shadow-sm);text-decoration:none;color:var(--ink);transition:transform .15s ease;}
+  .poi-card:active{transform:scale(.985);}
+  .poi-card .ic{flex-shrink:0;width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--amber));display:flex;align-items:center;justify-content:center;font-size:1.5rem;}
+  .poi-card .nm{font-family:var(--serif);font-weight:700;font-size:1.2rem;color:var(--green-dark);line-height:1.1;}
+  .poi-card .ds{font-size:.78rem;color:#8a837c;margin-top:2px;}
+  .poi-card .arrow{margin-left:auto;font-size:1.1rem;color:var(--amber);}
+
+  /* map CTA */
+  .map-cta{text-align:center;}
+  .btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px;border-radius:14px;font-family:var(--sans);font-weight:700;font-size:1rem;text-decoration:none;transition:transform .15s ease;box-shadow:var(--shadow);background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff;}
+  .btn:active{transform:translateY(2px);}
+  .btn .ic{font-size:1.3rem;}
+  .btn small{display:block;font-weight:400;font-size:.72rem;opacity:.85;}
+
+  /* footer */
+  footer{background:var(--ink);color:#cfc8be;text-align:center;padding:32px 22px 38px;}
+  footer .closing{font-family:var(--serif);font-style:italic;font-size:1.6rem;color:var(--gold);margin-bottom:8px;}
+  footer .deco{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:16px;}
+  footer .deco span{height:1px;width:40px;background:rgba(235,203,134,.4);}
+  footer .deco i{width:6px;height:6px;border-radius:50%;background:var(--gold);}
+  footer .ft-contact{display:flex;flex-direction:column;gap:6px;margin-bottom:16px;font-size:.92rem;}
+  footer .ft-contact a{color:var(--gold);text-decoration:none;font-weight:700;}
+  footer .ft-line{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;opacity:.65;line-height:1.7;}
+
+  @media(max-width:360px){.hero h1{font-size:2.5rem;}}
+  @media(min-width:560px){
+    .hero h1{font-size:3.4rem;}
+    .poi-list{grid-template-columns:1fr 1fr;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"><img src="assets/img/thung-canh.jpg" alt="Thung lũng Mường Cốc, xã Mỹ Đức, Hà Nội"></div>
+    <div class="hero-top">
+      <span class="logo-circle"><img src="assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
+    </div>
+    <div class="hero-body">
+      <div class="hero-pre">Du lịch cộng đồng · Xã Mỹ Đức · Hà Nội</div>
+      <h1>Du lịch cộng đồng<br>Mường Cốc<em>Chạm Vào Bình Yên</em></h1>
+      <div class="hero-tag">Bản Mường — Bóng Núi — Hơi Thở Đất</div>
+      <div class="hero-loc">🌿 DU LỊCH XANH · CAM KẾT 5 KHÔNG</div>
+    </div>
+    <div class="scroll-cue">↓</div>
+  </header>
+
+  <!-- GIỚI THIỆU -->
+  <section class="intro">
+    <div class="kick">Về Mường Cốc</div>
+    <p><span class="drop">M</span>ường Cốc nằm tại xã Mỹ Đức, Hà Nội — một bản Mường còn giữ nguyên nếp sống thường ngày giữa bóng núi, chùa cổ, vườn sim và những thung lũng chưa một mảnh bê tông. Ở đây, mỗi trải nghiệm đều bước ra từ đời sống thật của bản: hái sim, cho cá ăn, ăn Cỗ Lá trên lá chuối, nghe chuyện đời người Mường bên ấm trà bếp củi.</p>
+    <p>Mường Cốc theo đuổi du lịch xanh với cam kết <b>5 KHÔNG</b> — bạn đến để lắng nghe, chứ không chỉ để xem.</p>
+    <div class="five-no">
+      <span>01 · Không rác nhựa</span>
+      <span>02 · Không bê tông hoá</span>
+      <span>03 · Không dàn dựng</span>
+      <span>04 · Không dấu chân nặng</span>
+      <span>05 · Không quên trồng cây</span>
+    </div>
+  </section>
+
+  <!-- CÁC CUNG -->
+  <section>
+    <div class="kick">19 hành trình trải nghiệm</div>
+    <h2 class="sec">Các cung <em>trải nghiệm</em></h2>
+
+    <div class="grp"><span class="gi">🚲</span><span class="gt">Cung đạp xe</span><span class="gc">8 cung</span></div>
+    <div class="cung-list">
+      <a class="cung live" href="cung-a/"><span class="num">A</span><div class="body"><div class="nm">Vòng Xe Xanh Mường Cốc</div><div class="st">● Đang mở · ~12km · 650K/khách</div></div><span class="arrow">→</span></a>
+      <div class="cung soon"><span class="num">2</span><div class="body"><div class="nm">Theo Dòng Ái Nàng</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">3</span><div class="body"><div class="nm">Dấu Xưa Mường Cốc</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">4</span><div class="body"><div class="nm">Hồn Mường Bên Hồ Baibóo</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">5</span><div class="body"><div class="nm">Về Miền Di Sản</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">6</span><div class="body"><div class="nm">Xanh Giữa Lòng Mường Cốc</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">7</span><div class="body"><div class="nm">Hương Đồng Bơ Môi</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">8</span><div class="body"><div class="nm">Nhịp Sống Mường Bơ Môi</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+    </div>
+
+    <div class="grp"><span class="gi">🌾</span><span class="gt">Cung tour</span><span class="gc">8 cung</span></div>
+    <div class="cung-list">
+      <div class="cung soon"><span class="num">1</span><div class="body"><div class="nm">Một Ngày Thiên Nhiên &amp; Nhà Nông</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">2</span><div class="body"><div class="nm">Một Ngày Văn Hoá Sen &amp; Mo Mường</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">3</span><div class="body"><div class="nm">Trọn Vị Mường Cốc 2N1Đ</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">4</span><div class="body"><div class="nm">Văn Hoá Mường &amp; Trekking Hương Tích 3N2Đ</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">5</span><div class="body"><div class="nm">Hương Lửa Bản Mường (Quảng Phú Cầu)</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">6</span><div class="body"><div class="nm">Chiêm Bái Mỹ Đức (Chùa Hương)</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">7</span><div class="body"><div class="nm">Bản Mường &amp; Rừng Nguyên Sinh (Cúc Phương)</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">8</span><div class="body"><div class="nm">Ba Vùng Mường Một Hành Trình (Mai Châu–Pù Luông)</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+    </div>
+
+    <div class="grp"><span class="gi">🥾</span><span class="gt">Cung trek</span><span class="gc">3 cung</span></div>
+    <div class="cung-list">
+      <div class="cung soon"><span class="num">1</span><div class="body"><div class="nm">Đường Mòn Rộc Éo</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">2</span><div class="body"><div class="nm">Chinh Phục Hang Hổ</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+      <div class="cung soon"><span class="num">3</span><div class="body"><div class="nm">Xuyên Rừng Hương Tích</div><div class="st">Sắp ra mắt</div></div><span class="arrow">→</span></div>
+    </div>
+  </section>
+
+  <!-- HỒ SƠ ĐIỂM ĐẾN -->
+  <section class="poi">
+    <div class="kick">Khám phá sâu hơn</div>
+    <h2 class="sec">Hồ sơ <em>điểm đến</em></h2>
+    <div class="poi-list">
+      <a class="poi-card" href="poi-huu-lenh/"><span class="ic">🏞️</span><span><span class="nm">Hữu Lệnh</span><span class="ds">Hồ sơ điểm đến</span></span><span class="arrow">→</span></a>
+      <a class="poi-card" href="poi-dinh-phu-coc/"><span class="ic">⛩️</span><span><span class="nm">Đình Phú Cốc</span><span class="ds">Hồ sơ điểm đến</span></span><span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <!-- MAP CTA -->
+  <section class="map-cta">
+    <div class="kick" style="justify-content:center;">Định hướng hành trình</div>
+    <h2 class="sec">Bản đồ <em>du lịch</em></h2>
+    <a class="btn" href="https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>Bản đồ du lịch Mường Cốc<small>Google My Maps · tất cả điểm đến</small></span></a>
+  </section>
+
+  <footer>
+    <div class="deco"><span></span><i></i><span></span></div>
+    <div class="closing">Chạm Vào Bình Yên</div>
+    <div class="ft-contact">
+      <span>📞 Hotline: <a href="tel:0986103298">0986 103 298</a></span>
+      <span>🌐 Fanpage: <b style="color:var(--gold);">Du lịch cộng đồng Mường Cốc</b></span>
+    </div>
+    <div class="ft-line">Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc<br>Tourism Hub Đồi Dùng · Xã Mỹ Đức · Hà Nội</div>
+  </footer>
+
+</div>
+</body>
+</html>
