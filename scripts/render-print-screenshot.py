@@ -20,6 +20,7 @@ Output: print/{slug}/brochure.pdf (CMYK), print/{slug}/poster.pdf (CMYK)
 """
 
 import sys
+import os
 import re
 import subprocess
 import tempfile
@@ -220,8 +221,12 @@ def render_cung(slug: str) -> bool:
     if not (CUNG_DIR / slug).is_dir():
         print(f"    [SKIP] cung/{slug} không tồn tại")
         return False
-    b = render_doc(slug, "brochure", BROCHURE_W_MM, BROCHURE_H_MM, 8)
-    p = render_doc(slug, "poster",   POSTER_W_MM,   POSTER_H_MM,   2)
+    only = os.environ.get("ONLY_KIND", "").strip()  # "brochure"|"poster"|"" (cả 2)
+    b = p = True
+    if only in ("", "brochure"):
+        b = render_doc(slug, "brochure", BROCHURE_W_MM, BROCHURE_H_MM, 8)
+    if only in ("", "poster"):
+        p = render_doc(slug, "poster",   POSTER_W_MM,   POSTER_H_MM,   2)
     return b and p
 
 
