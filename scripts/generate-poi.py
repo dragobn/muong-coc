@@ -202,7 +202,7 @@ REGIONAL = {"chua-huong", "suoi-yen", "quang-phu-cau", "cuc-phuong",
 
 # loại -> (icon, theme skin site.css, ảnh hero mặc định khi không map ảnh)
 LOAI_PROFILE = {
-    "tam-linh":   ("⛩️", "disan", "assets/img/poi/chua-phu-coc/hero.jpg"),
+    "tam-linh":   ("🪷", "disan", "assets/img/poi/chua-phu-coc/hero.jpg"),
     "tram-tam-linh": ("🙏", "disan", "assets/img/poi/chua-phu-coc/hero.jpg"),
     "di-tich":    ("🏛️", "disan", "assets/img/poi/dinh-phu-coc/hero.jpg"),
     "canh-quan":  ("🏔️", "sinhthai", "assets/img/poi/thung-canh/hero.jpg"),
@@ -263,7 +263,7 @@ GROUP_OF = {
     "dich-vu": "dichvu", "nha-hang": "dichvu",
 }
 GROUP_META = [
-    ("ditich", "⛩️", {"vi": "Di tích · Văn hoá · Tâm linh", "en": "Heritage · Culture · Spiritual",
+    ("ditich", "🪷", {"vi": "Di tích · Văn hoá · Tâm linh", "en": "Heritage · Culture · Spiritual",
                        "fr": "Patrimoine · Culture · Spiritualité"}),
     ("thiennhien", "🏔️", {"vi": "Thiên nhiên · Cảnh quan", "en": "Nature · Landscape",
                           "fr": "Nature · Paysages"}),
@@ -661,6 +661,7 @@ POI_INLINE_CSS = """
 .poi-index-card .ty{font-size:.7rem;color:var(--muted);margin-top:3px;}
 .poi-index-card .arrow{margin-left:auto;color:var(--amber);font-size:1.1rem;flex-shrink:0;}
 .grp-note{font-size:.82rem;color:var(--muted);margin:-4px 0 10px;line-height:1.5;font-style:italic;}
+.grp-acc .poi-index-list{padding-bottom:14px;}
 """
 
 
@@ -921,7 +922,7 @@ def render_index(items):
     parts.append(f'''  <header class="hero compact">
     <div class="hero-bg"><img src="{prefix}assets/img/poi/dinh-phu-coc/hero.jpg" alt="Điểm đến Mường Cốc"></div>
     <div class="hero-body" style="padding-top:34px;">
-      <div class="hero-pre">⛩️ {t3("Khám phá sâu hơn", "Dig deeper")}</div>
+      <div class="hero-pre">🪷 {t3("Khám phá sâu hơn", "Dig deeper")}</div>
       <h1 style="font-size:2.3rem;">{t3("Hồ sơ điểm đến", "Destination profiles")}</h1>
       <div class="hero-tag">{t3("Mỗi điểm một câu chuyện bản Mường", "Each place, a Muong story")}</div>
     </div>
@@ -930,6 +931,7 @@ def render_index(items):
     by_group = {}
     for it in items:
         by_group.setdefault(it["group"], []).append(it)
+    first_open = True  # nhóm đầu mở sẵn, các nhóm sau thu gọn (giống landing)
     for gkey, gi, glabel in GROUP_META:
         lst = by_group.get(gkey, [])
         if not lst:
@@ -955,11 +957,13 @@ def render_index(items):
                          "Sites outside Muong Coc, linked on regional routes.",
                          "Sites situés hors de Muong Coc, reliés aux circuits régionaux.")
                     + "</p>")
-        parts.append(f'''  <section>
-    <div class="grp"><span class="gi">{gi}</span><span class="gt">{grp_title}</span><span class="gc">{len(lst)}</span></div>
+        open_attr = " open" if first_open else ""
+        first_open = False
+        parts.append(f'''  <details class="grp-acc"{open_attr}>
+    <summary class="grp"><span class="gi">{gi}</span><span class="gt">{grp_title}</span><span class="gc">{len(lst)}</span><span class="gchev" aria-hidden="true">⌄</span></summary>
     {note}
     <div class="poi-index-list">{"".join(cards)}</div>
-  </section>''')
+  </details>''')
 
     parts.append(f'''  <section class="alt">
     <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Bản đồ du lịch Mường Cốc", "Muong Coc tourism map")}<small>{t3("Google My Maps · tất cả điểm đến", "Google My Maps · all stops")}</small></span></a>
