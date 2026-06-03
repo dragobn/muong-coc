@@ -3,33 +3,39 @@
   <name>Mường Cốc — Lưu trú (homestay / farmstay)</name>
   <Style id="poi"><IconStyle><color>ff3399ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
   <Placemark>
-    <name>Bà Diển</name>
+    <name>Bà Là Homestay</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Homestay</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Bà Diển<br/>SĐT: 0362343659<br/>Tình trạng: Đang hoạt động</p>]]></description>
-    <Point><coordinates>105.68161,20.62166,0</coordinates></Point>
+    <description><![CDATA[<p>Bà Là Homestay là ngôi nhà vườn của đôi vợ chồng người Mường, dựng từ thập niên 1980–1990 theo lối kiến trúc quen thuộc của bản Mường Cốc, sân vườn thoáng đãng và chiếc giếng gia đình còn dùng đến nay. Sức hút lớn nhất là chính ông bà chủ nhà — những người Mường thuần tuý nhiều câu chuyện đời sống, phong tục và ký ức Mường Cốc trước đổi mới. Bà Là am hiểu thảo dược, thường đãi khách chén trà thảo mộc tự chế.</p><p><b>Dịch vụ:</b> Lưu trú homestay · trà thảo dược · kể chuyện văn hoá Mường<br/>SĐT: 0362343659 — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.6886883,20.6243,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cao Vũ Bảy (Homestay Mường Duy)</name>
+    <name>Homestay Mường Duy</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Homestay</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Cao Vũ Bảy (Homestay Mường Duy)<br/>Biển hiệu: HOMESTAY DUY MƯỜNG<br/>SĐT: 0972940657<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <description><![CDATA[<p>Homestay Mường Duy toạ lạc trên khu đất rộng ven hồ Baibóo thôn Đồi Dùng, phong cảnh mở ra với mặt hồ yên tĩnh và vườn cây xanh mát. Điểm nhấn kiến trúc là những công trình xây bằng đá ong — vật liệu bản địa đặc trưng vùng đồi núi Mỹ Đức. Gia đình chủ hộ là người Mường nhiều thế hệ, đón khách như người thân: ngủ cùng mái nhà, ăn cùng mâm cơm, hoà vào nhịp sống chậm của bản Mường.</p><p><b>Dịch vụ:</b> Lưu trú homestay · ẩm thực Mường · không gian ven hồ<br/>Biển hiệu: HOMESTAY DUY MƯỜNG — SĐT: 0972940657 — Đang hoạt động</p>]]></description>
     <Point><coordinates>105.68662,20.6211,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Chu Văn Kiền (Homestay)</name>
+    <name>Homestay Đồi Núi (ẩm thực &amp; trải nghiệm xe đạp)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Homestay</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Chu Văn Kiền (Homestay)<br/>Biển hiệu: HOMESTAY ĐỒI NÚI ẨM THỰC VÀ TRẢI NGHIỆM XE ĐẠP<br/>SĐT: 0964017236<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <description><![CDATA[<p>Homestay Đồi Núi tại thôn Đồi Dùng kết hợp lưu trú với ẩm thực dân tộc và dịch vụ cho thuê xe đạp trải nghiệm các cung quanh Mường Cốc. Vị trí thuận tiện gần hồ Baibóo và Tourism Hub, phù hợp khách muốn vừa nghỉ vừa khám phá bản làng bằng xe đạp.</p><p><b>Dịch vụ:</b> Lưu trú · ẩm thực · cho thuê &amp; hướng dẫn xe đạp<br/>Biển hiệu: HOMESTAY ĐỒI NÚI ẨM THỰC VÀ TRẢI NGHIỆM XE ĐẠP — SĐT: 0964017236 — Chưa kết nối</p>]]></description>
     <Point><coordinates>105.68631,20.62209,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Trần Văn Doanh / Tám (Homestay)</name>
+    <name>Homestay Baiboo Ông Doanh</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Homestay</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Trần Văn Doanh / Tám (Homestay)<br/>Biển hiệu: HOMESTAY BAIBOO ÔNG DOANH<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <description><![CDATA[<p>Homestay Baiboo Ông Doanh là điểm lưu trú cộng đồng mộc mạc tại thôn Đồi Dùng, cạnh hồ Baibóo. Gia đình có nghề mộc truyền thống, dấu ấn thể hiện qua chính ngôi nhà và các vật dụng. Đang hoàn thiện đường vào nhưng không gian nhà ở đã sẵn sàng đón khách muốn trải nghiệm lưu trú bản địa đích thực — chỉ có sự bình yên của làng Mường và hơi thở hồ Baibóo trước cửa.</p><p><b>Dịch vụ:</b> Lưu trú homestay bản địa<br/>Biển hiệu: HOMESTAY BAIBOO ÔNG DOANH — Chưa kết nối</p>]]></description>
     <Point><coordinates>105.68671,20.61913,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Nhà vườn 583</name>
+    <name>Trải nghiệm nhà sàn — nhà bà Diển</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Farmstay</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Quốc Tuấn (Famstay Khu 583)<br/>Biển hiệu: GIÓ NÚI FAMESTAY<br/>SĐT: 0373030292<br/>Tình trạng: Chưa kết nối<br/><i>Toạ độ TẠM (tâm thôn Đồng Văn) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Ngay đối diện Nhà văn hoá thôn Đồi Dùng, ngôi nhà sàn của bà Bạch Thị Diển đứng giữa vườn cây như một dấu tích sống của kiến trúc ở truyền thống người Mường — sàn gỗ chắc chắn, khoảng không bên dưới thông thoáng. Bà Diển tiếp đón khách, giải thích kỹ thuật dựng nhà sàn, cách chọn gỗ, sắp xếp không gian sinh hoạt theo quan niệm người Mường và những đổi thay của bản làng qua nhiều thập kỷ.</p><p><b>Dịch vụ:</b> Tham quan &amp; trải nghiệm nhà sàn · kể chuyện kiến trúc Mường<br/>SĐT: 0362343659 — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.68161,20.62166,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gió Núi Farmstay (Nhà vườn 583)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Gió Núi Farmstay là điểm trải nghiệm nông nghiệp đậm nếp sống Mường tại khu Đồi Dùng/Đồng Văn, vận hành mô hình Vườn – Ao – Chuồng theo lối canh tác truyền thống. Điểm đặc trưng là không gian trưng bày ngoài trời nhiều dụng cụ nông – ngư nghiệp cổ (bừa, cày, rổ đánh cá, lờ lợp) lưu giữ qua nhiều thế hệ — một "bảo tàng sống" giản dị nơi khách cầm, ngắm và nghe kể chuyện từng hiện vật.</p><p><b>Dịch vụ:</b> Farmstay · trải nghiệm V-A-C · lưu trú<br/>Biển hiệu: GIÓ NÚI FAMESTAY — SĐT: 0373030292 — Chưa kết nối<br/><i>Toạ độ TẠM (tâm thôn Đồng Văn) — kéo lại đúng vị trí</i></p>]]></description>
     <Point><coordinates>105.70118666666667,20.62005,0</coordinates></Point>
   </Placemark>
 </Document></kml>

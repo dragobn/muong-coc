@@ -3,33 +3,33 @@
   <name>Mường Cốc — Ẩm thực &amp; điểm dừng chân</name>
   <Style id="poi"><IconStyle><color>ff0099ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
   <Placemark>
-    <name>Hồ Câu Mường Cốc (đổi tên từ Hồ Câu 666)</name>
+    <name>Hồ Câu Mường Cốc</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Gốc Báng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Trần Thành Đồng (Hồ Câu Mường Cốc — câu cá + ăn uống)<br/>Biển hiệu: HỒ CÂU MƯỜNG CỐC<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <description><![CDATA[<p>Hồ Câu Mường Cốc tại thôn Gốc Báng là điểm nghỉ ngơi – giải trí bên hồ nước đặc trưng vùng bán sơn địa Mỹ Đức, kết hợp dịch vụ câu cá với ẩm thực dân dã phục vụ tại chỗ. Không gian hồ yên tĩnh, bao quanh bởi cây xanh và núi đá. Lựa chọn phù hợp cho nhóm bạn, gia đình muốn một buổi chiều thư thái: buông cần câu, trò chuyện và thưởng thức món cá tươi vừa đánh bắt.</p><p><b>Dịch vụ:</b> Câu cá · ẩm thực dân dã ven hồ<br/>Chủ: Trần Thành Đồng — Biển hiệu: HỒ CÂU MƯỜNG CỐC — Đang hoạt động</p>]]></description>
     <Point><coordinates>105.68225,20.61899,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cà phê võng &amp; Farm Cá Quả Mường Cốc</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Farm Cá Quả Mường Cốc là điểm dừng chân thư giãn giữa hành trình, nơi du khách nằm võng nghỉ chân bên ao cá quả rộng lớn nuôi theo phương thức tự nhiên. Quán cà phê võng đơn giản mà ấm cúng nằm ngay bên ao — vừa nhấm nháp cà phê, vừa ngắm đàn cá quả quẫy đuôi và cho chúng ăn. Một trải nghiệm "nghỉ ngơi có chủ đích": chậm lại, lắng nghe tiếng ao, tiếng gió và nhịp thở làng quê Mường.</p><p><b>Dịch vụ:</b> Cà phê võng · ăn uống · trải nghiệm cho cá ăn<br/>Chủ: Nguyễn Tất Thành — Biển hiệu: CAFE VÕNG NGHỈ CHÂN + FARM CÁ QUẢ MƯỜNG CỐC THÀNH TRUNG — SĐT: 0986392866 — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.69095,20.62834,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà sàn Tuyến Thuỷ (ẩm thực dân tộc)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Nhà sàn Tuyến Thuỷ là ngôi nhà sàn cổ của người Mường tại thôn Đồng Văn, lưu giữ kiến trúc và không gian sinh hoạt truyền thống qua nhiều thế hệ — vừa là nơi sinh sống, vừa là điểm phục vụ ẩm thực dân tộc Mường. Kết cấu gỗ tự nhiên phản ánh tư duy kiến trúc gắn với thiên nhiên. Kết hợp không gian văn hoá với ẩm thực tại chỗ, mang đến trải nghiệm chân thực về đời sống người Mường.</p><p><b>Dịch vụ:</b> Ẩm thực dân tộc Mường · không gian nhà sàn cổ<br/>Chủ: Nguyễn Bá Tuyến — Biển hiệu: NHÀ SÀN TUYẾN THUỶ ẨM THỰC DÂN TỘC — SĐT: 0375801188 — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.6956,20.63409,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Điểm dừng chân nhà bà Toàn</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm dừng chân nhà bà Trần Thị Toàn là địa điểm nghỉ ngơi bình dị trên cung đường tham quan thôn Đồi Dùng. Bà Toàn tiếp đón chân thành, cởi mở — đúng chất người Mường vùng núi — mời khách dừng giải khát, nghỉ chân và trò chuyện giữa hành trình. Không gian mang lại khoảng thư giãn thực sự, đúng tinh thần "slow travel" của du lịch cộng đồng Mường Cốc.</p><p><b>Dịch vụ:</b> Giải khát · nghỉ chân · giao lưu người dân<br/>Biển hiệu: ĐIỂM DỪNG CHÂN GIẢI KHÁT BÀ TOÀN — SĐT: 0362633911 — Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.68494,20.62144,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Chợ Mới An Phú</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Chợ</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Chợ Mới An Phú là chợ dân sinh khang trang xây từ nguồn vốn Chương trình mục tiêu quốc gia, thay thế các chợ tạm trước đây. Trung tâm giao thương sầm uất của vùng Mỹ Đức, nơi bán những sản vật địa phương: rau rừng, mật ong, nếp Mường, đặc sản vùng bán sơn địa. Với du khách, đây là không gian trải nghiệm phiên chợ quê chân thực, giao lưu cùng người dân và tìm mua quà đặc sản ngay tại nguồn.</p><p><b>Dịch vụ:</b> Chợ quê · sản vật địa phương (mở 5h00–12h00)<br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Bạch Văn Viên (Điểm dừng chân)</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Bạch Văn Viên (Điểm dừng chân)<br/>Biển hiệu: ĐIỂM DỪNG CHÂN GIẢI KHÁT BÀ TOÀN<br/>SĐT: 0362633911<br/>Tình trạng: Chưa kết nối</p>]]></description>
-    <Point><coordinates>105.68494,20.62144,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nguyễn Tất Thành (Cafe võng / Farm cá quả Mường Cốc Thành Trung)</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Tất Thành (Cafe võng / Farm cá quả Mường Cốc Thành Trung)<br/>Biển hiệu: CAFE VÕNG NGHỈ CHÂN + FARM CÁ QUẢ MƯỜNG CỐC THÀNH TRUNG<br/>SĐT: 0986392866<br/>Tình trạng: Đang hoạt động</p>]]></description>
-    <Point><coordinates>105.69095,20.62834,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nguyễn Bá Tuyến (Nhà sàn Tuyến Thuỷ)</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà hàng / F&amp;B</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Bá Tuyến (Nhà sàn Tuyến Thuỷ)<br/>Biển hiệu: NHÀ SÀN TUYẾN THUỶ ẨM THỰC DÂN TỘC<br/>SĐT: 0375801188<br/>Tình trạng: Đang hoạt động</p>]]></description>
-    <Point><coordinates>105.6956,20.63409,0</coordinates></Point>
   </Placemark>
 </Document></kml>

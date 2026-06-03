@@ -3,45 +3,45 @@
   <name>Mường Cốc — Cảnh quan thiên nhiên</name>
   <Style id="poi"><IconStyle><color>ff00aa00</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
   <Placemark>
-    <name>Đồi hoa kèn hồng</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Hồ</b>, thôn Bơ Môi.</p>]]></description>
-    <Point><coordinates>105.6705467,20.6213133,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Đồi Dược liệu</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Đồi dược liệu</b>, thôn Bơ Môi.</p>]]></description>
-    <Point><coordinates>105.6956717,20.6341967,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
     <name>Hồ Baibóo</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Hồ</b>, thôn Gốc Báng.</p>]]></description>
+    <description><![CDATA[<p>Hồ Baibóo nằm bình yên giữa thôn Đồi Dùng và Gốc Báng, là hồ điều hòa sinh thái khơi nguồn từ những dãy núi đá vôi vùng bán sơn địa Mỹ Đức. Con đường vòng quanh hồ dài khoảng 4 km, mặt nước trong xanh, hàng cây dổi cổ thụ ven bờ và những cung đường hoa rực rỡ theo mùa. Hồ là điểm nhấn trung tâm của du lịch cộng đồng Mường Cốc, gắn liền với Tourism Hub – Nhà văn hóa Đồi Dùng ngay cạnh.</p>]]></description>
     <Point><coordinates>105.6860667,20.621305,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đồi hoa kèn hồng</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Đồi hoa kèn hồng thuộc thôn Bơ Môi — mỗi mùa hoa nở (thường tháng 3–5), cả sườn đồi khoác tấm áo hồng rực rỡ. Điểm check-in nổi tiếng, được giới trẻ yêu thích và chia sẻ rộng rãi. Vẻ đẹp mộc mạc, tự nhiên của làng quê miền núi Bắc Bộ, khác biệt hoàn toàn với các điểm canh tác hoa nhân tạo, với tầm nhìn xa xuống vùng đồi làng Mường.</p>]]></description>
+    <Point><coordinates>105.6705467,20.6213133,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Thung Cánh</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Thung</b>, thôn Thanh Hà.</p>]]></description>
+    <description><![CDATA[<p>Thung Cánh là thung lũng hoang sơ ẩn mình giữa những dãy núi đá vôi kỳ vĩ của xã Mỹ Đức. Hồ nước trong xanh phản chiếu núi trời cùng thảm cỏ xanh mướt trải dài, tạo nên không gian thiên nhiên nguyên sơ hiếm có ngay cạnh Thủ đô. Áp dụng mô hình 5 KHÔNG trong quản lý; đặc biệt là nơi du khách trồng cây kỷ niệm trong chương trình Net Zero của Mường Cốc.</p>]]></description>
     <Point><coordinates>105.7154,20.6123583,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Rừng Tràm</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Rừng</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồng Văn) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.70118666666667,20.62005,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Hang Hổ</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Hang</b>, thôn Đức Dương.</p>]]></description>
-    <Point><coordinates>105.6918717,20.64078,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Thung Cấm</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Thung</b>, thôn Đức Dương.</p>]]></description>
-    <Point><coordinates>105.7154,20.6123583,0</coordinates></Point>
+    <description><![CDATA[<p>Thung Cấm là thung lũng kín giữa vùng núi đá vôi thôn Đức Dương, không gian hoang sơ tĩnh lặng, thảm thực vật tự nhiên còn nguyên vẹn. Một điểm dã ngoại – picnic và khám phá thiên nhiên trong hành trình Mường Cốc.</p><p><i>Toạ độ TẠM — kéo lại đúng vị trí thực địa</i></p>]]></description>
+    <Point><coordinates>105.7160,20.6135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hang Hổ</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Hang Hổ là hệ thống hang đá xuyên núi dài khoảng 80 m, rộng 30 m, cao 5–10 m, trong lòng có 2 bầu nước tự nhiên (một nông, một sâu). Tên gọi gắn với tín ngưỡng thờ Quan Ngũ Hổ — quyền năng Ngũ hành bảo vệ bình an. Trong kháng chiến chống Pháp và chống Mỹ, hang là nơi bộ đội công binh đúc đạn phục vụ tiền tuyến — một di tích cách mạng giao thoa với tín ngưỡng bản địa.</p>]]></description>
+    <Point><coordinates>105.6918717,20.64078,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Con đường Tràm</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Con đường Tràm là đoạn đường dài khoảng 800 m với hai hàng tràm cổ thụ, tán lá đan quyện khép thành vòm xanh mướt che phủ trọn lối đi. Không gian mộc mạc, yên bình, đậm chất làng quê — điểm check-in ấn tượng và là lối dẫn thân thương nối liền các điểm đến, gói gọn tinh thần "Chạm vào bình yên" của Mường Cốc.</p><p><i>Toạ độ TẠM — kéo lại đúng vị trí thực địa</i></p>]]></description>
+    <Point><coordinates>105.7005,20.6300,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rừng Tràm (Đồng Văn)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Vạt rừng tràm thôn Đồng Văn — không gian xanh mát ven cung đạp xe và đường làng, gắn với cảnh quan đồi – đồng đặc trưng của vùng. Điểm dừng chân nghỉ mát giữa hành trình.</p><p><i>Toạ độ TẠM (tâm thôn Đồng Văn) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.70118666666667,20.62005,0</coordinates></Point>
   </Placemark>
 </Document></kml>

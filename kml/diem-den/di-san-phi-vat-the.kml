@@ -1,101 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
-  <name>Mường Cốc — Di sản phi vật thể (Mo Mường, nghề, lễ)</name>
+  <name>Mường Cốc — Di sản phi vật thể &amp; không gian văn hoá</name>
   <Style id="poi"><IconStyle><color>ffff66cc</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+  <Style id="venue"><IconStyle><color>ffcc3399</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
+
+  <!-- ===== KHÔNG GIAN VĂN HOÁ (reclassified từ layer di tích) ===== -->
   <Placemark>
-    <name>Bài thuốc Mường bà Châm (knowledge-bearer)</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+    <name>Tourism Hub — Nhà văn hoá thôn Đồi Dùng</name>
+    <styleUrl>#venue</styleUrl>
+    <description><![CDATA[<p>Tourism Hub – Nhà văn hoá thôn Đồi Dùng (khởi công 2021, diện tích hơn 300 m², sức chứa ~200 người) tọa lạc cạnh Hồ Baibóo, gần đường Hồ Chí Minh. Đây vừa là không gian sinh hoạt văn hoá cộng đồng, vừa là văn phòng Tổ điều phối du lịch cộng đồng Mường Cốc — điểm đón tiếp đầu tiên, nơi du khách được tư vấn hành trình và khởi đầu mọi tour. Không gian đa năng để tổ chức sự kiện và biểu diễn văn nghệ Mường.</p>]]></description>
+    <Point><coordinates>105.6897842,20.6224767,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Bài thuốc Mường bà Phận (knowledge-bearer)</name>
+    <name>Nhà văn hoá dân tộc (thôn Đình)</name>
+    <styleUrl>#venue</styleUrl>
+    <description><![CDATA[<p>Nhà văn hoá dân tộc thôn Đình là thiết chế văn hoá trọng điểm đầu tư từ Chương trình MTQG vùng đồng bào dân tộc thiểu số và miền núi. Đây là trung tâm truyền dạy di sản văn hoá Mường: các lớp đánh cồng chiêng, hát dân ca Mường, học tiếng Mường và biểu diễn nhạc cụ truyền thống (kèn, sáo) được tổ chức thường xuyên. Điểm kết nối văn nghệ – ẩm thực bản địa, nơi du khách gặp gỡ và giao lưu trực tiếp với nghệ nhân Mường.</p><p><i>Toạ độ TẠM (tâm thôn Đình) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+
+  <!-- ===== DI SẢN PHI VẬT THỂ (ICH) ===== -->
+  <Placemark>
+    <name>Mo Mường (sử thi)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Mo Mường là pho sử thi – nghi lễ truyền miệng đồ sộ của người Mường, do thầy Mo thực hành trong các nghi lễ vòng đời. Di sản đã được UNESCO ghi danh vào Danh sách cần bảo vệ khẩn cấp (3/2024). Tại Mường Cốc, Mo Mường gắn với Đình Phú Cốc và đời sống tâm linh cộng đồng — một lớp văn hoá sâu nhất của vùng đất.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng) — di sản phi vật thể không gắn điểm cố định</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cồng chiêng Mường</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Dệt cạp váy Mường</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Cồng chiêng là nhạc cụ thiêng trong đời sống người Mường, vang lên trong lễ hội, cưới hỏi, mừng cơm mới và nghi lễ cộng đồng. Tại Mường Cốc, đội cồng chiêng được duy trì và truyền dạy tại Nhà văn hoá dân tộc — du khách có thể nghe và học đánh chiêng.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Hát thường rang, bộ mẹng</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Thường rang và bộ mẹng là các thể hát dân ca đối đáp đặc trưng của người Mường, dùng trong giao duyên, mừng nhà mới, lễ tết. Lời hát ứng tác, đậm chất trữ tình — được nghệ nhân Mường Cốc gìn giữ và biểu diễn trong các buổi giao lưu văn nghệ.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hôn lễ Mường</name>
+    <name>Dệt cạp váy Mường</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Cạp váy là phần tinh hoa nhất của trang phục nữ Mường — dải hoa văn dệt tay cầu kỳ với mô-típ rồng, hươu, hình học mang ý nghĩa vũ trụ quan Mường. Nghề dệt cạp váy được phụ nữ Mường Cốc lưu giữ; du khách có thể quan sát và thử dệt vài đường cơ bản.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Kiến trúc nhà sàn Mường</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Nhà sàn là không gian cư trú truyền thống của người Mường: sàn gỗ trên cột, gầm sàn thông thoáng, bố trí bếp và gian thờ theo quan niệm riêng. Tại Mường Cốc còn các nếp nhà sàn cổ (nhà bà Diển, nhà sàn Tuyến Thuỷ) và 4 cọc nhà sàn cổ tại nhà thờ họ ông Chế — chứng tích kiến trúc bản địa.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Lễ cúng cơm mới</name>
+    <name>Y học cổ truyền Mường (bài thuốc bà Châm, bà Phận)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Lễ hội Khai hạ</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Lễ kế thừa Thầy Mo</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p>]]></description>
-    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Mo Mường (sử thi)</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p>]]></description>
-    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Tang lễ Mường</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Tri thức thuốc Nam gia truyền của người Mường — hệ thống bài thuốc từ cây cỏ bản địa do các lương y như bà Châm, bà Phận gìn giữ qua nhiều thế hệ tại Đồi Dược Liệu Rộc Éo. Một lớp di sản tri thức dân gian sống, gắn với hệ sinh thái rừng núi Mỹ Đức.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng) — trải nghiệm thực tế tại Đồi Dược Liệu Rộc Éo</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Tri thức sinh thái Mường</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Tri thức sinh thái bản địa của người Mường: hiểu biết về rừng, nguồn nước, mùa vụ, cây thuốc và cách sống hài hoà với thiên nhiên vùng bán sơn địa. Đây là nền tảng tri thức cho mô hình du lịch xanh "5 KHÔNG" và Net Zero của Mường Cốc.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Y học cổ truyền Mường</name>
+    <name>Ẩm thực Mường (cơm lam, thịt hun, Cỗ Lá)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Ẩm thực Mường mang dấu ấn núi rừng: cơm lam nướng ống tre, thịt hun gác bếp, rau rừng, và đặc biệt là mâm Cỗ Lá — bày trên lá chuối tươi, không dùng đĩa nhựa. Nguyên liệu địa phương, chế biến theo lối truyền thống, là một trải nghiệm farm-to-table đúng nghĩa của Mường Cốc.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Ẩm thực cơm lam, thịt hun</name>
+    <name>Lễ hội Khai hạ</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <description><![CDATA[<p>Khai hạ là lễ hội xuống đồng đầu năm của người Mường — cầu mưa thuận gió hòa, mùa màng bội thu, mở đầu một năm lao động. Lễ gắn với tín ngưỡng nông nghiệp và sinh hoạt cộng đồng tại đình làng.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
     <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Rượu Tám Lập + Gạo quê Đồi Lý (OCOP)</name>
+    <name>Lễ cúng cơm mới</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Văn hoá phi vật thể (ICH)</b>, thôn Đồi Lý.</p>]]></description>
+    <description><![CDATA[<p>Lễ cúng cơm mới là nghi lễ tạ ơn trời đất và tổ tiên sau vụ thu hoạch, dâng những hạt gạo đầu mùa. Một nét tín ngưỡng nông nghiệp đặc trưng, thể hiện đạo lý biết ơn của người Mường.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôn lễ Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Hôn lễ truyền thống Mường gồm nhiều nghi thức: dạm ngõ, ăn hỏi, đón dâu, với hát đối đáp, trang phục cạp váy và sự tham gia của cả cộng đồng. Một di sản phong tục phản ánh cấu trúc xã hội và thẩm mỹ của người Mường.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tang lễ Mường</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Tang lễ Mường là nghi lễ vòng đời quan trọng, nơi thầy Mo thực hành các áng Mo dẫn đường cho linh hồn — gắn bó mật thiết với di sản Mo Mường. Một thực hành tâm linh sâu sắc, cần tôn trọng khi giới thiệu với du khách.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
+    <Point><coordinates>105.68510596666665,20.6224173,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lễ kế thừa Thầy Mo</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Lễ kế thừa Thầy Mo là nghi thức truyền nghề và truyền các áng Mo cho thế hệ thầy Mo kế tiếp — mắt xích sống còn để bảo tồn di sản Mo Mường. Phản ánh cơ chế trao truyền tri thức thiêng của cộng đồng Mường.</p><p><i>Toạ độ TẠM (anchor Đồi Dùng)</i></p>]]></description>
+    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rượu Tám Lập &amp; Gạo quê Đồi Lý (OCOP)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Bếp rượu quê Đồi Lý của nhà ông Lập nấu rượu theo lối truyền thống, cùng gạo quê Đồi Lý — những sản vật gắn với sinh kế nông nghiệp vùng đồi. Sản phẩm địa phương tiêu biểu, là quà đặc sản và là một mắt xích trong chuỗi trải nghiệm ẩm thực Mường Cốc.</p><p><i>Toạ độ TẠM (thôn Đồi Lý) — kéo lại đúng vị trí</i></p>]]></description>
     <Point><coordinates>105.68348,20.625995,0</coordinates></Point>
   </Placemark>
 </Document></kml>

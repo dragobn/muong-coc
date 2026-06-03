@@ -3,45 +3,57 @@
   <name>Mường Cốc — Trải nghiệm &amp; nghề truyền thống</name>
   <Style id="poi"><IconStyle><color>ffcc66ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
   <Placemark>
-    <name>Hà Huy Chế (Điểm trải nghiệm Nhà thờ họ)</name>
+    <name>Trải nghiệm mò trai (nhà anh Lực)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nghệ nhân văn hoá</b>, thôn Gốc Báng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Hà Huy Chế (Điểm trải nghiệm Nhà thờ họ)<br/>SĐT: 0352203633<br/>Tình trạng: Chưa kết nối</p>]]></description>
-    <Point><coordinates>105.68424,20.62237,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nhà nuôi vịt anh Tiến</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Thanh Hà.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Anh Tiến (vịt)<br/>Tình trạng: Đang hoạt động<br/><i>Toạ độ TẠM (tâm thôn Thanh Hà) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.71220453333335,20.607333766666667,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nhà nuôi vịt anh Động</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Thanh Hà.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Văn Động (Trải nghiệm nông trại)<br/>Biển hiệu: ĐỘNG OANH TRẢI NGHIỆM NÔNG TRẠI<br/>SĐT: 0344263154<br/>Tình trạng: Chưa kết nối</p>]]></description>
-    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nhà Trồng sim anh Ngự</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nghệ nhân nấu rượu</b>, thôn Đồi Dùng.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Mạnh Ngự (Nhà vườn Hoan Thanh)<br/>Biển hiệu: NHÀ VƯỜN HOAN THANH — chụp ảnh + ăn uống<br/>SĐT: 0986728373<br/>Tình trạng: Đang hoạt động</p>]]></description>
-    <Point><coordinates>105.69263,20.62514,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Ao cá 79 anh Vương</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Đồng Văn.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Văn Vương (Ao cá 79 + nuôi vịt + hoa sen)<br/>SĐT: 0965330168<br/>Tình trạng: Chưa kết nối</p>]]></description>
-    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Ruộng mò trai</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Anh Lực hằng ngày mò trai dưới ruộng nông + ao đầm. Sinh kế thực — không phải show diễn. Khách có thể trải nghiệm nửa buổi cùng anh, ăn cơm cùng gia đình. Story arc cao vì authentic.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Anh Lực (mò trai)<br/>SĐT: 0986103298<br/>Tình trạng: Đang hoạt động</p>]]></description>
+    <description><![CDATA[<p>Trải nghiệm mò trai tại nhà anh Lực đưa du khách trực tiếp tham gia đời sống mưu sinh thường nhật của người dân thôn Đồi Dùng: lội ruộng ngập nước và ven sông, dùng đôi bàn tay tìm trai, ốc theo cách người địa phương vẫn làm bao đời. Không cần kỹ năng đặc biệt, chỉ cần sẵn sàng xắn quần lội bùn — chất liệu của một trải nghiệm cộng đồng chân thực. Anh Lực hướng dẫn nhận biết vùng nước có trai, kỹ thuật mò và kể chuyện đời sông nước.</p><p><b>Dịch vụ:</b> Trải nghiệm mò trai · ăn cơm cùng gia đình<br/>Chủ: anh Lực — SĐT: 0986103298 — Đang hoạt động</p>]]></description>
     <Point><coordinates>105.69904,20.62523,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Nhà Nguyệt Farm</name>
+    <name>Nhà vườn Hoan Thanh (cây cảnh &amp; bonsai)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nông trại trải nghiệm</b>, thôn Đức Dương.</p><p><b>Dịch vụ:</b><br/>Chủ/Phụ trách: Nguyễn Thị Nguyệt (Nguyệt Farm — sen)<br/>SĐT: 0396561860<br/>Tình trạng: Chưa kết nối</p>]]></description>
+    <description><![CDATA[<p>Nhà Vườn Hoan Thanh là điểm đến của những ai yêu nghệ thuật cây cảnh. Chủ nhà Nguyễn Văn Hoan có nhiều năm kinh nghiệm cắt ghép hoa, tạo hình cây cảnh và bonsai. Khuôn viên xanh mát chia theo khu cây cảnh, bonsai và hoa; du khách dạo vườn, nghe chia sẻ kỹ thuật cắt tỉa, ghép cành, tạo thế. Gia đình cũng phục vụ chụp ảnh và ăn uống tại vườn.</p><p><b>Dịch vụ:</b> Tham quan vườn cây cảnh/bonsai · chụp ảnh · ăn uống<br/>Chủ: Nguyễn Mạnh Ngự / Nguyễn Văn Hoan — Biển hiệu: NHÀ VƯỜN HOAN THANH — SĐT: 0986728373 — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.69263,20.62514,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vườn Hoa Núi</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Vườn Hoa Núi là một trong những điểm cảnh quan rực rỡ sắc màu nhất khu Đồi Dùng, những vạt hoa đua nở dưới ánh nắng đồi núi, được người dân địa phương chăm sóc. Du khách tự do dạo bước qua các luống hoa đa sắc, chụp ảnh lưu niệm và kết hợp thưởng thức các món ăn dân tộc chuẩn bị sẵn — điểm dừng lý tưởng để ghi lại khoảnh khắc đẹp trong hành trình.</p><p><b>Dịch vụ:</b> Tham quan vườn hoa · chụp ảnh · ăn uống nhẹ<br/><i>Toạ độ TẠM (khu Đồi Dùng) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.6900,20.6260,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vườn Sim Cổ &amp; Rượu Sim (OCOP)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Vườn Sim Cổ gắn với đặc sản đồi Mường Cốc — loài sim cổ thụ mọc tự nhiên, được chăm sóc hoàn toàn bằng tay, không hóa chất. Quả sim tím ủ thành rượu sim theo công thức dân gian, đã đạt chứng nhận OCOP. Vào mùa sim chín (tháng 6–8), du khách hái sim trên đồi, tìm hiểu quá trình từ trồng đến ủ rượu và nghe chuyện đưa rượu sim đạt OCOP. Rượu sim và sim khô là món quà mang về giá trị.</p><p><b>Dịch vụ:</b> Hái sim · tìm hiểu ủ rượu · mua đặc sản OCOP<br/>Chủ: Nguyễn Mạnh Ngự — Đang hoạt động</p>]]></description>
+    <Point><coordinates>105.6926,20.6252,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đầm sen Nguyệt Farm</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Đầm sen Nguyệt Farm là một trong những điểm check-in nông nghiệp đẹp nhất Mường Cốc mỗi mùa sen. Bà Nguyễn Thị Nguyệt canh tác đầm sen tại thôn Đức Dương; từ tháng 6–8 sen hồng nở rộ trải dài. Du khách không chỉ chụp ảnh mà còn lẩy hạt sen, quan sát quy trình làm trà sen thủ công và tìm hiểu giá trị nhiều mặt của cây sen trong đời sống người Mỹ Đức.</p><p><b>Dịch vụ:</b> Check-in đầm sen · lẩy hạt · làm trà sen<br/>Chủ: Nguyễn Thị Nguyệt — SĐT: 0396561860 — Chưa kết nối</p>]]></description>
     <Point><coordinates>105.69447,20.63534,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Động Oanh — trải nghiệm nông trại (anh Động)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Động Oanh – Trải nghiệm nông trại tại thôn Thanh Hà do gia đình ông Nguyễn Văn Động vận hành. Du khách tham quan và tham gia các hoạt động của một nông trại gia đình, cảm nhận nhịp sống lao động thực tế trong không gian tự nhiên. Nông trại gắn với sản xuất hằng ngày, mang lại trải nghiệm chân thực, không dàn dựng.</p><p><b>Dịch vụ:</b> Trải nghiệm nông trại gia đình<br/>Chủ: Nguyễn Văn Động — Biển hiệu: ĐỘNG OANH TRẢI NGHIỆM NÔNG TRẠI — SĐT: 0344263154 — Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sản vật núi rừng — vịt, đào măng (anh Tiến)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Điểm trải nghiệm sản vật núi rừng của gia đình ông Lê Văn Tiến tại thôn Thanh Hà — khám phá đời sống gắn với rừng núi của người Mường Cốc. Gia đình nuôi vịt theo phương thức truyền thống và đào măng theo mùa. Du khách trực tiếp tham gia đào măng, tìm hiểu cách chế biến và sử dụng sản vật rừng trong bữa ăn hằng ngày.</p><p><b>Dịch vụ:</b> Trải nghiệm nuôi vịt · đào măng theo mùa<br/>Chủ: anh Tiến — Đang hoạt động<br/><i>Toạ độ TẠM (tâm thôn Thanh Hà) — kéo lại đúng vị trí</i></p>]]></description>
+    <Point><coordinates>105.71220453333335,20.607333766666667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ao cá 79 (anh Vương)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Ao cá 79 của gia đình ông Nguyễn Văn Vương tại thôn Đồng Văn — mô hình ao cá kết hợp nuôi vịt và trồng hoa sen, phản ánh sinh kế nông nghiệp đa canh của vùng. Du khách trải nghiệm câu/cho cá ăn, ngắm sen và tìm hiểu nếp canh tác của người dân.</p><p><b>Dịch vụ:</b> Trải nghiệm ao cá · nuôi vịt · hoa sen<br/>Chủ: Nguyễn Văn Vương — SĐT: 0965330168 — Chưa kết nối</p>]]></description>
+    <Point><coordinates>105.70892,20.60083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Đồi Dược Liệu Rộc Éo (bà Châm, bà Phận)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Đồi Dược Liệu Rộc Éo là điểm di sản phi vật thể hiếm có — nơi hai lương y người Mường, bà Châm và bà Phận, gìn giữ nghề thuốc Nam gia truyền qua nhiều thế hệ. Trên vùng đồi thôn Rộc Éo, các bà chăm sóc vườn dược liệu hàng chục loài cây thuốc bản địa. Du khách ngồi trò chuyện cùng hai lương y, đi qua từng luống cây thuốc, nghe kể về công dụng, cách nhận diện và phương pháp bào chế theo bí quyết Mường.</p><p><b>Dịch vụ:</b> Tham quan vườn thuốc · trò chuyện lương y · ngâm chân lá thuốc<br/>Tri thức bản địa (knowledge-bearer)</p>]]></description>
+    <Point><coordinates>105.6956717,20.6341967,0</coordinates></Point>
   </Placemark>
 </Document></kml>

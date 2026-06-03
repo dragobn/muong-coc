@@ -28,7 +28,14 @@ DATA = BASE / "data"
 CUNG = BASE / "cung"
 
 # ---- hằng số dùng chung ----
-MAPS_URL = "https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM"
+MAP_MIDS: dict = json.loads((DATA / "map-mids.json").read_text(encoding="utf-8"))
+MAPS_URL = f"https://www.google.com/maps/d/viewer?mid={MAP_MIDS['_tong']}"  # landing + footer
+
+
+def maps_url_for(slug: str) -> str:
+    """Trả URL Google My Maps cho slug; fallback sang _tong nếu không có."""
+    mid = MAP_MIDS.get(slug) or MAP_MIDS["_tong"]
+    return f"https://www.google.com/maps/d/viewer?mid={mid}"
 FB_URL = "https://www.facebook.com/profile.php?id=61575640444733"
 TEL = "+84986103298"
 TEL_SHOW = "0986 103 298"
@@ -569,6 +576,7 @@ def render_cung(slug):
   </section>''')
 
     # CTA: bản đồ + brochure
+    cung_map_url = maps_url_for(slug)
     brochure_pdf = CUNG / slug / "brochure.pdf"
     brochure_btn = ""
     if brochure_pdf.exists():
@@ -579,7 +587,7 @@ def render_cung(slug):
     <div class="kick center">{t3("Bắt đầu hành trình", "Start your journey", "Commencez votre voyage")}</div>
     <h2 class="sec" style="text-align:center;">{t3("Đặt cung ", "Book this ", "Réserver cet ")}<em>{t3("này", "route", "itinéraire")}</em></h2>
     <div class="cta-stack">
-      <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Mở bản đồ tuyến", "Open route map", "Ouvrir la carte de l'itinéraire")}<small>{t3("Google My Maps", "Google My Maps", "Google My Maps")}</small></span></a>
+      <a class="btn" href="{cung_map_url}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Mở bản đồ tuyến", "Open route map", "Ouvrir la carte de l'itinéraire")}<small>{t3("Google My Maps", "Google My Maps", "Google My Maps")}</small></span></a>
       {brochure_btn}
       <a class="btn ghost" href="tel:{TEL}"><span class="ic">📞</span><span>{t3("Gọi đặt cung", "Call to book", "Appeler pour réserver")}<small>{TEL_SHOW}</small></span></a>
     </div>

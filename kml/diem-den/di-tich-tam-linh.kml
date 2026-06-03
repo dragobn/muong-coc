@@ -3,69 +3,57 @@
   <name>Mường Cốc — Di tích &amp; tâm linh</name>
   <Style id="poi"><IconStyle><color>ff0066cc</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>
   <Placemark>
-    <name>Nhà Thờ Giáo xứ Bắc Sơn</name>
+    <name>Chùa Phú Cốc</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà thờ</b>, thôn Thanh Hà.</p>]]></description>
-    <Point><coordinates>105.7122936,20.608813,0</coordinates></Point>
+    <description><![CDATA[<p>Chùa Phú Cốc tọa lạc trên ngọn đồi lộng gió thôn Đồi Dùng — điểm tựa tâm linh chung của 6 thôn vùng Phú Cốc qua nhiều thế hệ. Tâm điểm khuôn viên là cây đa cổ thụ hơn 400 năm tuổi, tán xòe che chở cả khoảng sân. Cụm tự viện gồm tam bảo, nhà mẫu, nhà thờ tổ, miếu thờ quan lang và nhà khách, quy hoạch hài hòa, tôn nghiêm. Từ trên đồi có tầm nhìn bao quát cánh đồng và dãy núi đá vôi đặc trưng vùng bán sơn địa Mỹ Đức.</p>]]></description>
+    <Point><coordinates>105.68909,20.6237117,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Nhà văn hoá dân tộc</name>
+    <name>Đền Cây Thợi</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà văn hoá</b>, thôn Đình.</p>]]></description>
-    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
+    <description><![CDATA[<p>Đền Cây Thợi nằm trong thôn Đồi Dùng, gắn với cây thị cổ thụ hơn 400 năm tuổi — "Thợi" là cách đọc tiếng Mường của từ "thị". Điểm đặc biệt: một gốc cây mang ba loại quả (sáp, hạt, cúc), được dân làng coi là cây thiêng che chở cộng đồng. Đền thờ Nhị vị Thánh Mẫu Từ Quang và Từ Minh, gắn với truyền thuyết Đầm Hai Bà; được vua Khải Định ban sắc phong năm 1924. Hai lễ vọng chính trong năm vào 12/8 và 12/11 Âm lịch.</p>]]></description>
+    <Point><coordinates>105.6848617,20.6252583,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Đình Phú Cốc</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Đình</b>, thôn Đình.</p>]]></description>
+    <description><![CDATA[<p>Đình Phú Cốc là đại đình chung của các thôn người Mường vùng Phú Cốc, thờ Nhị vị Thành Hoàng làng Từ Quang – Từ Minh, gắn với hệ thống thờ tự tại Đền Cây Thợi. Đây là trung tâm tín ngưỡng và sinh hoạt cộng đồng qua nhiều thế hệ — nơi diễn ra nghi lễ thờ thần, kỳ họp và sinh hoạt văn hóa của người Mường. Công trình hiện nay dựng lại năm 2010 theo phong cách bê tông kiểu cổ, còn lưu giữ các câu đối cổ giá trị.</p><p><i>Toạ độ TẠM (tâm thôn Đình) — kéo lại đúng vị trí</i></p>]]></description>
     <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Chùa Phú Cốc</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Chùa Phú Cốc có cây đa cổ niên đại khoảng 400 năm, không gian linh thiêng. Sân rộng có thể tổ chức hoạt động — dân cư 6 thôn thường tập trung làm lễ ở đây. (Ghi chú từ Excel khảo sát 31/03/2026.)</p>]]></description>
-    <Point><coordinates>105.68909,20.6237117,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nhà Văn Hoá Làng Đồi Dùng</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Nhà văn hoá</b>, thôn Đồi Dùng.</p>]]></description>
-    <Point><coordinates>105.6791833,20.6203792,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Đền cây Thợi</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Đền cây Thợi (cây thị trong tiếng Mường gọi là &#x27;Thợi&#x27;) có 3 loại quả khác nhau trên cùng một cây: Sáp, Hạt, Cúc. Người Mường gọi đây là cây thiêng. Đền nhỏ bên cạnh.</p>]]></description>
-    <Point><coordinates>105.6848617,20.6252583,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Chùa Tiên</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Chùa Tiên có Cụ Tuyển sinh năm 1951 — nhà thơ giữ chùa. 130 bậc đá lên hang đá phía sau chùa. Cụ Tuyển có thể kể chuyện chùa + thơ tự sáng tác.</p>]]></description>
+    <description><![CDATA[<p>Chùa Tiên ẩn mình lưng chừng núi thôn Ái Nàng, dẫn lối bằng hệ thống ~130 bậc đá xuyên qua tán rừng và vách núi. Tương truyền năm 1958 ông Chu Văn Trác đi tìm mật ong rừng tình cờ phát hiện ngôi chùa, từ đó dân làng cải tạo để thờ phụng. Bên trong là hệ nhũ đá thiên tạo độc đáo, không gian giữ vẻ hoang sơ giữa núi rừng. Cụ Tuyển (giữ chùa) có thể kể chuyện chùa và đọc thơ tự sáng tác.</p>]]></description>
     <Point><coordinates>105.6946117,20.6506333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Chùa Đinh Long</name>
+    <name>Chùa Đinh Long (Đinh Long Tự)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Chùa</b>, thôn Đức Dương.</p>]]></description>
+    <description><![CDATA[<p>Chùa Đinh Long là ngôi chùa cổ tại thôn Đồng Văn, mang dấu tích lịch sử trải dài từ thời phong kiến đến kháng chiến. Theo văn bia, chùa được dựng từ thời vua Đinh Bộ Lĩnh, trùng tu lớn các năm 1599 và 1935, gắn với chốn tổ Tùng lâm Hương Tích từ 1898. Trong kháng chiến chống Pháp, chùa từng là căn cứ cách mạng: kho thóc, xưởng công binh, bệnh xá và nơi in tài liệu; năm 1948 là địa điểm họp Ban chấp hành Đảng bộ tỉnh Hà Đông.</p>]]></description>
     <Point><coordinates>105.7012208,20.6353317,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Nhà cổ ở Đức Dương</name>
-    <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Nhà cổ Đức Dương thuộc vợ chồng cựu chiến binh, mua nhà từ một gia đình địa chủ Mường. Cột gỗ + bếp đá nguyên bản còn giữ. Vợ chồng tự hào kể về lịch sử nhà.</p><p><b>Dịch vụ:</b><br/><i>Toạ độ TẠM (tâm thôn Đức Dương) — kéo lại đúng vị trí</i></p>]]></description>
-    <Point><coordinates>105.69758584285715,20.637138571428572,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Đền Mẫu Thượng Thiên (Đền Ái Nàng)</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Đền / miếu</b>, thôn Đức Dương.</p>]]></description>
+    <description><![CDATA[<p>Đền Mẫu Thượng Thiên — còn gọi Đền Ái Nàng — tọa lạc trên núi Đền thôn Ái Nàng theo lối kiến trúc cổ tả Thanh long hữu Bạch hổ, tựa lưng vào núi, mặt hướng sông Thanh Hà. Đền thờ Mẫu Quế Anh phu nhân cùng Tam toà Thánh Mẫu, Ngũ vị Tôn ông, Đức Thánh Trần, Bà Chúa Sơn Trang. Đặc biệt còn lưu giữ 4 đạo sắc phong triều Nguyễn (Tự Đức 1853, 1880; Duy Tân 1909; Khải Định 1924) và 2 mâm đá cổ thời Nguyễn.</p>]]></description>
     <Point><coordinates>105.693655,20.6447467,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Đền Quán Mai,An Phú,Mỹ Đức</name>
+    <name>Đền Quán Mai</name>
     <styleUrl>#poi</styleUrl>
-    <description><![CDATA[<p>Điểm thuộc loại <b>Đền / miếu</b>, thôn Đức Dương.</p>]]></description>
+    <description><![CDATA[<p>Đền Quán Mai tọa lạc ở chân núi, gần cửa Hang Hổ, được nhân dân cải tạo và thờ phụng từ khoảng năm 2020. Đền thờ tam vị đức thượng đẳng — ba vị thần bậc cao trong hệ thống tín ngưỡng dân gian địa phương. Vị trí hài hòa: lưng tựa núi, mặt hướng khoảng không gian mở, cảnh quan thanh tịnh. Cùng Hang Hổ kề bên tạo thành một cụm tâm linh – thiên nhiên độc đáo trong hành trình Mường Cốc.</p>]]></description>
     <Point><coordinates>105.6918717,20.64078,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà thờ Giáo xứ Bắc Sơn</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Nhà thờ Giáo xứ Bắc Sơn là thánh đường của hơn 1.800 giáo dân thôn Thanh Hà và vùng lân cận. Khởi đầu từ nhà nguyện đơn sơ năm 1958, định hình rõ nét năm 2008 và được nâng lên hàng Giáo xứ năm 2021, tôn Thánh Maria Mađalêna làm Đấng quan thầy. Công trình mang kiến trúc Pháp cổ uy nghiêm, tọa lạc trên đồi cao: lưng tựa vách núi, mặt hướng sông Thanh Hà, tầm nhìn ôm trọn cảnh quan sơn thuỷ vùng bán sơn địa.</p>]]></description>
+    <Point><coordinates>105.7122936,20.608813,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nhà thờ họ ông Chế (điểm trạm tâm linh)</name>
+    <styleUrl>#poi</styleUrl>
+    <description><![CDATA[<p>Nhà thờ họ ông Hà Huy Chế tại thôn Gốc Báng là không gian di sản cộng đồng có chiều sâu lịch sử. Trong khuôn viên còn lưu giữ 4 cọc nhà sàn cổ — chứng tích kiến trúc cư trú truyền thống của người Mường nhiều thế hệ trước. Ông Chế am hiểu lịch sử các đời người Mường trong dòng họ, có thể kể chuyện phong tục và ký ức bản làng; nơi này từng đón đoàn khách quốc tế với giao lưu hát – múa Mường ngay trong khuôn viên.</p><p><b>Liên hệ:</b> ông Hà Huy Chế — SĐT 0352203633</p>]]></description>
+    <Point><coordinates>105.68424,20.62237,0</coordinates></Point>
   </Placemark>
 </Document></kml>
