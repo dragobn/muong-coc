@@ -95,6 +95,29 @@ HOSO_TO_POISLUG = {
     "dan-duong-trekking-dong-huong-tich-nha-anh-thuong": "dong-huong-tich",
 }
 
+# ---------------------------------------------------------------------------
+# OVERRIDE phân loại (loai) theo base filename — sửa các điểm bị guess sai.
+# Ưu tiên tuyệt đối hơn guess_loai(). Key = base (đã bỏ prefix hoso-NN-).
+# ---------------------------------------------------------------------------
+LOAI_OVERRIDE = {
+    "moc-muong-sang-event": "dich-vu",                 # Dịch vụ (không phải di tích)
+    "nha-tho-ho-ong-che-diem-tham-quan-nha-tho-ho": "tram-tam-linh",  # Điểm trạm tâm linh
+    "nha-van-hoa-dan-toc-thon-dinh": "van-hoa",        # Không gian văn hoá
+    "ho-cau-muong-coc": "nha-hang",                    # Dịch vụ / Nhà hàng
+    "khu-nghi-duong-roc-eo": "dich-vu",                # Dịch vụ
+    "tram-nghi-moc-chau-xanh": "dich-vu",              # Dịch vụ
+    "vuon-hoa-nui": "trai-nghiem",                     # Điểm trạm trải nghiệm
+    "vuon-sim-co-va-ruou-sim": "trai-nghiem",          # Điểm trạm trải nghiệm
+    "dam-sen-nguyet-farm": "trai-nghiem",              # Điểm trải nghiệm
+    "dong-oanh-trai-nghiem-nong-trai": "trai-nghiem",  # Điểm trải nghiệm (nhà ông Động)
+}
+
+# OVERRIDE tiêu đề hiển thị theo base filename.
+TITLE_OVERRIDE = {
+    # Bỏ "(nhà anh Thưởng)" — chỉ còn tên động.
+    "dan-duong-trekking-dong-huong-tich-nha-anh-thuong": "Trekking Động Hương Tích",
+}
+
 # Điểm liên kết ngoài / dịch vụ KHÔNG có hồ sơ khảo sát riêng nhưng vẫn là
 # resolve target của link "Xem hồ sơ điểm đến" từ cung/cẩm nang. Sinh stub page
 # nhẹ (hero + mô tả ngắn + bản đồ) để link không 404.
@@ -169,12 +192,18 @@ STUBS = {
     },
 }
 
+# Điểm KHÔNG thuộc Mường Cốc — tách nhóm "Liên kết liên vùng" trên index.
+# (dong-huong-tich tuy external nhưng là đích cung trek từ MC -> giữ nhóm thiên nhiên)
+REGIONAL = {"chua-huong", "suoi-yen", "quang-phu-cau", "cuc-phuong",
+            "mai-chau", "pu-luong"}
+
 # slug page riêng (không trùng poi-slug ảnh, dùng ảnh mặc định theo loại):
 # tất cả hoso còn lại -> slug suy từ tên file (slugify), hero = ảnh default.
 
 # loại -> (icon, theme skin site.css, ảnh hero mặc định khi không map ảnh)
 LOAI_PROFILE = {
     "tam-linh":   ("⛩️", "disan", "assets/img/poi/chua-phu-coc/hero.jpg"),
+    "tram-tam-linh": ("🙏", "disan", "assets/img/poi/chua-phu-coc/hero.jpg"),
     "di-tich":    ("🏛️", "disan", "assets/img/poi/dinh-phu-coc/hero.jpg"),
     "canh-quan":  ("🏔️", "sinhthai", "assets/img/poi/thung-canh/hero.jpg"),
     "ho-nuoc":    ("🌊", "honuoc", "assets/img/poi/ho-baiboo/hero.jpg"),
@@ -182,7 +211,9 @@ LOAI_PROFILE = {
     "homestay":   ("🏡", "nongnghiep", "assets/img/poi/ba-la-homestay/hero.jpg"),
     "nong-nghiep":("🌱", "nongnghiep", "assets/img/poi/canh-dong-roc-eo/hero.jpg"),
     "am-thuc":    ("🍲", "ketnoi", "assets/img/poi/co-la-muong/hero.jpg"),
+    "nha-hang":   ("🍽️", "ketnoi", "assets/img/poi/co-la-muong/hero.jpg"),
     "trai-nghiem":("🛶", "sinhthai", "assets/img/poi/ho-baiboo/hero.jpg"),
+    "dich-vu":    ("🛎️", "ketnoi", "assets/img/poi/gio-nui-farmstay/hero.jpg"),
     "van-hoa":    ("🪕", "disan", "assets/img/poi/tourism-hub-doi-dung/hero.jpg"),
 }
 DEFAULT_LOAI = ("📍", "sinhthai", "assets/img/thung-canh.jpg")
@@ -225,28 +256,41 @@ def guess_loai(title, raw):
 
 # nhóm hiển thị trên trang index (gộp loại)
 GROUP_OF = {
-    "tam-linh": "ditich", "di-tich": "ditich", "van-hoa": "ditich",
+    "tam-linh": "ditich", "tram-tam-linh": "ditich", "di-tich": "ditich", "van-hoa": "ditich",
     "canh-quan": "thiennhien", "ho-nuoc": "thiennhien",
     "farmstay": "luutru", "homestay": "luutru",
     "nong-nghiep": "trainghiem", "trai-nghiem": "trainghiem", "am-thuc": "trainghiem",
+    "dich-vu": "dichvu", "nha-hang": "dichvu",
 }
 GROUP_META = [
-    ("ditich", "⛩️", {"vi": "Di tích · Văn hoá · Tâm linh", "en": "Heritage · Culture · Spiritual"}),
-    ("thiennhien", "🏔️", {"vi": "Thiên nhiên · Cảnh quan", "en": "Nature · Landscape"}),
-    ("luutru", "🏡", {"vi": "Lưu trú · Farmstay · Homestay", "en": "Stays · Farmstay · Homestay"}),
-    ("trainghiem", "🌾", {"vi": "Trải nghiệm · Nông nghiệp · Ẩm thực", "en": "Experiences · Farm · Food"}),
+    ("ditich", "⛩️", {"vi": "Di tích · Văn hoá · Tâm linh", "en": "Heritage · Culture · Spiritual",
+                       "fr": "Patrimoine · Culture · Spiritualité"}),
+    ("thiennhien", "🏔️", {"vi": "Thiên nhiên · Cảnh quan", "en": "Nature · Landscape",
+                          "fr": "Nature · Paysages"}),
+    ("luutru", "🏡", {"vi": "Lưu trú · Farmstay · Homestay", "en": "Stays · Farmstay · Homestay",
+                      "fr": "Hébergement · Farmstay · Homestay"}),
+    ("trainghiem", "🌾", {"vi": "Trải nghiệm · Nông nghiệp · Ẩm thực", "en": "Experiences · Farm · Food",
+                          "fr": "Expériences · Ferme · Gastronomie"}),
+    ("dichvu", "🛎️", {"vi": "Dịch vụ · Nhà hàng · Nghỉ dưỡng", "en": "Services · Dining · Resorts",
+                       "fr": "Services · Restauration · Détente"}),
+    # Nhóm riêng cuối trang: điểm KHÔNG thuộc Mường Cốc, kết nối liên vùng.
+    ("lienvung", "🧭", {"vi": "Liên kết liên vùng", "en": "Regional connections",
+                        "fr": "Liaisons régionales"}),
 ]
 LOAI_LABEL = {
-    "tam-linh": {"vi": "Di tích tâm linh", "en": "Spiritual heritage"},
-    "di-tich": {"vi": "Di tích lịch sử", "en": "Historic site"},
-    "van-hoa": {"vi": "Không gian văn hoá", "en": "Cultural space"},
-    "canh-quan": {"vi": "Cảnh quan thiên nhiên", "en": "Natural landscape"},
-    "ho-nuoc": {"vi": "Hồ nước · sông", "en": "Lake & water"},
-    "farmstay": {"vi": "Farmstay", "en": "Farmstay"},
-    "homestay": {"vi": "Homestay · lưu trú", "en": "Homestay & lodging"},
-    "nong-nghiep": {"vi": "Trải nghiệm nông nghiệp", "en": "Farm experience"},
-    "trai-nghiem": {"vi": "Điểm trải nghiệm", "en": "Experience spot"},
-    "am-thuc": {"vi": "Ẩm thực · đặc sản", "en": "Food & specialty"},
+    "tam-linh": {"vi": "Di tích tâm linh", "en": "Spiritual heritage", "fr": "Patrimoine spirituel"},
+    "tram-tam-linh": {"vi": "Điểm trạm tâm linh", "en": "Spiritual stop", "fr": "Halte spirituelle"},
+    "di-tich": {"vi": "Di tích lịch sử", "en": "Historic site", "fr": "Site historique"},
+    "van-hoa": {"vi": "Không gian văn hoá", "en": "Cultural space", "fr": "Espace culturel"},
+    "canh-quan": {"vi": "Cảnh quan thiên nhiên", "en": "Natural landscape", "fr": "Paysage naturel"},
+    "ho-nuoc": {"vi": "Hồ nước · sông", "en": "Lake & water", "fr": "Lac & rivière"},
+    "farmstay": {"vi": "Farmstay", "en": "Farmstay", "fr": "Farmstay"},
+    "homestay": {"vi": "Homestay · lưu trú", "en": "Homestay & lodging", "fr": "Homestay & hébergement"},
+    "nong-nghiep": {"vi": "Trải nghiệm nông nghiệp", "en": "Farm experience", "fr": "Expérience à la ferme"},
+    "trai-nghiem": {"vi": "Điểm trải nghiệm", "en": "Experience spot", "fr": "Point d'expérience"},
+    "am-thuc": {"vi": "Ẩm thực · đặc sản", "en": "Food & specialty", "fr": "Gastronomie & spécialités"},
+    "nha-hang": {"vi": "Dịch vụ · nhà hàng", "en": "Dining service", "fr": "Restauration"},
+    "dich-vu": {"vi": "Dịch vụ", "en": "Service", "fr": "Service"},
 }
 
 
@@ -265,15 +309,51 @@ def slugify(s):
     return re.sub(r"-+", "-", s)
 
 
-def t3(vi, en=None):
-    en = en or vi
+# ---------------------------------------------------------------------------
+# i18n: cache dịch EN/FR (data/poi-i18n.json) — key = chuỗi VI gốc.
+#   { "<vi>": {"en": "...", "fr": "..."} }
+# Mọi chuỗi VI đi qua t3/block3/tx được GHI vào COLLECT để script
+# build-poi-i18n.py dịch. Thiếu bản dịch -> fallback (en|vi, fr|en|vi).
+# ---------------------------------------------------------------------------
+I18N_FILE = DATA / "poi-i18n.json"
+try:
+    I18N = json.loads(I18N_FILE.read_text(encoding="utf-8")) if I18N_FILE.exists() else {}
+except Exception:
+    I18N = {}
+COLLECT = set()       # chuỗi VI gặp khi render (để dump cho prep script)
+
+
+def _resolve(vi, en=None):
+    """Trả (en_final, fr_final) cho 1 chuỗi VI. Ghi vào COLLECT."""
+    vi = (vi or "").strip()
+    if vi:
+        COLLECT.add(vi)
+    cell = I18N.get(vi) or {}
+    en_final = cell.get("en") or en or vi
+    fr_final = cell.get("fr") or en or vi
+    return en_final, fr_final
+
+
+def tx(vi, en=None, fr=None):
+    """3-arg helper: bản dịch tay (ưu tiên), else cache, else fallback."""
+    cen, cfr = _resolve(vi, en)
+    en_final = en or cen
+    fr_final = fr or cfr
     return (f'<span data-lang="vi">{e(vi)}</span>'
-            f'<span data-lang="en">{e(en)}</span>'
-            f'<span data-lang="fr">{e(en)}</span>')
+            f'<span data-lang="en">{e(en_final)}</span>'
+            f'<span data-lang="fr">{e(fr_final)}</span>')
+
+
+def t3(vi, en=None):
+    en_final, fr_final = _resolve(vi, en)
+    return (f'<span data-lang="vi">{e(vi)}</span>'
+            f'<span data-lang="en">{e(en_final)}</span>'
+            f'<span data-lang="fr">{e(fr_final)}</span>')
 
 
 def block3(vi, en=None, tag="div"):
-    en = en or vi
+    """vi/en là HTML (đã build sẵn). Dùng cho khối nhiều <p>."""
+    en = en if en is not None else vi
     return (f'<{tag} data-lang="vi">{vi}</{tag}>'
             f'<{tag} data-lang="en">{en}</{tag}>'
             f'<{tag} data-lang="fr">{en}</{tag}>')
@@ -580,6 +660,7 @@ POI_INLINE_CSS = """
 .poi-index-card .nm{font-weight:600;font-size:.96rem;line-height:1.2;color:var(--ink);}
 .poi-index-card .ty{font-size:.7rem;color:var(--muted);margin-top:3px;}
 .poi-index-card .arrow{margin-left:auto;color:var(--amber);font-size:1.1rem;flex-shrink:0;}
+.grp-note{font-size:.82rem;color:var(--muted);margin:-4px 0 10px;line-height:1.5;font-style:italic;}
 """
 
 
@@ -619,16 +700,25 @@ def render_poi(slug, d, poislug, loai, cung_refs):
     </div>
   </header>''')
 
-    # GIỚI THIỆU
+    # GIỚI THIỆU (dịch từng đoạn qua cache)
     if d["intro"]:
-        ps = "".join(f"<p>{e(p)}</p>" for p in d["intro"])
         first = d["intro"][0]
-        rest = "".join(f"<p>{e(p)}</p>" for p in d["intro"][1:])
-        drop = (f'<p><span class="drop">{e(first[0])}</span>{e(first[1:])}</p>{rest}'
-                if first else ps)
+        # VI: dropcap ký tự đầu
+        vi_html = (f'<p><span class="drop">{e(first[0])}</span>{e(first[1:])}</p>'
+                   + "".join(f"<p>{e(p)}</p>" for p in d["intro"][1:])) if first else ""
+        en_paras = [_resolve(p)[0] for p in d["intro"]]
+        fr_paras = [_resolve(p)[1] for p in d["intro"]]
+        ef = en_paras[0]
+        en_html = (f'<p><span class="drop">{e(ef[0])}</span>{e(ef[1:])}</p>'
+                   + "".join(f"<p>{e(p)}</p>" for p in en_paras[1:])) if ef else ""
+        ff = fr_paras[0]
+        fr_html = (f'<p><span class="drop">{e(ff[0])}</span>{e(ff[1:])}</p>'
+                   + "".join(f"<p>{e(p)}</p>" for p in fr_paras[1:])) if ff else ""
         parts.append(f'''  <section class="intro alt">
     <div class="kick">{t3("Giới thiệu", "Overview")}</div>
-    {block3(drop, ps, tag="div")}
+    <div data-lang="vi">{vi_html}</div>
+    <div data-lang="en">{en_html}</div>
+    <div data-lang="fr">{fr_html}</div>
   </section>''')
 
     # INFOBAR
@@ -782,9 +872,14 @@ def render_stub(slug, s, cung_refs):
       <div class="hero-tag">{t3(loai_lab["vi"], loai_lab["en"])}</div>
     </div>
   </header>''')
+    # FR: ưu tiên cache (key VI), else EN có sẵn
+    s_fr = (I18N.get(s["vi"]) or {}).get("fr") or s["en"]
+    COLLECT.add(s["vi"].strip())
     parts.append(f'''  <section class="intro alt">
     <div class="kick">{t3("Giới thiệu", "Overview")}</div>
-    {block3("<p>" + e(s["vi"]) + "</p>", "<p>" + e(s["en"]) + "</p>", tag="div")}
+    <div data-lang="vi"><p>{e(s["vi"])}</p></div>
+    <div data-lang="en"><p>{e(s["en"])}</p></div>
+    <div data-lang="fr"><p>{e(s_fr)}</p></div>
   </section>''')
 
     if cung_refs:
@@ -852,8 +947,17 @@ def render_index(items):
                 f'<span><span class="nm">{e(it["ten"])}</span>'
                 f'<span class="ty">{t3(lab["vi"], lab["en"])}</span></span>'
                 f'<span class="arrow">→</span></a>')
+        grp_title = tx(glabel["vi"], glabel.get("en"), glabel.get("fr"))
+        note = ""
+        if gkey == "lienvung":
+            note = ('<p class="grp-note">'
+                    + tx("Các điểm nằm ngoài Mường Cốc, kết nối trên cung tour liên vùng.",
+                         "Sites outside Muong Coc, linked on regional routes.",
+                         "Sites situés hors de Muong Coc, reliés aux circuits régionaux.")
+                    + "</p>")
         parts.append(f'''  <section>
-    <div class="grp"><span class="gi">{gi}</span><span class="gt">{t3(glabel["vi"], glabel["en"])}</span><span class="gc">{len(lst)}</span></div>
+    <div class="grp"><span class="gi">{gi}</span><span class="gt">{grp_title}</span><span class="gc">{len(lst)}</span></div>
+    {note}
     <div class="poi-index-list">{"".join(cards)}</div>
   </section>''')
 
@@ -912,7 +1016,12 @@ def collect_hoso():
             d = parse_hoso(md)
             base = re.sub(r"^hoso-\d+-", "", md.stem)
             poislug = HOSO_TO_POISLUG.get(base)
-            loai = guess_loai(d["title"], d["raw"])
+            # tiêu đề override (vd bỏ "(nhà anh Thưởng)")
+            if base in TITLE_OVERRIDE:
+                d["ten"] = TITLE_OVERRIDE[base]
+                d["title"] = TITLE_OVERRIDE[base].upper()
+            # loai: ưu tiên override tay, else guess
+            loai = LOAI_OVERRIDE.get(base) or guess_loai(d["title"], d["raw"])
             # slug page: ưu tiên poislug ảnh (để cung resolve), else base
             slug = poislug or base
             # tránh trùng slug (vd hang-ho + den-quan-mai cùng poislug)
@@ -928,7 +1037,8 @@ def main(argv):
     cung_idx = build_cung_index()
     hoso = collect_hoso()
 
-    index_only = argv and argv[0] == "--index"
+    collect_mode = "--collect" in argv
+    index_only = (not collect_mode) and argv and argv[0] == "--index"
     want = set(a for a in argv if not a.startswith("--"))
 
     hoso_slugs = {slug for slug, *_ in hoso}
@@ -940,12 +1050,15 @@ def main(argv):
                             "poislug": poislug, "group": GROUP_OF.get(loai, "thiennhien")})
         if index_only:
             continue
-        if want and slug not in want:
+        if want and slug not in want and not collect_mode:
             continue
         cung_refs = cung_idx.get(poislug, []) if poislug else []
+        html_out = render_poi(slug, d, poislug, loai, cung_refs)
+        if collect_mode:
+            continue
         out = POI_OUT / slug / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render_poi(slug, d, poislug, loai, cung_refs), encoding="utf-8")
+        out.write_text(html_out, encoding="utf-8")
         generated.append((slug, poislug, fname))
         print(f"[OK] poi/{slug}/index.html  <- {fname}"
               + (f"  (img: {poislug})" if poislug else "  (img: default)"))
@@ -954,19 +1067,31 @@ def main(argv):
     for slug, s in STUBS.items():
         if slug in hoso_slugs:
             continue  # đã có page từ hồ sơ thật
+        grp = "lienvung" if slug in REGIONAL else GROUP_OF.get(s["loai"], "thiennhien")
         index_items.append({"slug": slug, "ten": s["ten"], "loai": s["loai"],
-                            "poislug": slug, "group": GROUP_OF.get(s["loai"], "thiennhien")})
-        if index_only or (want and slug not in want):
+                            "poislug": slug, "group": grp})
+        if index_only or (want and slug not in want and not collect_mode):
             continue
         cung_refs = cung_idx.get(slug, [])
+        html_out = render_stub(slug, s, cung_refs)
+        if collect_mode:
+            continue
         out = POI_OUT / slug / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render_stub(slug, s, cung_refs), encoding="utf-8")
+        out.write_text(html_out, encoding="utf-8")
         generated.append((slug, slug, "STUB"))
         print(f"[OK] poi/{slug}/index.html  <- STUB (điểm ngoài/dịch vụ)")
 
-    # index page (luôn sinh)
-    (POI_OUT / "index.html").write_text(render_index(index_items), encoding="utf-8")
+    # index page (build để populate COLLECT; chỉ ghi khi không phải collect)
+    index_html = render_index(index_items)
+    if collect_mode:
+        strings = sorted(COLLECT)
+        out_strings = DATA / "poi-i18n-strings.json"
+        out_strings.write_text(
+            json.dumps(strings, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"[COLLECT] {len(strings)} chuỗi VI -> {out_strings.name}")
+        return
+    (POI_OUT / "index.html").write_text(index_html, encoding="utf-8")
     print(f"[OK] poi/index.html  ({len(index_items)} điểm)")
 
     if not index_only:

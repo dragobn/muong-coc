@@ -49,7 +49,7 @@ COVER_PRIORITY = [
     "nha-niem-nga", "nha-tho-ho-ong-che", "farm-ca-qua", "ban-moc-muong-coc",
     "doi-duoc-lieu-roc-eo", "homestay-ong-kien",
 ]
-HL_ICONS = ["🌱", "🪕", "🤝", "🍃", "⛩️", "🏔️", "🌊", "🎭", "🛶", "🌾"]
+HL_ICONS = ["🌱", "🪕", "🤝", "🍃", "🪷", "🏔️", "🌊", "🎭", "🛶", "🌾"]
 NOTE_ICONS = ["🌧️", "💪", "🏛️", "🍶", "👘", "🚫", "🐝", "📌"]
 LOAI_ICON = {"xe-dap": "🚲", "trek": "🥾", "tour": "🌾"}
 
@@ -170,13 +170,20 @@ def topbar(prefix, with_home):
 
 
 def fab():
+    # Icon điện thoại = SVG trắng (fill currentColor=#fff) cho nổi trên nền xanh
+    phone_svg = ('<svg class="ico" viewBox="0 0 24 24" width="24" height="24" '
+                 'fill="currentColor" aria-hidden="true">'
+                 '<path d="M6.62 10.79a15.53 15.53 0 0 0 6.59 6.59l2.2-2.2a1.02 1.02 0 0 1 '
+                 '1.05-.25c1.16.38 2.41.59 3.7.59a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 '
+                 '3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.29.21 2.54.59 3.7a1.02 1.02 0 0 1-.25 '
+                 '1.05l-2.2 2.04z"/></svg>')
     return f'''<div class="fab">
   <a class="fb" href="{FB_URL}" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
     <span aria-hidden="true">f</span>
     <span class="tip">{t3("Fanpage Du lịch cộng đồng Mường Cốc", "Facebook Fanpage", "Page Facebook")}</span>
   </a>
   <a class="call" href="tel:{TEL}" aria-label="Gọi hotline {TEL_SHOW}">
-    <span aria-hidden="true">📞</span>
+    {phone_svg}
     <span class="tip">{t3("Gọi hotline " + TEL_SHOW, "Call " + TEL_SHOW, "Appeler " + TEL_SHOW)}</span>
   </a>
 </div>'''
@@ -230,6 +237,14 @@ def render_landing():
         "", "assets/img/thung-canh.jpg")]
     parts.append(topbar("", with_home=False))
 
+    # NAVIGATOR NHANH (sticky dưới header) — anchor cuộn mượt
+    parts.append(f'''  <nav class="quicknav" aria-label="{e('Điều hướng nhanh / Quick navigation')}">
+    <a href="#cung-xe-dap">{t3("Cung đạp xe", "Cycling", "Vélo")}</a>
+    <a href="#cung-tour">{t3("Cung tour", "Tours", "Circuits")}</a>
+    <a href="#ho-so-diem-den">{t3("Hồ sơ điểm đến", "Destinations", "Destinations")}</a>
+    <a href="#dat-tour" class="cta">{t3("Đặt tour", "Book", "Réserver")}</a>
+  </nav>''')
+
     # HERO
     parts.append(f'''  <header class="hero">
     <div class="hero-bg"><img src="assets/img/thung-canh.jpg" alt="Thung lũng Mường Cốc"></div>
@@ -272,15 +287,22 @@ def render_landing():
     <div class="five-no">{five_html}</div>
   </section>''')
 
-    # CÁC CUNG
-    parts.append(f'''  <section>
+    # CÁC CUNG — mỗi nhóm là <details> collapsible (nhóm xe đạp mở mặc định)
+    GROUP_ANCHORS = ["cung-xe-dap", "cung-tour", "cung-trek"]
+    parts.append(f'''  <section id="cac-cung">
     <div class="kick">{t3("19 hành trình trải nghiệm", "19 signature journeys", "19 itinéraires d'expérience")}</div>
     <h2 class="sec">{t3("Các cung ", "Experience ", "Itinéraires ")}<em>{t3("trải nghiệm", "routes", "d'expérience")}</em></h2>''')
-    for icon, label, slugs in GROUPS:
-        parts.append(f'''    <div class="grp"><span class="gi">{icon}</span>'''
+    for gi, (icon, label, slugs) in enumerate(GROUPS):
+        anchor = GROUP_ANCHORS[gi] if gi < len(GROUP_ANCHORS) else f"cung-grp-{gi}"
+        open_attr = " open" if gi == 0 else ""  # nhóm xe đạp mở sẵn
+        parts.append(f'''    <details class="grp-acc" id="{anchor}"{open_attr}>
+      <summary class="grp">
+        <span class="gi">{icon}</span>'''
                      f'''<span class="gt">{t3(label["vi"], label["en"], label.get("fr"))}</span>'''
-                     f'''<span class="gc">{len(slugs)} {t3("cung", "routes", "itinéraires")}</span></div>
-    <div class="cung-list">''')
+                     f'''<span class="gc">{len(slugs)} {t3("cung", "routes", "itinéraires")}</span>'''
+                     f'''<span class="gchev" aria-hidden="true">⌄</span>
+      </summary>
+      <div class="cung-list">''')
         for slug in slugs:
             d = load(slug)
             cov = COVERS.get(slug)
@@ -299,15 +321,15 @@ def render_landing():
                 f'''<div class="body"><div class="nm">{t3(ten, ten_en, ten_fr)}</div>'''
                 f'''<div class="st">{t3(meta_vi, meta_en, meta_fr)}</div></div>'''
                 f'''<span class="arrow">→</span></a>''')
-        parts.append("    </div>")
+        parts.append("      </div>\n    </details>")
     parts.append("  </section>")
 
     # HỒ SƠ ĐIỂM ĐẾN (link tạm /poi/ — main bổ sung danh sách sau)
-    parts.append(f'''  <section class="poi alt">
+    parts.append(f'''  <section class="poi alt" id="ho-so-diem-den">
     <div class="kick">{t3("Khám phá sâu hơn", "Dig deeper", "Explorer en profondeur")}</div>
     <h2 class="sec">{t3("Hồ sơ ", "Destination ", "Fiches des ")}<em>{t3("điểm đến", "profiles", "destinations")}</em></h2>
     <div class="poi-list">
-      <a class="poi-card" href="poi/"><span class="ic">⛩️</span><span><span class="nm">{t3("Tất cả điểm đến", "All destinations", "Toutes les destinations")}</span><span class="ds">{t3("Hồ sơ điểm đến Mường Cốc", "Muong Coc destination profiles", "Fiches des destinations de Mường Cốc")}</span></span><span class="arrow">→</span></a>
+      <a class="poi-card" href="poi/"><span class="ic">🪷</span><span><span class="nm">{t3("Tất cả điểm đến", "All destinations", "Toutes les destinations")}</span><span class="ds">{t3("Hồ sơ điểm đến Mường Cốc", "Muong Coc destination profiles", "Fiches des destinations de Mường Cốc")}</span></span><span class="arrow">→</span></a>
     </div>
   </section>''')
 
@@ -316,6 +338,17 @@ def render_landing():
     <div class="kick center">{t3("Định hướng hành trình", "Plan your route", "Planifier votre itinéraire")}</div>
     <h2 class="sec" style="text-align:center;">{t3("Bản đồ ", "Tourism ", "Carte ")}<em>{t3("du lịch", "map", "touristique")}</em></h2>
     <a class="btn" href="{MAPS_URL}" target="_blank" rel="noopener"><span class="ic">🗺️</span><span>{t3("Bản đồ du lịch Mường Cốc", "Muong Coc tourism map", "Carte touristique de Mường Cốc")}<small>{t3("Google My Maps · tất cả điểm đến", "Google My Maps · all destinations", "Google My Maps · toutes les destinations")}</small></span></a>
+  </section>''')
+
+    # ĐẶT TOUR (khối liên hệ đặt tour)
+    parts.append(f'''  <section class="alt book" id="dat-tour">
+    <div class="kick center">{t3("Sẵn sàng lên đường", "Ready to go", "Prêt à partir")}</div>
+    <h2 class="sec" style="text-align:center;">{t3("Đặt ", "Book your ", "Réserver votre ")}<em>{t3("tour", "tour", "circuit")}</em></h2>
+    <p class="book-lead">{t3("Liên hệ Ban Điều Phối để chọn cung phù hợp, hỏi lịch khởi hành và báo giá theo nhóm.", "Contact the Coordination Board to pick a route, check departure dates and get a group quote.", "Contactez le Comité de coordination pour choisir un itinéraire, vérifier les dates de départ et obtenir un devis de groupe.")}</p>
+    <div class="cta-stack">
+      <a class="btn" href="tel:{TEL}"><span class="ic">📞</span><span>{t3("Gọi đặt tour", "Call to book", "Appeler pour réserver")}<small>{TEL_SHOW}</small></span></a>
+      <a class="btn ghost" href="{FB_URL}" target="_blank" rel="noopener"><span class="ic">💬</span><span>{t3("Nhắn tin Fanpage", "Message on Fanpage", "Message sur la page")}<small>{t3("Du lịch cộng đồng Mường Cốc", "Muong Coc Community Tourism", "Tourisme communautaire de Mường Cốc")}</small></span></a>
+    </div>
   </section>''')
 
     parts.append(tail(""))
