@@ -98,7 +98,7 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .bottom-tag .it{ font-family:"Cormorant Garamond"; font-style:italic; letter-spacing:.5pt; font-size:9.5pt; color:var(--mut); }
 
 /* ============ PAGE 1 ============ */
-.p1-hero{ position:relative; width:100%; height:150mm; overflow:hidden; }
+.p1-hero{ position:relative; width:100%; height:138mm; overflow:hidden; }
 .p1-hero img{ width:100%; height:100%; object-fit:cover; filter:brightness(.74) saturate(1.05); }
 .p1-hero::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(8,52,24,.55) 0%, rgba(8,52,24,.15) 32%, rgba(8,52,24,.35) 64%, rgba(8,52,24,.95) 100%); }
 .p1-hero .hc{ position:absolute; inset:0; padding:14mm 16mm 9mm; display:flex; flex-direction:column; justify-content:space-between; z-index:4; }
@@ -119,8 +119,8 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .p1-hero .hc .bottom-bar .price .num{ font-family:"Bodoni Moda",serif; font-size:28pt; color:var(--cream3); line-height:1; font-weight:500; margin:.5mm 0; }
 .p1-hero .hc .bottom-bar .price .unit{ font-family:"Inter"; font-size:6.5pt; letter-spacing:2.5pt; color:var(--amber-l); font-weight:500; }
 
-.p1-lower{ padding:6mm 16mm 13mm; }
-.p1-lower .intro{ margin-bottom:6mm; }
+.p1-lower{ padding:5mm 16mm 9mm; }
+.p1-lower .intro{ margin-bottom:4mm; }
 /* cover: intro + QR card 2 cột (chỉ cung A dùng) */
 .p1-lower .intro-row{ display:grid; grid-template-columns:1.62fr .85fr; gap:8mm; align-items:stretch; margin-bottom:6mm; }
 .p1-lower .intro-row .intro{ margin-bottom:0; }
@@ -129,25 +129,25 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .qr-card .ql{ font-family:"Inter"; font-size:6.5pt; letter-spacing:2pt; color:var(--green); font-weight:700; text-transform:uppercase; margin-top:2.5mm; }
 .qr-card .qs{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:8.5pt; color:var(--mut); margin-top:1mm; line-height:1.3; }
 .p1-lower .intro .kick{ font-family:"Inter"; font-size:7pt; letter-spacing:5pt; color:var(--amber); font-weight:600; text-transform:uppercase; margin-bottom:3mm; }
-.p1-lower .intro p{ font-family:"Cormorant Garamond",serif; font-size:12pt; line-height:1.5; color:var(--ink2); text-align:justify; }
-.p1-lower .intro p .drop{ float:left; font-family:"Bodoni Moda",serif; font-size:42pt; line-height:.8; padding:2pt 6pt 0 0; color:var(--green); font-weight:600; }
+.p1-lower .intro p{ font-family:"Cormorant Garamond",serif; font-size:11pt; line-height:1.4; color:var(--ink2); text-align:justify; }
+.p1-lower .intro p .drop{ float:left; font-family:"Bodoni Moda",serif; font-size:38pt; line-height:.8; padding:2pt 6pt 0 0; color:var(--green); font-weight:600; }
 .p1-lower .intro p em{ font-style:italic; color:var(--green); }
-.p1-lower .divider{ display:flex; align-items:center; gap:5mm; margin-bottom:4.5mm; }
+.p1-lower .divider{ display:flex; align-items:center; gap:5mm; margin-bottom:3.5mm; }
 .p1-lower .divider .ll{ flex:0 0 14mm; height:.5pt; background:var(--amber); }
 .p1-lower .divider .lab{ font-family:"Inter"; font-size:7pt; letter-spacing:5pt; color:var(--amber); font-weight:600; }
 .p1-lower .divider .ct{ font-family:"Bodoni Moda",serif; font-style:italic; font-size:12.5pt; color:var(--green); }
 .p1-lower .divider .rl{ flex:1; height:.5pt; background:var(--soft); }
 .p1-lower .hl5{ display:grid; grid-template-columns:repeat(5,1fr); gap:3mm; }
 /* FIX: giảm padding + font để 5 thẻ không chạm bottom-tag khi có EN bilingual */
-.p1-lower .hl5 .c{ background:var(--cream2); border:.5pt solid var(--tan); border-top:2pt solid var(--green-v); padding:2.5mm 2.5mm; text-align:center; overflow:hidden; }
-.p1-lower .hl5 .c .ic{ font-size:13pt; line-height:1; }
-.p1-lower .hl5 .c .nm{ font-family:"Bodoni Moda",serif; font-size:8.5pt; color:var(--green); font-weight:600; margin-top:1.5mm; line-height:1.1; }
-.p1-lower .hl5 .c .ds{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:7.5pt; color:var(--mut); margin-top:1mm; line-height:1.2; }
+.p1-lower .hl5 .c{ background:var(--cream2); border:.5pt solid var(--tan); border-top:2pt solid var(--green-v); padding:2.2mm 2mm; text-align:center; overflow:hidden; }
+.p1-lower .hl5 .c .ic{ font-size:12pt; line-height:1; }
+.p1-lower .hl5 .c .nm{ font-family:"Bodoni Moda",serif; font-size:8pt; color:var(--green); font-weight:600; margin-top:1.3mm; line-height:1.08; }
+.p1-lower .hl5 .c .ds{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:6.8pt; color:var(--mut); margin-top:.8mm; line-height:1.16; }
 
 /* ============ ITINERARY P2/P3 ============ */
-.itin-body{ padding:6mm 16mm 13mm; }
-.photo3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:3.5mm; margin-bottom:5mm; }
-.photo3 .ps{ position:relative; height:28mm; overflow:hidden; border:.5pt solid var(--tan); }
+.itin-body{ padding:5mm 16mm 9mm; }
+.photo3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:3.5mm; margin-bottom:4mm; }
+.photo3 .ps{ position:relative; height:24mm; overflow:hidden; border:.5pt solid var(--tan); }
 .photo3 .ps img{ width:100%; height:100%; object-fit:cover; filter:brightness(.92) saturate(1.05); }
 .photo3 .ps .ov{ position:absolute; bottom:0; left:0; right:0; background:linear-gradient(0deg, rgba(8,52,24,.92), transparent); padding:4pt 6pt 3pt; z-index:2; }
 .photo3 .ps .ov .lab{ font-family:"Inter"; font-size:5.5pt; letter-spacing:2pt; color:var(--amber-l); font-weight:600; }
@@ -155,7 +155,7 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 
 .tl{ position:relative; padding-left:29mm; }
 .tl::before{ content:""; position:absolute; left:23mm; top:3mm; bottom:3mm; width:.75pt; background:var(--soft); }
-.tl .stop{ position:relative; padding:0 0 5mm 0; }
+.tl .stop{ position:relative; padding:0 0 3.8mm 0; }
 .tl .stop:last-child{ padding-bottom:0; }
 .tl .stop .time{ position:absolute; left:-29mm; top:0; width:19mm; text-align:right; font-family:"Bodoni Moda",serif; font-size:12.5pt; font-style:italic; font-weight:500; color:var(--amber); line-height:1.1; }
 .tl .stop .node{ position:absolute; left:-6.55mm; top:1.5mm; width:3.2mm; height:3.2mm; border-radius:50%; background:var(--cream); border:1.25pt solid var(--green-v); z-index:2; }
@@ -163,7 +163,7 @@ body{ font-family:"Inter",sans-serif; color:var(--ink); background:var(--cream);
 .tl .stop h3{ font-family:"Bodoni Moda",serif; font-size:12.5pt; color:var(--green); font-weight:600; line-height:1.05; }
 .tl .stop h3 .badge{ display:inline-block; font-family:"Inter"; font-size:5.5pt; letter-spacing:1.5pt; vertical-align:middle; background:var(--green); color:var(--cream3); padding:1pt 4pt; margin-left:4pt; font-weight:600; }
 .tl .stop h3 .sub{ font-family:"Cormorant Garamond",serif; font-style:italic; font-weight:500; font-size:10pt; color:var(--amber); }
-.tl .stop p{ font-family:"Inter"; font-size:8.2pt; line-height:1.45; color:var(--ink2); margin-top:1.3mm; }
+.tl .stop p{ font-family:"Inter"; font-size:7.8pt; line-height:1.38; color:var(--ink2); margin-top:1.1mm; }
 .tl .stop p b{ color:var(--green); font-weight:600; }
 .tl .stop p .note{ display:block; font-family:"Cormorant Garamond",serif; font-style:italic; font-size:9pt; color:var(--mut); margin-top:1mm; padding-left:7pt; border-left:1.5pt solid var(--tan); }
 
