@@ -260,4 +260,32 @@ footer .ft-line{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;op
   .dest-grid{grid-template-columns:1fr 1fr;}
   .incl-grid{grid-template-columns:1fr 1fr;}
 }
+/* ---- Desktop: phủ hết chiều ngang màn hình lớn (fix "hẹp hẹp") ---- */
+@media(min-width:1024px){
+  :root{--maxw:1160px;}
+  section{padding:52px 48px;}
+  h2.sec{font-size:2.4rem;}
+  /* lưới card phủ kín chiều ngang */
+  .poi-list{grid-template-columns:repeat(3,1fr);}
+  .dest-grid{grid-template-columns:repeat(3,1fr);}
+  .incl-grid{grid-template-columns:1fr 1fr;}
+  .cung-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .hl-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .chip-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  /* văn bản dài giữ khổ đọc thoải mái, căn giữa trong dải nền full-width */
+  .intro>div[data-lang]{max-width:800px;margin-left:auto;margin-right:auto;}
+  .five-no{max-width:840px;margin-left:auto;margin-right:auto;justify-content:center;}
+  /* timeline lịch trình căn giữa khổ đọc */
+  .tl-item{margin-left:auto;margin-right:auto;}
+  section>.tl-item,.tl-wrap{max-width:760px;margin-left:auto;margin-right:auto;}
+  /* nút bấm không kéo dài hết màn — gom cụm căn giữa */
+  .cta-stack{flex-direction:row;max-width:620px;margin:0 auto;}
+  .cta-stack .btn{flex:1;}
+  section>.btn{max-width:560px;margin-left:auto;margin-right:auto;}
+  .book-lead{max-width:60ch;}
+}
+@media(min-width:1440px){
+  :root{--maxw:1320px;}
+  .poi-list{grid-template-columns:repeat(4,1fr);}
+}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}

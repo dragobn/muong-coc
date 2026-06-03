@@ -536,7 +536,7 @@ def main():
         slugs = sys.argv[1:]
     else:
         # Sinh tất cả JSON trong data/ — loại trừ file reference không phải cung
-        SKIP_FILES = {"images", "master-poi-coords"}
+        SKIP_FILES = {"images", "master-poi-coords", "map-mids", "poi-i18n", "poi-i18n-strings"}
         slugs = sorted(p.stem for p in DATA_DIR.glob("*.json") if p.stem not in SKIP_FILES)
         if not slugs:
             print(f"[ERROR] Không tìm thấy file JSON nào trong {DATA_DIR}")
