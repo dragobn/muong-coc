@@ -246,6 +246,7 @@ def render_landing():
 
     # NAVIGATOR NHANH (sticky dưới header) — anchor cuộn mượt
     parts.append(f'''  <nav class="quicknav" aria-label="{e('Điều hướng nhanh / Quick navigation')}">
+    <a href="gioi-thieu/">{t3("Giới thiệu", "Overview", "Aperçu")}</a>
     <a href="#cung-xe-dap">{t3("Cung đạp xe", "Cycling", "Vélo")}</a>
     <a href="#cung-tour">{t3("Cung tour", "Tours", "Circuits")}</a>
     <a href="#ho-so-diem-den">{t3("Hồ sơ điểm đến", "Destinations", "Destinations")}</a>
@@ -269,19 +270,19 @@ def render_landing():
     intro_vi = ('<p><span class="drop">M</span>ường Cốc nằm tại xã Mỹ Đức, Hà Nội — một bản Mường còn '
                 'giữ nguyên nếp sống thường ngày giữa bóng núi, chùa cổ, vườn sim và những thung lũng '
                 'chưa một mảnh bê tông. Mỗi trải nghiệm đều bước ra từ đời sống thật của bản.</p>'
-                '<p>Mường Cốc theo đuổi du lịch xanh với cam kết <b>5 KHÔNG</b> — bạn đến để lắng nghe, '
-                'chứ không chỉ để xem.</p>')
+                '<p>Mường Cốc theo đuổi du lịch xanh, hướng đến <b>net-zero</b>, với cam kết <b>5 KHÔNG</b> '
+                '— bạn đến để lắng nghe, chứ không chỉ để xem.</p>')
     intro_en = ('<p><span class="drop">M</span>uong Coc lies in My Duc Commune, Hanoi — a Muong village '
                 'still living its everyday rhythm among mountain shade, old pagodas, rose-myrtle gardens '
                 'and valleys untouched by concrete. Every experience grows from real village life.</p>'
-                '<p>Muong Coc pursues green tourism with a <b>5-NO pledge</b> — you come to listen, '
-                'not merely to watch.</p>')
+                '<p>Muong Coc pursues green tourism toward <b>net-zero</b>, with a <b>5-NO pledge</b> '
+                '— you come to listen, not merely to watch.</p>')
     intro_fr = ('<p><span class="drop">M</span>ường Cốc se niche dans la commune de Mỹ Đức, à Hanoï — un '
                 'village Mường qui garde encore son rythme quotidien parmi l\'ombre des montagnes, les '
                 'pagodes anciennes, les jardins de myrte et des vallées que le béton n\'a jamais touchées. '
                 'Chaque expérience naît de la vie réelle du village.</p>'
-                '<p>Mường Cốc poursuit un tourisme vert avec un <b>engagement des 5 NON</b> — vous venez '
-                'pour écouter, et non simplement pour regarder.</p>')
+                '<p>Mường Cốc poursuit un tourisme vert vers le <b>net-zero</b>, avec un <b>engagement '
+                'des 5 NON</b> — vous venez pour écouter, et non simplement pour regarder.</p>')
     five = [("01 · Không rác nhựa", "01 · No plastic waste", "01 · Aucun déchet plastique"),
             ("02 · Không bê tông hoá", "02 · No concrete sprawl", "02 · Aucune bétonisation"),
             ("03 · Không dàn dựng", "03 · No staged shows", "03 · Aucune mise en scène"),
@@ -292,6 +293,14 @@ def render_landing():
     <div class="kick">{t3("Về Mường Cốc", "About Muong Coc", "À propos de Mường Cốc")}</div>
     {block3(intro_vi, intro_en, intro_fr)}
     <div class="five-no">{five_html}</div>
+    <a href="gioi-thieu/" style="display:flex;align-items:center;gap:14px;margin-top:20px;background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff;text-decoration:none;padding:16px 20px;border-radius:14px;box-shadow:var(--shadow);">
+      <span style="font-size:1.7rem;line-height:1;">🌿</span>
+      <span style="flex:1;line-height:1.25;min-width:0;">
+        <b style="font-family:var(--serif);font-size:1.18rem;display:block;">{t3("Giới thiệu tổng quan", "Overview", "Aperçu général")}</b>
+        <small style="opacity:.92;font-size:.82rem;">{t3("Vùng đất · văn hoá · ẩm thực · trải nghiệm · lời mời", "Land · culture · cuisine · experiences · invitation", "Terre · culture · gastronomie · expériences · invitation")}</small>
+      </span>
+      <span style="font-size:1.4rem;flex-shrink:0;">→</span>
+    </a>
   </section>''')
 
     # CÁC CUNG — mỗi nhóm là <details> collapsible (nhóm xe đạp mở mặc định)
