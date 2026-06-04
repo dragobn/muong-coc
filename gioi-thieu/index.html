@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giới thiệu tổng quan — Du lịch cộng đồng Mường Cốc</title>
+<meta name="description" content="Tổng quan du lịch cộng đồng Mường Cốc: hành trình phát triển, kết quả, định hướng Net Zero và tầm nhìn điểm đến xanh của Hà Nội.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="stylesheet" href="../assets/css/theme-skins.css">
+<link rel="stylesheet" href="../assets/css/motifs.css">
+<style>
+/* ===== Trang giới thiệu tổng quan ===== */
+.ov-cover{position:relative; min-height:82vh; display:flex; flex-direction:column; justify-content:flex-end; color:#fff; overflow:hidden;}
+.ov-cover .bg{position:absolute; inset:0;}
+.ov-cover .bg img{width:100%; height:100%; object-fit:cover;}
+.ov-cover .bg::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(8,52,24,.45) 0%, rgba(8,52,24,.05) 30%, rgba(8,52,24,.30) 60%, rgba(6,40,22,.88) 100%);}
+.ov-cover .cc{position:relative; z-index:2; padding:0 22px 40px; max-width:var(--maxw); margin:0 auto; width:100%;}
+.ov-cover .eb{font-size:.74rem; letter-spacing:.34em; font-weight:700; text-transform:uppercase; color:var(--gold); margin-bottom:12px;}
+.ov-cover h1{font-family:var(--serif); font-weight:700; font-size:2.9rem; line-height:1.02; text-shadow:0 2px 14px rgba(0,0,0,.4);}
+.ov-cover h1 em{display:block; font-style:italic; color:var(--gold); font-size:1.5rem; font-weight:500; margin-top:8px;}
+.ov-cover .loc{margin-top:14px; font-size:.86rem; letter-spacing:.04em; color:#f3eedf;}
+.ov-cover .loc b{color:#fff;}
+
+.ov-story{display:grid; gap:26px; align-items:center; padding:48px 22px;}
+.ov-story .ph{border-radius:16px; overflow:hidden; box-shadow:var(--shadow); aspect-ratio:4/3;}
+.ov-story .ph img{width:100%; height:100%; object-fit:cover;}
+.ov-story .tx .kick{margin-bottom:10px;}
+.ov-story .tx h2{font-family:var(--serif); font-weight:700; font-size:1.95rem; line-height:1.08; color:var(--green-dark); margin-bottom:12px;}
+.ov-story .tx h2 em{font-style:italic; color:var(--amber); display:block; font-size:1.15rem; margin-top:3px;}
+.ov-story .tx p{font-size:1rem; line-height:1.62; color:#3a3633; margin-bottom:12px;}
+.ident{display:flex; flex-wrap:wrap; gap:8px; margin-top:6px;}
+.ident span{background:#fff; border:1px solid rgba(10,106,47,.18); color:var(--green-dark); font-size:.8rem; font-weight:600; padding:7px 13px; border-radius:999px;}
+
+.sec-h{text-align:center; padding:42px 22px 0;}
+.sec-h .kick{justify-content:center;}
+.sec-h h2{font-family:var(--serif); font-weight:700; font-size:2.1rem; color:var(--green-dark); line-height:1.06; margin-top:4px;}
+.sec-h h2 em{font-style:italic; color:var(--amber);}
+.sec-h p{max-width:54ch; margin:12px auto 0; color:var(--muted); font-size:.96rem; line-height:1.55;}
+
+.timeline{max-width:760px; margin:24px auto 0; padding:0 22px 8px;}
+.tl-row{position:relative; padding:0 0 26px 64px;}
+.tl-row::before{content:""; position:absolute; left:23px; top:6px; bottom:-6px; width:2px; background:rgba(201,145,47,.3);}
+.tl-row:last-child::before{display:none;}
+.tl-row .num{position:absolute; left:0; top:0; width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg,var(--green),var(--green-dark)); color:#fff; font-family:var(--serif); font-weight:700; font-size:1.3rem; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(10,106,47,.25);}
+.tl-row h3{font-family:var(--serif); font-weight:700; font-size:1.2rem; color:var(--green-dark); line-height:1.1;}
+.tl-row h3 em{font-style:italic; color:var(--amber); font-weight:500; font-size:.92rem;}
+.tl-row p{font-size:.92rem; color:#4a4540; line-height:1.5; margin-top:5px;}
+
+.ov-metrics{display:grid; grid-template-columns:1fr 1fr; gap:14px; max-width:var(--maxw); margin:24px auto 0; padding:0 22px;}
+.ov-metrics .m{background:#fff; border:1px solid var(--cream-2); border-radius:14px; padding:18px 12px; text-align:center; box-shadow:var(--shadow-sm);}
+.ov-metrics .m .v{font-family:var(--serif); font-weight:700; font-size:2rem; color:var(--green); line-height:1;}
+.ov-metrics .m .v small{font-size:.5em; color:var(--amber);}
+.ov-metrics .m .l{font-size:.76rem; color:var(--muted); margin-top:7px; line-height:1.3;}
+
+.green-band{background:linear-gradient(160deg,#0A6A2F,#08431f); color:#fff; margin-top:48px; padding:46px 22px;}
+.green-band .kick{color:var(--gold);}
+.green-band .kick::before{background:var(--gold);}
+.green-band h2{font-family:var(--serif); font-weight:700; font-size:2rem; line-height:1.08; margin:4px 0 10px;}
+.green-band .lead{color:#eef3ea; font-size:1rem; line-height:1.6; max-width:60ch; margin-bottom:18px;}
+.five-grid{display:grid; grid-template-columns:1fr; gap:10px; max-width:680px;}
+.five-grid .k{display:flex; gap:13px; align-items:flex-start; background:rgba(255,255,255,.08); border:1px solid rgba(235,203,134,.28); border-radius:12px; padding:12px 15px;}
+.five-grid .k b{font-family:var(--serif); font-size:1.3rem; color:var(--gold); line-height:1;}
+.five-grid .k span{font-size:.92rem; line-height:1.4; color:#f3eedf;}
+.refill{margin-top:16px; display:inline-flex; gap:10px; align-items:center; background:rgba(235,203,134,.16); border:1px solid var(--gold); border-radius:12px; padding:11px 16px; font-size:.9rem; color:#fff;}
+
+.ov-vision{position:relative; min-height:60vh; display:flex; align-items:center; color:#fff; overflow:hidden; text-align:center;}
+.ov-vision .bg{position:absolute; inset:0;}
+.ov-vision .bg img{width:100%; height:100%; object-fit:cover;}
+.ov-vision .bg::after{content:""; position:absolute; inset:0; background:rgba(6,40,22,.62);}
+.ov-vision .vc{position:relative; z-index:2; max-width:var(--maxw); margin:0 auto; padding:54px 26px;}
+.ov-vision .mark{font-family:var(--serif); font-size:3rem; color:var(--gold); line-height:.4;}
+.ov-vision .q{font-family:var(--serif); font-style:italic; font-weight:600; font-size:1.7rem; line-height:1.28; margin:10px 0;}
+.ov-vision .by{font-size:.84rem; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); margin-top:14px;}
+
+.ov-cta{text-align:center; padding:46px 22px;}
+.ov-cta h2{font-family:var(--serif); font-weight:700; font-size:1.8rem; color:var(--green-dark); margin-bottom:6px;}
+.ov-cta p{color:var(--muted); margin-bottom:18px;}
+.ov-cta .btns{display:flex; flex-direction:column; gap:12px; max-width:420px; margin:0 auto;}
+.ov-cta .btn,.ov-cta .btn.ghost{display:flex; align-items:center; justify-content:center; gap:10px; width:100%; padding:16px; border-radius:14px; font-weight:600; text-decoration:none; box-shadow:var(--shadow-sm);}
+.ov-cta .btn{background:linear-gradient(135deg,var(--green),var(--green-dark)); color:#fff;}
+.ov-cta .btn.ghost{background:#fff; color:var(--green-dark); border:1.5px solid var(--green);}
+
+@media(min-width:760px){
+  .ov-cover h1{font-size:3.8rem;}
+  .ov-story{grid-template-columns:1fr 1fr; gap:40px; padding:64px 22px;}
+  .ov-story.rev .ph{order:2;}
+  .ov-metrics{grid-template-columns:repeat(4,1fr);}
+  .five-grid{grid-template-columns:1fr 1fr;}
+  .ov-vision .q{font-size:2.1rem;}
+}
+@media(min-width:1024px){
+  .ov-cover .cc,.ov-metrics,.green-band>*:not(.five-grid){max-width:1160px;}
+  .green-band{padding-left:max(22px,calc((100% - 1160px)/2)); padding-right:max(22px,calc((100% - 1160px)/2));}
+}
+</style>
+</head>
+<body class="theme-sinhthai">
+<div class="wrap">
+<nav class="topbar">
+  <a class="brand" href="../">
+    <span class="logo-sm"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></span>
+    <span class="brand-tx"><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Tourisme communautaire de Mường Cốc</span></span>
+  </a>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <button type="button" data-set-lang="vi" aria-pressed="true">VI</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+  </div>
+</nav>
+
+<!-- COVER -->
+<header class="ov-cover">
+  <div class="bg"><img src="../assets/img/thung-canh.jpg" alt="Thung lũng Mường Cốc"></div>
+  <div class="cc">
+    <div class="eb"><span data-lang="vi">Giới thiệu tổng quan</span><span data-lang="en">Overview</span><span data-lang="fr">Aperçu général</span></div>
+    <h1><span data-lang="vi">Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism</span><span data-lang="fr">Tourisme communautaire de Mường Cốc</span>
+      <em><span data-lang="vi">Chạm vào bình yên</span><span data-lang="en">Touch the stillness</span><span data-lang="fr">Toucher la quiétude</span></em></h1>
+    <div class="loc"><b>Xã Mỹ Đức</b> · <span data-lang="vi">Thành phố Hà Nội</span><span data-lang="en">Hanoi, Vietnam</span><span data-lang="fr">Hanoï, Vietnam</span></div>
+  </div>
+</header>
+
+<!-- VỀ MƯỜNG CỐC -->
+<section class="ov-story">
+  <div class="ph"><img src="../assets/img/wow/sen-55.jpg" alt="Đầm sen Mường Cốc" loading="lazy"></div>
+  <div class="tx">
+    <div class="kick"><span data-lang="vi">Vùng đất &amp; con người</span><span data-lang="en">The land &amp; people</span><span data-lang="fr">La terre &amp; les gens</span></div>
+    <h2><span data-lang="vi">Một bản Mường giữa lòng Hà Nội</span><span data-lang="en">A Muong village near Hanoi</span><span data-lang="fr">Un village Mường près de Hanoï</span></h2>
+    <div data-lang="vi">
+      <p>Mường Cốc là điểm đến du lịch cộng đồng trải trên <b>06 thôn</b> (Đồi Dùng, Rộc Éo, Bơ Môi, Gốc Báng, Đồi Lý, Thôn Đình) của xã Mỹ Đức — vùng bán sơn địa phía Tây Nam Hà Nội với hồ Bai Bó, đầm sen theo mùa, thung lũng và những đồi sim.</p>
+      <p>Nơi đây người Mường còn gìn giữ nhà sàn, cồng chiêng, ẩm thực và những bài thuốc dân gian — nền tảng để phát triển du lịch dựa trên <b>đời sống thật của cộng đồng</b>.</p>
+    </div>
+    <div data-lang="en">
+      <p>Muong Coc is a community-tourism destination across <b>6 hamlets</b> of My Duc commune — a semi-mountainous area southwest of Hanoi with Bai Bo Lake, seasonal lotus ponds, valleys and rose-myrtle hills.</p>
+      <p>Here the Muong people still keep their stilt houses, gongs, cuisine and folk herbal medicine — the foundation for tourism rooted in <b>real community life</b>.</p>
+    </div>
+    <div data-lang="fr">
+      <p>Mường Cốc est une destination de tourisme communautaire répartie sur <b>6 hameaux</b> de la commune de Mỹ Đức — une zone semi-montagneuse au sud-ouest de Hanoï, avec le lac Bai Bo, des étangs de lotus saisonniers, des vallées et des collines de myrte.</p>
+      <p>Les Mường y préservent leurs maisons sur pilotis, leurs gongs, leur cuisine et leur médecine populaire — le socle d'un tourisme ancré dans <b>la vie réelle de la communauté</b>.</p>
+    </div>
+    <div class="ident">
+      <span data-lang="vi">🌿 Bán sơn địa</span><span data-lang="en">🌿 Semi-mountain</span><span data-lang="fr">🌿 Semi-montagne</span>
+      <span data-lang="vi">🪷 Đầm sen theo mùa</span><span data-lang="en">🪷 Seasonal lotus</span><span data-lang="fr">🪷 Lotus saisonnier</span>
+      <span data-lang="vi">🥢 Văn hoá Mường</span><span data-lang="en">🥢 Muong culture</span><span data-lang="fr">🥢 Culture Mường</span>
+    </div>
+  </div>
+</section>
+
+<!-- HÀNH TRÌNH PHÁT TRIỂN -->
+<div class="sec-h">
+  <div class="kick"><span data-lang="vi">Quá trình thực hiện</span><span data-lang="en">The journey</span><span data-lang="fr">Le parcours</span></div>
+  <h2><span data-lang="vi">Hành trình </span><span data-lang="en">Development </span><span data-lang="fr">Parcours de </span><em><span data-lang="vi">phát triển</span><span data-lang="en">journey</span><span data-lang="fr">développement</span></em></h2>
+  <p><span data-lang="vi">Năm giai đoạn xây dựng điểm đến — từ khảo sát đến vận hành cộng đồng.</span><span data-lang="en">Five stages of building the destination — from survey to community operation.</span><span data-lang="fr">Cinq étapes de construction — de l'enquête à l'exploitation communautaire.</span></p>
+</div>
+<div class="timeline">
+  <div class="tl-row"><div class="num">1</div><h3><span data-lang="vi">Tiền khảo sát</span><span data-lang="en">Pre-survey</span><span data-lang="fr">Pré-enquête</span></h3><p><span data-lang="vi">Tiếp cận địa bàn, xác định phạm vi 06 thôn.</span><span data-lang="en">Field access, defining the 6-hamlet scope.</span><span data-lang="fr">Accès au terrain, définition des 6 hameaux.</span></p></div>
+  <div class="tl-row"><div class="num">2</div><h3><span data-lang="vi">Khảo sát &amp; cơ sở dữ liệu</span><span data-lang="en">Survey &amp; database</span><span data-lang="fr">Enquête &amp; base de données</span></h3><p><span data-lang="vi">Số hoá 65 điểm tài nguyên, định vị GPS, đánh giá hiện trạng.</span><span data-lang="en">Digitising 65 resource points, GPS mapping, status assessment.</span><span data-lang="fr">Numérisation de 65 points, géolocalisation GPS, évaluation.</span></p></div>
+  <div class="tl-row"><div class="num">3</div><h3><span data-lang="vi">Mô hình &amp; sản phẩm</span><span data-lang="en">Model &amp; products</span><span data-lang="fr">Modèle &amp; produits</span></h3><p><span data-lang="vi">Định vị thương hiệu, thiết kế tuyến/tour, bộ nhận diện, bản đồ số, mã QR.</span><span data-lang="en">Brand positioning, route/tour design, identity, digital map, QR codes.</span><span data-lang="fr">Positionnement, conception des circuits, identité, carte numérique, QR.</span></p></div>
+  <div class="tl-row"><div class="num">4</div><h3><span data-lang="vi">Tập huấn &amp; chuyển giao</span><span data-lang="en">Training &amp; handover</span><span data-lang="fr">Formation &amp; transfert</span></h3><p><span data-lang="vi">Đào tạo Ban Điều phối 6 tổ chuyên môn, bàn giao 10 bộ tài liệu quản trị.</span><span data-lang="en">Training the 6 specialist teams, handing over 10 governance toolkits.</span><span data-lang="fr">Formation des 6 équipes, remise de 10 jeux de documents.</span></p></div>
+  <div class="tl-row"><div class="num">5</div><h3><span data-lang="vi">Công bố &amp; vận hành</span><span data-lang="en">Launch &amp; operation</span><span data-lang="fr">Lancement &amp; exploitation</span></h3><p><span data-lang="vi">Công bố điểm đến (dự kiến 01/7/2026), khởi động vận hành cộng đồng.</span><span data-lang="en">Destination launch (planned 1 Jul 2026), starting community operation.</span><span data-lang="fr">Lancement (prévu le 1er juil. 2026), démarrage de l'exploitation.</span></p></div>
+</div>
+
+<!-- KẾT QUẢ -->
+<div class="sec-h" style="padding-top:48px;">
+  <div class="kick"><span data-lang="vi">Thành quả</span><span data-lang="en">Results</span><span data-lang="fr">Résultats</span></div>
+  <h2><span data-lang="vi">Kết quả </span><span data-lang="en">What we </span><span data-lang="fr">Résultats </span><em><span data-lang="vi">đạt được</span><span data-lang="en">achieved</span><span data-lang="fr">obtenus</span></em></h2>
+</div>
+<div class="ov-metrics">
+  <div class="m"><div class="v">45 <small>hộ</small></div><div class="l"><span data-lang="vi">Hộ dân được tư vấn</span><span data-lang="en">Households advised</span><span data-lang="fr">Foyers conseillés</span></div></div>
+  <div class="m"><div class="v">65 <small>điểm</small></div><div class="l"><span data-lang="vi">Điểm tài nguyên số hoá</span><span data-lang="en">Resource points digitised</span><span data-lang="fr">Points numérisés</span></div></div>
+  <div class="m"><div class="v">8+8</div><div class="l"><span data-lang="vi">Cung đạp xe + tour</span><span data-lang="en">Cycling routes + tours</span><span data-lang="fr">Parcours vélo + circuits</span></div></div>
+  <div class="m"><div class="v">02 <small>tuyến</small></div><div class="l"><span data-lang="vi">Tuyến trekking</span><span data-lang="en">Trekking routes</span><span data-lang="fr">Sentiers de randonnée</span></div></div>
+  <div class="m"><div class="v">7+4</div><div class="l"><span data-lang="vi">Homestay + Farmstay hạt nhân</span><span data-lang="en">Core homestays + farmstays</span><span data-lang="fr">Homestays + farmstays clés</span></div></div>
+  <div class="m"><div class="v">65 <small>QR</small></div><div class="l"><span data-lang="vi">Điểm QR kể chuyện</span><span data-lang="en">QR storytelling points</span><span data-lang="fr">Points QR narratifs</span></div></div>
+  <div class="m"><div class="v">03 <small>ngôn ngữ</small></div><div class="l"><span data-lang="vi">Audio Guide Việt/Anh/Pháp</span><span data-lang="en">Audio guide VI/EN/FR</span><span data-lang="fr">Audioguide VI/EN/FR</span></div></div>
+  <div class="m"><div class="v">~12K</div><div class="l"><span data-lang="vi">Lượt theo dõi fanpage</span><span data-lang="en">Fanpage followers</span><span data-lang="fr">Abonnés de la page</span></div></div>
+</div>
+
+<!-- ĐỊNH HƯỚNG -->
+<section class="green-band">
+  <div class="kick"><span data-lang="vi">Định hướng phát triển</span><span data-lang="en">Direction</span><span data-lang="fr">Orientation</span></div>
+  <h2><span data-lang="vi">Du lịch xanh, hướng tới Net Zero</span><span data-lang="en">Green tourism toward Net Zero</span><span data-lang="fr">Tourisme vert vers le Net Zero</span></h2>
+  <p class="lead"><span data-lang="vi">Mường Cốc phát triển du lịch phát thải thấp: xe đạp là phương tiện trải nghiệm chủ đạo, ưu tiên vật liệu địa phương, mạng lưới trạm tiếp nước “Refill Station”, từng bước tiếp cận tiêu chuẩn quốc tế về du lịch bền vững.</span><span data-lang="en">Muong Coc pursues low-carbon tourism: cycling as the main mode, local materials, a “Refill Station” water network, gradually approaching international sustainable-tourism standards.</span><span data-lang="fr">Mường Cốc développe un tourisme bas carbone : le vélo comme mode principal, des matériaux locaux, un réseau de « Refill Stations », vers les standards internationaux du tourisme durable.</span></p>
+  <div class="five-grid">
+    <div class="k"><b>1</b><span><span data-lang="vi">Không thực phẩm bẩn, không rõ nguồn gốc</span><span data-lang="en">No unsafe or untraceable food</span><span data-lang="fr">Aucun aliment douteux</span></span></div>
+    <div class="k"><b>2</b><span><span data-lang="vi">Không hoá chất độc hại</span><span data-lang="en">No harmful chemicals</span><span data-lang="fr">Aucun produit chimique nocif</span></span></div>
+    <div class="k"><b>3</b><span><span data-lang="vi">Không rác thải nhựa dùng một lần</span><span data-lang="en">No single-use plastic</span><span data-lang="fr">Aucun plastique jetable</span></span></div>
+    <div class="k"><b>4</b><span><span data-lang="vi">Không làm mất bản sắc văn hoá</span><span data-lang="en">No loss of cultural identity</span><span data-lang="fr">Aucune perte d'identité culturelle</span></span></div>
+    <div class="k"><b>5</b><span><span data-lang="vi">Không sản phẩm du lịch giả tạo</span><span data-lang="en">No staged, artificial tourism</span><span data-lang="fr">Aucun tourisme artificiel</span></span></div>
+  </div>
+  <div class="refill">💧 <span><span data-lang="vi"><b>Mường Cốc Refill Station</b> — mang bình riêng, tiếp nước miễn phí</span><span data-lang="en"><b>Muong Coc Refill Station</b> — bring your bottle, refill free</span><span data-lang="fr"><b>Mường Cốc Refill Station</b> — apportez votre bouteille, remplissage gratuit</span></span></div>
+</section>
+
+<!-- TẦM NHÌN -->
+<section class="ov-vision">
+  <div class="bg"><img src="../assets/img/wow/ho-5.jpg" alt="Hồ Bai Bó Mường Cốc" loading="lazy"></div>
+  <div class="vc">
+    <div class="kick" style="justify-content:center; color:var(--gold);"><span data-lang="vi">Tầm nhìn</span><span data-lang="en">Vision</span><span data-lang="fr">Vision</span></div>
+    <div class="mark">“</div>
+    <div class="q"><span data-lang="vi">Trở thành điểm đến du lịch cộng đồng xanh tiêu biểu của Hà Nội, vận hành theo nguyên tắc Net Zero và phát triển bền vững.</span><span data-lang="en">To become Hanoi's model green community-tourism destination, run on Net Zero principles and sustainable development.</span><span data-lang="fr">Devenir la destination modèle de tourisme communautaire vert de Hanoï, selon les principes Net Zero et du développement durable.</span></div>
+    <div class="by"><span data-lang="vi">Mường Cốc — Chạm vào bình yên</span><span data-lang="en">Muong Coc — Touch the stillness</span><span data-lang="fr">Mường Cốc — Toucher la quiétude</span></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="ov-cta">
+  <h2><span data-lang="vi">Bắt đầu hành trình của bạn</span><span data-lang="en">Begin your journey</span><span data-lang="fr">Commencez votre voyage</span></h2>
+  <p><span data-lang="vi">Khám phá các cung trải nghiệm, hồ sơ điểm đến và đặt tour.</span><span data-lang="en">Explore experience routes, destination profiles and book a tour.</span><span data-lang="fr">Découvrez les itinéraires, les fiches et réservez un circuit.</span></p>
+  <div class="btns">
+    <a class="btn" href="../#cac-cung"><span>🚲</span><span data-lang="vi">Khám phá các cung trải nghiệm</span><span data-lang="en">Explore experience routes</span><span data-lang="fr">Découvrir les itinéraires</span></a>
+    <a class="btn ghost" href="../#dat-tour"><span>📞</span><span data-lang="vi">Đặt tour &amp; liên hệ</span><span data-lang="en">Book &amp; contact</span><span data-lang="fr">Réserver &amp; contact</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="deco"><span></span><i></i><span></span></div>
+  <div class="closing"><span data-lang="vi">Chạm Vào Bình Yên</span><span data-lang="en">Touch the Stillness</span><span data-lang="fr">Toucher la Quiétude</span></div>
+  <div class="ft-contact">
+    <span>📞 <span data-lang="vi">Hotline</span><span data-lang="en">Hotline</span><span data-lang="fr">Hotline</span>: <a href="tel:+84986103298">0986 103 298</a></span>
+    <span>🌐 Fanpage: <a href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener">Du lịch cộng đồng Mường Cốc</a></span>
+  </div>
+  <div class="ft-line"><span data-lang="vi">Ban Điều Phối Du Lịch Cộng Đồng Mường Cốc</span><span data-lang="en">Muong Coc Community Tourism Board</span><span data-lang="fr">Comité de coordination du tourisme communautaire de Mường Cốc</span><br>
+    Tourism Hub Đồi Dùng · <span data-lang="vi">Xã Mỹ Đức · Hà Nội</span><span data-lang="en">My Duc Commune · Hanoi</span><span data-lang="fr">Commune de Mỹ Đức · Hanoï</span></div>
+</footer>
+</div>
+<div class="fab">
+  <a class="fb" href="https://www.facebook.com/profile.php?id=61575640444733" target="_blank" rel="noopener" aria-label="Fanpage Du lịch cộng đồng Mường Cốc">
+    <span aria-hidden="true">f</span>
+    <span class="tip"><span data-lang="vi">Fanpage Du lịch cộng đồng Mường Cốc</span><span data-lang="en">Facebook Fanpage</span><span data-lang="fr">Page Facebook</span></span>
+  </a>
+  <a class="call" href="tel:+84986103298" aria-label="Gọi hotline 0986 103 298">
+    <svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.53 15.53 0 0 0 6.59 6.59l2.2-2.2a1.02 1.02 0 0 1 1.05-.25c1.16.38 2.41.59 3.7.59a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.29.21 2.54.59 3.7a1.02 1.02 0 0 1-.25 1.05l-2.2 2.04z"/></svg>
+    <span class="tip"><span data-lang="vi">Gọi hotline 0986 103 298</span><span data-lang="en">Call 0986 103 298</span><span data-lang="fr">Appeler 0986 103 298</span></span>
+  </a>
+</div>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
