@@ -289,3 +289,23 @@ footer .ft-line{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;op
   .poi-list{grid-template-columns:repeat(4,1fr);}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}
+
+/* ===== Tin tức / Sự kiện ===== */
+.hero-news{text-align:center;padding:48px 20px 28px}
+.hero-news h1{margin:0 0 8px}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:24px 20px 48px;max-width:1100px;margin:0 auto}
+.news-card{display:flex;flex-direction:column;border:1px solid #e6e0d4;border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;background:#fff;transition:box-shadow .2s,transform .2s}
+.news-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-2px)}
+.news-card img{width:100%;height:170px;object-fit:cover}
+.news-card-tx{padding:14px 16px 18px}
+.news-card-tx h3{margin:6px 0 8px;font-size:1.1rem}
+.news-card-tx p{margin:0;color:#6b6256;font-size:.92rem}
+.news-date{color:#a08c6a;font-size:.82rem;font-weight:600;letter-spacing:.02em}
+.news-article{max-width:760px;margin:0 auto;padding:32px 20px 56px}
+.news-article h1{margin:6px 0 18px;line-height:1.25}
+.news-hero{width:100%;border-radius:14px;margin:6px 0 22px;object-fit:cover}
+.news-body{font-size:1.04rem;line-height:1.75}
+.news-body h2{margin:28px 0 10px}
+.news-body h3{margin:22px 0 8px}
+.news-body ul{padding-left:1.2em}
+.news-body li{margin:4px 0}

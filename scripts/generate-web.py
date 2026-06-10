@@ -37,8 +37,8 @@ def maps_url_for(slug: str) -> str:
     mid = MAP_MIDS.get(slug) or MAP_MIDS["_tong"]
     return f"https://www.google.com/maps/d/viewer?mid={mid}"
 FB_URL = "https://www.facebook.com/profile.php?id=61575640444733"
-TEL = "+84986103298"
-TEL_SHOW = "0986 103 298"
+TEL = "+84962029198"
+TEL_SHOW = "0962 029 198"
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:'
@@ -250,6 +250,7 @@ def render_landing():
     <a href="#cung-xe-dap">{t3("Cung đạp xe", "Cycling", "Vélo")}</a>
     <a href="#cung-tour">{t3("Cung tour", "Tours", "Circuits")}</a>
     <a href="#ho-so-diem-den">{t3("Hồ sơ điểm đến", "Destinations", "Destinations")}</a>
+    <a href="tin-tuc/">{t3("Tin tức", "News", "Actualités")}</a>
     <a href="#dat-tour" class="cta">{t3("Đặt tour", "Book", "Réserver")}</a>
   </nav>''')
 

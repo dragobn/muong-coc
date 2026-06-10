@@ -38,16 +38,16 @@ BASE = SCRIPT_DIR.parent
 DATA = BASE / "data"
 POI_OUT = BASE / "poi"
 HOSO_DIRS = [
-    BASE.parent.parent / "260601-1809-cung-a-tour-doc" / "ho-so-diem-den",
-    BASE.parent.parent / "260601-1809-cung-a-tour-doc" / "ho-so-diem-den-dot-2",
+    BASE / "content" / "ho-so-diem-den",
+    BASE / "content" / "ho-so-diem-den-dot-2",
 ]
 IMG_POI = BASE / "assets" / "img" / "poi"
 
 # ---- hằng số dùng chung (khớp generate-web.py) ----
 MAPS_URL = "https://www.google.com/maps/d/viewer?mid=1hNSY53YglDigLPa4YQzp13XTxxnTbHM"
 FB_URL = "https://www.facebook.com/profile.php?id=61575640444733"
-TEL = "+84986103298"
-TEL_SHOW = "0986 103 298"
+TEL = "+84962029198"
+TEL_SHOW = "0962 029 198"
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:'

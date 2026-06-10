@@ -1,0 +1,2 @@
+# Web tĩnh Mường Cốc — generator chỉ dùng thư viện chuẩn Python.
+# Không cần cài package ngoài. File này để lệnh "pip install -r requirements.txt" không lỗi.
