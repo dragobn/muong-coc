@@ -1,0 +1,10 @@
+{
+  // Cấu hình deploy web tĩnh Mường Cốc lên Cloudflare (Workers static assets).
+  "name": "website",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
