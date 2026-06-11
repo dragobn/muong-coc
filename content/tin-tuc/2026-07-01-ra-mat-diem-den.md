@@ -7,7 +7,6 @@ summary: Điểm đến Du lịch cộng đồng Mường Cốc chính thức ra
 ---
 ## Chào mừng đến với Mường Cốc
 
-Thử thay đổi   
 Điểm đến **Du lịch cộng đồng Mường Cốc** (xã Mỹ Đức, Hà Nội) chính thức ra mắt, mở cửa đón du khách đến trải nghiệm không gian bản Mường nguyên sơ với mô hình du lịch xanh "5 KHÔNG".
 
 Du khách có thể lựa chọn:
