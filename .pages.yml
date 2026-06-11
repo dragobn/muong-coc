@@ -1,0 +1,31 @@
+# Cấu hình Pages CMS (pagescms.org) — biên tập nội dung web Mường Cốc.
+# Xã đăng nhập app.pagescms.org bằng GitHub → chọn repo → sửa nội dung qua form.
+# Lưu xong → GitHub commit → Cloudflare tự build lại web (~1-2 phút).
+
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  - name: tin-tuc
+    label: "Tin tức / Sự kiện"
+    type: collection
+    path: content/tin-tuc
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date]
+    fields:
+      - { name: title, label: "Tiêu đề", type: string }
+      - { name: date, label: "Ngày đăng", type: date }
+      - { name: image, label: "Ảnh đại diện", type: image, required: false }
+      - { name: summary, label: "Tóm tắt", type: text, required: false }
+      - { name: body, label: "Nội dung", type: rich-text }
+
+  - name: poi
+    label: "Điểm đến (sửa mô tả)"
+    type: collection
+    path: content/ho-so-diem-den
+    extension: md
+    fields:
+      - { name: body, label: "Nội dung hồ sơ", type: rich-text }
