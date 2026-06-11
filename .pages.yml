@@ -46,6 +46,7 @@ content:
   label: Tour / Cung (giá & chi tiết)
   type: collection
   path: data/tours
+  extension: json
   format: json
   view:
     fields:
