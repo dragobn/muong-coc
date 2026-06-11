@@ -1,31 +1,372 @@
 # Cấu hình Pages CMS (pagescms.org) — biên tập nội dung web Mường Cốc.
-# Xã đăng nhập app.pagescms.org bằng GitHub → chọn repo → sửa nội dung qua form.
-# Lưu xong → GitHub commit → Cloudflare tự build lại web (~1-2 phút).
+# Xã đăng nhập app.pagescms.org bằng GitHub -> chọn repo -> sửa qua form.
+# Lưu xong -> GitHub commit -> Cloudflare tự build lại web (~1-2 phút).
+# Tour: Giá/Tên/Giới thiệu nằm đầu form (sửa nhanh); lịch trình chi tiết bên dưới.
+# Schema tour = union mọi trường 19 tour -> lưu KHÔNG mất dữ liệu.
 
 media:
   input: assets/img/uploads
   output: /assets/img/uploads
-  extensions: [jpg, jpeg, png, webp, gif, svg]
-
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - gif
+  - svg
 content:
-  - name: tin-tuc
-    label: "Tin tức / Sự kiện"
-    type: collection
-    path: content/tin-tuc
-    filename: "{year}-{month}-{day}-{primary}.md"
-    view:
-      fields: [title, date]
+- name: tin-tuc
+  label: Tin tức / Sự kiện
+  type: collection
+  path: content/tin-tuc
+  filename: '{year}-{month}-{day}-{primary}.md'
+  view:
     fields:
-      - { name: title, label: "Tiêu đề", type: string }
-      - { name: date, label: "Ngày đăng", type: date }
-      - { name: image, label: "Ảnh đại diện", type: image, required: false }
-      - { name: summary, label: "Tóm tắt", type: text, required: false }
-      - { name: body, label: "Nội dung", type: rich-text }
-
-  - name: poi
-    label: "Điểm đến (sửa mô tả)"
-    type: collection
-    path: content/ho-so-diem-den
-    extension: md
+    - title
+    - date
+  fields:
+  - name: title
+    label: Tiêu đề
+    type: string
+  - name: date
+    label: Ngày đăng
+    type: date
+  - name: image
+    label: Ảnh đại diện
+    type: image
+    required: false
+  - name: summary
+    label: Tóm tắt
+    type: text
+    required: false
+  - name: body
+    label: Nội dung
+    type: rich-text
+- name: tour
+  label: Tour / Cung (giá & chi tiết)
+  type: collection
+  path: data/tours
+  format: json
+  view:
     fields:
-      - { name: body, label: "Nội dung hồ sơ", type: rich-text }
+    - ten
+    - gia
+  fields:
+  - name: gia
+    label: Giá
+    type: string
+  - name: gia_en
+    label: Giá (EN)
+    type: string
+  - name: gia_fr
+    label: Giá (FR)
+    type: string
+  - name: ten
+    label: Tên tour
+    type: string
+  - name: ten_en
+    label: Tên tour (EN)
+    type: string
+  - name: ten_fr
+    label: Tên tour (FR)
+    type: string
+  - name: tagline
+    label: Khẩu hiệu
+    type: string
+  - name: tagline_en
+    label: Khẩu hiệu (EN)
+    type: string
+  - name: tagline_fr
+    label: Khẩu hiệu (FR)
+    type: string
+  - name: intro
+    label: Giới thiệu
+    type: text
+  - name: intro_en
+    label: Giới thiệu (EN)
+    type: text
+  - name: intro_fr
+    label: Giới thiệu (FR)
+    type: text
+  - name: thoi_luong
+    label: Thời lượng
+    type: string
+  - name: thoi_luong_en
+    label: Thời lượng (EN)
+    type: string
+  - name: thoi_luong_fr
+    label: Thời lượng (FR)
+    type: string
+  - name: cu_ly
+    label: Cự ly
+    type: string
+  - name: quy_mo
+    label: Quy mô
+    type: string
+  - name: slug
+    label: Mã định danh (KHÔNG sửa)
+    type: string
+  - name: loai
+    label: Loại
+    type: string
+  - name: theme
+    label: Chủ đề
+    type: string
+  - name: highlights
+    label: Điểm nổi bật
+    type: string
+    list: true
+  - name: highlights_en
+    label: Điểm nổi bật (EN)
+    type: string
+    list: true
+  - name: highlights_fr
+    label: Điểm nổi bật (FR)
+    type: string
+    list: true
+  - name: lich_trinh
+    label: Lịch trình
+    type: object
+    list: true
+    fields:
+    - name: gio_hoac_buoi
+      label: Giờ/Buổi
+      type: string
+    - name: diem
+      label: Điểm
+      type: string
+    - name: diem_en
+      label: Điểm (EN)
+      type: string
+    - name: diem_fr
+      label: Điểm (FR)
+      type: string
+    - name: mo_ta
+      label: Mô tả
+      type: text
+    - name: mo_ta_en
+      label: Mô tả (EN)
+      type: text
+    - name: mo_ta_fr
+      label: Mô tả (FR)
+      type: text
+    - name: luu_y
+      label: Lưu ý
+      type: object
+      list: true
+      fields:
+      - name: tieu_de
+        label: Tiêu đề
+        type: string
+      - name: tieu_de_en
+        label: Tiêu đề (EN)
+        type: string
+      - name: tieu_de_fr
+        label: Tiêu đề (FR)
+        type: string
+      - name: mo_ta
+        label: Mô tả
+        type: text
+      - name: mo_ta_en
+        label: Mô tả (EN)
+        type: text
+      - name: mo_ta_fr
+        label: Mô tả (FR)
+        type: text
+    - name: luu_y_en
+      label: Lưu ý (EN)
+      type: text
+    - name: luu_y_fr
+      label: Lưu ý (FR)
+      type: text
+  - name: diem_den
+    label: Điểm đến trong tour
+    type: object
+    list: true
+    fields:
+    - name: ten
+      label: Tên tour
+      type: string
+    - name: ten_en
+      label: Tên tour (EN)
+      type: string
+    - name: ten_fr
+      label: Tên tour (FR)
+      type: string
+    - name: loai
+      label: Loại
+      type: string
+    - name: loai_en
+      label: Loại (EN)
+      type: string
+    - name: loai_fr
+      label: Loại (FR)
+      type: string
+    - name: mo_ta_ngan
+      label: Mô tả ngắn
+      type: text
+    - name: mo_ta_ngan_en
+      label: Mô tả ngắn (EN)
+      type: text
+    - name: mo_ta_ngan_fr
+      label: Mô tả ngắn (FR)
+      type: text
+  - name: bao_gom
+    label: Bao gồm
+    type: string
+    list: true
+  - name: bao_gom_en
+    label: Bao gồm (EN)
+    type: string
+    list: true
+  - name: bao_gom_fr
+    label: Bao gồm (FR)
+    type: string
+    list: true
+  - name: khong_bao_gom
+    label: Không bao gồm
+    type: string
+    list: true
+  - name: khong_bao_gom_en
+    label: Không bao gồm (EN)
+    type: string
+    list: true
+  - name: khong_bao_gom_fr
+    label: Không bao gồm (FR)
+    type: string
+    list: true
+  - name: addon
+    label: Dịch vụ cộng thêm (add-on)
+    type: object
+    list: true
+    fields:
+    - name: ten
+      label: Tên tour
+      type: string
+    - name: ten_en
+      label: Tên tour (EN)
+      type: string
+    - name: ten_fr
+      label: Tên tour (FR)
+      type: string
+    - name: mo_ta
+      label: Mô tả
+      type: text
+    - name: mo_ta_en
+      label: Mô tả (EN)
+      type: text
+    - name: mo_ta_fr
+      label: Mô tả (FR)
+      type: text
+  - name: farmstay_options
+    label: Lựa chọn farmstay
+    type: object
+    list: true
+    fields:
+    - name: ten
+      label: Tên tour
+      type: string
+    - name: ten_en
+      label: Tên tour (EN)
+      type: string
+    - name: ten_fr
+      label: Tên tour (FR)
+      type: string
+    - name: tag
+      label: Nhãn
+      type: string
+    - name: mo_ta
+      label: Mô tả
+      type: text
+    - name: mo_ta_en
+      label: Mô tả (EN)
+      type: text
+    - name: mo_ta_fr
+      label: Mô tả (FR)
+      type: text
+  - name: doi_tuong
+    label: Đối tượng phù hợp
+    type: object
+    list: true
+    fields:
+    - name: nhom
+      label: Nhóm
+      type: string
+    - name: nhom_en
+      label: Nhóm (EN)
+      type: string
+    - name: nhom_fr
+      label: Nhóm (FR)
+      type: string
+    - name: mo_ta
+      label: Mô tả
+      type: text
+    - name: mo_ta_en
+      label: Mô tả (EN)
+      type: text
+    - name: mo_ta_fr
+      label: Mô tả (FR)
+      type: text
+  - name: luu_y
+    label: Lưu ý
+    type: object
+    list: true
+    fields:
+    - name: tieu_de
+      label: Tiêu đề
+      type: string
+    - name: tieu_de_en
+      label: Tiêu đề (EN)
+      type: string
+    - name: tieu_de_fr
+      label: Tiêu đề (FR)
+      type: string
+    - name: mo_ta
+      label: Mô tả
+      type: text
+    - name: mo_ta_en
+      label: Mô tả (EN)
+      type: text
+    - name: mo_ta_fr
+      label: Mô tả (FR)
+      type: text
+  - name: net_zero
+    label: Cam kết Net-Zero
+    type: text
+  - name: net_zero_en
+    label: Cam kết Net-Zero (EN)
+    type: text
+  - name: net_zero_fr
+    label: Cam kết Net-Zero (FR)
+    type: text
+  - name: lien_he
+    label: Liên hệ
+    type: object
+    fields:
+    - name: don_vi
+      label: Don vi
+      type: string
+    - name: nguoi
+      label: Nguoi
+      type: string
+    - name: sdt
+      label: Sdt
+      type: string
+    - name: fanpage
+      label: Fanpage
+      type: string
+  - name: cu_ly_en
+    label: Cự ly (EN)
+    type: string
+  - name: cu_ly_fr
+    label: Cự ly (FR)
+    type: string
+- name: poi
+  label: Điểm đến (sửa mô tả)
+  type: collection
+  path: content/ho-so-diem-den
+  extension: md
+  fields:
+  - name: body
+    label: Nội dung hồ sơ
+    type: rich-text

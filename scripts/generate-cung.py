@@ -257,7 +257,7 @@ def assign_covers(slugs: list[str]) -> None:
     rank = {"xe-dap": 0, "tour": 1, "trek": 2}
     def _order_key(s: str):
         lo = ""
-        f = DATA_DIR / f"{s}.json"
+        f = DATA_DIR / "tours" / f"{s}.json"
         if f.exists():
             try: lo = json.loads(f.read_text(encoding="utf-8")).get("loai", "")
             except Exception: lo = ""
@@ -265,7 +265,7 @@ def assign_covers(slugs: list[str]) -> None:
     slugs = sorted(slugs, key=_order_key)
     used: set[str] = set()
     for slug in slugs:
-        f = DATA_DIR / f"{slug}.json"
+        f = DATA_DIR / "tours" / f"{slug}.json"
         if not f.exists():
             continue
         data = json.loads(f.read_text(encoding="utf-8"))
@@ -473,7 +473,7 @@ def generate_cung(slug: str) -> bool:
     Đọc data/{slug}.json → sinh cung/{slug}/brochure.html + poster.html.
     Trả về True nếu thành công.
     """
-    json_path = DATA_DIR / f"{slug}.json"
+    json_path = DATA_DIR / "tours" / f"{slug}.json"
     if not json_path.exists():
         print(f"  [ERROR] Không tìm thấy: {json_path}")
         return False
@@ -535,9 +535,8 @@ def main():
     if len(sys.argv) > 1:
         slugs = sys.argv[1:]
     else:
-        # Sinh tất cả JSON trong data/ — loại trừ file reference không phải cung
-        SKIP_FILES = {"images", "master-poi-coords", "map-mids", "poi-i18n", "poi-i18n-strings"}
-        slugs = sorted(p.stem for p in DATA_DIR.glob("*.json") if p.stem not in SKIP_FILES)
+        # Sinh tất cả JSON trong data/tours/ (mỗi file = 1 cung/tour)
+        slugs = sorted(p.stem for p in (DATA_DIR / "tours").glob("*.json"))
         if not slugs:
             print(f"[ERROR] Không tìm thấy file JSON nào trong {DATA_DIR}")
             sys.exit(1)

@@ -95,7 +95,7 @@ def img_for(name):
 
 
 def load(slug):
-    return json.loads((DATA / f"{slug}.json").read_text(encoding="utf-8"))
+    return json.loads((DATA / "tours" / f"{slug}.json").read_text(encoding="utf-8"))
 
 
 def t3(vi, en, fr=None):
@@ -627,7 +627,7 @@ def main(argv):
         return
     if argv:
         for s in argv:
-            if (DATA / f"{s}.json").exists():
+            if (DATA / "tours" / f"{s}.json").exists():
                 write_cung(s)
             else:
                 print(f"[SKIP] không có data/{s}.json")
