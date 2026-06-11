@@ -63,8 +63,21 @@ def parse_md(path: Path) -> dict:
     return meta
 
 
+def asset_url(p: str) -> str:
+    """Chuẩn hoá đường dẫn ảnh -> root-relative (chạy đúng ở mọi độ sâu trang)."""
+    p = (p or "").strip()
+    if not p:
+        return ""
+    if p.startswith(("http://", "https://", "/")):
+        return p
+    return "/" + p
+
+
 def md_inline(t: str) -> str:
     t = e(t)
+    # ảnh chèn trong bài: ![mô tả](đường-dẫn)
+    t = re.sub(r"!\[(.*?)\]\(([^)]+)\)",
+               lambda m: f'<img src="{asset_url(m.group(2))}" alt="{m.group(1)}" loading="lazy" style="max-width:100%;border-radius:10px;margin:10px 0">', t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"\[(.+?)\]\((https?://[^)]+)\)",
                r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
@@ -109,7 +122,7 @@ def chrome_head(title: str, desc: str, prefix: str, og_img: str) -> str:
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta property="og:title" content="{e(title)}">
-<meta property="og:image" content="{prefix}{e(og_img)}">
+<meta property="og:image" content="{asset_url(og_img)}">
 {FONTS}
 <link rel="stylesheet" href="{prefix}assets/css/site.css">
 </head>
@@ -172,7 +185,7 @@ def main():
         d = OUT / p["slug"]
         d.mkdir(exist_ok=True)
         img = p.get("image", "")
-        hero = f'<img class="news-hero" src="../../{e(img)}" alt="{e(p["title"])}">' if img else ""
+        hero = f'<img class="news-hero" src="{asset_url(img)}" alt="{e(p["title"])}">' if img else ""
         page = (chrome_head(f'{p["title"]} — Tin tức Mường Cốc', p.get("summary", ""), "../../", img or "assets/img/thung-canh.jpg")
                 + f'<main class="news-article"><p class="news-date">{fmt_date(p.get("date",""))}</p>'
                 + f'<h1>{e(p["title"])}</h1>{hero}<div class="news-body">{md_to_html(p["body"])}</div>'
@@ -185,7 +198,7 @@ def main():
     cards = []
     for p in posts:
         img = p.get("image", "")
-        thumb = f'<img src="{e(img)}" alt="{e(p["title"])}">' if img else ""
+        thumb = f'<img src="{asset_url(img)}" alt="{e(p["title"])}">' if img else ""
         cards.append(f'<a class="news-card" href="{p["slug"]}/">{thumb}'
                      f'<div class="news-card-tx"><span class="news-date">{fmt_date(p.get("date",""))}</span>'
                      f'<h3>{e(p["title"])}</h3><p>{e(p.get("summary",""))}</p></div></a>')
