@@ -1,0 +1,14 @@
+# Loại khỏi upload Cloudflare (không phải file web phục vụ; tránh file lịch sử >25MB)
+.git
+.gitignore
+.assetsignore
+scripts
+content
+templates
+*.py
+*.sh
+*.md
+wrangler.jsonc
+requirements.txt
+*.PRE-SYNC-BAK
+*.PRE-SELFCONTAIN-BAK
