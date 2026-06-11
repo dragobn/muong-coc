@@ -2,11 +2,12 @@
 title: Ra mắt điểm đến Du lịch cộng đồng Mường Cốc
 date: 2026-07-01
 image: assets/img/thung-canh.jpg
-summary: Điểm đến Du lịch cộng đồng Mường Cốc chính thức ra mắt, mở cửa đón du khách trải nghiệm bản Mường, đạp xe, trek rừng và mùa sen.
+summary: Điểm đến Du lịch cộng đồng Mường Cốc chính thức ra mắt, mở cửa đón du
+  khách trải nghiệm bản Mường, đạp xe, trek rừng và mùa sen.
 ---
-
 ## Chào mừng đến với Mường Cốc
 
+Thử thay đổi   
 Điểm đến **Du lịch cộng đồng Mường Cốc** (xã Mỹ Đức, Hà Nội) chính thức ra mắt, mở cửa đón du khách đến trải nghiệm không gian bản Mường nguyên sơ với mô hình du lịch xanh "5 KHÔNG".
 
 Du khách có thể lựa chọn:
