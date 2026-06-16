@@ -291,8 +291,9 @@ footer .ft-line{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;op
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}
 
 /* ===== Tin tức / Sự kiện ===== */
-.hero-news{text-align:center;padding:48px 20px 28px}
-.hero-news h1{margin:0 0 8px}
+.news-head{text-align:center;padding:36px 20px 22px;border-bottom:1px solid #e6e0d4;background:var(--cream)}
+.news-head h1{margin:0 0 6px;color:var(--green-dark);font-family:var(--serif,'Cormorant Garamond',serif);font-size:2rem}
+.news-head p{margin:0;color:var(--muted)}
 .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:24px 20px 48px;max-width:1100px;margin:0 auto}
 .news-card{display:flex;flex-direction:column;border:1px solid #e6e0d4;border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;background:#fff;transition:box-shadow .2s,transform .2s}
 .news-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-2px)}

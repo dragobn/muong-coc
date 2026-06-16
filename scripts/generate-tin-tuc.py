@@ -205,7 +205,7 @@ def main():
     listing = (chrome_head("Tin tức & Sự kiện — Du lịch cộng đồng Mường Cốc",
                            "Tin tức, sự kiện, hoạt động mới nhất của điểm đến Du lịch cộng đồng Mường Cốc.",
                            "../", "assets/img/thung-canh.jpg")
-               + '<header class="hero hero-news"><h1>Tin tức & Sự kiện</h1>'
+               + '<header class="news-head"><h1>Tin tức &amp; Sự kiện</h1>'
                + '<p>Hoạt động, sự kiện và thông báo mới nhất của Mường Cốc</p></header>'
                + '<main class="news-grid">' + ("\n".join(cards) if cards else "<p>Chưa có bài viết.</p>") + '</main>'
                + chrome_foot("../"))
