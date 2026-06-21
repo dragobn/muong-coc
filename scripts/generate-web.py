@@ -285,11 +285,11 @@ def render_landing():
                 'Chaque expérience naît de la vie réelle du village.</p>'
                 '<p>Mường Cốc poursuit un tourisme vert vers le <b>net-zero</b>, avec un <b>engagement '
                 'des 5 NON</b> — vous venez pour écouter, et non simplement pour regarder.</p>')
-    five = [("01 · Không rác nhựa", "01 · No plastic waste", "01 · Aucun déchet plastique"),
-            ("02 · Không bê tông hoá", "02 · No concrete sprawl", "02 · Aucune bétonisation"),
-            ("03 · Không dàn dựng", "03 · No staged shows", "03 · Aucune mise en scène"),
-            ("04 · Không dấu chân nặng", "04 · No heavy footprint", "04 · Aucune empreinte lourde"),
-            ("05 · Không quên trồng cây", "05 · Always plant a tree", "05 · Toujours planter un arbre")]
+    five = [("01 · Không thực phẩm bẩn, không rõ nguồn gốc", "01 · No unsafe or untraceable food", "01 · Aucun aliment douteux ou non traçable"),
+            ("02 · Không hoá chất độc hại", "02 · No toxic chemicals", "02 · Aucun produit chimique toxique"),
+            ("03 · Không rác thải nhựa dùng một lần", "03 · No single-use plastic waste", "03 · Aucun déchet plastique à usage unique"),
+            ("04 · Không làm mất bản sắc văn hoá địa phương", "04 · No loss of local cultural identity", "04 · Aucune perte de l'identité culturelle locale"),
+            ("05 · Không du lịch giả tạo, xa rời đời sống thật", "05 · No fake or staged tourism", "05 · Aucun tourisme artificiel ou mis en scène")]
     five_html = "".join(f'<span>{t3(v, en, fr)}</span>' for v, en, fr in five)
     parts.append(f'''  <section class="intro alt">
     <div class="kick">{t3("Về Mường Cốc", "About Muong Coc", "À propos de Mường Cốc")}</div>
