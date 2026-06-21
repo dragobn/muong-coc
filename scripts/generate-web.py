@@ -251,6 +251,7 @@ def render_landing():
     <a href="#cung-tour">{t3("Cung tour", "Tours", "Circuits")}</a>
     <a href="#ho-so-diem-den">{t3("Hồ sơ điểm đến", "Destinations", "Destinations")}</a>
     <a href="tin-tuc/">{t3("Tin tức", "News", "Actualités")}</a>
+    <a href="assets/cam-nang-muong-coc.pdf" target="_blank" rel="noopener">{t3("Cẩm nang", "Guidebook", "Guide")}</a>
     <a href="#dat-tour" class="cta">{t3("Đặt tour", "Book", "Réserver")}</a>
   </nav>''')
 
