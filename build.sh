@@ -6,4 +6,5 @@ python3 scripts/generate-poi.py
 python3 scripts/generate-cung.py
 python3 scripts/generate-web.py
 python3 scripts/generate-tin-tuc.py
+python3 scripts/generate-trai-nghiem.py
 echo "[build.sh] Hoàn tất."
