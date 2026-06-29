@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cẩm nang điểm đến — Du lịch cộng đồng Mường Cốc</title>
+<meta name="description" content="Bộ cẩm nang điểm đến Du lịch cộng đồng Mường Cốc — giới thiệu tổng quan, các tour và trải nghiệm cốt lõi.">
+<meta property="og:title" content="Cẩm nang điểm đến Mường Cốc">
+<meta property="og:image" content="/assets/img/thung-canh.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+.kit-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 22px;background:var(--cream)}
+.kit-logo img{width:96px;height:96px;object-fit:contain;margin-bottom:16px}
+.kit-wrap h1{font-family:var(--serif,'Cormorant Garamond',serif);color:var(--green-dark);font-size:2.1rem;margin:0 0 6px;line-height:1.2}
+.kit-wrap .sub{color:var(--muted);margin:0 0 26px;max-width:520px}
+.kit-btns{display:flex;flex-direction:column;gap:12px;width:100%;max-width:340px}
+.kit-btns a{display:flex;align-items:center;gap:12px;justify-content:center;padding:15px 18px;border-radius:14px;text-decoration:none;font-weight:600;font-size:1.02rem}
+.kit-btns a.primary{background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff}
+.kit-btns a.ghost{background:#fff;color:var(--green-dark);border:1px solid #e6e0d4}
+.kit-langs{display:flex;gap:8px;margin-bottom:28px}
+.kit-langs button{border:1px solid #d9d2c4;background:#fff;border-radius:999px;padding:7px 16px;font-weight:600;cursor:pointer;color:var(--ink)}
+.kit-langs button[aria-pressed="true"]{background:var(--green);color:#fff;border-color:var(--green)}
+.kit-note{margin-top:24px;color:var(--muted);font-size:.86rem}
+</style>
+</head>
+<body>
+<div class="kit-wrap">
+  <div class="kit-logo"><img src="../assets/img/logo-muong-coc.png" alt="Logo Mường Cốc"></div>
+  <div class="kit-langs lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <button type="button" data-set-lang="vi" aria-pressed="true">VI</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+  </div>
+  <h1>
+    <span data-lang="vi">Cẩm nang điểm đến Mường Cốc</span>
+    <span data-lang="en">Muong Coc Destination Kit</span>
+    <span data-lang="fr">Kit de destination Mường Cốc</span>
+  </h1>
+  <p class="sub">
+    <span data-lang="vi">Chào mừng Quý khách đến với Du lịch cộng đồng Mường Cốc. Bộ cẩm nang điểm đến đang được hoàn thiện — mời Quý khách khám phá ngay:</span>
+    <span data-lang="en">Welcome to Muong Coc Community Tourism. The full destination kit is being finalised — explore now:</span>
+    <span data-lang="fr">Bienvenue au tourisme communautaire de Mường Cốc. Le kit complet est en cours de finalisation — découvrez dès maintenant :</span>
+  </p>
+  <div class="kit-btns">
+    <a class="primary" href="../">
+      <span>🌿</span><span><span data-lang="vi">Khám phá điểm đến</span><span data-lang="en">Explore the destination</span><span data-lang="fr">Découvrir la destination</span></span>
+    </a>
+    <a class="ghost" href="/assets/cam-nang-muong-coc.pdf" target="_blank" rel="noopener">
+      <span>📖</span><span><span data-lang="vi">Cẩm nang du lịch (PDF)</span><span data-lang="en">Travel guidebook (PDF)</span><span data-lang="fr">Guide de voyage (PDF)</span></span>
+    </a>
+    <a class="ghost" href="tel:+84962029198">
+      <span>📞</span><span>Hotline: 0962 029 198</span>
+    </a>
+  </div>
+  <p class="kit-note">
+    <span data-lang="vi">dulichcongdongmuongcoc.vn</span>
+    <span data-lang="en">dulichcongdongmuongcoc.vn</span>
+    <span data-lang="fr">dulichcongdongmuongcoc.vn</span>
+  </p>
+</div>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
