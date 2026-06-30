@@ -62,7 +62,7 @@ def tour_card(slug):
     tl = t3(d.get("thoi_luong", ""), d.get("thoi_luong_en"), d.get("thoi_luong_fr"))
     gia = d.get("gia", "")
     meta = f'<span>{tl}</span>' + (f'<span><b>{e(gia)}</b></span>' if gia else "")
-    return (f'<a class="kit-card" href="{PFX}cung/{slug}/">'
+    return (f'<a class="kit-card" href="{PFX}flipbook/{slug}/">'
             f'<img loading="lazy" src="{PFX}{e(cover)}" alt="{e(d.get("ten",""))}">'
             f'<div class="cd"><h4>{name}</h4><div class="meta">{meta}</div></div></a>')
 

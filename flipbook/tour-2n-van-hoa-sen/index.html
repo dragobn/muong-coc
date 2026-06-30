@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<title>Mường Cốc 2 ngày 1 đêm - Văn hoá sen và lễ Mo Mường — Brochure | Mường Cốc</title>
+<meta name="description" content="Brochure tour Mường Cốc 2 ngày 1 đêm - Văn hoá sen và lễ Mo Mường — Du lịch cộng đồng Mường Cốc">
+<meta property="og:image" content="/assets/flipbook/tour-2n-van-hoa-sen/p-1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;background:#10130f;font-family:'Be Vietnam Pro',system-ui,sans-serif;overscroll-behavior:none}
+.fb-bar{position:fixed;top:0;left:0;right:0;height:50px;display:flex;align-items:center;gap:10px;
+  padding:0 12px;background:rgba(16,19,15,.92);color:#fff;z-index:10;backdrop-filter:blur(6px)}
+.fb-bar a.back{color:#fff;text-decoration:none;font-size:1.4rem;line-height:1;padding:4px 6px}
+.fb-bar .tt{flex:1;min-width:0;font-size:.95rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fb-bar .ct{font-size:.85rem;opacity:.85;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fb-track{position:fixed;top:50px;bottom:0;left:0;right:0;display:flex;overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.fb-track::-webkit-scrollbar{display:none}
+.fb-slide{min-width:100vw;width:100vw;height:100%;scroll-snap-align:center;flex:0 0 100vw;
+  display:flex;align-items:center;justify-content:center;padding:8px}
+.fb-slide img{max-width:100%;max-height:100%;object-fit:contain;border-radius:6px;box-shadow:0 4px 18px rgba(0,0,0,.4)}
+.fb-nav{position:fixed;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:10px;z-index:10;pointer-events:none}
+.fb-nav button{pointer-events:auto;background:rgba(255,255,255,.92);color:#10130f;border:none;border-radius:999px;
+  width:46px;height:46px;font-size:1.3rem;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.3);cursor:pointer}
+.fb-nav button:disabled{opacity:.35}
+.fb-more{position:fixed;bottom:16px;right:14px;z-index:10;background:var(--g,#0A6A2F);color:#fff;text-decoration:none;
+  font-size:.82rem;font-weight:600;padding:9px 14px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.fb-hint{position:fixed;top:60px;left:0;right:0;text-align:center;color:#fff;opacity:.85;font-size:.8rem;z-index:9;pointer-events:none;transition:opacity .5s}
+</style>
+</head>
+<body>
+<div class="fb-bar">
+  <a class="back" href="/kit/" aria-label="Quay lại">←</a>
+  <div class="tt">Mường Cốc 2 ngày 1 đêm - Văn hoá sen và lễ Mo Mường</div>
+  <div class="ct" id="ct">1 / 8</div>
+</div>
+<div class="fb-hint" id="hint">Vuốt ngang để lật trang ›</div>
+<div class="fb-track" id="fbt"><div class="fb-slide"><img src="/assets/flipbook/tour-2n-van-hoa-sen/p-1.jpg" alt="Trang 1"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-2.jpg" alt="Trang 2"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-3.jpg" alt="Trang 3"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-4.jpg" alt="Trang 4"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-5.jpg" alt="Trang 5"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-6.jpg" alt="Trang 6"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-7.jpg" alt="Trang 7"></div><div class="fb-slide"><img loading="lazy" src="/assets/flipbook/tour-2n-van-hoa-sen/p-8.jpg" alt="Trang 8"></div></div>
+<div class="fb-nav"><button id="prev" aria-label="Trang trước">‹</button><button id="next" aria-label="Trang sau">›</button></div>
+<a class="fb-more" href="/cung/tour-2n-van-hoa-sen/">Chi tiết tour →</a>
+<script>
+const track=document.getElementById('fbt'),ct=document.getElementById('ct'),
+  prev=document.getElementById('prev'),next=document.getElementById('next'),hint=document.getElementById('hint');
+const total=track.children.length;
+function cur(){return Math.round(track.scrollLeft/track.clientWidth)+1;}
+function upd(){const c=cur();ct.textContent=c+' / '+total;prev.disabled=c<=1;next.disabled=c>=total;}
+track.addEventListener('scroll',()=>{requestAnimationFrame(upd);if(hint)hint.style.opacity=0;},{passive:true});
+prev.onclick=()=>track.scrollBy({left:-track.clientWidth,behavior:'smooth'});
+next.onclick=()=>track.scrollBy({left:track.clientWidth,behavior:'smooth'});
+upd();setTimeout(()=>{if(hint)hint.style.opacity=0;},2600);
+</script>
+</body>
+</html>
