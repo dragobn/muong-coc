@@ -17,13 +17,15 @@ t3, e, load = gw.t3, gw.e, gw.load
 PFX = "../"  # /kit/ -> gốc site
 
 KIT_CSS = """
+*{box-sizing:border-box}
+html,body{overflow-x:hidden;max-width:100%;margin:0}
 .kit-hero{position:relative;min-height:62vh;display:flex;flex-direction:column;justify-content:flex-end;
   padding:40px 22px 30px;color:#fff;background-size:cover;background-position:center}
 .kit-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(8,30,16,.86),rgba(8,30,16,.15) 60%,rgba(8,30,16,.35));z-index:0}
 .kit-hero>*{position:relative;z-index:1}
 .kit-hero .kick{letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;opacity:.92}
-.kit-hero h1{font-family:var(--serif,'Cormorant Garamond',serif);font-size:2.5rem;line-height:1.1;margin:8px 0 6px}
-.kit-hero p{margin:0;max-width:600px;opacity:.95}
+.kit-hero h1{font-family:var(--serif,'Cormorant Garamond',serif);font-size:clamp(1.7rem,7vw,2.6rem);line-height:1.12;margin:8px 0 6px;overflow-wrap:break-word;max-width:100%}
+.kit-hero p{margin:0;max-width:600px;opacity:.95;overflow-wrap:break-word}
 .kit-sec{max-width:1000px;margin:0 auto;padding:30px 20px 6px}
 .kit-sec h2{font-family:var(--serif,serif);color:var(--green-dark);font-size:1.55rem;margin:0 0 4px}
 .kit-sec .lead{color:#4a443d;line-height:1.7;margin:6px 0 0}

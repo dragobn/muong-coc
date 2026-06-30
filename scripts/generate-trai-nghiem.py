@@ -23,12 +23,15 @@ def e(s):
 
 
 EXTRA_CSS = """
+*{box-sizing:border-box}
+html,body{overflow-x:hidden;max-width:100%;margin:0}
 .tn-hero{position:relative;padding:54px 22px 30px;text-align:center;background:linear-gradient(160deg,var(--green-dark),var(--green));color:#fff}
 .tn-hero .kicker{letter-spacing:.14em;text-transform:uppercase;font-size:.74rem;opacity:.9}
-.tn-hero h1{font-family:var(--serif,'Cormorant Garamond',serif);font-size:2.3rem;margin:10px 0 6px;line-height:1.15}
-.tn-hero .tagline{font-style:italic;opacity:.95;margin:0 auto;max-width:560px}
-.tn-meta{max-width:760px;margin:0 auto;padding:18px 22px;display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;border-bottom:1px solid #e6e0d4}
-.tn-meta div{font-size:.92rem;color:var(--ink)}
+.tn-hero h1{font-family:var(--serif,'Cormorant Garamond',serif);font-size:clamp(1.35rem,5.6vw,2.3rem);margin:10px 0 6px;line-height:1.18;overflow-wrap:break-word;max-width:100%}
+.tn-hero .tagline{font-style:italic;opacity:.95;margin:0 auto;max-width:560px;overflow-wrap:break-word}
+.tn-meta{max-width:760px;margin:0 auto;padding:18px 22px;border-bottom:1px solid #e6e0d4;text-align:center}
+.tn-meta div{font-size:.92rem;color:var(--ink);margin:5px 0;overflow-wrap:break-word;word-break:break-word}
+@media(min-width:680px){.tn-meta{display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center}.tn-meta div{margin:0}}
 .tn-meta b{color:var(--green-dark)}
 .tn-sec{max-width:760px;margin:0 auto;padding:26px 22px}
 .tn-sec h2{font-family:var(--serif,serif);color:var(--green-dark);font-size:1.5rem;margin:0 0 12px}
@@ -188,7 +191,7 @@ EXP1 = {
 
 EXP2 = {
     "slug": "vac-gio-nui-farmstay",
-    "title": "Một ngày làm nhà nông — VAC Gió Núi Farmstay",
+    "title": "Một ngày làm nhà nông (VAC)",
     "tagline": "Chạm vào bình yên – Một ngày làm nhà nông thực thụ",
     "og": "/assets/img/poi/gio-nui-farmstay/hero.jpg",
     "hero_img": "/assets/img/poi/gio-nui-farmstay/hero.jpg",
