@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-generate-flipbook.py — Sinh viewer "lật brochure" cho từng tour.
-Output: flipbook/<slug>/index.html — vuốt ngang từng trang brochure (mobile-first).
-Ảnh trang: assets/flipbook/<slug>/p-N.jpg (tạo bởi pdftoppm từ brochure.pdf).
-Tái dùng load()+t3 từ generate-web.py để lấy tên tour đa ngữ.
+generate-flipbook.py — Viewer "lật trang sách" (StPageFlip) cho poster từng tour/trải nghiệm.
+Output: flipbook/<slug>/index.html — lật trang như sách trên điện thoại (kéo/chạm mép).
+Ảnh trang: assets/flipbook/<slug>/p-N.jpg (từ poster PDF designer, thường 2 trang).
 """
 import importlib.util
 import re
@@ -17,47 +16,48 @@ OUT = BASE / "flipbook"
 spec = importlib.util.spec_from_file_location("gweb", SCRIPTS / "generate-web.py")
 gw = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gw)
-t3, e, load = gw.t3, gw.e, gw.load
+e = gw.e
+
+# Tên + link "chi tiết" cho 2 trải nghiệm (không nằm trong data/tours)
+EXP = {
+    "mot-ngay-lam-nguoi-muong": ("Một ngày làm người Mường", "/trai-nghiem/mot-ngay-lam-nguoi-muong/"),
+    "vac-gio-nui-farmstay": ("Một ngày làm nhà nông (VAC)", "/trai-nghiem/vac-gio-nui-farmstay/"),
+}
+
+
+def meta(slug):
+    if slug in EXP:
+        return EXP[slug][0], EXP[slug][1]
+    try:
+        d = gw.load(slug)
+        return d.get("ten", slug), f"/cung/{slug}/"
+    except Exception:
+        return slug, f"/cung/{slug}/"
 
 
 def pages_for(slug):
-    files = list((IMGDIR / slug).glob("p-*.jpg"))
-    return sorted(files, key=lambda p: int(re.search(r"p-(\d+)", p.name).group(1)))
+    fs = list((IMGDIR / slug).glob("p-*.jpg"))
+    return sorted(fs, key=lambda p: int(re.search(r"p-(\d+)", p.name).group(1)))
 
 
 CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100%;background:#10130f;font-family:'Be Vietnam Pro',system-ui,sans-serif;overscroll-behavior:none}
-.fb-bar{position:fixed;top:0;left:0;right:0;height:50px;display:flex;align-items:center;gap:10px;
-  padding:0 12px;background:rgba(16,19,15,.92);color:#fff;z-index:10;backdrop-filter:blur(6px)}
-.fb-bar a.back{color:#fff;text-decoration:none;font-size:1.4rem;line-height:1;padding:4px 6px}
+html,body{height:100%;background:#12140f;font-family:'Be Vietnam Pro',system-ui,sans-serif;overflow:hidden;overscroll-behavior:none}
+.fb-bar{position:fixed;top:0;left:0;right:0;height:50px;display:flex;align-items:center;gap:10px;padding:0 12px;
+  background:rgba(18,20,15,.92);color:#fff;z-index:20;backdrop-filter:blur(6px)}
+.fb-bar a.back{color:#fff;text-decoration:none;font-size:1.5rem;line-height:1;padding:2px 6px}
 .fb-bar .tt{flex:1;min-width:0;font-size:.95rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .fb-bar .ct{font-size:.85rem;opacity:.85;font-variant-numeric:tabular-nums;white-space:nowrap}
-.fb-track{position:fixed;top:50px;bottom:0;left:0;right:0;display:flex;overflow-x:auto;overflow-y:hidden;
-  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.fb-track::-webkit-scrollbar{display:none}
-.fb-slide{min-width:100vw;width:100vw;height:100%;scroll-snap-align:center;flex:0 0 100vw;
-  display:flex;align-items:center;justify-content:center;padding:8px}
-.fb-slide img{max-width:100%;max-height:100%;object-fit:contain;border-radius:6px;box-shadow:0 4px 18px rgba(0,0,0,.4)}
-.fb-nav{position:fixed;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:10px;z-index:10;pointer-events:none}
-.fb-nav button{pointer-events:auto;background:rgba(255,255,255,.92);color:#10130f;border:none;border-radius:999px;
-  width:46px;height:46px;font-size:1.3rem;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.3);cursor:pointer}
-.fb-nav button:disabled{opacity:.35}
-.fb-more{position:fixed;bottom:16px;right:14px;z-index:10;background:var(--g,#0A6A2F);color:#fff;text-decoration:none;
-  font-size:.82rem;font-weight:600;padding:9px 14px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.3)}
-.fb-hint{position:fixed;top:60px;left:0;right:0;text-align:center;color:#fff;opacity:.85;font-size:.8rem;z-index:9;pointer-events:none;transition:opacity .5s}
-"""
-
-JS = """
-const track=document.getElementById('fbt'),ct=document.getElementById('ct'),
-  prev=document.getElementById('prev'),next=document.getElementById('next'),hint=document.getElementById('hint');
-const total=track.children.length;
-function cur(){return Math.round(track.scrollLeft/track.clientWidth)+1;}
-function upd(){const c=cur();ct.textContent=c+' / '+total;prev.disabled=c<=1;next.disabled=c>=total;}
-track.addEventListener('scroll',()=>{requestAnimationFrame(upd);if(hint)hint.style.opacity=0;},{passive:true});
-prev.onclick=()=>track.scrollBy({left:-track.clientWidth,behavior:'smooth'});
-next.onclick=()=>track.scrollBy({left:track.clientWidth,behavior:'smooth'});
-upd();setTimeout(()=>{if(hint)hint.style.opacity=0;},2600);
+.stage{position:fixed;top:50px;bottom:0;left:0;right:0;display:flex;align-items:center;justify-content:center;padding:10px}
+#book{touch-action:pan-y}
+#book img{width:100%;height:100%;display:block}
+.page{background:#fff;box-shadow:0 6px 26px rgba(0,0,0,.5)}
+.hint{position:fixed;bottom:76px;left:0;right:0;text-align:center;color:#fff;opacity:.9;font-size:.82rem;z-index:15;pointer-events:none;transition:opacity .5s}
+.nav{position:fixed;bottom:16px;left:0;right:0;display:flex;justify-content:center;gap:12px;z-index:15}
+.nav button{background:rgba(255,255,255,.94);color:#12140f;border:0;border-radius:999px;width:48px;height:48px;font-size:1.35rem;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.nav button:disabled{opacity:.35}
+.more{position:fixed;bottom:18px;right:14px;z-index:16;background:#0A6A2F;color:#fff;text-decoration:none;font-size:.8rem;font-weight:600;padding:9px 13px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.loading{position:fixed;inset:50px 0 0 0;display:flex;align-items:center;justify-content:center;color:#fff;opacity:.7}
 """
 
 
@@ -65,41 +65,65 @@ def render(slug):
     pgs = pages_for(slug)
     if not pgs:
         return False
-    d = load(slug)
-    name = e(d.get("ten", slug))
-
-    def slide(i, p):
-        lazy = 'loading="lazy" ' if i else ''
-        return f'<div class="fb-slide"><img {lazy}src="/assets/flipbook/{slug}/{p.name}" alt="Trang {i+1}"></div>'
-    slides = "".join(slide(i, p) for i, p in enumerate(pgs))
+    name, detail = meta(slug)
+    imgs = ",".join(f'"/assets/flipbook/{slug}/{p.name}"' for p in pgs)
     html = f"""<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-<title>{e(d.get("ten", slug))} — Brochure | Mường Cốc</title>
-<meta name="description" content="Brochure tour {e(d.get("ten", slug))} — Du lịch cộng đồng Mường Cốc">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=yes">
+<title>{e(name)} — Poster | Mường Cốc</title>
 <meta property="og:image" content="/assets/flipbook/{slug}/{pgs[0].name}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 </head>
 <body>
-<div class="fb-bar">
-  <a class="back" href="/kit/" aria-label="Quay lại">←</a>
-  <div class="tt">{name}</div>
-  <div class="ct" id="ct">1 / {len(pgs)}</div>
-</div>
-<div class="fb-hint" id="hint">Vuốt ngang để lật trang ›</div>
-<div class="fb-track" id="fbt">{slides}</div>
-<div class="fb-nav"><button id="prev" aria-label="Trang trước">‹</button><button id="next" aria-label="Trang sau">›</button></div>
-<a class="fb-more" href="/cung/{slug}/">Chi tiết tour →</a>
-<script>{JS}</script>
+<div class="fb-bar"><a class="back" href="/kit/" aria-label="Quay lại">←</a><div class="tt">{e(name)}</div><div class="ct" id="ct">1 / {len(pgs)}</div></div>
+<div class="stage"><div id="book"></div></div>
+<div class="loading" id="loading">Đang tải…</div>
+<div class="hint" id="hint">Chạm mép trang hoặc kéo để lật ›</div>
+<div class="nav"><button id="prev" aria-label="Trang trước">‹</button><button id="next" aria-label="Trang sau">›</button></div>
+<a class="more" href="{detail}">Chi tiết →</a>
+<script src="https://unpkg.com/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+<script>
+const IMGS=[{imgs}];
+const total=IMGS.length;
+const el=document.getElementById('book'), ct=document.getElementById('ct'),
+  prev=document.getElementById('prev'), next=document.getElementById('next'),
+  hint=document.getElementById('hint'), loading=document.getElementById('loading');
+const RATIO=0.707; // A-series dọc
+function pageDims(){{
+  const stage=document.querySelector('.stage');
+  let w=stage.clientWidth-8, h=w/RATIO;
+  if(h>stage.clientHeight-8){{h=stage.clientHeight-8; w=h*RATIO;}}
+  return {{w:Math.floor(w), h:Math.floor(h)}};
+}}
+let PF=null;
+function start(){{
+  if(typeof St==='undefined'||!St.PageFlip){{ // fallback: xếp ảnh dọc
+    loading.remove();el.style.overflow='auto';el.style.height='100%';
+    el.innerHTML=IMGS.map(s=>'<img src="'+s+'" style="width:100%;margin-bottom:8px">').join('');
+    document.querySelector('.nav').style.display='none';return;
+  }}
+  const d=pageDims();
+  PF=new St.PageFlip(el,{{width:d.w,height:d.h,size:'fixed',usePortrait:true,drawShadow:true,
+    maxShadowOpacity:0.5,showCover:false,mobileScrollSupport:false,flippingTime:700}});
+  PF.loadFromImages(IMGS);
+  loading.remove();
+  function upd(){{const c=PF.getCurrentPageIndex()+1;ct.textContent=c+' / '+total;prev.disabled=c<=1;next.disabled=c>=total;}}
+  PF.on('flip',()=>{{upd();hint.style.opacity=0;}});
+  prev.onclick=()=>PF.flipPrev();next.onclick=()=>PF.flipNext();
+  upd();setTimeout(()=>hint.style.opacity=0,2800);
+  let rt;window.addEventListener('resize',()=>{{clearTimeout(rt);rt=setTimeout(()=>{{const d2=pageDims();PF.update({{width:d2.w,height:d2.h}});}},250);}});
+}}
+if(document.readyState!=='loading') setTimeout(start,60); else window.addEventListener('load',()=>setTimeout(start,60));
+</script>
 </body>
 </html>"""
-    dout = OUT / slug
-    dout.mkdir(parents=True, exist_ok=True)
-    (dout / "index.html").write_text(html, encoding="utf-8")
+    d = OUT / slug
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(html, encoding="utf-8")
     print(f"[OK] flipbook/{slug}/ ({len(pgs)} trang)")
     return True
 
@@ -107,4 +131,4 @@ def render(slug):
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     n = sum(1 for s in sorted(p.name for p in IMGDIR.iterdir() if p.is_dir()) if render(s))
-    print(f"Xong: {n} flipbook.")
+    print(f"Xong: {n} flipbook (page-flip).")

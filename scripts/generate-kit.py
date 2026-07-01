@@ -39,8 +39,18 @@ html,body{overflow-x:hidden;max-width:100%;margin:0;background:var(--cream)}
 .kh .strip b{color:var(--gold)}
 .kintro{max-width:900px;margin:0 auto;padding:20px 20px 4px;text-align:center}
 .kintro p{color:#4a443d;line-height:1.7;margin:0 auto;max-width:620px}
-.kfive{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:12px 0 0}
-.kfive span{background:#eef5ee;color:var(--green-dark);border-radius:999px;padding:5px 12px;font-size:.8rem}
+.k5{margin:18px auto 0;max-width:700px}
+.k5 .h{text-align:center;font-weight:700;color:var(--green-dark);letter-spacing:.03em;margin:0 0 12px;font-size:1rem}
+.k5 .h b{color:var(--amber);font-size:1.15rem}
+.k5grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+@media(min-width:640px){.k5grid{grid-template-columns:repeat(5,1fr)}}
+.k5i{display:flex;align-items:center;gap:9px;background:#fff;border:1px solid #e6e0d4;border-radius:13px;padding:10px 12px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+@media(min-width:640px){.k5i{flex-direction:column;text-align:center;gap:7px}}
+.k5i .no{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff;font-size:.8rem;font-weight:700;display:flex;align-items:center;justify-content:center}
+.k5i .tx{font-size:.84rem;font-weight:600;color:var(--ink);line-height:1.25}
+.pbadge{position:absolute;top:8px;left:8px;z-index:2;background:var(--gold);color:#3a2c05;font-size:.66rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:999px}
+.pcard{position:relative}
+.pcard.featured{border:2px solid var(--gold);box-shadow:0 4px 16px rgba(201,145,47,.28)}
 .ksec{max-width:1000px;margin:0 auto;padding:22px 16px 2px}
 .ksec .lbl{display:flex;align-items:center;gap:10px;justify-content:center;margin:0 0 4px}
 .ksec .lbl h2{font-family:var(--serif,serif);color:var(--green-dark);font-size:1.5rem;margin:0}
@@ -75,11 +85,26 @@ html,body{overflow-x:hidden;max-width:100%;margin:0;background:var(--cream)}
 """
 
 
-def pcard(slug):
-    d = load(slug)
-    return (f'<a class="pcard" href="{PFX}flipbook/{slug}/">'
-            f'<img loading="lazy" src="{PFX}assets/kit-posters/{slug}.jpg" alt="{e(d.get("ten",""))}">'
-            f'<div class="cap">{e(d.get("ten",""))}<span class="flip">Lật xem brochure ›</span></div></a>')
+EXP_NAMES = {"mot-ngay-lam-nguoi-muong": "Một ngày làm người Mường",
+             "vac-gio-nui-farmstay": "Một ngày làm nhà nông (VAC)"}
+
+
+def tour_name(slug):
+    if slug in EXP_NAMES:
+        return EXP_NAMES[slug]
+    try:
+        return load(slug).get("ten", slug)
+    except Exception:
+        return slug
+
+
+def pcard(slug, featured=False):
+    nm = tour_name(slug)
+    cls = "pcard featured" if featured else "pcard"
+    badge = '<span class="pbadge">Trải nghiệm trung tâm</span>' if featured else ''
+    return (f'<a class="{cls}" href="{PFX}flipbook/{slug}/">{badge}'
+            f'<img loading="lazy" src="{PFX}assets/kit-posters/{slug}.jpg" alt="{e(nm)}">'
+            f'<div class="cap">{e(nm)}<span class="flip">Lật xem poster ›</span></div></a>')
 
 
 def render():
@@ -102,29 +127,18 @@ def render():
         ["Không thực phẩm bẩn", "Không hoá chất độc hại", "Không rác nhựa một lần", "Không mất bản sắc", "Không du lịch giả tạo"],
         ["No unsafe food", "No toxic chemicals", "No single-use plastic", "No loss of identity", "No fake tourism"],
         ["Aucun aliment douteux", "Aucun produit toxique", "Aucun plastique jetable", "Aucune perte d'identité", "Aucun tourisme artificiel"]))
-    chips = "".join(f'<span>{t3(v, en, fr)}</span>' for v, en, fr in five)
+    k5 = "".join(f'<div class="k5i"><span class="no">{i+1:02d}</span><span class="tx">{t3(v, en, fr)}</span></div>'
+                 for i, (v, en, fr) in enumerate(five))
     P.append(f'''<section class="kintro">
-  <p>{t3("Mường Cốc (xã Mỹ Đức, Hà Nội) — bản Mường giữa lòng Thủ đô. Chọn ngôn ngữ ở góc trên; chạm mỗi poster để lật xem chương trình đầy đủ.",
-         "Muong Coc (My Duc, Hanoi) — a Muong village near Hanoi. Pick your language above; tap a poster to flip through the full brochure.",
-         "Mường Cốc (Mỹ Đức, Hanoï) — un village Mường près de Hanoï. Touchez un poster pour feuilleter la brochure.")}</p>
-  <div class="kfive">{chips}</div>
+  <p>{t3("Mường Cốc (xã Mỹ Đức, Hà Nội) — bản Mường giữa lòng Thủ đô. Chọn ngôn ngữ ở góc trên; chạm mỗi poster để lật xem.",
+         "Muong Coc (My Duc, Hanoi) — a Muong village near Hanoi. Pick your language above; tap a poster to flip through it.",
+         "Mường Cốc (Mỹ Đức, Hanoï) — un village Mường près de Hanoï. Touchez un poster pour le feuilleter.")}</p>
+  <div class="k5"><div class="h">{t3("Cam kết", "Our pledge", "Notre engagement")} <b>5 KHÔNG</b></div><div class="k5grid">{k5}</div></div>
 </section>''')
 
-    # 2 TRẢI NGHIỆM TRUNG TÂM
-    P.append(f'<section class="ksec"><div class="lbl"><h2>{t3("2 Trải nghiệm trung tâm", "2 Signature experiences", "2 Expériences phares")}</h2></div><div class="rule"></div></section>')
-    core = [
-        ("mot-ngay-lam-nguoi-muong", "assets/img/poi/co-la-muong/hero.jpg",
-         ("Một ngày làm người Mường", "One day as a Muong", "Un jour en Mường"),
-         ("Nhập vai trọn nhịp sống bản Mường", "Full immersion in Muong village life", "Immersion dans la vie Mường")),
-        ("vac-gio-nui-farmstay", "assets/img/poi/gio-nui-farmstay/hero.jpg",
-         ("Một ngày làm nhà nông (VAC)", "One day as a farmer (VAC)", "Un jour fermier (VAC)")
-         , ("Mô hình Vườn–Ao–Chuồng, Gió Núi Farmstay", "Garden–Pond–Barn model", "Modèle Jardin–Étang–Étable")),
-    ]
-    cc = ""
-    for slug, img, (tv, te, tf), (sv, se, sf) in core:
-        cc += (f'<a href="{PFX}trai-nghiem/{slug}/"><img loading="lazy" src="{PFX}{img}" alt="{e(tv)}"><div class="ov"></div>'
-               f'<div class="tx"><span class="badge">{t3("Trung tâm","Signature","Phare")}</span><h3>{t3(tv,te,tf)}</h3><p>{t3(sv,se,sf)}</p></div></a>')
-    P.append(f'<div class="kcore" style="padding:0 16px">{cc}</div>')
+    # 2 TRẢI NGHIỆM TRUNG TÂM (poster thumbnails, featured)
+    P.append(f'<section class="ksec"><div class="lbl"><h2>{t3("2 Trải nghiệm trung tâm", "2 Signature experiences", "2 Expériences phares")}</h2></div><div class="rule"></div>'
+             f'<div class="pgrid" style="max-width:540px;margin:0 auto">{pcard("mot-ngay-lam-nguoi-muong", True)}{pcard("vac-gio-nui-farmstay", True)}</div></section>')
 
     # CÁC CUNG TOUR
     P.append(f'<section class="ksec"><div class="lbl"><h2>🌾 {t3("Các cung Tour","Tour routes","Circuits")}</h2><span class="n">({len(TOUR)})</span></div><div class="rule"></div>'
