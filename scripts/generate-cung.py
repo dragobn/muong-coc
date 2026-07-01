@@ -138,7 +138,7 @@ def parse_gia(gia_str: str) -> str:
             return str(val)
         except ValueError:
             pass
-    return gia_str.split(" ")[0] if gia_str else "Liên hệ"
+    return "Liên hệ"
 
 
 def make_pg_label_cover(data: dict) -> str:
