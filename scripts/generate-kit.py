@@ -51,6 +51,9 @@ html,body{overflow-x:hidden;max-width:100%;margin:0;background:var(--cream)}
 .pbadge{position:absolute;top:8px;left:8px;z-index:2;background:var(--gold);color:#3a2c05;font-size:.66rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:999px}
 .pcard{position:relative}
 .pcard.featured{border:2px solid var(--gold);box-shadow:0 4px 16px rgba(201,145,47,.28)}
+.kmap{max-width:1000px;margin:20px auto 0;padding:0 16px}
+.kmap a{display:flex;align-items:center;justify-content:center;gap:12px;background:linear-gradient(135deg,var(--amber),#9c6a1c);color:#fff;text-decoration:none;padding:17px 20px;border-radius:16px;font-weight:700;font-size:1.06rem;box-shadow:0 5px 16px rgba(201,145,47,.4)}
+.kmap a .ic{font-size:1.6rem}
 .ksec{max-width:1000px;margin:0 auto;padding:22px 16px 2px}
 .ksec .lbl{display:flex;align-items:center;gap:10px;justify-content:center;margin:0 0 4px}
 .ksec .lbl h2{font-family:var(--serif,serif);color:var(--green-dark);font-size:1.5rem;margin:0}
@@ -135,6 +138,7 @@ def render():
          "Mường Cốc (Mỹ Đức, Hanoï) — un village Mường près de Hanoï. Touchez un poster pour le feuilleter.")}</p>
   <div class="k5"><div class="h">{t3("Cam kết", "Our pledge", "Notre engagement")} <b>5 KHÔNG</b></div><div class="k5grid">{k5}</div></div>
 </section>''')
+    P.append(f'<div class="kmap"><a href="{PFX}ban-do/"><span class="ic">🗺️</span>{t3("Xem bản đồ du lịch Mường Cốc", "Muong Coc tourism map", "Carte touristique de Mường Cốc")}</a></div>')
 
     # 2 TRẢI NGHIỆM TRUNG TÂM (poster thumbnails, featured)
     P.append(f'<section class="ksec"><div class="lbl"><h2>{t3("2 Trải nghiệm trung tâm", "2 Signature experiences", "2 Expériences phares")}</h2></div><div class="rule"></div>'
