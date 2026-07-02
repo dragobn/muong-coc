@@ -25,6 +25,12 @@ html,body{height:100%;background:#12140f;font-family:'Be Vietnam Pro',system-ui,
 .nav button:disabled{opacity:.35}
 .more{position:fixed;bottom:18px;right:14px;z-index:16;background:#0A6A2F;color:#fff;text-decoration:none;font-size:.8rem;font-weight:600;padding:9px 13px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35)}
 .loading{position:fixed;inset:50px 0 0 0;display:flex;align-items:center;justify-content:center;color:#fff;opacity:.7}
+.nav button.zoom{width:auto;padding:0 16px;font-size:.9rem;font-weight:700}
+.zoomov{position:fixed;inset:0;z-index:50;background:#0b0d09;display:none;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pinch-zoom}
+.zoomov.on{display:block}
+.zoomov img{display:block;width:100%;height:auto}
+.zoomov .zx{position:fixed;top:10px;right:12px;z-index:52;background:rgba(255,255,255,.95);color:#12140f;border:0;border-radius:999px;width:44px;height:44px;font-size:1.5rem;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.4)}
+.zoomtip{position:fixed;top:16px;left:12px;z-index:52;color:#fff;font-size:.8rem;opacity:.85;background:rgba(0,0,0,.4);padding:5px 10px;border-radius:999px}
 </style>
 </head>
 <body>
@@ -32,8 +38,9 @@ html,body{height:100%;background:#12140f;font-family:'Be Vietnam Pro',system-ui,
 <div class="stage"><div id="book"></div></div>
 <div class="loading" id="loading">Đang tải…</div>
 <div class="hint" id="hint">Vuốt nhẹ hoặc chạm nút để lật trang ›</div>
-<div class="nav"><button id="prev" aria-label="Trang trước">‹</button><button id="next" aria-label="Trang sau">›</button></div>
+<div class="nav"><button id="prev" aria-label="Trang trước">‹</button><button id="zoom" class="zoom" aria-label="Phóng to đọc">🔍 Phóng to</button><button id="next" aria-label="Trang sau">›</button></div>
 <a class="more" href="/cung/huong-dong-bo-moi/">Chi tiết →</a>
+<div class="zoomov" id="zoomov"><div class="zoomtip">Chụm 2 ngón để phóng to · vuốt để xem · bấm ✕ để đóng</div><button class="zx" id="zx" aria-label="Đóng">×</button><img id="zimg" alt="Trang phóng to"></div>
 <script src="https://unpkg.com/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
 <script>
 const IMGS=["/assets/flipbook/huong-dong-bo-moi/p-1.jpg","/assets/flipbook/huong-dong-bo-moi/p-2.jpg","/assets/flipbook/huong-dong-bo-moi/p-3.jpg","/assets/flipbook/huong-dong-bo-moi/p-4.jpg","/assets/flipbook/huong-dong-bo-moi/p-5.jpg","/assets/flipbook/huong-dong-bo-moi/p-6.jpg","/assets/flipbook/huong-dong-bo-moi/p-7.jpg","/assets/flipbook/huong-dong-bo-moi/p-8.jpg"];
@@ -41,6 +48,10 @@ const total=IMGS.length;
 const el=document.getElementById('book'), ct=document.getElementById('ct'),
   prev=document.getElementById('prev'), next=document.getElementById('next'),
   hint=document.getElementById('hint'), loading=document.getElementById('loading');
+const zoomov=document.getElementById('zoomov'), zimg=document.getElementById('zimg'),
+  zx=document.getElementById('zx'), zoomBtn=document.getElementById('zoom');
+zoomBtn.onclick=()=>{const i=PF?PF.getCurrentPageIndex():0; zimg.src=IMGS[i]||IMGS[0]; zoomov.classList.add('on');};
+zx.onclick=()=>zoomov.classList.remove('on');
 const RATIO=0.707; // A-series dọc
 function pageDims(){
   const stage=document.querySelector('.stage');
