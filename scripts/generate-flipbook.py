@@ -82,7 +82,7 @@ def render(slug):
 <div class="fb-bar"><a class="back" href="/kit/" aria-label="Quay lại">←</a><div class="tt">{e(name)}</div><div class="ct" id="ct">1 / {len(pgs)}</div></div>
 <div class="stage"><div id="book"></div></div>
 <div class="loading" id="loading">Đang tải…</div>
-<div class="hint" id="hint">Chạm mép trang hoặc kéo để lật ›</div>
+<div class="hint" id="hint">Vuốt nhẹ hoặc chạm nút để lật trang ›</div>
 <div class="nav"><button id="prev" aria-label="Trang trước">‹</button><button id="next" aria-label="Trang sau">›</button></div>
 <a class="more" href="{detail}">Chi tiết →</a>
 <script src="https://unpkg.com/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
@@ -108,7 +108,8 @@ function start(){{
   }}
   const d=pageDims();
   PF=new St.PageFlip(el,{{width:d.w,height:d.h,size:'fixed',usePortrait:true,drawShadow:true,
-    maxShadowOpacity:0.5,showCover:false,mobileScrollSupport:false,flippingTime:700}});
+    maxShadowOpacity:0.5,showCover:false,mobileScrollSupport:false,flippingTime:600,
+    swipeDistance:8,showPageCorners:true,useMouseEvents:true}});
   PF.loadFromImages(IMGS);
   loading.remove();
   function upd(){{const c=PF.getCurrentPageIndex()+1;ct.textContent=c+' / '+total;prev.disabled=c<=1;next.disabled=c>=total;}}
