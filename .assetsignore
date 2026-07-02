@@ -12,3 +12,4 @@ wrangler.jsonc
 requirements.txt
 *.PRE-SYNC-BAK
 *.PRE-SELFCONTAIN-BAK
+bo-in-demo

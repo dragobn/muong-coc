@@ -10,5 +10,3 @@ python3 scripts/generate-trai-nghiem.py
 python3 scripts/generate-flipbook.py
 python3 scripts/generate-kit.py
 echo "[build.sh] Hoàn tất."
-
-# rebuild trigger 2026-07-01T10:49:55.582795
