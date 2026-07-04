@@ -23,7 +23,7 @@ html,body{height:100%;background:#12140f;font-family:'Be Vietnam Pro',system-ui,
 .nav{position:fixed;bottom:16px;left:0;right:0;display:flex;justify-content:center;gap:12px;z-index:15}
 .nav button{background:rgba(255,255,255,.94);color:#12140f;border:0;border-radius:999px;width:48px;height:48px;font-size:1.35rem;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.35)}
 .nav button:disabled{opacity:.35}
-.more{position:fixed;bottom:18px;right:14px;z-index:16;background:#0A6A2F;color:#fff;text-decoration:none;font-size:.8rem;font-weight:600;padding:9px 13px;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.fb-bar .more{flex:none;background:#0A6A2F;color:#fff;text-decoration:none;font-size:.8rem;font-weight:600;padding:7px 11px;border-radius:999px;white-space:nowrap}
 .loading{position:fixed;inset:50px 0 0 0;display:flex;align-items:center;justify-content:center;color:#fff;opacity:.7}
 .nav button.zoom{width:auto;padding:0 16px;font-size:.9rem;font-weight:700}
 .zoomov{position:fixed;inset:0;z-index:50;background:#0b0d09;display:none;overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pinch-zoom}
@@ -34,12 +34,11 @@ html,body{height:100%;background:#12140f;font-family:'Be Vietnam Pro',system-ui,
 </style>
 </head>
 <body>
-<div class="fb-bar"><a class="back" href="/kit/" aria-label="Quay lại">←</a><div class="tt">Dấu Xưa Mường Cốc</div><div class="ct" id="ct">1 / 9</div></div>
+<div class="fb-bar"><a class="back" href="/kit/" aria-label="Quay lại">←</a><div class="tt">Dấu Xưa Mường Cốc</div><div class="ct" id="ct">1 / 9</div><a class="more" href="/cung/dau-xua-muong-coc/">Chi tiết →</a></div>
 <div class="stage"><div id="book"></div></div>
 <div class="loading" id="loading">Đang tải…</div>
 <div class="hint" id="hint">Vuốt nhẹ hoặc chạm nút để lật trang ›</div>
 <div class="nav"><button id="prev" aria-label="Trang trước">‹</button><button id="zoom" class="zoom" aria-label="Phóng to đọc">🔍 Phóng to</button><button id="next" aria-label="Trang sau">›</button></div>
-<a class="more" href="/cung/dau-xua-muong-coc/">Chi tiết →</a>
 <div class="zoomov" id="zoomov"><div class="zoomtip">Chụm 2 ngón để phóng to · vuốt để xem · bấm ✕ để đóng</div><button class="zx" id="zx" aria-label="Đóng">×</button><img id="zimg" alt="Trang phóng to"></div>
 <script src="https://unpkg.com/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
 <script>
